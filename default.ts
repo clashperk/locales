@@ -2,9 +2,13 @@ export const common = {
     no_clans_found: 'No clans were found in our Database for the argument you specified.',
     no_clans_linked: 'No clans are linked to this server. Why not link some?',
     clan_limit:
-        'You can only add 2 clans on your server. To add more clans, please support us on our [Patreon](https://patreon.com/clashperk)',
-    clan_verification:
+        'The maximum number of clans has reached.  Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.',
+    clan_verification: [
         'We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.',
+        'Use the `/verify` command to verify your player account. The API token is available in the Game settings.',
+        '',
+        'Alternatively, you can add a temporary code `cpbot` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.'
+    ].join('\n'),
     no_option: 'Something went wrong while executing this command. (option not found)',
     no_data: 'No data is available at this moment. We are still collecting!',
     component: {
@@ -12,7 +16,18 @@ export const common = {
         unauthorized: 'You must execute the command to interact with components.'
     },
     no_clan_tag: 'You must provide a clan tag to execute this command!',
-    no_player_tag: 'You must provide a player tag to execute this command!'
+    no_player_tag: 'You must provide a player tag to execute this command!',
+    clan_not_linked: 'No clan is linked to {{user}}.',
+    player_not_linked: 'No player is linked to {{user}}.',
+    status_code: {
+        504: '504 Request Timeout',
+        400: 'Client provided incorrect parameters for the request.',
+        403: 'API token does not grant access to the requested resource.',
+        404: 'No matches were found for the specified tag.',
+        500: 'Unknown error happened when handling the request.',
+        503: 'Service is temporarily unavailable because of maintenance.',
+        429: 'Request was throttled, because amount of requests was above the threshold defined for the used API token.'
+    }
 } as const;
 
 export const command = {
@@ -57,7 +72,7 @@ export const command = {
         description: 'CWL season summary and overview.',
         still_searching: 'Your clan {{clan}} is still searching for the opponent.',
         not_in_season: 'Your clan {{clan}} is not in the CWL season.',
-        no_rounds: 'No rounds have been played yet.', // TODO
+        no_rounds: 'No CWL rounds have been played yet, try again after some time.',
         attacks: {
             description: ''
         },
@@ -167,7 +182,7 @@ export const command = {
             too_many_clans: [
                 'Clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!',
                 "To create a reminder for specific clans, pass clan tags or aliases through 'clans' option while executing the command."
-            ].join('\n'),
+            ].join('\n') as '{{clans}}',
             success: 'Successfully saved!'
         },
         delete: {
