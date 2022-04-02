@@ -7,7 +7,7 @@ export const common = {
         'We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.',
         'Use the `/verify` command to verify your player account. The API token is available in the Game settings.',
         '',
-        'Alternatively, you can add a temporary code `cpbot` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.'
+        'Alternatively, you can add a temporary code `{{code}}` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.'
     ].join('\n'),
     no_option: 'Something went wrong while executing this command. (option not found)',
     no_data: 'No data is available at this moment. We are still collecting!',
