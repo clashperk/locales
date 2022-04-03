@@ -45,7 +45,8 @@ export const command = {
         create: {
             description: 'Creates a clan alias.',
             no_name: 'You must specify an alias name to execute this command.',
-            no_hash: 'Clan alias must not start with a hash.',
+            no_hash: 'A clan alias must not start with a hash.',
+            no_whitespace: 'A clan alias must not contain whitespace.',
             no_clan: 'You must specify a clan tag to execute this command.',
             exists: 'An alias with the name {{name}} already exists.',
             clan_not_linked: 'The clan must be linked to the server to create an alias.',
