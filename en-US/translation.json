@@ -7,6 +7,7 @@
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the `/verify` command to verify your player account. The API token is available in the Game settings.\n\nAlternatively, you can add a temporary code `{{code}}` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.",
     "no_option": "Something went wrong while executing this command. (option not found)",
     "no_data": "No data is available at this moment. We are still collecting!",
+    "no_clan_data": "No data is available for {{clan}}. We are still collecting!",
     "component": {
       "expired": "This component has expired, run the command again.",
       "unauthorized": "You must execute the command to interact with components."
@@ -15,6 +16,7 @@
     "no_player_tag": "You must provide a player tag to execute this command!",
     "clan_not_linked": "No clan is linked to {{user}}.",
     "player_not_linked": "No player is linked to {{user}}.",
+    "guild_unauthorized": "This server is not authorized for {{clan}}. Use `/setup` command to link the clan.",
     "status_code": {
       "400": "Client provided incorrect parameters for the request.",
       "403": "API token does not grant access to the requested resource.",

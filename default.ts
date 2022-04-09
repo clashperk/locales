@@ -11,6 +11,7 @@ export const common = {
     ].join('\n'),
     no_option: 'Something went wrong while executing this command. (option not found)',
     no_data: 'No data is available at this moment. We are still collecting!',
+    no_clan_data: 'No data is available for {{clan}}. We are still collecting!',
     component: {
         expired: 'This component has expired, run the command again.',
         unauthorized: 'You must execute the command to interact with components.'
@@ -19,6 +20,7 @@ export const common = {
     no_player_tag: 'You must provide a player tag to execute this command!',
     clan_not_linked: 'No clan is linked to {{user}}.',
     player_not_linked: 'No player is linked to {{user}}.',
+    guild_unauthorized: 'This server is not authorized for {{clan}}. Use `/setup` command to link the clan.',
     status_code: {
         504: '504 Request Timeout',
         400: 'Client provided incorrect parameters for the request.',
