@@ -71,6 +71,7 @@
       "still_searching": "Your clan {{clan}} is still searching for the opponent.",
       "not_in_season": "Your clan {{clan}} is not in the CWL season.",
       "no_rounds": "No CWL rounds have been played yet, try again after some time.",
+      "no_season_data": "No CWL stats are available for the season {{season}}.",
       "attacks": {
         "description": ""
       },
