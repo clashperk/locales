@@ -330,7 +330,7 @@ export const command = {
         description: 'Get the bot invite and support server link.'
     },
     redeem: {
-        description: 'Redeem or manager a Patreon subscription. (if you wish to support us)'
+        description: 'Redeem or manage a Patreon subscription. (if you wish to support us)'
     }
 } as const;
 
