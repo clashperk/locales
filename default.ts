@@ -296,7 +296,8 @@ export const command = {
             no_system_roles: 'System managed or bot roles are not allowed.',
             no_higher_roles: 'My highest role must be higher than these roles.',
             invalid_clan_tag: 'Specified clan tag is invalid.',
-            roles_already_used: 'This roles have already been used for another clan.',
+            roles_already_used:
+                'Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use same roles for multiple clans.',
             clan_not_linked: 'The clan must be linked to the server to enable auto-role.',
             success_clan: 'Successfully enabled auto-role for the clan {{clan}}.',
             success: 'Successfully enabled auto-role for {{count}} clans.'
