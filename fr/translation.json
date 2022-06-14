@@ -215,7 +215,7 @@
             "description": "Liste des joueurs de la guerre"
         },
         "members": {
-            "description": "Obtenez la liste des membres du clan avec les héros, les trophées, les préférences de guerre et bien plus encore."
+            "description": "Obtenez la liste des membres du clan avec les héros, les trophées, les préférences de guerre"
         },
         "player": {
             "description": "Résumé et aperçu du joueur."
@@ -281,9 +281,9 @@
             }
         },
         "autorole": {
-            "description": "Activez/désactivez la fonction de rôle automatique qui attribue des rôles aux membres en fonction de leur rôle dans le clan.",
+            "description": "Activez/désactivez la fonction de rôle automatique en fonction de leur rôle dans le clan.",
             "enable": {
-                "description": "Activez la fonction de rôle automatique qui attribue des rôles aux membres en fonction de leur rôle dans le clan.",
+                "description": "Activez la fonction de rôle automatique en fonction de leur rôle dans le clan.",
                 "no_roles": "Vous devez spécifier les 3 rôles pour exécuter cette commande.",
                 "no_system_roles": "Les rôles gérés par le système ou les robots ne sont pas autorisés.",
                 "no_higher_roles": "Mon rôle le plus élevé doit être plus élevé que ces rôles.",
@@ -294,7 +294,7 @@
                 "success": "L'auto-rôle a été activé avec succès pour {{count}} clans."
             },
             "disable": {
-                "description": "Désactiver la fonction de rôle automatique qui attribue des rôles aux membres en fonction de leur rôle dans le clan."
+                "description": "Désactiver la fonction de rôle automatique en fonction de leur rôle dans le clan."
             }
         },
         "summary": {
