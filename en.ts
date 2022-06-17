@@ -78,7 +78,7 @@ export const command = {
         no_rounds: 'No CWL rounds have been played yet, try again after some time.',
         no_season_data: 'No CWL stats are available for the season {{season}}.',
         attacks: {
-            description: ''
+            description: 'CWL attacks overview.'
         },
         lineup: {
             description: ''

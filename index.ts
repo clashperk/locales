@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 
 import { fileURLToPath } from 'url';
-import locale from './default';
+import locale from './en';
 import fs from 'fs';
 
 (() => {
