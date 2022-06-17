@@ -1,4 +1,4 @@
-pull_request_title: '🎉 chore(strings): new crowdin translation'
+pull_request_title: 'chore(locale): new crowdin translation'
 files:
   - source: /en-US/*
     translation: /%locale%/%original_file_name%
