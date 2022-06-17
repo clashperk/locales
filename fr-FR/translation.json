@@ -73,7 +73,7 @@
       "no_rounds": "Aucun jour de ligue n'a encore été joué, réessayez après un certain temps.",
       "no_season_data": "Aucune statistique de la CWL n'est disponible pour la {{season}}.",
       "attacks": {
-        "description": ""
+        "description": "CWL attacks overview."
       },
       "lineup": {
         "description": ""
