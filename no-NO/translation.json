@@ -1,9 +1,9 @@
 {
   "nl": "\n",
   "common": {
-    "no_clans_found": "No clans were found in our Database for the argument you specified.",
-    "no_clans_linked": "No clans are linked to this server. Why not link some?",
-    "clan_limit": "The maximum number of clans has reached.  Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.",
+    "no_clans_found": "Ingen klaner ble funnet i vår database for argumentet du spesifiserte.",
+    "no_clans_linked": "Ingen klaner er knyttet til denne serveren. Hvorfor ikke linke noen?",
+    "clan_limit": "Det maksimale antallet klaner er nådd. Vurder å støtte oss på [Patreon](https://patreon.com/clashperk) for å legge til mer enn to klaner.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the `/verify` command to verify your player account. The API token is available in the Game settings.\n\nAlternatively, you can add a temporary code `{{code}}` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.",
     "no_option": "Something went wrong while executing this command. (option not found)",
     "no_data": "No data is available at this moment. We are still collecting!",
