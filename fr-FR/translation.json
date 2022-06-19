@@ -1,13 +1,13 @@
 {
   "common": {
-    "no_clans_found": "Aucun clans n'a été trouvé dans notre base de données pour l'argument que vous avez spécifié.",
+    "no_clans_found": "Aucun clan n'a été trouvé dans notre base de données pour l'élément spécifié.",
     "no_clans_linked": "Aucun clan n'est lié à ce serveur. Pourquoi ne pas l'ajouter ?",
     "clan_limit": "Le nombre maximum de clans a été atteint.  Veuillez envisager de nous soutenir sur notre [Patreon](https://patreon.com/clashperk) pour ajouter plus de deux clans.",
     "clan_verification": "Nous devons nous assurer que vous êtes un leader ou un co-leader de ce clan. Veuillez vérifier votre compte avec le jeton API.\nUtilisez la commande `/verify` pour vérifier votre compte. Le jeton API est disponible dans les paramètres du jeu.\n\nVous pouvez également ajouter un code temporaire `{{code}}` dans la description de votre clan. Ensuite, attendez 1 à 2 min et exécutez à nouveau cette commande. Une fois qu'il est vérifié, vous pouvez retirer le code en toute sécurité.",
     "no_option": "Quelque chose s'est mal passé lors de l'exécution de cette commande. (option non trouvée)",
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
     "no_clan_data": "Aucune donnée n'est disponible pour ce {{clan}}. Nous sommes toujours en train de collecter !",
-    "no_clan_members": "‎{{clan}} does not have any clan members.",
+    "no_clan_members": "‎{{clan}} n'a aucun membre.",
     "component": {
       "expired": "Ce composant a expiré, exécutez à nouveau la commande.",
       "unauthorized": "Vous devez exécuter la commande pour interagir avec les composants."
@@ -593,7 +593,7 @@
             "description": "Tag of the clan."
           },
           "channel": {
-            "description": "Channel to be removed"
+            "description": "Canal à supprimer."
           }
         },
         "channel_unlink": "Lien effacé {{clan}} à {{channel}}.",
@@ -605,7 +605,7 @@
         "feature_disabled": "Désactivé avec succès {{feature}} pour {{clan}}."
       },
       "list": {
-        "description": "Liste de toutes les fonctions et clans activés."
+        "description": "Liste toutes les fonctions et clans activés."
       }
     },
     "autorole": {
@@ -631,8 +631,8 @@
         },
         "no_roles": "Vous devez spécifier les 3 rôles pour exécuter cette commande.",
         "no_system_roles": "Les rôles gérés par le système ou les robots ne sont pas autorisés.",
-        "no_higher_roles": "Mon rôle le plus élevé doit être plus élevé que ces rôles.",
-        "invalid_clan_tag": "L'identifiant du de clan spécifiée n'est pas valide.",
+        "no_higher_roles": "Mon rôle doit être plus élevé que ces rôles.",
+        "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
         "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nVeuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) d'utiliser les mêmes rôles pour plusieurs clans.",
         "clan_not_linked": "Le clan doit être lié au serveur pour activer le rôle automatique.",
         "success_clan": "L'auto-rôle a été activé avec succès pour le clan {{clan}}.",
