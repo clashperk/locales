@@ -327,7 +327,7 @@
             "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Optional clan tags or aliases to choose specific clans"
+            "description": "Optional clan tags or aliases to choose specific clans."
           }
         },
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
