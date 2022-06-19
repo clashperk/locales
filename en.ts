@@ -29,18 +29,38 @@ export const common = {
         500: 'Unknown error happened when handling the request.',
         503: 'Service is temporarily unavailable because of maintenance.',
         429: 'Request was throttled, because amount of requests was above the threshold defined for the used API token.'
-    }
+    },
+    clan_tag_argument: 'Clan tag / alias or @user mention.',
+    player_tag_argument: 'Player tag or @user mention.'
 } as const;
 
 export const command = {
     activity: {
-        description: 'Shows a graph of hourly-active clan members.'
+        description: 'Shows a graph of hourly-active clan members.',
+        options: {
+            clans: {
+                description: 'Clan tags or aliases (Maximum 3)'
+            },
+            days: {
+                description: 'Number of days to show in the graph.'
+            }
+        }
     },
     clan_games: {
-        description: 'Clan games scoreboard of clan members.'
+        description: 'Clan games scoreboard of clan members.',
+        options: {
+            tag: {
+                description: '$t(common.clan_tag_argument)'
+            }
+        }
     },
     lastseen: {
-        description: 'Last seen time and activities of clan members.'
+        description: 'Last seen time and activities of clan members.',
+        options: {
+            tag: {
+                description: '$t(common.clan_tag_argument)'
+            }
+        }
     },
     alias: {
         description: 'Create, delete or view clan aliases.',
@@ -205,16 +225,31 @@ export const command = {
         description: 'Parse an army composition link.'
     },
     attacks: {
-        description: 'Attack and defense scoreboard of clan members.'
+        description: 'Attack and defense scoreboard of clan members.',
+        options: {
+            tag: {
+                description: '$t(common.clan_tag_argument)'
+            }
+        }
     },
     boosts: {
         description: 'Clan members with active super troops.'
     },
     clan: {
-        description: 'Shows clan summary and overview.'
+        description: 'Shows clan summary and overview.',
+        options: {
+            tag: {
+                description: '$t(common.clan_tag_argument)'
+            }
+        }
     },
     compo: {
-        description: 'Shows Town Hall composition of a clan.'
+        description: 'Shows Town Hall composition of a clan.',
+        options: {
+            tag: {
+                description: '$t(common.clan_tag_argument)'
+            }
+        }
     },
     donations: {
         description: 'Donations and received donations of clan members.'
@@ -223,7 +258,15 @@ export const command = {
         description: 'War lineup of a clan.'
     },
     members: {
-        description: 'Get clan member list with heroes, trophies, war preference and much more.'
+        description: 'Get clan member list with heroes, trophies, war preference and much more.',
+        options: {
+            tag: {
+                description: '$t(common.clan_tag_argument)'
+            },
+            option: {
+                description: 'Select an option.'
+            }
+        }
     },
     player: {
         description: 'Player summary and overview.'
@@ -247,7 +290,12 @@ export const command = {
         }
     },
     units: {
-        description: 'Shows units of a player with max/min levels.'
+        description: 'Shows units of a player with max/min levels.',
+        options: {
+            tag: {
+                description: '$t(common.player_tag_argument)'
+            }
+        }
     },
     upgrades: {
         description: 'Remaining upgrades of a player with upgrading cost.'
