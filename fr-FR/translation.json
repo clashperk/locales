@@ -20,7 +20,7 @@
     "status_code": {
       "400": "Le client a fourni des paramètres incorrects pour la demande.",
       "403": "Le jeton de l'API ne donne pas accès à la ressource demandée.",
-      "404": "Aucune correspondance n'a été trouvée pour l'identifiant spécifiée.",
+      "404": "Aucun résultat n'a été trouvé pour le tag spécifié.",
       "429": "La demande a été étranglée, car le nombre de demandes était supérieur au seuil défini pour le jeton d'API utilisé.",
       "500": "Une erreur inconnue s'est produite lors du traitement de la demande.",
       "503": "Le service est temporairement indisponible pour cause de maintenance.",
@@ -84,9 +84,9 @@
             "description": "Tag d'un clan ou nom d'un alias"
           }
         },
-        "no_name": "Vous devez fournir un identifiant de clan ou un alias de clan pour exécuter cette commande.",
-        "no_result": "Aucun résultat trouvé avec l'identifiant ou l'alias {{name}}.",
-        "success": "Suppression réussie de l'alias du clan {{name}}."
+        "no_name": "Vous devez fournir un tag de clan ou un alias de clan pour exécuter cette commande.",
+        "no_result": "Aucun résultat n'a été trouvé avec le tag ou l'alias {{name}}.",
+        "success": "Alias de clan {{name}} supprimé avec succès."
       },
       "list": {
         "description": "Lister tous les alias du clan."
@@ -108,7 +108,7 @@
       "description": "Affiche quelques informations de débogage de base."
     },
     "cwl": {
-      "description": "Résumé et aperçu de la saison de la ligue.",
+      "description": "Résumé et aperçu de la saison de Ligue.",
       "options": {
         "option": {
           "description": "Sélectionnez une option."
@@ -117,12 +117,12 @@
           "description": "Tag de clan ou alias ou mention @utilisateur."
         }
       },
-      "still_searching": "Votre clan {{clan}} est toujours à la recherche d'adversaire.",
-      "not_in_season": "Votre clan {{clan}} n'est pas dans ligue des clans cette saison",
-      "no_rounds": "Aucun jour de ligue n'a encore été joué, réessayez après un certain temps.",
-      "no_season_data": "Aucune statistique de la CWL n'est disponible pour la {{season}}.",
+      "still_searching": "Votre clan {{clan}} est toujours à la recherche d'un adversaire.",
+      "not_in_season": "Votre clan {{clan}} ne participe pas à la saison de Ligues.",
+      "no_rounds": "Aucun round de Ligue n'a encore été joué. Veuillez réessayer plus tard.",
+      "no_season_data": "Aucune statistique de Ligue n'est disponible pour la saison {{season}}.",
       "attacks": {
-        "description": "Aperçu des attaques de LDC."
+        "description": "Aperçu des attaques de Ligue."
       },
       "lineup": {
         "description": ""
@@ -131,7 +131,7 @@
         "description": ""
       },
       "roster": {
-        "description": "Équipe de ligue et composition d'hôtel de villes",
+        "description": "Équipes de la Ligue et répartition des hôtels de ville.",
         "options": {
           "tag": {
             "description": "Tag de clan ou alias ou mention @utilisateur."
@@ -139,7 +139,7 @@
         }
       },
       "round": {
-        "description": "Résumé du jour en cours.",
+        "description": "Résumé de la Ligue pour le round en cours.",
         "options": {
           "tag": {
             "description": "Tag de clan ou alias ou mention @utilisateur."
@@ -157,7 +157,7 @@
       }
     },
     "export": {
-      "description": "Exportation des statistiques de guerres/saisons/clan vers Excel.",
+      "description": "Exporter les statistiques de guerre/saison/clan vers Excel.",
       "options": {
         "option": {
           "description": "Sélectionnez une option."
@@ -166,7 +166,7 @@
           "description": "La saison à exporter."
         },
         "clans": {
-          "description": "Tags de clans ou alias pour filtrer les clans."
+          "description": "Tags de clan ou alias pour filtrer les clans."
         },
         "wars": {
           "description": "Nombre de guerres (par défaut : 25)"
@@ -192,7 +192,7 @@
       }
     },
     "flag": {
-      "description": "Créer, supprimer ou rechercher des rapports de joueurs.",
+      "description": "Créer, supprimer ou rechercher des signalements de joueurs.",
       "create": {
         "description": "Créez un rapport de joueur.",
         "options": {
@@ -216,12 +216,12 @@
         "description": "Lister tous les rapports des joueurs.",
         "options": {
           "export": {
-            "description": "Exporte tous les signalements de joueurs vers Excel."
+            "description": "Exporter tous les signalements de joueurs vers Excel."
           }
         }
       },
       "search": {
-        "description": "Recherchez un rapport sur un joueur.",
+        "description": "Rechercher un signalement de joueur.",
         "options": {
           "tag": {
             "description": "Tag du joueur à rechercher."
@@ -230,8 +230,8 @@
       }
     },
     "link": {
-      "description": "Créez, supprimez ou listez les comptes liés",
-      "no_tag": "Vous devez spécifier un identifiant de joueur/clan pour exécuter cette commande.",
+      "description": "Créer, supprimer ou lister les joueurs reliés.",
+      "no_tag": "Vous devez spécifier un tag de joueur/clan pour exécuter cette commande.",
       "create": {
         "description": "Crée un lien joueur/clan avec un compte utilisateur.",
         "options": {
@@ -245,12 +245,12 @@
             "description": "S'il s'agit du tag par défaut."
           }
         },
-        "no_bots": "Les utilisateur robots ne peuvent pas être liés.",
-        "fail": "L'identifiant de joueur/clan que vous avez spécifié n'est pas valide.",
+        "no_bots": "Les comptes robots ne peuvent pas être reliés.",
+        "fail": "Le tag de joueur/clan spécifié n'est pas valide.",
         "prompt": "Que voulez-vous lier ? Un joueur ou un clan ?",
         "success": "Lié avec succès {{target}} à {{user}}.",
-        "link_exists": "{{player}} est déjà lié.",
-        "already_linked": "{{player}} est déjà lié à un autre utilisateur. Si vous possédez ce compte, veuillez utiliser la commande `/verify`.",
+        "link_exists": "{{player}} est déjà relié.",
+        "already_linked": "{{player}} est déjà relié à un autre utilisateur. Si vous possédez ce compte, veuillez utiliser la commande `/verify`.",
         "max_limit": "La limite maximale de comptes a été atteinte. (25 comptes/utilisateur)"
       },
       "delete": {
@@ -260,9 +260,9 @@
             "description": "Tag de joueur ou clan."
           }
         },
-        "no_result": "Aucun résultat trouvé avec l'identifiant {{tag}}.",
-        "success": "Le lien a été supprimé avec succès avec l'identifiant {{tag}}.",
-        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un __Verified__ Co/Leader pour effectuer cette action."
+        "no_result": "Aucun résultat n'a été trouvé avec le tag {{tag}}.",
+        "success": "Lien avec le tag {{tag}} supprimé avec succès.",
+        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un adjoint \"vérifié\" pour effectuer cette action."
       },
       "list": {
         "description": "Lister tous les liens des joueurs.",
@@ -284,10 +284,10 @@
         }
       },
       "success": "Vérification réussie ! {{info}}",
-      "invalid_token": "Vous devez fournir un Token API valide qui se trouve dans les paramètres du jeu. \nhttps://i.imgur.com/8dsoUB8.jpg"
+      "invalid_token": "Vous devez fournir un jeton API valide qui se trouve dans les paramètres du jeu. \nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Définissez votre fuseau horaire.",
+      "description": "Définir votre fuseau horaire.",
       "options": {
         "location": {
           "description": "Recherche par pays ou ville (votre localisation n'est pas stockée, juste le décalage, ex. GMT+5:00)"
@@ -318,13 +318,13 @@
         "description": "Créez un rappel de guerre pour mentionner les membres.",
         "options": {
           "duration": {
-            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g. 15m, 30m, 1h, 1.25h, 1.5h)"
+            "description": "Durée restante pour mentionner les participants à la guerre (multiple de 15 min, ex. 15m, 30m, 1h)"
           },
           "message": {
-            "description": "Reminder message for the notification."
+            "description": "Message de rappel pour la notification."
           },
           "channel": {
-            "description": "Reminder message for the notification."
+            "description": "Message de rappel pour la notification."
           },
           "clans": {
             "description": "Optional clan tags or aliases to choose specific clans"
@@ -342,10 +342,10 @@
         "description": "Supprimez un seul rappel ou effacez-les tous.",
         "options": {
           "id": {
-            "description": "Reminder ID."
+            "description": "ID du rappel."
           },
           "clear": {
-            "description": "Whether to clear all reminders."
+            "description": "Si vous souhaitez effacer tous les rappels."
           }
         },
         "no_reminders": "Vous n'avez pas de rappels.",
@@ -360,15 +360,15 @@
     },
     "army": {
       "description": "Analyse un lien de composition de l'armée.",
-      "no_link": "You must provide a valid army composition link.",
-      "invalid_link": "This army composition link is invalid.",
-      "possibly_invalid_link": "This link is invalid and may not work.",
+      "no_link": "Vous devez fournir un lien valide de composition d'armée.",
+      "invalid_link": "Ce lien de composition d'armée n'est pas valide.",
+      "possibly_invalid_link": "Ce lien n'est pas valide et peut ne pas fonctionner.",
       "options": {
         "link": {
-          "description": "Army composition link."
+          "description": "Lien de composition d'armée."
         },
         "name": {
-          "description": "An optional name for this army."
+          "description": "Un nom facultatif pour cette armée."
         }
       }
     },
@@ -382,10 +382,10 @@
     },
     "boosts": {
       "description": "Les membres du clan avec des super troupes actives.",
-      "no_boosts": "No members are boosting in this clan.",
-      "no_recent_boosts": "No recently active members are boosting in this clan.",
-      "no_unit_boosts": "No members are boosting {{unit}} in this clan.",
-      "no_recent_unit_boosts": "No recently active members are boosting {{unit}} in this clan.",
+      "no_boosts": "Aucun membre n'a de boost en cours dans ce clan.",
+      "no_recent_boosts": "Aucun membre récemment actif n'a de boost en cours dans ce clan.",
+      "no_unit_boosts": "Aucun membre ne booste {{unit}} dans ce clan.",
+      "no_recent_unit_boosts": "Aucun membre récemment actif ne booste {{unit}} dans ce clan.",
       "options": {
         "tag": {
           "description": "Tag de clan ou alias ou mention @utilisateur."
@@ -410,19 +410,19 @@
     },
     "donations": {
       "description": "Dons et dons reçus des membres du clan.",
-      "no_season_data": "No data was found for the season {{season}}.",
+      "no_season_data": "Aucune donnée n'a été trouvée pour la saison {{season}}.",
       "options": {
         "tag": {
           "description": "Tag de clan ou alias ou mention @utilisateur."
         },
         "season": {
-          "description": "The season to show donations for."
+          "description": "La saison pour laquelle afficher les dons."
         }
       }
     },
     "lineup": {
       "description": "Liste des joueurs de la guerre",
-      "not_in_war": "The clan is not in a war.",
+      "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
         "tag": {
           "description": "Tag de clan ou alias ou mention @utilisateur."
@@ -436,7 +436,7 @@
           "description": "Tag de clan ou alias ou mention @utilisateur."
         },
         "option": {
-          "description": "Select an option."
+          "description": "Sélectionnez une option."
         }
       }
     },
@@ -450,7 +450,7 @@
     },
     "remaining": {
       "description": "Les attaques restantes ou manquées d'un clan.",
-      "not_in_war": "Clan is not in a war.",
+      "not_in_war": "Le clan n'est pas en guerre.",
       "no_war_id": "No war was found for the specified war ID.",
       "options": {
         "tag": {
@@ -532,7 +532,7 @@
     "war": {
       "description": "Affiche le résumé et l'aperçu de la guerre.",
       "no_war_id": "No war was found for the specified war ID.",
-      "not_in_war": "Clan is not in a war.",
+      "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
         "tag": {
           "description": "Tag de clan ou alias ou mention @utilisateur."
@@ -556,7 +556,7 @@
         "description": "Activez une fonction sur le serveur ou ajoutez un clan.",
         "options": {
           "option": {
-            "description": "Select an option."
+            "description": "Sélectionnez une option."
           },
           "tag": {
             "description": "Tag du clan."
@@ -587,7 +587,7 @@
         "description": "Désactiver une fonctionnalité du serveur ou supprimer un clan.",
         "options": {
           "option": {
-            "description": "Select an option."
+            "description": "Sélectionnez une option."
           },
           "tag": {
             "description": "Tag du clan."
@@ -651,7 +651,7 @@
       "description": "Affiche le résumé des guerres, des clans, des joueurs, des jeux de clans, etc.",
       "options": {
         "option": {
-          "description": "Select an option."
+          "description": "Sélectionnez une option."
         },
         "season": {
           "description": "Season ID for clan summary."
