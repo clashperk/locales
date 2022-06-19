@@ -593,7 +593,7 @@
             "description": "Tag of the clan."
           },
           "channel": {
-            "description": "Channel to be removed."
+            "description": "Channel to be removed"
           }
         },
         "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
