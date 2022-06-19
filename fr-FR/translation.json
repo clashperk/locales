@@ -8,6 +8,7 @@
     "no_option": "Quelque chose s'est mal passé lors de l'exécution de cette commande. (option non trouvée)",
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
     "no_clan_data": "Aucune donnée n'est disponible pour ce {{clan}}. Nous sommes toujours en train de collecter !",
+    "no_clan_members": "‎{{clan}} does not have any clan members.",
     "component": {
       "expired": "Ce composant a expiré, exécutez à nouveau la commande.",
       "unauthorized": "Vous devez exécuter la commande pour interagir avec les composants."
@@ -360,6 +361,9 @@
     },
     "army": {
       "description": "Analyse un lien de composition de l'armée.",
+      "no_link": "You must provide a valid army composition link.",
+      "invalid_link": "This army composition link is invalid.",
+      "possibly_invalid_link": "This link is invalid and may not work.",
       "options": {
         "link": {
           "description": "Army composition link."
@@ -379,6 +383,10 @@
     },
     "boosts": {
       "description": "Les membres du clan avec des super troupes actives.",
+      "no_boosts": "No members are boosting in this clan.",
+      "no_recent_boosts": "No recently active members are boosting in this clan.",
+      "no_unit_boosts": "No members are boosting {{unit}} in this clan.",
+      "no_recent_unit_boosts": "No recently active members are boosting {{unit}} in this clan.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
@@ -403,6 +411,7 @@
     },
     "donations": {
       "description": "Dons et dons reçus des membres du clan.",
+      "no_season_data": "No data found for the season {{season}}.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
@@ -414,6 +423,7 @@
     },
     "lineup": {
       "description": "Liste des joueurs de la guerre",
+      "not_in_war": "Clan is not in a war.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
@@ -441,6 +451,8 @@
     },
     "remaining": {
       "description": "Les attaques restantes ou manquées d'un clan.",
+      "not_in_war": "Clan is not in a war.",
+      "no_war_id": "No war found for the specified war Id.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
@@ -452,6 +464,7 @@
     },
     "rushed": {
       "description": "Unités précipitées d'un joueur ou de membres du clan.",
+      "no_rushed": "No rushed units for Town Hall {{townhall}}.",
       "options": {
         "tag": {
           "description": "$t(common.player_tag_argument)"
@@ -463,6 +476,8 @@
     },
     "search": {
       "description": "Recherche de clans par nom.",
+      "no_results": "No results found.",
+      "searching": "Clans with the name '{{name}}'",
       "options": {
         "name": {
           "description": "Clan name (must be 3 characters long)"
@@ -471,6 +486,7 @@
     },
     "stats": {
       "description": "Affiche les statistiques d'attaque et de défense des membres du clan.",
+      "no_stats": "No stats are available for this filter or clan.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
@@ -516,6 +532,8 @@
     },
     "war": {
       "description": "Affiche le résumé et l'aperçu de la guerre.",
+      "no_war_id": "No war found for the specified war Id.",
+      "not_in_war": "Clan is not in a war.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
