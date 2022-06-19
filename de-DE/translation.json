@@ -10,19 +10,19 @@
     "no_clan_members": "{{clan}} hat keine Mitglieder.",
     "component": {
       "expired": "Diese Komponente ist nicht mehr aktiv. Nutze den Befehl erneut.",
-      "unauthorized": "You must run the command to interact with components."
+      "unauthorized": "Um mit diesem Befehl interagieren zu können, musst du ihn selber ausführen."
     },
-    "no_clan_tag": "You must provide a clan tag to execute this command!",
-    "no_player_tag": "You must provide a player tag to execute this command!",
-    "clan_not_linked": "No clan is linked to {{user}}.",
-    "player_not_linked": "No player is linked to {{user}}.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use `/setup` command to link the clan.",
+    "no_clan_tag": "Du musst ein Clankürzel angeben um diesen Befehl zu nutzen!",
+    "no_player_tag": "Du musst ein Spielerkürzel angeben um diesen Befehl zu nutzen!",
+    "clan_not_linked": "Kein Clan ist mit {{user}} verlinkt.",
+    "player_not_linked": "Kein Spieler ist mit {{user}} verlinkt.",
+    "guild_unauthorized": "Dieser Server ist nicht autorisiert für{{clan}}. Nutze den `/setup` Befehl um den Clan zu verlinken.",
     "status_code": {
-      "400": "The client provided incorrect parameters for the request.",
-      "403": "API token does not grant access to the requested resource.",
-      "404": "No matches were found for the specified tag.",
-      "429": "The request was throttled because the number of requests was above the threshold defined for the used API token.",
-      "500": "An unknown error happened when handling the request.",
+      "400": "Der Nutzer hat dem Befehl falsche Parameter angefügt.",
+      "403": "API-Token gibt keinen Zugriff auf die angeforderten Daten.",
+      "404": "Nichts gefunden unter diesem Kürzel.",
+      "429": "Die Verbindung wurde gedrosselt, da die Anzahl an Anfragen den Schwellenwert dieses API-Tokens übertroffen hat.",
+      "500": "Ein unbekannter Fehler ist bei der Verarbeitung des Befehls aufgetreten.",
       "503": "Service is temporarily unavailable because of maintenance.",
       "504": "504 Request Timeout"
     },
