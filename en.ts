@@ -12,6 +12,7 @@ export const common = {
     no_option: 'Something went wrong while executing this command. (option not found)',
     no_data: 'No data is available at this moment. We are still collecting!',
     no_clan_data: 'No data is available for {{clan}}. We are still collecting!',
+    no_clan_members: '\u200e{{clan}} does not have any clan members.',
     component: {
         expired: 'This component has expired, run the command again.',
         unauthorized: 'You must execute the command to interact with components.'
@@ -332,7 +333,7 @@ export const command = {
                     description: 'Reminder message for the notification.'
                 },
                 clans: {
-                    description: 'Optional clan tags or aliases to choose specific clans'
+                    description: 'Optional clan tags or aliases to choose specific clans.'
                 }
             },
             max_limit: 'You can only have 25 reminders.',
@@ -368,6 +369,9 @@ export const command = {
     },
     army: {
         description: 'Parse an army composition link.',
+        no_link: 'You must provide a valid army composition link.',
+        invalid_link: 'This army composition link is invalid.',
+        possibly_invalid_link: 'This link is invalid and may not work.',
         options: {
             link: {
                 description: 'Army composition link.'
@@ -387,6 +391,10 @@ export const command = {
     },
     boosts: {
         description: 'Clan members with active super troops.',
+        no_boosts: 'No members are boosting in this clan.',
+        no_recent_boosts: 'No recently active members are boosting in this clan.',
+        no_unit_boosts: 'No members are boosting {{unit}} in this clan.',
+        no_recent_unit_boosts: 'No recently active members are boosting {{unit}} in this clan.',
         options: {
             tag: {
                 description: '$t(common.clan_tag_argument)'
@@ -411,6 +419,7 @@ export const command = {
     },
     donations: {
         description: 'Donations and received donations of clan members.',
+        no_season_data: 'No data found for the season {{season}}.',
         options: {
             tag: {
                 description: '$t(common.clan_tag_argument)'
@@ -422,6 +431,7 @@ export const command = {
     },
     lineup: {
         description: 'War lineup of a clan.',
+        not_in_war: 'Clan is not in a war.',
         options: {
             tag: {
                 description: '$t(common.clan_tag_argument)'
@@ -449,6 +459,8 @@ export const command = {
     },
     remaining: {
         description: 'Remaining or missed attacks of a clan.',
+        not_in_war: 'Clan is not in a war.',
+        no_war_id: 'No war found for the specified war Id.',
         options: {
             tag: {
                 description: '$t(common.clan_tag_argument)'
@@ -460,6 +472,7 @@ export const command = {
     },
     rushed: {
         description: 'Rushed units of a player or clan members.',
+        no_rushed: 'No rushed units for Town Hall {{townhall}}.',
         options: {
             tag: {
                 description: '$t(common.player_tag_argument)'
@@ -471,6 +484,8 @@ export const command = {
     },
     search: {
         description: 'Search clans by name.',
+        no_results: 'No results found.',
+        searching: "Clans with the name '{{name}}'",
         options: {
             name: {
                 description: 'Clan name (must be 3 characters long)'
@@ -479,6 +494,7 @@ export const command = {
     },
     stats: {
         description: 'Shows attack and defense stats of clan members.',
+        no_stats: 'No stats are available for this filter or clan.',
         options: {
             tag: {
                 description: '$t(common.clan_tag_argument)'
@@ -524,6 +540,8 @@ export const command = {
     },
     war: {
         description: 'Shows war summary and overview.',
+        no_war_id: 'No war found for the specified war Id.',
+        not_in_war: 'Clan is not in a war.',
         options: {
             tag: {
                 description: '$t(common.clan_tag_argument)'
