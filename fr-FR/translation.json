@@ -27,7 +27,7 @@
       "503": "Le service est temporairement indisponible pour cause de maintenance.",
       "504": "504 Délai d'attente de la demande dépassé"
     },
-    "clan_tag_argument": "Clan tag / alias or @user mention.",
+    "clan_tag_argument": "Clan tag or alias or @user mention.",
     "player_tag_argument": "Player tag or @user mention."
   },
   "command": {
@@ -38,7 +38,7 @@
           "description": "Clan tags or aliases (Maximum 3)"
         },
         "days": {
-          "description": "Number of days to show in the graph."
+          "description": "The number of days is displayed in the graph."
         }
       }
     },
@@ -100,7 +100,7 @@
           "description": "Hex color code (e.g #ed4245) [Patron Only]"
         },
         "events_channel": {
-          "description": "Clash related events channel"
+          "description": "Clash-related events channel."
         }
       },
       "no_text_channel": "Vous devez spécifier un canal de texte pour activer ce journal d'événements."
@@ -198,7 +198,7 @@
         "description": "Créez un rapport de joueur.",
         "options": {
           "tag": {
-            "description": "Tag of the player to flag."
+            "description": "The tag of a player to flag."
           },
           "reason": {
             "description": "Reason for the flag."
@@ -209,7 +209,7 @@
         "description": "Supprimer un rapport de joueur.",
         "options": {
           "tag": {
-            "description": "Tag of the player to delete."
+            "description": "The tag a player to delete."
           }
         }
       },
@@ -225,7 +225,7 @@
         "description": "Recherchez un rapport sur un joueur.",
         "options": {
           "tag": {
-            "description": "Tag of the player to search."
+            "description": "The tag a player to search."
           }
         }
       }
@@ -243,7 +243,7 @@
             "description": "User account to link to the tag."
           },
           "default": {
-            "description": "Whether this tag is default."
+            "description": "Whether this tag is the default."
           }
         },
         "no_bots": "Les utilisateur robots ne peuvent pas être liés.",
@@ -291,7 +291,7 @@
       "description": "Définissez votre fuseau horaire.",
       "options": {
         "location": {
-          "description": "Search by country or city name (we don't store your location, only offset. e.g GMT+5:00)"
+          "description": "Search by country or city name (we don't store your location, only offset. e.g. GMT+5:00)"
         }
       },
       "set": "Veuillez définir votre fuseau horaire avec la commande `/timezone`. Cela vous permettra de visualiser les graphiques dans votre fuseau horaire.",
@@ -301,7 +301,7 @@
       "description": "Affiche les informations sur l'utilisateur et les comptes liés.",
       "options": {
         "user": {
-          "description": "User Id or @user mention."
+          "description": "User ID or @user mention."
         }
       }
     },
@@ -309,7 +309,7 @@
       "description": "Choisissez un surnom dans la liste des joueurs liés.",
       "options": {
         "user": {
-          "description": "User Id or @user mention."
+          "description": "User ID or @user mention."
         }
       }
     },
@@ -319,7 +319,7 @@
         "description": "Créez un rappel de guerre pour mentionner les membres.",
         "options": {
           "duration": {
-            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g 15m, 30m, 1h, 1.25h, 1.5h)"
+            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g. 15m, 30m, 1h, 1.25h, 1.5h)"
           },
           "message": {
             "description": "Reminder message for the notification."
@@ -343,7 +343,7 @@
         "description": "Supprimez un seul rappel ou effacez-les tous.",
         "options": {
           "id": {
-            "description": "Reminder Id."
+            "description": "Reminder ID."
           },
           "clear": {
             "description": "Whether to clear all reminders."
@@ -369,7 +369,7 @@
           "description": "Army composition link."
         },
         "name": {
-          "description": "Optional name for this army"
+          "description": "An optional name for this army."
         }
       }
     },
@@ -411,7 +411,7 @@
     },
     "donations": {
       "description": "Dons et dons reçus des membres du clan.",
-      "no_season_data": "No data found for the season {{season}}.",
+      "no_season_data": "No data was found for the season {{season}}.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
@@ -423,7 +423,7 @@
     },
     "lineup": {
       "description": "Liste des joueurs de la guerre",
-      "not_in_war": "Clan is not in a war.",
+      "not_in_war": "The clan is not in a war.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
@@ -452,13 +452,13 @@
     "remaining": {
       "description": "Les attaques restantes ou manquées d'un clan.",
       "not_in_war": "Clan is not in a war.",
-      "no_war_id": "No war found for the specified war Id.",
+      "no_war_id": "No war was found for the specified war ID.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
         },
         "war_id": {
-          "description": "Search by War Id."
+          "description": "Search by war ID."
         }
       }
     },
@@ -470,14 +470,14 @@
           "description": "$t(common.player_tag_argument)"
         },
         "clan": {
-          "description": "Display the rushed units of a clan."
+          "description": "Displays rushed units of a clan."
         }
       }
     },
     "search": {
       "description": "Recherche de clans par nom.",
-      "no_results": "No results found.",
-      "searching": "Clans with the name '{{name}}'",
+      "no_results": "No results were found.",
+      "searching": "Clans with the name '{{name}}'.",
       "options": {
         "name": {
           "description": "Clan name (must be 3 characters long)"
@@ -492,19 +492,19 @@
           "description": "$t(common.clan_tag_argument)"
         },
         "compare": {
-          "description": "Compare Town Halls (e.g 14vs13, 12 13, all, equal)"
+          "description": "Compare Town Halls (e.g. 14vs13, 12 13, all, equal)"
         },
         "stars": {
           "description": "War stars earned. (Default: 3)"
         },
         "type": {
-          "description": "War Type [e.g Regular, CWL, Friendly] (Default: Regular and CWL)"
+          "description": "War Type [e.g. Regular, CWL, Friendly] (Default: Regular and CWL)"
         },
         "season": {
           "description": "Limit the data to the last X months."
         },
         "attempt": {
-          "description": "Fresh attacks or cleanup attacks. (Default: Both)"
+          "description": "Fresh attacks or clean-up attacks. (Default: Both)"
         }
       },
       "attacks": {
@@ -532,14 +532,14 @@
     },
     "war": {
       "description": "Affiche le résumé et l'aperçu de la guerre.",
-      "no_war_id": "No war found for the specified war Id.",
+      "no_war_id": "No war was found for the specified war ID.",
       "not_in_war": "Clan is not in a war.",
       "options": {
         "tag": {
           "description": "$t(common.clan_tag_argument)"
         },
         "war_id": {
-          "description": "Search by War Id."
+          "description": "Search by war ID."
         }
       }
     },
@@ -655,7 +655,7 @@
           "description": "Select an option."
         },
         "season": {
-          "description": "Season Id for clan summary."
+          "description": "Season ID for clan summary."
         }
       },
       "clans": {
