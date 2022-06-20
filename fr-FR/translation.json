@@ -12,7 +12,7 @@
       "expired": "Ce composant n'est plus actif. Exécutez à nouveau la commande.",
       "unauthorized": "Vous devez exécuter la commande pour interagir avec les composants."
     },
-    "no_clan_tag": "Vous devez fournir un identifiant de clan pour exécuter cette commande!",
+    "no_clan_tag": "Vous devez fournir un identifiant de clan pour exécuter cette commande !",
     "no_player_tag": "Vous devez fournir un identifiant de joueur pour exécuter cette commande !",
     "clan_not_linked": "Aucun clan n'est lié à {{user}}.",
     "player_not_linked": "Aucun joueur n'est lié à {{user}}.",
@@ -355,7 +355,7 @@
         "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un ID de rappel."
       },
       "list": {
-        "description": "Listez tous les rappels de guerre."
+        "description": "Lister tous les rappels de guerre."
       }
     },
     "army": {
@@ -462,14 +462,14 @@
       }
     },
     "rushed": {
-      "description": "Unités précipitées d'un joueur ou de membres du clan.",
-      "no_rushed": "Aucune unité précipitée pour la mairie {{townhall}}.",
+      "description": "Troupes, sorts, engins et héros prémas d'un joueur ou des membres du clan.",
+      "no_rushed": "Aucune troupe, sort, engin ou héros préma pour l'hôtel de ville {{townhall}}.",
       "options": {
         "tag": {
           "description": "Identifiant du joueur ou mention @utilisateur."
         },
         "clan": {
-          "description": "Affiche les unités précipitées d'un clan."
+          "description": "Affiche les troupes, sorts, engins et héros prémas d'un clan."
         }
       }
     },
@@ -553,7 +553,7 @@
     "setup": {
       "description": "Activer/désactiver des fonctionnalités sur le serveur ou ajouter/supprimer des clans.",
       "enable": {
-        "description": "Activez une fonctionnalité sur le serveur ou ajoutez un clan.",
+        "description": "Activer une fonctionnalité sur le serveur ou ajouter un clan.",
         "options": {
           "option": {
             "description": "Sélectionnez une option."
@@ -565,7 +565,7 @@
             "description": "Salon dans lequel envoyer les mises à jour (par défaut le salon actuel)"
           },
           "color": {
-            "description": "Code couleur hexadécimal (uniquement pour le journal des dons, les jeux de clan, les joueurs vus dernièrement et le message enrichi du clan)"
+            "description": "Code couleur hexadécimal (pour les dons, jdc, vu pour la dernière fois et l'intégration de clan)"
           },
           "role": {
             "description": "Rôle pour la notification de signalement (uniquement pour le flux du clan)"
@@ -598,8 +598,8 @@
         },
         "channel_unlink": "{{clan}} dissocié de {{channel}} avec succès.",
         "channel_not_found": "Je n'ai pas trouvé de clan qui soit relié à {{channel}}.",
-        "autorole_disabled": "Les rôles automatiques ont été désactivés pour {{count}} clans.",
-        "autorole_disabled_clan": "Les rôles automatiques ont été désactivés pour {{clan}}.",
+        "autorole_disabled": "Auto-rôle a été désactivé pour {{count}} clans.",
+        "autorole_disabled_clan": "Auto-rôle a été désactivé pour {{clan}}.",
         "clan_not_linked": "Aucun clan n'a été trouvé sur le serveur pour l'identifiant spécifié.",
         "clan_deleted": "{{clan}} supprimé avec succès.",
         "feature_disabled": "{{feature}} pour {{clan}} désactivé avec succès."
@@ -609,9 +609,9 @@
       }
     },
     "autorole": {
-      "description": "Activer/désactiver la fonction auto-rôle qui attribue des rôles en fonction du rôle dans le clan.",
+      "description": "Activer/désactiver la fonction auto-rôle basée sur les rôles au sein du clan.",
       "enable": {
-        "description": "Activer la fonction auto-rôle qui attribue des rôles en fonction du rôle dans le clan.",
+        "description": "Activer la fonction auto-rôle basée sur les rôles au sein du clan.",
         "options": {
           "co_leads": {
             "description": "Le rôle de chef adjoint."
@@ -634,12 +634,12 @@
         "no_higher_roles": "Mon rôle doit être plus élevé que ces rôles.",
         "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
         "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
-        "clan_not_linked": "Le clan doit être relié au serveur pour activer le rôle automatique.",
+        "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
         "success_clan": "L'auto-rôle a été activé avec succès pour le clan {{clan}}.",
         "success": "L'auto-rôle a été activé avec succès pour {{count}} clans."
       },
       "disable": {
-        "description": "Désactivez la fonction de rôle automatique basée sur leur rôle au sein du clan.",
+        "description": "Désactiver la fonction auto-rôle basée sur les rôles au sein du clan.",
         "options": {
           "tag": {
             "description": "Identifiant du clan."
