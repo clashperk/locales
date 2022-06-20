@@ -245,7 +245,7 @@
             "description": "S'il s'agit de l'identifiant par défaut."
           }
         },
-        "no_bots": "Les comptes robots ne peuvent pas être reliés.",
+        "no_bots": "Les comptes bots ne peuvent pas être reliés.",
         "fail": "L'identifiant du joueur/clan spécifié n'est pas valide.",
         "prompt": "Que voulez-vous lier ? Un joueur ou un clan ?",
         "success": "Lié avec succès {{target}} à {{user}}.",
