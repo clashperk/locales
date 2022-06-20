@@ -284,7 +284,7 @@
         }
       },
       "success": "Vérification réussie ! {{info}}",
-      "invalid_token": "Vous devez fournir un jeton API valide qui se trouve dans les paramètres du jeu. \nhttps://i.imgur.com/8dsoUB8.jpg"
+      "invalid_token": "Vous devez fournir un jeton API valide qui se trouve dans les paramètres du jeu. \nhttps://i.imgur.com/Mlo4zAP.png"
     },
     "timezone": {
       "description": "Définir votre fuseau horaire.",
@@ -349,7 +349,7 @@
           }
         },
         "no_reminders": "Vous n'avez pas de rappels.",
-        "cleared": "Effacement de tous les rappels réussi",
+        "cleared": "Tous les rappels ont été effacés avec succès.",
         "not_found": "Aucun rappel trouvé avec l'ID {{id}}.",
         "success": "Effacement du rappel avec l'ID {{id}}.",
         "too_many_reminders": "Vous avez trop de rappels, passez l'identifiant du rappel pour supprimer les rappels."
@@ -479,7 +479,7 @@
       "searching": "Clans with the name '{{name}}'.",
       "options": {
         "name": {
-          "description": "Clan name (must be 3 characters long)"
+          "description": "Nom du clan (doit être composé de 3 caractères)"
         }
       }
     },
@@ -510,7 +510,7 @@
         "description": "Affiche les taux de réussite des attaques des membres du clan."
       },
       "defense": {
-        "description": "Affiche les taux d'échec de la défense des membres du clan."
+        "description": "Affiche le taux d'échec des défenses des membres du clan."
       }
     },
     "units": {
@@ -522,7 +522,7 @@
       }
     },
     "upgrades": {
-      "description": "Améliorations restantes d'un joueur avec un coût d'amélioration.",
+      "description": "Améliorations restantes d'un joueur avec leur coût d'amélioration.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -543,7 +543,7 @@
       }
     },
     "warlog": {
-      "description": "Affiche les 10 derniers journaux de guerre de clans.",
+      "description": "Affiche les 10 dernières guerres de clans.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -551,9 +551,9 @@
       }
     },
     "setup": {
-      "description": "Activer/désactiver des fonctions sur le serveur ou ajouter/supprimer des clans.",
+      "description": "Activer/désactiver des fonctionnalités sur le serveur ou ajouter/supprimer des clans.",
       "enable": {
-        "description": "Activez une fonction sur le serveur ou ajoutez un clan.",
+        "description": "Activez une fonctionnalité sur le serveur ou ajoutez un clan.",
         "options": {
           "option": {
             "description": "Sélectionnez une option."
@@ -571,11 +571,11 @@
             "description": "Role for the flag notification (only for clan feed)"
           }
         },
-        "missing_access": "Je manque {{permission}} dans {{channel}} pour exécuter cette commande.",
-        "no_leader_link": "Le chef de clan doit être lié au robot pour activer cette fonction.",
+        "missing_access": "Il me manque {{permission}} dans {{channel}} pour exécuter cette commande.",
+        "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
         "server_link": {
-          "success": "Lié avec succès {{clan}} à {{guild}}.",
-          "already_linked": "{{clan}} est déjà lié à {{guild}}."
+          "success": "Relié avec succès {{clan}} à {{guild}}.",
+          "already_linked": "{{clan}} est déjà relié à {{guild}}."
         },
         "channel_link": {
           "description": "Lier un canal à un clan.",
@@ -596,12 +596,12 @@
             "description": "Canal à supprimer."
           }
         },
-        "channel_unlink": "Lien effacé {{clan}} à {{channel}}.",
-        "channel_not_found": "Je n'ai pas trouvé de clan qui soit lié à {{channel}}.",
+        "channel_unlink": "{{clan}} dissocié de {{channel}} avec succès.",
+        "channel_not_found": "Je n'ai pas trouvé de clan qui soit relié à {{channel}}.",
         "autorole_disabled": "Les rôles automatiques ont été désactivés pour {{count}} clans.",
         "autorole_disabled_clan": "Les rôles automatiques ont été désactivés pour {{clan}}.",
         "clan_not_linked": "Aucun clan n'a été trouvé sur le serveur pour l'identifiant spécifié.",
-        "clan_deleted": "Effacé avec succès {{clan}}.",
+        "clan_deleted": "{{clan}} supprimé avec succès.",
         "feature_disabled": "Désactivé avec succès {{feature}} pour {{clan}}."
       },
       "list": {
@@ -609,18 +609,18 @@
       }
     },
     "autorole": {
-      "description": "Activez/désactivez la fonction de rôle automatique en fonction de leur rôle dans le clan.",
+      "description": "Activer/désactiver la fonction de rôle automatique en fonction de leur rôle dans le clan.",
       "enable": {
-        "description": "Activez la fonction de rôle automatique en fonction de leur rôle dans le clan.",
+        "description": "Activer la fonction de rôle automatique en fonction de leur rôle dans le clan.",
         "options": {
           "co_leads": {
-            "description": "The Co-Leader role."
+            "description": "Rôle des chefs adjoints."
           },
           "elders": {
-            "description": "The Elder role."
+            "description": "Rôle des aînés."
           },
           "members": {
-            "description": "The Member role."
+            "description": "Rôle des membres."
           },
           "tag": {
             "description": "Tag of a clan. Do not pass the tag if you want the same type of roles for all clans."
@@ -630,16 +630,16 @@
           }
         },
         "no_roles": "Vous devez spécifier les 3 rôles pour exécuter cette commande.",
-        "no_system_roles": "Les rôles gérés par le système ou les robots ne sont pas autorisés.",
+        "no_system_roles": "Les rôles gérés par le système ou les bots ne sont pas autorisés.",
         "no_higher_roles": "Mon rôle doit être plus élevé que ces rôles.",
         "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
-        "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nVeuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) d'utiliser les mêmes rôles pour plusieurs clans.",
-        "clan_not_linked": "Le clan doit être lié au serveur pour activer le rôle automatique.",
+        "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
+        "clan_not_linked": "Le clan doit être relié au serveur pour activer le rôle automatique.",
         "success_clan": "L'auto-rôle a été activé avec succès pour le clan {{clan}}.",
         "success": "L'auto-rôle a été activé avec succès pour {{count}} clans."
       },
       "disable": {
-        "description": "Désactiver la fonction de rôle automatique en fonction de leur rôle dans le clan.",
+        "description": "Désactivez la fonction de rôle automatique basée sur leur rôle au sein du clan.",
         "options": {
           "tag": {
             "description": "Identifiant du clan."
@@ -677,7 +677,7 @@
       "description": "Obtenez une liste de commandes ou des informations sur une commande spécifique.",
       "options": {
         "name": {
-          "description": "Name of the command."
+          "description": "Nom de la commande."
         }
       }
     },
