@@ -1,25 +1,25 @@
 {
   "common": {
     "no_clans_found": "Aucun clan n'a été trouvé dans notre base de données pour l'élément spécifié.",
-    "no_clans_linked": "Aucun clan n'est lié à ce serveur. Pourquoi ne pas l'ajouter ?",
-    "clan_limit": "Le nombre maximum de clans a été atteint.  Veuillez envisager de nous soutenir sur notre [Patreon](https://patreon.com/clashperk) pour ajouter plus de deux clans.",
-    "clan_verification": "Nous devons nous assurer que vous êtes un leader ou un co-leader de ce clan. Veuillez vérifier votre compte avec le jeton API.\nUtilisez la commande `/verify` pour vérifier votre compte. Le jeton API est disponible dans les paramètres du jeu.\n\nVous pouvez également ajouter un code temporaire `{{code}}` dans la description de votre clan. Ensuite, attendez 1 à 2 min et exécutez à nouveau cette commande. Une fois qu'il est vérifié, vous pouvez retirer le code en toute sécurité.",
+    "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?",
+    "clan_limit": "Le nombre maximum de clans a été atteint. Merci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir ajouter plus de deux clans.",
+    "clan_verification": "Nous devons nous assurer que vous êtes bien chef ou adjoint de ce clan. Veuillez vérifier votre compte joueur avec le jeton API.\nUtilisez la commande `/verify` pour vérifier votre compte. Le jeton API est disponible dans les paramètres du jeu.\n\nVous pouvez également ajouter un code temporaire `{{code}}` dans la description de votre clan. Attendez ensuite 1 à 2 min et exécutez à nouveau cette commande. Une fois le compte vérifié, vous pouvez retirer le code en toute sécurité.",
     "no_option": "Quelque chose s'est mal passé lors de l'exécution de cette commande. (option non trouvée)",
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
-    "no_clan_data": "Aucune donnée n'est disponible pour ce {{clan}}. Nous sommes toujours en train de collecter !",
+    "no_clan_data": "Aucune donnée n'est disponible pour {{clan}}. Nous sommes toujours en train de collecter !",
     "no_clan_members": "‎{{clan}} n'a aucun membre.",
     "component": {
-      "expired": "Ce composant a expiré, exécutez à nouveau la commande.",
+      "expired": "Ce composant n'est plus actif. Exécutez à nouveau la commande.",
       "unauthorized": "Vous devez exécuter la commande pour interagir avec les composants."
     },
-    "no_clan_tag": "Vous devez fournir un identifiant de clan pour exécuter cette commande !",
+    "no_clan_tag": "Vous devez fournir un identifiant de clan pour exécuter cette commande!",
     "no_player_tag": "Vous devez fournir un identifiant de joueur pour exécuter cette commande !",
     "clan_not_linked": "Aucun clan n'est lié à {{user}}.",
     "player_not_linked": "Aucun joueur n'est lié à {{user}}.",
     "guild_unauthorized": "Ce serveur n'est pas autorisé pour {{clan}}. Utilisez la commande `/setup` pour relier le clan.",
     "status_code": {
       "400": "Le client a fourni des paramètres incorrects pour la demande.",
-      "403": "Le jeton de l'API ne donne pas accès à la ressource demandée.",
+      "403": "Le jeton API ne permet pas d'accéder aux informations demandées.",
       "404": "Aucun résultat n'a été trouvé pour l'identifiant spécifié.",
       "429": "La demande a été rejetée, car le nombre de demandes était supérieur au seuil défini pour le jeton d'API utilisé.",
       "500": "Une erreur inconnue s'est produite lors du traitement de la demande.",
@@ -50,7 +50,7 @@
       }
     },
     "lastseen": {
-      "description": "Heure de la dernière activités des membres du clan.",
+      "description": "Heure à laquelle les membres du clan ont été vus dernièrement et leur activité.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -102,7 +102,7 @@
           "description": "Salon des événements liés à Clash."
         }
       },
-      "no_text_channel": "Vous devez spécifier un canal de texte pour activer ce journal d'événements."
+      "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements."
     },
     "debug": {
       "description": "Affiche quelques informations de débogage de base."
@@ -194,7 +194,7 @@
     "flag": {
       "description": "Créer, supprimer ou rechercher des signalements de joueurs.",
       "create": {
-        "description": "Créez un rapport de joueur.",
+        "description": "Créer un signalement de joueur.",
         "options": {
           "tag": {
             "description": "Identifiant du joueur à signaler."
@@ -205,7 +205,7 @@
         }
       },
       "delete": {
-        "description": "Supprimer un rapport de joueur.",
+        "description": "Supprimer un signalement de joueur.",
         "options": {
           "tag": {
             "description": "Identifiant du joueur à supprimer."
@@ -213,7 +213,7 @@
         }
       },
       "list": {
-        "description": "Lister tous les rapports des joueurs.",
+        "description": "Lister tous les signalements de joueurs.",
         "options": {
           "export": {
             "description": "Exporter tous les signalements de joueurs vers Excel."
@@ -248,7 +248,7 @@
         "no_bots": "Les comptes bots ne peuvent pas être reliés.",
         "fail": "L'identifiant du joueur/clan spécifié n'est pas valide.",
         "prompt": "Que voulez-vous lier ? Un joueur ou un clan ?",
-        "success": "Lié avec succès {{target}} à {{user}}.",
+        "success": "{{target}} relié à {{user}} avec succès.",
         "link_exists": "{{player}} est déjà relié.",
         "already_linked": "{{player}} est déjà relié à un autre utilisateur. Si vous possédez ce compte, veuillez utiliser la commande `/verify`.",
         "max_limit": "La limite maximale de comptes a été atteinte. (25 comptes/utilisateur)"
@@ -294,7 +294,7 @@
         }
       },
       "set": "Veuillez définir votre fuseau horaire avec la commande `/timezone`. Elle vous permet de visualiser les graphiques dans votre fuseau horaire.",
-      "no_result": "Rendez votre recherche plus spécifique et réessayez."
+      "no_result": "Faites une recherche plus spécifique et réessayez."
     },
     "profile": {
       "description": "Affiche les informations sur l'utilisateur et les comptes liés.",
@@ -327,7 +327,7 @@
             "description": "Message de rappel pour la notification."
           },
           "clans": {
-            "description": "Identifiants de clan ou alias facultatifs pour choisir des clans spécifiques."
+            "description": "Identifiants de clan ou alias (facultatif) pour choisir des clans spécifiques."
           }
         },
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
@@ -339,7 +339,7 @@
         "success": "Sauvegardé avec succès !"
       },
       "delete": {
-        "description": "Supprimez un seul rappel ou effacez-les tous.",
+        "description": "Supprimer un rappel ou tous les effacer.",
         "options": {
           "id": {
             "description": "ID du rappel."
@@ -350,16 +350,16 @@
         },
         "no_reminders": "Vous n'avez pas de rappels.",
         "cleared": "Tous les rappels ont été effacés avec succès.",
-        "not_found": "Aucun rappel trouvé avec l'ID {{id}}.",
-        "success": "Effacement du rappel avec l'ID {{id}}.",
-        "too_many_reminders": "Vous avez trop de rappels, passez l'identifiant du rappel pour supprimer les rappels."
+        "not_found": "Aucun rappel n'a été trouvé avec l'ID {{id}}.",
+        "success": "Le rappel avec l'ID {{id}} a été supprimé avec succès.",
+        "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un ID de rappel."
       },
       "list": {
         "description": "Listez tous les rappels de guerre."
       }
     },
     "army": {
-      "description": "Analyse un lien de composition de l'armée.",
+      "description": "Analyser un lien de composition d'armée.",
       "no_link": "Vous devez fournir un lien valide de composition d'armée.",
       "invalid_link": "Ce lien de composition d'armée n'est pas valide.",
       "possibly_invalid_link": "Ce lien n'est pas valide et peut ne pas fonctionner.",
@@ -368,7 +368,7 @@
           "description": "Lien de composition d'armée."
         },
         "name": {
-          "description": "Un nom facultatif pour cette armée."
+          "description": "Un nom pour cette armée (facultatif)."
         }
       }
     },
@@ -463,13 +463,13 @@
     },
     "rushed": {
       "description": "Unités précipitées d'un joueur ou de membres du clan.",
-      "no_rushed": "No rushed units for Town Hall {{townhall}}.",
+      "no_rushed": "Aucune unité précipitée pour la mairie {{townhall}}.",
       "options": {
         "tag": {
           "description": "Identifiant du joueur ou mention @utilisateur."
         },
         "clan": {
-          "description": "Displays rushed units of a clan."
+          "description": "Affiche les unités précipitées d'un clan."
         }
       }
     },
@@ -578,9 +578,9 @@
           "already_linked": "{{clan}} est déjà relié à {{guild}}."
         },
         "channel_link": {
-          "description": "Lier un canal à un clan.",
-          "already_linked": "{{clan}} est déjà lié à {{channel}}.",
-          "success": "Lié avec succès {{clan}} à {{channel}}."
+          "description": "Relier un salon à un clan.",
+          "already_linked": "{{clan}} est déjà relié à {{channel}}.",
+          "success": "{{clan}} relié à {{channel}} avec succès."
         }
       },
       "disable": {
@@ -602,7 +602,7 @@
         "autorole_disabled_clan": "Les rôles automatiques ont été désactivés pour {{clan}}.",
         "clan_not_linked": "Aucun clan n'a été trouvé sur le serveur pour l'identifiant spécifié.",
         "clan_deleted": "{{clan}} supprimé avec succès.",
-        "feature_disabled": "Désactivé avec succès {{feature}} pour {{clan}}."
+        "feature_disabled": "{{feature}} pour {{clan}} désactivé avec succès."
       },
       "list": {
         "description": "Liste toutes les fonctions et clans activés."
