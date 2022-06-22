@@ -111,7 +111,7 @@
       "description": "CWL season summary and overview.",
       "options": {
         "option": {
-          "description": "Wählen Sie eine Option aus."
+          "description": "Select an option."
         },
         "tag": {
           "description": "Clan tag or alias or @user mention."
@@ -160,7 +160,7 @@
       "description": "Export war/season/clan stats to Excel.",
       "options": {
         "option": {
-          "description": "Wählen Sie eine Option aus."
+          "description": "Select an option."
         },
         "season": {
           "description": "The season to export."
