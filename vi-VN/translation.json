@@ -327,7 +327,7 @@
             "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Optional clan tags or aliases to choose specific clans"
+            "description": "Optional clan tags or aliases to choose specific clans."
           }
         },
         "max_limit": "You can only have 25 reminders.",
@@ -593,7 +593,7 @@
             "description": "Tag of the clan."
           },
           "channel": {
-            "description": "Channel to be removed"
+            "description": "Channel to be removed."
           }
         },
         "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
