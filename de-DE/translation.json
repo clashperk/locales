@@ -1,28 +1,28 @@
 {
   "common": {
-    "no_clans_found": "Keine Clans mit den gesuchten Eigenschaften in unserer Datenbank gefunden.",
-    "no_clans_linked": "Keine Clans mit diesem Server verlinkt. Versuche doch erst einen Clan hinzuzufügen.",
-    "clan_limit": "Die maximale Anzahl an Clans wurde erreicht. Wenn du uns auf [Patreon](https://patreon.com/clashperk) unterstützt, kannst du mehr als zwei Clans hinzufügen.",
-    "clan_verification": "Wir müssen sichergehen, dass du in diesem Clan Anführer oder Co-Anführer bist. Bitter verifiziere deinen Account mit dem API-Token. \nNutze den `/verify` Befehl um deinen Spielaccount zu verifizieren. Dein API-Token findest du in den Einstellungen im Spiel.\n\nAlternativ kannst du in der Clanbeschreibung einen temporären Code `{{code}}` hinzufügen. Warte anschließend 1-2 Minuten und benutze den Befehl erneut. Sobald du verfiziert bist, kannst du den Code aus der Clanbeschreibung entfernen.",
-    "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
-    "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
-    "no_clan_data": "Keine Daten verfügbar für {{clan}}. Wir sind noch am Daten sammeln.",
-    "no_clan_members": "{{clan}} hat keine Mitglieder.",
+    "no_clans_found": "No clans were found in our Database for the argument you specified.",
+    "no_clans_linked": "No clans are linked to this server. Why not link some?",
+    "clan_limit": "The maximum number of clans has reached.  Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.",
+    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the `/verify` command to verify your player account. The API token is available in the Game settings.\n\nAlternatively, you can add a temporary code `{{code}}` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.",
+    "no_option": "Something went wrong while executing this command. (option not found)",
+    "no_data": "No data is available at this moment. We are still collecting!",
+    "no_clan_data": "No data is available for {{clan}}. We are still collecting!",
+    "no_clan_members": "‎{{clan}} does not have any clan members.",
     "component": {
-      "expired": "Diese Komponente ist nicht mehr aktiv. Nutze den Befehl erneut.",
-      "unauthorized": "Um mit diesem Befehl interagieren zu können, musst du ihn selber ausführen."
+      "expired": "This component is no longer active. Run the command again.",
+      "unauthorized": "You must run the command to interact with components."
     },
-    "no_clan_tag": "Du musst ein Clankürzel angeben um diesen Befehl zu nutzen!",
-    "no_player_tag": "Du musst ein Spielerkürzel angeben um diesen Befehl zu nutzen!",
-    "clan_not_linked": "Kein Clan ist mit {{user}} verlinkt.",
-    "player_not_linked": "Kein Spieler ist mit {{user}} verlinkt.",
-    "guild_unauthorized": "Dieser Server ist nicht autorisiert für{{clan}}. Nutze den `/setup` Befehl um den Clan zu verlinken.",
+    "no_clan_tag": "You must provide a clan tag to execute this command!",
+    "no_player_tag": "You must provide a player tag to execute this command!",
+    "clan_not_linked": "No clan is linked to {{user}}.",
+    "player_not_linked": "No player is linked to {{user}}.",
+    "guild_unauthorized": "This server is not authorized for {{clan}}. Use `/setup` command to link the clan.",
     "status_code": {
-      "400": "Der Nutzer hat dem Befehl falsche Parameter angefügt.",
-      "403": "API-Token gibt keinen Zugriff auf die angeforderten Daten.",
-      "404": "Nichts gefunden unter diesem Kürzel.",
-      "429": "Die Verbindung wurde gedrosselt, da die Anzahl an Anfragen den Schwellenwert dieses API-Tokens übertroffen hat.",
-      "500": "Ein unbekannter Fehler ist bei der Verarbeitung des Befehls aufgetreten.",
+      "400": "The client provided incorrect parameters for the request.",
+      "403": "API token does not grant access to the requested resource.",
+      "404": "No matches were found for the specified tag.",
+      "429": "The request was throttled because the number of requests was above the threshold defined for the used API token.",
+      "500": "An unknown error happened when handling the request.",
       "503": "Service is temporarily unavailable because of maintenance.",
       "504": "504 Request Timeout"
     },
@@ -327,7 +327,7 @@
             "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Optional clan tags or aliases to choose specific clans"
+            "description": "Optional clan tags or aliases to choose specific clans."
           }
         },
         "max_limit": "You can only have 25 reminders.",
@@ -593,7 +593,7 @@
             "description": "Tag of the clan."
           },
           "channel": {
-            "description": "Channel to be removed"
+            "description": "Channel to be removed."
           }
         },
         "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
