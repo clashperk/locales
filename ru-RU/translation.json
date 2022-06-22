@@ -1,5 +1,4 @@
 {
-  "nl": "\n",
   "common": {
     "no_clans_found": "No clans were found in our Database for the argument you specified.",
     "no_clans_linked": "No clans are linked to this server. Why not link some?",
@@ -46,7 +45,7 @@
       "description": "Clan games scoreboard of clan members.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -54,7 +53,7 @@
       "description": "The last seen time and activities of clan members.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -115,7 +114,7 @@
           "description": "Select an option."
         },
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       },
       "still_searching": "Your clan {{clan}} is still searching for the opponent.",
@@ -135,7 +134,7 @@
         "description": "CWL roster and town hall distribution.",
         "options": {
           "tag": {
-            "description": "$t(common.clan_tag_argument)"
+            "description": "Clan tag or alias or @user mention."
           }
         }
       },
@@ -143,7 +142,7 @@
         "description": "CWL summary for the current round.",
         "options": {
           "tag": {
-            "description": "$t(common.clan_tag_argument)"
+            "description": "Clan tag or alias or @user mention."
           },
           "round": {
             "description": "Round number to show."
@@ -269,7 +268,7 @@
         "description": "List all player links.",
         "options": {
           "tag": {
-            "description": "$t(common.clan_tag_argument)"
+            "description": "Clan tag or alias or @user mention."
           }
         }
       }
@@ -328,7 +327,7 @@
             "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Optional clan tags or aliases to choose specific clans"
+            "description": "Optional clan tags or aliases to choose specific clans."
           }
         },
         "max_limit": "You can only have 25 reminders.",
@@ -377,7 +376,7 @@
       "description": "Attack and defense scoreboard of clan members.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -389,7 +388,7 @@
       "no_recent_unit_boosts": "No recently active members are boosting {{unit}} in this clan.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -397,7 +396,7 @@
       "description": "Shows clan summary and overview.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -405,7 +404,7 @@
       "description": "Displays Town Hall composition of a clan.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -414,7 +413,7 @@
       "no_season_data": "No data was found for the season {{season}}.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         },
         "season": {
           "description": "The season to show donations for."
@@ -426,7 +425,7 @@
       "not_in_war": "The clan is not in a war.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -434,7 +433,7 @@
       "description": "Get a clan member list with heroes, trophies, war preferences and much more.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         },
         "option": {
           "description": "Select an option."
@@ -445,7 +444,7 @@
       "description": "Player summary and overview.",
       "options": {
         "tag": {
-          "description": "$t(common.player_tag_argument)"
+          "description": "Player tag or @user mention."
         }
       }
     },
@@ -455,7 +454,7 @@
       "no_war_id": "No war was found for the specified war ID.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         },
         "war_id": {
           "description": "Search by war ID."
@@ -467,7 +466,7 @@
       "no_rushed": "No rushed units for Town Hall {{townhall}}.",
       "options": {
         "tag": {
-          "description": "$t(common.player_tag_argument)"
+          "description": "Player tag or @user mention."
         },
         "clan": {
           "description": "Displays rushed units of a clan."
@@ -489,7 +488,7 @@
       "no_stats": "No stats are available for this filter or clan.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, 12 13, all, equal)"
@@ -518,7 +517,7 @@
       "description": "Shows units of a player with max/min levels.",
       "options": {
         "tag": {
-          "description": "$t(common.player_tag_argument)"
+          "description": "Player tag or @user mention."
         }
       }
     },
@@ -526,7 +525,7 @@
       "description": "Remaining upgrades of a player with upgrading cost.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -536,7 +535,7 @@
       "not_in_war": "Clan is not in a war.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         },
         "war_id": {
           "description": "Search by war ID."
@@ -547,7 +546,7 @@
       "description": "Shows the last 10 clan war logs.",
       "options": {
         "tag": {
-          "description": "$t(common.clan_tag_argument)"
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -594,7 +593,7 @@
             "description": "Tag of the clan."
           },
           "channel": {
-            "description": "Channel to be removed"
+            "description": "Channel to be removed."
           }
         },
         "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
