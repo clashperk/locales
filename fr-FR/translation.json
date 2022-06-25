@@ -208,7 +208,7 @@
         "description": "Supprimer un signalement de joueur.",
         "options": {
           "tag": {
-            "description": "The tag of a player to delete."
+            "description": "Identifiant du joueur à supprimer."
           }
         }
       },
@@ -224,7 +224,7 @@
         "description": "Rechercher un signalement de joueur.",
         "options": {
           "tag": {
-            "description": "The tag of a player to search."
+            "description": "Identifiant du joueur à rechercher."
           }
         }
       }
