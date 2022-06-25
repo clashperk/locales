@@ -210,7 +210,7 @@ export const command = {
             description: 'Delete a player flag.',
             options: {
                 tag: {
-                    description: 'The tag a player to delete.'
+                    description: 'The tag of a player to delete.'
                 }
             }
         },
@@ -226,7 +226,7 @@ export const command = {
             description: 'Search for a player flag.',
             options: {
                 tag: {
-                    description: 'The tag a player to search.'
+                    description: 'The tag of a player to search.'
                 }
             }
         }
