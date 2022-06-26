@@ -1,5 +1,5 @@
 export const common = {
-    no_clans_found: 'No clans were found in our Database for the argument you specified.',
+    no_clans_found: 'No clans were found in our Database for the specified argument.',
     no_clans_linked: 'No clans are linked to this server. Why not link some?',
     clan_limit:
         'The maximum number of clans has reached.  Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.',
@@ -248,7 +248,7 @@ export const command = {
                 }
             },
             no_bots: 'Bot accounts are not allowed to be linked.',
-            fail: 'The player/clan tag you specified is not valid.',
+            fail: 'This player or clan tag is not valid.',
             prompt: 'What would you like to link? A Player or a Clan?',
             success: 'Successfully linked {{target}} to {{user}}.',
             link_exists: '{{player}} is already linked.',
@@ -600,10 +600,8 @@ export const command = {
                 }
             },
             channel_unlink: 'Successfully unlinked {{clan}} from {{channel}}.',
-            channel_not_found: 'I could not find any clan that is linked to {{channel}}.',
-            autorole_disabled: 'Auto-role has been disabled for {{count}} clans.',
-            autorole_disabled_clan: 'Auto-role has been disabled for {{clan}}.',
-            clan_not_linked: 'No clans were found on the server for the tag you specified.',
+            channel_not_found: 'No clans were found that is linked to {{channel}}.',
+            clan_not_linked: 'No clans were found on the server for the specified tag.',
             clan_deleted: 'Successfully deleted {{clan}}.',
             feature_disabled: 'Successfully disabled {{feature}} for {{clan}}.'
         },
@@ -625,11 +623,11 @@ export const command = {
                 members: {
                     description: 'The Member role.'
                 },
-                tag: {
-                    description: 'Tag of a clan. Do not pass the tag if you want the same type of roles for all clans.'
+                clans: {
+                    description: 'Clan tags or aliases to filter clans.'
                 },
-                verify: {
-                    description: 'Roles will be given to verified players only.'
+                only_verified: {
+                    description: 'Roles will be given to the verified players only. (API token verification is required)'
                 }
             },
             no_roles: 'You must specify 3 roles to execute this command.',
@@ -645,10 +643,14 @@ export const command = {
         disable: {
             description: 'Disable the auto-role feature that assigns roles to members based upon their clan role.',
             options: {
-                tag: {
-                    description: 'Tag of the clan.'
+                clans: {
+                    description: 'Clan tags or aliases to filter clans.'
+                },
+                clear: {
+                    description: 'Clear all roles from all clans.'
                 }
-            }
+            },
+            success_with_count: 'Auto-role has been disabled for {{count}} clans.\n{{clans}}'
         }
     },
     summary: {
