@@ -1,6 +1,6 @@
 {
   "common": {
-    "no_clans_found": "Aucun clan n'a été trouvé dans notre base de données pour l'élément spécifié.",
+    "no_clans_found": "No clans were found in our Database for the specified argument.",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?",
     "clan_limit": "Le nombre maximum de clans a été atteint. Merci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir ajouter plus de deux clans.",
     "clan_verification": "Nous devons nous assurer que vous êtes bien chef ou adjoint de ce clan. Veuillez vérifier votre compte joueur avec le jeton API.\nUtilisez la commande `/verify` pour vérifier votre compte. Le jeton API est disponible dans les paramètres du jeu.\n\nVous pouvez également ajouter un code temporaire `{{code}}` dans la description de votre clan. Attendez ensuite 1 à 2 min et exécutez à nouveau cette commande. Une fois le compte vérifié, vous pouvez retirer le code en toute sécurité.",
@@ -246,7 +246,7 @@
           }
         },
         "no_bots": "Les comptes bots ne peuvent pas être reliés.",
-        "fail": "L'identifiant du joueur/clan spécifié n'est pas valide.",
+        "fail": "This player or clan tag is not valid.",
         "prompt": "Que voulez-vous lier ? Un joueur ou un clan ?",
         "success": "{{target}} relié à {{user}} avec succès.",
         "link_exists": "{{player}} est déjà relié.",
@@ -597,10 +597,8 @@
           }
         },
         "channel_unlink": "{{clan}} dissocié de {{channel}} avec succès.",
-        "channel_not_found": "Je n'ai pas trouvé de clan qui soit relié à {{channel}}.",
-        "autorole_disabled": "Auto-rôle a été désactivé pour {{count}} clans.",
-        "autorole_disabled_clan": "Auto-rôle a été désactivé pour {{clan}}.",
-        "clan_not_linked": "Aucun clan n'a été trouvé sur le serveur pour l'identifiant spécifié.",
+        "channel_not_found": "No clans were found that is linked to {{channel}}.",
+        "clan_not_linked": "No clans were found on the server for the specified tag.",
         "clan_deleted": "{{clan}} supprimé avec succès.",
         "feature_disabled": "{{feature}} pour {{clan}} désactivé avec succès."
       },
@@ -622,11 +620,11 @@
           "members": {
             "description": "Le rôle de membre."
           },
-          "tag": {
-            "description": "Identifiant du clan. Sautez cette étape si vous voulez le même type de rôles pour tous les clans."
+          "clans": {
+            "description": "Identifiants de clan ou alias pour filtrer les clans."
           },
-          "verify": {
-            "description": "Les rôles seront attribués uniquement aux joueurs vérifiés."
+          "only_verified": {
+            "description": "Roles will be given to the verified players only. (API token verification is required)"
           }
         },
         "no_roles": "Vous devez spécifier 3 rôles pour exécuter cette commande.",
@@ -641,10 +639,14 @@
       "disable": {
         "description": "Désactiver la fonction auto-rôle basée sur les rôles au sein du clan.",
         "options": {
-          "tag": {
-            "description": "Identifiant du clan."
+          "clans": {
+            "description": "Identifiants de clan ou alias pour filtrer les clans."
+          },
+          "clear": {
+            "description": "Clear all roles from all clans."
           }
-        }
+        },
+        "success_with_count": "Auto-role has been disabled for {{count}} clans.\n{{clans}}"
       }
     },
     "summary": {
