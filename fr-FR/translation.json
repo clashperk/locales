@@ -597,7 +597,7 @@
           }
         },
         "channel_unlink": "{{clan}} dissocié de {{channel}} avec succès.",
-        "channel_not_found": "No clans were found that is linked to {{channel}}.",
+        "channel_not_found": "No clans were found that are linked to {{channel}}.",
         "clan_not_linked": "No clans were found on the server for the specified tag.",
         "clan_deleted": "{{clan}} supprimé avec succès.",
         "feature_disabled": "{{feature}} pour {{clan}} désactivé avec succès."
@@ -633,8 +633,7 @@
         "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
         "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
         "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
-        "success_clan": "L'auto-rôle a été activé avec succès pour le clan {{clan}}.",
-        "success": "L'auto-rôle a été activé avec succès pour {{count}} clans."
+        "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}"
       },
       "disable": {
         "description": "Désactiver la fonction auto-rôle basée sur les rôles au sein du clan.",
@@ -646,7 +645,7 @@
             "description": "Clear all roles from all clans."
           }
         },
-        "success_with_count": "Auto-role has been disabled for {{count}} clans.\n{{clans}}"
+        "success_with_count": "Auto-role has been disabled for {{count}} clan(s). \n{{clans}}"
       }
     },
     "summary": {
