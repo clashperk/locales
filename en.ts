@@ -637,8 +637,7 @@ export const command = {
             roles_already_used:
                 'Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.',
             clan_not_linked: 'The clan must be linked to the server to enable auto-role.',
-            success_clan: 'Successfully enabled auto-role for the clan {{clan}}.',
-            success: 'Successfully enabled auto-role for {{count}} clans.'
+            success_with_count: 'Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}'
         },
         disable: {
             description: 'Disable the auto-role feature that assigns roles to members based upon their clan role.',
@@ -650,7 +649,7 @@ export const command = {
                     description: 'Clear all roles from all clans.'
                 }
             },
-            success_with_count: 'Auto-role has been disabled for {{count}} clans.\n{{clans}}'
+            success_with_count: 'Auto-role has been disabled for {{count}} clan(s). \n{{clans}}'
         }
     },
     summary: {
