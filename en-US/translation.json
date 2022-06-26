@@ -597,7 +597,7 @@
           }
         },
         "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
-        "channel_not_found": "No clans were found that is linked to {{channel}}.",
+        "channel_not_found": "No clans were found that are linked to {{channel}}.",
         "clan_not_linked": "No clans were found on the server for the specified tag.",
         "clan_deleted": "Successfully deleted {{clan}}.",
         "feature_disabled": "Successfully disabled {{feature}} for {{clan}}."
