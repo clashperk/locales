@@ -1,6 +1,6 @@
 {
   "common": {
-    "no_clans_found": "No clans were found in our Database for the specified argument.",
+    "no_clans_found": "Aucun clan n'a été trouvé dans notre base de données pour l'élément spécifié.",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?",
     "clan_limit": "Le nombre maximum de clans a été atteint. Merci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir ajouter plus de deux clans.",
     "clan_verification": "Nous devons nous assurer que vous êtes bien chef ou adjoint de ce clan. Veuillez vérifier votre compte joueur avec le jeton API.\nUtilisez la commande `/verify` pour vérifier votre compte. Le jeton API est disponible dans les paramètres du jeu.\n\nVous pouvez également ajouter un code temporaire `{{code}}` dans la description de votre clan. Attendez ensuite 1 à 2 min et exécutez à nouveau cette commande. Une fois le compte vérifié, vous pouvez retirer le code en toute sécurité.",
@@ -246,7 +246,7 @@
           }
         },
         "no_bots": "Les comptes bots ne peuvent pas être reliés.",
-        "fail": "This player or clan tag is not valid.",
+        "fail": "L'identifiant du joueur/clan spécifié n'est pas valide.",
         "prompt": "Que voulez-vous lier ? Un joueur ou un clan ?",
         "success": "{{target}} relié à {{user}} avec succès.",
         "link_exists": "{{player}} est déjà relié.",
@@ -597,8 +597,8 @@
           }
         },
         "channel_unlink": "{{clan}} dissocié de {{channel}} avec succès.",
-        "channel_not_found": "No clans were found that are linked to {{channel}}.",
-        "clan_not_linked": "No clans were found on the server for the specified tag.",
+        "channel_not_found": "Je n'ai pas trouvé de clan qui soit relié à {{channel}}.",
+        "clan_not_linked": "Aucun clan n'a été trouvé sur le serveur pour l'identifiant spécifié.",
         "clan_deleted": "{{clan}} supprimé avec succès.",
         "feature_disabled": "{{feature}} pour {{clan}} désactivé avec succès."
       },
