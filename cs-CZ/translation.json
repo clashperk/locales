@@ -621,7 +621,7 @@
             "description": "The Member role."
           },
           "clans": {
-            "description": "Clan tags or aliases to filter clans."
+            "description": "Clan tags or aliases to filter clans. (enter * to include all clans)"
           },
           "only_verified": {
             "description": "Roles will be given to the verified players only. (API token verification is required)"
