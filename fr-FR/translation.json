@@ -50,7 +50,7 @@
       }
     },
     "lastseen": {
-      "description": "Heure à laquelle les membres du clan ont été vus dernièrement et leur activité.",
+      "description": "The last seen time and activities of clan members.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -327,7 +327,7 @@
             "description": "Message de rappel pour la notification."
           },
           "clans": {
-            "description": "Identifiants de clan ou alias (facultatif) pour choisir des clans spécifiques."
+            "description": "Identifiants de clan ou alias pour choisir des clans spécifiques (facultatif)."
           }
         },
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
@@ -574,7 +574,7 @@
         "missing_access": "Il me manque {{permission}} dans {{channel}} pour exécuter cette commande.",
         "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
         "server_link": {
-          "success": "Relié avec succès {{clan}} à {{guild}}.",
+          "success": "{{clan}} relié à {{guild}} avec succès.",
           "already_linked": "{{clan}} est déjà relié à {{guild}}."
         },
         "channel_link": {
@@ -621,7 +621,7 @@
             "description": "Le rôle de membre."
           },
           "clans": {
-            "description": "Identifiants de clan ou alias pour filtrer les clans."
+            "description": "Identifiants de clan ou alias pour filtrer les clans. (saisir * pour inclure tous les clans)"
           },
           "only_verified": {
             "description": "Roles will be given to the verified players only. (API token verification is required)"
