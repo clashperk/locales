@@ -50,7 +50,7 @@
       }
     },
     "lastseen": {
-      "description": "The last seen time and activities of clan members.",
+      "description": "Moment où les membres du clan ont été vus pour la dernière fois et leur activité.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -624,7 +624,7 @@
             "description": "Identifiants de clan ou alias pour filtrer les clans. (saisir * pour inclure tous les clans)"
           },
           "only_verified": {
-            "description": "Roles will be given to the verified players only. (API token verification is required)"
+            "description": "Les rôles seront attribués uniquement aux joueurs vérifiés. (La vérification du jeton API est nécessaire)"
           }
         },
         "no_roles": "Vous devez spécifier 3 rôles pour exécuter cette commande.",
@@ -633,7 +633,7 @@
         "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
         "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
         "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
-        "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}"
+        "success_with_count": "L'auto-rôle a été activé avec succès pour {{count}} clan(s). \n{{clans}}"
       },
       "disable": {
         "description": "Désactiver la fonction auto-rôle basée sur les rôles au sein du clan.",
@@ -642,10 +642,10 @@
             "description": "Identifiants de clan ou alias pour filtrer les clans."
           },
           "clear": {
-            "description": "Clear all roles from all clans."
+            "description": "Supprimer les rôles de tous les clans."
           }
         },
-        "success_with_count": "Auto-role has been disabled for {{count}} clan(s). \n{{clans}}"
+        "success_with_count": "L'auto-rôle a été désactivé pour {{count}} clan(s). \n{{clans}}"
       }
     },
     "summary": {
