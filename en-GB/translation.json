@@ -1,6 +1,6 @@
 {
   "common": {
-    "no_clans_found": "No clans were found in our Database for the specified argument.",
+    "no_clans_found": "No clans were found on this server for the specified input!",
     "no_clans_linked": "No clans are linked to this server. Why not link some?",
     "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.",
     "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.",
@@ -29,8 +29,8 @@
     },
     "clan_tag_argument": "Clan tag or alias or @user mention.",
     "player_tag_argument": "Player tag or @user mention.",
-    "maintenance_start": "Maintenance break has started!",
-    "maintenance_end": "Maintenance break has finished!"
+    "maintenance_start": "The maintenance break has started!",
+    "maintenance_end": "The maintenance break has finished!"
   },
   "command": {
     "activity": {
