@@ -32,8 +32,8 @@ export const common = {
     clan_tag_argument: 'Clan tag or alias or @user mention.',
     player_tag_argument: 'Player tag or @user mention.',
     /** Server Based */
-    maintenance_start: 'Maintenance break has started!',
-    maintenance_end: 'Maintenance break has finished!'
+    maintenance_start: 'The maintenance break has started!',
+    maintenance_end: 'The maintenance break has finished!'
 } as const;
 
 export const command = {
