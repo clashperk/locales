@@ -1,6 +1,6 @@
 {
   "common": {
-    "no_clans_found": "No clans were found in our Database for the specified argument.",
+    "no_clans_found": "No clans were found on this server for the specified input!",
     "no_clans_linked": "No clans are linked to this server. Why not link some?",
     "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.",
     "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.",
@@ -9,6 +9,7 @@
     "no_data": "No data is available at this moment. We are still collecting!",
     "no_clan_data": "No data is available for {{clan}}. We are still collecting!",
     "no_clan_members": "‎{{clan}} does not have any clan members.",
+    "fetch_failed": "Something went wrong while fetching data from the API.",
     "component": {
       "expired": "This component is no longer active. Run the command again.",
       "unauthorized": "You must run the command to interact with components."
@@ -25,12 +26,12 @@
       "429": "The request was throttled because the number of requests was above the threshold defined for the used API token.",
       "500": "An unknown error happened when handling the request.",
       "503": "Service is temporarily unavailable because of maintenance.",
-      "504": "504 Request Timeout"
+      "504": "504 Request Timeout."
     },
     "clan_tag_argument": "Clan tag or alias or @user mention.",
     "player_tag_argument": "Player tag or @user mention.",
     "maintenance_start": "The maintenance break has started!",
-    "maintenance_end": "The maintenance break has finished!"
+    "maintenance_end": "The maintenance break has finished! {{duration}}"
   },
   "command": {
     "activity": {
@@ -205,7 +206,10 @@
           "reason": {
             "description": "Reason for the flag."
           }
-        }
+        },
+        "no_reason": "You must provide a reason for the flag.",
+        "reason_max_limit": "The reason must be 1024 or fewer in length.",
+        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
       },
       "delete": {
         "description": "Delete a player flag.",
@@ -213,7 +217,10 @@
           "tag": {
             "description": "The tag of a player to delete."
           }
-        }
+        },
+        "no_tag": "You must provide a player tag to delete a flag.",
+        "no_result": "No matches were found with the tag {{tag}}.",
+        "success": "Successfully deleted the flag with the tag {{tag}}."
       },
       "list": {
         "description": "List all player flags.",
@@ -221,7 +228,8 @@
           "export": {
             "description": "Export all player flags to Excel."
           }
-        }
+        },
+        "no_flags": "No flags have been created."
       },
       "search": {
         "description": "Search for a player flag.",
@@ -229,7 +237,8 @@
           "tag": {
             "description": "The tag of a player to search."
           }
-        }
+        },
+        "not_found": "No matches were found with the tag {{tag}}."
       }
     },
     "link": {
@@ -313,7 +322,13 @@
         "user": {
           "description": "User ID or @user mention."
         }
-      }
+      },
+      "invalid_member": "You must mention a valid member to use this command.",
+      "missing_permission": "You are missing `Manage Nicknames` permission to use this command.",
+      "missing_access_self": "I do not have permission to change your nickname.",
+      "missing_access_other": "I do not have permission to change nickname of this member.",
+      "no_players": "No players are linked to {{user}}.",
+      "char_limit": "Your nickname must be less than 31 characters."
     },
     "reminder": {
       "description": "Create, delete or list war reminders.",
@@ -675,6 +690,12 @@
       },
       "wars": {
         "description": ""
+      },
+      "clan_games": {
+        "description": "",
+        "min_clan_size": "You must have a minimum of {{clans}} clans on your server to use this command.",
+        "scoreboard": "Based on the highest scores and completion times.",
+        "performance": "Based on completing maximum points."
       }
     },
     "help": {
