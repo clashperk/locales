@@ -326,7 +326,7 @@
       "invalid_member": "You must mention a valid member to use this command.",
       "missing_permission": "You are missing `Manage Nicknames` permission to use this command.",
       "missing_access_self": "I do not have permission to change your nickname.",
-      "missing_access_other": "I do not have permission to change nickname of this member.",
+      "missing_access_other": "I do not have permission to change the nickname of this member.",
       "no_players": "No players are linked to {{user}}.",
       "char_limit": "Your nickname must be less than 31 characters."
     },
