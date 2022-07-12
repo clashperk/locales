@@ -1,6 +1,6 @@
 {
   "common": {
-    "no_clans_found": "Aucun clan n'a été trouvé dans notre base de données pour l'élément spécifié.",
+    "no_clans_found": "No clans were found on this server for the specified input!",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?",
     "clan_limit": "Le nombre maximum de clans a été atteint. Veuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir ajouter plus de deux clans.",
     "patron_only": "Cette commande n'est disponible que sur les serveurs des abonnés. Veuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir utiliser cette commande.",
@@ -9,6 +9,7 @@
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
     "no_clan_data": "Aucune donnée n'est disponible pour {{clan}}. Nous sommes toujours en train de collecter !",
     "no_clan_members": "‎{{clan}} n'a aucun membre.",
+    "fetch_failed": "Something went wrong while fetching data from the API.",
     "component": {
       "expired": "Ce composant n'est plus actif. Exécutez à nouveau la commande.",
       "unauthorized": "Vous devez exécuter la commande pour interagir avec les composants."
@@ -25,12 +26,12 @@
       "429": "La demande a été rejetée, car le nombre de demandes était supérieur au seuil défini pour le jeton d'API utilisé.",
       "500": "Une erreur inconnue s'est produite lors du traitement de la demande.",
       "503": "Le service est temporairement indisponible pour cause de maintenance.",
-      "504": "504 Délai d'attente de la demande dépassé"
+      "504": "504 Request Timeout."
     },
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
     "maintenance_start": "The maintenance break has started!",
-    "maintenance_end": "The maintenance break has finished!"
+    "maintenance_end": "The maintenance break has finished! {{duration}}"
   },
   "command": {
     "activity": {
@@ -205,7 +206,10 @@
           "reason": {
             "description": "Raison du signalement."
           }
-        }
+        },
+        "no_reason": "You must provide a reason for the flag.",
+        "reason_max_limit": "The reason must be 1024 or fewer in length.",
+        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
       },
       "delete": {
         "description": "Supprimer un signalement de joueur.",
@@ -213,7 +217,10 @@
           "tag": {
             "description": "Identifiant du joueur à supprimer."
           }
-        }
+        },
+        "no_tag": "You must provide a player tag to delete a flag.",
+        "no_result": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}.",
+        "success": "Successfully deleted the flag with the tag {{tag}}."
       },
       "list": {
         "description": "Lister tous les signalements de joueurs.",
@@ -221,7 +228,8 @@
           "export": {
             "description": "Exporter tous les signalements de joueurs vers Excel."
           }
-        }
+        },
+        "no_flags": "No flags have been created."
       },
       "search": {
         "description": "Rechercher un signalement de joueur.",
@@ -229,7 +237,8 @@
           "tag": {
             "description": "Identifiant du joueur à rechercher."
           }
-        }
+        },
+        "not_found": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}."
       }
     },
     "link": {
@@ -313,7 +322,13 @@
         "user": {
           "description": "Identifiant utilisateur ou mention @utilisateur."
         }
-      }
+      },
+      "invalid_member": "You must mention a valid member to use this command.",
+      "missing_permission": "You are missing `Manage Nicknames` permission to use this command.",
+      "missing_access_self": "I do not have permission to change your nickname.",
+      "missing_access_other": "I do not have permission to change nickname of this member.",
+      "no_players": "No players are linked to {{user}}.",
+      "char_limit": "Your nickname must be less than 31 characters."
     },
     "reminder": {
       "description": "Créer, supprimer ou lister les rappels de guerre.",
@@ -675,6 +690,12 @@
       },
       "wars": {
         "description": ""
+      },
+      "clan_games": {
+        "description": "",
+        "min_clan_size": "You must have a minimum of {{clans}} clans on your server to use this command.",
+        "scoreboard": "Based on the highest scores and completion times.",
+        "performance": "Based on completing maximum points."
       }
     },
     "help": {
