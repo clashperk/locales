@@ -9,7 +9,7 @@
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
     "no_clan_data": "Aucune donnée n'est disponible pour {{clan}}. Nous sommes toujours en train de collecter !",
     "no_clan_members": "‎{{clan}} n'a aucun membre.",
-    "fetch_failed": "Something went wrong while fetching data from the API.",
+    "fetch_failed": "Un problème est survenu lors de la récupération des données de l'API.",
     "component": {
       "expired": "Ce composant n'est plus actif. Exécutez à nouveau la commande.",
       "unauthorized": "Vous devez exécuter la commande pour interagir avec les composants."
@@ -207,8 +207,8 @@
             "description": "Raison du signalement."
           }
         },
-        "no_reason": "You must provide a reason for the flag.",
-        "reason_max_limit": "The reason must be 1024 or fewer in length.",
+        "no_reason": "Vous devez fournir une raison au signalement.",
+        "reason_max_limit": "Le motif doit avoir une longueur maximale de 1024 caractères.",
         "success": "Successfully flagged {{count}} player(s). \n{{players}}"
       },
       "delete": {
