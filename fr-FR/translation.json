@@ -317,7 +317,7 @@
       }
     },
     "nickname": {
-      "description": "Choisir un surnom dans la liste des joueurs reliés.",
+      "description": "Choose a nickname from the linked player list.",
       "options": {
         "user": {
           "description": "Identifiant utilisateur ou mention @utilisateur."
