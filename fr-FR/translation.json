@@ -341,11 +341,11 @@
           "message": {
             "description": "Message de rappel pour la notification."
           },
+          "clans": {
+            "description": "Clan tags or aliases. (enter * to include all clans)"
+          },
           "channel": {
             "description": "Message de rappel pour la notification."
-          },
-          "clans": {
-            "description": "Identifiants de clan ou alias pour choisir des clans spécifiques (facultatif)."
           }
         },
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
@@ -639,7 +639,10 @@
             "description": "Le rôle de membre."
           },
           "clans": {
-            "description": "Identifiants de clan ou alias pour filtrer les clans. (saisir * pour inclure tous les clans)"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
+          },
+          "common_role": {
+            "description": "Common role for everyone in the clan."
           },
           "only_verified": {
             "description": "Les rôles seront attribués uniquement aux joueurs vérifiés. (La vérification du jeton API est nécessaire)"
