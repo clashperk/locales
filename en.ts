@@ -344,11 +344,11 @@ export const command = {
                 message: {
                     description: 'Reminder message for the notification.'
                 },
+                clans: {
+                    description: 'Clan tags or aliases. (enter * to include all clans)'
+                },
                 channel: {
                     description: 'Reminder message for the notification.'
-                },
-                clans: {
-                    description: 'Optional clan tags or aliases to choose specific clans.'
                 }
             },
             max_limit: 'You can only have 25 reminders.',
@@ -643,7 +643,10 @@ export const command = {
                     description: 'The Member role.'
                 },
                 clans: {
-                    description: 'Clan tags or aliases to filter clans. (enter * to include all clans)'
+                    description: 'Clan tags or aliases. (enter * to include all clans)'
+                },
+                common_role: {
+                    description: 'Common role for everyone in the clan.'
                 },
                 only_verified: {
                     description: 'Roles will be given to the verified players only. (API token verification is required)'
