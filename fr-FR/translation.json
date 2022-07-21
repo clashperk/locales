@@ -1,6 +1,6 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input!",
+    "no_clans_found": "Aucun clan n'a été trouvé dans notre base de données pour l'élément spécifié.",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?",
     "clan_limit": "Le nombre maximum de clans a été atteint. Veuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir ajouter plus de deux clans.",
     "patron_only": "Cette commande n'est disponible que sur les serveurs des abonnés. Veuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir utiliser cette commande.",
@@ -9,29 +9,29 @@
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
     "no_clan_data": "Aucune donnée n'est disponible pour {{clan}}. Nous sommes toujours en train de collecter !",
     "no_clan_members": "‎{{clan}} n'a aucun membre.",
-    "fetch_failed": "Something went wrong while fetching data from the API.",
+    "fetch_failed": "Un problème est survenu lors de la récupération des données de l'API.",
     "component": {
       "expired": "Ce composant n'est plus actif. Exécutez à nouveau la commande.",
-      "unauthorized": "Vous devez exécuter la commande pour interagir avec les composants."
+      "unauthorized": "Vous devez exécuter la commande pour intéragir avec les composants."
     },
     "no_clan_tag": "Vous devez fournir un identifiant de clan pour exécuter cette commande !",
     "no_player_tag": "Vous devez fournir un identifiant de joueur pour exécuter cette commande !",
-    "clan_not_linked": "Aucun clan n'est lié à {{user}}.",
-    "player_not_linked": "Aucun joueur n'est lié à {{user}}.",
+    "clan_not_linked": "Aucun clan n'est relié à {{user}}.",
+    "player_not_linked": "Aucun joueur n'est relié à {{user}}.",
     "guild_unauthorized": "Ce serveur n'est pas autorisé pour {{clan}}. Utilisez la commande `/setup` pour relier le clan.",
     "status_code": {
-      "400": "Le client a fourni des paramètres incorrects pour la demande.",
+      "400": "Le client a fourni des paramètres incorrects pour la requête.",
       "403": "Le jeton API ne permet pas d'accéder aux informations demandées.",
       "404": "Aucun résultat n'a été trouvé pour l'identifiant spécifié.",
-      "429": "La demande a été rejetée, car le nombre de demandes était supérieur au seuil défini pour le jeton d'API utilisé.",
-      "500": "Une erreur inconnue s'est produite lors du traitement de la demande.",
+      "429": "La demande a été rejetée, car le nombre de requêtes a atteint le seuil défini pour le jeton d'API utilisé.",
+      "500": "Une erreur inconnue s'est produite lors du traitement de la requête.",
       "503": "Le service est temporairement indisponible pour cause de maintenance.",
-      "504": "504 Request Timeout."
+      "504": "504 Requête expirée."
     },
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
-    "maintenance_start": "The maintenance break has started!",
-    "maintenance_end": "The maintenance break has finished! {{duration}}"
+    "maintenance_start": "La maintenance a commencé !",
+    "maintenance_end": "La maintenance est terminée !"
   },
   "command": {
     "activity": {
@@ -46,7 +46,7 @@
       }
     },
     "clan_games": {
-      "description": "Tableau de bord des jeux de clan des membres du clan.",
+      "description": "Tableau des scores aux jeux de clan des membres du clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -54,7 +54,7 @@
       }
     },
     "lastseen": {
-      "description": "Moment où les membres du clan ont été vus pour la dernière fois et leur activité.",
+      "description": "Dernière connexion et activité des membres du clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -207,9 +207,9 @@
             "description": "Raison du signalement."
           }
         },
-        "no_reason": "You must provide a reason for the flag.",
-        "reason_max_limit": "The reason must be 1024 or fewer in length.",
-        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
+        "no_reason": "Vous devez fournir une raison au signalement.",
+        "reason_max_limit": "Le motif doit avoir une longueur maximale de 1024 caractères.",
+        "success": "{{count}} joueur(s) signalé(s) avec succès. \n{{players}}"
       },
       "delete": {
         "description": "Supprimer un signalement de joueur.",
@@ -218,9 +218,9 @@
             "description": "Identifiant du joueur à supprimer."
           }
         },
-        "no_tag": "You must provide a player tag to delete a flag.",
+        "no_tag": "Vous devez fournir un identifiant de joueur pour supprimer un signalement.",
         "no_result": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}.",
-        "success": "Successfully deleted the flag with the tag {{tag}}."
+        "success": "Le signalement de l'identifiant {{tag}} a été supprimé avec succès."
       },
       "list": {
         "description": "Lister tous les signalements de joueurs.",
@@ -229,7 +229,7 @@
             "description": "Exporter tous les signalements de joueurs vers Excel."
           }
         },
-        "no_flags": "No flags have been created."
+        "no_flags": "Aucun signalement n'a été créé."
       },
       "search": {
         "description": "Rechercher un signalement de joueur.",
@@ -309,7 +309,7 @@
       "no_result": "Faites une recherche plus spécifique et réessayez."
     },
     "profile": {
-      "description": "Affiche les informations sur l'utilisateur et les comptes liés.",
+      "description": "Affiche les informations et les comptes liés de l'utilisateur.",
       "options": {
         "user": {
           "description": "Identifiant utilisateur ou mention @utilisateur."
@@ -317,18 +317,18 @@
       }
     },
     "nickname": {
-      "description": "Choisir un surnom dans la liste des joueurs reliés.",
+      "description": "Choisir un pseudo dans la liste des joueurs reliés.",
       "options": {
         "user": {
           "description": "Identifiant utilisateur ou mention @utilisateur."
         }
       },
-      "invalid_member": "You must mention a valid member to use this command.",
-      "missing_permission": "You are missing `Manage Nicknames` permission to use this command.",
-      "missing_access_self": "I do not have permission to change your nickname.",
-      "missing_access_other": "I do not have permission to change the nickname of this member.",
-      "no_players": "No players are linked to {{user}}.",
-      "char_limit": "Your nickname must be less than 31 characters."
+      "invalid_member": "Vous devez mentionner un membre valide pour utiliser cette commande.",
+      "missing_permission": "Il vous manque la permission `Gérer les pseudos` pour pouvoir utiliser cette commande.",
+      "missing_access_self": "Je n'ai pas la permission de changer votre pseudo.",
+      "missing_access_other": "Je n'ai pas la permission de changer le pseudo de ce membre.",
+      "no_players": "Aucun joueur n'est relié à {{user}}.",
+      "char_limit": "Votre pseudo doit comporter moins de 31 caractères."
     },
     "reminder": {
       "description": "Créer, supprimer ou lister les rappels de guerre.",
@@ -336,16 +336,16 @@
         "description": "Créer un rappel de guerre pour mentionner des membres.",
         "options": {
           "duration": {
-            "description": "Durée restante pour mentionner des participants à la guerre (multiple de 15 min, ex. 15m, 30m, 1h)"
+            "description": "Temps restant pour mentionner des participants à la guerre (multiple de 15 min, ex. 15m, 30m, 1h)"
           },
           "message": {
             "description": "Message de rappel pour la notification."
           },
+          "clans": {
+            "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
+          },
           "channel": {
             "description": "Message de rappel pour la notification."
-          },
-          "clans": {
-            "description": "Identifiants de clan ou alias pour choisir des clans spécifiques (facultatif)."
           }
         },
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
@@ -354,13 +354,13 @@
         "duration_limit": "La durée doit être supérieure à 15 minutes et inférieure à 45 heures.",
         "duration_order": "La durée doit être un multiple de 15 minutes. ex. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "Le menu de sélection des clans n'est pas disponible au-delà de 25 clans. Les clans {{clans}} ont été sélectionnés automatiquement !\nPour créer un rappel pour des clans spécifiques, passez par l'option \"clans\" pour indiquer les identifiants de clan ou les alias lors de l'exécution de la commande.",
-        "success": "Sauvegardé avec succès !"
+        "success": "Sauvegarde réussie !"
       },
       "delete": {
         "description": "Supprimer un rappel ou tous les effacer.",
         "options": {
           "id": {
-            "description": "ID du rappel."
+            "description": "Identifiant du rappel."
           },
           "clear": {
             "description": "Si vous souhaitez effacer tous les rappels."
@@ -459,7 +459,7 @@
       }
     },
     "player": {
-      "description": "Résumé et aperçu du joueur.",
+      "description": "Résumé et vue d'ensemble du joueur.",
       "options": {
         "tag": {
           "description": "Identifiant du joueur ou mention @utilisateur."
@@ -532,7 +532,7 @@
       }
     },
     "units": {
-      "description": "Affiche les unités d'un joueur avec les niveaux max/min.",
+      "description": "Affiche les troupes d'un joueur avec les niveaux max/min.",
       "options": {
         "tag": {
           "description": "Identifiant du joueur ou mention @utilisateur."
@@ -548,20 +548,20 @@
       }
     },
     "war": {
-      "description": "Affiche le résumé et l'aperçu de la guerre.",
-      "no_war_id": "Aucune guerre n'a été trouvée pour l'ID de guerre spécifié.",
+      "description": "Affiche le résumé et la vue d'ensemble de la guerre.",
+      "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "war_id": {
-          "description": "Rechercher par ID de guerre."
+          "description": "Rechercher avec l'identifiant de guerre."
         }
       }
     },
     "warlog": {
-      "description": "Affiche les 10 dernières guerres de clans.",
+      "description": "Affiche le journal des 10 dernières guerres de clans.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -630,16 +630,19 @@
         "description": "Activer la fonction auto-rôle basée sur les rôles au sein du clan.",
         "options": {
           "co_leads": {
-            "description": "Le rôle de chef adjoint."
+            "description": "Le rôle de Chef-adjoint."
           },
           "elders": {
-            "description": "Le rôle d'aîné."
+            "description": "Le rôle d'Aîné."
           },
           "members": {
-            "description": "Le rôle de membre."
+            "description": "Le rôle de Membre."
           },
           "clans": {
-            "description": "Identifiants de clan ou alias pour filtrer les clans. (saisir * pour inclure tous les clans)"
+            "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
+          },
+          "common_role": {
+            "description": "Rôle commun à tous les membres du clan."
           },
           "only_verified": {
             "description": "Les rôles seront attribués uniquement aux joueurs vérifiés. (La vérification du jeton API est nécessaire)"
@@ -660,7 +663,7 @@
             "description": "Identifiants de clan ou alias pour filtrer les clans."
           },
           "clear": {
-            "description": "Supprimer les rôles de tous les clans."
+            "description": "Supprimer tous les rôles de tous les clans."
           }
         },
         "success_with_count": "L'auto-rôle a été désactivé pour {{count}} clan(s). \n{{clans}}"
@@ -693,9 +696,9 @@
       },
       "clan_games": {
         "description": "",
-        "min_clan_size": "You must have a minimum of {{clans}} clans on your server to use this command.",
-        "scoreboard": "Based on the highest scores and completion times.",
-        "performance": "Based on completing maximum points."
+        "min_clan_size": "Vous devez avoir au moins {{clans}} clans sur votre serveur pour pouvoir utiliser cette commande.",
+        "scoreboard": "Basé sur les meilleurs scores et le temps de réalisation.",
+        "performance": "Basé sur le nombre maximum de points."
       }
     },
     "help": {
