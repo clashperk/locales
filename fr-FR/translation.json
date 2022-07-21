@@ -342,7 +342,7 @@
             "description": "Message de rappel pour la notification."
           },
           "clans": {
-            "description": "Clan tags or aliases. (enter * to include all clans)"
+            "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
           },
           "channel": {
             "description": "Message de rappel pour la notification."
@@ -549,14 +549,14 @@
     },
     "war": {
       "description": "Affiche le résumé et l'aperçu de la guerre.",
-      "no_war_id": "Aucune guerre n'a été trouvée pour l'ID de guerre spécifié.",
+      "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "war_id": {
-          "description": "Rechercher par ID de guerre."
+          "description": "Rechercher avec l'identifiant de guerre."
         }
       }
     },
@@ -639,7 +639,7 @@
             "description": "Le rôle de membre."
           },
           "clans": {
-            "description": "Clan tags or aliases. (enter * to include all clans)"
+            "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
           },
           "common_role": {
             "description": "Rôle commun à tous les membres du clan."
