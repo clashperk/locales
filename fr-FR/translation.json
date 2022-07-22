@@ -31,7 +31,7 @@
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
     "maintenance_start": "La maintenance a commencé !",
-    "maintenance_end": "La maintenance est terminée !"
+    "maintenance_end": "La maintenance est terminée ! {{duration}}"
   },
   "command": {
     "activity": {
