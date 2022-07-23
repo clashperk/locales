@@ -129,10 +129,10 @@
         "description": "Overzicht van CWL-aanvallen."
       },
       "lineup": {
-        "description": ""
+        "description": "No description."
       },
       "members": {
-        "description": ""
+        "description": "No description."
       },
       "roster": {
         "description": "CWL-rooster en stadhuis verdeling.",
@@ -154,10 +154,10 @@
         }
       },
       "stars": {
-        "description": ""
+        "description": "No description."
       },
       "stats": {
-        "description": ""
+        "description": "No description."
       }
     },
     "export": {
@@ -177,22 +177,22 @@
         }
       },
       "cwl": {
-        "description": ""
+        "description": "No description."
       },
       "last_wars": {
-        "description": ""
+        "description": "No description."
       },
       "members": {
-        "description": ""
+        "description": "No description."
       },
       "missed": {
-        "description": ""
+        "description": "No description."
       },
       "season": {
-        "description": ""
+        "description": "No description."
       },
       "wars": {
-        "description": ""
+        "description": "No description."
       }
     },
     "flag": {
@@ -680,22 +680,22 @@
         }
       },
       "clans": {
-        "description": ""
+        "description": "No description."
       },
       "players": {
-        "description": ""
+        "description": "No description."
       },
       "donations": {
-        "description": ""
+        "description": "No description."
       },
       "trophies": {
-        "description": ""
+        "description": "No description."
       },
       "wars": {
-        "description": ""
+        "description": "No description."
       },
       "clan_games": {
-        "description": "",
+        "description": "No description.",
         "min_clan_size": "Je moet minimaal {{clans}} clans op je server hebben om deze opdracht te gebruiken.",
         "scoreboard": "Gebaseerd op de hoogste scores en tijd.",
         "performance": "Gebaseerd op het behalen van de maximale punten."
