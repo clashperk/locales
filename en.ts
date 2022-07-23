@@ -132,10 +132,10 @@ export const command = {
             description: 'CWL attacks overview.'
         },
         lineup: {
-            description: ''
+            description: 'No description.'
         },
         members: {
-            description: ''
+            description: 'No description.'
         },
         roster: {
             description: 'CWL roster and town hall distribution.',
@@ -157,10 +157,10 @@ export const command = {
             }
         },
         stars: {
-            description: ''
+            description: 'No description.'
         },
         stats: {
-            description: ''
+            description: 'No description.'
         }
     },
     export: {
@@ -180,22 +180,22 @@ export const command = {
             }
         },
         cwl: {
-            description: ''
+            description: 'No description.'
         },
         last_wars: {
-            description: ''
+            description: 'No description.'
         },
         members: {
-            description: ''
+            description: 'No description.'
         },
         missed: {
-            description: ''
+            description: 'No description.'
         },
         season: {
-            description: ''
+            description: 'No description.'
         },
         wars: {
-            description: ''
+            description: 'No description.'
         }
     },
     flag: {
@@ -685,22 +685,22 @@ export const command = {
             }
         },
         clans: {
-            description: ''
+            description: 'No description.'
         },
         players: {
-            description: ''
+            description: 'No description.'
         },
         donations: {
-            description: ''
+            description: 'No description.'
         },
         trophies: {
-            description: ''
+            description: 'No description.'
         },
         wars: {
-            description: ''
+            description: 'No description.'
         },
         clan_games: {
-            description: '',
+            description: 'No description.',
             min_clan_size: 'You must have a minimum of {{clans}} clans on your server to use this command.',
             scoreboard: 'Based on the highest scores and completion times.',
             performance: 'Based on completing maximum points.'
