@@ -129,10 +129,10 @@
         "description": "Aperçu des attaques de Ligue."
       },
       "lineup": {
-        "description": ""
+        "description": "No description."
       },
       "members": {
-        "description": ""
+        "description": "No description."
       },
       "roster": {
         "description": "Équipes de la Ligue et répartition des hôtels de ville.",
@@ -154,10 +154,10 @@
         }
       },
       "stars": {
-        "description": ""
+        "description": "No description."
       },
       "stats": {
-        "description": ""
+        "description": "No description."
       }
     },
     "export": {
@@ -177,22 +177,22 @@
         }
       },
       "cwl": {
-        "description": ""
+        "description": "No description."
       },
       "last_wars": {
-        "description": ""
+        "description": "No description."
       },
       "members": {
-        "description": ""
+        "description": "No description."
       },
       "missed": {
-        "description": ""
+        "description": "No description."
       },
       "season": {
-        "description": ""
+        "description": "No description."
       },
       "wars": {
-        "description": ""
+        "description": "No description."
       }
     },
     "flag": {
@@ -680,22 +680,22 @@
         }
       },
       "clans": {
-        "description": ""
+        "description": "No description."
       },
       "players": {
-        "description": ""
+        "description": "No description."
       },
       "donations": {
-        "description": ""
+        "description": "No description."
       },
       "trophies": {
-        "description": ""
+        "description": "No description."
       },
       "wars": {
-        "description": ""
+        "description": "No description."
       },
       "clan_games": {
-        "description": "",
+        "description": "No description.",
         "min_clan_size": "Vous devez avoir au moins {{clans}} clans sur votre serveur pour pouvoir utiliser cette commande.",
         "scoreboard": "Basé sur les meilleurs scores et le temps de réalisation.",
         "performance": "Basé sur le nombre maximum de points."
