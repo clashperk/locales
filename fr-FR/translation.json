@@ -35,7 +35,7 @@
   },
   "command": {
     "activity": {
-      "description": "Affiche un graphique des membres du clan actifs heure par heure.",
+      "description": "Affiche un graphique des membres actifs du clan heure par heure.",
       "options": {
         "clans": {
           "description": "Identifiants de clans ou alias (3 maximum)"
@@ -74,11 +74,11 @@
           }
         },
         "no_name": "Vous devez spécifier un nom d'alias pour exécuter cette commande.",
-        "no_hash": "Un alias de clan ne doit pas commencer par un dièse.",
+        "no_hash": "Un alias de clan ne doit pas commencer par un hashtag.",
         "no_whitespace": "Un alias de clan ne doit pas contenir d'espace.",
         "no_clan": "Vous devez spécifier un identifiant de clan pour exécuter cette commande.",
         "exists": "Un alias avec le nom {{name}} existe déjà.",
-        "clan_not_linked": "Le clan doit être lié au serveur pour créer un alias.",
+        "clan_not_linked": "Le clan doit être relié au serveur pour créer un alias.",
         "success": "Création réussie d'un alias avec le nom {{name}}."
       },
       "delete": {
@@ -112,7 +112,7 @@
       "description": "Affiche quelques informations de débogage de base."
     },
     "cwl": {
-      "description": "Résumé et aperçu de la saison de Ligue.",
+      "description": "Résumé et aperçu de la saison de Ligue de clans.",
       "options": {
         "option": {
           "description": "Sélectionnez une option."
@@ -122,11 +122,11 @@
         }
       },
       "still_searching": "Votre clan {{clan}} est toujours à la recherche d'un adversaire.",
-      "not_in_season": "Votre clan {{clan}} ne participe pas à la saison de Ligues.",
-      "no_rounds": "Aucun round de Ligue n'a encore été joué. Veuillez réessayer plus tard.",
-      "no_season_data": "Aucune statistique de Ligue n'est disponible pour la saison {{season}}.",
+      "not_in_season": "Votre clan {{clan}} ne participe pas à la saison de Ligue de clans.",
+      "no_rounds": "Aucune manche de Ligue de clans n'a encore été joué, veuillez réessayer plus tard.",
+      "no_season_data": "Aucune statistique de Ligue de clans n'est disponible pour la saison {{season}}.",
       "attacks": {
-        "description": "Aperçu des attaques de Ligue."
+        "description": "Aperçu des attaques de Ligue de clans."
       },
       "lineup": {
         "description": "No description."
@@ -143,13 +143,13 @@
         }
       },
       "round": {
-        "description": "Résumé de la Ligue pour le round en cours.",
+        "description": "Résumé de la Ligue des clans pour la manche en cours.",
         "options": {
           "tag": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
           },
           "round": {
-            "description": "Numéro de round à afficher."
+            "description": "Numéro de la manche à afficher."
           }
         }
       },
@@ -204,11 +204,11 @@
             "description": "Identifiant du joueur à signaler."
           },
           "reason": {
-            "description": "Raison du signalement."
+            "description": "Motif du signalement."
           }
         },
-        "no_reason": "Vous devez fournir une raison au signalement.",
-        "reason_max_limit": "Le motif doit avoir une longueur maximale de 1024 caractères.",
+        "no_reason": "Vous devez fournir un motif au signalement.",
+        "reason_max_limit": "Le motif doit contenir au maximum 1024 caractères.",
         "success": "{{count}} joueur(s) signalé(s) avec succès. \n{{players}}"
       },
       "delete": {
