@@ -274,7 +274,7 @@
         },
         "no_result": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}.",
         "success": "Lien avec l'identifiant {{tag}} supprimé avec succès.",
-        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un adjoint \"vérifié\" pour effectuer cette action."
+        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un chef adjoint \"vérifié\" pour effectuer cette action."
       },
       "list": {
         "description": "Lister tous les liens des joueurs.",
@@ -296,7 +296,7 @@
         }
       },
       "success": "Vérification réussie ! {{info}}",
-      "invalid_token": "Vous devez fournir un jeton API valide qui se trouve dans les paramètres du jeu. \nhttps://i.imgur.com/Mlo4zAP.png"
+      "invalid_token": "Vous devez fournir un jeton API valide qui se trouve dans \"paramètres supplémentaires\" dans le jeu. \nhttps://i.imgur.com/Mlo4zAP.png"
     },
     "timezone": {
       "description": "Définir votre fuseau horaire.",
@@ -366,10 +366,10 @@
             "description": "Si vous souhaitez effacer tous les rappels."
           }
         },
-        "no_reminders": "Vous n'avez pas de rappels.",
+        "no_reminders": "Vous n'avez aucun rappel.",
         "cleared": "Tous les rappels ont été effacés avec succès.",
-        "not_found": "Aucun rappel n'a été trouvé avec l'ID {{id}}.",
-        "success": "Le rappel avec l'ID {{id}} a été supprimé avec succès.",
+        "not_found": "Aucun rappel n'a été trouvé avec l'identifiant {{id}}.",
+        "success": "Le rappel avec l'identifiant {{id}} a été supprimé avec succès.",
         "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un ID de rappel."
       },
       "list": {
@@ -380,7 +380,7 @@
       "description": "Analyser un lien de composition d'armée.",
       "no_link": "Vous devez fournir un lien valide de composition d'armée.",
       "invalid_link": "Ce lien de composition d'armée n'est pas valide.",
-      "possibly_invalid_link": "Ce lien n'est pas valide et peut ne pas fonctionner.",
+      "possibly_invalid_link": "Ce lien n'est pas valide et ne fonctionne probablement pas.",
       "options": {
         "link": {
           "description": "Lien de composition d'armée."
@@ -399,8 +399,8 @@
       }
     },
     "boosts": {
-      "description": "Les membres du clan ayant activé des super troupes.",
-      "no_boosts": "Aucun membre n'a de boost en cours dans ce clan.",
+      "description": "Les membres du clan ayant boosté des super troupes.",
+      "no_boosts": "Aucun membre n'a de troupes boostées actuellement dans ce clan.",
       "no_recent_boosts": "Aucun membre récemment actif n'a de boost en cours dans ce clan.",
       "no_unit_boosts": "Aucun membre ne booste {{unit}} dans ce clan.",
       "no_recent_unit_boosts": "Aucun membre récemment actif ne booste {{unit}} dans ce clan.",
@@ -427,14 +427,14 @@
       }
     },
     "donations": {
-      "description": "Affiche les dons des membres du clan.",
+      "description": "Affiche les dons de troupes des membres du clan.",
       "no_season_data": "Aucune donnée n'a été trouvée pour la saison {{season}}.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "season": {
-          "description": "La saison pour laquelle afficher les dons."
+          "description": "La saison à afficher pour les dons de troupes."
         }
       }
     },
@@ -469,13 +469,13 @@
     "remaining": {
       "description": "Attaques restantes ou manquées d'un clan.",
       "not_in_war": "Le clan n'est pas en guerre.",
-      "no_war_id": "Aucune guerre n'a été trouvée pour l'ID de guerre spécifié.",
+      "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "war_id": {
-          "description": "Rechercher par ID de guerre."
+          "description": "Rechercher par identifiant de guerre."
         }
       }
     },
@@ -497,7 +497,7 @@
       "searching": "Clans dont le nom est '{{name}}'.",
       "options": {
         "name": {
-          "description": "Nom du clan (doit être composé de 3 caractères)"
+          "description": "Nom du clan (doit contenir au moins 3 caractères)"
         }
       }
     },
@@ -580,7 +580,7 @@
             "description": "Identifiant du clan."
           },
           "channel": {
-            "description": "Salon dans lequel envoyer les mises à jour (par défaut le salon actuel)"
+            "description": "Salon où publier les mises à jour (par défaut, le salon actuel)"
           },
           "color": {
             "description": "Code couleur hexadécimal (pour les dons, jdc, vu pour la dernière fois et l'intégration de clan)"
@@ -676,7 +676,7 @@
           "description": "Sélectionnez une option."
         },
         "season": {
-          "description": "ID de la saison pour le résumé du clan."
+          "description": "Identifiant de la saison pour le résumé du clan."
         }
       },
       "clans": {
