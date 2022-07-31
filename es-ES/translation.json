@@ -12,13 +12,13 @@
     "fetch_failed": "Something went wrong while fetching data from the API.",
     "component": {
       "expired": "This component is no longer active. Run the command again.",
-      "unauthorized": "You must run the command to interact with components."
+      "unauthorized": "¡Debes ejecutar el comando para poder interactuar con los componentes!"
     },
     "no_clan_tag": "You must provide a clan tag to execute this command!",
     "no_player_tag": "You must provide a player tag to execute this command!",
     "clan_not_linked": "No clan is linked to {{user}}.",
     "player_not_linked": "No player is linked to {{user}}.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use `/setup` command to link the clan.",
+    "guild_unauthorized": "Este servidor no tiene permiso para acceder a la información del clan {{clan}}. Usa el comando `/setup` para vincular ese clan.",
     "status_code": {
       "400": "The client provided incorrect parameters for the request.",
       "403": "API token does not grant access to the requested resource.",
