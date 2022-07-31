@@ -31,11 +31,11 @@
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
     "maintenance_start": "La maintenance a commencé !",
-    "maintenance_end": "La maintenance est terminée !"
+    "maintenance_end": "La maintenance est terminée ! {{duration}}"
   },
   "command": {
     "activity": {
-      "description": "Affiche un graphique des membres du clan actifs heure par heure.",
+      "description": "Affiche un graphique des membres actifs du clan heure par heure.",
       "options": {
         "clans": {
           "description": "Identifiants de clans ou alias (3 maximum)"
@@ -74,11 +74,11 @@
           }
         },
         "no_name": "Vous devez spécifier un nom d'alias pour exécuter cette commande.",
-        "no_hash": "Un alias de clan ne doit pas commencer par un dièse.",
+        "no_hash": "Un alias de clan ne doit pas commencer par un hashtag.",
         "no_whitespace": "Un alias de clan ne doit pas contenir d'espace.",
         "no_clan": "Vous devez spécifier un identifiant de clan pour exécuter cette commande.",
         "exists": "Un alias avec le nom {{name}} existe déjà.",
-        "clan_not_linked": "Le clan doit être lié au serveur pour créer un alias.",
+        "clan_not_linked": "Le clan doit être relié au serveur pour créer un alias.",
         "success": "Création réussie d'un alias avec le nom {{name}}."
       },
       "delete": {
@@ -112,7 +112,7 @@
       "description": "Affiche quelques informations de débogage de base."
     },
     "cwl": {
-      "description": "Résumé et aperçu de la saison de Ligue.",
+      "description": "Résumé et aperçu de la saison de Ligue de clans.",
       "options": {
         "option": {
           "description": "Sélectionnez une option."
@@ -122,17 +122,17 @@
         }
       },
       "still_searching": "Votre clan {{clan}} est toujours à la recherche d'un adversaire.",
-      "not_in_season": "Votre clan {{clan}} ne participe pas à la saison de Ligues.",
-      "no_rounds": "Aucun round de Ligue n'a encore été joué. Veuillez réessayer plus tard.",
-      "no_season_data": "Aucune statistique de Ligue n'est disponible pour la saison {{season}}.",
+      "not_in_season": "Votre clan {{clan}} ne participe pas à la saison de Ligue de clans.",
+      "no_rounds": "Aucune manche de Ligue de clans n'a encore été joué, veuillez réessayer plus tard.",
+      "no_season_data": "Aucune statistique de Ligue de clans n'est disponible pour la saison {{season}}.",
       "attacks": {
-        "description": "Aperçu des attaques de Ligue."
+        "description": "Aperçu des attaques de Ligue de clans."
       },
       "lineup": {
-        "description": ""
+        "description": "No description."
       },
       "members": {
-        "description": ""
+        "description": "No description."
       },
       "roster": {
         "description": "Équipes de la Ligue et répartition des hôtels de ville.",
@@ -143,21 +143,21 @@
         }
       },
       "round": {
-        "description": "Résumé de la Ligue pour le round en cours.",
+        "description": "Résumé de la Ligue des clans pour la manche en cours.",
         "options": {
           "tag": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
           },
           "round": {
-            "description": "Numéro de round à afficher."
+            "description": "Numéro de la manche à afficher."
           }
         }
       },
       "stars": {
-        "description": ""
+        "description": "No description."
       },
       "stats": {
-        "description": ""
+        "description": "No description."
       }
     },
     "export": {
@@ -177,22 +177,22 @@
         }
       },
       "cwl": {
-        "description": ""
+        "description": "No description."
       },
       "last_wars": {
-        "description": ""
+        "description": "No description."
       },
       "members": {
-        "description": ""
+        "description": "No description."
       },
       "missed": {
-        "description": ""
+        "description": "No description."
       },
       "season": {
-        "description": ""
+        "description": "No description."
       },
       "wars": {
-        "description": ""
+        "description": "No description."
       }
     },
     "flag": {
@@ -204,11 +204,11 @@
             "description": "Identifiant du joueur à signaler."
           },
           "reason": {
-            "description": "Raison du signalement."
+            "description": "Motif du signalement."
           }
         },
-        "no_reason": "Vous devez fournir une raison au signalement.",
-        "reason_max_limit": "Le motif doit avoir une longueur maximale de 1024 caractères.",
+        "no_reason": "Vous devez fournir un motif au signalement.",
+        "reason_max_limit": "Le motif doit contenir au maximum 1024 caractères.",
         "success": "{{count}} joueur(s) signalé(s) avec succès. \n{{players}}"
       },
       "delete": {
@@ -266,7 +266,7 @@
         "max_limit": "La limite maximale de comptes a été atteinte. (25 comptes/utilisateur)"
       },
       "delete": {
-        "description": "Supprimer un lien joueur/clan.",
+        "description": "Supprimer un lien de joueur/clan.",
         "options": {
           "tag": {
             "description": "Identifiant du joueur ou du clan."
@@ -274,7 +274,7 @@
         },
         "no_result": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}.",
         "success": "Lien avec l'identifiant {{tag}} supprimé avec succès.",
-        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un adjoint \"vérifié\" pour effectuer cette action."
+        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un chef adjoint \"vérifié\" pour effectuer cette action."
       },
       "list": {
         "description": "Lister tous les liens des joueurs.",
@@ -296,7 +296,7 @@
         }
       },
       "success": "Vérification réussie ! {{info}}",
-      "invalid_token": "Vous devez fournir un jeton API valide qui se trouve dans les paramètres du jeu. \nhttps://i.imgur.com/Mlo4zAP.png"
+      "invalid_token": "Vous devez fournir un jeton API valide qui se trouve dans \"paramètres supplémentaires\" dans le jeu. \nhttps://i.imgur.com/Mlo4zAP.png"
     },
     "timezone": {
       "description": "Définir votre fuseau horaire.",
@@ -366,10 +366,10 @@
             "description": "Si vous souhaitez effacer tous les rappels."
           }
         },
-        "no_reminders": "Vous n'avez pas de rappels.",
+        "no_reminders": "Vous n'avez aucun rappel.",
         "cleared": "Tous les rappels ont été effacés avec succès.",
-        "not_found": "Aucun rappel n'a été trouvé avec l'ID {{id}}.",
-        "success": "Le rappel avec l'ID {{id}} a été supprimé avec succès.",
+        "not_found": "Aucun rappel n'a été trouvé avec l'identifiant {{id}}.",
+        "success": "Le rappel avec l'identifiant {{id}} a été supprimé avec succès.",
         "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un ID de rappel."
       },
       "list": {
@@ -380,7 +380,7 @@
       "description": "Analyser un lien de composition d'armée.",
       "no_link": "Vous devez fournir un lien valide de composition d'armée.",
       "invalid_link": "Ce lien de composition d'armée n'est pas valide.",
-      "possibly_invalid_link": "Ce lien n'est pas valide et peut ne pas fonctionner.",
+      "possibly_invalid_link": "Ce lien n'est pas valide et ne fonctionne probablement pas.",
       "options": {
         "link": {
           "description": "Lien de composition d'armée."
@@ -399,8 +399,8 @@
       }
     },
     "boosts": {
-      "description": "Les membres du clan ayant activé des super troupes.",
-      "no_boosts": "Aucun membre n'a de boost en cours dans ce clan.",
+      "description": "Les membres du clan ayant boosté des super troupes.",
+      "no_boosts": "Aucun membre n'a de troupes boostées actuellement dans ce clan.",
       "no_recent_boosts": "Aucun membre récemment actif n'a de boost en cours dans ce clan.",
       "no_unit_boosts": "Aucun membre ne booste {{unit}} dans ce clan.",
       "no_recent_unit_boosts": "Aucun membre récemment actif ne booste {{unit}} dans ce clan.",
@@ -427,14 +427,14 @@
       }
     },
     "donations": {
-      "description": "Affiche les dons des membres du clan.",
+      "description": "Affiche les dons de troupes des membres du clan.",
       "no_season_data": "Aucune donnée n'a été trouvée pour la saison {{season}}.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "season": {
-          "description": "La saison pour laquelle afficher les dons."
+          "description": "La saison à afficher pour les dons de troupes."
         }
       }
     },
@@ -469,13 +469,13 @@
     "remaining": {
       "description": "Attaques restantes ou manquées d'un clan.",
       "not_in_war": "Le clan n'est pas en guerre.",
-      "no_war_id": "Aucune guerre n'a été trouvée pour l'ID de guerre spécifié.",
+      "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "war_id": {
-          "description": "Rechercher par ID de guerre."
+          "description": "Rechercher par identifiant de guerre."
         }
       }
     },
@@ -497,7 +497,7 @@
       "searching": "Clans dont le nom est '{{name}}'.",
       "options": {
         "name": {
-          "description": "Nom du clan (doit être composé de 3 caractères)"
+          "description": "Nom du clan (doit contenir au moins 3 caractères)"
         }
       }
     },
@@ -580,7 +580,7 @@
             "description": "Identifiant du clan."
           },
           "channel": {
-            "description": "Salon dans lequel envoyer les mises à jour (par défaut le salon actuel)"
+            "description": "Salon où publier les mises à jour (par défaut, le salon actuel)"
           },
           "color": {
             "description": "Code couleur hexadécimal (pour les dons, jdc, vu pour la dernière fois et l'intégration de clan)"
@@ -676,26 +676,26 @@
           "description": "Sélectionnez une option."
         },
         "season": {
-          "description": "ID de la saison pour le résumé du clan."
+          "description": "Identifiant de la saison pour le résumé du clan."
         }
       },
       "clans": {
-        "description": ""
+        "description": "No description."
       },
       "players": {
-        "description": ""
+        "description": "No description."
       },
       "donations": {
-        "description": ""
+        "description": "No description."
       },
       "trophies": {
-        "description": ""
+        "description": "No description."
       },
       "wars": {
-        "description": ""
+        "description": "No description."
       },
       "clan_games": {
-        "description": "",
+        "description": "No description.",
         "min_clan_size": "Vous devez avoir au moins {{clans}} clans sur votre serveur pour pouvoir utiliser cette commande.",
         "scoreboard": "Basé sur les meilleurs scores et le temps de réalisation.",
         "performance": "Basé sur le nombre maximum de points."
