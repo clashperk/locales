@@ -266,7 +266,7 @@
         "max_limit": "La limite maximale de comptes a été atteinte. (25 comptes/utilisateur)"
       },
       "delete": {
-        "description": "Supprimer un lien joueur/clan.",
+        "description": "Supprimer un lien de joueur/clan.",
         "options": {
           "tag": {
             "description": "Identifiant du joueur ou du clan."
