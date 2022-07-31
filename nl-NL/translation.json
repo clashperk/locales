@@ -35,7 +35,7 @@
   },
   "command": {
     "activity": {
-      "description": "Shows a graph of hourly-active clan members.",
+      "description": "Toont een grafiek van actieve clanleden per uur.",
       "options": {
         "clans": {
           "description": "Clan tag of aliassen (Maximaal 3)"
@@ -46,7 +46,7 @@
       }
     },
     "clan_games": {
-      "description": "Clan spelen scorebord van clanleden.",
+      "description": "Clanspelen scorebord van clanleden.",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
