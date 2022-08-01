@@ -357,7 +357,7 @@
         "success": "Sauvegarde réussie !"
       },
       "delete": {
-        "description": "Supprimer un rappel ou tous les effacer.",
+        "description": "Supprimer un ou tous les rappels.",
         "options": {
           "id": {
             "description": "Identifiant du rappel."
@@ -370,7 +370,7 @@
         "cleared": "Tous les rappels ont été effacés avec succès.",
         "not_found": "Aucun rappel n'a été trouvé avec l'identifiant {{id}}.",
         "success": "Le rappel avec l'identifiant {{id}} a été supprimé avec succès.",
-        "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un ID de rappel."
+        "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un identifiant de rappel."
       },
       "list": {
         "description": "Lister tous les rappels de guerre."
@@ -401,9 +401,9 @@
     "boosts": {
       "description": "Les membres du clan ayant boosté des super troupes.",
       "no_boosts": "Aucun membre n'a de troupes boostées actuellement dans ce clan.",
-      "no_recent_boosts": "Aucun membre récemment actif n'a de boost en cours dans ce clan.",
-      "no_unit_boosts": "Aucun membre ne booste {{unit}} dans ce clan.",
-      "no_recent_unit_boosts": "Aucun membre récemment actif ne booste {{unit}} dans ce clan.",
+      "no_recent_boosts": "Aucun membre récemment actif n'a de troupes boostées en cours dans ce clan.",
+      "no_unit_boosts": "Aucun membre ne booste de {{unit}} dans ce clan.",
+      "no_recent_unit_boosts": "Aucun membre récemment actif ne booste de {{unit}} dans ce clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -419,7 +419,7 @@
       }
     },
     "compo": {
-      "description": "Affiche la répartition des hôtels de ville d'un clan.",
+      "description": "Affiche la répartition des Hôtels De Ville d'un clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
