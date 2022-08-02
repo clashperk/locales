@@ -4,7 +4,7 @@
     "no_clans_linked": "No clans are linked to this server. Why not link some?",
     "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.",
     "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden.",
-    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the `/verify` command to verify your player account. The API token is available in the Game settings.\n\nAlternatively, you can add a temporary code `{{code}}` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.",
+    "clan_verification": "Wir müssen sichergehen, dass du in diesem Clan Anführer oder Vize-Anführer bist. Bitter verifiziere deinen Account mit dem API-Token. \nNutze den `/verify` Befehl um deinen Spielaccount zu verifizieren. Dein API-Token findest du in den Einstellungen im Spiel.\n\nAlternativ kannst du in der Clanbeschreibung einen temporären Code `{{code}}` hinzufügen. Warte anschließend 1-2 Minuten und benutze den Befehl erneut. Sobald du verfiziert bist, kannst du den Code aus der Clanbeschreibung entfernen.",
     "no_option": "Something went wrong while executing this command. (option not found)",
     "no_data": "No data is available at this moment. We are still collecting!",
     "no_clan_data": "No data is available for {{clan}}. We are still collecting!",
@@ -12,10 +12,10 @@
     "fetch_failed": "Something went wrong while fetching data from the API.",
     "component": {
       "expired": "This component is no longer active. Run the command again.",
-      "unauthorized": "You must run the command to interact with components."
+      "unauthorized": "Um mit diesem Befehl interagieren zu können, musst du ihn selber ausführen."
     },
-    "no_clan_tag": "You must provide a clan tag to execute this command!",
-    "no_player_tag": "You must provide a player tag to execute this command!",
+    "no_clan_tag": "Du musst ein Clankürzel angeben um diesen Befehl zu nutzen!",
+    "no_player_tag": "Du musst ein Spielerkürzel angeben, um diesen Befehl zu nutzen!",
     "clan_not_linked": "No clan is linked to {{user}}.",
     "player_not_linked": "No player is linked to {{user}}.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use `/setup` command to link the clan.",
