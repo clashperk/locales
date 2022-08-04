@@ -7,7 +7,7 @@
     "clan_verification": "Wir müssen sichergehen, dass du in diesem Clan Anführer oder Vize-Anführer bist. Bitter verifiziere deinen Account mit dem API-Token. \nNutze den `/verify` Befehl um deinen Spielaccount zu verifizieren. Dein API-Token findest du in den Einstellungen im Spiel.\n\nAlternativ kannst du in der Clanbeschreibung einen temporären Code `{{code}}` hinzufügen. Warte anschließend 1-2 Minuten und benutze den Befehl erneut. Sobald du verfiziert bist, kannst du den Code aus der Clanbeschreibung entfernen.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
     "no_data": "No data is available at this moment. We are still collecting!",
-    "no_clan_data": "No data is available for {{clan}}. We are still collecting!",
+    "no_clan_data": "Keine Daten verfügbar für {{clan}}. Wir sind noch am Daten sammeln.",
     "no_clan_members": "{{clan}} hat keine Mitglieder.",
     "fetch_failed": "Beim Abrufen von Daten aus der API ist ein Fehler aufgetreten.",
     "component": {
@@ -85,7 +85,7 @@
         "description": "Löscht ein Clan Alias.",
         "options": {
           "name": {
-            "description": "Tag of a clan or name of an alias"
+            "description": "Kürzel eines Clans oder Name eines Alias"
           }
         },
         "no_name": "Du musst ein Clankürzel oder ein Clan Alias angeben, um diesen Befehl nutzen zu können.",
@@ -93,26 +93,26 @@
         "success": "Erfolgreich den Alias {{name}} gelöscht."
       },
       "list": {
-        "description": "List all clan aliases."
+        "description": "Liste aller Clan Aliase."
       }
     },
     "config": {
-      "description": "Configure server settings.",
+      "description": "Konfiguriere die Servereinstellungen.",
       "options": {
         "color_code": {
-          "description": "Hex color code (e.g #ed4245) [Patron Only]"
+          "description": "Hex-Farbcode (z.B. #ed4245) [Patreon]"
         },
         "events_channel": {
-          "description": "Clash-related events channel."
+          "description": "Clash-bezogener Event Channel."
         }
       },
-      "no_text_channel": "You must specify a text channel to enable this event log."
+      "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren."
     },
     "debug": {
-      "description": "Displays some basic debug information."
+      "description": "Zeigt generelle Debug-Informationen."
     },
     "cwl": {
-      "description": "CWL season summary and overview.",
+      "description": "CWL-Saison Übersicht und Zusammenfassung.",
       "options": {
         "option": {
           "description": "Wähle eine Option."
@@ -209,7 +209,7 @@
         },
         "no_reason": "Sie müssen einen Grund angeben.",
         "reason_max_limit": "Der Grund muss 1024 Zeichen lang sein oder kürzer sein.",
-        "success": "{{count}} Die Spieler wurden erfolgreich markiert. \n{{players}}"
+        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
       },
       "delete": {
         "description": "Lösche eine Player Flag.",
@@ -342,7 +342,7 @@
             "description": "Erinnerungsnachricht für die Benachrichtigung."
           },
           "clans": {
-            "description": "Optional clan tags or aliases to choose specific clans"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "channel": {
             "description": "Erinnerungsnachricht für die Benachrichtigung."
