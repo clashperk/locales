@@ -12,7 +12,7 @@
     "fetch_failed": "Algo salió mal mientras buscábamos información desde la API.",
     "component": {
       "expired": "Este componente ya no se encuentra activo. Vuelva a ejecutar el comando.",
-      "unauthorized": "You must run the command to interact with components."
+      "unauthorized": "¡Debes ejecutar el comando para poder interactuar con los componentes."
     },
     "no_clan_tag": "¡Debes proporcionar una etiqueta de clan para ejecutar este comando!",
     "no_player_tag": "¡Debes proporcionar una etiqueta de jugador para ejecutar este comando!",
