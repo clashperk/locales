@@ -357,7 +357,7 @@
         "success": "Sauvegarde réussie !"
       },
       "delete": {
-        "description": "Supprimer un rappel ou tous les effacer.",
+        "description": "Supprimer un ou tous les rappels.",
         "options": {
           "id": {
             "description": "Identifiant du rappel."
@@ -370,7 +370,7 @@
         "cleared": "Tous les rappels ont été effacés avec succès.",
         "not_found": "Aucun rappel n'a été trouvé avec l'identifiant {{id}}.",
         "success": "Le rappel avec l'identifiant {{id}} a été supprimé avec succès.",
-        "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un ID de rappel."
+        "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un identifiant de rappel."
       },
       "list": {
         "description": "Lister tous les rappels de guerre."
@@ -401,9 +401,9 @@
     "boosts": {
       "description": "Les membres du clan ayant boosté des super troupes.",
       "no_boosts": "Aucun membre n'a de troupes boostées actuellement dans ce clan.",
-      "no_recent_boosts": "Aucun membre récemment actif n'a de boost en cours dans ce clan.",
-      "no_unit_boosts": "Aucun membre ne booste {{unit}} dans ce clan.",
-      "no_recent_unit_boosts": "Aucun membre récemment actif ne booste {{unit}} dans ce clan.",
+      "no_recent_boosts": "Aucun membre récemment actif n'a de troupes boostées en cours dans ce clan.",
+      "no_unit_boosts": "Aucun membre ne booste de {{unit}} dans ce clan.",
+      "no_recent_unit_boosts": "Aucun membre récemment actif ne booste de {{unit}} dans ce clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -419,7 +419,7 @@
       }
     },
     "compo": {
-      "description": "Affiche la répartition des hôtels de ville d'un clan.",
+      "description": "Affiche la répartition des Hôtels De Ville d'un clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -481,7 +481,7 @@
     },
     "rushed": {
       "description": "Troupes, sorts, engins et héros prémas d'un joueur ou des membres du clan.",
-      "no_rushed": "Aucune troupe, sort, engin ou héros préma pour l'hôtel de ville {{townhall}}.",
+      "no_rushed": "Aucune troupe, sort, engin ou héros préma pour l'Hôtel De Ville {{townhall}}.",
       "options": {
         "tag": {
           "description": "Identifiant du joueur ou mention @utilisateur."
@@ -509,7 +509,7 @@
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "compare": {
-          "description": "Comparer les hôtels de ville (ex. 14vs13, 12 13, tous, égal)"
+          "description": "Comparer les Hôtels De Ville (ex. 14vs13, 12 13, tous, égal)"
         },
         "stars": {
           "description": "Étoiles de guerre gagnées. (par défaut : 3)"
@@ -528,7 +528,7 @@
         "description": "Affiche les taux de réussite des attaques des membres du clan."
       },
       "defense": {
-        "description": "Affiche le taux d'échec des défenses des membres du clan."
+        "description": "Affiche le taux d'échec en défense des membres du clan."
       }
     },
     "units": {
@@ -583,13 +583,13 @@
             "description": "Salon où publier les mises à jour (par défaut, le salon actuel)"
           },
           "color": {
-            "description": "Code couleur hexadécimal (pour les dons, jdc, vu pour la dernière fois et l'intégration de clan)"
+            "description": "Code couleur hexadécimal (seulement les dons, jeux, dernière connexion et l'intégration de clan)"
           },
           "role": {
             "description": "Rôle pour la notification de signalement (uniquement pour le flux du clan)"
           }
         },
-        "missing_access": "Il me manque {{permission}} dans {{channel}} pour exécuter cette commande.",
+        "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
         "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
         "server_link": {
           "success": "{{clan}} relié à {{guild}} avec succès.",
@@ -615,19 +615,19 @@
           }
         },
         "channel_unlink": "{{clan}} dissocié de {{channel}} avec succès.",
-        "channel_not_found": "Je n'ai pas trouvé de clan qui soit relié à {{channel}}.",
+        "channel_not_found": "Aucun clan relié à {{channel}} n'a été trouvé.",
         "clan_not_linked": "Aucun clan n'a été trouvé sur le serveur pour l'identifiant spécifié.",
         "clan_deleted": "{{clan}} supprimé avec succès.",
-        "feature_disabled": "{{feature}} pour {{clan}} désactivé avec succès."
+        "feature_disabled": "{{feature}} désactivé avec succès pour {{clan}}."
       },
       "list": {
         "description": "Liste toutes les fonctions et clans activés."
       }
     },
     "autorole": {
-      "description": "Activer/désactiver la fonction auto-rôle basée sur les rôles au sein du clan.",
+      "description": "Activer/désactiver la fonction auto-rôle basée sur leurs rôles au sein du clan.",
       "enable": {
-        "description": "Activer la fonction auto-rôle basée sur les rôles au sein du clan.",
+        "description": "Activer la fonction auto-rôle basée sur leurs rôles au sein du clan.",
         "options": {
           "co_leads": {
             "description": "Le rôle de Chef-adjoint."
@@ -645,7 +645,7 @@
             "description": "Rôle commun à tous les membres du clan."
           },
           "only_verified": {
-            "description": "Les rôles seront attribués uniquement aux joueurs vérifiés. (La vérification du jeton API est nécessaire)"
+            "description": "Les rôles seront attribués uniquement aux joueurs vérifiés. (vérification du jeton API nécessaire)"
           }
         },
         "no_roles": "Vous devez spécifier 3 rôles pour exécuter cette commande.",
@@ -657,7 +657,7 @@
         "success_with_count": "L'auto-rôle a été activé avec succès pour {{count}} clan(s). \n{{clans}}"
       },
       "disable": {
-        "description": "Désactiver la fonction auto-rôle basée sur les rôles au sein du clan.",
+        "description": "Désactiver la fonction auto-rôle qui assigne des rôles aux membres selon leurs rôles dans le clan.",
         "options": {
           "clans": {
             "description": "Identifiants de clan ou alias pour filtrer les clans."
@@ -698,11 +698,11 @@
         "description": "No description.",
         "min_clan_size": "Vous devez avoir au moins {{clans}} clans sur votre serveur pour pouvoir utiliser cette commande.",
         "scoreboard": "Basé sur les meilleurs scores et le temps de réalisation.",
-        "performance": "Basé sur le nombre maximum de points."
+        "performance": "Basé sur le score maximum de points."
       }
     },
     "help": {
-      "description": "Obtenir une liste des commandes ou des détails sur une commande spécifique.",
+      "description": "Obtenir une liste des commandes ou détails sur une commande spécifique.",
       "options": {
         "name": {
           "description": "Nom de la commande."
