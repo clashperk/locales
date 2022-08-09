@@ -33,12 +33,17 @@ export const common = {
     clan_tag_argument: 'Clan tag or alias or @user mention.',
     player_tag_argument: 'Player tag or @user mention.',
     maintenance_start: 'The maintenance break has started!',
-    maintenance_end: 'The maintenance break has finished! {{duration}}'
+    maintenance_end: 'The maintenance break has finished! {{duration}}',
+    choices: {
+        yes: 'Yes',
+        no: 'No'
+    }
 } as const;
 
 export const command = {
     activity: {
         description: 'Shows a graph of hourly-active clan members.',
+        title: 'Hourly-active Clan Members',
         options: {
             clans: {
                 description: 'Clan tags or aliases (Maximum 3)'
@@ -50,6 +55,7 @@ export const command = {
     },
     clan_games: {
         description: 'Clan games scoreboard of clan members.',
+        title: 'Clan Games Scoreboard',
         options: {
             tag: {
                 description: 'Clan tag or alias or @user mention.'
@@ -58,6 +64,8 @@ export const command = {
     },
     lastseen: {
         description: 'The last seen time and activities of clan members.',
+        title_lastseen: 'Last seen and activity scores (last 24h)',
+        title_activity: 'Clan member activities (last 30d)',
         options: {
             tag: {
                 description: 'Clan tag or alias or @user mention.'
@@ -721,6 +729,8 @@ export const command = {
         description: 'Redeem or manage a Patreon subscription. (if you wish to support us)'
     }
 } as const;
+
+export const component = {} as const;
 
 export default {
     common,
