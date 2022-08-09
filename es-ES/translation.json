@@ -74,7 +74,7 @@
           }
         },
         "no_name": "Debes especificar un apodo para poder ejecutar este comando.",
-        "no_hash": "A clan alias must not start with a hash.",
+        "no_hash": "Un apodo de clan no debe empezar con un hashtag (#).",
         "no_whitespace": "Un apodo de clan no debe contener espacios en blanco.",
         "no_clan": "Debes especificar una etiqueta de clan para poder ejecutar este comando.",
         "exists": "El apodo {{name}} ya está en uso dentro del servidor.",
@@ -363,7 +363,7 @@
             "description": "ID del recordatorio."
           },
           "clear": {
-            "description": "Whether to clear all reminders."
+            "description": "Si se borran todos los recordatorios."
           }
         },
         "no_reminders": "No tienes recordatorios.",
@@ -377,7 +377,7 @@
       }
     },
     "army": {
-      "description": "Parse an army composition link.",
+      "description": "Analiza un enlace de composición de ejército.",
       "no_link": "Debes proporcionar un enlace de composición de ejército válido.",
       "invalid_link": "Este enlace de composición del ejército no es válido.",
       "possibly_invalid_link": "Este enlace no es válido y puede que no funcione.",
@@ -561,7 +561,7 @@
       }
     },
     "warlog": {
-      "description": "Shows the last 10 clan war logs.",
+      "description": "Muestra los últimos 10 registros de guerra de clanes.",
       "options": {
         "tag": {
           "description": "Etiqueta de clan, apodo, o mención al @usuario."
@@ -649,7 +649,7 @@
           }
         },
         "no_roles": "Debes proporcionar 3 roles para poder ejecutar este comando.",
-        "no_system_roles": "System managed or bot roles are not allowed.",
+        "no_system_roles": "No se permiten los roles del sistema (@everyone) o los roles de otros bots.",
         "no_higher_roles": "Mi rol de bot debe ser más alto que esos roles.",
         "invalid_clan_tag": "La etiqueta de clan proporcionada no es válida.",
         "roles_already_used": "Algunos roles ya se han utilizado en otro clan. \nPor favor, considera apoyarnos en [Patreon](https://patreon.com/clashperk) para usar los mismos roles en varios clanes.",
@@ -697,8 +697,8 @@
       "clan_games": {
         "description": "No description.",
         "min_clan_size": "Debe tener un mínimo de {{clans}} clanes en tu servidor para poder usar este comando.",
-        "scoreboard": "Based on the highest scores and completion times.",
-        "performance": "Based on completing maximum points."
+        "scoreboard": "Basado en las puntuaciones más altas y los tiempos de finalización.",
+        "performance": "Basado en completar el máximo de puntos."
       }
     },
     "help": {
@@ -710,7 +710,7 @@
       }
     },
     "invite": {
-      "description": "Get the bot invite and support server link."
+      "description": "Obtén el link de invitación del bot y también el del servidor de soporte. (Servidor en Ingles)"
     },
     "redeem": {
       "description": "Canjea o administra una suscripción a nuestro Patreon. (Si quieres apoyarnos)"
