@@ -31,11 +31,23 @@
     "clan_tag_argument": "Clan tag of @gebruiker vermelding.",
     "player_tag_argument": "Speler tag of @gebruiker vermelding.",
     "maintenance_start": "De onderbreking wegens onderhoud is begonnen!",
-    "maintenance_end": "De onderbreking wegens onderhoud is afgelopen! {{duration}}"
+    "maintenance_end": "De onderbreking wegens onderhoud is afgelopen! {{duration}}",
+    "something_went_wrong": "Something went wrong while executing this command.",
+    "choices": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "color_code": "Color Code"
+  },
+  "component": {
+    "button": {
+      "contact_support": "Contact Support"
+    }
   },
   "command": {
     "activity": {
       "description": "Toont een grafiek van actieve clanleden per uur.",
+      "title": "Hourly-active Clan Members",
       "options": {
         "clans": {
           "description": "Clan tag of aliassen (Maximaal 3)"
@@ -47,6 +59,7 @@
     },
     "clan_games": {
       "description": "Clanspelen scorebord van clanleden.",
+      "title": "Clan Games Scoreboard",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -55,6 +68,8 @@
     },
     "lastseen": {
       "description": "De laatst geziene tijd en activiteiten van clanleden.",
+      "title_lastseen": "Last seen and activity scores (last 24h)",
+      "title_activity": "Clan member activities (last 30d)",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -93,7 +108,8 @@
         "success": "De clan-alias {{name}} is succesvol verwijderd."
       },
       "list": {
-        "description": "Maak een lijst van alle clanaliassen."
+        "description": "Maak een lijst van alle clanaliassen.",
+        "title": "Clan Aliases"
       }
     },
     "config": {
@@ -106,7 +122,9 @@
           "description": "Kanaal voor Clash-gerelateerde evenementen."
         }
       },
-      "no_text_channel": "U moet een tekstkanaal opgeven om dit logboek in te schakelen."
+      "no_text_channel": "U moet een tekstkanaal opgeven om dit logboek in te schakelen.",
+      "title": "Server Settings",
+      "events_channel": "Events Channel"
     },
     "debug": {
       "description": "Toont enkele basisinformatie voor foutopsporing."
@@ -373,7 +391,8 @@
         "too_many_reminders": "Als je te veel herinneringen hebt, geef dan een herinnerings-ID op."
       },
       "list": {
-        "description": "Maak een lijst van alle oorlogsherinneringen."
+        "description": "Maak een lijst van alle oorlogsherinneringen.",
+        "no_reminders": "Je hebt geen herinneringen."
       }
     },
     "army": {
