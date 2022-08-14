@@ -31,11 +31,23 @@
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
     "maintenance_start": "La maintenance a commencé !",
-    "maintenance_end": "La maintenance est terminée ! {{duration}}"
+    "maintenance_end": "La maintenance est terminée ! {{duration}}",
+    "something_went_wrong": "Something went wrong while executing this command.",
+    "choices": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "color_code": "Color Code"
+  },
+  "component": {
+    "button": {
+      "contact_support": "Contact Support"
+    }
   },
   "command": {
     "activity": {
       "description": "Affiche un graphique des membres actifs du clan heure par heure.",
+      "title": "Hourly-active Clan Members",
       "options": {
         "clans": {
           "description": "Identifiants de clans ou alias (3 maximum)"
@@ -47,6 +59,7 @@
     },
     "clan_games": {
       "description": "Tableau des scores aux jeux de clan des membres du clan.",
+      "title": "Clan Games Scoreboard",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -55,6 +68,8 @@
     },
     "lastseen": {
       "description": "Dernière connexion et activité des membres du clan.",
+      "title_lastseen": "Last seen and activity scores (last 24h)",
+      "title_activity": "Clan member activities (last 30d)",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -93,7 +108,8 @@
         "success": "Alias de clan {{name}} supprimé avec succès."
       },
       "list": {
-        "description": "Lister tous les alias du clan."
+        "description": "Lister tous les alias du clan.",
+        "title": "Clan Aliases"
       }
     },
     "config": {
@@ -106,7 +122,9 @@
           "description": "Salon des événements liés à Clash."
         }
       },
-      "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements."
+      "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
+      "title": "Server Settings",
+      "events_channel": "Events Channel"
     },
     "debug": {
       "description": "Affiche quelques informations de débogage de base."
@@ -373,7 +391,8 @@
         "too_many_reminders": "Si vous avez trop de rappels, veuillez fournir un identifiant de rappel."
       },
       "list": {
-        "description": "Lister tous les rappels de guerre."
+        "description": "Lister tous les rappels de guerre.",
+        "no_reminders": "Vous n'avez aucun rappel."
       }
     },
     "army": {
