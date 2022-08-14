@@ -32,16 +32,16 @@
     "player_tag_argument": "Speler tag of @gebruiker vermelding.",
     "maintenance_start": "De onderbreking wegens onderhoud is begonnen!",
     "maintenance_end": "De onderbreking wegens onderhoud is afgelopen! {{duration}}",
-    "something_went_wrong": "Something went wrong while executing this command.",
+    "something_went_wrong": "Er is iets misgegaan tijdens het uitvoeren van deze opdracht.",
     "choices": {
-      "yes": "Yes",
-      "no": "No"
+      "yes": "Ja",
+      "no": "Nee"
     },
-    "color_code": "Color Code"
+    "color_code": "Kleurcode"
   },
   "component": {
     "button": {
-      "contact_support": "Contact Support"
+      "contact_support": "Contact opnemen met ondersteuning"
     }
   },
   "command": {
@@ -59,7 +59,7 @@
     },
     "clan_games": {
       "description": "Clanspelen scorebord van clanleden.",
-      "title": "Clan Games Scoreboard",
+      "title": "Clanspelen Scorebord",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -69,7 +69,7 @@
     "lastseen": {
       "description": "De laatst geziene tijd en activiteiten van clanleden.",
       "title_lastseen": "Last seen and activity scores (last 24h)",
-      "title_activity": "Clan member activities (last 30d)",
+      "title_activity": "Activiteiten van clanleden (laatste 30 dagen)",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -109,7 +109,7 @@
       },
       "list": {
         "description": "Maak een lijst van alle clanaliassen.",
-        "title": "Clan Aliases"
+        "title": "Clan Aliassen"
       }
     },
     "config": {
@@ -124,7 +124,7 @@
       },
       "no_text_channel": "U moet een tekstkanaal opgeven om dit logboek in te schakelen.",
       "title": "Server Settings",
-      "events_channel": "Events Channel"
+      "events_channel": "Evenementen Kanaal"
     },
     "debug": {
       "description": "Toont enkele basisinformatie voor foutopsporing."
