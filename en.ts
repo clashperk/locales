@@ -34,10 +34,12 @@ export const common = {
     player_tag_argument: 'Player tag or @user mention.',
     maintenance_start: 'The maintenance break has started!',
     maintenance_end: 'The maintenance break has finished! {{duration}}',
+    something_went_wrong: 'Something went wrong while executing this command.',
     choices: {
         yes: 'Yes',
         no: 'No'
-    }
+    },
+    color_code: 'Color Code'
 } as const;
 
 export const command = {
@@ -104,7 +106,8 @@ export const command = {
             success: 'Successfully deleted the clan alias {{name}}.'
         },
         list: {
-            description: 'List all clan aliases.'
+            description: 'List all clan aliases.',
+            title: 'Clan Aliases'
         }
     },
     config: {
@@ -117,7 +120,9 @@ export const command = {
                 description: 'Clash-related events channel.'
             }
         },
-        no_text_channel: 'You must specify a text channel to enable this event log.'
+        no_text_channel: 'You must specify a text channel to enable this event log.',
+        title: 'Server Settings',
+        events_channel: 'Events Channel'
     },
     debug: {
         description: 'Displays some basic debug information.'
@@ -385,7 +390,8 @@ export const command = {
             too_many_reminders: 'If you have too many reminders, please provide a reminder ID.'
         },
         list: {
-            description: 'List all war reminders.'
+            description: 'List all war reminders.',
+            no_reminders: 'You have no reminders.'
         }
     },
     army: {
@@ -730,9 +736,14 @@ export const command = {
     }
 } as const;
 
-export const component = {} as const;
+export const component = {
+    button: {
+        contact_support: 'Contact Support'
+    }
+} as const;
 
 export default {
     common,
+    component,
     command
 } as const;
