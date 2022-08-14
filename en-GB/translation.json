@@ -31,11 +31,23 @@
     "clan_tag_argument": "Clan tag or alias or @user mention.",
     "player_tag_argument": "Player tag or @user mention.",
     "maintenance_start": "The maintenance break has started!",
-    "maintenance_end": "The maintenance break has finished! {{duration}}"
+    "maintenance_end": "The maintenance break has finished! {{duration}}",
+    "something_went_wrong": "Something went wrong while executing this command.",
+    "choices": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "color_code": "Color Code"
+  },
+  "component": {
+    "button": {
+      "contact_support": "Contact Support"
+    }
   },
   "command": {
     "activity": {
       "description": "Shows a graph of hourly-active clan members.",
+      "title": "Hourly-active Clan Members",
       "options": {
         "clans": {
           "description": "Clan tags or aliases (Maximum 3)"
@@ -47,6 +59,7 @@
     },
     "clan_games": {
       "description": "Clan games scoreboard of clan members.",
+      "title": "Clan Games Scoreboard",
       "options": {
         "tag": {
           "description": "Clan tag or alias or @user mention."
@@ -55,6 +68,8 @@
     },
     "lastseen": {
       "description": "The last seen time and activities of clan members.",
+      "title_lastseen": "Last seen and activity scores (last 24h)",
+      "title_activity": "Clan member activities (last 30d)",
       "options": {
         "tag": {
           "description": "Clan tag or alias or @user mention."
@@ -93,7 +108,8 @@
         "success": "Successfully deleted the clan alias {{name}}."
       },
       "list": {
-        "description": "List all clan aliases."
+        "description": "List all clan aliases.",
+        "title": "Clan Aliases"
       }
     },
     "config": {
@@ -106,7 +122,9 @@
           "description": "Clash-related events channel."
         }
       },
-      "no_text_channel": "You must specify a text channel to enable this event log."
+      "no_text_channel": "You must specify a text channel to enable this event log.",
+      "title": "Server Settings",
+      "events_channel": "Events Channel"
     },
     "debug": {
       "description": "Displays some basic debug information."
@@ -373,7 +391,8 @@
         "too_many_reminders": "If you have too many reminders, please provide a reminder ID."
       },
       "list": {
-        "description": "List all war reminders."
+        "description": "List all war reminders.",
+        "no_reminders": "You have no reminders."
       }
     },
     "army": {
