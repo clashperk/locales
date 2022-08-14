@@ -31,11 +31,23 @@
     "clan_tag_argument": "Etiqueta de clan, apodo, o mención al @usuario.",
     "player_tag_argument": "Etiqueta de jugador o mención al @usuario.",
     "maintenance_start": "¡El corte para mantenimiento ya ha comenzado!",
-    "maintenance_end": "¡El corte para mantenimiento ya ha terminado! {{duration}}"
+    "maintenance_end": "¡El corte para mantenimiento ya ha terminado! {{duration}}",
+    "something_went_wrong": "Something went wrong while executing this command.",
+    "choices": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "color_code": "Color Code"
+  },
+  "component": {
+    "button": {
+      "contact_support": "Contact Support"
+    }
   },
   "command": {
     "activity": {
       "description": "Muestra una gráfica con los miembros del clan más activos por cada hora.",
+      "title": "Hourly-active Clan Members",
       "options": {
         "clans": {
           "description": "Apodos o etiquetas del clan. (Máximo 3)"
@@ -47,6 +59,7 @@
     },
     "clan_games": {
       "description": "Tabla de puntuaciónes de los Juegos del Clan de los miembros del clan.",
+      "title": "Clan Games Scoreboard",
       "options": {
         "tag": {
           "description": "Etiqueta de clan, apodo, o mención al @usuario."
@@ -55,6 +68,8 @@
     },
     "lastseen": {
       "description": "La hora y las actividades hechas por última vez de los miembros del clan.",
+      "title_lastseen": "Last seen and activity scores (last 24h)",
+      "title_activity": "Clan member activities (last 30d)",
       "options": {
         "tag": {
           "description": "Etiqueta de clan, apodo, o mención al @usuario."
@@ -93,7 +108,8 @@
         "success": "Se ha eliminado el apodo {{name}} exitosamente."
       },
       "list": {
-        "description": "Enlista todos los apodos de tu clan."
+        "description": "Enlista todos los apodos de tu clan.",
+        "title": "Clan Aliases"
       }
     },
     "config": {
@@ -106,7 +122,9 @@
           "description": "Canal de eventos relacionados con Clash of Clans."
         }
       },
-      "no_text_channel": "Debe especificar un canal de texto para habilitar este registro de eventos."
+      "no_text_channel": "Debe especificar un canal de texto para habilitar este registro de eventos.",
+      "title": "Server Settings",
+      "events_channel": "Events Channel"
     },
     "debug": {
       "description": "Muestra información básica de Depuración."
@@ -373,7 +391,8 @@
         "too_many_reminders": "Si tienes demasiados recordatorios, proporciona un ID de recordatorio."
       },
       "list": {
-        "description": "Lista de todos los recordatorios de guerra."
+        "description": "Lista de todos los recordatorios de guerra.",
+        "no_reminders": "No tienes recordatorios."
       }
     },
     "army": {
