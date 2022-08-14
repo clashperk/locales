@@ -31,11 +31,23 @@
     "clan_tag_argument": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung.",
     "player_tag_argument": "Spieler-Kürzel oder @Benutzer-Erwähnung.",
     "maintenance_start": "Die Wartungspause hat begonnen!",
-    "maintenance_end": "Die Wartungspause ist beendet! {{duration}}"
+    "maintenance_end": "Die Wartungspause ist beendet! {{duration}}",
+    "something_went_wrong": "Something went wrong while executing this command.",
+    "choices": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "color_code": "Color Code"
+  },
+  "component": {
+    "button": {
+      "contact_support": "Contact Support"
+    }
   },
   "command": {
     "activity": {
       "description": "Zeigt einen Graphen der stündlich aktiven Spieler.",
+      "title": "Hourly-active Clan Members",
       "options": {
         "clans": {
           "description": "Clankürzel oder Alias (maximal 3)"
@@ -47,6 +59,7 @@
     },
     "clan_games": {
       "description": "Clanspielrangliste der Clanmitglieder.",
+      "title": "Clan Games Scoreboard",
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -55,6 +68,8 @@
     },
     "lastseen": {
       "description": "Die Zeit, zu der Clanmitglieder zum letzten Mal online waren.",
+      "title_lastseen": "Last seen and activity scores (last 24h)",
+      "title_activity": "Clan member activities (last 30d)",
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -93,7 +108,8 @@
         "success": "Erfolgreich den Alias {{name}} gelöscht."
       },
       "list": {
-        "description": "Liste aller Clan Aliase."
+        "description": "Liste aller Clan Aliase.",
+        "title": "Clan Aliases"
       }
     },
     "config": {
@@ -106,7 +122,9 @@
           "description": "Clash-bezogener Event Channel."
         }
       },
-      "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren."
+      "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
+      "title": "Server Settings",
+      "events_channel": "Events Channel"
     },
     "debug": {
       "description": "Zeigt generelle Debug-Informationen."
@@ -373,7 +391,8 @@
         "too_many_reminders": "Wenn Sie zu viele Erinnerungen haben, geben Sie bitte eine Erinnerungs-ID an."
       },
       "list": {
-        "description": "Listen Sie alle Kriegserinnerungen auf."
+        "description": "Listen Sie alle Kriegserinnerungen auf.",
+        "no_reminders": "Sie haben keine Erinnerungen."
       }
     },
     "army": {
