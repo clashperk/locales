@@ -610,6 +610,7 @@
         },
         "missing_access": "Me falta el permiso {{permission}} en el canal {{channel}} para poder ejecutar este comando.",
         "no_leader_link": "El líder del clan debe estar vinculado al bot para poder activar esta función.",
+        "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "server_link": {
           "success": "Se ha vinculado exitosamente el clan {{clan}} a {{guild}}.",
           "already_linked": "{{clan}} Ya ha sido vinculado a {{guild}}."
