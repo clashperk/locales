@@ -610,6 +610,7 @@
         },
         "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
         "no_leader_link": "Der Clananführer muss mit dem Bot verknüpft sein, um diese Funktion zu aktivieren.",
+        "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "server_link": {
           "success": "{{clan}} mit {{guild}} wurde erfolgreich verknüpft.",
           "already_linked": "{{clan}} ist bereits mit {{guild}} verknüpft."
