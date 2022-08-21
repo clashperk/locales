@@ -609,6 +609,7 @@ export const command = {
             },
             missing_access: "I'm missing {{permission}} in {{channel}} to execute this command.",
             no_leader_link: 'Clan Leader must be linked to the bot to enable this feature.',
+            too_many_webhooks: 'Too many webhooks in {{channel}}.',
             server_link: {
                 success: 'Successfully linked {{clan}} to {{guild}}.',
                 already_linked: '{{clan}} is already linked to {{guild}}.'
