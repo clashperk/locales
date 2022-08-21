@@ -610,6 +610,7 @@
         },
         "missing_access": "Ik mis {{permission}} in {{channel}} om deze opdracht uit te voeren.",
         "no_leader_link": "Clanleider moet aan de bot zijn gekoppeld om deze functie in te schakelen.",
+        "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "server_link": {
           "success": "{{clan}} is succesvol gekoppeld met {{guild}}.",
           "already_linked": "{{clan}} is al gekoppeld aan {{guild}}."
