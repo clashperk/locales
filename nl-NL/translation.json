@@ -372,6 +372,8 @@
         "duration_limit": "De duur moet langer zijn dan 15 minuten en minder dan 45 uur.",
         "duration_order": "De duur moet een veelvoud van 15 minuten zijn. bijv. 15m, 30m, 45m, 1u, 1,25u, 1,5u, 1,75u",
         "too_many_clans": "Het clanselectiemenu is niet beschikbaar voor meer dan 25 clans. {{clans}} clans werden automatisch geselecteerd!\nOm een herinnering voor specifieke clans te maken, geeft u clantags of aliassen met de optie 'clans' tijdens het uitvoeren van de opdracht.",
+        "missing_access": "Ik mis {{permission}} in {{channel}} om deze opdracht uit te voeren.",
+        "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "success": "Succesvol opgeslagen!"
       },
       "delete": {
