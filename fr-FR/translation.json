@@ -372,6 +372,8 @@
         "duration_limit": "La durée doit être supérieure à 15 minutes et inférieure à 45 heures.",
         "duration_order": "La durée doit être un multiple de 15 minutes. ex. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "Le menu de sélection des clans n'est pas disponible au-delà de 25 clans. Les clans {{clans}} ont été sélectionnés automatiquement !\nPour créer un rappel pour des clans spécifiques, passez par l'option \"clans\" pour indiquer les identifiants de clan ou les alias lors de l'exécution de la commande.",
+        "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
+        "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "success": "Sauvegarde réussie !"
       },
       "delete": {
