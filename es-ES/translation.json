@@ -372,6 +372,8 @@
         "duration_limit": "La duración debe ser superior a 15 minutos e inferior a 45 horas.",
         "duration_order": "La duración debe ser un múltiplo de 15 minutos, por ejemplo: 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75 h",
         "too_many_clans": "El menú de selección de clanes no está disponible para más de 25 clanes. ¡Los clanes {{clans}} se seleccionaron automáticamente!\nPara crear un recordatorio para clanes específicos, usa etiquetas o apodos de ese clan a través de la opción «clanes» mientras ejecutas el comando.",
+        "missing_access": "Me falta el permiso {{permission}} en el canal {{channel}} para poder ejecutar este comando.",
+        "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "success": "¡Guardado exitosamente!"
       },
       "delete": {
