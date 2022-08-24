@@ -32,22 +32,22 @@
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
     "maintenance_start": "La maintenance a commencé !",
     "maintenance_end": "La maintenance est terminée ! {{duration}}",
-    "something_went_wrong": "Something went wrong while executing this command.",
+    "something_went_wrong": "Une erreur s'est produite lors de l'exécution de cette commande.",
     "choices": {
-      "yes": "Yes",
-      "no": "No"
+      "yes": "Oui",
+      "no": "Non"
     },
-    "color_code": "Color Code"
+    "color_code": "Code couleur hexadécimal"
   },
   "component": {
     "button": {
-      "contact_support": "Contact Support"
+      "contact_support": "Contacter le support d'aide"
     }
   },
   "command": {
     "activity": {
       "description": "Affiche un graphique des membres actifs du clan heure par heure.",
-      "title": "Hourly-active Clan Members",
+      "title": "Membres du clan actifs pour chaque heure",
       "options": {
         "clans": {
           "description": "Identifiants de clans ou alias (3 maximum)"
@@ -59,7 +59,7 @@
     },
     "clan_games": {
       "description": "Tableau des scores aux jeux de clan des membres du clan.",
-      "title": "Clan Games Scoreboard",
+      "title": "Scores aux jeux de clan",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -68,8 +68,8 @@
     },
     "lastseen": {
       "description": "Dernière connexion et activité des membres du clan.",
-      "title_lastseen": "Last seen and activity scores (last 24h)",
-      "title_activity": "Clan member activities (last 30d)",
+      "title_lastseen": "Dernière connexion et scores d'activité (dernières 24 heures)",
+      "title_activity": "Activité des membres du clan (30 derniers jours)",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -109,7 +109,7 @@
       },
       "list": {
         "description": "Lister tous les alias du clan.",
-        "title": "Clan Aliases"
+        "title": "Tous les alias du clan"
       }
     },
     "config": {
@@ -123,8 +123,8 @@
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
-      "title": "Server Settings",
-      "events_channel": "Events Channel"
+      "title": "Paramètres du serveur",
+      "events_channel": "Salon des évènements"
     },
     "debug": {
       "description": "Affiche quelques informations de débogage de base."
@@ -373,7 +373,7 @@
         "duration_order": "La durée doit être un multiple de 15 minutes. ex. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "Le menu de sélection des clans n'est pas disponible au-delà de 25 clans. Les clans {{clans}} ont été sélectionnés automatiquement !\nPour créer un rappel pour des clans spécifiques, passez par l'option \"clans\" pour indiquer les identifiants de clan ou les alias lors de l'exécution de la commande.",
         "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
-        "too_many_webhooks": "Too many webhooks in {{channel}}.",
+        "too_many_webhooks": "Trop d'intégrations Westhoek dans le salon {{channel}}.",
         "success": "Sauvegarde réussie !"
       },
       "delete": {
@@ -612,7 +612,7 @@
         },
         "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
         "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
-        "too_many_webhooks": "Too many webhooks in {{channel}}.",
+        "too_many_webhooks": "Trop d'intégrations Webhook dans le salon {{channel}}.",
         "server_link": {
           "success": "{{clan}} relié à {{guild}} avec succès.",
           "already_linked": "{{clan}} est déjà relié à {{guild}}."
