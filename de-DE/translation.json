@@ -34,14 +34,14 @@
     "maintenance_end": "Die Wartungspause ist beendet! {{duration}}",
     "something_went_wrong": "Something went wrong while executing this command.",
     "choices": {
-      "yes": "Yes",
-      "no": "No"
+      "yes": "Ja",
+      "no": "Nein"
     },
-    "color_code": "Color Code"
+    "color_code": "Farbcode"
   },
   "component": {
     "button": {
-      "contact_support": "Contact Support"
+      "contact_support": "Support kontaktieren"
     }
   },
   "command": {
@@ -123,7 +123,7 @@
         }
       },
       "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
-      "title": "Server Settings",
+      "title": "Servereinstellungen",
       "events_channel": "Events Channel"
     },
     "debug": {
@@ -373,7 +373,7 @@
         "duration_order": "Die Dauer muss ein Vielfaches von 15 Minuten sein. z.B. 15min, 30min, 45min, 1 Stunde, 1,25 h, 1,5 h, 1,75 h",
         "too_many_clans": "Das Clanauswahlmenü ist nicht für mehr als 25 Clans verfügbar. {{clans}} Clans wurden automatisch ausgewählt!\nUm eine Erinnerung für bestimmte Clans zu erstellen, übergeben Sie Clan-Tags oder Aliase während der Ausführung des Befehls über die Option „Clans“.",
         "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
-        "too_many_webhooks": "Too many webhooks in {{channel}}.",
+        "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
         "success": "Erfolgreich gespeichert!"
       },
       "delete": {
@@ -612,7 +612,7 @@
         },
         "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
         "no_leader_link": "Der Clananführer muss mit dem Bot verknüpft sein, um diese Funktion zu aktivieren.",
-        "too_many_webhooks": "Too many webhooks in {{channel}}.",
+        "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
         "server_link": {
           "success": "{{clan}} mit {{guild}} wurde erfolgreich verknüpft.",
           "already_linked": "{{clan}} ist bereits mit {{guild}} verknüpft."
