@@ -12,8 +12,8 @@ export const fallbackLng = {
 
 export const defaultOptions: InitOptions = {
     debug: false,
-    cleanCode: true,
     lng: 'en-US',
+    load: 'currentOnly',
     defaultNS: 'translation',
     ns: ['translation'],
     fallbackLng: { ...fallbackLng, default: ['en-US'] },
