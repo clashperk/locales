@@ -577,7 +577,7 @@
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "war_id": {
-          "description": "Rechercher avec l'identifiant de guerre."
+          "description": "Rechercher par identifiant de guerre."
         }
       }
     },
