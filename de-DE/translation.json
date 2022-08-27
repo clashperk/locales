@@ -1,12 +1,12 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input!",
-    "no_clans_linked": "No clans are linked to this server. Why not link some?",
+    "no_clans_found": "Keine Clans mit den gesuchten Eigenschaften in unserer Datenbank gefunden.",
+    "no_clans_linked": "Keine Clans mit diesem Server verlinkt. Versuche doch erst einen Clan hinzuzufügen.",
     "clan_limit": "Die maximale Anzahl an Clans wurde erreicht. Wenn du uns auf [Patreon](https://patreon.com/clashperk) unterstützt, kannst du mehr als zwei Clans hinzufügen.",
     "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden.",
     "clan_verification": "Wir müssen sichergehen, dass du in diesem Clan Anführer oder Vize-Anführer bist. Bitter verifiziere deinen Account mit dem API-Token. \nNutze den `/verify` Befehl um deinen Spielaccount zu verifizieren. Dein API-Token findest du in den Einstellungen im Spiel.\n\nAlternativ kannst du in der Clanbeschreibung einen temporären Code `{{code}}` hinzufügen. Warte anschließend 1-2 Minuten und benutze den Befehl erneut. Sobald du verfiziert bist, kannst du den Code aus der Clanbeschreibung entfernen.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
-    "no_data": "No data is available at this moment. We are still collecting!",
+    "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
     "no_clan_data": "Keine Daten verfügbar für {{clan}}. Wir sind noch am Daten sammeln.",
     "no_clan_members": "{{clan}} hat keine Mitglieder.",
     "fetch_failed": "Beim Abrufen von Daten aus der API ist ein Fehler aufgetreten.",
@@ -31,11 +31,23 @@
     "clan_tag_argument": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung.",
     "player_tag_argument": "Spieler-Kürzel oder @Benutzer-Erwähnung.",
     "maintenance_start": "Die Wartungspause hat begonnen!",
-    "maintenance_end": "Die Wartungspause ist beendet! {{duration}}"
+    "maintenance_end": "Die Wartungspause ist beendet! {{duration}}",
+    "something_went_wrong": "Beim Ausführen des Befehls ist ein Fehler aufgetreten.",
+    "choices": {
+      "yes": "Ja",
+      "no": "Nein"
+    },
+    "color_code": "Farbcode"
+  },
+  "component": {
+    "button": {
+      "contact_support": "Support kontaktieren"
+    }
   },
   "command": {
     "activity": {
       "description": "Zeigt einen Graphen der stündlich aktiven Spieler.",
+      "title": "Stündlich aktive Clanmitglieder",
       "options": {
         "clans": {
           "description": "Clankürzel oder Alias (maximal 3)"
@@ -47,6 +59,7 @@
     },
     "clan_games": {
       "description": "Clanspielrangliste der Clanmitglieder.",
+      "title": "Punktestand Clanspiele",
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -55,6 +68,8 @@
     },
     "lastseen": {
       "description": "Die Zeit, zu der Clanmitglieder zum letzten Mal online waren.",
+      "title_lastseen": "Letzte Aktivität und Aktivitätspunkte der letzten 24 Stunden.",
+      "title_activity": "Aktivität der Clanmitglieder der letzten 30 Tage.",
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -93,7 +108,8 @@
         "success": "Erfolgreich den Alias {{name}} gelöscht."
       },
       "list": {
-        "description": "Liste aller Clan Aliase."
+        "description": "Liste aller Clan Aliase.",
+        "title": "Clan Aliases"
       }
     },
     "config": {
@@ -106,7 +122,9 @@
           "description": "Clash-bezogener Event Channel."
         }
       },
-      "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren."
+      "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
+      "title": "Servereinstellungen",
+      "events_channel": "Events Channel"
     },
     "debug": {
       "description": "Zeigt generelle Debug-Informationen."
@@ -115,7 +133,7 @@
       "description": "CWL-Saison Übersicht und Zusammenfassung.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -164,7 +182,7 @@
       "description": "Exportiere Krieg/Saison/Clan Statistik zu Excel.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "season": {
           "description": "Saison zu exportieren."
@@ -209,7 +227,7 @@
         },
         "no_reason": "Sie müssen einen Grund angeben.",
         "reason_max_limit": "Der Grund muss 1024 Zeichen lang sein oder kürzer sein.",
-        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
+        "success": "{{count}} Die Spieler wurden erfolgreich markiert. \n{{players}}"
       },
       "delete": {
         "description": "Lösche eine Player Flag.",
@@ -354,6 +372,8 @@
         "duration_limit": "Die Dauer muss mehr als 15 Minuten und weniger als 45 Stunden betragen.",
         "duration_order": "Die Dauer muss ein Vielfaches von 15 Minuten sein. z.B. 15min, 30min, 45min, 1 Stunde, 1,25 h, 1,5 h, 1,75 h",
         "too_many_clans": "Das Clanauswahlmenü ist nicht für mehr als 25 Clans verfügbar. {{clans}} Clans wurden automatisch ausgewählt!\nUm eine Erinnerung für bestimmte Clans zu erstellen, übergeben Sie Clan-Tags oder Aliase während der Ausführung des Befehls über die Option „Clans“.",
+        "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
+        "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
         "success": "Erfolgreich gespeichert!"
       },
       "delete": {
@@ -373,7 +393,8 @@
         "too_many_reminders": "Wenn Sie zu viele Erinnerungen haben, geben Sie bitte eine Erinnerungs-ID an."
       },
       "list": {
-        "description": "Listen Sie alle Kriegserinnerungen auf."
+        "description": "Listen Sie alle Kriegserinnerungen auf.",
+        "no_reminders": "Sie haben keine Erinnerungen."
       }
     },
     "army": {
@@ -591,6 +612,7 @@
         },
         "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
         "no_leader_link": "Der Clananführer muss mit dem Bot verknüpft sein, um diese Funktion zu aktivieren.",
+        "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
         "server_link": {
           "success": "{{clan}} mit {{guild}} wurde erfolgreich verknüpft.",
           "already_linked": "{{clan}} ist bereits mit {{guild}} verknüpft."
@@ -639,7 +661,7 @@
             "description": "Die Rolle des Mitglieds."
           },
           "clans": {
-            "description": "Clankürzel oder Aliase zum Filtern von Clans."
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "common_role": {
             "description": "Standardmäßige Rolle für alle im Clan."
