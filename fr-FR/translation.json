@@ -542,7 +542,7 @@
           "description": "Limiter les données aux X derniers mois."
         },
         "attempt": {
-          "description": "Attaques d'ouverture ou attaques de finition. (par défaut : les deux)"
+          "description": "Nouvelles attaques ou attaques de perf. (par défaut : les deux)"
         }
       },
       "attacks": {
@@ -672,7 +672,7 @@
         },
         "no_roles": "Vous devez spécifier 3 rôles pour exécuter cette commande.",
         "no_system_roles": "Les rôles gérés par le système ou les bots ne sont pas autorisés.",
-        "no_higher_roles": "Mon rôle doit être plus élevé que ces rôles.",
+        "no_higher_roles": "Mon rôle le plus élevé doit être plus haut que ces rôles.",
         "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
         "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
         "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
