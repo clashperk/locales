@@ -7,6 +7,7 @@ export const fallbackLng = {
     'no': ['no-NO', 'en-US'], // Norwegian/Norsk
     'nl': ['nl-NL', 'en-US'], // Dutch/Nederlands
     'es-ES': ['es-ES', 'en-US'], // Spanish/Español
+    'uk': ['uk-UA', 'en-US'], // Ukrainian/Українська
     'pt-BR': ['pt-BR', 'en-US'] // Portuguese/Português
 };
 
