@@ -570,7 +570,7 @@
     },
     "war": {
       "description": "Muestra un resumen de la guerra.",
-      "no_war_id": "No se encontró ninguna guerra con el ID especificado.",
+      "no_war_id": "No se encontró ninguna guerra con el ID de guerra proporcionado.",
       "not_in_war": "El clan no está en guerra.",
       "options": {
         "tag": {
@@ -661,7 +661,7 @@
             "description": "El rol de miembro."
           },
           "clans": {
-            "description": "Apodos o etiquetas de clan. (introduce * para incluir a todos los clanes vinculados)"
+            "description": "Apodos o etiquetas de clan. (introduce * para incluir todos los clanes)"
           },
           "common_role": {
             "description": "El rol común para todos los miembros del servidor."

@@ -577,7 +577,7 @@
           "description": "Tag do Clã, nome ou mencione @usuario."
         },
         "war_id": {
-          "description": "Pesquise por ID de guerra."
+          "description": "Pesquise por um ID de guerra."
         }
       }
     },

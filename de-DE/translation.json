@@ -1,12 +1,12 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input!",
-    "no_clans_linked": "No clans are linked to this server. Why not link some?",
+    "no_clans_found": "Keine Clans mit den gesuchten Eigenschaften in unserer Datenbank gefunden.",
+    "no_clans_linked": "Keine Clans mit diesem Server verlinkt. Versuche doch erst einen Clan hinzuzufügen.",
     "clan_limit": "Die maximale Anzahl an Clans wurde erreicht. Wenn du uns auf [Patreon](https://patreon.com/clashperk) unterstützt, kannst du mehr als zwei Clans hinzufügen.",
     "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden.",
     "clan_verification": "Wir müssen sichergehen, dass du in diesem Clan Anführer oder Vize-Anführer bist. Bitter verifiziere deinen Account mit dem API-Token. \nNutze den `/verify` Befehl um deinen Spielaccount zu verifizieren. Dein API-Token findest du in den Einstellungen im Spiel.\n\nAlternativ kannst du in der Clanbeschreibung einen temporären Code `{{code}}` hinzufügen. Warte anschließend 1-2 Minuten und benutze den Befehl erneut. Sobald du verfiziert bist, kannst du den Code aus der Clanbeschreibung entfernen.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
-    "no_data": "No data is available at this moment. We are still collecting!",
+    "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
     "no_clan_data": "Keine Daten verfügbar für {{clan}}. Wir sind noch am Daten sammeln.",
     "no_clan_members": "{{clan}} hat keine Mitglieder.",
     "fetch_failed": "Beim Abrufen von Daten aus der API ist ein Fehler aufgetreten.",
@@ -32,7 +32,7 @@
     "player_tag_argument": "Spieler-Kürzel oder @Benutzer-Erwähnung.",
     "maintenance_start": "Die Wartungspause hat begonnen!",
     "maintenance_end": "Die Wartungspause ist beendet! {{duration}}",
-    "something_went_wrong": "Something went wrong while executing this command.",
+    "something_went_wrong": "Beim Ausführen des Befehls ist ein Fehler aufgetreten.",
     "choices": {
       "yes": "Ja",
       "no": "Nein"
@@ -47,7 +47,7 @@
   "command": {
     "activity": {
       "description": "Zeigt einen Graphen der stündlich aktiven Spieler.",
-      "title": "Hourly-active Clan Members",
+      "title": "Stündlich aktive Clanmitglieder",
       "options": {
         "clans": {
           "description": "Clankürzel oder Alias (maximal 3)"
@@ -59,7 +59,7 @@
     },
     "clan_games": {
       "description": "Clanspielrangliste der Clanmitglieder.",
-      "title": "Clan Games Scoreboard",
+      "title": "Punktestand Clanspiele",
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -68,8 +68,8 @@
     },
     "lastseen": {
       "description": "Die Zeit, zu der Clanmitglieder zum letzten Mal online waren.",
-      "title_lastseen": "Last seen and activity scores (last 24h)",
-      "title_activity": "Clan member activities (last 30d)",
+      "title_lastseen": "Letzte Aktivität und Aktivitätspunkte der letzten 24 Stunden.",
+      "title_activity": "Aktivität der Clanmitglieder der letzten 30 Tage.",
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -133,7 +133,7 @@
       "description": "CWL-Saison Übersicht und Zusammenfassung.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -182,7 +182,7 @@
       "description": "Exportiere Krieg/Saison/Clan Statistik zu Excel.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "season": {
           "description": "Saison zu exportieren."
@@ -227,7 +227,7 @@
         },
         "no_reason": "Sie müssen einen Grund angeben.",
         "reason_max_limit": "Der Grund muss 1024 Zeichen lang sein oder kürzer sein.",
-        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
+        "success": "{{count}} Die Spieler wurden erfolgreich markiert. \n{{players}}"
       },
       "delete": {
         "description": "Lösche eine Player Flag.",
@@ -661,7 +661,7 @@
             "description": "Die Rolle des Mitglieds."
           },
           "clans": {
-            "description": "Clankürzel oder Aliase zum Filtern von Clans."
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "common_role": {
             "description": "Standardmäßige Rolle für alle im Clan."
