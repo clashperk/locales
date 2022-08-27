@@ -133,7 +133,7 @@
       "description": "CWL-Saison Übersicht und Zusammenfassung.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -182,7 +182,7 @@
       "description": "Exportiere Krieg/Saison/Clan Statistik zu Excel.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "season": {
           "description": "Saison zu exportieren."
@@ -661,7 +661,7 @@
             "description": "Die Rolle des Mitglieds."
           },
           "clans": {
-            "description": "Clankürzel oder Aliase zum Filtern von Clans."
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "common_role": {
             "description": "Standardmäßige Rolle für alle im Clan."
