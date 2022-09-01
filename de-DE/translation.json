@@ -109,7 +109,7 @@
       },
       "list": {
         "description": "Liste aller Clan Aliase.",
-        "title": "Clan Aliases"
+        "title": "Clan-Aliase"
       }
     },
     "config": {
@@ -124,7 +124,7 @@
       },
       "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
       "title": "Servereinstellungen",
-      "events_channel": "Events Channel"
+      "events_channel": "Events-Kanal"
     },
     "debug": {
       "description": "Zeigt generelle Debug-Informationen."
@@ -360,7 +360,7 @@
             "description": "Erinnerungsnachricht für die Benachrichtigung."
           },
           "clans": {
-            "description": "Clan tags or aliases. (enter * to include all clans)"
+            "description": "Saubere Tags oder Aliase. (* geben Sie ein, um alle Clans einzubeziehen)"
           },
           "channel": {
             "description": "Erinnerungsnachricht für die Benachrichtigung."
