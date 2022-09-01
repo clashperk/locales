@@ -147,10 +147,10 @@
         "description": "Aperçu des attaques de Ligue de clans."
       },
       "lineup": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "members": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "roster": {
         "description": "Équipes de la Ligue et répartition des hôtels de ville.",
@@ -172,10 +172,10 @@
         }
       },
       "stars": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "stats": {
-        "description": "No description."
+        "description": "Aucune description."
       }
     },
     "export": {
@@ -195,22 +195,22 @@
         }
       },
       "cwl": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "last_wars": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "members": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "missed": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "season": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "wars": {
-        "description": "No description."
+        "description": "Aucune description."
       }
     },
     "flag": {
@@ -577,7 +577,7 @@
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "war_id": {
-          "description": "Rechercher par identifiant de guerre."
+          "description": "Rechercher avec l'identifiant de guerre."
         }
       }
     },
@@ -702,22 +702,22 @@
         }
       },
       "clans": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "players": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "donations": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "trophies": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "wars": {
-        "description": "No description."
+        "description": "Aucune description."
       },
       "clan_games": {
-        "description": "No description.",
+        "description": "Aucune description.",
         "min_clan_size": "Vous devez avoir au moins {{clans}} clans sur votre serveur pour pouvoir utiliser cette commande.",
         "scoreboard": "Basé sur les meilleurs scores et le temps de réalisation.",
         "performance": "Basé sur le score maximum de points."
