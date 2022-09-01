@@ -18,7 +18,7 @@
     "no_player_tag": "You must provide a player tag to execute this command!",
     "clan_not_linked": "No clan is linked to {{user}}.",
     "player_not_linked": "No player is linked to {{user}}.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use the `/setup` command to link the clan.",
+    "guild_unauthorized": "This server is not authorized for {{clan}}. Use `/setup` command to link the clan.",
     "status_code": {
       "400": "The client provided incorrect parameters for the request.",
       "403": "API token does not grant access to the requested resource.",
@@ -37,7 +37,7 @@
       "yes": "Yes",
       "no": "No"
     },
-    "color_code": "Colour Code"
+    "color_code": "Color Code"
   },
   "component": {
     "button": {
@@ -116,7 +116,7 @@
       "description": "Configure server settings.",
       "options": {
         "color_code": {
-          "description": "Hex colour code (e.g #ed4245) [Patron Only]"
+          "description": "Hex color code (e.g #ed4245) [Patron Only]"
         },
         "events_channel": {
           "description": "Clash-related events channel."
@@ -307,7 +307,7 @@
       "description": "Verify and link a player using an API token.",
       "options": {
         "tag": {
-          "description": "The tag of a player to verify."
+          "description": "Tag of the player to verify."
         },
         "token": {
           "description": "API token that can be found in the game settings."
@@ -412,7 +412,7 @@
       }
     },
     "attacks": {
-      "description": "Attack and defence scoreboard of clan members.",
+      "description": "Attack and defense scoreboard of clan members.",
       "options": {
         "tag": {
           "description": "Clan tag or alias or @user mention."
@@ -489,7 +489,7 @@
     },
     "remaining": {
       "description": "Remaining or missed attacks of a clan.",
-      "not_in_war": "The clan is not in a war.",
+      "not_in_war": "Clan is not in a war.",
       "no_war_id": "No war was found for the specified war ID.",
       "options": {
         "tag": {
@@ -523,7 +523,7 @@
       }
     },
     "stats": {
-      "description": "Shows attack and defence stats of clan members.",
+      "description": "Shows attack and defense stats of clan members.",
       "no_stats": "No stats are available for this filter or clan.",
       "options": {
         "tag": {
@@ -549,7 +549,7 @@
         "description": "Shows attack success rates of clan members."
       },
       "defense": {
-        "description": "Shows defence failure rates of clan members."
+        "description": "Shows defense failure rates of clan members."
       }
     },
     "units": {
@@ -569,9 +569,9 @@
       }
     },
     "war": {
-      "description": "Shows a war summary and overview.",
+      "description": "Shows war summary and overview.",
       "no_war_id": "No war was found for the specified war ID.",
-      "not_in_war": "The clan is not in a war.",
+      "not_in_war": "Clan is not in a war.",
       "options": {
         "tag": {
           "description": "Clan tag or alias or @user mention."
@@ -604,7 +604,7 @@
             "description": "Channel to send updates to (defaults to the current channel)"
           },
           "color": {
-            "description": "Hex colour code (only for donation log, clan games, last seen and clan embed)"
+            "description": "Hex color code (only for donation log, clan games, last seen and clan embed)"
           },
           "role": {
             "description": "Role for the flag notification (only for clan feed)"
@@ -638,7 +638,7 @@
         },
         "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
         "channel_not_found": "No clans were found that are linked to {{channel}}.",
-        "clan_not_linked": "No clans were found on the server for the tag you specified.",
+        "clan_not_linked": "No clans were found on the server for the specified tag.",
         "clan_deleted": "Successfully deleted {{clan}}.",
         "feature_disabled": "Successfully disabled {{feature}} for {{clan}}."
       },
