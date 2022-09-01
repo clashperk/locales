@@ -28,7 +28,7 @@
       "503": "El servicio sé encuentra cerrado temporalmente debido a tareas de mantenimiento.",
       "504": "Error 504: Tiempo de espera sobrepasado."
     },
-    "clan_tag_argument": "Etiqueta de clan, apodo, o mención al @usuario.",
+    "clan_tag_argument": "Clan tag or alias or @user mention.",
     "player_tag_argument": "Etiqueta de jugador o mención al @usuario.",
     "maintenance_start": "¡El corte para mantenimiento ya ha comenzado!",
     "maintenance_end": "¡El corte para mantenimiento ya ha terminado! {{duration}}",
@@ -47,7 +47,7 @@
   "command": {
     "activity": {
       "description": "Muestra una gráfica con los miembros del clan más activos por cada hora.",
-      "title": "Hourly-active Clan Members",
+      "title": "Hoy-active Clan Miembros",
       "options": {
         "clans": {
           "description": "Apodos o etiquetas del clan. (Máximo 3)"
@@ -59,20 +59,20 @@
     },
     "clan_games": {
       "description": "Tabla de puntuaciónes de los Juegos del Clan de los miembros del clan.",
-      "title": "Clan Games Scoreboard",
+      "title": "Juegos de clan Scoreboard",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
     "lastseen": {
       "description": "La hora y las actividades hechas por última vez de los miembros del clan.",
-      "title_lastseen": "Last seen and activity scores (last 24h)",
-      "title_activity": "Clan member activities (last 30d)",
+      "title_lastseen": "Último visto y puntajes de actividad (últimas 24 horas)",
+      "title_activity": "Actividades de los miembros del clan (últimos 30 días)",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -109,7 +109,7 @@
       },
       "list": {
         "description": "Enlista todos los apodos de tu clan.",
-        "title": "Clan Aliases"
+        "title": "Alias ​​de clanes"
       }
     },
     "config": {
@@ -124,7 +124,7 @@
       },
       "no_text_channel": "Debe especificar un canal de texto para habilitar este registro de eventos.",
       "title": "Configuración del servidor",
-      "events_channel": "Events Channel"
+      "events_channel": "Canal de eventos"
     },
     "debug": {
       "description": "Muestra información básica de Depuración."
@@ -136,7 +136,7 @@
           "description": "Selecciona una opción."
         },
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       },
       "still_searching": "Tu clan {{clan}} sigue buscando a sus oponentes.",
@@ -147,16 +147,16 @@
         "description": "Descripción general de los ataques de la Liga de Guerras."
       },
       "lineup": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "members": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "roster": {
         "description": "Participantes en la Liga de Guerras y distribución de los ayuntamientos.",
         "options": {
           "tag": {
-            "description": "Etiqueta de clan, apodo, o mención al @usuario."
+            "description": "Clan tag or alias or @user mention."
           }
         }
       },
@@ -164,7 +164,7 @@
         "description": "Resumen de la ronda actual de la Liga de Guerras.",
         "options": {
           "tag": {
-            "description": "Etiqueta de clan, apodo, o mención al @usuario."
+            "description": "Clan tag or alias or @user mention."
           },
           "round": {
             "description": "Número de la ronda a mostrar."
@@ -172,10 +172,10 @@
         }
       },
       "stars": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "stats": {
-        "description": "No description."
+        "description": "Sin descripción."
       }
     },
     "export": {
@@ -195,22 +195,22 @@
         }
       },
       "cwl": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "last_wars": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "members": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "missed": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "season": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "wars": {
-        "description": "No description."
+        "description": "Sin descripción."
       }
     },
     "flag": {
@@ -260,45 +260,45 @@
       }
     },
     "link": {
-      "description": "Crea, borra o enlista enlaces de jugadores.",
-      "no_tag": "Debes proporcionar una etiqueta de jugador/clan para poder ejecutar este comando.",
+      "description": "Create, delete or list player links.",
+      "no_tag": "You must specify a player/clan tag to execute this command.",
       "create": {
-        "description": "Crea un enlace jugador/clan con una cuenta de usuario.",
+        "description": "Creates a player/clan link with a user account.",
         "options": {
           "tag": {
-            "description": "Etiqueta de jugador o de clan."
+            "description": "Tag of a player or clan."
           },
           "user": {
-            "description": "Cuenta de usuario a vincular a la etiqueta proporcionada."
+            "description": "User account to link to the tag."
           },
           "default": {
-            "description": "Indica si esta etiqueta es la predeterminada."
+            "description": "Whether this tag is the default."
           }
         },
-        "no_bots": "No se permite vincular cuentas de bots.",
-        "fail": "Esta etiqueta de jugador o clan no es válida.",
-        "prompt": "¿Qué te gustaría vincular? ¿Un jugador o un clan?",
-        "success": "Se ha vinculado correctamente {{target}} a {{user}}.",
-        "link_exists": "{{player}} Ya ha sido vinculado.",
-        "already_linked": "{{player}} Ya ha sido vinculado a otro usuario. Si usted es el verdadero propietario de esta cuenta, utilice el comando `/verify`.",
-        "max_limit": "Has alcanzado el límite máximo de cuentas. (25 cuentas por usuario)"
+        "no_bots": "Bot accounts are not allowed to be linked.",
+        "fail": "This player or clan tag is not valid.",
+        "prompt": "What would you like to link? A Player or a Clan?",
+        "success": "Successfully linked {{target}} to {{user}}.",
+        "link_exists": "{{player}} is already linked.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the `/verify` command.",
+        "max_limit": "The maximum account limit has been reached. (25 accounts/user)"
       },
       "delete": {
-        "description": "Eliminar un enlace de jugador/clan.",
+        "description": "Delete a player/clan link.",
         "options": {
           "tag": {
-            "description": "Etiqueta de jugador o de clan."
+            "description": "Tag of a player or clan."
           }
         },
-        "no_result": "No se encontraron resultados con la etiqueta {{tag}}.",
-        "success": "Se ha eliminado correctamente el enlace con la etiqueta {{tag}}.",
-        "no_access": "Este jugador debe estar en tu clan y debe ser el Líder o uno de los Colideres \"Verificados\" para llevar a cabo esta acción."
+        "no_result": "No matches were found with the tag {{tag}}.",
+        "success": "Successfully deleted the link with the tag {{tag}}.",
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action."
       },
       "list": {
-        "description": "Lista de todos los enlaces de jugadores.",
+        "description": "List all player links.",
         "options": {
           "tag": {
-            "description": "Etiqueta de clan, apodo, o mención al @usuario."
+            "description": "Clan tag or alias or @user mention."
           }
         }
       }
@@ -415,7 +415,7 @@
       "description": "Tabla de puntuaciones de ataque y defensa de los miembros del clan.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -427,7 +427,7 @@
       "no_recent_unit_boosts": "Ningún miembro recientemente activo está potenciando {{unit}} en este clan.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -435,7 +435,7 @@
       "description": "Muestra la descripción general del jugador.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -443,7 +443,7 @@
       "description": "Muestra la composición de los ayuntamientos de un clan.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -452,7 +452,7 @@
       "no_season_data": "No se encontraron datos para la temporada {{season}}.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "season": {
           "description": "La temporada con las donaciones a mostrar."
@@ -464,7 +464,7 @@
       "not_in_war": "El clan no está en guerra.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -472,7 +472,7 @@
       "description": "Obtén una lista de miembros del clan con héroes, trofeos, preferencias de guerra y más.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "option": {
           "description": "Selecciona una opción."
@@ -493,7 +493,7 @@
       "no_war_id": "No se encontró ninguna guerra con el ID de guerra proporcionado.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "war_id": {
           "description": "Busca por ID de guerra."
@@ -527,7 +527,7 @@
       "no_stats": "No hay estadísticas disponibles para este filtro o clan.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "compare": {
           "description": "Comparar ayuntamientos (Por ejemplo: 14 vs 13, 12 vs 13, todos, iguales, etc.)"
@@ -564,17 +564,17 @@
       "description": "Mejoras restantes de un jugador y el coste de mejora.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
     "war": {
       "description": "Muestra un resumen de la guerra.",
-      "no_war_id": "No se encontró ninguna guerra con el ID de guerra proporcionado.",
+      "no_war_id": "No se encontró ninguna guerra con el ID especificado.",
       "not_in_war": "El clan no está en guerra.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "war_id": {
           "description": "Busca por ID de guerra."
@@ -585,7 +585,7 @@
       "description": "Muestra los últimos 10 registros de guerra de clanes.",
       "options": {
         "tag": {
-          "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -661,7 +661,7 @@
             "description": "El rol de miembro."
           },
           "clans": {
-            "description": "Apodos o etiquetas de clan. (introduce * para incluir todos los clanes)"
+            "description": "Apodos o etiquetas de clan. (introduce * para incluir a todos los clanes vinculados)"
           },
           "common_role": {
             "description": "El rol común para todos los miembros del servidor."
@@ -702,22 +702,22 @@
         }
       },
       "clans": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "players": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "donations": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "trophies": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "wars": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "clan_games": {
-        "description": "No description.",
+        "description": "Sin descripción.",
         "min_clan_size": "Debe tener un mínimo de {{clans}} clanes en tu servidor para poder usar este comando.",
         "scoreboard": "Basado en las puntuaciones más altas y los tiempos de finalización.",
         "performance": "Basado en completar el máximo de puntos."
