@@ -147,10 +147,10 @@
         "description": "Огляд атак в Лізі Кланових Війн."
       },
       "lineup": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "members": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "roster": {
         "description": "Список участників та розподіл по рівню ратуші в Лізі Кланових Війн.",
@@ -172,10 +172,10 @@
         }
       },
       "stars": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "stats": {
-        "description": "No description."
+        "description": "Без опису."
       }
     },
     "export": {
@@ -195,22 +195,22 @@
         }
       },
       "cwl": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "last_wars": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "members": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "missed": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "season": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "wars": {
-        "description": "No description."
+        "description": "Без опису."
       }
     },
     "flag": {
@@ -702,22 +702,22 @@
         }
       },
       "clans": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "players": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "donations": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "trophies": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "wars": {
-        "description": "No description."
+        "description": "Без опису."
       },
       "clan_games": {
-        "description": "No description.",
+        "description": "Без опису.",
         "min_clan_size": "Ви повинні мати мінімум {{clans}} кланів на Вашому сервері для використання цієї команди.",
         "scoreboard": "На основі найвищих результатів та часу виконання.",
         "performance": "На основі максимальної кількості балів."
