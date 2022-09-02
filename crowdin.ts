@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import { fetch } from 'undici';
+import fetch from 'node-fetch';
 
 (async () => {
     const response = await fetch('https://api.crowdin.com/api/v2/projects/522390/strings?fileId=18&limit=500', {
