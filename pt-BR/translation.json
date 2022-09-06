@@ -147,10 +147,10 @@
         "description": "Visão Geral dos ataques na CWL."
       },
       "lineup": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "members": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "roster": {
         "description": "Lista da CWL e distribuição de Centro de Vila.",
@@ -172,10 +172,10 @@
         }
       },
       "stars": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "stats": {
-        "description": "No description."
+        "description": "Sem descrição."
       }
     },
     "export": {
@@ -195,22 +195,22 @@
         }
       },
       "cwl": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "last_wars": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "members": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "missed": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "season": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "wars": {
-        "description": "No description."
+        "description": "Sem descrição."
       }
     },
     "flag": {
@@ -577,7 +577,7 @@
           "description": "Tag do Clã, nome ou mencione @usuario."
         },
         "war_id": {
-          "description": "Pesquise por um ID de guerra."
+          "description": "Pesquise por ID de guerra."
         }
       }
     },
@@ -702,22 +702,22 @@
         }
       },
       "clans": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "players": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "donations": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "trophies": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "wars": {
-        "description": "No description."
+        "description": "Sem descrição."
       },
       "clan_games": {
-        "description": "No description.",
+        "description": "Sem descrição.",
         "min_clan_size": "Você deve ter um mínimo de {{clans}} clãs em seu servidor para usar esse comando.",
         "scoreboard": "Com base nas pontuações mais altas e nos tempos de conclusão.",
         "performance": "Com base na conclusão do máximo de pontos."

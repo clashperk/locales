@@ -47,7 +47,7 @@
   "command": {
     "activity": {
       "description": "Muestra una gráfica con los miembros del clan más activos por cada hora.",
-      "title": "Hourly-active Clan Members",
+      "title": "Hoy-active Clan Miembros",
       "options": {
         "clans": {
           "description": "Apodos o etiquetas del clan. (Máximo 3)"
@@ -59,7 +59,7 @@
     },
     "clan_games": {
       "description": "Tabla de puntuaciónes de los Juegos del Clan de los miembros del clan.",
-      "title": "Clan Games Scoreboard",
+      "title": "Juegos de clan Scoreboard",
       "options": {
         "tag": {
           "description": "Etiqueta de clan, apodo, o mención al @usuario."
@@ -68,8 +68,8 @@
     },
     "lastseen": {
       "description": "La hora y las actividades hechas por última vez de los miembros del clan.",
-      "title_lastseen": "Last seen and activity scores (last 24h)",
-      "title_activity": "Clan member activities (last 30d)",
+      "title_lastseen": "Último visto y puntajes de actividad (últimas 24 horas)",
+      "title_activity": "Actividades de los miembros del clan (últimos 30 días)",
       "options": {
         "tag": {
           "description": "Etiqueta de clan, apodo, o mención al @usuario."
@@ -109,7 +109,7 @@
       },
       "list": {
         "description": "Enlista todos los apodos de tu clan.",
-        "title": "Clan Aliases"
+        "title": "Alias ​​de clanes"
       }
     },
     "config": {
@@ -124,7 +124,7 @@
       },
       "no_text_channel": "Debe especificar un canal de texto para habilitar este registro de eventos.",
       "title": "Configuración del servidor",
-      "events_channel": "Events Channel"
+      "events_channel": "Canal de eventos"
     },
     "debug": {
       "description": "Muestra información básica de Depuración."
@@ -147,10 +147,10 @@
         "description": "Descripción general de los ataques de la Liga de Guerras."
       },
       "lineup": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "members": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "roster": {
         "description": "Participantes en la Liga de Guerras y distribución de los ayuntamientos.",
@@ -172,10 +172,10 @@
         }
       },
       "stars": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "stats": {
-        "description": "No description."
+        "description": "Sin descripción."
       }
     },
     "export": {
@@ -195,22 +195,22 @@
         }
       },
       "cwl": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "last_wars": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "members": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "missed": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "season": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "wars": {
-        "description": "No description."
+        "description": "Sin descripción."
       }
     },
     "flag": {
@@ -272,7 +272,7 @@
             "description": "Cuenta de usuario a vincular a la etiqueta proporcionada."
           },
           "default": {
-            "description": "Indica si esta etiqueta es la predeterminada."
+            "description": "Significa que la etiqueta es la predeterminada."
           }
         },
         "no_bots": "No se permite vincular cuentas de bots.",
@@ -570,7 +570,7 @@
     },
     "war": {
       "description": "Muestra un resumen de la guerra.",
-      "no_war_id": "No se encontró ninguna guerra con el ID de guerra proporcionado.",
+      "no_war_id": "No se encontró ninguna guerra con el ID especificado.",
       "not_in_war": "El clan no está en guerra.",
       "options": {
         "tag": {
@@ -661,7 +661,7 @@
             "description": "El rol de miembro."
           },
           "clans": {
-            "description": "Apodos o etiquetas de clan. (introduce * para incluir todos los clanes)"
+            "description": "Apodos o etiquetas de clan. (introduce * para incluir a todos los clanes vinculados)"
           },
           "common_role": {
             "description": "El rol común para todos los miembros del servidor."
@@ -702,22 +702,22 @@
         }
       },
       "clans": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "players": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "donations": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "trophies": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "wars": {
-        "description": "No description."
+        "description": "Sin descripción."
       },
       "clan_games": {
-        "description": "No description.",
+        "description": "Sin descripción.",
         "min_clan_size": "Debe tener un mínimo de {{clans}} clanes en tu servidor para poder usar este comando.",
         "scoreboard": "Basado en las puntuaciones más altas y los tiempos de finalización.",
         "performance": "Basado en completar el máximo de puntos."
