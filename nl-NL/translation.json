@@ -147,10 +147,10 @@
         "description": "Overzicht van CWL-aanvallen."
       },
       "lineup": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "members": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "roster": {
         "description": "CWL-rooster en stadhuis verdeling.",
@@ -172,10 +172,10 @@
         }
       },
       "stars": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "stats": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       }
     },
     "export": {
@@ -195,22 +195,22 @@
         }
       },
       "cwl": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "last_wars": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "members": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "missed": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "season": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "wars": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       }
     },
     "flag": {
@@ -702,22 +702,22 @@
         }
       },
       "clans": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "players": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "donations": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "trophies": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "wars": {
-        "description": "No description."
+        "description": "Geen beschrijving."
       },
       "clan_games": {
-        "description": "No description.",
+        "description": "Geen beschrijving.",
         "min_clan_size": "Je moet minimaal {{clans}} clans op je server hebben om deze opdracht te gebruiken.",
         "scoreboard": "Gebaseerd op de hoogste scores en tijd.",
         "performance": "Gebaseerd op het behalen van de maximale punten."
