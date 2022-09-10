@@ -66,6 +66,16 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Shows clan capital contributions and raids.",
+      "title_contributions": "Clan Capital Contributions",
+      "title_raids": "Clan Capital Raids",
+      "options": {
+        "tag": {
+          "description": "Тег чи псевдонім клану або згадка @user."
+        }
+      }
+    },
     "lastseen": {
       "description": "Час останнього відвідування та активність учасників клану.",
       "title_lastseen": "Час останнього відвідування та активність (за останні 24 години)",
