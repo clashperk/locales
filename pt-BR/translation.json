@@ -66,6 +66,16 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Shows clan capital contributions and raids.",
+      "title_contributions": "Clan Capital Contributions",
+      "title_raids": "Clan Capital Raids",
+      "options": {
+        "tag": {
+          "description": "Tag do Clã, nome ou mencione @usuario."
+        }
+      }
+    },
     "lastseen": {
       "description": "Tempo de Última vez visto e as atividades dos membros do clã.",
       "title_lastseen": "Visto pela última vez e pontuações de atividade (últimas 24h)",
