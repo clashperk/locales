@@ -66,6 +66,16 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Shows clan capital contributions and raids.",
+      "title_contributions": "Clan Capital Contributions",
+      "title_raids": "Clan Capital Raids",
+      "options": {
+        "tag": {
+          "description": "Clan tag of @gebruiker vermelding."
+        }
+      }
+    },
     "lastseen": {
       "description": "De laatst geziene tijd en activiteiten van clanleden.",
       "title_lastseen": "Laatst gezien en activiteitsscores (laatste 24 uur)",
