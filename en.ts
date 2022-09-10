@@ -64,6 +64,16 @@ export const command = {
             }
         }
     },
+    clan_capital: {
+        description: 'Shows clan capital contributions and raids.',
+        title_contributions: 'Clan Capital Contributions',
+        title_raids: 'Clan Capital Raids',
+        options: {
+            tag: {
+                description: 'Clan tag or alias or @user mention.'
+            }
+        }
+    },
     lastseen: {
         description: 'The last seen time and activities of clan members.',
         title_lastseen: 'Last seen and activity scores (last 24h)',
