@@ -66,6 +66,16 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Shows clan capital contributions and raids.",
+      "title_contributions": "Clan Capital Contributions",
+      "title_raids": "Clan Capital Raids",
+      "options": {
+        "tag": {
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
+        }
+      }
+    },
     "lastseen": {
       "description": "Klan üyelerinin son görülme zamanları ve aktiflikleri.",
       "title_lastseen": "Son görülmeler ve aktiflik skorları (son 24 saat)",
