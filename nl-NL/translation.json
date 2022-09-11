@@ -67,9 +67,9 @@
       }
     },
     "clan_capital": {
-      "description": "Shows clan capital contributions and raids.",
-      "title_contributions": "Clan Capital Contributions",
-      "title_raids": "Clan Capital Raids",
+      "description": "Toont de bijdragen aan de clanhoofdstad en rooftochten.",
+      "title_contributions": "Bijdragen aan Clanhoofdstad",
+      "title_raids": "Clanhoofdstad Rooftochten",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
