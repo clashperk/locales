@@ -67,9 +67,9 @@
       }
     },
     "clan_capital": {
-      "description": "Shows clan capital contributions and raids.",
-      "title_contributions": "Clan Capital Contributions",
-      "title_raids": "Clan Capital Raids",
+      "description": "Affiche les raids de capitale ainsi que les contributions.",
+      "title_contributions": "Contributions a la capitale de clan",
+      "title_raids": "Raids de capitale de clans",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
