@@ -68,11 +68,28 @@
     },
     "clan_capital": {
       "description": "Shows clan capital contributions and raids.",
-      "title_contributions": "Clan Capital Contributions",
-      "title_raids": "Clan Capital Raids",
-      "options": {
-        "tag": {
-          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
+      "contributions": {
+        "description": "Shows clan capital contributions.",
+        "title": "Clan Capital Contributions",
+        "options": {
+          "tag": {
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
+          },
+          "season": {
+            "description": "The season to show contributions for."
+          }
+        }
+      },
+      "raids": {
+        "description": "Shows clan capital raids.",
+        "title": "Clan Capital Raids",
+        "options": {
+          "tag": {
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
+          },
+          "week": {
+            "description": "The week to show raids for."
+          }
         }
       }
     },
