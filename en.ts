@@ -73,6 +73,9 @@ export const command = {
                 tag: {
                     description: 'Clan tag or alias or @user mention.'
                 },
+                week: {
+                    description: 'The week to show contributions for.'
+                },
                 season: {
                     description: 'The season to show contributions for.'
                 }
@@ -87,6 +90,9 @@ export const command = {
                 },
                 week: {
                     description: 'The week to show raids for.'
+                },
+                season: {
+                    description: 'The season to show raids for.'
                 }
             }
         }
