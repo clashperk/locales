@@ -75,6 +75,9 @@
           "tag": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
           },
+          "week": {
+            "description": "The week to show contributions for."
+          },
           "season": {
             "description": "The season to show contributions for."
           }
@@ -89,6 +92,9 @@
           },
           "week": {
             "description": "The week to show raids for."
+          },
+          "season": {
+            "description": "The season to show raids for."
           }
         }
       }
