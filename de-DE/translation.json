@@ -68,11 +68,28 @@
     },
     "clan_capital": {
       "description": "Shows clan capital contributions and raids.",
-      "title_contributions": "Clan Capital Contributions",
-      "title_raids": "Clan Capital Raids",
-      "options": {
-        "tag": {
-          "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
+      "contributions": {
+        "description": "Shows clan capital contributions.",
+        "title": "Clan Capital Contributions",
+        "options": {
+          "tag": {
+            "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
+          },
+          "season": {
+            "description": "The season to show contributions for."
+          }
+        }
+      },
+      "raids": {
+        "description": "Shows clan capital raids.",
+        "title": "Clan Capital Raids",
+        "options": {
+          "tag": {
+            "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
+          },
+          "week": {
+            "description": "The week to show raids for."
+          }
         }
       }
     },
