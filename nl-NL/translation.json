@@ -69,8 +69,8 @@
     "clan_capital": {
       "description": "Toont de bijdragen aan de clanhoofdstad en rooftochten.",
       "contributions": {
-        "description": "Shows clan capital contributions.",
-        "title": "Clan Capital Contributions",
+        "description": "Toont bijdragen aan de canhoofdstad.",
+        "title": "Bijdragen aan de clanhoofdstad",
         "options": {
           "tag": {
             "description": "Clan tag of @gebruiker vermelding."
@@ -79,19 +79,19 @@
             "description": "The week to show contributions for."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "Het seizoen om bijdragen voor te tonen."
           }
         }
       },
       "raids": {
-        "description": "Shows clan capital raids.",
-        "title": "Clan Capital Raids",
+        "description": "Toont de rooftochten van de clanhoofdstad.",
+        "title": "Rooftochten Clanhoofstad",
         "options": {
           "tag": {
             "description": "Clan tag of @gebruiker vermelding."
           },
           "week": {
-            "description": "The week to show raids for."
+            "description": "De week om rooftochten voor te tonen."
           },
           "season": {
             "description": "The season to show raids for."
