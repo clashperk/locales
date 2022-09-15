@@ -428,6 +428,20 @@
       "list": {
         "description": "Listen Sie alle Kriegserinnerungen auf.",
         "no_reminders": "Sie haben keine Erinnerungen."
+      },
+      "now": {
+        "description": "Instant war reminder to mention members.",
+        "options": {
+          "message": {
+            "description": "Erinnerungsnachricht für die Benachrichtigung."
+          },
+          "clans": {
+            "description": "Saubere Tags oder Aliase. (* geben Sie ein, um alle Clans einzubeziehen)"
+          }
+        },
+        "no_match": "There are no wars or no members that are matching with the selected options.",
+        "no_message": "Sie müssen eine Meldung angeben, um diesen Befehl auszuführen.",
+        "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen."
       }
     },
     "army": {
