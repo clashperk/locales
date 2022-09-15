@@ -427,6 +427,19 @@ export const command = {
         list: {
             description: 'List all war reminders.',
             no_reminders: 'You have no reminders.'
+        },
+        now: {
+            description: 'Instant war reminder to notify members.',
+            options: {
+                message: {
+                    description: 'Reminder message for the notification.'
+                },
+                clans: {
+                    description: 'Clan tags or aliases. (enter * to include all clans)'
+                }
+            },
+            no_message: 'You must specify a message to execute this command.',
+            no_match: 'There are no wars or no members that are matching with the selected options.'
         }
     },
     army: {
