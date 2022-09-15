@@ -430,7 +430,7 @@
         "no_reminders": "У Вас немає нагадувань."
       },
       "now": {
-        "description": "Instant war reminder to mention members.",
+        "description": "Instant war reminder to notify members.",
         "options": {
           "message": {
             "description": "Повідомлення для нагадування."
@@ -439,9 +439,8 @@
             "description": "Теги або псевдоніми клану (введіть * для включення всіх кланів)"
           }
         },
-        "no_match": "There are no wars or no members that are matching with the selected options.",
         "no_message": "Для виконання цієї команди необхідно надати текст повідомлення.",
-        "missing_access": "Я не маю {{permission}} в {{channel}} для виконання цієї команди."
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {
