@@ -430,7 +430,7 @@
         "no_reminders": "Vous n'avez aucun rappel."
       },
       "now": {
-        "description": "Instant war reminder to mention members.",
+        "description": "Instant war reminder to notify members.",
         "options": {
           "message": {
             "description": "Message de rappel pour la notification."
@@ -439,9 +439,8 @@
             "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
           }
         },
-        "no_match": "There are no wars or no members that are matching with the selected options.",
         "no_message": "Vous devez spécifier un message pour exécuter cette commande.",
-        "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande."
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {
