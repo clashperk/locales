@@ -428,6 +428,20 @@
       "list": {
         "description": "Maak een lijst van alle oorlogsherinneringen.",
         "no_reminders": "Je hebt geen herinneringen."
+      },
+      "now": {
+        "description": "Instant war reminder to mention members.",
+        "options": {
+          "message": {
+            "description": "Herinneringsbericht voor de melding."
+          },
+          "clans": {
+            "description": "Clan tags of aliassen. (voer * in om alle clans te selecteren)"
+          }
+        },
+        "no_match": "There are no wars or no members that are matching with the selected options.",
+        "no_message": "U moet een bericht opgeven om deze opdracht uit te voeren.",
+        "missing_access": "Ik mis {{permission}} in {{channel}} om deze opdracht uit te voeren."
       }
     },
     "army": {
