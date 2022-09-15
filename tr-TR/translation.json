@@ -428,6 +428,20 @@
       "list": {
         "description": "Bütün savaş hatırlatıcılarını listele.",
         "no_reminders": "Hatırlatıcınız yok."
+      },
+      "now": {
+        "description": "Instant war reminder to mention members.",
+        "options": {
+          "message": {
+            "description": "Bildirim için hatırlatma mesajı."
+          },
+          "clans": {
+            "description": "Klan etiketleri veya lakapları. (Tüm klanları kapsaması için * giriniz)"
+          }
+        },
+        "no_match": "There are no wars or no members that are matching with the selected options.",
+        "no_message": "Bu komutu çalıştırmak için bir hatırlatma mesajı belirtmelisiniz.",
+        "missing_access": "Bu komutu çalıştırmak için {{channel}} kanalında {{permission}} yetkim yok."
       }
     },
     "army": {
