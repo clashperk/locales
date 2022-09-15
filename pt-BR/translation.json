@@ -430,7 +430,7 @@
         "no_reminders": "Você não tem lembretes."
       },
       "now": {
-        "description": "Instant war reminder to mention members.",
+        "description": "Instant war reminder to notify members.",
         "options": {
           "message": {
             "description": "Mensagem de lembrete para a notificação."
@@ -439,9 +439,8 @@
             "description": "Tags ou apelidos de clã. (insira * para incluir todos os clãs)"
           }
         },
-        "no_match": "There are no wars or no members that are matching with the selected options.",
         "no_message": "Você deve especificar uma mensagem para executar esse comando.",
-        "missing_access": "Estou precisando de {{permission}} em {{channel}} para executar este comando."
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {
