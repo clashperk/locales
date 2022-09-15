@@ -428,6 +428,20 @@
       "list": {
         "description": "Lista de todos los recordatorios de guerra.",
         "no_reminders": "No tienes recordatorios."
+      },
+      "now": {
+        "description": "Instant war reminder to mention members.",
+        "options": {
+          "message": {
+            "description": "Mensaje a mandar en la notificación del recordatorio."
+          },
+          "clans": {
+            "description": "Apodos o etiquetas de clan. (introduce * para incluir todos los clanes)"
+          }
+        },
+        "no_match": "There are no wars or no members that are matching with the selected options.",
+        "no_message": "Debe especificar un mensaje para poder ejecutar este comando.",
+        "missing_access": "Me falta el permiso {{permission}} en el canal {{channel}} para poder ejecutar este comando."
       }
     },
     "army": {
