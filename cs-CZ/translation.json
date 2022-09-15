@@ -430,7 +430,7 @@
         "no_reminders": "You have no reminders."
       },
       "now": {
-        "description": "Instant war reminder to mention members.",
+        "description": "Instant war reminder to notify members.",
         "options": {
           "message": {
             "description": "Reminder message for the notification."
@@ -439,9 +439,8 @@
             "description": "Clan tags or aliases. (enter * to include all clans)"
           }
         },
-        "no_match": "There are no wars or no members that are matching with the selected options.",
         "no_message": "You must specify a message to execute this command.",
-        "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command."
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {
