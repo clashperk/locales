@@ -66,6 +66,39 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Affiche les raids de capitale ainsi que les contributions.",
+      "contributions": {
+        "description": "Shows clan capital contributions.",
+        "title": "Clan Capital Contributions",
+        "options": {
+          "tag": {
+            "description": "Identifiant du clan ou alias ou mention @utilisateur."
+          },
+          "week": {
+            "description": "The week to show contributions for."
+          },
+          "season": {
+            "description": "The season to show contributions for."
+          }
+        }
+      },
+      "raids": {
+        "description": "Shows clan capital raids.",
+        "title": "Clan Capital Raids",
+        "options": {
+          "tag": {
+            "description": "Identifiant du clan ou alias ou mention @utilisateur."
+          },
+          "week": {
+            "description": "The week to show raids for."
+          },
+          "season": {
+            "description": "The season to show raids for."
+          }
+        }
+      }
+    },
     "lastseen": {
       "description": "Dernière connexion et activité des membres du clan.",
       "title_lastseen": "Dernière connexion et scores d'activité (dernières 24 heures)",
@@ -395,6 +428,19 @@
       "list": {
         "description": "Lister tous les rappels de guerre.",
         "no_reminders": "Vous n'avez aucun rappel."
+      },
+      "now": {
+        "description": "Instant war reminder to notify members.",
+        "options": {
+          "message": {
+            "description": "Message de rappel pour la notification."
+          },
+          "clans": {
+            "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
+          }
+        },
+        "no_message": "Vous devez spécifier un message pour exécuter cette commande.",
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {

@@ -66,6 +66,39 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
+      "contributions": {
+        "description": "Shows clan capital contributions.",
+        "title": "Clan Capital Contributions",
+        "options": {
+          "tag": {
+            "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
+          },
+          "week": {
+            "description": "The week to show contributions for."
+          },
+          "season": {
+            "description": "The season to show contributions for."
+          }
+        }
+      },
+      "raids": {
+        "description": "Shows clan capital raids.",
+        "title": "Clan Capital Raids",
+        "options": {
+          "tag": {
+            "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
+          },
+          "week": {
+            "description": "The week to show raids for."
+          },
+          "season": {
+            "description": "The season to show raids for."
+          }
+        }
+      }
+    },
     "lastseen": {
       "description": "Die Zeit, zu der Clanmitglieder zum letzten Mal online waren.",
       "title_lastseen": "Letzte Aktivität und Aktivitätspunkte der letzten 24 Stunden.",
@@ -395,6 +428,19 @@
       "list": {
         "description": "Listen Sie alle Kriegserinnerungen auf.",
         "no_reminders": "Sie haben keine Erinnerungen."
+      },
+      "now": {
+        "description": "Sofortige Kriegserinnerung, um Mitglieder zu informieren.",
+        "options": {
+          "message": {
+            "description": "Erinnerungsmeldung für die Benachrichtigung."
+          },
+          "clans": {
+            "description": "Clankürzel oder Aliase zum Filtern von Clans (gib * ein, um alle Clans einzubeziehen)."
+          }
+        },
+        "no_message": "Sie müssen eine Meldung angeben, um diesen Befehl auszuführen.",
+        "no_match": "Es gibt keine Kriege oder Mitglieder, die mit den gewählten Optionen übereinstimmen."
       }
     },
     "army": {

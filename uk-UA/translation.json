@@ -66,6 +66,39 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Показує пожертви в Кланову Столицю та рейди.",
+      "contributions": {
+        "description": "Показує пожертви в Кланову Столицю.",
+        "title": "Пожертви в Кланову Столицю",
+        "options": {
+          "tag": {
+            "description": "Тег чи псевдонім клану або згадка @user."
+          },
+          "week": {
+            "description": "Щотижнева звітність про пожертви."
+          },
+          "season": {
+            "description": "Щотижнева звітність про пожертви."
+          }
+        }
+      },
+      "raids": {
+        "description": "Показує звітність рейдів.",
+        "title": "Рейди",
+        "options": {
+          "tag": {
+            "description": "Тег чи псевдонім клану або згадка @user."
+          },
+          "week": {
+            "description": "Щотижнева звітність про рейди."
+          },
+          "season": {
+            "description": "Сезонна звітність про рейди."
+          }
+        }
+      }
+    },
     "lastseen": {
       "description": "Час останнього відвідування та активність учасників клану.",
       "title_lastseen": "Час останнього відвідування та активність (за останні 24 години)",
@@ -395,6 +428,19 @@
       "list": {
         "description": "Список всіх нагадувань про війну.",
         "no_reminders": "У Вас немає нагадувань."
+      },
+      "now": {
+        "description": "Instant war reminder to notify members.",
+        "options": {
+          "message": {
+            "description": "Повідомлення для нагадування."
+          },
+          "clans": {
+            "description": "Теги або псевдоніми клану (введіть * для включення всіх кланів)"
+          }
+        },
+        "no_message": "Для виконання цієї команди необхідно надати текст повідомлення.",
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {

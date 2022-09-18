@@ -66,6 +66,39 @@
         }
       }
     },
+    "clan_capital": {
+      "description": "Mostra as contribuições de Capital do Clã e Raides.",
+      "contributions": {
+        "description": "Mostra as contribuições da Capital do Clã.",
+        "title": "Contribuições da Capital do Clã",
+        "options": {
+          "tag": {
+            "description": "Tag do Clã, nome ou mencione @usuario."
+          },
+          "week": {
+            "description": "A semana para mostrar as contribuições."
+          },
+          "season": {
+            "description": "A temporada para mostrar doações."
+          }
+        }
+      },
+      "raids": {
+        "description": "Mostra Raides da Capital do Clã.",
+        "title": "Raides da Capital do Clã",
+        "options": {
+          "tag": {
+            "description": "Tag do Clã, nome ou mencione @usuario."
+          },
+          "week": {
+            "description": "A semana para mostrar raides."
+          },
+          "season": {
+            "description": "A temporada para mostrar raides."
+          }
+        }
+      }
+    },
     "lastseen": {
       "description": "Tempo de Última vez visto e as atividades dos membros do clã.",
       "title_lastseen": "Visto pela última vez e pontuações de atividade (últimas 24h)",
@@ -395,6 +428,19 @@
       "list": {
         "description": "Liste todos os lembretes de Guerra.",
         "no_reminders": "Você não tem lembretes."
+      },
+      "now": {
+        "description": "Lembrete instantâneo de guerra para notificar os membros.",
+        "options": {
+          "message": {
+            "description": "Mensagem de lembrete para a notificação."
+          },
+          "clans": {
+            "description": "Tags ou apelidos de clã. (insira * para incluir todos os clãs)"
+          }
+        },
+        "no_message": "Você deve especificar uma mensagem para executar esse comando.",
+        "no_match": "Não há nenhuma guerra ou nenhum membro que corresponda às opções selecionadas."
       }
     },
     "army": {
