@@ -67,7 +67,7 @@
       }
     },
     "clan_capital": {
-      "description": "Shows clan capital contributions and raids.",
+      "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
       "contributions": {
         "description": "Shows clan capital contributions.",
         "title": "Clan Capital Contributions",
@@ -430,17 +430,17 @@
         "no_reminders": "Sie haben keine Erinnerungen."
       },
       "now": {
-        "description": "Instant war reminder to notify members.",
+        "description": "Sofortige Kriegserinnerung, um Mitglieder zu informieren.",
         "options": {
           "message": {
-            "description": "Erinnerungsnachricht für die Benachrichtigung."
+            "description": "Erinnerungsmeldung für die Benachrichtigung."
           },
           "clans": {
-            "description": "Saubere Tags oder Aliase. (* geben Sie ein, um alle Clans einzubeziehen)"
+            "description": "Clankürzel oder Aliase zum Filtern von Clans (gib * ein, um alle Clans einzubeziehen)."
           }
         },
         "no_message": "Sie müssen eine Meldung angeben, um diesen Befehl auszuführen.",
-        "no_match": "There are no wars or no members that are matching with the selected options."
+        "no_match": "Es gibt keine Kriege oder Mitglieder, die mit den gewählten Optionen übereinstimmen."
       }
     },
     "army": {
