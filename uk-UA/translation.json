@@ -67,34 +67,34 @@
       }
     },
     "clan_capital": {
-      "description": "Shows clan capital contributions and raids.",
+      "description": "Показує пожертви в Кланову Столицю та рейди.",
       "contributions": {
-        "description": "Shows clan capital contributions.",
-        "title": "Clan Capital Contributions",
+        "description": "Показує пожертви в Кланову Столицю.",
+        "title": "Пожертви в Кланову Столицю",
         "options": {
           "tag": {
             "description": "Тег чи псевдонім клану або згадка @user."
           },
           "week": {
-            "description": "The week to show contributions for."
+            "description": "Щотижнева звітність про пожертви."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "Щотижнева звітність про пожертви."
           }
         }
       },
       "raids": {
-        "description": "Shows clan capital raids.",
-        "title": "Clan Capital Raids",
+        "description": "Показує звітність рейдів.",
+        "title": "Рейди",
         "options": {
           "tag": {
             "description": "Тег чи псевдонім клану або згадка @user."
           },
           "week": {
-            "description": "The week to show raids for."
+            "description": "Щотижнева звітність про рейди."
           },
           "season": {
-            "description": "The season to show raids for."
+            "description": "Сезонна звітність про рейди."
           }
         }
       }
