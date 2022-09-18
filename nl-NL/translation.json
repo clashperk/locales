@@ -430,7 +430,7 @@
         "no_reminders": "Je hebt geen herinneringen."
       },
       "now": {
-        "description": "Instant war reminder to notify members.",
+        "description": "Onmiddellijke oorlogsherinnering voor leden.",
         "options": {
           "message": {
             "description": "Herinneringsbericht voor de melding."
@@ -440,7 +440,7 @@
           }
         },
         "no_message": "U moet een bericht opgeven om deze opdracht uit te voeren.",
-        "no_match": "There are no wars or no members that are matching with the selected options."
+        "no_match": "Er zijn geen oorlogen of geen leden die overeenkomen met de geselecteerde opties."
       }
     },
     "army": {
