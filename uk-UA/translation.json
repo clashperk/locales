@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "В Базі Даних серверу не знайдено кланів для вказаного аргументу!",
     "no_clans_linked": "Жоден клан не прив'язаний до цього серверу. Чому б не прив'язати якийсь?",
-    "clan_limit": "Максимальна кількість кланів досягнута. Підтримайте, будь ласка, нас на нашому [Patreon] (https://patreon.com/clashperk) для можливості додавання більше ніж двох кланів.",
-    "patron_only": "Ця команда доступна лише для серверів, власники яких підтримали нас на Patreon. Розгляньте, будь ласка, можливість підтримки нас [Patreon] (https://patreon.com/clashperk) для використання цієї команди.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
+    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
     "clan_verification": "Ми повинні переконатися, що Ви є лідером або ко-лідером цього клану. Будь ласка, підтвердьте свій обліковий запис за допомогою API токена. \nСкористайтесь командою `/verify`, що підтвердити обліковий запис. API токен доступний в налаштування гри.\n\nКрім того, Ви можете додати тимчасовий код `{{code}}` в опис клану. Далі зачекати 1-2 хвилини та виконати команду повторно. Після успішної верифікації Ви можете без проблем прибрати код.",
     "no_option": "Щось пішло не так під час виконання даної команди. (опція не знайдена)",
     "no_data": "Наразі даних немає. Ми все ще збираємо їх!",
