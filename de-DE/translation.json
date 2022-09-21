@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Keine Clans mit den gesuchten Eigenschaften in unserer Datenbank gefunden.",
     "no_clans_linked": "Keine Clans mit diesem Server verlinkt. Versuche doch erst einen Clan hinzuzufügen.",
-    "clan_limit": "Die maximale Anzahl an Clans wurde erreicht. Wenn du uns auf [Patreon](https://patreon.com/clashperk) unterstützt, kannst du mehr als zwei Clans hinzufügen.",
-    "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
+    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
     "clan_verification": "Wir müssen sichergehen, dass du in diesem Clan Anführer oder Vize-Anführer bist. Bitter verifiziere deinen Account mit dem API-Token. \nNutze den `/verify` Befehl um deinen Spielaccount zu verifizieren. Dein API-Token findest du in den Einstellungen im Spiel.\n\nAlternativ kannst du in der Clanbeschreibung einen temporären Code `{{code}}` hinzufügen. Warte anschließend 1-2 Minuten und benutze den Befehl erneut. Sobald du verfiziert bist, kannst du den Code aus der Clanbeschreibung entfernen.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
     "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
