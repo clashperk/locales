@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Nenhum clã foi encontrado neste servidor para a entrada especificada!",
     "no_clans_linked": "Nenhum clã está vinculado a este servidor. Por que não vincular alguns?",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
+    "clan_limit": "O número máximo de clãs foi atingido. Considere nos apoiar nosso [Patreon](https://patreon.com/clashperk) para adicionar mais de dois clãs.\n\nJá é um patron? Use o comando `/redeem`.",
+    "patron_only": "Esse comando só está disponível em servidores Patrões. Considere nos apoiar em nosso [Patreon](https://patreon.com/clashperk) para usar esse comando.\n\nJá é um patron? Use o comando `/redeem`.",
     "clan_verification": "Precisamos garantir que você seja um líder ou co-líder desse clã. Verifique sua conta de jogador com o token da API.\nUse o comando `/verify` para verificar sua conta de jogador. O token da API está disponível nas configurações do jogo.\n\nComo alternativa, você pode adicionar um código temporário `{{code}}` na descrição do seu clã. Em seguida, aguarde 1-2 min e execute este comando novamente. Depois de verificado, você pode remover o código com segurança.",
     "no_option": "Algo deu errado ao executar esse comando. (opção não encontrada)",
     "no_data": "Nenhum dado está disponível no momento. Ainda estamos coletando!",
