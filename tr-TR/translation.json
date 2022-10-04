@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Belirtilen değerlerle eşleşen klan bulunamadı!",
     "no_clans_linked": "Bu sunucuya hiçbir klan eklenmedi. Eklemeye ne dersin?",
-    "clan_limit": "Maksimum klan sayısına ulaşıldı. 2'den fazla klan eklemek için lütfen [Patreon](https://patreon.com/clashperk) sitesinden bizi destekleyin.",
-    "patron_only": "Bu komut yalnızca Patron sunucularda mevcuttur. Kullanmak için lütfen [Patreon](https://patreon.com/clashperk) sitesinden bizi destekleyin.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
+    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
     "clan_verification": "Bu klanın Lideri veya Yardımcı Lideri olduğundan emin olmalıyız. Lütfen oyuncu hesabını API belirtecini kullanarak doğrula.\nOyuncu hesabını doğrulamak için '/verify' Komudunu kullan. API belirtecine oyun ayarlarından ulaşabilirsin.\n\nAlternatif olarak, klan açıklamasına geçici bir kod `{{code}}` ekleyebilirsin. Ekledikten 1-2 dakika sonra bu komutu tekrar çalıştır. Bir kez doğrulandığında, kodu istediğin gibi silebilirsin.",
     "no_option": "Bu komut çalıştırılırken bir şeyler ters gitti. (seçenek bulunamadı)",
     "no_data": "Veriler henüz mevcut değil. Hala topluyoruz!",

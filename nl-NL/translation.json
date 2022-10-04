@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Er zijn geen clans gevonden in deze server met de ingevoerde gegevens!",
     "no_clans_linked": "Er zijn geen clans gekoppeld aan deze server. Waarom koppel je er niet een paar?",
-    "clan_limit": "Het maximale aantal clans is bereikt. Overweeg om ons te steunen op onze [Patreon](https://patreon.com/clashperk) om meer dan twee clans toe te voegen.",
-    "patron_only": "Deze opdracht is alleen beschikbaar op Patron-servers. Overweeg om ons te steunen op onze [Patreon](https://patreon.com/clashperk) om deze opdracht te gebruiken.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
+    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
     "clan_verification": "We moeten er zeker van zijn dat je een Leider of Co-Leider van deze clan bent. Verifieer je spelersaccount met je API-token.\nGebruik de `/verify` opdracht om je spelersaccount te verifiëren. Het API-token is beschikbaar in de spelinstellingen.\n\nAls alternatief kan je een tijdelijke code `{{code}}` toevoegen aan uw clanbeschrijving. Wacht vervolgens 1-2 minuten en voer deze opdracht opnieuw uit. Zodra het is geverifieerd, kunt u de code veilig verwijderen.",
     "no_option": "Er is iets misgegaan tijdens het uitvoeren van deze opdracht. (optie niet gevonden)",
     "no_data": "Op dit moment zijn er geen gegevens beschikbaar. We zijn ze nog aan het verzamelen!",
