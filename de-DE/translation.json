@@ -69,32 +69,32 @@
     "clan_capital": {
       "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
       "contributions": {
-        "description": "Shows clan capital contributions.",
-        "title": "Clan Capital Contributions",
+        "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
+        "title": "Clan-Kapitalbeteiligungen",
         "options": {
           "tag": {
             "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
           },
           "week": {
-            "description": "The week to show contributions for."
+            "description": "Die Woche, in der die Beiträge zu zeigen sind."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "Die Saison um Beiträge zu zeigen."
           }
         }
       },
       "raids": {
-        "description": "Shows clan capital raids.",
-        "title": "Clan Capital Raids",
+        "description": "Zeigt Überfälle auf Clankapital.",
+        "title": "Clankapital-Raids",
         "options": {
           "tag": {
             "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
           },
           "week": {
-            "description": "The week to show raids for."
+            "description": "Die Woche, in der Raids gezeigt werden sollen."
           },
           "season": {
-            "description": "The season to show raids for."
+            "description": "Die Saison, in der Raids gezeigt werden sollen."
           }
         }
       }
