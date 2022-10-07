@@ -69,32 +69,32 @@
     "clan_capital": {
       "description": "Affiche les raids de capitale ainsi que les contributions.",
       "contributions": {
-        "description": "Shows clan capital contributions.",
-        "title": "Clan Capital Contributions",
+        "description": "Affiche les contributions de la Capitale de clan.",
+        "title": "Contributions de la Capitale de clan",
         "options": {
           "tag": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
           },
           "week": {
-            "description": "The week to show contributions for."
+            "description": "La semaine pour laquelle vous souhaitez afficher les contributions."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "La saison pour laquelle montrer les contributions."
           }
         }
       },
       "raids": {
-        "description": "Shows clan capital raids.",
-        "title": "Clan Capital Raids",
+        "description": "Affiche les raids de la Capitale de clan.",
+        "title": "Raids de la Capitale de clan",
         "options": {
           "tag": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
           },
           "week": {
-            "description": "The week to show raids for."
+            "description": "La saison pour laquelle montrer les raids."
           },
           "season": {
-            "description": "The season to show raids for."
+            "description": "La saison pour laquelle montrer les raids."
           }
         }
       }
@@ -430,7 +430,7 @@
         "no_reminders": "Vous n'avez aucun rappel."
       },
       "now": {
-        "description": "Instant war reminder to notify members.",
+        "description": "Rappel de guerre instantané pour avertir les membres.",
         "options": {
           "message": {
             "description": "Message de rappel pour la notification."
@@ -440,7 +440,7 @@
           }
         },
         "no_message": "Vous devez spécifier un message pour exécuter cette commande.",
-        "no_match": "There are no wars or no members that are matching with the selected options."
+        "no_match": "Aucune guerre ou aucun membre ne correspond aux options sélectionnées."
       }
     },
     "army": {
