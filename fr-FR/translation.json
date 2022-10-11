@@ -1,6 +1,6 @@
 {
   "common": {
-    "no_clans_found": "Aucun clan n'a été trouvé dans notre base de données pour l'élément spécifié.",
+    "no_clans_found": "No clans were found on this server for the specified input!",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?",
     "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
     "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
