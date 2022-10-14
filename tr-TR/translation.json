@@ -99,6 +99,40 @@
         }
       }
     },
+    "capital": {
+      "description": "Shows clan capital contributions and raids.",
+      "contributions": {
+        "description": "Shows clan capital contributions.",
+        "title": "Clan Capital Contributions",
+        "options": {
+          "tag": {
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
+          },
+          "week": {
+            "description": "The week to show contributions for."
+          },
+          "season": {
+            "description": "The season to show contributions for."
+          }
+        }
+      },
+      "raids": {
+        "description": "Shows clan capital raids.",
+        "title": "Clan Capital Raids",
+        "options": {
+          "tag": {
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
+          },
+          "week": {
+            "description": "The week to show raids for."
+          },
+          "season": {
+            "description": "The season to show raids for."
+          }
+        },
+        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+      }
+    },
     "lastseen": {
       "description": "Klan üyelerinin son görülme zamanları ve aktiflikleri.",
       "title_lastseen": "Son görülmeler ve aktiflik skorları (son 24 saat)",
