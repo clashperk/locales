@@ -64,39 +64,6 @@ export const command = {
             }
         }
     },
-    clan_capital: {
-        description: 'Shows clan capital contributions and raids.',
-        contributions: {
-            description: 'Shows clan capital contributions.',
-            title: 'Clan Capital Contributions',
-            options: {
-                tag: {
-                    description: 'Clan tag or alias or @user mention.'
-                },
-                week: {
-                    description: 'The week to show contributions for.'
-                },
-                season: {
-                    description: 'The season to show contributions for.'
-                }
-            }
-        },
-        raids: {
-            description: 'Shows clan capital raids.',
-            title: 'Clan Capital Raids',
-            options: {
-                tag: {
-                    description: 'Clan tag or alias or @user mention.'
-                },
-                week: {
-                    description: 'The week to show raids for.'
-                },
-                season: {
-                    description: 'The season to show raids for.'
-                }
-            }
-        }
-    },
     capital: {
         description: 'Shows clan capital contributions and raids.',
         contributions: {
