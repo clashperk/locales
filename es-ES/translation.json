@@ -99,6 +99,40 @@
         }
       }
     },
+    "capital": {
+      "description": "Shows clan capital contributions and raids.",
+      "contributions": {
+        "description": "Shows clan capital contributions.",
+        "title": "Clan Capital Contributions",
+        "options": {
+          "tag": {
+            "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          },
+          "week": {
+            "description": "The week to show contributions for."
+          },
+          "season": {
+            "description": "The season to show contributions for."
+          }
+        }
+      },
+      "raids": {
+        "description": "Shows clan capital raids.",
+        "title": "Clan Capital Raids",
+        "options": {
+          "tag": {
+            "description": "Etiqueta de clan, apodo, o mención al @usuario."
+          },
+          "week": {
+            "description": "The week to show raids for."
+          },
+          "season": {
+            "description": "The season to show raids for."
+          }
+        },
+        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+      }
+    },
     "lastseen": {
       "description": "La hora y las actividades hechas por última vez de los miembros del clan.",
       "title_lastseen": "Último visto y puntajes de actividad (últimas 24 horas)",
