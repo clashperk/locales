@@ -66,39 +66,6 @@
         }
       }
     },
-    "clan_capital": {
-      "description": "Mostra as contribuições de Capital do Clã e Raides.",
-      "contributions": {
-        "description": "Mostra as contribuições da Capital do Clã.",
-        "title": "Contribuições da Capital do Clã",
-        "options": {
-          "tag": {
-            "description": "Tag do Clã, nome ou mencione @usuario."
-          },
-          "week": {
-            "description": "A semana para mostrar as contribuições."
-          },
-          "season": {
-            "description": "A temporada para mostrar doações."
-          }
-        }
-      },
-      "raids": {
-        "description": "Mostra Raides da Capital do Clã.",
-        "title": "Raides da Capital do Clã",
-        "options": {
-          "tag": {
-            "description": "Tag do Clã, nome ou mencione @usuario."
-          },
-          "week": {
-            "description": "A semana para mostrar raides."
-          },
-          "season": {
-            "description": "A temporada para mostrar raides."
-          }
-        }
-      }
-    },
     "capital": {
       "description": "Mostra as contribuições de Capital do Clã e Raides.",
       "contributions": {
