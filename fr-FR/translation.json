@@ -99,6 +99,40 @@
         }
       }
     },
+    "capital": {
+      "description": "Affiche les raids de capitale ainsi que les contributions.",
+      "contributions": {
+        "description": "Affiche les contributions de la Capitale de clan.",
+        "title": "Contributions de la Capitale de clan",
+        "options": {
+          "tag": {
+            "description": "Identifiant du clan ou alias ou mention @utilisateur."
+          },
+          "week": {
+            "description": "La semaine pour laquelle vous souhaitez afficher les contributions."
+          },
+          "season": {
+            "description": "La saison pour laquelle montrer les contributions."
+          }
+        }
+      },
+      "raids": {
+        "description": "Affiche les raids de la Capitale de clan.",
+        "title": "Raids de la Capitale de clan",
+        "options": {
+          "tag": {
+            "description": "Identifiant du clan ou alias ou mention @utilisateur."
+          },
+          "week": {
+            "description": "La saison pour laquelle montrer les raids."
+          },
+          "season": {
+            "description": "La saison pour laquelle montrer les raids."
+          }
+        },
+        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+      }
+    },
     "lastseen": {
       "description": "Dernière connexion et activité des membres du clan.",
       "title_lastseen": "Dernière connexion et scores d'activité (dernières 24 heures)",
