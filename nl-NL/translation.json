@@ -66,39 +66,6 @@
         }
       }
     },
-    "clan_capital": {
-      "description": "Toont de bijdragen aan de clanhoofdstad en rooftochten.",
-      "contributions": {
-        "description": "Toont bijdragen aan de canhoofdstad.",
-        "title": "Bijdragen aan de clanhoofdstad",
-        "options": {
-          "tag": {
-            "description": "Clan tag of @gebruiker vermelding."
-          },
-          "week": {
-            "description": "De week om bijdragen voor te tonen."
-          },
-          "season": {
-            "description": "Het seizoen om bijdragen voor te tonen."
-          }
-        }
-      },
-      "raids": {
-        "description": "Toont de rooftochten van de clanhoofdstad.",
-        "title": "Rooftochten Clanhoofstad",
-        "options": {
-          "tag": {
-            "description": "Clan tag of @gebruiker vermelding."
-          },
-          "week": {
-            "description": "De week om rooftochten voor te tonen."
-          },
-          "season": {
-            "description": "Het seizoen om rooftochten voor te tonen."
-          }
-        }
-      }
-    },
     "capital": {
       "description": "Toont de bijdragen aan de clanhoofdstad en rooftochten.",
       "contributions": {
