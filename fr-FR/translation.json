@@ -1,9 +1,9 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input!",
+    "no_clans_found": "Aucun clan n'a été trouvé sur ce serveur pour l'élément spécifié !",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
+    "clan_limit": "Le nombre maximum de clans a été atteint. Veuillez envisager de nous soutenir sur notre [Patreon](https://patreon.com/clashperk) pour ajouter plus de deux clans.\n\nDéjà abonné ? Utilisez la commande `/redeem`.",
+    "patron_only": "Cette commande n'est disponible que sur les serveurs des abonnés. Veuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir utiliser cette commande.\n\nDéjà abonné ? Utilisez la commande `/redeem`.",
     "clan_verification": "Nous devons nous assurer que vous êtes bien chef ou adjoint de ce clan. Veuillez vérifier votre compte joueur avec le jeton API.\nUtilisez la commande `/verify` pour vérifier votre compte. Le jeton API est disponible dans les paramètres du jeu.\n\nVous pouvez également ajouter un code temporaire `{{code}}` dans la description de votre clan. Attendez ensuite 1 à 2 min et exécutez à nouveau cette commande. Une fois le compte vérifié, vous pouvez retirer le code en toute sécurité.",
     "no_option": "Quelque chose s'est mal passé lors de l'exécution de cette commande. (option non trouvée)",
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
@@ -91,13 +91,13 @@
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
           },
           "week": {
-            "description": "La saison pour laquelle montrer les raids."
+            "description": "La semaine pour laquelle montrer les raids."
           },
           "season": {
             "description": "La saison pour laquelle montrer les raids."
           }
         },
-        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+        "no_data": "Aucun raid de la Capitale n'a été trouvé pour {{clan}} [{{weekId}}]."
       }
     },
     "lastseen": {
@@ -357,7 +357,7 @@
           "description": "Rechercher par pays ou ville (seul le fuseau est enregistré, pas la localisation, ex. GMT+5:00)"
         }
       },
-      "set": "Veuillez définir votre fuseau horaire avec la commande `/timezone`. Elle vous permet de visualiser les graphiques dans votre fuseau horaire.",
+      "set": "Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.",
       "no_result": "Faites une recherche plus spécifique et réessayez."
     },
     "profile": {
