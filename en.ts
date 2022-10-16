@@ -355,7 +355,7 @@ export const command = {
                 description: "Search by country or city name (we don't store your location, only offset. e.g. GMT+5:00)"
             }
         },
-        set: 'Please set your time zone with the `/time zone` command. It enables you to view the graphs in your time zone.',
+        set: 'Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.',
         no_result: 'Make your search more specific and try again.'
     },
     profile: {
