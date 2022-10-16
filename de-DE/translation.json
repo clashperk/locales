@@ -357,7 +357,7 @@
           "description": "Suche nach Land- oder Stadtnamen (wir speichern deinen Standort nicht, nur Zeitzone z.B. GMT+ 5:00)"
         }
       },
-      "set": "Bitte stellen Sie Ihre Zeitzone mit dem Befehl `/time zone` ein. Es ermöglicht Ihnen, die Grafiken in Ihrer Zeitzone anzuzeigen.",
+      "set": "Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.",
       "no_result": "Gestalten Sie Ihre Suche genauer und versuchen Sie es erneut."
     },
     "profile": {
