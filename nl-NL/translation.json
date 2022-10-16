@@ -97,7 +97,7 @@
             "description": "Het seizoen om rooftochten voor te tonen."
           }
         },
-        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+        "no_data": "Geen rooftochten gevonden voor {{clan}} [{{weekId}}]."
       }
     },
     "lastseen": {
@@ -357,7 +357,7 @@
           "description": "Zoek op naam van land of stad (wij slaan de locatie niet op, alleen offset. bijv. GMT+5:00)"
         }
       },
-      "set": "Stel uw tijdzone in met opdracht `/time zone`. Hiermee kunt u de grafieken in uw tijdzone bekijken.",
+      "set": "Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.",
       "no_result": "Maak uw zoekopdracht specifieker en probeer het opnieuw."
     },
     "profile": {
