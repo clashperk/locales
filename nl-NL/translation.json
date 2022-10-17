@@ -357,7 +357,7 @@
           "description": "Zoek op naam van land of stad (wij slaan de locatie niet op, alleen offset. bijv. GMT+5:00)"
         }
       },
-      "set": "Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.",
+      "set": "Stel uw tijdzone in met opdracht `/timezone`. Hiermee kunt u de grafieken in uw tijdzone bekijken.",
       "no_result": "Maak uw zoekopdracht specifieker en probeer het opnieuw."
     },
     "profile": {
