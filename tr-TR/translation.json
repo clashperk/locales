@@ -357,7 +357,7 @@
           "description": "Ülke veya şehir adını arayın (Konumunuzu saklamayız, sadece saat karşılığını alırız. Örn. GMT+5:00)"
         }
       },
-      "set": "Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.",
+      "set": "Lütfen saat diliminizi `/timezone` komutuyla ayarlayın. Saat diliminizdeki grafikleri görüntülemenizi sağlar.",
       "no_result": "Aramanızı daha spesifik hale getirin ve tekrar deneyin."
     },
     "profile": {
