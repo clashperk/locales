@@ -357,7 +357,7 @@
           "description": "Rechercher par pays ou ville (seul le fuseau est enregistré, pas la localisation, ex. GMT+5:00)"
         }
       },
-      "set": "Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.",
+      "set": "Veuillez définir votre fuseau horaire avec la commande `/timezone`. Elle vous permet de visualiser les graphiques dans votre fuseau horaire.",
       "no_result": "Faites une recherche plus spécifique et réessayez."
     },
     "profile": {
