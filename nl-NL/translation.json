@@ -66,7 +66,7 @@
         }
       }
     },
-    "clan_capital": {
+    "capital": {
       "description": "Toont de bijdragen aan de clanhoofdstad en rooftochten.",
       "contributions": {
         "description": "Toont bijdragen aan de canhoofdstad.",
@@ -96,7 +96,8 @@
           "season": {
             "description": "Het seizoen om rooftochten voor te tonen."
           }
-        }
+        },
+        "no_data": "Geen rooftochten gevonden voor {{clan}} [{{weekId}}]."
       }
     },
     "lastseen": {
@@ -356,7 +357,7 @@
           "description": "Zoek op naam van land of stad (wij slaan de locatie niet op, alleen offset. bijv. GMT+5:00)"
         }
       },
-      "set": "Stel uw tijdzone in met opdracht `/time zone`. Hiermee kunt u de grafieken in uw tijdzone bekijken.",
+      "set": "Stel uw tijdzone in met opdracht `/timezone`. Hiermee kunt u de grafieken in uw tijdzone bekijken.",
       "no_result": "Maak uw zoekopdracht specifieker en probeer het opnieuw."
     },
     "profile": {

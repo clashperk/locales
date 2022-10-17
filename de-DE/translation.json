@@ -66,7 +66,7 @@
         }
       }
     },
-    "clan_capital": {
+    "capital": {
       "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
       "contributions": {
         "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
@@ -96,7 +96,8 @@
           "season": {
             "description": "Die Saison, in der Raids gezeigt werden sollen."
           }
-        }
+        },
+        "no_data": "Für {{clan}} [{{weekId}}] wurden keine Kapitalüberfälle gefunden."
       }
     },
     "lastseen": {
@@ -356,7 +357,7 @@
           "description": "Suche nach Land- oder Stadtnamen (wir speichern deinen Standort nicht, nur Zeitzone z.B. GMT+ 5:00)"
         }
       },
-      "set": "Bitte stellen Sie Ihre Zeitzone mit dem Befehl `/time zone` ein. Es ermöglicht Ihnen, die Grafiken in Ihrer Zeitzone anzuzeigen.",
+      "set": "Bitte stellen Sie Ihre Zeitzone mit dem Befehl `/timezone` ein. Es ermöglicht Ihnen, die Grafiken in Ihrer Zeitzone anzuzeigen.",
       "no_result": "Gestalten Sie Ihre Suche genauer und versuchen Sie es erneut."
     },
     "profile": {

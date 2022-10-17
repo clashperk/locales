@@ -66,7 +66,7 @@
         }
       }
     },
-    "clan_capital": {
+    "capital": {
       "description": "Shows clan capital contributions and raids.",
       "contributions": {
         "description": "Shows clan capital contributions.",
@@ -96,7 +96,8 @@
           "season": {
             "description": "The season to show raids for."
           }
-        }
+        },
+        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
       }
     },
     "lastseen": {
@@ -356,7 +357,7 @@
           "description": "Ülke veya şehir adını arayın (Konumunuzu saklamayız, sadece saat karşılığını alırız. Örn. GMT+5:00)"
         }
       },
-      "set": "Lütfen saat diliminizi `/time zone` komutuyla ayarlayın. Saat diliminizdeki grafikleri görüntülemenizi sağlar.",
+      "set": "Lütfen saat diliminizi `/timezone` komutuyla ayarlayın. Saat diliminizdeki grafikleri görüntülemenizi sağlar.",
       "no_result": "Aramanızı daha spesifik hale getirin ve tekrar deneyin."
     },
     "profile": {
