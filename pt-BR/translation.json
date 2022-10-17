@@ -357,7 +357,7 @@
           "description": "Pesquise por um país ou cidade (não armazenamos seu local, apenas posição, por exemplo, GMT-3:00)"
         }
       },
-      "set": "Please set your time zone with the `/timezone` command. It enables you to view the graphs in your time zone.",
+      "set": "Defina seu fuso horário com o comando `/timezone`. Ele permite que você visualize os gráficos em seu fuso horário.",
       "no_result": "Faça uma pesquisa mais específica e tente novamente."
     },
     "profile": {
