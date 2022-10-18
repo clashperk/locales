@@ -76,10 +76,10 @@
             "description": "Tag o alias del clan o menzione @utente."
           },
           "week": {
-            "description": "The week to show contributions for."
+            "description": "La settimana per mostrare i contributi per."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "La stagione da mostrare i contributi per."
           }
         }
       },
@@ -91,10 +91,10 @@
             "description": "Tag o alias del clan o menzione @user."
           },
           "week": {
-            "description": "The week to show raids for."
+            "description": "La settimana per la quale mostrare le incursioni."
           },
           "season": {
-            "description": "The season to show raids for."
+            "description": "La stagione per cui mostrare le incursioni."
           }
         },
         "no_data": "Nessuna incursione di capitali trovata per {{clan}} [{{weekId}}]."
@@ -261,7 +261,7 @@
         },
         "no_reason": "È necessario fornire un motivo per la segnalazione.",
         "reason_max_limit": "La ragione deve essere di 1024 o meno di lunghezza.",
-        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
+        "success": "Segnalato con successo {{count}} giocatore/i. \n{{players}}"
       },
       "delete": {
         "description": "Elimina una segnalazione del giocatore.",
@@ -735,7 +735,7 @@
             "description": "Elimina tutti i ruoli da tutti i clan."
           }
         },
-        "success_with_count": "Auto-role has been disabled for {{count}} clan(s). \n{{clans}}"
+        "success_with_count": "Il ruolo automatico è stato disabilitato per {{count}} clan. \n{{clans}}"
       }
     },
     "summary": {
