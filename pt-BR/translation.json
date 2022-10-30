@@ -97,7 +97,7 @@
             "description": "A temporada para mostrar raides."
           }
         },
-        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+        "no_data": "Nenhuma Raide da Capital encontrada para {{clan}} [{{weekId}}]."
       }
     },
     "lastseen": {
