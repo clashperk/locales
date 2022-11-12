@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "¡No se encontraron clanes en este servidor con la información proporcionada!",
     "no_clans_linked": "No hay clanes vinculados a este servidor. ¿Por qué no vinculas algunos?",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.",
+    "clan_limit": "Has alcanzado el número máximo de clanes. Por favor, considera apoyarnos en [Patreon](https://patreon.com/clashperk) para agregar más de dos clanes.\n\n¿Ya nos apoyas en Patreon? Usa el comando `/redeem`.",
+    "patron_only": "Este comando solo está disponible en los servidores de Patreon. Considera apoyarnos en [Patreon] (https://patreon.com/clashperk) para usar este comando.\n\n¿Ya nos apoyas en Patreon? Usa el comando `/redeem`.",
     "clan_verification": "Tenemos que asegurarnos de que eres el líder o uno de los colíderes de este clan. Verifica tu cuenta de jugador con el token API.\nUsa el comando `/verify` para poder verificar tu cuenta de jugador. El token API está disponible dentro de la configuración del juego.\n\nComo alternativa, puedes añadir un código temporal `{{code}}` en la descripción de tu clan. Luego, espera de 1 a 2 minutos para volver a ejecutar el comando. Una vez que se haya verificado, puedes remover el código de la descripcion.",
     "no_option": "Algo salió mal al ejecutar este comando. (Opción no encontrada)",
     "no_data": "No hay información disponible por el momento. ¡Todavía estamos recolectando!",
@@ -67,37 +67,37 @@
       }
     },
     "capital": {
-      "description": "Shows clan capital contributions and raids.",
+      "description": "Muestra los asaltos y las contribuciones a la capital del clan.",
       "contributions": {
-        "description": "Shows clan capital contributions.",
-        "title": "Clan Capital Contributions",
+        "description": "Muestra las contribuciones a la capital del clan.",
+        "title": "Contribuciones a la capital del clan",
         "options": {
           "tag": {
             "description": "Etiqueta de clan, apodo, o mención al @usuario."
           },
           "week": {
-            "description": "The week to show contributions for."
+            "description": "Semana de la cual se mostrarán las contribuciones."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "Temporada de la cual se mostrarán las contribuciones."
           }
         }
       },
       "raids": {
-        "description": "Shows clan capital raids.",
-        "title": "Clan Capital Raids",
+        "description": "Muestra los asedios de la capital del clan.",
+        "title": "Asedios de la capital del clan",
         "options": {
           "tag": {
             "description": "Etiqueta de clan, apodo, o mención al @usuario."
           },
           "week": {
-            "description": "The week to show raids for."
+            "description": "Semana de la cual se mostrarán los asedios."
           },
           "season": {
-            "description": "The season to show raids for."
+            "description": "Temporada de la cual mostrar los asedios."
           }
         },
-        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+        "no_data": "No se encontraron asedios de la capital para {{clan}} [{{weekId}}]."
       }
     },
     "lastseen": {
@@ -431,7 +431,7 @@
         "no_reminders": "No tienes recordatorios."
       },
       "now": {
-        "description": "Instant war reminder to notify members.",
+        "description": "Recordatorio instantáneo de guerra para notificar a los miembros.",
         "options": {
           "message": {
             "description": "Mensaje a mandar en la notificación del recordatorio."
@@ -441,7 +441,7 @@
           }
         },
         "no_message": "Debe especificar un mensaje para poder ejecutar este comando.",
-        "no_match": "There are no wars or no members that are matching with the selected options."
+        "no_match": "No hay guerras ni miembros que coincidan con las opciones seleccionadas."
       }
     },
     "army": {
