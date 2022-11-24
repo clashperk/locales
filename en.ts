@@ -61,6 +61,9 @@ export const command = {
         options: {
             tag: {
                 description: 'Clan tag or alias or @user mention.'
+            },
+            season: {
+                description: 'The season to show the scoreboard for.'
             }
         }
     },
