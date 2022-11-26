@@ -63,6 +63,9 @@
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
+        },
+        "season": {
+          "description": "The season to show the scoreboard for."
         }
       }
     },
