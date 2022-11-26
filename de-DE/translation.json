@@ -63,6 +63,9 @@
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
+        },
+        "season": {
+          "description": "The season to show the scoreboard for."
         }
       }
     },
