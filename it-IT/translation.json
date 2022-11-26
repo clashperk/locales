@@ -63,6 +63,9 @@
       "options": {
         "tag": {
           "description": "Tag o alias del clan o menzione @utente."
+        },
+        "season": {
+          "description": "The season to show the scoreboard for."
         }
       }
     },
