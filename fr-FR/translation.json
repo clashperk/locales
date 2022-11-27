@@ -65,7 +65,7 @@
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "season": {
-          "description": "The season to show the scoreboard for."
+          "description": "La saison pour laquelle vous souhaitez afficher le tableau des scores."
         }
       }
     },
