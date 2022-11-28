@@ -9,6 +9,7 @@ export const fallbackLng = {
     'es-ES': ['es-ES', 'en-US'], // Spanish/Español
     'uk': ['uk-UA', 'en-US'], // Ukrainian/Українська
     'pt-BR': ['pt-BR', 'en-US'], // Portuguese/Português
+    'hu': ['hu-HU', 'en-US'], // Hungarian/Magyar
     'tr': ['tr-TR', 'en-US'] // Turkish/Türkçe
 };
 
@@ -19,5 +20,5 @@ export const defaultOptions: InitOptions = {
     defaultNS: 'translation',
     ns: ['translation'],
     fallbackLng: { ...fallbackLng, default: ['en-US'] },
-    preload: ['en-US', 'en-GB', 'es-ES', 'fr-FR', 'nl-NL', 'it-IT', 'de-DE', 'no-NO', 'pt-BR', 'tr-TR']
+    preload: ['en-US', 'en-GB', 'es-ES', 'fr-FR', 'nl-NL', 'it-IT', 'de-DE', 'no-NO', 'pt-BR', 'tr-TR', 'hu-HU']
 };
