@@ -654,7 +654,7 @@
             "description": "Channel to send updates to (defaults to the current channel)"
           },
           "color": {
-            "description": "Hex color code (only for donation log, clan games, last seen and clan embed)"
+            "description": "Hexadecimális színkód (csak adománynapló, klánjátékok, utoljára látott és klánbeágyazás esetén)"
           },
           "role": {
             "description": "Role for the flag notification (only for clan feed)"
