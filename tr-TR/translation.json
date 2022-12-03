@@ -63,6 +63,9 @@
       "options": {
         "tag": {
           "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
+        },
+        "season": {
+          "description": "The season to show the scoreboard for."
         }
       }
     },

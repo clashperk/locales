@@ -63,6 +63,9 @@
       "options": {
         "tag": {
           "description": "Тег чи псевдонім клану або згадка @user."
+        },
+        "season": {
+          "description": "The season to show the scoreboard for."
         }
       }
     },

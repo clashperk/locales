@@ -63,6 +63,9 @@
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
+        },
+        "season": {
+          "description": "Die Saison, für die die Clanspielrangliste angezeigt werden soll."
         }
       }
     },

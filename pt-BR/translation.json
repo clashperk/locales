@@ -63,6 +63,9 @@
       "options": {
         "tag": {
           "description": "Tag do Clã, nome ou mencione @usuario."
+        },
+        "season": {
+          "description": "The season to show the scoreboard for."
         }
       }
     },
