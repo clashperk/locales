@@ -65,7 +65,7 @@
           "description": "Tag o alias del clan o menzione @utente."
         },
         "season": {
-          "description": "The season to show the scoreboard for."
+          "description": "La stagione per cui mostrare il tabellone."
         }
       }
     },
@@ -420,7 +420,7 @@
             "description": "ID promemoria."
           },
           "clear": {
-            "description": "Indica se cancellare tutti i promemoria."
+            "description": "Se cancellare tutti i promemoria."
           }
         },
         "no_reminders": "Non hai alcun promemoria.",
