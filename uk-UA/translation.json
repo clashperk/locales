@@ -65,7 +65,7 @@
           "description": "Тег чи псевдонім клану або згадка @user."
         },
         "season": {
-          "description": "The season to show the scoreboard for."
+          "description": "Показати таблицю лідерів сезону."
         }
       }
     },
@@ -100,7 +100,7 @@
             "description": "Сезонна звітність про рейди."
           }
         },
-        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+        "no_data": "Не знайдено ні одного Дня Рейду для {{clan}} [{{weekId}}]."
       }
     },
     "lastseen": {
