@@ -37,7 +37,15 @@
       "yes": "Si",
       "no": "No"
     },
-    "color_code": "Codice colore"
+    "color_code": "Codice colore",
+    "options": {
+      "tag": {
+        "description": "Clan tag or name or alias."
+      },
+      "user": {
+        "description": "ID utente o menzione @utente."
+      }
+    }
   },
   "component": {
     "button": {
