@@ -37,7 +37,15 @@
       "yes": "Так",
       "no": "Ні"
     },
-    "color_code": "Код кольору"
+    "color_code": "Код кольору",
+    "options": {
+      "tag": {
+        "description": "Clan tag or name or alias."
+      },
+      "user": {
+        "description": "ID користувача чи згадка @user."
+      }
+    }
   },
   "component": {
     "button": {
