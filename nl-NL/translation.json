@@ -37,15 +37,7 @@
       "yes": "Ja",
       "no": "Nee"
     },
-    "color_code": "Kleurcode",
-    "options": {
-      "tag": {
-        "description": "Clan tag or name or alias."
-      },
-      "user": {
-        "description": "Gebruikers-ID of @gebruiker vermelding."
-      }
-    }
+    "color_code": "Kleurcode"
   },
   "component": {
     "button": {
