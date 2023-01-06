@@ -39,7 +39,15 @@ export const common = {
         yes: 'Yes',
         no: 'No'
     },
-    color_code: 'Color Code'
+    color_code: 'Color Code',
+    options: {
+        tag: {
+            description: 'Clan tag or name or alias.'
+        },
+        user: {
+            description: 'User ID or @user mention.'
+        }
+    }
 } as const;
 
 export const command = {
