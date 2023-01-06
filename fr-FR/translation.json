@@ -37,7 +37,18 @@
       "yes": "Oui",
       "no": "Non"
     },
-    "color_code": "Code couleur hexadécimal"
+    "color_code": "Code couleur hexadécimal",
+    "options": {
+      "tag": {
+        "description": "Clan tag or name or alias."
+      },
+      "clan": {
+        "description": "Clan tag or name or alias."
+      },
+      "user": {
+        "description": "Clan by @user mention or ID."
+      }
+    }
   },
   "component": {
     "button": {
