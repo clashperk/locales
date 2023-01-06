@@ -37,15 +37,7 @@
       "yes": "Igen",
       "no": "Nem"
     },
-    "color_code": "Színkód",
-    "options": {
-      "tag": {
-        "description": "Clan tag or name or alias."
-      },
-      "user": {
-        "description": "Felhasználói azonosító (ID) vagy @tag említés."
-      }
-    }
+    "color_code": "Színkód"
   },
   "component": {
     "button": {
