@@ -37,7 +37,18 @@
       "yes": "Si",
       "no": "No"
     },
-    "color_code": "Codice colore"
+    "color_code": "Codice colore",
+    "options": {
+      "tag": {
+        "description": "Clan tag or name or alias."
+      },
+      "clan": {
+        "description": "Clan tag or name or alias."
+      },
+      "user": {
+        "description": "Clan by @user mention or ID."
+      }
+    }
   },
   "component": {
     "button": {
