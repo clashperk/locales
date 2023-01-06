@@ -37,7 +37,15 @@
       "yes": "Evet",
       "no": "Hayır"
     },
-    "color_code": "Renk Kodu"
+    "color_code": "Renk Kodu",
+    "options": {
+      "tag": {
+        "description": "Clan tag or name or alias."
+      },
+      "user": {
+        "description": "Kullanıcı kimliği ya da @kullanıcı girin."
+      }
+    }
   },
   "component": {
     "button": {
