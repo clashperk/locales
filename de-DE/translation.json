@@ -37,7 +37,15 @@
       "yes": "Ja",
       "no": "Nein"
     },
-    "color_code": "Farbcode"
+    "color_code": "Farbcode",
+    "options": {
+      "tag": {
+        "description": "Clan tag or name or alias."
+      },
+      "user": {
+        "description": "Spieler-Kürzel oder @user-Erwähnung."
+      }
+    }
   },
   "component": {
     "button": {
