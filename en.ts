@@ -44,8 +44,11 @@ export const common = {
         tag: {
             description: 'Clan tag or name or alias.'
         },
+        clan: {
+            description: 'Clan tag or name or alias.'
+        },
         user: {
-            description: 'User ID or @user mention.'
+            description: 'Clan by @user mention or ID.'
         }
     }
 } as const;
