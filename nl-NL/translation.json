@@ -40,13 +40,13 @@
     "color_code": "Kleurcode",
     "options": {
       "tag": {
-        "description": "Clan tag or name or alias."
+        "description": "Clantag, naam, of alias."
       },
       "clan": {
-        "description": "Clan tag or name or alias."
+        "description": "Clantag, naam, of alias."
       },
       "user": {
-        "description": "Clan by @user mention or ID."
+        "description": "Clan door middel van @gebruiker of ID."
       }
     }
   },
