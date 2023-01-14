@@ -40,13 +40,13 @@
     "color_code": "Code couleur hexadécimal",
     "options": {
       "tag": {
-        "description": "Clan tag or name or alias."
+        "description": "Identifiant de clan ou nom ou alias."
       },
       "clan": {
-        "description": "Clan tag or name or alias."
+        "description": "Identifiant de clan ou nom ou alias."
       },
       "user": {
-        "description": "Clan by @user mention or ID."
+        "description": "Clan par mention @utilisateur ou identifiant."
       }
     }
   },
