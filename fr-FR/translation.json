@@ -43,10 +43,23 @@
         "description": "Identifiant de clan ou nom ou alias."
       },
       "clan": {
-        "description": "Identifiant de clan ou nom ou alias."
+        "tag": {
+          "description": "Identifiant de clan ou nom ou alias."
+        },
+        "user": {
+          "description": "Clan par mention @utilisateur ou identifiant."
+        }
       },
       "user": {
         "description": "Clan par mention @utilisateur ou identifiant."
+      },
+      "player": {
+        "tag": {
+          "description": "Player tag or name."
+        },
+        "user": {
+          "description": "Player by @user mention or ID."
+        }
       }
     }
   },
