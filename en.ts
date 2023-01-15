@@ -45,10 +45,23 @@ export const common = {
             description: 'Clan tag or name or alias.'
         },
         clan: {
-            description: 'Clan tag or name or alias.'
+            tag: {
+                description: 'Clan tag or name or alias.'
+            },
+            user: {
+                description: 'Clan by @user mention or ID.'
+            }
         },
         user: {
             description: 'Clan by @user mention or ID.'
+        },
+        player: {
+            tag: {
+                description: 'Player tag or name.'
+            },
+            user: {
+                description: 'Player by @user mention or ID.'
+            }
         }
     }
 } as const;
