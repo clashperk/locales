@@ -43,10 +43,23 @@
         "description": "Clantag, naam, of alias."
       },
       "clan": {
-        "description": "Clantag, naam, of alias."
+        "tag": {
+          "description": "Clantag, naam, of alias."
+        },
+        "user": {
+          "description": "Clan door middel van @gebruiker of ID."
+        }
       },
       "user": {
         "description": "Clan door middel van @gebruiker of ID."
+      },
+      "player": {
+        "tag": {
+          "description": "Player tag or name."
+        },
+        "user": {
+          "description": "Player by @user mention or ID."
+        }
       }
     }
   },
