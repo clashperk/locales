@@ -55,10 +55,10 @@
       },
       "player": {
         "tag": {
-          "description": "Player tag or name."
+          "description": "Tag ou nom du joueur."
         },
         "user": {
-          "description": "Player by @user mention or ID."
+          "description": "Joueur par mention @utilisateur ou identifiant."
         }
       }
     }
