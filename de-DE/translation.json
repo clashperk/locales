@@ -1,10 +1,10 @@
 {
   "common": {
-    "no_clans_found": "Keine Clans mit den gesuchten Eigenschaften in unserer Datenbank gefunden.",
-    "no_clans_linked": "Keine Clans mit diesem Server verlinkt. Versuche doch erst einen Clan hinzuzufügen.",
-    "clan_limit": "Die maximale Anzahl an Clans ist erreicht. Bitte unterstütze uns auf unserem [Patreon](https://patreon. om/clashperk), um mehr als zwei Clans hinzuzufügen.\n\nBereits ein Patron? Benutze den Befehl `/redeem`.",
-    "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden. \n\nDu bist bereits Patron? Dann nutze den `/redeem` Befehl.",
-    "clan_verification": "Wir müssen sichergehen, dass du in diesem Clan Anführer oder Vize-Anführer bist. Bitter verifiziere deinen Account mit dem API-Token. \nNutze den `/verify` Befehl um deinen Spielaccount zu verifizieren. Dein API-Token findest du in den Einstellungen im Spiel.\n\nAlternativ kannst du in der Clanbeschreibung einen temporären Code `{{code}}` hinzufügen. Warte anschließend 1-2 Minuten und benutze den Befehl erneut. Sobald du verfiziert bist, kannst du den Code aus der Clanbeschreibung entfernen.",
+    "no_clans_found": "No clans were found on this server for the specified input! \nUse </setup enable:813041692085059609> command to link a clan.",
+    "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse </setup enable:813041692085059609> command to link a clan.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use </redeem:875440359549837362> command.",
+    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use </redeem:875440359549837362> command.",
+    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the </verify:813041692252962827> command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
     "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
     "no_clan_data": "Keine Daten verfügbar für {{clan}}. Wir sind noch am Daten sammeln.",
@@ -14,18 +14,18 @@
       "expired": "Diese Komponente ist nicht mehr aktiv. Nutze den Befehl erneut.",
       "unauthorized": "Um mit diesem Befehl interagieren zu können, musst du ihn selber ausführen."
     },
-    "no_clan_tag": "Du musst ein Clankürzel angeben um diesen Befehl zu nutzen!",
-    "no_player_tag": "Du musst ein Spielerkürzel angeben, um diesen Befehl zu nutzen!",
-    "clan_not_linked": "Kein Clan ist mit {{user}} verknüpft.",
-    "player_not_linked": "Kein Spieler ist mit {{user}} verknüpft.",
-    "guild_unauthorized": "Dieser Server ist nicht autorisiert für {{clan}}. Nutze den `/setup` Befehl um den Clan zu verknüpfen.",
+    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the </link create:857281486662926407> command.",
+    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the </link create:857281486662926407> command.",
+    "clan_not_linked": "No clan is linked to {{user}}. \nUse </setup enable:813041692085059609> to link a clan.",
+    "player_not_linked": "No player is linked to {{user}}. Use </link create:857281486662926407> command to link a player.",
+    "guild_unauthorized": "This server is not authorized for {{clan}}. Use </link create:857281486662926407> command to link a clan.",
     "status_code": {
       "400": "Der Benutzer hat dem Befehl falsche Parameter angefügt.",
       "403": "Das API-Token gewährt keinen Zugriff auf die angeforderte Ressource.",
       "404": "Für das angegebene Kürzel wurden keine Übereinstimmungen gefunden.",
       "429": "Die Anforderung wurde gedrosselt, da die Anzahl der Anforderungen über dem für das verwendete API-Token definierten Schwellenwert lag.",
       "500": "Ein unbekannter Fehler ist bei der Verarbeitung des Befehls aufgetreten.",
-      "503": "Der Service ist aufgrund von Wartungsarbeiten vorübergehend nicht verfügbar.",
+      "503": "Service is temporarily unavailable because of maintenance break in the game.",
       "504": "504 Timeout für Anforderungen."
     },
     "clan_tag_argument": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung.",
@@ -37,7 +37,31 @@
       "yes": "Ja",
       "no": "Nein"
     },
-    "color_code": "Farbcode"
+    "color_code": "Farbcode",
+    "options": {
+      "tag": {
+        "description": "Clan tag or name or alias."
+      },
+      "clan": {
+        "tag": {
+          "description": "Clan tag or name or alias."
+        },
+        "user": {
+          "description": "Clan by @user mention or ID."
+        }
+      },
+      "user": {
+        "description": "Clan by @user mention or ID."
+      },
+      "player": {
+        "tag": {
+          "description": "Player tag or name."
+        },
+        "user": {
+          "description": "Player by @user mention or ID."
+        }
+      }
+    }
   },
   "component": {
     "button": {
