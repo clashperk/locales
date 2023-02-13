@@ -1,12 +1,12 @@
 export const common = {
-    no_clans_found: 'No clans were found on this server for the specified input!',
-    no_clans_linked: 'No clans are linked to this server. Why not link some?',
+    no_clans_found: 'No clans were found on this server for the specified input! \nUse </setup enable:813041692085059609> to link a clan.',
+    no_clans_linked: 'No clans are linked to this server. Why not link some? \nUse </setup enable:813041692085059609> to link a clan.',
     clan_limit:
-        'The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use `/redeem` command.',
+        'The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use </redeem:875440359549837362> command.',
     patron_only:
-        'This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use `/redeem` command.',
+        'This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use </redeem:875440359549837362> command.',
     clan_verification:
-        'We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the `/verify` command to verify your player account. The API token is available in the Game settings.\n\nAlternatively, you can add a temporary code `{{code}}` in your clan description. Then wait 1-2 min and execute this command again. Once it is verified, you can safely remove the code.',
+        'We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the </verify:813041692252962827> command to verify your player account. The API token is available in the Game settings.',
     no_option: 'Something went wrong while executing this command. (option not found)',
     no_data: 'No data is available at this moment. We are still collecting!',
     no_clan_data: 'No data is available for {{clan}}. We are still collecting!',
@@ -16,18 +16,20 @@ export const common = {
         expired: 'This component is no longer active. Run the command again.',
         unauthorized: 'You must run the command to interact with components.'
     },
-    no_clan_tag: 'You must provide a clan tag to execute this command!',
-    no_player_tag: 'You must provide a player tag to execute this command!',
+    no_clan_tag:
+        'You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the </link:857281486662926407> command.',
+    no_player_tag:
+        'You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the </link:857281486662926407> command.',
     clan_not_linked: 'No clan is linked to {{user}}.',
     player_not_linked: 'No player is linked to {{user}}.',
-    guild_unauthorized: 'This server is not authorized for {{clan}}. Use `/setup` command to link the clan.',
+    guild_unauthorized: 'This server is not authorized for {{clan}}. Use </setup enable:813041692085059609> to link a clan.',
     status_code: {
         '400': 'The client provided incorrect parameters for the request.',
         '403': 'API token does not grant access to the requested resource.',
         '404': 'No matches were found for the specified tag.',
         '429': 'The request was throttled because the number of requests was above the threshold defined for the used API token.',
         '500': 'An unknown error happened when handling the request.',
-        '503': 'Service is temporarily unavailable because of maintenance.',
+        '503': 'Service is temporarily unavailable because of maintenance break in the game.',
         '504': '504 Request Timeout.'
     },
     clan_tag_argument: 'Clan tag or alias or @user mention.',
