@@ -14,8 +14,8 @@
       "expired": "This component is no longer active. Run the command again.",
       "unauthorized": "You must run the command to interact with components."
     },
-    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the </link:857281486662926407> command.",
-    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the </link:857281486662926407> command.",
+    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the </link create:857281486662926407> command.",
+    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the </link create:857281486662926407> command.",
     "clan_not_linked": "No clan is linked to {{user}}.",
     "player_not_linked": "No player is linked to {{user}}.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use </setup enable:813041692085059609> to link a clan.",
