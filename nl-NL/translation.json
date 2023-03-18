@@ -71,6 +71,7 @@
   "command": {
     "activity": {
       "description": "Toont een grafiek van actieve clanleden per uur.",
+      "description_long": "Toont een grafiek van actieve clanleden per uur.",
       "title": "Actieven clanleden per uur",
       "options": {
         "clans": {
@@ -83,6 +84,7 @@
     },
     "clan_games": {
       "description": "Clanspelen scorebord van clanleden.",
+      "description_long": "Clanspelen scorebord van clanleden.",
       "title": "Clanspelen Scorebord",
       "options": {
         "tag": {
@@ -95,23 +97,25 @@
     },
     "capital": {
       "description": "Toont de bijdragen aan de clanhoofdstad en rooftochten.",
-      "contributions": {
-        "description": "Toont bijdragen aan de canhoofdstad.",
-        "title": "Bijdragen aan de clanhoofdstad",
+      "contribution": {
+        "description": "Shows clan capital contributions.",
+        "description_long": "Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)",
+        "title": "Clan Capital Contributions",
         "options": {
           "tag": {
             "description": "Clan tag of @gebruiker vermelding."
           },
           "week": {
-            "description": "De week om bijdragen voor te tonen."
+            "description": "The week to show contributions for."
           },
           "season": {
-            "description": "Het seizoen om bijdragen voor te tonen."
+            "description": "The season to show contributions for."
           }
         }
       },
       "raids": {
         "description": "Toont de rooftochten van de clanhoofdstad.",
+        "description_long": "Shows raid weekend scores of clan members (use player_tag or user field to see raid history of a player)",
         "title": "Rooftochten Clanhoofstad",
         "options": {
           "tag": {
@@ -127,8 +131,20 @@
         "no_data": "Geen rooftochten gevonden voor {{clan}} [{{weekId}}]."
       }
     },
+    "legend": {
+      "description": "Shows per-day legend stats for a clan.",
+      "attacks": {
+        "description": "Shows the legend of the clan for attacks.",
+        "description_long": "Shows per-day legend stats for a clan."
+      },
+      "days": {
+        "description": "Shows the legend of the clan for days.",
+        "description_long": "Shows per-day legend stats for a player or an user."
+      }
+    },
     "lastseen": {
       "description": "De laatst geziene tijd en activiteiten van clanleden.",
+      "description_long": "De laatst geziene tijd en activiteiten van clanleden.",
       "title_lastseen": "Laatst gezien en activiteitsscores (laatste 24 uur)",
       "title_activity": "Activiteiten van clanleden (laatste 30 dagen)",
       "options": {
@@ -140,7 +156,8 @@
     "alias": {
       "description": "Creëer, verwijder of bekijk clanaliassen.",
       "create": {
-        "description": "Creëert een clan-alias.",
+        "description": "Creates a clan alias (short code or abbreviation)",
+        "description_long": "Creates a clan alias (short code or abbreviation)",
         "options": {
           "name": {
             "description": "Naam van de alias."
@@ -159,6 +176,7 @@
       },
       "delete": {
         "description": "Verwijdert een clan-alias.",
+        "description_long": "Verwijdert een clan-alias.",
         "options": {
           "name": {
             "description": "Tag van een clan of naam van een alias"
@@ -170,11 +188,13 @@
       },
       "list": {
         "description": "Maak een lijst van alle clanaliassen.",
+        "description_long": "Maak een lijst van alle clanaliassen.",
         "title": "Clan Aliassen"
       }
     },
     "config": {
       "description": "Configureer serverinstellingen.",
+      "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
           "description": "Hex-kleurcode (bijv. #ed4245) [Patreon lidmaatschap is vereist]"
@@ -188,7 +208,8 @@
       "events_channel": "Evenementen Kanaal"
     },
     "debug": {
-      "description": "Toont enkele basisinformatie voor foutopsporing."
+      "description": "Toont enkele basisinformatie voor foutopsporing.",
+      "description_long": "Toont enkele basisinformatie voor foutopsporing."
     },
     "cwl": {
       "description": "Uitslag en overzicht van het CWL-seizoen.",
@@ -205,16 +226,24 @@
       "no_rounds": "Er zijn nog geen CWL-rondes gespeeld, probeer het na enige tijd opnieuw.",
       "no_season_data": "Er zijn geen CWL-statistieken beschikbaar voor het seizoen {{season}}.",
       "attacks": {
-        "description": "Overzicht van CWL-aanvallen."
+        "description": "Shows an overview of attacks for different CWL rounds.",
+        "description_long": "Shows an overview of attacks for different CWL rounds."
       },
       "lineup": {
-        "description": "Geen beschrijving."
+        "description": "Shows CWL lineup for a round (sorted by town hall and heroes).",
+        "description_long": "Shows CWL lineup for a round (sorted by town hall and heroes)."
       },
       "members": {
-        "description": "Geen beschrijving."
+        "description": "Shows a list of all CWL participants.",
+        "description_long": "Shows a list of all CWL participants."
+      },
+      "history": {
+        "description": "Shows CWL history of a player or user.",
+        "description_long": "Shows CWL history of a player or user."
       },
       "roster": {
         "description": "CWL-rooster en stadhuis verdeling.",
+        "description_long": "Shows entire roster of Town halls for a CWL group.",
         "options": {
           "tag": {
             "description": "Clan tag of @gebruiker vermelding."
@@ -223,6 +252,7 @@
       },
       "round": {
         "description": "CWL-uitslag voor de huidige ronde.",
+        "description_long": "Shows an overview of a CWL round.",
         "options": {
           "tag": {
             "description": "Clan tag of @gebruiker vermelding."
@@ -233,10 +263,33 @@
         }
       },
       "stars": {
-        "description": "Geen beschrijving."
+        "description": "Shows CWL member ranking by stars.",
+        "description_long": "Shows CWL member ranking by stars."
       },
       "stats": {
-        "description": "Geen beschrijving."
+        "description": "Shows an overview of all CWL rounds and group standings.",
+        "description_long": "Shows an overview of all CWL rounds and group standings."
+      }
+    },
+    "roster": {
+      "description": "CWL-rooster en stadhuis verdeling.",
+      "description_long": "Shows entire roster of Town halls for a CWL group.",
+      "options": {
+        "tag": {
+          "description": "Clan tag of @gebruiker vermelding."
+        }
+      }
+    },
+    "round": {
+      "description": "CWL-uitslag voor de huidige ronde.",
+      "description_long": "Shows an overview of a CWL round.",
+      "options": {
+        "tag": {
+          "description": "Clan tag of @gebruiker vermelding."
+        },
+        "round": {
+          "description": "Ronde nummer om te laten zien."
+        }
       }
     },
     "export": {
@@ -256,28 +309,35 @@
         }
       },
       "cwl": {
-        "description": "Geen beschrijving."
+        "description": "Export CWL stats to Excel.",
+        "description_long": "Export CWL stats to Excel."
       },
       "last_wars": {
-        "description": "Geen beschrijving."
+        "description": "Export participation history (last played wars)",
+        "description_long": "Export participation history (last played wars)"
       },
       "members": {
-        "description": "Geen beschrijving."
+        "description": "Export a comprehensive version of clan member stats.",
+        "description_long": "Export a comprehensive version of clan member stats."
       },
       "missed": {
-        "description": "Geen beschrijving."
+        "description": "Export missed attack history.",
+        "description_long": "Export missed attack history."
       },
       "season": {
-        "description": "Geen beschrijving."
+        "description": "Export comprehensive seasonal stats of clan members.",
+        "description_long": "Export comprehensive seasonal stats of clan members."
       },
       "wars": {
-        "description": "Geen beschrijving."
+        "description": "Export War stats to Excel.",
+        "description_long": "Export War stats to Excel."
       }
     },
     "flag": {
       "description": "Creëer, verwijder of zoek spelersvlaggen.",
       "create": {
         "description": "Maak een speler markering.",
+        "description_long": "Create a player flag to mark the player as banned or flagged.",
         "options": {
           "tag": {
             "description": "De tag van een speler die wordt gemarkeerd."
@@ -292,6 +352,7 @@
       },
       "delete": {
         "description": "Verwijder de markering van een speler.",
+        "description_long": "Verwijder de markering van een speler.",
         "options": {
           "tag": {
             "description": "De tag van een speler die moet worden verwijderd."
@@ -303,6 +364,7 @@
       },
       "list": {
         "description": "Maak een lijst van alle speler markeringen.",
+        "description_long": "Maak een lijst van alle speler markeringen.",
         "options": {
           "export": {
             "description": "Exporteer alle speler markeringen naar Excel."
@@ -312,6 +374,7 @@
       },
       "search": {
         "description": "Zoek naar een speler makering.",
+        "description_long": "Zoek naar een speler makering.",
         "options": {
           "tag": {
             "description": "De tag van een speler om te zoeken."
@@ -324,7 +387,8 @@
       "description": "Maak, verwijder of vermeld speler koppelingen.",
       "no_tag": "U moet een speler/clan tag opgeven om deze opdracht uit te voeren.",
       "create": {
-        "description": "Creëert een speler/clanlink met een gebruikersaccount.",
+        "description": "Links a player account/clan to a Discord account.",
+        "description_long": "Links a player account/clan to a Discord account.",
         "options": {
           "tag": {
             "description": "Tag van een speler of clan."
@@ -345,7 +409,8 @@
         "max_limit": "De maximale accountlimiet is bereikt. (25 accounts/gebruiker)"
       },
       "delete": {
-        "description": "Verwijder link met een speler/clan.",
+        "description": "Deletes a player account/clan from a Discord account.",
+        "description_long": "Deletes a player account/clan from a Discord account.",
         "options": {
           "tag": {
             "description": "Tag van een speler of clan."
@@ -357,6 +422,7 @@
       },
       "list": {
         "description": "Maak een lijst van alle gelinkten account van spelers.",
+        "description_long": "List all player links of a clan.",
         "options": {
           "tag": {
             "description": "Clan tag of @gebruiker vermelding."
@@ -366,6 +432,7 @@
     },
     "verify": {
       "description": "Verifier en link een speler met behulp van een API-token.",
+      "description_long": "Verify and link a player account using an API token.",
       "options": {
         "tag": {
           "description": "Tag van de speler om te verifiëren."
@@ -379,6 +446,7 @@
     },
     "timezone": {
       "description": "Stel de tijdzone offset in.",
+      "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
           "description": "Zoek op naam van land of stad (wij slaan de locatie niet op, alleen offset. bijv. GMT+5:00)"
@@ -389,6 +457,7 @@
     },
     "profile": {
       "description": "Toont gebruikersinformatie en gekoppelde accounts.",
+      "description_long": "Shows linked accounts and clan of a user.",
       "options": {
         "user": {
           "description": "Gebruikers-ID of @gebruiker vermelding."
@@ -397,6 +466,7 @@
     },
     "nickname": {
       "description": "Kies een naam uit de lijst met gekoppelde spelers.",
+      "description_long": "Rename users with a nickname selected from linked player list.",
       "options": {
         "user": {
           "description": "Gebruikers-ID of @gebruiker vermelding."
@@ -409,70 +479,79 @@
       "no_players": "Er zijn geen spelers gekoppeld aan {{user}}.",
       "char_limit": "Uw naam moet minder dan 31 tekens lang zijn."
     },
-    "reminder": {
-      "description": "Oorlogsherinneringen maken, verwijderen of weergeven.",
+    "reminders": {
+      "description": "Create, delete or list reminders.",
       "create": {
-        "description": "Maak een oorlogsherinnering om leden te vermelden.",
+        "description": "Create reminders for clan wars, capital raids or clan games.",
+        "description_long": "Create reminders for clan wars, capital raids or clan games.",
         "options": {
           "duration": {
-            "description": "Resterende duur om oorlogsleden te vermelden (veelvoud van 15 minuten bijv. 15m, 30m, 1u)"
+            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g. 15m, 30m, 1h, 1.25h, 1.5h)"
           },
           "message": {
-            "description": "Herinneringsbericht voor de melding."
+            "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Clan tags of aliassen. (voer * in om alle clans te selecteren)"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "channel": {
-            "description": "Herinneringsbericht voor de melding."
+            "description": "Reminder message for the notification."
           }
         },
-        "max_limit": "Je kunt maar 25 herinneringen hebben.",
-        "invalid_duration_format": "De duur moet in een geldig formaat zijn. bijv. 2u, 2.5u, 30m",
-        "no_message": "U moet een bericht opgeven om deze opdracht uit te voeren.",
-        "duration_limit": "De duur moet langer zijn dan 15 minuten en minder dan 45 uur.",
-        "duration_order": "De duur moet een veelvoud van 15 minuten zijn. bijv. 15m, 30m, 45m, 1u, 1,25u, 1,5u, 1,75u",
-        "too_many_clans": "Het clanselectiemenu is niet beschikbaar voor meer dan 25 clans. {{clans}} clans werden automatisch geselecteerd!\nOm een herinnering voor specifieke clans te maken, geeft u clantags of aliassen met de optie 'clans' tijdens het uitvoeren van de opdracht.",
+        "max_limit": "You can only have 25 reminders.",
+        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
+        "no_message": "You must specify a message to execute this command.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
+        "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
+        "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
         "missing_access": "Ik mis {{permission}} in {{channel}} om deze opdracht uit te voeren.",
         "too_many_webhooks": "Te veel webhooks in {{channel}}.",
-        "success": "Succesvol opgeslagen!"
+        "success": "Successfully saved!"
+      },
+      "edit": {
+        "description": "Edit a reminder by ID (do /reminders list to get the ID)",
+        "description_long": "Edit a reminder by ID (do */reminders list* to get the ID)"
       },
       "delete": {
-        "description": "Verwijder een enkele herinnering of wis alles.",
+        "description": "Delete a reminder by ID (do /reminders list to get the ID)",
+        "description_long": "Delete a reminder by ID (do */reminders list* to get the ID)",
         "options": {
           "id": {
-            "description": "Herinnering-ID."
+            "description": "Reminder ID."
           },
           "clear": {
-            "description": "Of alle herinneringen gewist moeten worden."
+            "description": "Whether to clear all reminders."
           }
         },
-        "no_reminders": "Je hebt geen herinneringen.",
-        "cleared": "Alle herinneringen zijn succesvol gewist.",
-        "not_found": "Er is geen herinnering gevonden met de ID {{id}}.",
-        "success": "De herinnering met ID {{id}} is succesvol verwijderd.",
-        "too_many_reminders": "Als je te veel herinneringen hebt, geef dan een herinnerings-ID op."
+        "no_reminders": "You have no reminders.",
+        "cleared": "Successfully cleared all reminders.",
+        "not_found": "No reminder was found with the ID {{id}}.",
+        "success": "Successfully deleted the reminder with the ID {{id}}.",
+        "too_many_reminders": "If you have too many reminders, please provide a reminder ID."
       },
       "list": {
-        "description": "Maak een lijst van alle oorlogsherinneringen.",
-        "no_reminders": "Je hebt geen herinneringen."
+        "description": "List all reminders for clan wars, capital raids or clan games.",
+        "description_long": "List all war reminders for clan wars, capital raids or clan games.",
+        "no_reminders": "You have no reminders."
       },
       "now": {
-        "description": "Onmiddellijke oorlogsherinnering voor leden.",
+        "description": "Create an instant reminder to notify members.",
+        "description_long": "Create an instant reminder to notify members.",
         "options": {
           "message": {
-            "description": "Herinneringsbericht voor de melding."
+            "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Clan tags of aliassen. (voer * in om alle clans te selecteren)"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           }
         },
-        "no_message": "U moet een bericht opgeven om deze opdracht uit te voeren.",
-        "no_match": "Er zijn geen oorlogen of geen leden die overeenkomen met de geselecteerde opties."
+        "no_message": "You must specify a message to execute this command.",
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {
       "description": "Toon de samenstellings van een leger.",
+      "description_long": "Toon de samenstellings van een leger.",
       "no_link": "U moet een geldige link naar een samengesteld leger opgeven.",
       "invalid_link": "De link van dit samengestelde leger is ongeldig.",
       "possibly_invalid_link": "De link is ongeldig en werkt mogelijk niet.",
@@ -487,6 +566,7 @@
     },
     "attacks": {
       "description": "Aanval- en verdedigingsscorebord van clanleden.",
+      "description_long": "Displays attack and defense info of clan members.",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -495,6 +575,7 @@
     },
     "boosts": {
       "description": "Clanleden met actieve supertroepen.",
+      "description_long": "Displays active super troops of clan members.",
       "no_boosts": "Er zijn geen leden die boosten in deze clan.",
       "no_recent_boosts": "Er zijn geen recent actieve leden die boosten in deze clan.",
       "no_unit_boosts": "Er zijn geen leden die {{unit}} boosten in deze clan.",
@@ -507,6 +588,7 @@
     },
     "clan": {
       "description": "Toont samenvatting en overzicht van de clan.",
+      "description_long": "Shows comprehensive overview of a clan.",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -515,6 +597,7 @@
     },
     "compo": {
       "description": "Toont de samenstelling van stadhuizen van een clan.",
+      "description_long": "Shows Town Hall composition of a clan.",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -523,6 +606,7 @@
     },
     "donations": {
       "description": "Geeft donaties van clanleden weer.",
+      "description_long": "Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)",
       "no_season_data": "Er zijn geen gegevens gevonden voor het seizoen {{season}}.",
       "options": {
         "tag": {
@@ -535,6 +619,7 @@
     },
     "lineup": {
       "description": "War overzicht van een clan.",
+      "description_long": "Displays war line-up of a clan.",
       "not_in_war": "De clan is niet in oorlog.",
       "options": {
         "tag": {
@@ -544,6 +629,7 @@
     },
     "members": {
       "description": "Zie een clanledenlijst met helden, trofeeën, oorlogsvoorkeuren en nog veel meer.",
+      "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -555,6 +641,7 @@
     },
     "player": {
       "description": "Statistieken inzien van spelers.",
+      "description_long": "Shows comprehensive overview of a player (including war attack history)",
       "options": {
         "tag": {
           "description": "Speler tag of @gebruiker vermelding."
@@ -563,6 +650,7 @@
     },
     "remaining": {
       "description": "Resterende of gemiste aanvallen van een clan.",
+      "description_long": "Shows remaining or missed war hits of a clan.",
       "not_in_war": "De clan is niet in oorlog.",
       "no_war_id": "Er is geen oorlog gevonden voor het opgegeven oorlogs-ID.",
       "options": {
@@ -576,6 +664,7 @@
     },
     "rushed": {
       "description": "Rushed eenheden van een speler of clanleden.",
+      "description_long": "Rushed units and rushed % of a player or clan members.",
       "no_rushed": "Er zijn geen rushed eenheden voor het stadhuis {{townhall}}.",
       "options": {
         "tag": {
@@ -588,6 +677,7 @@
     },
     "search": {
       "description": "Zoek clans op naam.",
+      "description_long": "Zoek clans op naam.",
       "no_results": "Er zijn geen resultaten gevonden.",
       "searching": "Clans met de naam '{{name}}'.",
       "options": {
@@ -620,14 +710,17 @@
         }
       },
       "attacks": {
-        "description": "Toont slagingspercentages van aanvallen van clanleden."
+        "description": "Toont slagingspercentages van aanvallen van clanleden.",
+        "description_long": "Toont slagingspercentages van aanvallen van clanleden."
       },
       "defense": {
-        "description": "Toont het aantal mislukte verdedigingen van clanleden."
+        "description": "Toont het aantal mislukte verdedigingen van clanleden.",
+        "description_long": "Toont het aantal mislukte verdedigingen van clanleden."
       }
     },
     "units": {
       "description": "Toont het huidige- en maximale level van eenheden van een speler.",
+      "description_long": "Shows home village and builder base units of a player (with max/min levels)",
       "options": {
         "tag": {
           "description": "Speler tag of @gebruiker vermelding."
@@ -636,6 +729,7 @@
     },
     "upgrades": {
       "description": "Resterende upgrades van een speler en upgradekosten.",
+      "description_long": "Resterende upgrades van een speler en upgradekosten.",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -644,6 +738,7 @@
     },
     "war": {
       "description": "Toont een overzicht van een oorlog.",
+      "description_long": "Shows war overview of a clan.",
       "no_war_id": "Er is geen oorlog gevonden voor het opgegeven oorlogs-ID.",
       "not_in_war": "De clan is niet in oorlog.",
       "options": {
@@ -657,6 +752,7 @@
     },
     "warlog": {
       "description": "Toont de laatste 10 gespeelde oorlogen van een clan.",
+      "description_long": "Shows last 10 war logs of a clan.",
       "options": {
         "tag": {
           "description": "Clan tag of @gebruiker vermelding."
@@ -667,6 +763,7 @@
       "description": "Functies op de server in-/uitschakelen of clans toevoegen/verwijderen.",
       "enable": {
         "description": "Schakel een functie op de server in of voeg een clan toe.",
+        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
         "options": {
           "option": {
             "description": "Selecteer een optie."
@@ -699,6 +796,7 @@
       },
       "disable": {
         "description": "Schakel een functie op de server uit of verwijder een clan.",
+        "description_long": "Schakel een functie op de server uit of verwijder een clan.",
         "options": {
           "option": {
             "description": "Selecteer een optie."
@@ -717,43 +815,58 @@
         "feature_disabled": "{{feature}} is met succes uitgeschakeld voor {{clan}}."
       },
       "list": {
-        "description": "Noteer alle ingeschakelde functies en clans."
+        "description": "Noteer alle ingeschakelde functies en clans.",
+        "description_long": "Noteer alle ingeschakelde functies en clans."
+      },
+      "utils": {
+        "description": "Setup other utility features (Link Button)",
+        "description_long": "Setup other utility features (Link Button)"
       }
     },
     "autorole": {
-      "description": "Schakel de automatische-rolfunctie in of uit die rollen toewijst aan leden op basis van hun clanrol.",
-      "enable": {
-        "description": "Schakel de automatische-rolfunctie in die rollen toewijst aan leden op basis van hun clanrol.",
+      "description": "Manage automatic role management for clan roles, town hall levels, or leagues.",
+      "no_roles": "You must specify 3 roles to execute this command.",
+      "no_system_roles": "System managed or bot roles are not allowed.",
+      "no_higher_roles": "My highest role must be higher than these roles.",
+      "invalid_clan_tag": "The specified clan tag is invalid.",
+      "roles_already_used": "Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.",
+      "clan_not_linked": "The clan must be linked to the server to enable auto-role.",
+      "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}",
+      "clan_roles": {
+        "description": "Manage automatic role management for clan roles.",
+        "description_long": "Manage automatic role management for clan roles.",
         "options": {
           "co_leads": {
-            "description": "De rol van co-leider."
+            "description": "The Co-Leader role."
           },
           "elders": {
-            "description": "De rol van Oudste."
+            "description": "The Elder role."
           },
           "members": {
-            "description": "De rol van lid."
+            "description": "The Member role."
           },
           "clans": {
-            "description": "Clan tags of aliassen. (voer * in om alle clans te selecteren)"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "common_role": {
-            "description": "Gemeenschappelijke rol voor iedereen in de clan."
+            "description": "Common role for everyone in the clan."
           },
           "only_verified": {
-            "description": "Rollen worden alleen aan de geverifieerde spelers gegeven. (API-tokenverificatie is vereist)"
+            "description": "Roles will be given to the verified players only. (API token verification is required)"
           }
-        },
-        "no_roles": "U moet 3 rollen opgeven om deze opdracht uit te voeren.",
-        "no_system_roles": "Systeembeheerde rollen of botrollen zijn niet toegestaan.",
-        "no_higher_roles": "Mijn hoogste rol moet hoger zijn dan deze rollen.",
-        "invalid_clan_tag": "De opgegeven clan tag is ongeldig.",
-        "roles_already_used": "Sommige rollen zijn al gebruikt voor een andere clan. \nOverweeg om ons te steunen op [Patreon](https://patreon.com/clashperk) om dezelfde rollen voor meerdere clans te gebruiken.",
-        "clan_not_linked": "De clan moet aan de server zijn gekoppeld om de automatische-rolfunctie in te schakelen.",
-        "success_with_count": "Automatische-rolfunctie is succesvol ingeschakeld voor {{count}} clan(s). \n{{clans}}"
+        }
+      },
+      "leagues": {
+        "description": "Manage automatic role management for leagues.",
+        "description_long": "Manage automatic role management for leagues."
+      },
+      "town_hall": {
+        "description": "Manage automatic role management for town hall levels.",
+        "description_long": "Manage automatic role management for town hall levels."
       },
       "disable": {
-        "description": "Schakel de automatische-rolfunctie uit die rollen toewijst aan leden op basis van hun clanrol.",
+        "description": "Disable automatic role management for clan roles, town hall levels, or leagues.",
+        "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
         "options": {
           "clans": {
             "description": "Clan tags of aliassen om clans te filteren."
@@ -763,6 +876,10 @@
           }
         },
         "success_with_count": "De automatische-rolfunctie is uitgeschakeld voor {{count}} clan(s). \n{{clans}}"
+      },
+      "refresh": {
+        "description": "Refresh automatic roles (usable every 30 minutes)",
+        "description_long": "Refresh automatic roles (usable every 30 minutes)"
       }
     },
     "summary": {
@@ -775,30 +892,76 @@
           "description": "Seizoen-ID voor clanoverzicht."
         }
       },
+      "compo": {
+        "description": "Shows a summary of family Town Hall composition.",
+        "description_long": "Shows a summary of family Town Hall composition."
+      },
       "clans": {
-        "description": "Geen beschrijving."
+        "description": "Shows a summary of family clans.",
+        "description_long": "Shows a summary of family clans."
       },
       "players": {
         "description": "Geen beschrijving."
       },
       "donations": {
-        "description": "Geen beschrijving."
+        "description": "Shows a summary of donations.",
+        "description_long": "Shows a summary of donations."
       },
       "trophies": {
-        "description": "Geen beschrijving."
+        "description": "Shows a summary of players sorted by trophies.",
+        "description_long": "Shows a summary of players sorted by trophies."
       },
       "wars": {
-        "description": "Geen beschrijving."
+        "description": "Shows a summary of current wars.",
+        "description_long": "Shows a summary of current wars."
       },
       "clan_games": {
-        "description": "Geen beschrijving.",
+        "description": "Shows a summary of clan games scores.",
+        "description_long": "Shows a summary of clan games scores.",
         "min_clan_size": "Je moet minimaal {{clans}} clans op je server hebben om deze opdracht te gebruiken.",
         "scoreboard": "Gebaseerd op de hoogste scores en tijd.",
         "performance": "Gebaseerd op het behalen van de maximale punten."
+      },
+      "war_results": {
+        "description": "Shows a summary of seasonal war results.",
+        "description_long": "Shows a summary of seasonal war results."
+      },
+      "best": {
+        "description": "Shows a summary of best members.",
+        "description_long": "Shows a summary of best members."
+      },
+      "attacks": {
+        "description": "Shows a summary of best attackers.",
+        "description_long": "Shows a summary of best attackers."
+      },
+      "missed_wars": {
+        "description": "Shows a summary of missed wars.",
+        "description_long": "Shows a summary of missed wars."
+      },
+      "capital_raids": {
+        "description": "Shows a summary of clan capital raids.",
+        "description_long": "Shows a summary of clan capital raids."
+      },
+      "capital_contribution": {
+        "description": "Shows a summary of clan capital contribution.",
+        "description_long": "Shows a summary of clan capital contribution."
+      },
+      "activity": {
+        "description": "Shows a summary of clan activity (last seen)",
+        "description_long": "Shows a summary of clan activity (last seen)"
+      },
+      "cwl_ranks": {
+        "description": "Shows a summary of CWL ranks.",
+        "description_long": "Shows a summary of CWL ranks."
+      },
+      "leagues": {
+        "description": "Shows a summary of clan leagues (CWL & Clan Capital)",
+        "description_long": "Shows a summary of clan leagues (CWL & Clan Capital)"
       }
     },
     "help": {
       "description": "Krijg een lijst met opdrachten of informatie over een specifieke opdracht.",
+      "description_long": "Krijg een lijst met opdrachten of informatie over een specifieke opdracht.",
       "options": {
         "name": {
           "description": "Naam van de opdracht."
@@ -806,10 +969,12 @@
       }
     },
     "invite": {
-      "description": "Krijg de invite link voor de bot en de server invite voor de ondersteunings server."
+      "description": "Krijg de invite link voor de bot en de server invite voor de ondersteunings server.",
+      "description_long": "Krijg de invite link voor de bot en de server invite voor de ondersteunings server."
     },
     "redeem": {
-      "description": "Een Patreon abonnement inwisselen of beheren. (als je ons wilt steunen)"
+      "description": "Een Patreon abonnement inwisselen of beheren. (als je ons wilt steunen)",
+      "description_long": "Een Patreon abonnement inwisselen of beheren. (als je ons wilt steunen)"
     }
   }
 }
