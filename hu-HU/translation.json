@@ -71,6 +71,7 @@
   "command": {
     "activity": {
       "description": "Megmutatja az óránként aktív klántagok grafikonját.",
+      "description_long": "Megmutatja az óránként aktív klántagok grafikonját.",
       "title": "Óránként aktív klántagok",
       "options": {
         "clans": {
@@ -83,6 +84,7 @@
     },
     "clan_games": {
       "description": "Megmutatja a klánjátékok (Clan Games) eredménytábláját.",
+      "description_long": "Megmutatja a klánjátékok (Clan Games) eredménytábláját.",
       "title": "Klánjátékok (Clan Games) eredménytáblája",
       "options": {
         "tag": {
@@ -95,23 +97,25 @@
     },
     "capital": {
       "description": "Megmutatja a Klán Capital hozzájárulásokat és támadásokat.",
-      "contributions": {
-        "description": "Megmutatja a Klán Capital hozzájárulásokat.",
-        "title": "Klán Capital Hozzájárulások",
+      "contribution": {
+        "description": "Shows clan capital contributions.",
+        "description_long": "Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)",
+        "title": "Clan Capital Contributions",
         "options": {
           "tag": {
             "description": "Klán címke (klán tag) vagy @tag említés."
           },
           "week": {
-            "description": "Az a hét, amely hozzájárulásait megjelenítsük."
+            "description": "The week to show contributions for."
           },
           "season": {
-            "description": "Az a szezon, amely hozzájárulásait megjelenítsük."
+            "description": "The season to show contributions for."
           }
         }
       },
       "raids": {
         "description": "Megmutatja a Klán Capital támadásokat.",
+        "description_long": "Shows raid weekend scores of clan members (use player_tag or user field to see raid history of a player)",
         "title": "Klán Capital Támadások",
         "options": {
           "tag": {
@@ -127,8 +131,20 @@
         "no_data": "Nem található Capital Raid ebben a klánban {{clan}} [{{weekId}}]."
       }
     },
+    "legend": {
+      "description": "Shows per-day legend stats for a clan.",
+      "attacks": {
+        "description": "Shows the legend of the clan for attacks.",
+        "description_long": "Shows per-day legend stats for a clan."
+      },
+      "days": {
+        "description": "Shows the legend of the clan for days.",
+        "description_long": "Shows per-day legend stats for a player or an user."
+      }
+    },
     "lastseen": {
       "description": "A klántagok utoljára elérhető ideje és aktivitásaik.",
+      "description_long": "A klántagok utoljára elérhető ideje és aktivitásaik.",
       "title_lastseen": "Utoljára elérhető és aktivitási pontok (utolsó 24 óra)",
       "title_activity": "Klántagok aktivitásai (utolsó 30 nap)",
       "options": {
@@ -140,7 +156,8 @@
     "alias": {
       "description": "Klán becenevek létrehozása, törlése vagy megtekintése.",
       "create": {
-        "description": "Létrehoz egy klán becenevet.",
+        "description": "Creates a clan alias (short code or abbreviation)",
+        "description_long": "Creates a clan alias (short code or abbreviation)",
         "options": {
           "name": {
             "description": "A becenév neve."
@@ -159,6 +176,7 @@
       },
       "delete": {
         "description": "Kitöröl egy klán becenevet.",
+        "description_long": "Kitöröl egy klán becenevet.",
         "options": {
           "name": {
             "description": "Egy klán címkéje (tag-je) vagy a becenév neve"
@@ -170,11 +188,13 @@
       },
       "list": {
         "description": "Az összes klán becenév kilistázva.",
+        "description_long": "Az összes klán becenév kilistázva.",
         "title": "Klán becenevek"
       }
     },
     "config": {
       "description": "Szerver beállítások konfigurálása.",
+      "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
           "description": "Hexadecimális színkód (pl. #ed4245) [Csak Támogatóknak]"
@@ -188,7 +208,8 @@
       "events_channel": "Események Csatorna"
     },
     "debug": {
-      "description": "Megjelenít néhány alapvető hibakeresési információt."
+      "description": "Megjelenít néhány alapvető hibakeresési információt.",
+      "description_long": "Megjelenít néhány alapvető hibakeresési információt."
     },
     "cwl": {
       "description": "CWL szezon összefoglaló és áttekintő.",
@@ -205,16 +226,24 @@
       "no_rounds": "A klán még nem játszotta le a CWL fordulót, próbálkozz újra kicsit később.",
       "no_season_data": "A {{season}} szezonról nem állnak rendelkezésre CWL statisztikák.",
       "attacks": {
-        "description": "CWL támadások áttekintése."
+        "description": "Shows an overview of attacks for different CWL rounds.",
+        "description_long": "Shows an overview of attacks for different CWL rounds."
       },
       "lineup": {
-        "description": "Nincs leírás."
+        "description": "Shows CWL lineup for a round (sorted by town hall and heroes).",
+        "description_long": "Shows CWL lineup for a round (sorted by town hall and heroes)."
       },
       "members": {
-        "description": "Nincs leírás."
+        "description": "Shows a list of all CWL participants.",
+        "description_long": "Shows a list of all CWL participants."
+      },
+      "history": {
+        "description": "Shows CWL history of a player or user.",
+        "description_long": "Shows CWL history of a player or user."
       },
       "roster": {
         "description": "CWL névsor és Town Hall elosztás.",
+        "description_long": "Shows entire roster of Town halls for a CWL group.",
         "options": {
           "tag": {
             "description": "Klán címke (klán tag) vagy @tag említés."
@@ -223,6 +252,7 @@
       },
       "round": {
         "description": "CWL összefoglaló az aktuális fordulóról.",
+        "description_long": "Shows an overview of a CWL round.",
         "options": {
           "tag": {
             "description": "Klán címke (klán tag) vagy @tag említés."
@@ -233,10 +263,33 @@
         }
       },
       "stars": {
-        "description": "Nincs leírás."
+        "description": "Shows CWL member ranking by stars.",
+        "description_long": "Shows CWL member ranking by stars."
       },
       "stats": {
-        "description": "Nincs leírás."
+        "description": "Shows an overview of all CWL rounds and group standings.",
+        "description_long": "Shows an overview of all CWL rounds and group standings."
+      }
+    },
+    "roster": {
+      "description": "CWL névsor és Town Hall elosztás.",
+      "description_long": "Shows entire roster of Town halls for a CWL group.",
+      "options": {
+        "tag": {
+          "description": "Klán címke (klán tag) vagy @tag említés."
+        }
+      }
+    },
+    "round": {
+      "description": "CWL összefoglaló az aktuális fordulóról.",
+      "description_long": "Shows an overview of a CWL round.",
+      "options": {
+        "tag": {
+          "description": "Klán címke (klán tag) vagy @tag említés."
+        },
+        "round": {
+          "description": "A forduló amit megmutassuk."
+        }
       }
     },
     "export": {
@@ -256,28 +309,35 @@
         }
       },
       "cwl": {
-        "description": "Nincs leírás."
+        "description": "Export CWL stats to Excel.",
+        "description_long": "Export CWL stats to Excel."
       },
       "last_wars": {
-        "description": "Nincs leírás."
+        "description": "Export participation history (last played wars)",
+        "description_long": "Export participation history (last played wars)"
       },
       "members": {
-        "description": "Nincs leírás."
+        "description": "Export a comprehensive version of clan member stats.",
+        "description_long": "Export a comprehensive version of clan member stats."
       },
       "missed": {
-        "description": "Nincs leírás."
+        "description": "Export missed attack history.",
+        "description_long": "Export missed attack history."
       },
       "season": {
-        "description": "Nincs leírás."
+        "description": "Export comprehensive seasonal stats of clan members.",
+        "description_long": "Export comprehensive seasonal stats of clan members."
       },
       "wars": {
-        "description": "Nincs leírás."
+        "description": "Export War stats to Excel.",
+        "description_long": "Export War stats to Excel."
       }
     },
     "flag": {
       "description": "Hozz létre, törölj vagy keress játékos megjelöléseket.",
       "create": {
         "description": "Játékos megjelölés létrehozása.",
+        "description_long": "Create a player flag to mark the player as banned or flagged.",
         "options": {
           "tag": {
             "description": "A játékos címkéje (tag-je)."
@@ -292,6 +352,7 @@
       },
       "delete": {
         "description": "Játékos megjelölés törlése.",
+        "description_long": "Játékos megjelölés törlése.",
         "options": {
           "tag": {
             "description": "A játékos címkéje (tag-je)."
@@ -303,6 +364,7 @@
       },
       "list": {
         "description": "Az összes játékos megjelölés kilistázása.",
+        "description_long": "Az összes játékos megjelölés kilistázása.",
         "options": {
           "export": {
             "description": "Exportálja az összes játékos megjelölést Excelbe."
@@ -312,6 +374,7 @@
       },
       "search": {
         "description": "Keress egy játékos megjelölést.",
+        "description_long": "Keress egy játékos megjelölést.",
         "options": {
           "tag": {
             "description": "A keresendő játékos címkéje (tag-je)."
@@ -324,7 +387,8 @@
       "description": "Hozz létre, törölj vagy listázd ki az összekapcsolt játékosokat.",
       "no_tag": "A parancs futtatásához meg kell adnod egy játékos vagy klán címkét (tag-et).",
       "create": {
-        "description": "Játékos/klán összekapcsolása egy felhasználói fiókkal.",
+        "description": "Links a player account/clan to a Discord account.",
+        "description_long": "Links a player account/clan to a Discord account.",
         "options": {
           "tag": {
             "description": "Egy játékos vagy klán címkéje (tag-je)."
@@ -345,7 +409,8 @@
         "max_limit": "Elérted a maximális felhasználókorlátot. (25 fiók/felhasználó)"
       },
       "delete": {
-        "description": "Törölj egy már összekapcsolt játékos/klán kapcsolatot.",
+        "description": "Deletes a player account/clan from a Discord account.",
+        "description_long": "Deletes a player account/clan from a Discord account.",
         "options": {
           "tag": {
             "description": "Egy játékos vagy klán címkéje (tag-je)."
@@ -357,6 +422,7 @@
       },
       "list": {
         "description": "Az összes összekapcsolt játékos kilistázása.",
+        "description_long": "List all player links of a clan.",
         "options": {
           "tag": {
             "description": "Klán címke (klán tag) vagy @tag említés."
@@ -366,6 +432,7 @@
     },
     "verify": {
       "description": "Ellenőrizd és kapcsold össze a játékost API-kulcs használatával.",
+      "description_long": "Verify and link a player account using an API token.",
       "options": {
         "tag": {
           "description": "Az ellenőrizendő játékos címkéje (tag-je)."
@@ -379,6 +446,7 @@
     },
     "timezone": {
       "description": "Állítsd be az időzónádat.",
+      "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
           "description": "Keress ország vagy város neve alapján (a városod nem tároljuk el csak az időzónád. pl. GMT+5:00)"
@@ -389,6 +457,7 @@
     },
     "profile": {
       "description": "Megjeleníti a felhasználói adatokat és az összekapcsolt fiókokat.",
+      "description_long": "Shows linked accounts and clan of a user.",
       "options": {
         "user": {
           "description": "Felhasználói azonosító (ID) vagy @tag említés."
@@ -397,6 +466,7 @@
     },
     "nickname": {
       "description": "Válassz egy becenevet az összekapcsolt játékosok listájából.",
+      "description_long": "Rename users with a nickname selected from linked player list.",
       "options": {
         "user": {
           "description": "Felhasználói azonosító (ID) vagy @tag említés."
@@ -409,70 +479,79 @@
       "no_players": "Egyetlen játékos sincs kapcsolva {{user}} -hoz/-hez.",
       "char_limit": "A becenév maximum 31 karakterből állhat."
     },
-    "reminder": {
-      "description": "Háború (War) emlékeztetők létrehozása, törlése vagy listázása.",
+    "reminders": {
+      "description": "Create, delete or list reminders.",
       "create": {
-        "description": "Hozz létre egy Háború (War) emlékeztetőt, hogy értesítsd a tagokat.",
+        "description": "Create reminders for clan wars, capital raids or clan games.",
+        "description_long": "Create reminders for clan wars, capital raids or clan games.",
         "options": {
           "duration": {
-            "description": "A Háború (War) -ból hátralévő idő amikor a tagokat megemlítsük (15 perc többszörösei pl. 15m, 30m)"
+            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g. 15m, 30m, 1h, 1.25h, 1.5h)"
           },
           "message": {
-            "description": "Emlékeztető üzenet az értesítéshez."
+            "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Klán címkék (tag-ek) vagy (írd be a *-ot az összes klánhoz)."
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "channel": {
-            "description": "Emlékeztető üzenet csatornája."
+            "description": "Reminder message for the notification."
           }
         },
-        "max_limit": "Maximum 25 emlékeztetőt állíthatsz be.",
-        "invalid_duration_format": "Az időtartamnak érvényes formátumúnak kell lennie. pl. 2 óra, 2,5 óra, 30 perc",
-        "no_message": "A parancs futtatásához meg kell adnod egy üzenetet.",
-        "duration_limit": "Az időtartamnak 15 percnél hosszabbnak, de 45 óránál rövidebbnek kell lennie.",
-        "duration_order": "Az időtartamnak 15 perc többszörösének kell lennie. pl. 15 perc, 30 perc, 1 óra, 1,5 óra, 2 óra",
-        "too_many_clans": "A klánválasztó menü 25-nél több klán esetén nem érhető el. {{clans}} klán került automatikusan kiválasztásra!\nEmlékeztető létrehozásához egy adott klánhoz, a parancs után írj egy klán címkét (tag-et) a 'clans' opción belül.",
-        "missing_access": "Hiányzik a {{permission}} jogosultságom a(z) {{channel}} -ban/-ben a parancs végrehajtásához.",
+        "max_limit": "You can only have 25 reminders.",
+        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
+        "no_message": "You must specify a message to execute this command.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
+        "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
+        "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
+        "missing_access": "Hiányzik a {{permission}} jogosultságom a(z) {{channel}} csatornában a parancs végrehajtásához.",
         "too_many_webhooks": "Túl sok webhook van hozzáadva a {{channel}} csatornához.",
-        "success": "Sikeresen elmentve!"
+        "success": "Successfully saved!"
+      },
+      "edit": {
+        "description": "Edit a reminder by ID (do /reminders list to get the ID)",
+        "description_long": "Edit a reminder by ID (do */reminders list* to get the ID)"
       },
       "delete": {
-        "description": "Egy vagy az összes emlékeztető törlése.",
+        "description": "Delete a reminder by ID (do /reminders list to get the ID)",
+        "description_long": "Delete a reminder by ID (do */reminders list* to get the ID)",
         "options": {
           "id": {
-            "description": "Emlékeztető azonosító (ID)."
+            "description": "Reminder ID."
           },
           "clear": {
-            "description": "Az összes emlékeztető törlése."
+            "description": "Whether to clear all reminders."
           }
         },
-        "no_reminders": "Nincsenek emlékeztetőid.",
-        "cleared": "Az összes emlékeztető sikeresen törölve lett.",
-        "not_found": "Nem található emlékeztető a {{id}} azonosítóval (ID-val).",
-        "success": "A(z) {{id}} azonosítójú emlékeztető sikeresen törölve.",
-        "too_many_reminders": "Túl sok emlékeztetőd van, adj meg egy emlékeztető azonosíót (ID-t)."
+        "no_reminders": "You have no reminders.",
+        "cleared": "Successfully cleared all reminders.",
+        "not_found": "No reminder was found with the ID {{id}}.",
+        "success": "Successfully deleted the reminder with the ID {{id}}.",
+        "too_many_reminders": "If you have too many reminders, please provide a reminder ID."
       },
       "list": {
-        "description": "Kilistázza az összes Háború (War) emlékeztetőt.",
-        "no_reminders": "Nincsenek emlékeztetőid."
+        "description": "List all reminders for clan wars, capital raids or clan games.",
+        "description_long": "List all war reminders for clan wars, capital raids or clan games.",
+        "no_reminders": "You have no reminders."
       },
       "now": {
-        "description": "Azonnal létrehoz egy Háború (War) emlékezetőt.",
+        "description": "Create an instant reminder to notify members.",
+        "description_long": "Create an instant reminder to notify members.",
         "options": {
           "message": {
-            "description": "Üzenet az emlékeztetőhöz."
+            "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Klán címkék (tag-ek) vagy (írd be a *-ot az összes klánhoz)."
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           }
         },
-        "no_message": "A parancs futtatásához meg kell adnod egy üzenetet.",
-        "no_match": "Nincsen olyan Háború (War) vagy olyan tag aki (ami) megfelelne a kiválasztott opcióknak."
+        "no_message": "You must specify a message to execute this command.",
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {
       "description": "Elemzi a hadsereg összeállítási linkjét/hivatkozását.",
+      "description_long": "Elemzi a hadsereg összeállítási linkjét/hivatkozását.",
       "no_link": "Meg kell adod egy érvényes hadsereg összeállítási linket/hivatkozást.",
       "invalid_link": "Ez a hadsereg összeállítási link érvénytelen.",
       "possibly_invalid_link": "Ez a link érvénytelen vagy lehetséges hogy nem működik rendesen.",
@@ -487,6 +566,7 @@
     },
     "attacks": {
       "description": "A klántagok támadási és védekezési eredménytáblája.",
+      "description_long": "Displays attack and defense info of clan members.",
       "options": {
         "tag": {
           "description": "Klán címke (klán tag) vagy @tag említés."
@@ -495,6 +575,7 @@
     },
     "boosts": {
       "description": "Klántagok aktív szuperkatonákkal (Super Troop-okkal).",
+      "description_long": "Displays active super troops of clan members.",
       "no_boosts": "Ebben a klánban jelenleg nincs senkinek szuperkatonája (Super Troop-ja).",
       "no_recent_boosts": "Ebben a klánban a nemrég elérhető tagok közül jelenleg nincs senkinek szuperkatonája (Super Troop-ja).",
       "no_unit_boosts": "Ebben a klánban egyetlen tag sem erősíti (boost-olja) ezt {{unit}}.",
@@ -507,6 +588,7 @@
     },
     "clan": {
       "description": "Megmutatja a klán összefoglalóját és áttekintőjét.",
+      "description_long": "Shows comprehensive overview of a clan.",
       "options": {
         "tag": {
           "description": "Klán címke (klán tag) vagy @tag említés."
@@ -515,6 +597,7 @@
     },
     "compo": {
       "description": "Megjeleníti a klán Town Hall összetételét.",
+      "description_long": "Shows Town Hall composition of a clan.",
       "options": {
         "tag": {
           "description": "Klán címke (klán tag) vagy @tag említés."
@@ -523,6 +606,7 @@
     },
     "donations": {
       "description": "Megjeleníti a klántagok donation-jeit.",
+      "description_long": "Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)",
       "no_season_data": "Nem található adat a {{season}} szezonhoz.",
       "options": {
         "tag": {
@@ -535,6 +619,7 @@
     },
     "lineup": {
       "description": "A klán Háborús (War) felállása.",
+      "description_long": "Displays war line-up of a clan.",
       "not_in_war": "Ez a klán nincs Háborúban (War-ban).",
       "options": {
         "tag": {
@@ -544,6 +629,7 @@
     },
     "members": {
       "description": "Klán tagjainak listája hősökkel, kupákkal, támadásokkal és még sok mással.",
+      "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
       "options": {
         "tag": {
           "description": "Klán címke (klán tag) vagy @tag említés."
@@ -555,6 +641,7 @@
     },
     "player": {
       "description": "Játékos összefoglaló és áttekintő.",
+      "description_long": "Shows comprehensive overview of a player (including war attack history)",
       "options": {
         "tag": {
           "description": "Játékos címke (játékos tag) vagy @tag említés."
@@ -563,6 +650,7 @@
     },
     "remaining": {
       "description": "Egy klán hátralévő vagy elmulasztott támadásai.",
+      "description_long": "Shows remaining or missed war hits of a clan.",
       "not_in_war": "A klán nincs Háborúban (War-ban).",
       "no_war_id": "A megadott Háború (War) azonosítóval (ID-val) nem találtunk csatát.",
       "options": {
@@ -576,6 +664,7 @@
     },
     "rushed": {
       "description": "Egy játékos vagy klántag rusholt egységei.",
+      "description_long": "Rushed units and rushed % of a player or clan members.",
       "no_rushed": "Nincsenek rusholt egységek Town Hall {{townhall}} szinten.",
       "options": {
         "tag": {
@@ -588,6 +677,7 @@
     },
     "search": {
       "description": "Klánok keresése a nevük alapján.",
+      "description_long": "Klánok keresése a nevük alapján.",
       "no_results": "Nincs találat.",
       "searching": "'{{name}}' nevű klánok.",
       "options": {
@@ -620,14 +710,17 @@
         }
       },
       "attacks": {
-        "description": "Megmutatja a klántagok támadásainak győzelmi arányát."
+        "description": "Megmutatja a klántagok támadásainak győzelmi arányát.",
+        "description_long": "Megmutatja a klántagok támadásainak győzelmi arányát."
       },
       "defense": {
-        "description": "Megmutatja a klántagok bázisának védelmi arányát."
+        "description": "Megmutatja a klántagok bázisának védelmi arányát.",
+        "description_long": "Megmutatja a klántagok bázisának védelmi arányát."
       }
     },
     "units": {
       "description": "Megmutatja egy játékos egységeinek (Troop-jainak) elérhető/maximum szintjét.",
+      "description_long": "Shows home village and builder base units of a player (with max/min levels)",
       "options": {
         "tag": {
           "description": "Játékos címke (játékos tag) vagy @tag említés."
@@ -636,6 +729,7 @@
     },
     "upgrades": {
       "description": "Megmutatja egy játékos hátralévő fejlesztéseinek költségeit.",
+      "description_long": "Megmutatja egy játékos hátralévő fejlesztéseinek költségeit.",
       "options": {
         "tag": {
           "description": "Klán címke (klán tag) vagy @tag említés."
@@ -644,6 +738,7 @@
     },
     "war": {
       "description": "Megmutatja a Háború (War) összefoglalóját és áttekintőjét.",
+      "description_long": "Shows war overview of a clan.",
       "no_war_id": "A megadott Háború (War) azonosítóval (ID-val) nem találtunk csatát.",
       "not_in_war": "A klán nincs Háborúban (War-ban).",
       "options": {
@@ -657,6 +752,7 @@
     },
     "warlog": {
       "description": "Megmutatja az utolsó 10 Háború (War) eredményeit.",
+      "description_long": "Shows last 10 war logs of a clan.",
       "options": {
         "tag": {
           "description": "Klán címke (klán tag) vagy @tag említés."
@@ -667,6 +763,7 @@
       "description": "Funkciók engedélyezése/letiltása a szerveren, vagy klánok hozzáadása/eltávolítása.",
       "enable": {
         "description": "Egy funkció engedélyezése a szerveren, vagy egy klán hozzáadása.",
+        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
         "options": {
           "option": {
             "description": "Válassz egy lehetőséget."
@@ -699,6 +796,7 @@
       },
       "disable": {
         "description": "Funkciók letiltása a szerveren, vagy klánok eltávolítása.",
+        "description_long": "Funkciók letiltása a szerveren, vagy klánok eltávolítása.",
         "options": {
           "option": {
             "description": "Válassz egy lehetőséget."
@@ -717,43 +815,58 @@
         "feature_disabled": "{{feature}} funkció sikeresen ki lett kapcsolva a {{clan}} klánnál."
       },
       "list": {
-        "description": "Kilistázza összes engedélyezett funkciót vagy klánt."
+        "description": "Kilistázza összes engedélyezett funkciót vagy klánt.",
+        "description_long": "Kilistázza összes engedélyezett funkciót vagy klánt."
+      },
+      "utils": {
+        "description": "Setup other utility features (Link Button)",
+        "description_long": "Setup other utility features (Link Button)"
       }
     },
     "autorole": {
-      "description": "Engedélyezi/letiltja az auto-rang funkciót, amely rangokat rendel a tagokhoz a klánszerepük alapján.",
-      "enable": {
-        "description": "Engedélyezi az auto-rang funkciót, amely rangokat rendel a tagokhoz a klánszerepük alapján.",
+      "description": "Manage automatic role management for clan roles, town hall levels, or leagues.",
+      "no_roles": "You must specify 3 roles to execute this command.",
+      "no_system_roles": "System managed or bot roles are not allowed.",
+      "no_higher_roles": "My highest role must be higher than these roles.",
+      "invalid_clan_tag": "The specified clan tag is invalid.",
+      "roles_already_used": "Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.",
+      "clan_not_linked": "The clan must be linked to the server to enable auto-role.",
+      "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}",
+      "clan_roles": {
+        "description": "Manage automatic role management for clan roles.",
+        "description_long": "Manage automatic role management for clan roles.",
         "options": {
           "co_leads": {
-            "description": "A Co-Leader rang."
+            "description": "The Co-Leader role."
           },
           "elders": {
-            "description": "Az Elder rang."
+            "description": "The Elder role."
           },
           "members": {
-            "description": "A Tag (Member) rang."
+            "description": "The Member role."
           },
           "clans": {
-            "description": "Klán címkék (tag-ek) vagy (írd be a *-ot az összes klánhoz)."
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "common_role": {
-            "description": "Egy rang az összes tag számára a klánban."
+            "description": "Common role for everyone in the clan."
           },
           "only_verified": {
-            "description": "Ezt a rangot csak az ellenőrzött játékosok kapják meg. (API-kulcs ellenőrzés szükséges)"
+            "description": "Roles will be given to the verified players only. (API token verification is required)"
           }
-        },
-        "no_roles": "A parancs futtatásához minimum 3 rangot kell megadnod.",
-        "no_system_roles": "A rendszer által felügyelt vagy a robotok rangjai nem megengedettek.",
-        "no_higher_roles": "A legmagasabb rangomnak magasabbnak kell lennie ezeknél a rangoknál.",
-        "invalid_clan_tag": "A megadott klán címke (klán tag) érvénytelen.",
-        "roles_already_used": "Néhány rangot már használtál egy másik klánnál . \nFontold meg hogy esetleg támogatsz minket a [Patreon](https://patreon.com/clashperk)-unkon, hogy ugyanazokat a rangokat szeretnéd használni több klánhoz.",
-        "clan_not_linked": "Az auto-rang bekapcsolása előtt a klánt össze kell kapcsolni a szerverrel.",
-        "success_with_count": "Az auto-rang sikeresen be lett kapcsolva {{count}} klán számára. \n{{clans}}"
+        }
+      },
+      "leagues": {
+        "description": "Manage automatic role management for leagues.",
+        "description_long": "Manage automatic role management for leagues."
+      },
+      "town_hall": {
+        "description": "Manage automatic role management for town hall levels.",
+        "description_long": "Manage automatic role management for town hall levels."
       },
       "disable": {
-        "description": "Kikapcsolja az auto-rang funkciót, amely rangokat rendel a tagokhoz a klánszerepük alapján.",
+        "description": "Disable automatic role management for clan roles, town hall levels, or leagues.",
+        "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
         "options": {
           "clans": {
             "description": "Klán címkék (klán tag)-ek a klánok szűréséhez."
@@ -763,6 +876,10 @@
           }
         },
         "success_with_count": "Az auto-rang sikeresen ki lett kapcsolva {{count}} klánnál. \n{{clans}}"
+      },
+      "refresh": {
+        "description": "Refresh automatic roles (usable every 30 minutes)",
+        "description_long": "Refresh automatic roles (usable every 30 minutes)"
       }
     },
     "summary": {
@@ -775,30 +892,76 @@
           "description": "Szezon azonosító (ID) a klán összefoglalóhoz."
         }
       },
+      "compo": {
+        "description": "Shows a summary of family Town Hall composition.",
+        "description_long": "Shows a summary of family Town Hall composition."
+      },
       "clans": {
-        "description": "Nincs leírás."
+        "description": "Shows a summary of family clans.",
+        "description_long": "Shows a summary of family clans."
       },
       "players": {
         "description": "Nincs leírás."
       },
       "donations": {
-        "description": "Nincs leírás."
+        "description": "Shows a summary of donations.",
+        "description_long": "Shows a summary of donations."
       },
       "trophies": {
-        "description": "Nincs leírás."
+        "description": "Shows a summary of players sorted by trophies.",
+        "description_long": "Shows a summary of players sorted by trophies."
       },
       "wars": {
-        "description": "Nincs leírás."
+        "description": "Shows a summary of current wars.",
+        "description_long": "Shows a summary of current wars."
       },
       "clan_games": {
-        "description": "Nincs leírás.",
+        "description": "Shows a summary of clan games scores.",
+        "description_long": "Shows a summary of clan games scores.",
         "min_clan_size": "A parancs használatához legalább {{clans}} klánnak kell lennie a szerveren.",
         "scoreboard": "A legmagasabb pontszámok és teljesítési idők alapján.",
         "performance": "A maximális pontok teljesítése alapján."
+      },
+      "war_results": {
+        "description": "Shows a summary of seasonal war results.",
+        "description_long": "Shows a summary of seasonal war results."
+      },
+      "best": {
+        "description": "Shows a summary of best members.",
+        "description_long": "Shows a summary of best members."
+      },
+      "attacks": {
+        "description": "Shows a summary of best attackers.",
+        "description_long": "Shows a summary of best attackers."
+      },
+      "missed_wars": {
+        "description": "Shows a summary of missed wars.",
+        "description_long": "Shows a summary of missed wars."
+      },
+      "capital_raids": {
+        "description": "Shows a summary of clan capital raids.",
+        "description_long": "Shows a summary of clan capital raids."
+      },
+      "capital_contribution": {
+        "description": "Shows a summary of clan capital contribution.",
+        "description_long": "Shows a summary of clan capital contribution."
+      },
+      "activity": {
+        "description": "Shows a summary of clan activity (last seen)",
+        "description_long": "Shows a summary of clan activity (last seen)"
+      },
+      "cwl_ranks": {
+        "description": "Shows a summary of CWL ranks.",
+        "description_long": "Shows a summary of CWL ranks."
+      },
+      "leagues": {
+        "description": "Shows a summary of clan leagues (CWL & Clan Capital)",
+        "description_long": "Shows a summary of clan leagues (CWL & Clan Capital)"
       }
     },
     "help": {
       "description": "Kilistázza a parancsokat vagy leírja az tudnivalókat egy bizonyos parancsról.",
+      "description_long": "Kilistázza a parancsokat vagy leírja az tudnivalókat egy bizonyos parancsról.",
       "options": {
         "name": {
           "description": "A parancs neve."
@@ -806,10 +969,12 @@
       }
     },
     "invite": {
-      "description": "Elküldi a bot meghívó linkjét és a Support szerver meghívóját."
+      "description": "Elküldi a bot meghívó linkjét és a Support szerver meghívóját.",
+      "description_long": "Elküldi a bot meghívó linkjét és a Support szerver meghívóját."
     },
     "redeem": {
-      "description": "Patreon-előfizetés beváltása vagy kezelése. (ha támogatni szeretnél minket)"
+      "description": "Patreon-előfizetés beváltása vagy kezelése. (ha támogatni szeretnél minket)",
+      "description_long": "Patreon-előfizetés beváltása vagy kezelése. (ha támogatni szeretnél minket)"
     }
   }
 }
