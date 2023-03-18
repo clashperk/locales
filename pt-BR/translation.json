@@ -71,6 +71,7 @@
   "command": {
     "activity": {
       "description": "Mostra um gráfico dos membros ativos do clã por hora.",
+      "description_long": "Mostra um gráfico dos membros ativos do clã por hora.",
       "title": "Membros do clã ativos por hora",
       "options": {
         "clans": {
@@ -83,6 +84,7 @@
     },
     "clan_games": {
       "description": "Placar dos jogos do clã dos membros do clã.",
+      "description_long": "Placar dos jogos do clã dos membros do clã.",
       "title": "Placar dos Jogos de Clãs",
       "options": {
         "tag": {
@@ -95,23 +97,25 @@
     },
     "capital": {
       "description": "Mostra as contribuições de Capital do Clã e Raides.",
-      "contributions": {
-        "description": "Mostra as contribuições da Capital do Clã.",
-        "title": "Contribuições da Capital do Clã",
+      "contribution": {
+        "description": "Shows clan capital contributions.",
+        "description_long": "Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)",
+        "title": "Clan Capital Contributions",
         "options": {
           "tag": {
             "description": "Tag do Clã, nome ou mencione @usuario."
           },
           "week": {
-            "description": "A semana para mostrar as contribuições."
+            "description": "The week to show contributions for."
           },
           "season": {
-            "description": "A temporada para mostrar doações."
+            "description": "The season to show contributions for."
           }
         }
       },
       "raids": {
         "description": "Mostra Raides da Capital do Clã.",
+        "description_long": "Shows raid weekend scores of clan members (use player_tag or user field to see raid history of a player)",
         "title": "Raides da Capital do Clã",
         "options": {
           "tag": {
@@ -127,8 +131,20 @@
         "no_data": "Nenhuma Raide da Capital encontrada para {{clan}} [{{weekId}}]."
       }
     },
+    "legend": {
+      "description": "Shows per-day legend stats for a clan.",
+      "attacks": {
+        "description": "Shows the legend of the clan for attacks.",
+        "description_long": "Shows per-day legend stats for a clan."
+      },
+      "days": {
+        "description": "Shows the legend of the clan for days.",
+        "description_long": "Shows per-day legend stats for a player or an user."
+      }
+    },
     "lastseen": {
       "description": "Tempo de Última vez visto e as atividades dos membros do clã.",
+      "description_long": "Tempo de Última vez visto e as atividades dos membros do clã.",
       "title_lastseen": "Visto pela última vez e pontuações de atividade (últimas 24h)",
       "title_activity": "Atividades dos membros do clã (últimos 30d)",
       "options": {
@@ -140,7 +156,8 @@
     "alias": {
       "description": "Crie, exclua ou visualize apelidos de clãs.",
       "create": {
-        "description": "Cria um apelido do clã.",
+        "description": "Creates a clan alias (short code or abbreviation)",
+        "description_long": "Creates a clan alias (short code or abbreviation)",
         "options": {
           "name": {
             "description": "Nome do apelido."
@@ -159,6 +176,7 @@
       },
       "delete": {
         "description": "Exclui um apelido de clã.",
+        "description_long": "Exclui um apelido de clã.",
         "options": {
           "name": {
             "description": "Tag de um clã ou um apelido"
@@ -170,11 +188,13 @@
       },
       "list": {
         "description": "Liste todos os apelidos do clã.",
+        "description_long": "Liste todos os apelidos do clã.",
         "title": "Apelidos de clã"
       }
     },
     "config": {
       "description": "Defina as configurações do servidor.",
+      "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
           "description": "Código de cor hexadecimal (por exemplo, #ed4245) [Somente p/ patrões]"
@@ -188,7 +208,8 @@
       "events_channel": "Canal de Eventos"
     },
     "debug": {
-      "description": "Exibe algumas informações básicas de depuração."
+      "description": "Exibe algumas informações básicas de depuração.",
+      "description_long": "Exibe algumas informações básicas de depuração."
     },
     "cwl": {
       "description": "Resumo e visão geral da temporada CWL.",
@@ -205,16 +226,24 @@
       "no_rounds": "Nenhuma rodada da CWL foi jogada ainda, tente novamente depois de algum tempo.",
       "no_season_data": "Nenhuma estatística da CWL está disponível para a temporada {{season}}.",
       "attacks": {
-        "description": "Visão Geral dos ataques na CWL."
+        "description": "Shows an overview of attacks for different CWL rounds.",
+        "description_long": "Shows an overview of attacks for different CWL rounds."
       },
       "lineup": {
-        "description": "Sem descrição."
+        "description": "Shows CWL lineup for a round (sorted by town hall and heroes).",
+        "description_long": "Shows CWL lineup for a round (sorted by town hall and heroes)."
       },
       "members": {
-        "description": "Sem descrição."
+        "description": "Shows a list of all CWL participants.",
+        "description_long": "Shows a list of all CWL participants."
+      },
+      "history": {
+        "description": "Shows CWL history of a player or user.",
+        "description_long": "Shows CWL history of a player or user."
       },
       "roster": {
         "description": "Lista da CWL e distribuição de Centro de Vila.",
+        "description_long": "Shows entire roster of Town halls for a CWL group.",
         "options": {
           "tag": {
             "description": "Tag do Clã, nome ou mencione @usuario."
@@ -223,6 +252,7 @@
       },
       "round": {
         "description": "Resumo da CWL para a rodada atual.",
+        "description_long": "Shows an overview of a CWL round.",
         "options": {
           "tag": {
             "description": "Tag do Clã, nome ou mencione @usuario."
@@ -233,10 +263,33 @@
         }
       },
       "stars": {
-        "description": "Sem descrição."
+        "description": "Shows CWL member ranking by stars.",
+        "description_long": "Shows CWL member ranking by stars."
       },
       "stats": {
-        "description": "Sem descrição."
+        "description": "Shows an overview of all CWL rounds and group standings.",
+        "description_long": "Shows an overview of all CWL rounds and group standings."
+      }
+    },
+    "roster": {
+      "description": "Lista da CWL e distribuição de Centro de Vila.",
+      "description_long": "Shows entire roster of Town halls for a CWL group.",
+      "options": {
+        "tag": {
+          "description": "Tag do Clã, nome ou mencione @usuario."
+        }
+      }
+    },
+    "round": {
+      "description": "Resumo da CWL para a rodada atual.",
+      "description_long": "Shows an overview of a CWL round.",
+      "options": {
+        "tag": {
+          "description": "Tag do Clã, nome ou mencione @usuario."
+        },
+        "round": {
+          "description": "Número da rodada para mostrar."
+        }
       }
     },
     "export": {
@@ -256,28 +309,35 @@
         }
       },
       "cwl": {
-        "description": "Sem descrição."
+        "description": "Export CWL stats to Excel.",
+        "description_long": "Export CWL stats to Excel."
       },
       "last_wars": {
-        "description": "Sem descrição."
+        "description": "Export participation history (last played wars)",
+        "description_long": "Export participation history (last played wars)"
       },
       "members": {
-        "description": "Sem descrição."
+        "description": "Export a comprehensive version of clan member stats.",
+        "description_long": "Export a comprehensive version of clan member stats."
       },
       "missed": {
-        "description": "Sem descrição."
+        "description": "Export missed attack history.",
+        "description_long": "Export missed attack history."
       },
       "season": {
-        "description": "Sem descrição."
+        "description": "Export comprehensive seasonal stats of clan members.",
+        "description_long": "Export comprehensive seasonal stats of clan members."
       },
       "wars": {
-        "description": "Sem descrição."
+        "description": "Export War stats to Excel.",
+        "description_long": "Export War stats to Excel."
       }
     },
     "flag": {
       "description": "Crie, exclua ou pesquise jogadores sinalizados.",
       "create": {
         "description": "Crie uma sinalização para um jogador.",
+        "description_long": "Create a player flag to mark the player as banned or flagged.",
         "options": {
           "tag": {
             "description": "A tag de um jogador para sinalizar."
@@ -292,6 +352,7 @@
       },
       "delete": {
         "description": "Delete a sinalização de um jogador.",
+        "description_long": "Delete a sinalização de um jogador.",
         "options": {
           "tag": {
             "description": "A tag de um jogador a ser excluída."
@@ -303,6 +364,7 @@
       },
       "list": {
         "description": "Liste todas as bandeiras dos jogadores.",
+        "description_long": "Liste todas as bandeiras dos jogadores.",
         "options": {
           "export": {
             "description": "Exporte todos os sinalizadores do jogadores para o Excel."
@@ -312,6 +374,7 @@
       },
       "search": {
         "description": "Procure por uma sinalização de jogador.",
+        "description_long": "Procure por uma sinalização de jogador.",
         "options": {
           "tag": {
             "description": "A tag de um jogador para pesquisar."
@@ -324,7 +387,8 @@
       "description": "Crie, exclua ou liste links de jogadores.",
       "no_tag": "Você deve especificar uma tag de jogador/clã para executar esse comando.",
       "create": {
-        "description": "Cria um vinculo de jogador/clã com uma conta de usuário.",
+        "description": "Links a player account/clan to a Discord account.",
+        "description_long": "Links a player account/clan to a Discord account.",
         "options": {
           "tag": {
             "description": "Tag de um jogador ou clã."
@@ -345,7 +409,8 @@
         "max_limit": "O limite máximo de conta foi atingido. (25 contas/usuários)"
       },
       "delete": {
-        "description": "Exclua o vínculo de jogador/clã.",
+        "description": "Deletes a player account/clan from a Discord account.",
+        "description_long": "Deletes a player account/clan from a Discord account.",
         "options": {
           "tag": {
             "description": "Tag de um jogador ou clã."
@@ -357,6 +422,7 @@
       },
       "list": {
         "description": "Liste todas vinculos de jogadores.",
+        "description_long": "List all player links of a clan.",
         "options": {
           "tag": {
             "description": "Tag do Clã, nome ou mencione @usuario."
@@ -366,6 +432,7 @@
     },
     "verify": {
       "description": "Verifique e vincule um jogador usando um token de API.",
+      "description_long": "Verify and link a player account using an API token.",
       "options": {
         "tag": {
           "description": "Tag do jogador a ser verificado."
@@ -379,6 +446,7 @@
     },
     "timezone": {
       "description": "Defina seu fuso horário.",
+      "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
           "description": "Pesquise por um país ou cidade (não armazenamos seu local, apenas posição, por exemplo, GMT-3:00)"
@@ -389,6 +457,7 @@
     },
     "profile": {
       "description": "Mostra informações do usuário e contas vinculadas.",
+      "description_long": "Shows linked accounts and clan of a user.",
       "options": {
         "user": {
           "description": "ID do usuário ou mencione @usuario."
@@ -397,6 +466,7 @@
     },
     "nickname": {
       "description": "Escolha um apelido na lista de jogadores vinculada.",
+      "description_long": "Rename users with a nickname selected from linked player list.",
       "options": {
         "user": {
           "description": "ID do usuário ou mencione @usuario."
@@ -409,70 +479,79 @@
       "no_players": "Nenhum jogador está vinculado a {{user}}.",
       "char_limit": "Seu apelido deve ter menos de 31 caracteres."
     },
-    "reminder": {
-      "description": "Crie, exclua ou liste lembretes de guerra.",
+    "reminders": {
+      "description": "Create, delete or list reminders.",
       "create": {
-        "description": "Crie um lembrete de guerra para mencionar os membros.",
+        "description": "Create reminders for clan wars, capital raids or clan games.",
+        "description_long": "Create reminders for clan wars, capital raids or clan games.",
         "options": {
           "duration": {
-            "description": "Tempo restante p/ mencionar membros da guerra (Múltiplo de 15 min por ex: 15m, 30m, 1h, 1.25h, 1.5h)"
+            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g. 15m, 30m, 1h, 1.25h, 1.5h)"
           },
           "message": {
-            "description": "Mensagem de lembrete para a notificação."
+            "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Tags ou apelidos de clã. (insira * para incluir todos os clãs)"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "channel": {
-            "description": "Mensagem de lembrete para a notificação."
+            "description": "Reminder message for the notification."
           }
         },
-        "max_limit": "Você só pode ter 25 lembretes.",
-        "invalid_duration_format": "A duração deve estar em um formato válido. Por exemplo: 2h, 2.5h, 30m",
-        "no_message": "Você deve especificar uma mensagem para executar esse comando.",
-        "duration_limit": "A duração deve ser superior a 15 minutos e inferior a 45 horas.",
-        "duration_order": "A duração deve ser múltiplo de 15 minutos. Por exemplo: 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
-        "too_many_clans": "O menu de seleção de clãs não está disponível para mais de 25 clãs. {{clans}} clãs foram selecionados automaticamente!\nPara criar um lembrete para clãs específicos, passe tags ou apelidos de clã pela opção 'clãs' enquanto executa o comando.",
+        "max_limit": "You can only have 25 reminders.",
+        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
+        "no_message": "You must specify a message to execute this command.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
+        "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
+        "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
         "missing_access": "Estou precisando de {{permission}} em {{channel}} para executar este comando.",
         "too_many_webhooks": "Muitos webhooks em {{channel}}.",
-        "success": "Salvo com sucesso!"
+        "success": "Successfully saved!"
+      },
+      "edit": {
+        "description": "Edit a reminder by ID (do /reminders list to get the ID)",
+        "description_long": "Edit a reminder by ID (do */reminders list* to get the ID)"
       },
       "delete": {
-        "description": "Exclua um único lembrete ou limpe tudo.",
+        "description": "Delete a reminder by ID (do /reminders list to get the ID)",
+        "description_long": "Delete a reminder by ID (do */reminders list* to get the ID)",
         "options": {
           "id": {
-            "description": "ID do lembrete."
+            "description": "Reminder ID."
           },
           "clear": {
-            "description": "Se deseja limpar todos os lembretes."
+            "description": "Whether to clear all reminders."
           }
         },
-        "no_reminders": "Você não tem lembretes.",
-        "cleared": "Todos os lembretes foram limpos com sucesso.",
-        "not_found": "Nenhum lembrete foi encontrado com o ID {{id}}.",
-        "success": "Excluído com sucesso o lembrete com o ID {{id}}.",
-        "too_many_reminders": "Se você tiver muitos lembretes, forneça um ID de lembrete."
+        "no_reminders": "You have no reminders.",
+        "cleared": "Successfully cleared all reminders.",
+        "not_found": "No reminder was found with the ID {{id}}.",
+        "success": "Successfully deleted the reminder with the ID {{id}}.",
+        "too_many_reminders": "If you have too many reminders, please provide a reminder ID."
       },
       "list": {
-        "description": "Liste todos os lembretes de Guerra.",
-        "no_reminders": "Você não tem lembretes."
+        "description": "List all reminders for clan wars, capital raids or clan games.",
+        "description_long": "List all war reminders for clan wars, capital raids or clan games.",
+        "no_reminders": "You have no reminders."
       },
       "now": {
-        "description": "Lembrete instantâneo de guerra para notificar os membros.",
+        "description": "Create an instant reminder to notify members.",
+        "description_long": "Create an instant reminder to notify members.",
         "options": {
           "message": {
-            "description": "Mensagem de lembrete para a notificação."
+            "description": "Reminder message for the notification."
           },
           "clans": {
-            "description": "Tags ou apelidos de clã. (insira * para incluir todos os clãs)"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           }
         },
-        "no_message": "Você deve especificar uma mensagem para executar esse comando.",
-        "no_match": "Não há nenhuma guerra ou nenhum membro que corresponda às opções selecionadas."
+        "no_message": "You must specify a message to execute this command.",
+        "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
     "army": {
       "description": "Analise um link de composição de exército.",
+      "description_long": "Analise um link de composição de exército.",
       "no_link": "Você deve fornecer um link válido de composição de exército.",
       "invalid_link": "Este link de composição de exército é inválido.",
       "possibly_invalid_link": "Este link é inválido e pode não funcionar.",
@@ -487,6 +566,7 @@
     },
     "attacks": {
       "description": "Placar de ataque e defesa dos membros do clã.",
+      "description_long": "Displays attack and defense info of clan members.",
       "options": {
         "tag": {
           "description": "Tag do Clã, nome ou mencione @usuario."
@@ -495,6 +575,7 @@
     },
     "boosts": {
       "description": "Membros do clã com super tropas ativas.",
+      "description_long": "Displays active super troops of clan members.",
       "no_boosts": "Nenhum membro está com melhoria de super tropas ativas neste clã.",
       "no_recent_boosts": "Nenhum membro ativo recentemente está com melhoria de super tropas neste clã.",
       "no_unit_boosts": "Nenhum membro está com melhoria ativa de {{unit}} neste clã.",
@@ -507,6 +588,7 @@
     },
     "clan": {
       "description": "Mostra o resumo e a visão geral do clã.",
+      "description_long": "Shows comprehensive overview of a clan.",
       "options": {
         "tag": {
           "description": "Tag do Clã, nome ou mencione @usuario."
@@ -515,6 +597,7 @@
     },
     "compo": {
       "description": "Exibe a composição de Centros de Vila de um clã.",
+      "description_long": "Shows Town Hall composition of a clan.",
       "options": {
         "tag": {
           "description": "Tag do Clã, nome ou mencione @usuario."
@@ -523,6 +606,7 @@
     },
     "donations": {
       "description": "Exiba doações de membros do clã.",
+      "description_long": "Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)",
       "no_season_data": "Nenhum dado foi encontrado para a temporada {{season}}.",
       "options": {
         "tag": {
@@ -535,6 +619,7 @@
     },
     "lineup": {
       "description": "Formação de guerra de um clã.",
+      "description_long": "Displays war line-up of a clan.",
       "not_in_war": "O clã não está em uma guerra.",
       "options": {
         "tag": {
@@ -544,6 +629,7 @@
     },
     "members": {
       "description": "Obtenha uma lista de membros do clã com heróis, troféus, preferências de guerra e muito mais.",
+      "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
       "options": {
         "tag": {
           "description": "Tag do Clã, nome ou mencione @usuario."
@@ -555,6 +641,7 @@
     },
     "player": {
       "description": "Resumo e visão geral do jogador.",
+      "description_long": "Shows comprehensive overview of a player (including war attack history)",
       "options": {
         "tag": {
           "description": "Tag do jogador ou mencione @usuario."
@@ -563,6 +650,7 @@
     },
     "remaining": {
       "description": "Ataques restantes ou perdidos de um clã.",
+      "description_long": "Shows remaining or missed war hits of a clan.",
       "not_in_war": "O clã não está em uma guerra.",
       "no_war_id": "Nenhuma guerra foi encontrada para o ID de guerra especificado.",
       "options": {
@@ -576,6 +664,7 @@
     },
     "rushed": {
       "description": "Unidades rushadas de um jogador ou membros do clã.",
+      "description_long": "Rushed units and rushed % of a player or clan members.",
       "no_rushed": "Nenhuma unidade rushada para o Centro de Vila {{townhall}}.",
       "options": {
         "tag": {
@@ -588,6 +677,7 @@
     },
     "search": {
       "description": "Pesquise clãs pelo nome.",
+      "description_long": "Pesquise clãs pelo nome.",
       "no_results": "Nenhum resultado foi encontrado.",
       "searching": "Clãs com o nome '{{name}}'.",
       "options": {
@@ -620,14 +710,17 @@
         }
       },
       "attacks": {
-        "description": "Mostra as taxas de sucesso de ataques dos membros do clã."
+        "description": "Mostra as taxas de sucesso de ataques dos membros do clã.",
+        "description_long": "Mostra as taxas de sucesso de ataques dos membros do clã."
       },
       "defense": {
-        "description": "Mostra as taxas de falha de defesa dos membros do clã."
+        "description": "Mostra as taxas de falha de defesa dos membros do clã.",
+        "description_long": "Mostra as taxas de falha de defesa dos membros do clã."
       }
     },
     "units": {
       "description": "Mostra as tropas de um jogador com níveis máximo/mínimo.",
+      "description_long": "Shows home village and builder base units of a player (with max/min levels)",
       "options": {
         "tag": {
           "description": "Tag do jogador ou mencione @usuario."
@@ -636,6 +729,7 @@
     },
     "upgrades": {
       "description": "Melhorias restantes de um jogador com custo de aprimoramento.",
+      "description_long": "Melhorias restantes de um jogador com custo de aprimoramento.",
       "options": {
         "tag": {
           "description": "Tag do Clã, nome ou mencione @usuario."
@@ -644,6 +738,7 @@
     },
     "war": {
       "description": "Mostra resumo e visão geral da guerra.",
+      "description_long": "Shows war overview of a clan.",
       "no_war_id": "Nenhuma guerra foi encontrada para o ID de guerra especificado.",
       "not_in_war": "O clã não está em uma guerra.",
       "options": {
@@ -657,6 +752,7 @@
     },
     "warlog": {
       "description": "Mostra os últimos 10 registros de guerra de clãs.",
+      "description_long": "Shows last 10 war logs of a clan.",
       "options": {
         "tag": {
           "description": "Tag do Clã, nome ou mencione @usuario."
@@ -667,6 +763,7 @@
       "description": "Ativar/desativar recursos no servidor ou adicionar/remover clãs.",
       "enable": {
         "description": "Habilite um recurso no servidor ou adicione um clã.",
+        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
         "options": {
           "option": {
             "description": "Selecione uma opção."
@@ -699,6 +796,7 @@
       },
       "disable": {
         "description": "Desative um recurso no servidor ou remova um clã.",
+        "description_long": "Desative um recurso no servidor ou remova um clã.",
         "options": {
           "option": {
             "description": "Selecione uma opção."
@@ -717,43 +815,58 @@
         "feature_disabled": "Desabilitado com sucesso {{feature}} para {{clan}}."
       },
       "list": {
-        "description": "Liste todos os recursos e clãs habilitados."
+        "description": "Liste todos os recursos e clãs habilitados.",
+        "description_long": "Liste todos os recursos e clãs habilitados."
+      },
+      "utils": {
+        "description": "Setup other utility features (Link Button)",
+        "description_long": "Setup other utility features (Link Button)"
       }
     },
     "autorole": {
-      "description": "Ativar/desativar recurso de cargo automático que atribui cargos a membros com base no cargo do clã.",
-      "enable": {
-        "description": "Ative o recurso de cargo automático que atribui funções aos membros com base a sua função no clã.",
+      "description": "Manage automatic role management for clan roles, town hall levels, or leagues.",
+      "no_roles": "You must specify 3 roles to execute this command.",
+      "no_system_roles": "System managed or bot roles are not allowed.",
+      "no_higher_roles": "My highest role must be higher than these roles.",
+      "invalid_clan_tag": "The specified clan tag is invalid.",
+      "roles_already_used": "Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.",
+      "clan_not_linked": "The clan must be linked to the server to enable auto-role.",
+      "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}",
+      "clan_roles": {
+        "description": "Manage automatic role management for clan roles.",
+        "description_long": "Manage automatic role management for clan roles.",
         "options": {
           "co_leads": {
-            "description": "O cargo do Co-Líder."
+            "description": "The Co-Leader role."
           },
           "elders": {
-            "description": "O cargo do Ancião."
+            "description": "The Elder role."
           },
           "members": {
-            "description": "O cargo do membro."
+            "description": "The Member role."
           },
           "clans": {
-            "description": "Tags ou apelidos de clã. (insira * para incluir todos os clãs)"
+            "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "common_role": {
-            "description": "Cargo em comum para todos no clã."
+            "description": "Common role for everyone in the clan."
           },
           "only_verified": {
-            "description": "Os cargos serão dados somente aos jogadores verificados. (Verificação do token da API necessária)"
+            "description": "Roles will be given to the verified players only. (API token verification is required)"
           }
-        },
-        "no_roles": "Você deve especificar 3 cargos para executar esse comando.",
-        "no_system_roles": "Cargos gerenciados pelo sistema ou de bots não são permitidos.",
-        "no_higher_roles": "Meu cargo mais alto deve estar acima desses cargos.",
-        "invalid_clan_tag": "A tag de clã especificada é inválida.",
-        "roles_already_used": "Alguns cargos já foram usados para outro clã. \nPor favor, considere nos apoiar no [Patreon](https://patreon.com/clashperk) para usar os mesmos cargos para vários clãs.",
-        "clan_not_linked": "O clã deve estar vinculado ao servidor para habilitar o cargo-automático.",
-        "success_with_count": "Função de cargo automático habilitada com sucesso para {{count}} clã(s). \n{{clans}}"
+        }
+      },
+      "leagues": {
+        "description": "Manage automatic role management for leagues.",
+        "description_long": "Manage automatic role management for leagues."
+      },
+      "town_hall": {
+        "description": "Manage automatic role management for town hall levels.",
+        "description_long": "Manage automatic role management for town hall levels."
       },
       "disable": {
-        "description": "Desative o recurso de cargo automático que atribui cargos aos membros com base ao seu cargo no clã.",
+        "description": "Disable automatic role management for clan roles, town hall levels, or leagues.",
+        "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
         "options": {
           "clans": {
             "description": "Tags ou apelidos de clã para filtrar clãs."
@@ -763,6 +876,10 @@
           }
         },
         "success_with_count": "O cargo automático foi desativado para {{count}} clã(s). \n{{clans}}"
+      },
+      "refresh": {
+        "description": "Refresh automatic roles (usable every 30 minutes)",
+        "description_long": "Refresh automatic roles (usable every 30 minutes)"
       }
     },
     "summary": {
@@ -775,30 +892,76 @@
           "description": "ID da temporada para resumo do clã."
         }
       },
+      "compo": {
+        "description": "Shows a summary of family Town Hall composition.",
+        "description_long": "Shows a summary of family Town Hall composition."
+      },
       "clans": {
-        "description": "Sem descrição."
+        "description": "Shows a summary of family clans.",
+        "description_long": "Shows a summary of family clans."
       },
       "players": {
         "description": "Sem descrição."
       },
       "donations": {
-        "description": "Sem descrição."
+        "description": "Shows a summary of donations.",
+        "description_long": "Shows a summary of donations."
       },
       "trophies": {
-        "description": "Sem descrição."
+        "description": "Shows a summary of players sorted by trophies.",
+        "description_long": "Shows a summary of players sorted by trophies."
       },
       "wars": {
-        "description": "Sem descrição."
+        "description": "Shows a summary of current wars.",
+        "description_long": "Shows a summary of current wars."
       },
       "clan_games": {
-        "description": "Sem descrição.",
+        "description": "Shows a summary of clan games scores.",
+        "description_long": "Shows a summary of clan games scores.",
         "min_clan_size": "Você deve ter um mínimo de {{clans}} clãs em seu servidor para usar esse comando.",
         "scoreboard": "Com base nas pontuações mais altas e nos tempos de conclusão.",
         "performance": "Com base na conclusão do máximo de pontos."
+      },
+      "war_results": {
+        "description": "Shows a summary of seasonal war results.",
+        "description_long": "Shows a summary of seasonal war results."
+      },
+      "best": {
+        "description": "Shows a summary of best members.",
+        "description_long": "Shows a summary of best members."
+      },
+      "attacks": {
+        "description": "Shows a summary of best attackers.",
+        "description_long": "Shows a summary of best attackers."
+      },
+      "missed_wars": {
+        "description": "Shows a summary of missed wars.",
+        "description_long": "Shows a summary of missed wars."
+      },
+      "capital_raids": {
+        "description": "Shows a summary of clan capital raids.",
+        "description_long": "Shows a summary of clan capital raids."
+      },
+      "capital_contribution": {
+        "description": "Shows a summary of clan capital contribution.",
+        "description_long": "Shows a summary of clan capital contribution."
+      },
+      "activity": {
+        "description": "Shows a summary of clan activity (last seen)",
+        "description_long": "Shows a summary of clan activity (last seen)"
+      },
+      "cwl_ranks": {
+        "description": "Shows a summary of CWL ranks.",
+        "description_long": "Shows a summary of CWL ranks."
+      },
+      "leagues": {
+        "description": "Shows a summary of clan leagues (CWL & Clan Capital)",
+        "description_long": "Shows a summary of clan leagues (CWL & Clan Capital)"
       }
     },
     "help": {
       "description": "Obtenha uma lista de comandos ou informações sobre um comando específico.",
+      "description_long": "Obtenha uma lista de comandos ou informações sobre um comando específico.",
       "options": {
         "name": {
           "description": "Nome do comando."
@@ -806,10 +969,12 @@
       }
     },
     "invite": {
-      "description": "Obtenha o link de convite do servidor de suporte do bot."
+      "description": "Obtenha o link de convite do servidor de suporte do bot.",
+      "description_long": "Obtenha o link de convite do servidor de suporte do bot."
     },
     "redeem": {
-      "description": "Resgate ou gerencie uma assinatura do Patreon. (se você quiser nos apoiar)"
+      "description": "Resgate ou gerencie uma assinatura do Patreon. (se você quiser nos apoiar)",
+      "description_long": "Resgate ou gerencie uma assinatura do Patreon. (se você quiser nos apoiar)"
     }
   }
 }
