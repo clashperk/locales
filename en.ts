@@ -1,14 +1,14 @@
+export const conditional_commands = {};
+
 export const common = {
-    no_clans_found:
-        'No clans were found on this server for the specified input! \nUse </setup enable:813041692085059609> command to link a clan.',
-    no_clans_linked:
-        'No clans are linked to this server. Why not link some? \nUse </setup enable:813041692085059609> command to link a clan.',
+    no_clans_found: 'No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.',
+    no_clans_linked: 'No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.',
     clan_limit:
-        'The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use </redeem:875440359549837362> command.',
+        'The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.',
     patron_only:
-        'This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use </redeem:875440359549837362> command.',
+        'This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.',
     clan_verification:
-        'We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the </verify:813041692252962827> command to verify your player account. The API token is available in the Game settings.',
+        'We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.',
     no_option: 'Something went wrong while executing this command. (option not found)',
     no_data: 'No data is available at this moment. We are still collecting!',
     no_clan_data: 'No data is available for {{clan}}. We are still collecting!',
@@ -18,13 +18,14 @@ export const common = {
         expired: 'This component is no longer active. Run the command again.',
         unauthorized: 'You must run the command to interact with components.'
     },
+    no_clan_tag_first_time: 'You must provide a clan tag to execute this command!',
     no_clan_tag:
-        'You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the </link create:857281486662926407> command.',
+        'You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.',
     no_player_tag:
-        'You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the </link create:857281486662926407> command.',
-    clan_not_linked: 'No clan is linked to {{user}}. \nUse </setup enable:813041692085059609> to link a clan.',
-    player_not_linked: 'No player is linked to {{user}}. Use </link create:857281486662926407> command to link a player.',
-    guild_unauthorized: 'This server is not authorized for {{clan}}. Use </link create:857281486662926407> command to link a clan.',
+        'You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.',
+    clan_not_linked: 'No clan is linked to {{user}}. \nUse {{command}} to link a clan.',
+    player_not_linked: 'No player is linked to {{user}}. Use {{command}} command to link a player.',
+    guild_unauthorized: 'This server is not authorized for {{clan}}. Use {{command}} command to link a clan.',
     status_code: {
         '400': 'The client provided incorrect parameters for the request.',
         '403': 'API token does not grant access to the requested resource.',
