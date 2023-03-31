@@ -845,14 +845,17 @@ export const command = {
             description: 'Manage automatic role management for clan roles.',
             description_long: 'Manage automatic role management for clan roles.',
             options: {
-                co_leads: {
-                    description: 'The Co-Leader role.'
+                member: {
+                    description: 'The Member role.'
                 },
-                elders: {
+                elder: {
                     description: 'The Elder role.'
                 },
-                members: {
-                    description: 'The Member role.'
+                co_lead: {
+                    description: 'The Co-Leader role.'
+                },
+                leader: {
+                    description: 'The Leader role (Can choose the same role as Co-Leader)'
                 },
                 clans: {
                     description: 'Clan tags or aliases. (enter * to include all clans)'
