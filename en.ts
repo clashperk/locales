@@ -201,7 +201,7 @@ export const command = {
         description_long: 'Configure general server settings (color_code, events_channel, webhook_limit)',
         options: {
             color_code: {
-                description: 'Hex color code (e.g #ed4245) [Patron Only]'
+                description: 'Hex color code (e.g #ed4245)'
             },
             events_channel: {
                 description: 'Clash-related events channel.'
