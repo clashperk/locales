@@ -205,6 +205,9 @@ export const command = {
             },
             events_channel: {
                 description: 'Clash-related events channel.'
+            },
+            manager_role: {
+                description: 'Role that can manage the bot.'
             }
         },
         no_text_channel: 'You must specify a text channel to enable this event log.',
