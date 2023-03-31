@@ -198,10 +198,13 @@
       "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
-          "description": "Hex-kleurcode (bijv. #ed4245) [Patreon lidmaatschap is vereist]"
+          "description": "Hex color code (e.g #ed4245)"
         },
         "events_channel": {
           "description": "Kanaal voor Clash-gerelateerde evenementen."
+        },
+        "manager_role": {
+          "description": "Role that can manage the bot."
         }
       },
       "no_text_channel": "U moet een tekstkanaal opgeven om dit logboek in te schakelen.",
@@ -837,13 +840,13 @@
         "description": "Manage automatic role management for clan roles.",
         "description_long": "Manage automatic role management for clan roles.",
         "options": {
-          "members": {
+          "member": {
             "description": "The Member role."
           },
-          "elders": {
+          "elder": {
             "description": "The Elder role."
           },
-          "co_leads": {
+          "co_lead": {
             "description": "The Co-Leader role."
           },
           "leader": {
