@@ -836,7 +836,7 @@ export const command = {
     },
     autorole: {
         description: 'Manage automatic role management for clan roles, town hall levels, or leagues.',
-        no_roles: 'You must specify 3 roles to execute this command.',
+        no_roles: 'You must specify 4 roles to execute this command.',
         no_system_roles: 'System managed or bot roles are not allowed.',
         no_higher_roles: 'My highest role must be higher than these roles.',
         invalid_clan_tag: 'The specified clan tag is invalid.',
