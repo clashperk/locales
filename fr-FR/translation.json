@@ -62,6 +62,16 @@
           "description": "Joueur par mention @utilisateur ou identifiant."
         }
       }
+    },
+    "labels": {
+      "clan_games": "Jeux de clan",
+      "clan_games_ending": "Jeux de clan (Fin)",
+      "cwl": "LDC",
+      "cwl_signup_ending": "Inscription à la LDC (Fin)",
+      "league_reset": "Réinitialisation de la ligue",
+      "season_end": "Fin de saison",
+      "raid_weekend": "Weekend de Raid",
+      "raid_weekend_ending": "Weekend de Raid (Fin)"
     }
   },
   "component": {
@@ -823,8 +833,8 @@
         "description_long": "Liste toutes les fonctions et clans activés."
       },
       "utils": {
-        "description": "Setup other utility features (Link Button)",
-        "description_long": "Setup other utility features (Link Button)"
+        "description": "Setup other utility features (link button, events schedular)",
+        "description_long": "Setup other utility features (link button, events schedular)"
       }
     },
     "autorole": {
