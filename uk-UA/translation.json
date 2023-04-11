@@ -823,8 +823,8 @@
         "description_long": "Список всіх ввімкнених функцій та доданих кланів."
       },
       "utils": {
-        "description": "Setup other utility features (Link Button)",
-        "description_long": "Setup other utility features (Link Button)"
+        "description": "Setup other utility features (link button, events schedular)",
+        "description_long": "Setup other utility features (link button, events schedular)"
       }
     },
     "autorole": {
