@@ -14,7 +14,7 @@
       "expired": "Ce composant n'est plus actif. Exécutez à nouveau la commande.",
       "unauthorized": "Vous devez exécuter la commande pour intéragir avec les composants."
     },
-    "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
+    "no_clan_tag_first_time": "Vous devez fournir un identifiant de clan pour exécuter cette commande!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
     "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
     "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
@@ -111,7 +111,7 @@
       "contribution": {
         "description": "Shows clan capital contributions.",
         "description_long": "Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)",
-        "title": "Clan Capital Contributions",
+        "title": "Contributions a la Capitale de Clan",
         "options": {
           "tag": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -252,8 +252,8 @@
         "description_long": "Shows a list of all CWL participants."
       },
       "history": {
-        "description": "Shows CWL history of a player or user.",
-        "description_long": "Shows CWL history of a player or user."
+        "description": "Affiche l'historique LDC d'un joueur ou d'un utilisateur.",
+        "description_long": "Affiche l'historique LDC d'un joueur ou d'un utilisateur."
       },
       "roster": {
         "description": "Équipes de la Ligue et répartition des hôtels de ville.",
@@ -512,15 +512,15 @@
             "description": "Reminder message for the notification."
           }
         },
-        "max_limit": "You can only have 25 reminders.",
-        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
-        "no_message": "You must specify a message to execute this command.",
+        "max_limit": "Vous ne pouvez avoir que 25 rappels.",
+        "invalid_duration_format": "La durée doit être dans un format valide. ex. 2h, 2.5h, 30m",
+        "no_message": "Vous devez spécifier un message pour exécuter cette commande.",
         "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
         "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
         "too_many_webhooks": "Trop de webhooks dans le salon {{channel}}.",
-        "success": "Successfully saved!"
+        "success": "Sauvegarde réussie!"
       },
       "edit": {
         "description": "Edit a reminder by ID (do /reminders list to get the ID)",
@@ -559,7 +559,7 @@
             "description": "Clan tags or aliases. (enter * to include all clans)"
           }
         },
-        "no_message": "You must specify a message to execute this command.",
+        "no_message": "Vous devez spécifier un message pour exécuter cette commande.",
         "no_match": "There are no wars or no members that are matching with the selected options."
       }
     },
