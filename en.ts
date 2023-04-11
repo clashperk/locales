@@ -68,6 +68,16 @@ export const common = {
                 description: 'Player by @user mention or ID.'
             }
         }
+    },
+    labels: {
+        clan_games: 'Clan Games',
+        clan_games_ending: 'Clan Games (Ending)',
+        cwl: 'CWL',
+        cwl_signup_ending: 'CWL Signup (Ending)',
+        league_reset: 'League Reset',
+        season_end: 'Season End',
+        raid_weekend: 'Raid Weekend',
+        raid_weekend_ending: 'Raid Weekend (Ending)'
     }
 } as const;
 
