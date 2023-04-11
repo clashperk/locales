@@ -851,22 +851,22 @@
         "description_long": "Manage automatic role management for clan roles.",
         "options": {
           "member": {
-            "description": "The Member role."
+            "description": "Le rôle de Membre."
           },
           "elder": {
-            "description": "The Elder role."
+            "description": "Le rôle d'Aîné."
           },
           "co_lead": {
-            "description": "The Co-Leader role."
+            "description": "Le rôle de Chef-adjoint."
           },
           "leader": {
-            "description": "The Leader role (Can choose the same role as Co-Leader)"
+            "description": "Le rôle de Leader (Peut choisir le même rôle que Co-Leader)"
           },
           "clans": {
             "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "common_role": {
-            "description": "Common role for everyone in the clan."
+            "description": "Rôle commun à tous les membres du clan."
           },
           "only_verified": {
             "description": "Roles will be given to the verified players only. (API token verification is required)"
