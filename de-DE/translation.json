@@ -1,9 +1,9 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
+    "no_clans_found": "Für die angegebene Eingabe wurden auf diesem Server keine Clans gefunden! \nVerwenden Sie den {{command}} Befehl, um einen Clan zu verknüpfen.",
     "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.",
+    "clan_limit": "Die maximale Anzahl an Clans ist erreicht. Bitte unterstütze uns auf unserem [Patreon](https://patreon. om/clashperk), um mehr als zwei Clans hinzuzufügen.\n\nBereits ein Patron? Benutze den Befehl {{command}} `/redeem`.",
+    "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden. \n\nDu bist bereits Patron? Dann nutze den {{command}}(/redeem) Befehl.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
     "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
@@ -16,9 +16,9 @@
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
-    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
-    "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
-    "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
+    "no_player_tag": "Sie müssen ein Spielerkürzel angeben, um diesen Befehl auszuführen!,\nAlternativ können Sie einige Konten mit dem Befehl {{command}} mit Ihrem Profil verknüpfen.",
+    "clan_not_linked": "Kein Clan ist mit {{user}} verknüpft.\nVerwenden Sie {{command}}, um einen Clan zu verknüpfen.",
+    "player_not_linked": "Kein Spieler ist mit {{user}} verknüpft. Verwenden Sie {{command}} Befehl, um einen Spieler zu verknüpfen.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
     "status_code": {
       "400": "Der Benutzer hat dem Befehl falsche Parameter angefügt.",
@@ -167,8 +167,8 @@
     "alias": {
       "description": "Erstelle, lösche oder zeige Clan Pseudonyme.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Erzeugt einen Clan-Alias (Kurzcode oder Abkürzung)",
+        "description_long": "Erzeugt einen Clan-Alias (Kurzcode oder Abkürzung)",
         "options": {
           "name": {
             "description": "Name des Alias."
@@ -252,12 +252,12 @@
         "description_long": "Shows a list of all CWL participants."
       },
       "history": {
-        "description": "Shows CWL history of a player or user.",
-        "description_long": "Shows CWL history of a player or user."
+        "description": "Zeigt den CWL-Verlauf eines Spielers oder Benutzers an.",
+        "description_long": "Zeigt den CWL-Verlauf eines Spielers oder Benutzers an."
       },
       "roster": {
         "description": "CWL Aufstellung und Rathausverteilung.",
-        "description_long": "Shows entire roster of Town halls for a CWL group.",
+        "description_long": "Zeigt die gesamte Liste der Rathäuser für eine CWL-Gruppe an.",
         "options": {
           "tag": {
             "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -287,7 +287,7 @@
     },
     "roster": {
       "description": "CWL Aufstellung und Rathausverteilung.",
-      "description_long": "Shows entire roster of Town halls for a CWL group.",
+      "description_long": "Zeigt die gesamte Liste der Rathäuser für eine CWL-Gruppe an.",
       "options": {
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
