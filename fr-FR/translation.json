@@ -2,9 +2,9 @@
   "common": {
     "no_clans_found": "Aucun clan n'a été trouvé sur ce serveur pour l'élément spécifié !\nUtilisez la commande {{command}} pour relier un clan.",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?\nUtilisez la commande {{command}} pour relier un clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
+    "clan_limit": "Le nombre maximum de clans a été atteint. Veuillez envisager de nous soutenir sur notre [Patreon](https://patreon.com/clashperk) pour ajouter plus de deux clans.\n\nDéjà abonné ? Utilisez la commande {{command}}.",
     "patron_only": "Cette commande n'est disponible que sur les serveurs des abonnés. Veuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir utiliser cette commande.\n\nDéjà abonné ? Utilisez la commande {{command}}.",
-    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
+    "clan_verification": "Nous devons nous assurer que vous êtes bien chef ou adjoint de ce clan. Veuillez vérifier votre compte joueur avec le jeton API.\nUtilisez la commande {{command}} pour vérifier votre compte joueur. Le jeton API est disponible dans les paramètres du jeu.",
     "no_option": "Quelque chose s'est mal passé lors de l'exécution de cette commande. (option non trouvée)",
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
     "no_clan_data": "Aucune donnée n'est disponible pour {{clan}}. Nous sommes toujours en train de collecter !",
@@ -15,11 +15,11 @@
       "unauthorized": "Vous devez exécuter la commande pour intéragir avec les composants."
     },
     "no_clan_tag_first_time": "Vous devez fournir un identifiant de clan pour exécuter cette commande!",
-    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
-    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
-    "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
-    "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
+    "no_clan_tag": "Vous devez fournir un identifiant de clan pour exécuter cette commande !\nVous pouvez également associer un clan par défaut à votre profil à l'aide de la commande {{command}}.",
+    "no_player_tag": "Vous devez fournir un identifiant de joueur pour exécuter cette commande !\nVous pouvez également associer certains comptes à votre profil à l'aide de la commande {{command}}.",
+    "clan_not_linked": "Aucun clan n'est relié à {{user}}.\nUtilisez {{command}} pour relier un clan.",
+    "player_not_linked": "Aucun joueur n'est relié à {{user}}. Utilisez la commande {{command}} pour relier un joueur.",
+    "guild_unauthorized": "Ce serveur n'est pas autorisé pour {{clan}}. Utilisez la commande {{command}} pour relier un clan.",
     "status_code": {
       "400": "Le client a fourni des paramètres incorrects pour la requête.",
       "403": "Le jeton API ne permet pas d'accéder aux informations demandées.",
@@ -245,8 +245,8 @@
         "description_long": "Aperçu des attaques de Ligue de clans."
       },
       "lineup": {
-        "description": "Shows CWL lineup for a round (sorted by town hall and heroes).",
-        "description_long": "Shows CWL lineup for a round (sorted by town hall and heroes)."
+        "description": "Affiche la composition de la Ligue de clans pour une manche (triée par hôtel de ville et héros).",
+        "description_long": "Affiche la composition de la Ligue de clans pour une manche (triée par hôtel de ville et héros)."
       },
       "members": {
         "description": "Affiche une liste de tous les participants à la Ligue de clans.",
@@ -363,7 +363,7 @@
         },
         "no_reason": "Vous devez fournir un motif au signalement.",
         "reason_max_limit": "Le motif doit contenir au maximum 1024 caractères.",
-        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
+        "success": "{{count}} joueur(s) signalé(s) avec succès. \n{{players}}"
       },
       "delete": {
         "description": "Supprimer un signalement de joueur.",
@@ -848,8 +848,8 @@
       "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
       "success_with_count": "L'auto-rôle a été activé avec succès pour {{count}} clan(s). \n{{clans}}",
       "clan_roles": {
-        "description": "Manage automatic role management for clan roles.",
-        "description_long": "Manage automatic role management for clan roles.",
+        "description": "Gérer la fonction auto-rôle pour les rôles de clan.",
+        "description_long": "Gérer la fonction auto-rôle pour les rôles de clan.",
         "options": {
           "member": {
             "description": "Le rôle de Membre."
@@ -870,17 +870,17 @@
             "description": "Rôle commun à tous les membres du clan."
           },
           "only_verified": {
-            "description": "Roles will be given to the verified players only. (API token verification is required)"
+            "description": "Les rôles seront attribués uniquement aux joueurs vérifiés. (vérification du jeton API nécessaire)"
           }
         }
       },
       "leagues": {
-        "description": "Manage automatic role management for leagues.",
-        "description_long": "Manage automatic role management for leagues."
+        "description": "Gérer la fonction auto-rôle pour les ligues.",
+        "description_long": "Gérer la fonction auto-rôle pour les ligues."
       },
       "town_hall": {
-        "description": "Manage automatic role management for town hall levels.",
-        "description_long": "Manage automatic role management for town hall levels."
+        "description": "Gérer la fonction auto-rôle pour les niveaux d'hôtel de ville.",
+        "description_long": "Gérer la fonction auto-rôle pour les niveaux d'hôtel de ville."
       },
       "disable": {
         "description": "Désactiver la fonction auto-rôle qui assigne des rôles aux membres selon leurs rôles dans le clan.",
@@ -896,8 +896,8 @@
         "success_with_count": "L'auto-rôle a été désactivé pour {{count}} clan(s). \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh automatic roles (usable every 30 minutes)",
-        "description_long": "Refresh automatic roles (usable every 30 minutes)"
+        "description": "Actualiser les auto-rôles (utilisable toutes les 30 minutes)",
+        "description_long": "Actualiser les auto-rôles (utilisable toutes les 30 minutes)"
       }
     },
     "summary": {
@@ -922,59 +922,59 @@
         "description": "Aucune description."
       },
       "donations": {
-        "description": "Shows a summary of donations.",
-        "description_long": "Shows a summary of donations."
+        "description": "Affiche un résumé des dons de troupes.",
+        "description_long": "Affiche un résumé des dons de troupes."
       },
       "trophies": {
-        "description": "Shows a summary of players sorted by trophies.",
-        "description_long": "Shows a summary of players sorted by trophies."
+        "description": "Affiche un résumé des joueurs classés par trophées.",
+        "description_long": "Affiche un résumé des joueurs classés par trophées."
       },
       "wars": {
-        "description": "Shows a summary of current wars.",
-        "description_long": "Shows a summary of current wars."
+        "description": "Affiche un résumé des guerres en cours.",
+        "description_long": "Affiche un résumé des guerres en cours."
       },
       "clan_games": {
-        "description": "Shows a summary of clan games scores.",
-        "description_long": "Shows a summary of clan games scores.",
+        "description": "Affiche un résumé des scores aux jeux du clan.",
+        "description_long": "Affiche un résumé des scores aux jeux du clan.",
         "min_clan_size": "Vous devez avoir au moins {{clans}} clans sur votre serveur pour pouvoir utiliser cette commande.",
         "scoreboard": "Basé sur les meilleurs scores et le temps de réalisation.",
         "performance": "Basé sur le score maximum de points."
       },
       "war_results": {
-        "description": "Shows a summary of seasonal war results.",
-        "description_long": "Shows a summary of seasonal war results."
+        "description": "Affiche un résumé des résultats de guerre saisonniers.",
+        "description_long": "Affiche un résumé des résultats de guerre saisonniers."
       },
       "best": {
-        "description": "Shows a summary of best members.",
-        "description_long": "Shows a summary of best members."
+        "description": "Affiche un résumé des meilleurs membres.",
+        "description_long": "Affiche un résumé des meilleurs membres."
       },
       "attacks": {
-        "description": "Shows a summary of best attackers.",
-        "description_long": "Shows a summary of best attackers."
+        "description": "Affiche un résumé des meilleurs attaquants.",
+        "description_long": "Affiche un résumé des meilleurs attaquants."
       },
       "missed_wars": {
-        "description": "Shows a summary of missed wars.",
-        "description_long": "Shows a summary of missed wars."
+        "description": "Affiche un résumé des guerres manquées.",
+        "description_long": "Affiche un résumé des guerres manquées."
       },
       "capital_raids": {
-        "description": "Shows a summary of clan capital raids.",
-        "description_long": "Shows a summary of clan capital raids."
+        "description": "Affiche un résumé des raids de la Capitale de clan.",
+        "description_long": "Affiche un résumé des raids de la Capitale de clan."
       },
       "capital_contribution": {
-        "description": "Shows a summary of clan capital contribution.",
-        "description_long": "Shows a summary of clan capital contribution."
+        "description": "Affiche un résumé des contributions à la Capitale de clan.",
+        "description_long": "Affiche un résumé des contributions à la Capitale de clan."
       },
       "activity": {
-        "description": "Shows a summary of clan activity (last seen)",
-        "description_long": "Shows a summary of clan activity (last seen)"
+        "description": "Affiche un résumé de l'activité du clan (dernière connexion)",
+        "description_long": "Affiche un résumé de l'activité du clan (dernière connexion)"
       },
       "cwl_ranks": {
-        "description": "Shows a summary of CWL ranks.",
-        "description_long": "Shows a summary of CWL ranks."
+        "description": "Affiche un résumé des classements de Ligue de clans.",
+        "description_long": "Affiche un résumé des classements de Ligue de clans."
       },
       "leagues": {
-        "description": "Shows a summary of clan leagues (CWL & Clan Capital)",
-        "description_long": "Shows a summary of clan leagues (CWL & Clan Capital)"
+        "description": "Affiche un résumé des ligues de clans (Ligue de clans & Capitale de clan)",
+        "description_long": "Affiche un résumé des ligues de clans (Ligue de clans & Capitale de clan)"
       }
     },
     "help": {
