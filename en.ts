@@ -73,6 +73,7 @@ export const common = {
         clan_games: 'Clan Games',
         clan_games_ending: 'Clan Games (Ending)',
         cwl: 'CWL',
+        cwl_end: 'CWL (Ending)',
         cwl_signup_ending: 'CWL Signup (Ending)',
         league_reset: 'League Reset',
         season_end: 'Season End',
