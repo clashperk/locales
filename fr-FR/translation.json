@@ -110,9 +110,9 @@
     "capital": {
       "description": "Affiche les raids de la Capitale de clan ainsi que les contributions.",
       "contribution": {
-        "description": "Affiche les contributions de la Capitale de Clan.",
+        "description": "Affiche les contributions à la Capitale de clan.",
         "description_long": "Affiche les contributions à la Capitale de Clan des membres du clan (utilisez le champ identifiant de joueur ou utilisateur pour voir l'historique de contribution d'un joueur)",
-        "title": "Contributions a la Capitale de Clan",
+        "title": "Contributions à la Capitale de clan",
         "options": {
           "tag": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
