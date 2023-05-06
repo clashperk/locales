@@ -324,8 +324,8 @@
         }
       },
       "cwl": {
-        "description": "Exporter les statistiques de Ligue de clans vers Excel.",
-        "description_long": "Exporter les statistiques de Ligue de clans vers Excel."
+        "description": "Exporter les statistiques de Ligue vers Excel.",
+        "description_long": "Exporter les statistiques de Ligue vers Excel."
       },
       "last_wars": {
         "description": "Exporter l'historique des participations (dernières guerres jouées)",
@@ -839,7 +839,7 @@
       }
     },
     "autorole": {
-      "description": "Activer/désactiver la fonction auto-rôle basée sur leurs rôles au sein du clan.",
+      "description": "Gérer la fonction auto-rôle pour les rôles dans le clan, les niveaux d'hôtel de ville ou les ligues.",
       "no_roles": "Vous devez spécifier 4 rôles pour exécuter cette commande.",
       "no_system_roles": "Les rôles gérés par le système ou les bots ne sont pas autorisés.",
       "no_higher_roles": "Mon rôle le plus élevé doit être plus haut que ces rôles.",
@@ -848,8 +848,8 @@
       "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
       "success_with_count": "L'auto-rôle a été activé avec succès pour {{count}} clan(s). \n{{clans}}",
       "clan_roles": {
-        "description": "Gérer la fonction auto-rôle pour les rôles de clan.",
-        "description_long": "Gérer la fonction auto-rôle pour les rôles de clan.",
+        "description": "Gérer la fonction auto-rôle pour les rôles dans le clan.",
+        "description_long": "Gérer la fonction auto-rôle pour les rôles dans le clan.",
         "options": {
           "member": {
             "description": "Le rôle de Membre."
@@ -861,7 +861,7 @@
             "description": "Le rôle de Chef-adjoint."
           },
           "leader": {
-            "description": "Le rôle de Leader (Peut choisir le même rôle que Co-Leader)"
+            "description": "Le rôle de Chef (Peut choisir le même rôle que le Chef-adjoint)"
           },
           "clans": {
             "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
@@ -883,8 +883,8 @@
         "description_long": "Gérer la fonction auto-rôle pour les niveaux d'hôtel de ville."
       },
       "disable": {
-        "description": "Désactiver la fonction auto-rôle qui assigne des rôles aux membres selon leurs rôles dans le clan.",
-        "description_long": "Désactiver la fonction auto-rôle qui assigne des rôles aux membres selon leurs rôles dans le clan.",
+        "description": "Désactiver la fonction auto-rôle pour les rôles dans le clan, les niveaux d'HdV ou les ligues.",
+        "description_long": "Désactiver la fonction auto-rôle pour les rôles dans le clan, les niveaux d'hôtel de ville ou les ligues.",
         "options": {
           "clans": {
             "description": "Identifiants de clan ou alias pour filtrer les clans."
