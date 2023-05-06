@@ -735,7 +735,7 @@
     },
     "units": {
       "description": "Affiche les troupes d'un joueur avec les niveaux max/min.",
-      "description_long": "Shows home village and builder base units of a player (with max/min levels)",
+      "description_long": "Affiche les troupes du village principal et de la base des ouvriers d'un joueur (avec les niveaux max/min)",
       "options": {
         "tag": {
           "description": "Identifiant du joueur ou mention @utilisateur."
@@ -767,7 +767,7 @@
     },
     "warlog": {
       "description": "Affiche le journal des 10 dernières guerres de clans.",
-      "description_long": "Shows last 10 war logs of a clan.",
+      "description_long": "Affiche le journal des 10 dernières guerres d'un clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -778,7 +778,7 @@
       "description": "Activer/désactiver des fonctionnalités sur le serveur ou ajouter/supprimer des clans.",
       "enable": {
         "description": "Activer une fonctionnalité sur le serveur ou ajouter un clan.",
-        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
+        "description_long": "Activer une fonctionnalité sur le serveur (Flux de Guerre, Dernière Connexion, Jeux de Clan, Journal de Légende, Journal de la Capitale, Flux du Clan, Journal des Entrées et Sorties, Intégration de Clan, Journal des Dons de troupes) ou ajouter un clan ou relier un clan à un salon.",
         "options": {
           "option": {
             "description": "Sélectionnez une option."
@@ -830,12 +830,12 @@
         "feature_disabled": "{{feature}} désactivé avec succès pour {{clan}}."
       },
       "list": {
-        "description": "Liste toutes les fonctions et clans activés.",
-        "description_long": "Liste toutes les fonctions et clans activés."
+        "description": "Lister toutes les fonctionnalités et les clans activés.",
+        "description_long": "Lister toutes les fonctionnalités et les clans activés."
       },
       "utils": {
-        "description": "Setup other utility features (link button, events schedular)",
-        "description_long": "Setup other utility features (link button, events schedular)"
+        "description": "Configurer d'autres fonctionnalités utilitaires (bouton de lien, calendrier des événements)",
+        "description_long": "Configurer d'autres fonctionnalités utilitaires (bouton de lien, calendrier des événements)"
       }
     },
     "autorole": {
@@ -911,12 +911,12 @@
         }
       },
       "compo": {
-        "description": "Shows a summary of family Town Hall composition.",
-        "description_long": "Shows a summary of family Town Hall composition."
+        "description": "Affiche un résumé de la répartition des hôtels de ville de la famille de clans.",
+        "description_long": "Affiche un résumé de la répartition des hôtels de ville de la famille de clans."
       },
       "clans": {
-        "description": "Shows a summary of family clans.",
-        "description_long": "Shows a summary of family clans."
+        "description": "Affiche un résumé des clans de la famille.",
+        "description_long": "Affiche un résumé des clans de la famille."
       },
       "players": {
         "description": "Aucune description."
