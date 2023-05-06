@@ -282,8 +282,8 @@
         "description_long": "Affiche le classement des membres de Ligue de clans par étoiles."
       },
       "stats": {
-        "description": "Shows an overview of all CWL rounds and group standings.",
-        "description_long": "Shows an overview of all CWL rounds and group standings."
+        "description": "Affiche une vue d'ensemble de toutes les manches de Ligue de clans et du classement du groupe.",
+        "description_long": "Affiche une vue d'ensemble de toutes les manches de Ligue de clans et du classement du groupe."
       }
     },
     "roster": {
@@ -472,7 +472,7 @@
     },
     "profile": {
       "description": "Affiche les informations et les comptes liés de l'utilisateur.",
-      "description_long": "Shows linked accounts and clan of a user.",
+      "description_long": "Affiche les comptes liés et le clan d'un utilisateur.",
       "options": {
         "user": {
           "description": "Identifiant utilisateur ou mention @utilisateur."
@@ -481,7 +481,7 @@
     },
     "nickname": {
       "description": "Choisir un pseudo dans la liste des joueurs reliés.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
+      "description_long": "Renommer les utilisateurs avec un pseudo sélectionné dans la liste des joueurs liés.",
       "options": {
         "user": {
           "description": "Identifiant utilisateur ou mention @utilisateur."
@@ -550,8 +550,8 @@
         "no_reminders": "Vous n'avez aucun rappel."
       },
       "now": {
-        "description": "Create an instant reminder to notify members.",
-        "description_long": "Create an instant reminder to notify members.",
+        "description": "Créer un rappel instantané pour informer les membres.",
+        "description_long": "Créer un rappel instantané pour informer les membres.",
         "options": {
           "message": {
             "description": "Message de rappel pour la notification."
@@ -603,7 +603,7 @@
     },
     "clan": {
       "description": "Affiche le résumé et la vue d'ensemble du clan.",
-      "description_long": "Shows comprehensive overview of a clan.",
+      "description_long": "Affiche l'aperçu complet d'un clan.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -621,7 +621,7 @@
     },
     "donations": {
       "description": "Affiche les dons de troupes des membres du clan.",
-      "description_long": "Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)",
+      "description_long": "Affiche les dons de troupes des membres du clan (utilisez le champ identifiant_de_joueur ou utilisateur pour voir l'historique des dons de troupes d'un joueur)",
       "no_season_data": "Aucune donnée n'a été trouvée pour la saison {{season}}.",
       "options": {
         "tag": {
@@ -634,7 +634,7 @@
     },
     "lineup": {
       "description": "Composition de l'équipe en guerre.",
-      "description_long": "Displays war line-up of a clan.",
+      "description_long": "Affiche la composition de l'équipe en guerre.",
       "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
         "tag": {
@@ -644,7 +644,7 @@
     },
     "members": {
       "description": "Obtenir une liste des membres du clan avec les héros, trophées, préférences de guerre et bien plus.",
-      "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
+      "description_long": "Lister les membres du clan classés par héros, trophées, préférences de guerre, liens discord, rôles dans le clan, identifiants de joueur, attaques, etc.",
       "options": {
         "tag": {
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
@@ -656,7 +656,7 @@
     },
     "player": {
       "description": "Résumé et vue d'ensemble du joueur.",
-      "description_long": "Shows comprehensive overview of a player (including war attack history)",
+      "description_long": "Affiche l'aperçu complet d'un joueur (y compris l'historique des attaques de guerre)",
       "options": {
         "tag": {
           "description": "Identifiant du joueur ou mention @utilisateur."
@@ -664,8 +664,8 @@
       }
     },
     "remaining": {
-      "description": "Attaques restantes ou râtées d'un clan.",
-      "description_long": "Shows remaining or missed war hits of a clan.",
+      "description": "Attaques restantes ou manquées d'un clan.",
+      "description_long": "Affiche les attaques restantes ou manquées d'un clan.",
       "not_in_war": "Le clan n'est pas en guerre.",
       "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "options": {
@@ -679,7 +679,7 @@
     },
     "rushed": {
       "description": "Troupes, sorts, engins et héros prémas d'un joueur ou des membres du clan.",
-      "description_long": "Rushed units and rushed % of a player or clan members.",
+      "description_long": "Troupes, sorts, engins et héros prémas, et leur %, d'un joueur ou des membres du clan.",
       "no_rushed": "Aucune troupe, sort, engin ou héros préma pour l'Hôtel De Ville {{townhall}}.",
       "options": {
         "tag": {
@@ -753,7 +753,7 @@
     },
     "war": {
       "description": "Affiche le résumé et la vue d'ensemble de la guerre.",
-      "description_long": "Shows war overview of a clan.",
+      "description_long": "Affiche la vue d'ensemble de la guerre d'un clan.",
       "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
