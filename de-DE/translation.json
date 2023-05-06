@@ -1,7 +1,7 @@
 {
   "common": {
     "no_clans_found": "Für die angegebene Eingabe wurden auf diesem Server keine Clans gefunden! \nVerwenden Sie den {{command}} Befehl, um einen Clan zu verknüpfen.",
-    "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
+    "no_clans_linked": "Mit diesem Server sind keine Clans verbunden. Warum nicht einige verlinken? \nVerwenden Sie {{command}} Befehl, um einen Clan zu verknüpfen.",
     "clan_limit": "Die maximale Anzahl an Clans ist erreicht. Bitte unterstütze uns auf unserem [Patreon](https://patreon. om/clashperk), um mehr als zwei Clans hinzuzufügen.\n\nBereits ein Patron? Benutze den Befehl {{command}} `/redeem`.",
     "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden. \n\nDu bist bereits Patron? Dann nutze den {{command}}(/redeem) Befehl.",
     "clan_verification": "Wir müssen sicherstellen, dass Sie ein Anführer oder Co-Anführer dieses Clans sind. Bitte verifizieren Sie Ihr Spielerkonto mit dem API-Token.\nVerwenden Sie den Befehl {{command}}, um Ihr Spielerkonto zu verifizieren. Das API-Token ist in den Spieleinstellungen verfügbar.",
@@ -67,7 +67,7 @@
       "clan_games": "Clan-Spiele",
       "clan_games_ending": "Clanspiele (Ende)",
       "cwl": "CWL",
-      "cwl_end": "CWL (Ending)",
+      "cwl_end": "CWL (Ende)",
       "cwl_signup_ending": "CWL-Registrierung (Ende)",
       "league_reset": "Liga zurücksetzen",
       "season_end": "Saison Ende",
