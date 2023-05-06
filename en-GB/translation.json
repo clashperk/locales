@@ -209,7 +209,7 @@
       "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
-          "description": "Hex color code (e.g #ed4245)"
+          "description": "Hex colour code (e.g #ed4245)"
         },
         "events_channel": {
           "description": "Clash-related events channel."
@@ -461,7 +461,7 @@
     },
     "timezone": {
       "description": "Set your time zone offset.",
-      "description_long": "Set your timezone offset for /activity command.",
+      "description_long": "Set your time zone offset for /activity command.",
       "options": {
         "location": {
           "description": "Search by country or city name (we don't store your location, only offset. e.g. GMT+5:00)"
@@ -834,8 +834,8 @@
         "description_long": "List all enabled features and clans."
       },
       "utils": {
-        "description": "Setup other utility features (link button, events schedular)",
-        "description_long": "Setup other utility features (link button, events schedular)"
+        "description": "Setup other utility features (link button, events scheduler)",
+        "description_long": "Setup other utility features (link button, events scheduler)"
       }
     },
     "autorole": {
