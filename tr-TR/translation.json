@@ -460,14 +460,14 @@
       "invalid_token": "Oyun ayarlarında bulunan geçerli API belirtecinizi girmelisiniz.\nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Saat diliminizi ayarlayın.",
+      "description": "Set your timezone offset.",
       "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
           "description": "Ülke veya şehir adını arayın (Konumunuzu saklamayız, sadece saat karşılığını alırız. Örn. GMT+5:00)"
         }
       },
-      "set": "Lütfen saat diliminizi `/timezone` komutuyla ayarlayın. Saat diliminizdeki grafikleri görüntülemenizi sağlar.",
+      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
       "no_result": "Aramanızı daha spesifik hale getirin ve tekrar deneyin."
     },
     "profile": {

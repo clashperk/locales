@@ -460,14 +460,14 @@
       "invalid_token": "Meg kell adnod egy érvényes API kulcsot, amelyet megtalálsz a játék beállításai között. \nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Állítsd be az időzónádat.",
+      "description": "Set your timezone offset.",
       "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
           "description": "Keress ország vagy város neve alapján (a városod nem tároljuk el csak az időzónád. pl. GMT+5:00)"
         }
       },
-      "set": "Állítsd be az időzónád a `/timezone` paranccsal. Lehetővé teszi a diagramok megtekintését a megadott időzónájában.",
+      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
       "no_result": "Tedd pontosabbá a keresést, és próbálkozz újra."
     },
     "profile": {

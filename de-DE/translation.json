@@ -460,14 +460,14 @@
       "invalid_token": "Sie müssen ein gültiges API-Token angeben, der in den Spieleinstellungen zu finden ist.\nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Verändere deine Zeitzone.",
+      "description": "Set your timezone offset.",
       "description_long": "Stellen Sie Ihren Zeitzonenversatz für den Befehl /activity ein.",
       "options": {
         "location": {
           "description": "Suche nach Land- oder Stadtnamen (wir speichern deinen Standort nicht, nur Zeitzone z.B. GMT+ 5:00)"
         }
       },
-      "set": "Bitte stellen Sie Ihre Zeitzone mit dem Befehl `/timezone` ein. Es ermöglicht Ihnen, die Grafiken in Ihrer Zeitzone anzuzeigen.",
+      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
       "no_result": "Gestalten Sie Ihre Suche genauer und versuchen Sie es erneut."
     },
     "profile": {
