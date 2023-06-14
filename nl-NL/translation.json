@@ -460,14 +460,14 @@
       "invalid_token": "Geef een geldig API-token op dat je kunt vinden in de spelinstellingen. \nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Stel de tijdzone offset in.",
+      "description": "Set your timezone offset.",
       "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
           "description": "Zoek op naam van land of stad (wij slaan de locatie niet op, alleen offset. bijv. GMT+5:00)"
         }
       },
-      "set": "Stel uw tijdzone in met opdracht `/timezone`. Hiermee kunt u de grafieken in uw tijdzone bekijken.",
+      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
       "no_result": "Maak uw zoekopdracht specifieker en probeer het opnieuw."
     },
     "profile": {
