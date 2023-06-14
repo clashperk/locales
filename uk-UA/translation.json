@@ -460,14 +460,14 @@
       "invalid_token": "Ви повинні надати дійсний API токен, що знаходиться в налаштуваннях гри.\nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Встановлює Ваш часовий пояс.",
+      "description": "Set your timezone offset.",
       "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
           "description": "Пошук за назвою країни чи міста (не збираємо дані про локацію, лише часовий пояс. прикл. GMT+3:00)"
         }
       },
-      "set": "Будь ласка, встановіть часовий пояс за допомогою команди `/timezone`. Це зробить можливим перегляд статистичних графіків, підлаштованих під ваш часовий пояс.",
+      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
       "no_result": "Сформулюйте більш конкретне питання і спробуйте ще раз (Приклад: який часовий пояс в *Ваше місто*)."
     },
     "profile": {
