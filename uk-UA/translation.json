@@ -1,10 +1,10 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
-    "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.",
-    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
+    "no_clans_found": "В Базі Даних серверу не знайдено кланів для вказаного аргументу!",
+    "no_clans_linked": "Жоден клан не прив'язаний до цього серверу. Чому б не прив'язати якийсь?",
+    "clan_limit": "Максимальна кількість кланів досягнута. Підтримайте, будь ласка, нас на нашому [Patreon] (https://patreon.com/clashperk) для можливості додавання більше ніж двох кланів.",
+    "patron_only": "Ця команда доступна лише для серверів, власники яких підтримали нас на Patreon. Розгляньте, будь ласка, можливість підтримки нас [Patreon] (https://patreon.com/clashperk) для використання цієї команди.\n\nВже на Patreon? Використайте команду `/redeem`.",
+    "clan_verification": "Ми повинні переконатися, що Ви є лідером або ко-лідером цього клану. Будь ласка, підтвердьте свій обліковий запис за допомогою API токена. \nСкористайтесь командою `/verify`, що підтвердити обліковий запис. API токен доступний в налаштування гри.\n\nКрім того, Ви можете додати тимчасовий код `{{code}}` в опис клану. Далі зачекати 1-2 хвилини та виконати команду повторно. Після успішної верифікації Ви можете без проблем прибрати код.",
     "no_option": "Щось пішло не так під час виконання даної команди. (опція не знайдена)",
     "no_data": "Наразі даних немає. Ми все ще збираємо їх!",
     "no_clan_data": "Наразі доступних даних для {{clan}} немає. Ми все ще збираємо їх!",
@@ -14,19 +14,18 @@
       "expired": "Цей компонент більше не активний. Запустіть команду наново.",
       "unauthorized": "Потрібно виконати команду для взаємодії з компонентами."
     },
-    "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
-    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
-    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
-    "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
-    "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
+    "no_clan_tag": "Для виконання цієї команди необхідно надати тег клану!",
+    "no_player_tag": "Для виконання цієї команди необхідно надати тег гравця!",
+    "clan_not_linked": "Жоден клан не пов'язаний з {{user}}.",
+    "player_not_linked": "Гравець не прив'язаний до {{user}}.",
+    "guild_unauthorized": "На сервері не авторизовано {{clan}}. Виконайте команду `/setup` для прив'язки клану.",
     "status_code": {
       "400": "Користувач надав невірні параметри для запиту.",
       "403": "API токен не надає доступ до запитуваного ресурсу.",
       "404": "Не знайдено збігів для вказаного тегу.",
       "429": "Запит було обмежено через те, що кількість запитів була вище порогового значення, визначеного для вказаного API токена.",
       "500": "При опрацюванні запиту сталася невідома помилка.",
-      "503": "Service is temporarily unavailable because of maintenance break in the game.",
+      "503": "Сервіс тимчасово недоступний через технічне обслуговування.",
       "504": "504 Час очікування запиту минув."
     },
     "clan_tag_argument": "Тег чи псевдонім клану або згадка @user.",
@@ -38,42 +37,7 @@
       "yes": "Так",
       "no": "Ні"
     },
-    "color_code": "Код кольору",
-    "options": {
-      "tag": {
-        "description": "Clan tag or name or alias."
-      },
-      "clan": {
-        "tag": {
-          "description": "Clan tag or name or alias."
-        },
-        "user": {
-          "description": "Clan by @user mention or ID."
-        }
-      },
-      "user": {
-        "description": "Clan by @user mention or ID."
-      },
-      "player": {
-        "tag": {
-          "description": "Player tag or name."
-        },
-        "user": {
-          "description": "Player by @user mention or ID."
-        }
-      }
-    },
-    "labels": {
-      "clan_games": "Clan Games",
-      "clan_games_ending": "Clan Games (Ending)",
-      "cwl": "CWL",
-      "cwl_end": "CWL (Ending)",
-      "cwl_signup_ending": "CWL Signup (Ending)",
-      "league_reset": "League Reset",
-      "season_end": "Season End",
-      "raid_weekend": "Raid Weekend",
-      "raid_weekend_ending": "Raid Weekend (Ending)"
-    }
+    "color_code": "Код кольору"
   },
   "component": {
     "button": {
@@ -83,7 +47,6 @@
   "command": {
     "activity": {
       "description": "Показує графік з найактивнішими учасниками клану за кожну годину.",
-      "description_long": "Показує графік з найактивнішими учасниками клану за кожну годину.",
       "title": "Найактивніші учасники клану за годину",
       "options": {
         "clans": {
@@ -96,7 +59,6 @@
     },
     "clan_games": {
       "description": "Табло результатів гравців на Кланових Іграх.",
-      "description_long": "Табло результатів гравців на Кланових Іграх.",
       "title": "Табло результатів Кланових Ігор",
       "options": {
         "tag": {
@@ -109,25 +71,23 @@
     },
     "capital": {
       "description": "Показує пожертви в Кланову Столицю та рейди.",
-      "contribution": {
-        "description": "Shows clan capital contributions.",
-        "description_long": "Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)",
-        "title": "Clan Capital Contributions",
+      "contributions": {
+        "description": "Показує пожертви в Кланову Столицю.",
+        "title": "Пожертви в Кланову Столицю",
         "options": {
           "tag": {
             "description": "Тег чи псевдонім клану або згадка @user."
           },
           "week": {
-            "description": "The week to show contributions for."
+            "description": "Щотижнева звітність про пожертви."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "Щотижнева звітність про пожертви."
           }
         }
       },
       "raids": {
         "description": "Показує звітність рейдів.",
-        "description_long": "Shows raid weekend scores of clan members (use player_tag or user field to see raid history of a player)",
         "title": "Рейди",
         "options": {
           "tag": {
@@ -143,20 +103,8 @@
         "no_data": "Не знайдено ні одного Дня Рейду для {{clan}} [{{weekId}}]."
       }
     },
-    "legend": {
-      "description": "Shows per-day legend stats for a clan.",
-      "attacks": {
-        "description": "Shows the legend of the clan for attacks.",
-        "description_long": "Shows per-day legend stats for a clan."
-      },
-      "days": {
-        "description": "Shows the legend of the clan for days.",
-        "description_long": "Shows per-day legend stats for a player or an user."
-      }
-    },
     "lastseen": {
       "description": "Час останнього відвідування та активність учасників клану.",
-      "description_long": "Час останнього відвідування та активність учасників клану.",
       "title_lastseen": "Час останнього відвідування та активність (за останні 24 години)",
       "title_activity": "Активність учасників клану (за останні 30 днів)",
       "options": {
@@ -168,8 +116,7 @@
     "alias": {
       "description": "Створення, видалення або перегляд псевдонімів клану.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Надає псевдоніми клану.",
         "options": {
           "name": {
             "description": "Найменування псевдоніма."
@@ -188,7 +135,6 @@
       },
       "delete": {
         "description": "Видаляє псевдоніми клану.",
-        "description_long": "Видаляє псевдоніми клану.",
         "options": {
           "name": {
             "description": "Тег або псевдонім клану"
@@ -200,22 +146,17 @@
       },
       "list": {
         "description": "Список всіх псевдонімів клану.",
-        "description_long": "Список всіх псевдонімів клану.",
         "title": "Псевдоніми клану"
       }
     },
     "config": {
       "description": "Зміна параметрів серверу.",
-      "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
-          "description": "Hex color code (e.g #ed4245)"
+          "description": "Код кольору Hex (e.g #ed4245) [Patron]"
         },
         "events_channel": {
           "description": "Канал з подіями, пов'язаними з Clash of Clans."
-        },
-        "manager_role": {
-          "description": "Role that can manage the bot."
         }
       },
       "no_text_channel": "Щоб увімкнути журнал подій, Ви повинні вказати текстовий канал.",
@@ -223,8 +164,7 @@
       "events_channel": "Події"
     },
     "debug": {
-      "description": "Показує основну інформацію про виправлення технічних помилок.",
-      "description_long": "Показує основну інформацію про виправлення технічних помилок."
+      "description": "Показує основну інформацію про виправлення технічних помилок."
     },
     "cwl": {
       "description": "Підсумок та огляд сезону Ліги Кланових Війн.",
@@ -241,24 +181,16 @@
       "no_rounds": "Жоден раунд Ліги Кланових Війн ще не зіграний, завітайте сюди пізніше.",
       "no_season_data": "Немає доступної статистики Ліги Кланових Війн за сезон {{season}}.",
       "attacks": {
-        "description": "Shows an overview of attacks for different CWL rounds.",
-        "description_long": "Shows an overview of attacks for different CWL rounds."
+        "description": "Огляд атак в Лізі Кланових Війн."
       },
       "lineup": {
-        "description": "Shows CWL lineup for a round (sorted by town hall and heroes).",
-        "description_long": "Shows CWL lineup for a round (sorted by town hall and heroes)."
+        "description": "Без опису."
       },
       "members": {
-        "description": "Shows a list of all CWL participants.",
-        "description_long": "Shows a list of all CWL participants."
-      },
-      "history": {
-        "description": "Shows CWL history of a player or user.",
-        "description_long": "Shows CWL history of a player or user."
+        "description": "Без опису."
       },
       "roster": {
         "description": "Список участників та розподіл по рівню ратуші в Лізі Кланових Війн.",
-        "description_long": "Shows entire roster of Town halls for a CWL group.",
         "options": {
           "tag": {
             "description": "Тег чи псевдонім клану або згадка @user."
@@ -267,7 +199,6 @@
       },
       "round": {
         "description": "Підсумок Ліги Кланових Війн для поточного раунду.",
-        "description_long": "Shows an overview of a CWL round.",
         "options": {
           "tag": {
             "description": "Тег чи псевдонім клану або згадка @user."
@@ -278,33 +209,10 @@
         }
       },
       "stars": {
-        "description": "Shows CWL member ranking by stars.",
-        "description_long": "Shows CWL member ranking by stars."
+        "description": "Без опису."
       },
       "stats": {
-        "description": "Shows an overview of all CWL rounds and group standings.",
-        "description_long": "Shows an overview of all CWL rounds and group standings."
-      }
-    },
-    "roster": {
-      "description": "Список участників та розподіл по рівню ратуші в Лізі Кланових Війн.",
-      "description_long": "Shows entire roster of Town halls for a CWL group.",
-      "options": {
-        "tag": {
-          "description": "Тег чи псевдонім клану або згадка @user."
-        }
-      }
-    },
-    "round": {
-      "description": "Підсумок Ліги Кланових Війн для поточного раунду.",
-      "description_long": "Shows an overview of a CWL round.",
-      "options": {
-        "tag": {
-          "description": "Тег чи псевдонім клану або згадка @user."
-        },
-        "round": {
-          "description": "Показ номера раунду."
-        }
+        "description": "Без опису."
       }
     },
     "export": {
@@ -324,35 +232,28 @@
         }
       },
       "cwl": {
-        "description": "Export CWL stats to Excel.",
-        "description_long": "Export CWL stats to Excel."
+        "description": "Без опису."
       },
       "last_wars": {
-        "description": "Export participation history (last played wars)",
-        "description_long": "Export participation history (last played wars)"
+        "description": "Без опису."
       },
       "members": {
-        "description": "Export a comprehensive version of clan member stats.",
-        "description_long": "Export a comprehensive version of clan member stats."
+        "description": "Без опису."
       },
       "missed": {
-        "description": "Export missed attack history.",
-        "description_long": "Export missed attack history."
+        "description": "Без опису."
       },
       "season": {
-        "description": "Export comprehensive seasonal stats of clan members.",
-        "description_long": "Export comprehensive seasonal stats of clan members."
+        "description": "Без опису."
       },
       "wars": {
-        "description": "Export War stats to Excel.",
-        "description_long": "Export War stats to Excel."
+        "description": "Без опису."
       }
     },
     "flag": {
       "description": "Створити, видалити або шукати прапори гравця.",
       "create": {
         "description": "Створює досьє на гравця.",
-        "description_long": "Create a player flag to mark the player as banned or flagged.",
         "options": {
           "tag": {
             "description": "Тег гравця для встановлення досьє."
@@ -367,7 +268,6 @@
       },
       "delete": {
         "description": "Видаляє досьє гравця.",
-        "description_long": "Видаляє досьє гравця.",
         "options": {
           "tag": {
             "description": "Тег потрібного гравця для видалення."
@@ -379,7 +279,6 @@
       },
       "list": {
         "description": "Список з досьє гравців.",
-        "description_long": "Список з досьє гравців.",
         "options": {
           "export": {
             "description": "Експортувати досьє всіх гравців до Excel."
@@ -389,7 +288,6 @@
       },
       "search": {
         "description": "Пошук інформації про гравця.",
-        "description_long": "Пошук інформації про гравця.",
         "options": {
           "tag": {
             "description": "Тег гравця для пошуку."
@@ -402,8 +300,7 @@
       "description": "Створити, видалити або упорядкувати посилання на гравців.",
       "no_tag": "Для виконання цієї команди необхідно надати тег гравця/клану.",
       "create": {
-        "description": "Links a player account/clan to a Discord account.",
-        "description_long": "Links a player account/clan to a Discord account.",
+        "description": "Створює прив'язку гравця/клану за допомогою облікового запису.",
         "options": {
           "tag": {
             "description": "Тег гравця або клану."
@@ -424,8 +321,7 @@
         "max_limit": "Максимальна кількість прив'язаних облікових записів досягнута (25 облікових записів/користувачів)"
       },
       "delete": {
-        "description": "Deletes a player account/clan from a Discord account.",
-        "description_long": "Deletes a player account/clan from a Discord account.",
+        "description": "Видаляє прив'язку з гравцем/кланом.",
         "options": {
           "tag": {
             "description": "Тег гравця або клану."
@@ -437,7 +333,6 @@
       },
       "list": {
         "description": "Список всіх прив'язаних гравців.",
-        "description_long": "List all player links of a clan.",
         "options": {
           "tag": {
             "description": "Тег чи псевдонім клану або згадка @user."
@@ -447,7 +342,6 @@
     },
     "verify": {
       "description": "Перевірка та прив'язка гравця за допомогою API токена.",
-      "description_long": "Verify and link a player account using an API token.",
       "options": {
         "tag": {
           "description": "Тег гравця, верифікація якого потрібна."
@@ -460,19 +354,17 @@
       "invalid_token": "Ви повинні надати дійсний API токен, що знаходиться в налаштуваннях гри.\nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Set your timezone offset.",
-      "description_long": "Set your timezone offset for /activity command.",
+      "description": "Встановлює Ваш часовий пояс.",
       "options": {
         "location": {
           "description": "Пошук за назвою країни чи міста (не збираємо дані про локацію, лише часовий пояс. прикл. GMT+3:00)"
         }
       },
-      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
+      "set": "Будь ласка, встановіть часовий пояс за допомогою команди `/timezone`. Це зробить можливим перегляд статистичних графіків, підлаштованих під ваш часовий пояс.",
       "no_result": "Сформулюйте більш конкретне питання і спробуйте ще раз (Приклад: який часовий пояс в *Ваше місто*)."
     },
     "profile": {
       "description": "Показує інформацію про користувача та прив'язані облікові записи.",
-      "description_long": "Shows linked accounts and clan of a user.",
       "options": {
         "user": {
           "description": "ID користувача чи згадка @user."
@@ -481,7 +373,6 @@
     },
     "nickname": {
       "description": "Надає нікнейм прив'язаному гравцю зі списку.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
       "options": {
         "user": {
           "description": "ID користувача чи згадка @user."
@@ -494,79 +385,70 @@
       "no_players": "Жоден гравець не зв'язаний з {{user}}.",
       "char_limit": "Ваш нікнейм повинен містити менше ніж 31 символ."
     },
-    "reminders": {
-      "description": "Create, delete or list reminders.",
+    "reminder": {
+      "description": "Створення, видалення або сортування нагадувань про початок Війни Кланів.",
       "create": {
-        "description": "Create reminders for clan wars, capital raids or clan games.",
-        "description_long": "Create reminders for clan wars, capital raids or clan games.",
+        "description": "Створює нагадування учасникам про початок Війни Кланів.",
         "options": {
           "duration": {
-            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g. 15m, 30m, 1h, 1.25h, 1.5h)"
+            "description": "Залишок часу, за якого треба згадувати учасників кв (кратний 15 хв, приклад: 15 хв, 30 хв, 45хв...)"
           },
           "message": {
-            "description": "Reminder message for the notification."
+            "description": "Повідомлення для нагадування."
           },
           "clans": {
-            "description": "Clan tags or aliases. (enter * to include all clans)"
+            "description": "Теги або псевдоніми клану (введіть * для включення всіх кланів)"
           },
           "channel": {
-            "description": "Reminder message for the notification."
+            "description": "Повідомлення для нагадування."
           }
         },
-        "max_limit": "You can only have 25 reminders.",
-        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
-        "no_message": "You must specify a message to execute this command.",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
-        "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
-        "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
+        "max_limit": "Ви можете мати лише 25 нагадувань.",
+        "invalid_duration_format": "Залишок часу має бути в заданому форматі, наприклад, 2 год, 2.5 год, 30 хв",
+        "no_message": "Для виконання цієї команди необхідно надати текст повідомлення.",
+        "duration_limit": "Залишок має бути більшим за 15 хвилин та меншим за 45 годин.",
+        "duration_order": "Залишок часу має бути кратним числу 15, наприклад, 15 хв, 30 хв, 45 хв, 1 г, 1.25 г, 1.5 г, 1.75 г",
+        "too_many_clans": "Меню вибору клану недоступне для більше ніж 25 кланів. {{clans}} клани були обрані автоматично!\nДля створення нагадування для певних кланів, надайте теги клану або псевдоніми через опцію 'клани' під час виконання команди.",
         "missing_access": "Я не маю {{permission}} в {{channel}} для виконання цієї команди.",
         "too_many_webhooks": "Велика кількість вебхуків в {{channel}}.",
-        "success": "Successfully saved!"
-      },
-      "edit": {
-        "description": "Edit a reminder by ID (do /reminders list to get the ID)",
-        "description_long": "Edit a reminder by ID (do */reminders list* to get the ID)"
+        "success": "Успішно збережено!"
       },
       "delete": {
-        "description": "Delete a reminder by ID (do /reminders list to get the ID)",
-        "description_long": "Delete a reminder by ID (do */reminders list* to get the ID)",
+        "description": "Видаляє одне нагадування чи всі.",
         "options": {
           "id": {
-            "description": "Reminder ID."
+            "description": "ID нагадування."
           },
           "clear": {
-            "description": "Whether to clear all reminders."
+            "description": "Чи слід очищати всі нагадування."
           }
         },
-        "no_reminders": "You have no reminders.",
-        "cleared": "Successfully cleared all reminders.",
-        "not_found": "No reminder was found with the ID {{id}}.",
-        "success": "Successfully deleted the reminder with the ID {{id}}.",
-        "too_many_reminders": "If you have too many reminders, please provide a reminder ID."
+        "no_reminders": "У Вас немає нагадувань.",
+        "cleared": "Успішно видалено всі нагадування.",
+        "not_found": "Не знайдено нагадуванням з таким ID: {{id}}.",
+        "success": "Успішно видалене нагадування з таким ID: {{id}}.",
+        "too_many_reminders": "Якщо у Вас забагато нагадувань, будь ласка, надайте ID нагадування."
       },
       "list": {
-        "description": "List all reminders for clan wars, capital raids or clan games.",
-        "description_long": "List all war reminders for clan wars, capital raids or clan games.",
-        "no_reminders": "You have no reminders."
+        "description": "Список всіх нагадувань про війну.",
+        "no_reminders": "У Вас немає нагадувань."
       },
       "now": {
-        "description": "Create an instant reminder to notify members.",
-        "description_long": "Create an instant reminder to notify members.",
+        "description": "Миттєве нагадування учасникам про початок війни.",
         "options": {
           "message": {
-            "description": "Reminder message for the notification."
+            "description": "Повідомлення для нагадування."
           },
           "clans": {
-            "description": "Clan tags or aliases. (enter * to include all clans)"
+            "description": "Теги або псевдоніми клану (введіть * для включення всіх кланів)"
           }
         },
-        "no_message": "You must specify a message to execute this command.",
-        "no_match": "There are no wars or no members that are matching with the selected options."
+        "no_message": "Для виконання цієї команди необхідно надати текст повідомлення.",
+        "no_match": "Немає жодних воєн чи учасників, які відповідають обраним параметрам."
       }
     },
     "army": {
       "description": "Показує посилання на склад армії.",
-      "description_long": "Показує посилання на склад армії.",
       "no_link": "Ви повинні надати дійсне посилання на зведену армію.",
       "invalid_link": "Це посилання на армію недійсне.",
       "possibly_invalid_link": "Це посилання недійсне і може не працювати.",
@@ -581,7 +463,6 @@
     },
     "attacks": {
       "description": "Результати атак та оборони учасників клану.",
-      "description_long": "Displays attack and defense info of clan members.",
       "options": {
         "tag": {
           "description": "Тег чи псевдонім клану або згадка @user."
@@ -590,7 +471,6 @@
     },
     "boosts": {
       "description": "Учасники клану з активованими супервоїнами.",
-      "description_long": "Displays active super troops of clan members.",
       "no_boosts": "Ніхто не активував супервоїна.",
       "no_recent_boosts": "Ніхто з нещодавно активних учасників не має активованого супервоїна.",
       "no_unit_boosts": "Ніхто не активував {{unit}} в цьому клані.",
@@ -603,7 +483,6 @@
     },
     "clan": {
       "description": "Огляд клану.",
-      "description_long": "Shows comprehensive overview of a clan.",
       "options": {
         "tag": {
           "description": "Тег чи псевдонім клану або згадка @user."
@@ -612,7 +491,6 @@
     },
     "compo": {
       "description": "Показує рівні ратуш і їх кількість в клані.",
-      "description_long": "Shows Town Hall composition of a clan.",
       "options": {
         "tag": {
           "description": "Тег чи псевдонім клану або згадка @user."
@@ -621,7 +499,6 @@
     },
     "donations": {
       "description": "Показує кількість пожертвувань учасників клану.",
-      "description_long": "Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)",
       "no_season_data": "Не знайдено даних про сезон {{season}}.",
       "options": {
         "tag": {
@@ -634,7 +511,6 @@
     },
     "lineup": {
       "description": "Склад учасників клану на війні.",
-      "description_long": "Displays war line-up of a clan.",
       "not_in_war": "Клан не в стані війни.",
       "options": {
         "tag": {
@@ -644,7 +520,6 @@
     },
     "members": {
       "description": "Надає список учасників клану з героями, трофеями, воєнними досягненнями та багато іншого.",
-      "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
       "options": {
         "tag": {
           "description": "Тег чи псевдонім клану або згадка @user."
@@ -656,7 +531,6 @@
     },
     "player": {
       "description": "Огляд гравця.",
-      "description_long": "Shows comprehensive overview of a player (including war attack history)",
       "options": {
         "tag": {
           "description": "Тег гравця чи згадка @user."
@@ -665,7 +539,6 @@
     },
     "remaining": {
       "description": "Доступні або пропущені атаки клану.",
-      "description_long": "Shows remaining or missed war hits of a clan.",
       "not_in_war": "Клан не в стані війни.",
       "no_war_id": "За цим воєнним ID не знайдено жодної війни.",
       "options": {
@@ -679,7 +552,6 @@
     },
     "rushed": {
       "description": "Показує воїнів не максимального рівня для попереднього рівня ратуші учасника клану.",
-      "description_long": "Rushed units and rushed % of a player or clan members.",
       "no_rushed": "Немає воїнів не максимального рівня для рівня ратуші {{townhall}}.",
       "options": {
         "tag": {
@@ -692,7 +564,6 @@
     },
     "search": {
       "description": "Пошук кланів за назвою.",
-      "description_long": "Пошук кланів за назвою.",
       "no_results": "Нічого не знайдено.",
       "searching": "Клани з назвою '{{name}}'.",
       "options": {
@@ -725,17 +596,14 @@
         }
       },
       "attacks": {
-        "description": "Показує рівень успішності атак учасників клану.",
-        "description_long": "Показує рівень успішності атак учасників клану."
+        "description": "Показує рівень успішності атак учасників клану."
       },
       "defense": {
-        "description": "Показує рівень розгрому від ворожих атак учасників клану.",
-        "description_long": "Показує рівень розгрому від ворожих атак учасників клану."
+        "description": "Показує рівень розгрому від ворожих атак учасників клану."
       }
     },
     "units": {
       "description": "Показує воїна з максимальним/мінімальним рівнем певного гравця.",
-      "description_long": "Shows home village and builder base units of a player (with max/min levels)",
       "options": {
         "tag": {
           "description": "Тег гравця чи згадка @user."
@@ -744,7 +612,6 @@
     },
     "upgrades": {
       "description": "Доступні покращення (воїна, зілля) певного гравця з його ціною.",
-      "description_long": "Доступні покращення (воїна, зілля) певного гравця з його ціною.",
       "options": {
         "tag": {
           "description": "Тег чи псевдонім клану або згадка @user."
@@ -753,7 +620,6 @@
     },
     "war": {
       "description": "Огляд війни.",
-      "description_long": "Shows war overview of a clan.",
       "no_war_id": "За цим воєнним ID не знайдено жодної війни.",
       "not_in_war": "Клан не в стані війни.",
       "options": {
@@ -767,7 +633,6 @@
     },
     "warlog": {
       "description": "Показує інформацію про 10 останніх війн.",
-      "description_long": "Shows last 10 war logs of a clan.",
       "options": {
         "tag": {
           "description": "Тег чи псевдонім клану або згадка @user."
@@ -778,7 +643,6 @@
       "description": "Ввімкнення/вимкнення функції на сервері або додавання/видалення кланів.",
       "enable": {
         "description": "Вмикає певну функцію на сервері або додає клан.",
-        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
         "options": {
           "option": {
             "description": "Оберіть варіант."
@@ -811,7 +675,6 @@
       },
       "disable": {
         "description": "Вимикає певну функцію на сервері або видаляє клан.",
-        "description_long": "Вимикає певну функцію на сервері або видаляє клан.",
         "options": {
           "option": {
             "description": "Оберіть варіант."
@@ -830,61 +693,43 @@
         "feature_disabled": "Успішно видалено {{feature}} для {{clan}}."
       },
       "list": {
-        "description": "Список всіх ввімкнених функцій та доданих кланів.",
-        "description_long": "Список всіх ввімкнених функцій та доданих кланів."
-      },
-      "utils": {
-        "description": "Setup other utility features (link button, events schedular)",
-        "description_long": "Setup other utility features (link button, events schedular)"
+        "description": "Список всіх ввімкнених функцій та доданих кланів."
       }
     },
     "autorole": {
-      "description": "Manage automatic role management for clan roles, town hall levels, or leagues.",
-      "no_roles": "You must specify 4 roles to execute this command.",
-      "no_system_roles": "System managed or bot roles are not allowed.",
-      "no_higher_roles": "My highest role must be higher than these roles.",
-      "invalid_clan_tag": "The specified clan tag is invalid.",
-      "roles_already_used": "Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.",
-      "clan_not_linked": "The clan must be linked to the server to enable auto-role.",
-      "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}",
-      "clan_roles": {
-        "description": "Manage automatic role management for clan roles.",
-        "description_long": "Manage automatic role management for clan roles.",
+      "description": "Ввімкнення/вимкнення функції надання учасникам ролей, спираючись на їхню роль в клані.",
+      "enable": {
+        "description": "Вмикає функцію надання учасникам ролей, спираючись на їхню роль в клані.",
         "options": {
-          "member": {
-            "description": "The Member role."
+          "co_leads": {
+            "description": "Ко-лідер."
           },
-          "elder": {
-            "description": "The Elder role."
+          "elders": {
+            "description": "Старійшина."
           },
-          "co_lead": {
-            "description": "The Co-Leader role."
-          },
-          "leader": {
-            "description": "The Leader role (Can choose the same role as Co-Leader)"
+          "members": {
+            "description": "Звичайна роль."
           },
           "clans": {
-            "description": "Clan tags or aliases. (enter * to include all clans)"
+            "description": "Теги або псевдоніми клану (введіть * для включення всіх кланів)"
           },
           "common_role": {
-            "description": "Common role for everyone in the clan."
+            "description": "Звичайна роль для всіх в клані."
           },
           "only_verified": {
-            "description": "Roles will be given to the verified players only. (API token verification is required)"
+            "description": "Ролі будуть присвоєні тільки перевіреним гравцям. (Треба API токен для верифікації)"
           }
-        }
-      },
-      "leagues": {
-        "description": "Manage automatic role management for leagues.",
-        "description_long": "Manage automatic role management for leagues."
-      },
-      "town_hall": {
-        "description": "Manage automatic role management for town hall levels.",
-        "description_long": "Manage automatic role management for town hall levels."
+        },
+        "no_roles": "Для виконання цієї команди необхідно надати 3 ролі.",
+        "no_system_roles": "Ролі, керовані системою або ботом, не допускаються.",
+        "no_higher_roles": "Моя найвища роль повинна бути вищою за ті ролі.",
+        "invalid_clan_tag": "Зазначений тег недійсний.",
+        "roles_already_used": "Деякі ролі вже були використані для іншого клану. Будь ласка, розгляньте можливість підтримки нас на [Patreon]  (https://patreon.com/clashperk) для використання однакових ролей для декількох кланів.",
+        "clan_not_linked": "Клан повинен бути прив'язаний до сервера для увімкнення функції надання ролі.",
+        "success_with_count": "Успішно ввімкнена функція надання ролі для {{count}} клану(ів) {{clans}}"
       },
       "disable": {
-        "description": "Disable automatic role management for clan roles, town hall levels, or leagues.",
-        "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
+        "description": "Вимикає функцію надання учасникам ролей, спираючись на їхню роль в клані.",
         "options": {
           "clans": {
             "description": "Теги або псевдоніми клану для фільтрації."
@@ -894,10 +739,6 @@
           }
         },
         "success_with_count": "Функція надання ролі відключена для {{count}} клану(ів). {{clans}}"
-      },
-      "refresh": {
-        "description": "Refresh automatic roles (usable every 30 minutes)",
-        "description_long": "Refresh automatic roles (usable every 30 minutes)"
       }
     },
     "summary": {
@@ -910,76 +751,30 @@
           "description": "ID сезону клану для винесення підсумку."
         }
       },
-      "compo": {
-        "description": "Shows a summary of family Town Hall composition.",
-        "description_long": "Shows a summary of family Town Hall composition."
-      },
       "clans": {
-        "description": "Shows a summary of family clans.",
-        "description_long": "Shows a summary of family clans."
+        "description": "Без опису."
       },
       "players": {
         "description": "Без опису."
       },
       "donations": {
-        "description": "Shows a summary of donations.",
-        "description_long": "Shows a summary of donations."
+        "description": "Без опису."
       },
       "trophies": {
-        "description": "Shows a summary of players sorted by trophies.",
-        "description_long": "Shows a summary of players sorted by trophies."
+        "description": "Без опису."
       },
       "wars": {
-        "description": "Shows a summary of current wars.",
-        "description_long": "Shows a summary of current wars."
+        "description": "Без опису."
       },
       "clan_games": {
-        "description": "Shows a summary of clan games scores.",
-        "description_long": "Shows a summary of clan games scores.",
+        "description": "Без опису.",
         "min_clan_size": "Ви повинні мати мінімум {{clans}} кланів на Вашому сервері для використання цієї команди.",
         "scoreboard": "На основі найвищих результатів та часу виконання.",
         "performance": "На основі максимальної кількості балів."
-      },
-      "war_results": {
-        "description": "Shows a summary of seasonal war results.",
-        "description_long": "Shows a summary of seasonal war results."
-      },
-      "best": {
-        "description": "Shows a summary of best members.",
-        "description_long": "Shows a summary of best members."
-      },
-      "attacks": {
-        "description": "Shows a summary of best attackers.",
-        "description_long": "Shows a summary of best attackers."
-      },
-      "missed_wars": {
-        "description": "Shows a summary of missed wars.",
-        "description_long": "Shows a summary of missed wars."
-      },
-      "capital_raids": {
-        "description": "Shows a summary of clan capital raids.",
-        "description_long": "Shows a summary of clan capital raids."
-      },
-      "capital_contribution": {
-        "description": "Shows a summary of clan capital contribution.",
-        "description_long": "Shows a summary of clan capital contribution."
-      },
-      "activity": {
-        "description": "Shows a summary of clan activity (last seen)",
-        "description_long": "Shows a summary of clan activity (last seen)"
-      },
-      "cwl_ranks": {
-        "description": "Shows a summary of CWL ranks.",
-        "description_long": "Shows a summary of CWL ranks."
-      },
-      "leagues": {
-        "description": "Shows a summary of clan leagues (CWL & Clan Capital)",
-        "description_long": "Shows a summary of clan leagues (CWL & Clan Capital)"
       }
     },
     "help": {
       "description": "Надає список команд або інформацію про певну команду.",
-      "description_long": "Надає список команд або інформацію про певну команду.",
       "options": {
         "name": {
           "description": "Назва команди."
@@ -987,12 +782,10 @@
       }
     },
     "invite": {
-      "description": "Отримує посилання для запрошення бота та сервера підтримки.",
-      "description_long": "Отримує посилання для запрошення бота та сервера підтримки."
+      "description": "Отримує посилання для запрошення бота та сервера підтримки."
     },
     "redeem": {
-      "description": "Надає можливість активувати чи керувати підпискою на Patreon. (якщо Ви бажаєте підтримати нас)",
-      "description_long": "Надає можливість активувати чи керувати підпискою на Patreon. (якщо Ви бажаєте підтримати нас)"
+      "description": "Надає можливість активувати чи керувати підпискою на Patreon. (якщо Ви бажаєте підтримати нас)"
     }
   }
 }
