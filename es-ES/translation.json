@@ -111,7 +111,7 @@
       "description": "Muestra los asaltos y las contribuciones a la capital del clan.",
       "contribution": {
         "description": "Shows clan capital contributions.",
-        "description_long": "Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)",
+        "description_long": "Shows clan capital contribution of clan members.",
         "title": "Clan Capital Contributions",
         "options": {
           "tag": {
@@ -127,7 +127,7 @@
       },
       "raids": {
         "description": "Muestra los asedios de la capital del clan.",
-        "description_long": "Shows raid weekend scores of clan members (use player_tag or user field to see raid history of a player)",
+        "description_long": "Shows raid weekend scores of clan members.",
         "title": "Asedios de la capital del clan",
         "options": {
           "tag": {
@@ -621,7 +621,7 @@
     },
     "donations": {
       "description": "Muestra las donaciones de los miembros del clan.",
-      "description_long": "Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)",
+      "description_long": "Displays donation/received of clan members.",
       "no_season_data": "No se encontraron datos para la temporada {{season}}.",
       "options": {
         "tag": {

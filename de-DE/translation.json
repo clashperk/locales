@@ -111,7 +111,7 @@
       "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
       "contribution": {
         "description": "Zeigt Clanstadt Beiträge.",
-        "description_long": "Zeigt den Clanstadt Beiträge von Clanmitgliedern (Benutze #Spielerkürzel oder Benutzerfeld, um den Beitragsverlauf eines Spielers zu sehen)",
+        "description_long": "Shows clan capital contribution of clan members.",
         "title": "Zeigt Clanstadtbeiträge",
         "options": {
           "tag": {
@@ -127,7 +127,7 @@
       },
       "raids": {
         "description": "Zeigt Überfälle auf Clankapital.",
-        "description_long": "Zeigt den Clanstadtbeiträge von Clanmitgliedern (Benutze #Spielerkürzel oder Benutzerfeld, um den Beitragsverlauf eines Spielers zu sehen)",
+        "description_long": "Shows raid weekend scores of clan members.",
         "title": "Clankapital-Raids",
         "options": {
           "tag": {
@@ -621,7 +621,7 @@
     },
     "donations": {
       "description": "Zeigt Spenden von Clanmitgliedern an.",
-      "description_long": "Zeigt Spenden/Erhaltene von Clanmitgliedern an (verwende player_tag oder Benutzerfeld, um den Spenden-/Erhaltenen-Verlauf eines Spielers zu sehen)",
+      "description_long": "Displays donation/received of clan members.",
       "no_season_data": "Für Saison {{season}} wurden keine Daten gefunden.",
       "options": {
         "tag": {

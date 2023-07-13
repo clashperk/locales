@@ -111,7 +111,7 @@
       "description": "Показує пожертви в Кланову Столицю та рейди.",
       "contribution": {
         "description": "Shows clan capital contributions.",
-        "description_long": "Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)",
+        "description_long": "Shows clan capital contribution of clan members.",
         "title": "Clan Capital Contributions",
         "options": {
           "tag": {
@@ -127,7 +127,7 @@
       },
       "raids": {
         "description": "Показує звітність рейдів.",
-        "description_long": "Shows raid weekend scores of clan members (use player_tag or user field to see raid history of a player)",
+        "description_long": "Shows raid weekend scores of clan members.",
         "title": "Рейди",
         "options": {
           "tag": {
@@ -621,7 +621,7 @@
     },
     "donations": {
       "description": "Показує кількість пожертвувань учасників клану.",
-      "description_long": "Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)",
+      "description_long": "Displays donation/received of clan members.",
       "no_season_data": "Не знайдено даних про сезон {{season}}.",
       "options": {
         "tag": {

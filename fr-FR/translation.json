@@ -111,7 +111,7 @@
       "description": "Affiche les raids de la Capitale de clan ainsi que les contributions.",
       "contribution": {
         "description": "Affiche les contributions à la Capitale de clan.",
-        "description_long": "Affiche les contributions à la Capitale de Clan des membres du clan (utilisez le champ identifiant de joueur ou utilisateur pour voir l'historique de contribution d'un joueur)",
+        "description_long": "Shows clan capital contribution of clan members.",
         "title": "Contributions à la Capitale de Clan",
         "options": {
           "tag": {
@@ -127,7 +127,7 @@
       },
       "raids": {
         "description": "Affiche les raids de la Capitale de clan.",
-        "description_long": "Affiche les scores des membres du clan lors des weekends de Raid (utilisez le champ identifiant de joueur ou utilisateur pour voir l'historique de Raid d'un joueur)",
+        "description_long": "Shows raid weekend scores of clan members.",
         "title": "Raids de la Capitale de Clan",
         "options": {
           "tag": {
@@ -621,7 +621,7 @@
     },
     "donations": {
       "description": "Affiche les dons de troupes des membres du clan.",
-      "description_long": "Affiche les dons de troupes des membres du clan (utilisez le champ identifiant_de_joueur ou utilisateur pour voir l'historique des dons de troupes d'un joueur)",
+      "description_long": "Displays donation/received of clan members.",
       "no_season_data": "Aucune donnée n'a été trouvée pour la saison {{season}}.",
       "options": {
         "tag": {
