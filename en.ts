@@ -113,8 +113,7 @@ export const command = {
         description: 'Shows clan capital contributions and raids.',
         contribution: {
             description: 'Shows clan capital contributions.',
-            description_long:
-                'Shows clan capital contribution of clan members (use player_tag or user field to see contribution history of a player)',
+            description_long: 'Shows clan capital contribution of clan members.',
             title: 'Clan Capital Contributions',
             options: {
                 tag: {
@@ -130,7 +129,7 @@ export const command = {
         },
         raids: {
             description: 'Shows clan capital raids.',
-            description_long: 'Shows raid weekend scores of clan members (use player_tag or user field to see raid history of a player)',
+            description_long: 'Shows raid weekend scores of clan members.',
             title: 'Clan Capital Raids',
             options: {
                 tag: {
@@ -625,8 +624,7 @@ export const command = {
     },
     donations: {
         description: 'Displays donations of clan members.',
-        description_long:
-            'Displays donation/received of clan members (use player_tag or user field to see donation/received history of a player)',
+        description_long: 'Displays donation/received of clan members.',
         no_season_data: 'No data was found for the season {{season}}.',
         options: {
             tag: {
