@@ -216,6 +216,9 @@
         },
         "manager_role": {
           "description": "Rôle permettant de gérer le bot."
+        },
+        "roster_manager_role": {
+          "description": "Role that can manage the roster members."
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
