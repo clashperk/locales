@@ -216,6 +216,9 @@
         },
         "manager_role": {
           "description": "Role that can manage the bot."
+        },
+        "roster_manager_role": {
+          "description": "Role that can manage the roster members."
         }
       },
       "no_text_channel": "You must specify a text channel to enable this event log.",
