@@ -216,6 +216,9 @@
         },
         "manager_role": {
           "description": "Role that can manage the bot."
+        },
+        "roster_manager_role": {
+          "description": "Role that can manage the roster members."
         }
       },
       "no_text_channel": "Etkinlik günlüğünün aktifleştirmesi için bir yazı kanalı belirtmelisiniz.",
