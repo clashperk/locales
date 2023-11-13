@@ -1,17 +1,19 @@
 import { InitOptions } from 'i18next';
 
-export const fallbackLng = {
-    'fr': ['fr-FR', 'en-US'], // French/Français
-    'it': ['it-IT', 'en-US'], // Italian/Italiano
-    'de': ['de-DE', 'en-US'], // German/Deutsch
-    'no': ['no-NO', 'en-US'], // Norwegian/Norsk
-    'nl': ['nl-NL', 'en-US'], // Dutch/Nederlands
-    'es-ES': ['es-ES', 'en-US'], // Spanish/Español
-    'uk': ['uk-UA', 'en-US'], // Ukrainian/Українська
-    'pt-BR': ['pt-BR', 'en-US'], // Portuguese/Português
-    'hu': ['hu-HU', 'en-US'], // Hungarian/Magyar
-    'tr': ['tr-TR', 'en-US'] // Turkish/Türkçe
+export const allowedLocales = {
+    fr: 'fr-FR', // French/Français
+    de: 'de-DE' // German/Deutsch
+    // 'it': 'it-IT', // Italian/Italiano
+    // 'no': 'no-NO', // Norwegian/Norsk
+    // 'nl': 'nl-NL', // Dutch/Nederlands
+    // 'es-ES': 'es-ES', // Spanish/Español
+    // 'uk': 'uk-UA', // Ukrainian/Українська
+    // 'pt-BR': 'pt-BR', // Portuguese/Português
+    // 'tr': 'tr-TR', // Turkish/Türkçe
+    // 'hu': 'hu-HU' // Hungarian/Magyar
 };
+
+export const fallbackLng = Object.fromEntries(Object.entries(allowedLocales).map(([lngCode, locale]) => [lngCode, [locale, 'en-US']]));
 
 export const defaultOptions: InitOptions = {
     debug: false,
@@ -19,6 +21,6 @@ export const defaultOptions: InitOptions = {
     load: 'currentOnly',
     defaultNS: 'translation',
     ns: ['translation'],
-    fallbackLng: { ...fallbackLng, default: ['en-US'] },
-    preload: ['en-US', 'en-GB', 'es-ES', 'fr-FR', 'nl-NL', 'it-IT', 'de-DE', 'no-NO', 'pt-BR', 'tr-TR', 'hu-HU']
+    preload: ['en-US', 'en-GB', ...Object.values(allowedLocales)],
+    fallbackLng: { ...fallbackLng, default: ['en-US'] }
 };
