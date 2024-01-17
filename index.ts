@@ -2,8 +2,8 @@ import { InitOptions } from 'i18next';
 
 export const allowedLocales = {
     fr: 'fr-FR', // French/Français
-    de: 'de-DE' // German/Deutsch
-    // 'it': 'it-IT', // Italian/Italiano
+    de: 'de-DE', // German/Deutsch
+    it: 'it-IT' // Italian/Italiano
     // 'no': 'no-NO', // Norwegian/Norsk
     // 'nl': 'nl-NL', // Dutch/Nederlands
     // 'es-ES': 'es-ES', // Spanish/Español
