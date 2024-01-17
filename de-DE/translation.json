@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Für die angegebene Eingabe wurden auf diesem Server keine Clans gefunden! \nVerwenden Sie den {{command}} Befehl, um einen Clan zu verknüpfen.",
     "no_clans_linked": "Mit diesem Server sind keine Clans verbunden. Warum nicht einige verlinken? \nVerwenden Sie {{command}} Befehl, um einen Clan zu verknüpfen.",
-    "clan_limit": "Die maximale Anzahl an Clans ist erreicht. Bitte unterstütze uns auf unserem [Patreon](https://patreon. om/clashperk), um mehr als zwei Clans hinzuzufügen.\n\nBereits ein Patron? Benutze den Befehl {{command}} `/redeem`.",
-    "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden. \n\nDu bist bereits Patron? Dann nutze den {{command}}(/redeem) Befehl.",
+    "clan_limit": "Die maximale Anzahl an Clans ist erreicht. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um mehr als zwei Clans hinzuzufügen.\n\nBereits ein Patron? Benutze den Befehl {{command}}.",
+    "patron_only": "Dieser Befehl ist nur auf Patron-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu verwenden. \n\nDu bist bereits Patron? Dann nutze den {{command}} Befehl.",
     "clan_verification": "Wir müssen sicherstellen, dass Sie ein Anführer oder Co-Anführer dieses Clans sind. Bitte verifizieren Sie Ihr Spielerkonto mit dem API-Token.\nVerwenden Sie den Befehl {{command}}, um Ihr Spielerkonto zu verifizieren. Das API-Token ist in den Spieleinstellungen verfügbar.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
     "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
@@ -111,7 +111,7 @@
       "description": "Zeigt Clanstadt-Beiträge und -Überfälle.",
       "contribution": {
         "description": "Zeigt Clanstadt Beiträge.",
-        "description_long": "Shows clan capital contribution of clan members.",
+        "description_long": "Zeigt den Clanstadt Beiträge von Clanmitgliedern (Benutze #Spielerkürzel oder Benutzerfeld, um den Beitragsverlauf eines Spielers zu sehen)",
         "title": "Zeigt Clanstadtbeiträge",
         "options": {
           "tag": {
@@ -127,7 +127,7 @@
       },
       "raids": {
         "description": "Zeigt Überfälle auf Clankapital.",
-        "description_long": "Shows raid weekend scores of clan members.",
+        "description_long": "Zeigt den Clanstadtbeiträge von Clanmitgliedern (Benutze #Spielerkürzel oder Benutzerfeld, um den Beitragsverlauf eines Spielers zu sehen)",
         "title": "Clankapital-Raids",
         "options": {
           "tag": {
@@ -209,7 +209,7 @@
       "description_long": "Allgemeine Servereinstellungen konfigurieren (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
-          "description": "Hex-Farbcode (z.B. #ed4245) [Patreon]"
+          "description": "Hex-Farbcode (z.B. #ed4245)"
         },
         "events_channel": {
           "description": "Clash-bezogener Event Channel."
@@ -463,14 +463,14 @@
       "invalid_token": "Sie müssen ein gültiges API-Token angeben, der in den Spieleinstellungen zu finden ist.\nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Set your timezone offset.",
+      "description": "Verändere deine Zeitzone.",
       "description_long": "Stellen Sie Ihren Zeitzonenversatz für den Befehl /activity ein.",
       "options": {
         "location": {
           "description": "Suche nach Land- oder Stadtnamen (wir speichern deinen Standort nicht, nur Zeitzone z.B. GMT+ 5:00)"
         }
       },
-      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
+      "set": "Bitte stellen Sie Ihre Zeitzone mit dem Befehl `/timezone` ein. Es ermöglicht Ihnen, die Grafiken in Ihrer Zeitzone anzuzeigen.",
       "no_result": "Gestalten Sie Ihre Suche genauer und versuchen Sie es erneut."
     },
     "profile": {
@@ -624,7 +624,7 @@
     },
     "donations": {
       "description": "Zeigt Spenden von Clanmitgliedern an.",
-      "description_long": "Displays donation/received of clan members.",
+      "description_long": "Zeigt Spenden/Erhaltene von Clanmitgliedern an (verwende player_tag oder Benutzerfeld, um den Spenden-/Erhaltenen-Verlauf eines Spielers zu sehen)",
       "no_season_data": "Für Saison {{season}} wurden keine Daten gefunden.",
       "options": {
         "tag": {
