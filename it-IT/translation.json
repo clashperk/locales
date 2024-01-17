@@ -1,9 +1,9 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
+    "no_clans_found": "Nessun clan trovato su questo server per l'input specificato! \nUsa {{command}} per collegare un clan.",
     "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.",
+    "clan_limit": "Il numero massimo di clan è stato raggiunto. Per favore, considera di sostenerci sul nostro [Patreon](https://patreon.com/clashperk) per aggiungere più di due clan.\n\nSei già un patron? Usa il comando {{command}}.",
+    "patron_only": "Questo comando è disponibile solo sui server dei nostri Patron. Per utilizzare questo comando, ti preghiamo di considerare di sostenerci sul nostro [Patreon](https://patreon.com/clashperk).\n\nSei già un patron? Usa il comando {{command}}.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Qualcosa è andato storto durante l'esecuzione di questo comando. (opzione non trovata)",
     "no_data": "Al momento non sono disponibili dati. Stiamo ancora raccogliendo!",
@@ -14,7 +14,7 @@
       "expired": "Questo componente non è più attivo. Eseguire nuovamente il comando.",
       "unauthorized": "È necessario eseguire il comando per interagire con i componenti."
     },
-    "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
+    "no_clan_tag_first_time": "Per eseguire questo comando è necessario fornire un tag del clan!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
     "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
     "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
@@ -26,7 +26,7 @@
       "404": "Nessuna corrispondenza trovata per il tag specificato.",
       "429": "La richiesta è stata limitata perché il numero di richieste era superiore alla soglia definita per il token API usato.",
       "500": "Si è verificato un errore sconosciuto durante la gestione della richiesta.",
-      "503": "Service is temporarily unavailable because of maintenance break in the game.",
+      "503": "Il servizio è temporaneamente non disponibile a causa della manutenzione.",
       "504": "Timeout della richiesta 504."
     },
     "clan_tag_argument": "Tag o alias del clan o menzione @utente.",
@@ -41,38 +41,38 @@
     "color_code": "Codice colore",
     "options": {
       "tag": {
-        "description": "Clan tag or name or alias."
+        "description": "Tag o nome o alias del clan."
       },
       "clan": {
         "tag": {
-          "description": "Clan tag or name or alias."
+          "description": "Tag o nome o alias del clan."
         },
         "user": {
-          "description": "Clan by @user mention or ID."
+          "description": "Clan tramite ID o menzione @utente."
         }
       },
       "user": {
-        "description": "Clan by @user mention or ID."
+        "description": "Clan tramite ID o menzione @utente."
       },
       "player": {
         "tag": {
-          "description": "Player tag or name."
+          "description": "Tag o nome del giocatore."
         },
         "user": {
-          "description": "Player by @user mention or ID."
+          "description": "Clan tramite ID o menzione @utente."
         }
       }
     },
     "labels": {
-      "clan_games": "Clan Games",
-      "clan_games_ending": "Clan Games (Ending)",
+      "clan_games": "Giochi dei clan",
+      "clan_games_ending": "Giochi dei clan (Fine)",
       "cwl": "CWL",
-      "cwl_end": "CWL (Ending)",
-      "cwl_signup_ending": "CWL Signup (Ending)",
-      "league_reset": "League Reset",
-      "season_end": "Season End",
-      "raid_weekend": "Raid Weekend",
-      "raid_weekend_ending": "Raid Weekend (Ending)"
+      "cwl_end": "CWL (Fine)",
+      "cwl_signup_ending": "Iscrizione CWL (Fine)",
+      "league_reset": "Fine Lega",
+      "season_end": "Fine della Stagione",
+      "raid_weekend": "Weekend degli assalti",
+      "raid_weekend_ending": "Weekend degli assalti (fine)"
     }
   },
   "component": {
@@ -110,24 +110,24 @@
     "capital": {
       "description": "Mostra i contributi alla capitale del clan e le incursioni.",
       "contribution": {
-        "description": "Shows clan capital contributions.",
-        "description_long": "Shows clan capital contribution of clan members.",
-        "title": "Clan Capital Contributions",
+        "description": "Mostra i contributi alla capitale del clan.",
+        "description_long": "Mostra i contributi alla capitale del clan dei membri.",
+        "title": "Contributi alla capitale del clan",
         "options": {
           "tag": {
             "description": "Tag o alias del clan o menzione @utente."
           },
           "week": {
-            "description": "The week to show contributions for."
+            "description": "La settimana per mostrare i contributi per."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "La stagione da mostrare i contributi per."
           }
         }
       },
       "raids": {
         "description": "Mostra le incursioni nella capitale del clan.",
-        "description_long": "Shows raid weekend scores of clan members.",
+        "description_long": "Mostra i punteggi della fine del weekend degli assalti dei membri del clan.",
         "title": "Incursioni nella capitale del clan",
         "options": {
           "tag": {
@@ -144,14 +144,14 @@
       }
     },
     "legend": {
-      "description": "Shows per-day legend stats for a clan.",
+      "description": "Mostra le statistiche della lega leggende giornaliera per un clan.",
       "attacks": {
-        "description": "Shows the legend of the clan for attacks.",
-        "description_long": "Shows per-day legend stats for a clan."
+        "description": "Mostra la leggenda degli attacchi del clan.",
+        "description_long": "Mostra le statistiche della lega leggende giornaliera per un clan."
       },
       "days": {
-        "description": "Shows the legend of the clan for days.",
-        "description_long": "Shows per-day legend stats for a player or an user."
+        "description": "Mostra la leggenda degli attacchi del clan.",
+        "description_long": "Mostra le statistiche della lega leggende giornaliera per un clan."
       }
     },
     "lastseen": {
@@ -206,19 +206,19 @@
     },
     "config": {
       "description": "Configurare le impostazioni del server.",
-      "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
+      "description_long": "Configura le impostazioni generali del server (color_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
-          "description": "Hex color code (e.g #ed4245)"
+          "description": "Codice colore esadecimale (ad esempio #ed4245) [Solo Patron]"
         },
         "events_channel": {
           "description": "Canale di eventi relativi a Clash of Clans."
         },
         "manager_role": {
-          "description": "Role that can manage the bot."
+          "description": "Ruolo che può gestire il bot."
         },
         "roster_manager_role": {
-          "description": "Role that can manage the roster members."
+          "description": "Ruolo che può gestire i membri del roster."
         }
       },
       "no_text_channel": "È necessario specificare un canale di testo per abilitare questo registro eventi.",
@@ -244,8 +244,8 @@
       "no_rounds": "Nessun round CWL è stato ancora giocato, riprova tra un pò.",
       "no_season_data": "Non sono disponibili statistiche CWL per la stagione {{season}}.",
       "attacks": {
-        "description": "Shows an overview of attacks for different CWL rounds.",
-        "description_long": "Shows an overview of attacks for different CWL rounds."
+        "description": "Panoramica degli attacchi CWL.",
+        "description_long": "Panoramica degli attacchi CWL."
       },
       "lineup": {
         "description": "Shows CWL lineup for a round (sorted by town hall and heroes).",
