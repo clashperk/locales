@@ -1,10 +1,10 @@
 {
   "common": {
     "no_clans_found": "Nessun clan trovato su questo server per l'input specificato! \nUsa {{command}} per collegare un clan.",
-    "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
+    "no_clans_linked": "Nessun clan trovato su questo server per l'input specificato! \nUsa {{command}} per collegare un clan.",
     "clan_limit": "Il numero massimo di clan è stato raggiunto. Per favore, considera di sostenerci sul nostro [Patreon](https://patreon.com/clashperk) per aggiungere più di due clan.\n\nSei già un patron? Usa il comando {{command}}.",
     "patron_only": "Questo comando è disponibile solo sui server dei nostri Patron. Per utilizzare questo comando, ti preghiamo di considerare di sostenerci sul nostro [Patreon](https://patreon.com/clashperk).\n\nSei già un patron? Usa il comando {{command}}.",
-    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
+    "clan_verification": "Dobbiamo assicurarci che tu sia un leader o un co-leader di questo clan. Verifica il tuo account giocatore con il token API.\nUsa il comando `/verify` per verificare il tuo account giocatore. Il token API è disponibile nelle impostazioni di gioco.\n\nIn alternativa, è possibile aggiungere un codice temporaneo `{{code}}` nella descrizione del clan. Quindi attendere 1-2 minuti ed eseguire nuovamente il comando. Una volta verificato, si può tranquillamente rimuovere il codice.",
     "no_option": "Qualcosa è andato storto durante l'esecuzione di questo comando. (opzione non trovata)",
     "no_data": "Al momento non sono disponibili dati. Stiamo ancora raccogliendo!",
     "no_clan_data": "Non ci sono dati disponibili per {{clan}}. Stiamo ancora raccogliendo!",
@@ -15,11 +15,11 @@
       "unauthorized": "È necessario eseguire il comando per interagire con i componenti."
     },
     "no_clan_tag_first_time": "Per eseguire questo comando è necessario fornire un tag del clan!",
-    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
-    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
-    "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
-    "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
+    "no_clan_tag": "Per eseguire questo comando è necessario fornire un tag del clan!",
+    "no_player_tag": "Per eseguire questo comando è necessario fornire un tag giocatore!",
+    "clan_not_linked": "Nessun clan è collegato a {{user}}.",
+    "player_not_linked": "Nessun giocatore è collegato a {{user}}.",
+    "guild_unauthorized": "Questo server non è autorizzato per {{clan}}. Usa il comando `/setup` per collegare il clan.",
     "status_code": {
       "400": "Il client ha fornito parametri errati per la richiesta.",
       "403": "Il token API non consente l'accesso alla risorsa richiesta.",
@@ -168,8 +168,8 @@
     "alias": {
       "description": "Crea, elimina o visualizza gli alias dei clan.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Crea un alias per il clan.",
+        "description_long": "Crea un alias per il clan.",
         "options": {
           "name": {
             "description": "Alias."
@@ -248,8 +248,8 @@
         "description_long": "Panoramica degli attacchi CWL."
       },
       "lineup": {
-        "description": "Shows CWL lineup for a round (sorted by town hall and heroes).",
-        "description_long": "Shows CWL lineup for a round (sorted by town hall and heroes)."
+        "description": "Nessuna descrizione.",
+        "description_long": "Nessuna descrizione."
       },
       "members": {
         "description": "Mostra un elenco di tutti i partecipanti alla CWL.",
@@ -355,7 +355,7 @@
       "description": "Crea, elimina o cerca le bandiere dei giocatori.",
       "create": {
         "description": "Crea una bandiera del giocatore.",
-        "description_long": "Create a player flag to mark the player as banned or flagged.",
+        "description_long": "Crea una bandiera giocatore per contrassegnare il giocatore come bannato o segnalato.",
         "options": {
           "tag": {
             "description": "Il tag di un giocatore da contrassegnare."
@@ -450,7 +450,7 @@
     },
     "verify": {
       "description": "Verifica e collega un giocatore usando un token API.",
-      "description_long": "Verify and link a player account using an API token.",
+      "description_long": "Verifica e collega un giocatore usando un token API.",
       "options": {
         "tag": {
           "description": "Tag del giocatore da verificare."
@@ -484,7 +484,7 @@
     },
     "nickname": {
       "description": "Scegli un soprannome dalla lista dei giocatori collegati.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
+      "description_long": "Rinomina gli utenti con un nickname selezionato dall'elenco dei giocatori collegati.",
       "options": {
         "user": {
           "description": "ID utente o menzione Utente."
@@ -504,7 +504,7 @@
         "description_long": "Crea promemoria per guerre di clan, raid di capitali o giochi di clan.",
         "options": {
           "duration": {
-            "description": "Remaining duration to mention war members (Multiple of 15 mins e.g. 15m, 30m, 1h, 1.25h, 1.5h)"
+            "description": "Durata rimanente per menzionare i membri di guerra (Multipli di 15, ad esempio 15m, 30m, 1h, 1.5h)"
           },
           "message": {
             "description": "Messaggio di promemoria per la notifica."
@@ -517,22 +517,22 @@
           }
         },
         "max_limit": "È possibile avere solo 25 promemoria.",
-        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
+        "invalid_duration_format": "La durata deve essere in un formato valido. Ad esempio 2h, 2,5h, 30m",
         "no_message": "È necessario specificare un messaggio per eseguire questo comando.",
         "duration_limit": "La durata deve essere superiore a 15 minuti e inferiore a 45 ore.",
-        "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
+        "duration_order": "La durata deve essere un multiplo di 15 minuti, ad esempio 15m, 30m, 45m, 1h, 1,25h, 1,5h, 1,75h",
         "too_many_clans": "Il menu di selezione del Clan non è disponibile per più di 25 Clan. {{clans}} Clan sono stati selezionati automaticamente!\nPer creare un promemoria per Clan specifici, inserisci i tag o gli alias del Clan tramite l'opzione «Clan» mentre esegui il comando.",
         "missing_access": "Mi manca {{permission}} in {{channel}} per eseguire questo comando.",
         "too_many_webhooks": "Troppi webhook in {{channel}}.",
         "success": "Il salvataggio è andato a buon fine!"
       },
       "edit": {
-        "description": "Edit a reminder by ID (do /reminders list to get the ID)",
-        "description_long": "Edit a reminder by ID (do */reminders list* to get the ID)"
+        "description": "Modifica un promemoria per ID (inserisci */reminders list* per ottenere l'ID)",
+        "description_long": "Modifica un promemoria per ID (inserisci */reminders list* per ottenere l'ID)"
       },
       "delete": {
-        "description": "Delete a reminder by ID (do /reminders list to get the ID)",
-        "description_long": "Delete a reminder by ID (do */reminders list* to get the ID)",
+        "description": "Elimina un promemoria per ID (inserisci */reminders list* per ottenere l'ID)",
+        "description_long": "Elimina un promemoria per ID (inserisci */reminders list* per ottenere l'ID)",
         "options": {
           "id": {
             "description": "ID promemoria."
@@ -543,8 +543,8 @@
         },
         "no_reminders": "Non hai alcun promemoria.",
         "cleared": "Tutti i promemoria sono stati cancellati con successo.",
-        "not_found": "No reminder was found with the ID {{id}}.",
-        "success": "Successfully deleted the reminder with the ID {{id}}.",
+        "not_found": "Non è stato trovato alcun promemoria con l'ID {{id}}.",
+        "success": "Eliminato con successo il promemoria con l'ID {{id}}.",
         "too_many_reminders": "Se hai troppi promemoria, fornisci un ID promemoria."
       },
       "list": {
@@ -647,7 +647,7 @@
     },
     "members": {
       "description": "Ottieni un elenco dei membri del clan con eroi, trofei, preferenze di guerra e molto altro.",
-      "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
+      "description_long": "Elenca i membri del clan ordinati per eroi, trofei, preferenze di guerra, collegamenti discord, ruoli nel clan, tag dei giocatori, attacchi, ecc.",
       "options": {
         "tag": {
           "description": "Tag o alias del clan o menzione @utente."
@@ -770,7 +770,7 @@
     },
     "warlog": {
       "description": "Mostra gli ultimi 10 registri di guerra tra clan.",
-      "description_long": "Shows last 10 war logs of a clan.",
+      "description_long": "Mostra una panormica delle ultime 10 guerre di un clan.",
       "options": {
         "tag": {
           "description": "Tag o alias del clan o menzione @utente."
@@ -781,7 +781,7 @@
       "description": "Abilita/disabilita le funzionalità sul server o aggiungi/rimuovi clan.",
       "enable": {
         "description": "Abilita una funzionalità sul server o aggiungi un clan.",
-        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
+        "description_long": "Abilita una funzionalità sul server (Feed di guerra, Ultimo accesso, Giochi dei clan, Registro delle leggende, Registro della capitale, Feed del clan, Registro di adesione/abbandono, Incorporamento del clan, Registro delle donazioni) oppure aggiungi un clan o collega un clan a un canale.",
         "options": {
           "option": {
             "description": "Seleziona un'opzione."
@@ -843,13 +843,13 @@
     },
     "autorole": {
       "description": "Abilita/disabilita la funzione di ruolo automatico che assegna ruoli in base al ruolo nel clan.",
-      "no_roles": "You must specify 4 roles to execute this command.",
-      "no_system_roles": "System managed or bot roles are not allowed.",
+      "no_roles": "È necessario specificare 4 ruoli per eseguire questo comando.",
+      "no_system_roles": "I ruoli gestiti dal sistema o dai bot non sono consentiti.",
       "no_higher_roles": "Il mio ruolo più alto deve essere superiore ai ruoli indicati.",
       "invalid_clan_tag": "Il tag del clan specificato non è valido.",
-      "roles_already_used": "Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.",
+      "roles_already_used": "Alcuni ruoli sono già stati utilizzati per un altro clan. \nConsidera di supportarci su [Patreon](https://patreon.com/clashperk) per utilizzare gli stessi ruoli per più clan.",
       "clan_not_linked": "Il clan deve essere collegato al server per abilitare i ruoli automatici.",
-      "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}",
+      "success_with_count": "Ruolo automatico abilitato con successo per {{count}} clan. \n{{clans}}",
       "clan_roles": {
         "description": "Gestisci la gestione automatica dei ruoli per i ruoli del clan.",
         "description_long": "Gestisci la gestione automatica dei ruoli per i ruoli del clan.",
@@ -861,7 +861,7 @@
             "description": "Il ruolo degli anziani."
           },
           "co_lead": {
-            "description": "The Co-Leader role."
+            "description": "Il ruolo dei co-capo."
           },
           "leader": {
             "description": "Il ruolo di Capo (può scegliere lo stesso ruolo di Co-Capo)"
@@ -873,7 +873,7 @@
             "description": "Ruolo comune per tutti i membri del clan."
           },
           "only_verified": {
-            "description": "Roles will be given to the verified players only. (API token verification is required)"
+            "description": "I ruoli verranno assegnati solo ai giocatori verificati. (È richiesta la verifica del token API)"
           }
         }
       },
