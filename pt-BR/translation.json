@@ -317,7 +317,7 @@
           "description": "Selecione uma opção."
         },
         "season": {
-          "description": "A temporada para exportar."
+          "description": "Retrieve data since the specified season."
         },
         "clans": {
           "description": "Tags ou apelidos de clã para filtrar clãs."
@@ -721,7 +721,7 @@
           "description": "Tipo de Guerra [por exemplo, Normal, CWL, Amistosa] (Padrão: Normal e CWL)"
         },
         "season": {
-          "description": "Limite os dados aos últimos X meses."
+          "description": "Retrieve data since the specified season."
         },
         "attempt": {
           "description": "Novos ataques ou ataques de limpeza. (Padrão: Ambos)"
@@ -910,7 +910,7 @@
           "description": "Selecione uma opção."
         },
         "season": {
-          "description": "ID da temporada para resumo do clã."
+          "description": "Retrieve data since the specified season."
         }
       },
       "compo": {

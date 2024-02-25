@@ -317,7 +317,7 @@
           "description": "Selecciona una opción."
         },
         "season": {
-          "description": "La temporada a exportar."
+          "description": "Retrieve data since the specified season."
         },
         "clans": {
           "description": "Etiquetas o apodos de clan para filtrar entre clanes."
@@ -721,7 +721,7 @@
           "description": "Tipo de guerra [Ejemplo: Normal, Liga, Amistosa] (Por defecto: Normal y Liga)"
         },
         "season": {
-          "description": "Limite los datos a los últimos X meses."
+          "description": "Retrieve data since the specified season."
         },
         "attempt": {
           "description": "Ataques nuevos o ataques de limpieza. (Por defecto: Ambos)"
@@ -910,7 +910,7 @@
           "description": "Selecciona una opción."
         },
         "season": {
-          "description": "ID de la temporada."
+          "description": "Retrieve data since the specified season."
         }
       },
       "compo": {

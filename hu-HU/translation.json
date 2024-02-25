@@ -317,7 +317,7 @@
           "description": "Válassz egy lehetőséget."
         },
         "season": {
-          "description": "Az exportálandó szezon."
+          "description": "Retrieve data since the specified season."
         },
         "clans": {
           "description": "Klán címkék (klán tag)-ek a klánok szűréséhez."
@@ -721,7 +721,7 @@
           "description": "Háború (War) Típusa [pl. Regular, CWL, Friendly] (Alapértelmezett: Regular és CWL)"
         },
         "season": {
-          "description": "Korlátozza az adatokat az elmúlt X hónapra."
+          "description": "Retrieve data since the specified season."
         },
         "attempt": {
           "description": "Alap (Fresh) támadások vagy javító (Cleanup) támadások. (Alapértelmezett: Mindkettő)"
@@ -910,7 +910,7 @@
           "description": "Válassz egy lehetőséget."
         },
         "season": {
-          "description": "Szezon azonosító (ID) a klán összefoglalóhoz."
+          "description": "Retrieve data since the specified season."
         }
       },
       "compo": {

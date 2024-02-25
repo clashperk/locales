@@ -317,7 +317,7 @@
           "description": "Wähle eine Option."
         },
         "season": {
-          "description": "Saison zu exportieren."
+          "description": "Retrieve data since the specified season."
         },
         "clans": {
           "description": "Clankürzel oder Aliase zum Filtern von Clans."
@@ -721,7 +721,7 @@
           "description": "Kriegstyp [z.B. Regulär, CWL, freundschaftlich] (Standardeinstellung: Regulär und CWL)"
         },
         "season": {
-          "description": "Beschränken Sie die Daten auf die letzten X Monate."
+          "description": "Retrieve data since the specified season."
         },
         "attempt": {
           "description": "Neue Angriffe oder Verbesserungsangriffe. (Standard: Beide)"
@@ -910,7 +910,7 @@
           "description": "Wählen Sie eine Option aus."
         },
         "season": {
-          "description": "Saison-ID für Clan-Zusammenfassung."
+          "description": "Retrieve data since the specified season."
         }
       },
       "compo": {
