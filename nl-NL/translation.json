@@ -317,7 +317,7 @@
           "description": "Selecteer een optie."
         },
         "season": {
-          "description": "Het seizoen om te exporteren."
+          "description": "Retrieve data since the specified season."
         },
         "clans": {
           "description": "Clan tags of aliassen om clans te filteren."
@@ -721,7 +721,7 @@
           "description": "Oorlogstype [bijv. Normaal, CWL, Vriendelijk] (Standaard: Normaal en CWL)"
         },
         "season": {
-          "description": "Beperk de gegevens tot de laatste X maanden."
+          "description": "Retrieve data since the specified season."
         },
         "attempt": {
           "description": "Nieuwe aanvallen of opruimingsaanvallen. (Standaard: Beide)"
@@ -910,7 +910,7 @@
           "description": "Selecteer een optie."
         },
         "season": {
-          "description": "Seizoen-ID voor clanoverzicht."
+          "description": "Retrieve data since the specified season."
         }
       },
       "compo": {
