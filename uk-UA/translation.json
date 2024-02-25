@@ -317,7 +317,7 @@
           "description": "Оберіть варіант."
         },
         "season": {
-          "description": "Сезон для експорту."
+          "description": "Retrieve data since the specified season."
         },
         "clans": {
           "description": "Теги або псевдоніми клану для фільтрації."
@@ -721,7 +721,7 @@
           "description": "Тип війни [наприклад, Звичайна, Ліга Кланових Війн, Товариська] (За замовчуванням: Звичайна та ЛКВ)"
         },
         "season": {
-          "description": "Обмеження інформації за останні Х місяців."
+          "description": "Retrieve data since the specified season."
         },
         "attempt": {
           "description": "Свіжі атаки або атаки на 3 зірки. (За замовчуванням: обидва)"
@@ -910,7 +910,7 @@
           "description": "Оберіть варіант."
         },
         "season": {
-          "description": "ID сезону клану для винесення підсумку."
+          "description": "Retrieve data since the specified season."
         }
       },
       "compo": {
