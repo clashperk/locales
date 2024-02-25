@@ -317,7 +317,7 @@
           "description": "Bir seçenek seçin."
         },
         "season": {
-          "description": "Aktarılacak sezon."
+          "description": "Retrieve data since the specified season."
         },
         "clans": {
           "description": "Klanları filtrelemek için etiketleri veya lakapları."
@@ -721,7 +721,7 @@
           "description": "Savaş türü [Örn. Normal, KS Ligi, Dostluk] (Varsayılan: Normal ve KS Ligi)"
         },
         "season": {
-          "description": "Verileri son X ayla sınırlayın."
+          "description": "Retrieve data since the specified season."
         },
         "attempt": {
           "description": "Sıfırdan saldırılar veya tamamlama saldırıları (Varsayılan: İkisi de)"
@@ -910,7 +910,7 @@
           "description": "Bir seçenek seçin."
         },
         "season": {
-          "description": "Klan özeti için sezon kimliği."
+          "description": "Retrieve data since the specified season."
         }
       },
       "compo": {
