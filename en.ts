@@ -319,7 +319,7 @@ export const command = {
                 description: 'Select an option.'
             },
             season: {
-                description: 'The season to export.'
+                description: 'Retrieve data since the specified season.'
             },
             clans: {
                 description: 'Clan tags or aliases to filter clans.'
@@ -725,7 +725,7 @@ export const command = {
                 description: 'War Type [e.g. Regular, CWL, Friendly] (Default: Regular and CWL)'
             },
             season: {
-                description: 'Limit the data to the last X months.'
+                description: 'Retrieve data since the specified season.'
             },
             attempt: {
                 description: 'Fresh attacks or clean-up attacks. (Default: Both)'
@@ -916,7 +916,7 @@ export const command = {
                 description: 'Select an option.'
             },
             season: {
-                description: 'Season ID for clan summary.'
+                description: 'Retrieve data since the specified season.'
             }
         },
         compo: {
