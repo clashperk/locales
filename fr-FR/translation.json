@@ -317,7 +317,7 @@
           "description": "Sélectionnez une option."
         },
         "season": {
-          "description": "Retrieve data since the specified season."
+          "description": "Récupère les données depuis la saison spécifiée."
         },
         "clans": {
           "description": "Identifiants de clan ou alias pour filtrer les clans."
@@ -721,7 +721,7 @@
           "description": "Type de guerre [ex. Normale, Ligue, Amicale] (par défaut : Normale et Ligue)"
         },
         "season": {
-          "description": "Retrieve data since the specified season."
+          "description": "Récupère les données depuis la saison spécifiée."
         },
         "attempt": {
           "description": "Nouvelles attaques ou attaques de perf. (par défaut : les deux)"
@@ -910,7 +910,7 @@
           "description": "Sélectionnez une option."
         },
         "season": {
-          "description": "Retrieve data since the specified season."
+          "description": "Récupère les données depuis la saison spécifiée."
         }
       },
       "compo": {
