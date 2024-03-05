@@ -513,7 +513,7 @@
             "description": "Tag o alias del clan. (inserisci * per includere tutti i clan)"
           },
           "channel": {
-            "description": "Messaggio di promemoria per la notifica."
+            "description": "Reminder channel for the notification."
           }
         },
         "max_limit": "È possibile avere solo 25 promemoria.",
