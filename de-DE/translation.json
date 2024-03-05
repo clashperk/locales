@@ -513,7 +513,7 @@
             "description": "Clankürzel oder Aliase. (* drücken, um alle Clans einzubeziehen)"
           },
           "channel": {
-            "description": "Erinnerungsnachricht für die Benachrichtigung."
+            "description": "Reminder channel for the notification."
           }
         },
         "max_limit": "Du kannst nur 25 Erinnerungen haben.",
