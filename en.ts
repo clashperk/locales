@@ -515,7 +515,7 @@ export const command = {
                     description: 'Clan tags or aliases. (enter * to include all clans)'
                 },
                 channel: {
-                    description: 'Reminder message for the notification.'
+                    description: 'Reminder channel for the notification.'
                 }
             },
             max_limit: 'You can only have 25 reminders.',
