@@ -855,7 +855,7 @@
         "description_long": "Gérer la fonction auto-rôle pour les rôles dans le clan.",
         "options": {
           "member": {
-            "description": "Le rôle de Membre."
+            "description": "The Member role (below Elder)"
           },
           "elder": {
             "description": "Le rôle d'Aîné."
@@ -864,7 +864,7 @@
             "description": "Le rôle de Chef-adjoint."
           },
           "leader": {
-            "description": "Le rôle de Chef (Peut choisir le même rôle que le Chef-adjoint)"
+            "description": "The Leader role."
           },
           "clans": {
             "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
