@@ -855,7 +855,7 @@
         "description_long": "Gestisci la gestione automatica dei ruoli per i ruoli del clan.",
         "options": {
           "member": {
-            "description": "Il ruolo dei membri."
+            "description": "The Member role (below Elder)"
           },
           "elder": {
             "description": "Il ruolo degli anziani."
@@ -864,7 +864,7 @@
             "description": "Il ruolo dei co-capo."
           },
           "leader": {
-            "description": "Il ruolo di Capo (può scegliere lo stesso ruolo di Co-Capo)"
+            "description": "The Leader role."
           },
           "clans": {
             "description": "Tag o alias del clan. (inserisci * per includere tutti i clan)"
