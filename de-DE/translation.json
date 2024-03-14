@@ -855,7 +855,7 @@
         "description_long": "Verwalten Sie die automatische Rollenverwaltung für Clanrollen.",
         "options": {
           "member": {
-            "description": "Die Rolle des Mitglieds."
+            "description": "The Member role (below Elder)"
           },
           "elder": {
             "description": "Die Ältesten Rolle."
@@ -864,7 +864,7 @@
             "description": "Die Vize-Anführer Rolle."
           },
           "leader": {
-            "description": "Die Anführer-Rolle (kann dieselbe Rolle wie der Vize-Anführer wählen)"
+            "description": "The Leader role."
           },
           "clans": {
             "description": "Clankürzel oder Aliase. (* drücken, um alle Clans einzubeziehen)"
