@@ -855,7 +855,7 @@
         "description_long": "Gérer la fonction auto-rôle pour les rôles dans le clan.",
         "options": {
           "member": {
-            "description": "The Member role (below Elder)"
+            "description": "Le rôle de Membre (en dessous du rôle d'Aîné)"
           },
           "elder": {
             "description": "Le rôle d'Aîné."
