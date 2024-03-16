@@ -864,7 +864,7 @@
             "description": "Le rôle de Chef-adjoint."
           },
           "leader": {
-            "description": "The Leader role."
+            "description": "Le rôle de Chef."
           },
           "clans": {
             "description": "Identifiants de clan ou alias. (saisir * pour inclure tous les clans)"
