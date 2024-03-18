@@ -423,7 +423,7 @@
         "prompt": "¿Qué te gustaría vincular? ¿Un jugador o un clan?",
         "success": "Se ha vinculado correctamente {{target}} a {{user}}.",
         "link_exists": "{{player}} Ya ha sido vinculado.",
-        "already_linked": "{{player}} Ya ha sido vinculado a otro usuario. Si usted es el verdadero propietario de esta cuenta, utilice el comando `/verify`.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "Has alcanzado el límite máximo de cuentas. (25 cuentas por usuario)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "No se encontraron resultados con la etiqueta {{tag}}.",
         "success": "Se ha eliminado correctamente el enlace con la etiqueta {{tag}}.",
-        "no_access": "Este jugador debe estar en tu clan y debe ser el Líder o uno de los Colideres \"Verificados\" para llevar a cabo esta acción."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "Lista de todos los enlaces de jugadores.",
