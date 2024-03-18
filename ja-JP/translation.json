@@ -423,7 +423,7 @@
         "prompt": "What would you like to link? A Player or a Clan?",
         "success": "Successfully linked {{target}} to {{user}}.",
         "link_exists": "{{player}} is already linked.",
-        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the `/verify` command.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "The maximum account limit has been reached. (25 accounts/user)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "No matches were found with the tag {{tag}}.",
         "success": "Successfully deleted the link with the tag {{tag}}.",
-        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "List all player links.",
@@ -513,7 +513,7 @@
             "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "channel": {
-            "description": "Reminder message for the notification."
+            "description": "Reminder channel for the notification."
           }
         },
         "max_limit": "You can only have 25 reminders.",
@@ -855,7 +855,7 @@
         "description_long": "Manage automatic role management for clan roles.",
         "options": {
           "member": {
-            "description": "The Member role."
+            "description": "The Member role (below Elder)"
           },
           "elder": {
             "description": "The Elder role."
@@ -864,7 +864,7 @@
             "description": "The Co-Leader role."
           },
           "leader": {
-            "description": "The Leader role (Can choose the same role as Co-Leader)"
+            "description": "The Leader role."
           },
           "clans": {
             "description": "Clan tags or aliases. (enter * to include all clans)"

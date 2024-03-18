@@ -423,7 +423,7 @@
         "prompt": "O que você gostaria de vincular? Um Jogador ou um Clã?",
         "success": "Vinculado com sucesso {{target}} à {{user}}.",
         "link_exists": "{{player}} já está vinculado.",
-        "already_linked": "{{player}} já está vinculado a outro usuário. Se você é dono dessa conta, use o comando `/verify`.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "O limite máximo de conta foi atingido. (25 contas/usuários)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "Não foram encontradas correspondências com a tag {{tag}}.",
         "success": "Excluído com sucesso o vínculo com a tag {{tag}}.",
-        "no_access": "Este jogador deve estar no seu clã e você deve ser um Co-líder “Verificado” para realizar esta ação."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "Liste todas vinculos de jogadores.",
@@ -513,7 +513,7 @@
             "description": "Clan tags or aliases. (enter * to include all clans)"
           },
           "channel": {
-            "description": "Reminder message for the notification."
+            "description": "Reminder channel for the notification."
           }
         },
         "max_limit": "You can only have 25 reminders.",
@@ -855,7 +855,7 @@
         "description_long": "Manage automatic role management for clan roles.",
         "options": {
           "member": {
-            "description": "The Member role."
+            "description": "The Member role (below Elder)"
           },
           "elder": {
             "description": "The Elder role."
@@ -864,7 +864,7 @@
             "description": "The Co-Leader role."
           },
           "leader": {
-            "description": "The Leader role (Can choose the same role as Co-Leader)"
+            "description": "The Leader role."
           },
           "clans": {
             "description": "Clan tags or aliases. (enter * to include all clans)"
