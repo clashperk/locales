@@ -423,7 +423,7 @@
         "prompt": "Was möchtest du verlinken? Ein Spieler oder ein Clan?",
         "success": "{{target}} mit {{user}} wurde erfolgreich verknüpft.",
         "link_exists": "{{player}} ist bereits verknüpft.",
-        "already_linked": "{{player}} ist bereits mit einem anderen Benutzer verknüpft. Wenn Sie dieses Konto besitzen, verwenden Sie bitte den Befehl `/verify`.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "Das maximale Konto-Limit wurde erreicht. (25 Konten pro Benutzer)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "Es wurden keine Übereinstimmungen mit dem Kürzel {{tag}} gefunden.",
         "success": "Die Verknüpfung mit dem Kürzel {{tag}} wurde erfolgreich gelöscht.",
-        "no_access": "Dieser Spieler sollte in deinem Clan sein und du musst ein „verifizierter“ Co/Leader sein, um diese Aktion ausführen zu können."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "Listet alle Spieler-Verknüpfungen auf.",
