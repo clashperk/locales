@@ -423,7 +423,7 @@
         "prompt": "Ne bağlamak istersiniz? Oyuncu mu Klan mı?",
         "success": "{{target}} başarıyla {{user}} ile bağlandı.",
         "link_exists": "{{player}} zaten bağlı.",
-        "already_linked": "{{player}} zaten başka bir kullanıcıya bağlı. Bu hesaba sahipseniz lütfen '/verify' komutunu kullanın.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "Maksimum hesap limitine ulaşıldı. (25 hesap/kullanıcı)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "{{tag}} Etiketinde sonuç bulunamadı.",
         "success": "{{tag}} Etiketindeki link başarıyla silindi.",
-        "no_access": "Bu komutu kullanmak için oyuncu klanınızda olmalı ve \"Doğrulanmış\" Yardımcı lider olmalısınız."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "Bütün kullanıcı bağlantılarını listele.",
