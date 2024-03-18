@@ -423,7 +423,7 @@
         "prompt": "Wat wil je linken? Een speler of een clan?",
         "success": "{{target}} is succesvol gekoppeld met {{user}}.",
         "link_exists": "{{player}} is al gekoppeld.",
-        "already_linked": "{{player}} is al gekoppeld aan een andere gebruiker. Als je eigenaar bent van dit account, gebruik dan de opdracht '/verify'.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "De maximale accountlimiet is bereikt. (25 accounts/gebruiker)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "Er zijn geen overeenkomsten gevonden met de tag {{tag}}.",
         "success": "De link met de tag {{tag}} is succesvol verwijderd.",
-        "no_access": "Deze speler zou in je clan moeten zitten en je moet een \"\"Geverifieerde” Co/Leider zijn om deze actie uit te voeren."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "Maak een lijst van alle gelinkten account van spelers.",
