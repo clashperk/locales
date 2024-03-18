@@ -423,7 +423,7 @@
         "prompt": "Que voulez-vous lier ? Un joueur ou un clan ?",
         "success": "{{target}} relié à {{user}} avec succès.",
         "link_exists": "{{player}} est déjà relié.",
-        "already_linked": "{{player}} est déjà relié à un autre utilisateur. Si vous possédez ce compte, veuillez utiliser la commande `/verify`.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "La limite maximale de comptes a été atteinte. (25 comptes par utilisateur)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}.",
         "success": "Lien avec l'identifiant {{tag}} supprimé avec succès.",
-        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un chef adjoint \"vérifié\" pour effectuer cette action."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "Lister tous les joueurs reliés.",
