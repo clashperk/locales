@@ -423,7 +423,7 @@
         "prompt": "Kit vagy mit szeretnél csatlakoztatni? Játékost vagy Klánt?",
         "success": "{{target}} sikeresen csatlakozatva lett {{user}} -hoz/-höz.",
         "link_exists": "{{player}} már csatlakoztatva van.",
-        "already_linked": "{{player}} már össze van kapcsolva egy másik felhasználóval. Ha te vagy a fiók tulajdonosa, használd a `/verify` parancsot.",
+        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
         "max_limit": "Elérted a maximális felhasználókorlátot. (25 fiók/felhasználó)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "Nincs egyezés ezzel a {{tag}} címkével (tag-gel).",
         "success": "Sikeresen törölted a kapcsolatot a {{tag}} címkével (tag-gel).",
-        "no_access": "Ennek a játékosnak a klánodban kell lennie, és neked minimum \"ellenőrzött\" társ-vezetőnek (Co-leader-nek) kell lenned a művelet végrehajtásához."
+        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
       },
       "list": {
         "description": "Az összes összekapcsolt játékos kilistázása.",
