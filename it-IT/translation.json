@@ -510,7 +510,7 @@
             "description": "Messaggio di promemoria per la notifica."
           },
           "clans": {
-            "description": "Tag o alias del clan. (inserisci * per includere tutti i clan)"
+            "description": "Tag o alias del clan."
           },
           "channel": {
             "description": "Reminder channel for the notification."
@@ -560,7 +560,7 @@
             "description": "Messaggio di promemoria per la notifica."
           },
           "clans": {
-            "description": "Tag o alias del clan. (inserisci * per includere tutti i clan)"
+            "description": "Tag o alias del clan."
           }
         },
         "no_message": "È necessario specificare un messaggio per eseguire questo comando.",
@@ -867,7 +867,7 @@
             "description": "The Leader role."
           },
           "clans": {
-            "description": "Tag o alias del clan. (inserisci * per includere tutti i clan)"
+            "description": "Tag o alias del clan."
           },
           "common_role": {
             "description": "Ruolo comune per tutti i membri del clan."
