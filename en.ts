@@ -513,7 +513,7 @@ export const command = {
                     description: 'Reminder message for the notification.'
                 },
                 clans: {
-                    description: 'Clan tags or aliases. (enter * to include all clans)'
+                    description: 'Clan tags or aliases.'
                 },
                 channel: {
                     description: 'Reminder channel for the notification.'
@@ -564,7 +564,7 @@ export const command = {
                     description: 'Reminder message for the notification.'
                 },
                 clans: {
-                    description: 'Clan tags or aliases. (enter * to include all clans)'
+                    description: 'Clan tags or aliases.'
                 }
             },
             no_message: 'You must specify a message to execute this command.',
@@ -874,7 +874,7 @@ export const command = {
                     description: 'The Leader role.'
                 },
                 clans: {
-                    description: 'Clan tags or aliases. (enter * to include all clans)'
+                    description: 'Clan tags or aliases.'
                 },
                 common_role: {
                     description: 'Common role for everyone in the clan.'
