@@ -510,7 +510,7 @@
             "description": "Erinnerungsnachricht für die Benachrichtigung."
           },
           "clans": {
-            "description": "Clan tags or aliases."
+            "description": "Clankürzel oder Aliase."
           },
           "channel": {
             "description": "Reminder channel for the notification."
@@ -560,7 +560,7 @@
             "description": "Erinnerungsnachricht für die Benachrichtigung."
           },
           "clans": {
-            "description": "Clan tags or aliases."
+            "description": "Clankürzel oder Aliase."
           }
         },
         "no_message": "Sie müssen eine Nachricht angeben, um diesen Befehl auszuführen.",
@@ -867,7 +867,7 @@
             "description": "The Leader role."
           },
           "clans": {
-            "description": "Clan tags or aliases."
+            "description": "Clankürzel oder Aliase."
           },
           "common_role": {
             "description": "Standardmäßige Rolle für alle im Clan."
