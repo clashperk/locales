@@ -510,7 +510,7 @@
             "description": "Message de rappel pour la notification."
           },
           "clans": {
-            "description": "Clan tags or aliases."
+            "description": "Identifiants de clan ou alias."
           },
           "channel": {
             "description": "Message de rappel pour la notification."
@@ -560,7 +560,7 @@
             "description": "Message de rappel pour la notification."
           },
           "clans": {
-            "description": "Clan tags or aliases."
+            "description": "Identifiants de clan ou alias."
           }
         },
         "no_message": "Vous devez spécifier un message pour exécuter cette commande.",
@@ -867,7 +867,7 @@
             "description": "Le rôle de Chef."
           },
           "clans": {
-            "description": "Clan tags or aliases."
+            "description": "Identifiants de clan ou alias."
           },
           "common_role": {
             "description": "Rôle commun à tous les membres du clan."
