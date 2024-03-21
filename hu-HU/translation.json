@@ -467,7 +467,7 @@
       "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
-          "description": "Keress ország vagy város neve alapján (a városod nem tároljuk el csak az időzónád. pl. GMT+5:00)"
+          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
         }
       },
       "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
