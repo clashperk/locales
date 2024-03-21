@@ -467,7 +467,7 @@
       "description_long": "Imposta la differenza di fuso orario per il comando /activity.",
       "options": {
         "location": {
-          "description": "Cerca per paese o nome della città (non memorizziamo la tua posizione, solo il fuso orario.)"
+          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
         }
       },
       "set": "Imposta il tuo fuso orario con il comando `/timezone`. Ti consente di visualizzare i grafici nel tuo fuso orario.",
