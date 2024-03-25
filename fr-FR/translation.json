@@ -21,13 +21,13 @@
     "player_not_linked": "Aucun joueur n'est relié à {{user}}. Utilisez la commande {{command}} pour relier un joueur.",
     "guild_unauthorized": "Ce serveur n'est pas autorisé pour {{clan}}. Utilisez la commande {{command}} pour relier un clan.",
     "status_code": {
-      "400": "Le client a fourni des paramètres incorrects pour la requête.",
-      "403": "Le jeton API ne permet pas d'accéder aux informations demandées.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Aucun résultat n'a été trouvé pour l'identifiant spécifié.",
-      "429": "La demande a été rejetée, car le nombre de requêtes a atteint le seuil défini pour le jeton d'API utilisé.",
-      "500": "Une erreur inconnue s'est produite lors du traitement de la requête.",
-      "503": "Le service est temporairement indisponible pour cause de maintenance du jeu.",
-      "504": "504 Requête expirée."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
