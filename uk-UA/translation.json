@@ -21,13 +21,13 @@
     "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
     "status_code": {
-      "400": "Користувач надав невірні параметри для запиту.",
-      "403": "API токен не надає доступ до запитуваного ресурсу.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Не знайдено збігів для вказаного тегу.",
-      "429": "Запит було обмежено через те, що кількість запитів була вище порогового значення, визначеного для вказаного API токена.",
-      "500": "При опрацюванні запиту сталася невідома помилка.",
-      "503": "Service is temporarily unavailable because of maintenance break in the game.",
-      "504": "504 Час очікування запиту минув."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Тег чи псевдонім клану або згадка @user.",
     "player_tag_argument": "Тег гравця чи згадка @user.",
