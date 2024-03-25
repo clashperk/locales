@@ -21,13 +21,13 @@
     "player_not_linked": "Aucun joueur n'est relié à {{user}}. Utilisez la commande {{command}} pour relier un joueur.",
     "guild_unauthorized": "Ce serveur n'est pas autorisé pour {{clan}}. Utilisez la commande {{command}} pour relier un clan.",
     "status_code": {
-      "400": "An unknown error occurred while handling the request (400)",
-      "403": "An unknown error occurred while handling the request (403)",
+      "400": "Une erreur inconnue s'est produite lors du traitement de la requête (400)",
+      "403": "Le jeton API ne permet pas d'accéder aux informations demandées.",
       "404": "Aucun résultat n'a été trouvé pour l'identifiant spécifié.",
-      "429": "An unknown error occurred while handling the request (429)",
-      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
-      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
-      "504": "An unknown error occurred while handling the request (504)"
+      "429": "Une erreur inconnue s'est produite lors du traitement de la requête (429)",
+      "500": "Une erreur inconnue s'est produite lors du traitement de la requête (se produit généralement lors de la réinitialisation de la saison dans le jeu)",
+      "503": "Le service est temporairement indisponible pour cause de maintenance du jeu.",
+      "504": "Une erreur inconnue s'est produite lors du traitement de la requête (504)"
     },
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
@@ -423,7 +423,7 @@
         "prompt": "Que voulez-vous lier ? Un joueur ou un clan ?",
         "success": "{{target}} relié à {{user}} avec succès.",
         "link_exists": "{{player}} est déjà relié.",
-        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
+        "already_linked": "{{player}} est déjà relié à un autre utilisateur. Si vous possédez ce compte, veuillez utiliser la commande {{command}}.",
         "max_limit": "La limite maximale de comptes a été atteinte. (25 comptes par utilisateur)"
       },
       "delete": {
@@ -436,7 +436,7 @@
         },
         "no_result": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}.",
         "success": "Lien avec l'identifiant {{tag}} supprimé avec succès.",
-        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
+        "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un Chef-adjoint \"vérifié\" pour effectuer cette action. Utilisez {{command}} pour vérifier votre compte."
       },
       "list": {
         "description": "Lister tous les joueurs reliés.",
@@ -467,7 +467,7 @@
       "description_long": "Définir votre fuseau horaire pour la commande /activity.",
       "options": {
         "location": {
-          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
+          "description": "Rechercher un fuseau horaire par ville ou pays. (ex. Londres, New York, Singapour, Inde, Sydney)"
         }
       },
       "set": "Veuillez définir votre fuseau horaire avec la commande `/timezone`. Cela vous permet de visualiser les graphiques dans votre fuseau horaire.",
