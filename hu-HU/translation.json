@@ -21,13 +21,13 @@
     "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
     "status_code": {
-      "400": "Az kliens helytelen paramétereket adott meg a kéréshez.",
-      "403": "Az API-kulcs nem adott hozzáférést a kért erőforráshoz.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Nincs egyezés a megadott címkével (tag-gel).",
-      "429": "A kérés vissza lett utasítva, mert API-kulcs meghaladta az adott pillanatban elérhető kérések számát.",
-      "500": "Ismeretlen hiba történt a kérés kezelése során.",
-      "503": "Service is temporarily unavailable because of maintenance break in the game.",
-      "504": "504 Időtúllépés."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Klán címke (klán tag) vagy @tag említés.",
     "player_tag_argument": "Játékos címke (játékos tag) vagy @tag említés.",
