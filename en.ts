@@ -27,13 +27,13 @@ export const common = {
     player_not_linked: 'No player is linked to {{user}}. Use {{command}} command to link a player.',
     guild_unauthorized: 'This server is not authorized for {{clan}}. Use {{command}} command to link a clan.',
     status_code: {
-        '400': 'The client provided incorrect parameters for the request.',
-        '403': 'API token does not grant access to the requested resource.',
+        '400': 'An unknown error occurred while handling the request (400)',
+        '403': 'An unknown error occurred while handling the request (403)',
         '404': 'No matches were found for the specified tag.',
-        '429': 'The request was throttled because the number of requests was above the threshold defined for the used API token.',
-        '500': 'An unknown error happened when handling the request.',
-        '503': 'Service is temporarily unavailable because of maintenance break in the game.',
-        '504': '504 Request Timeout.'
+        '429': 'An unknown error occurred while handling the request (429)',
+        '500': 'An unknown error occurred while handling the request (typically happens during the season reset in the game)',
+        '503': 'Service is temporarily unavailable because of the maintenance break in the game.',
+        '504': 'An unknown error occurred while handling the request (504)'
     },
     clan_tag_argument: 'Clan tag or alias or @user mention.',
     player_tag_argument: 'Player tag or @user mention.',
