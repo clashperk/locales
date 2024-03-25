@@ -21,13 +21,13 @@
     "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
     "status_code": {
-      "400": "De client heeft onjuiste parameters opgegeven voor het verzoek.",
-      "403": "API-token verleent geen toegang tot de gevraagde bron.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Er zijn geen resultaten gevonden voor de opgegeven tag.",
-      "429": "Het verzoek werd beperkt omdat het aantal verzoeken boven de drempel lag die was gedefinieerd voor het gebruikte API-token.",
-      "500": "Er is een onbekende fout opgetreden bij het verwerken van het verzoek.",
-      "503": "Service is temporarily unavailable because of maintenance break in the game.",
-      "504": "504 Verzoek om time-out."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Clan tag of @gebruiker vermelding.",
     "player_tag_argument": "Speler tag of @gebruiker vermelding.",
