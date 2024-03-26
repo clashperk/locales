@@ -219,6 +219,9 @@
         },
         "roster_manager_role": {
           "description": "Rôle permettant de gérer les membres de l'équipe."
+        },
+        "flags_manager_role": {
+          "description": "Role that can manage the flags."
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
