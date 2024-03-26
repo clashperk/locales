@@ -221,6 +221,9 @@ export const command = {
             },
             roster_manager_role: {
                 description: 'Role that can manage the roster members.'
+            },
+            flags_manager_role: {
+                description: 'Role that can manage the flags.'
             }
         },
         no_text_channel: 'You must specify a text channel to enable this event log.',
