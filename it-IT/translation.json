@@ -219,6 +219,9 @@
         },
         "roster_manager_role": {
           "description": "Ruolo che può gestire i membri del roster."
+        },
+        "flags_manager_role": {
+          "description": "Role that can manage the flags."
         }
       },
       "no_text_channel": "È necessario specificare un canale di testo per abilitare questo registro eventi.",
