@@ -221,7 +221,7 @@
           "description": "Rôle permettant de gérer les membres de l'équipe."
         },
         "flags_manager_role": {
-          "description": "Role that can manage the flags."
+          "description": "Rôle permettant de gérer les drapeaux."
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
