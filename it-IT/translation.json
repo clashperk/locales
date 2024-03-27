@@ -21,13 +21,13 @@
     "player_not_linked": "Nessun giocatore è collegato a {{user}}.",
     "guild_unauthorized": "Questo server non è autorizzato per {{clan}}. Usa il comando `/setup` per collegare il clan.",
     "status_code": {
-      "400": "Il client ha fornito parametri errati per la richiesta.",
-      "403": "Il token API non consente l'accesso alla risorsa richiesta.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Nessuna corrispondenza trovata per il tag specificato.",
-      "429": "La richiesta è stata limitata perché il numero di richieste era superiore alla soglia definita per il token API usato.",
-      "500": "Si è verificato un errore sconosciuto durante la gestione della richiesta.",
-      "503": "Il servizio è temporaneamente non disponibile a causa della manutenzione.",
-      "504": "Timeout della richiesta 504."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Tag o alias del clan o menzione @utente.",
     "player_tag_argument": "Tag del giocatore o menzione @utente.",
@@ -219,6 +219,9 @@
         },
         "roster_manager_role": {
           "description": "Ruolo che può gestire i membri del roster."
+        },
+        "flags_manager_role": {
+          "description": "Role that can manage the flags."
         }
       },
       "no_text_channel": "È necessario specificare un canale di testo per abilitare questo registro eventi.",
@@ -467,7 +470,7 @@
       "description_long": "Imposta la differenza di fuso orario per il comando /activity.",
       "options": {
         "location": {
-          "description": "Cerca per paese o nome della città (non memorizziamo la tua posizione, solo il fuso orario.)"
+          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
         }
       },
       "set": "Imposta il tuo fuso orario con il comando `/timezone`. Ti consente di visualizzare i grafici nel tuo fuso orario.",

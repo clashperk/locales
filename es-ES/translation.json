@@ -21,13 +21,13 @@
     "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
     "status_code": {
-      "400": "Error 400: El cliente ha proporcionado parámetros incorrectos durante la solicitud.",
-      "403": "Error 403: El token API no puede otorgar acceso al recurso solicitado.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Error 404: No se encontraron resultados para la etiqueta proporcionada.",
-      "429": "La solicitud fue limitada porque el número de solicitudes superó el límite definido para el token API utilizado.",
-      "500": "Error 500: Ocurrió un error desconocido al gestionar la solicitud.",
-      "503": "Service is temporarily unavailable because of maintenance break in the game.",
-      "504": "Error 504: Tiempo de espera sobrepasado."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Etiqueta de clan, apodo, o mención al @usuario.",
     "player_tag_argument": "Etiqueta de jugador o mención al @usuario.",
@@ -219,6 +219,9 @@
         },
         "roster_manager_role": {
           "description": "Role that can manage the roster members."
+        },
+        "flags_manager_role": {
+          "description": "Role that can manage the flags."
         }
       },
       "no_text_channel": "Debe especificar un canal de texto para habilitar este registro de eventos.",
@@ -467,7 +470,7 @@
       "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
-          "description": "Busca por país o ciudad. (No guardamos tu ubicación, solo la zona horaria, por ejemplo: GMT+ 5:00)"
+          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
         }
       },
       "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",

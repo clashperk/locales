@@ -21,13 +21,13 @@
     "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
     "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
     "status_code": {
-      "400": "İstemci bu istek için yanlış parametreler sağladı.",
-      "403": "API belirteci istenen kaynağa erişim izni vermez.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Belirtilen etiket için eşleşme bulunamadı.",
-      "429": "İstek sayısı kullandığınız API belirteci için belirlenmiş sınırı aştığı için isteğiniz kısıtlandı.",
-      "500": "İstek işlenirken bilinmeyen bir hata oluştu.",
-      "503": "Service is temporarily unavailable because of maintenance break in the game.",
-      "504": "504 İstek Zaman Aşımı."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Klan etiketi veya lakabı veya @kullanıcı girin.",
     "player_tag_argument": "Kullanıcı etiketi veya @kullanıcı girin.",
@@ -219,6 +219,9 @@
         },
         "roster_manager_role": {
           "description": "Role that can manage the roster members."
+        },
+        "flags_manager_role": {
+          "description": "Role that can manage the flags."
         }
       },
       "no_text_channel": "Etkinlik günlüğünün aktifleştirmesi için bir yazı kanalı belirtmelisiniz.",
@@ -467,7 +470,7 @@
       "description_long": "Set your timezone offset for /activity command.",
       "options": {
         "location": {
-          "description": "Ülke veya şehir adını arayın (Konumunuzu saklamayız, sadece saat karşılığını alırız. Örn. GMT+5:00)"
+          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
         }
       },
       "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",

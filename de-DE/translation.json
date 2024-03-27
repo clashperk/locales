@@ -21,13 +21,13 @@
     "player_not_linked": "Kein Spieler ist mit {{user}} verknüpft. Verwenden Sie {{command}} Befehl, um einen Spieler zu verknüpfen.",
     "guild_unauthorized": "Dieser Server ist nicht für {{clan}} autorisiert. Verwenden Sie {{command}} Befehl, um einen Clan zu verknüpfen.",
     "status_code": {
-      "400": "Der Benutzer hat dem Befehl falsche Parameter angefügt.",
-      "403": "Das API-Token gewährt keinen Zugriff auf die angeforderte Ressource.",
+      "400": "An unknown error occurred while handling the request (400)",
+      "403": "An unknown error occurred while handling the request (403)",
       "404": "Für das angegebene Kürzel wurden keine Übereinstimmungen gefunden.",
-      "429": "Die Anforderung wurde gedrosselt, da die Anzahl der Anforderungen über dem für das verwendete API-Token definierten Schwellenwert lag.",
-      "500": "Ein unbekannter Fehler ist bei der Verarbeitung des Befehls aufgetreten.",
-      "503": "Der Service ist aufgrund von Wartungsarbeiten im Spiel vorübergehend nicht verfügbar.",
-      "504": "504 Timeout für Anforderungen."
+      "429": "An unknown error occurred while handling the request (429)",
+      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
+      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
+      "504": "An unknown error occurred while handling the request (504)"
     },
     "clan_tag_argument": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung.",
     "player_tag_argument": "Spieler-Kürzel oder @Benutzer-Erwähnung.",
@@ -219,6 +219,9 @@
         },
         "roster_manager_role": {
           "description": "Role that can manage the roster members."
+        },
+        "flags_manager_role": {
+          "description": "Role that can manage the flags."
         }
       },
       "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
@@ -467,7 +470,7 @@
       "description_long": "Stellen Sie Ihren Zeitzonenversatz für den Befehl /activity ein.",
       "options": {
         "location": {
-          "description": "Suche nach Land- oder Stadtnamen (wir speichern deinen Standort nicht, nur Zeitzone z.B. GMT+ 5:00)"
+          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
         }
       },
       "set": "Bitte stellen Sie Ihre Zeitzone mit dem Befehl `/timezone` ein. Es ermöglicht Ihnen, die Grafiken in Ihrer Zeitzone anzuzeigen.",
