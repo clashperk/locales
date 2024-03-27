@@ -206,7 +206,7 @@
     },
     "config": {
       "description": "Configure server settings.",
-      "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
+      "description_long": "Configure general server settings (colour_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
           "description": "Hex colour code (e.g #ed4245)"
