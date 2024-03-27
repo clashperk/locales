@@ -1,5 +1,8 @@
 project_id: '522390'
 pull_request_title: 'chore(locale): new crowdin translations'
+commit_message: 'New %language% translation'
+append_commit_message: false
+
 files:
   - source: /en-US/*
     translation: /%locale%/%original_file_name%
