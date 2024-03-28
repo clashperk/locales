@@ -40,6 +40,9 @@ export const common = {
     maintenance_start: 'The maintenance break has started!',
     maintenance_end: 'The maintenance break has finished! {{duration}}',
     something_went_wrong: 'Something went wrong while executing this command.',
+    missing_access: "I'm missing {{permission}} in {{channel}} to execute this command.",
+    missing_manager_role:
+        'You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.',
     choices: {
         yes: 'Yes',
         no: 'No'
@@ -224,6 +227,9 @@ export const command = {
             },
             flags_manager_role: {
                 description: 'Role that can manage the flags.'
+            },
+            links_manager_role: {
+                description: 'Role that can manage the Discord links.'
             }
         },
         no_text_channel: 'You must specify a text channel to enable this event log.',
@@ -497,7 +503,6 @@ export const command = {
             }
         },
         invalid_member: 'You must mention a valid member to use this command.',
-        missing_permission: 'You are missing `Manage Nicknames` permission to use this command.',
         missing_access_self: 'I do not have permission to change your nickname.',
         missing_access_other: 'I do not have permission to change the nickname of this member.',
         no_players: 'No players are linked to {{user}}.',
@@ -529,7 +534,6 @@ export const command = {
             duration_order: 'Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h',
             too_many_clans:
                 "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-            missing_access: "I'm missing {{permission}} in {{channel}} to execute this command.",
             too_many_webhooks: 'Too many webhooks in {{channel}}.',
             success: 'Successfully saved!'
         },
@@ -808,7 +812,6 @@ export const command = {
                     description: 'Role for the flag notification (only for clan feed)'
                 }
             },
-            missing_access: "I'm missing {{permission}} in {{channel}} to execute this command.",
             no_leader_link: 'Clan Leader must be linked to the bot to enable this feature.',
             too_many_webhooks: 'Too many webhooks in {{channel}}.',
             server_link: {
