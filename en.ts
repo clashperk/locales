@@ -1009,7 +1009,6 @@ export const command = {
     }
 } as const;
 
-// components
 export const component = {
     button: {
         contact_support: 'Contact Support'
