@@ -34,6 +34,8 @@
     "maintenance_start": "Перерва на технічне обслуговування почалася!",
     "maintenance_end": "Перерва на технічне обслуговування закінчилась! {{duration}}",
     "something_went_wrong": "Щось пішло не так під час виконання даної команди.",
+    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Так",
       "no": "Ні"
@@ -222,6 +224,9 @@
         },
         "flags_manager_role": {
           "description": "Role that can manage the flags."
+        },
+        "links_manager_role": {
+          "description": "Role that can manage the Discord links."
         }
       },
       "no_text_channel": "Щоб увімкнути журнал подій, Ви повинні вказати текстовий канал.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "Ви повинні згадати існуючого користувача для виконання команди.",
-      "missing_permission": "У Вас немає дозволу \"Керування псевдонімами\" для використання цієї команди.",
       "missing_access_self": "У мене немає дозволу змінювати нікнейм.",
       "missing_access_other": "У мене немає дозволу змінювати нікнейм даного учасника.",
       "no_players": "Жоден гравець не зв'язаний з {{user}}.",
@@ -525,7 +529,6 @@
         "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "missing_access": "Я не маю {{permission}} в {{channel}} для виконання цієї команди.",
         "too_many_webhooks": "Велика кількість вебхуків в {{channel}}.",
         "success": "Successfully saved!"
       },
@@ -802,7 +805,6 @@
             "description": "Роль, якій доступне досьє гравця (тільки для вищих ролей)"
           }
         },
-        "missing_access": "Я не маю {{permission}} в {{channel}} для виконання цієї команди.",
         "no_leader_link": "Лідер клану повинен бути прив'язаним до бота для ввімкнення цієї функції.",
         "too_many_webhooks": "Велика кількість вебхуків в {{channel}}.",
         "server_link": {
