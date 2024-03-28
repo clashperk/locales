@@ -34,6 +34,8 @@
     "maintenance_start": "De onderbreking wegens onderhoud is begonnen!",
     "maintenance_end": "De onderbreking wegens onderhoud is afgelopen! {{duration}}",
     "something_went_wrong": "Er is iets misgegaan tijdens het uitvoeren van deze opdracht.",
+    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Ja",
       "no": "Nee"
@@ -222,6 +224,9 @@
         },
         "flags_manager_role": {
           "description": "Role that can manage the flags."
+        },
+        "links_manager_role": {
+          "description": "Role that can manage the Discord links."
         }
       },
       "no_text_channel": "U moet een tekstkanaal opgeven om dit logboek in te schakelen.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "Zorg dat u een geldig lid vermeldt om deze opdracht te gebruiken.",
-      "missing_permission": "U mist de machtiging `Gebruikersnamen beheren' om deze opdracht te gebruiken.",
       "missing_access_self": "Ik heb geen toestemming om je naam te wijzigen.",
       "missing_access_other": "Ik heb geen toestemming om de naam van dit lid te wijzigen.",
       "no_players": "Er zijn geen spelers gekoppeld aan {{user}}.",
@@ -525,7 +529,6 @@
         "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "missing_access": "Ik mis {{permission}} in {{channel}} om deze opdracht uit te voeren.",
         "too_many_webhooks": "Te veel webhooks in {{channel}}.",
         "success": "Successfully saved!"
       },
@@ -802,7 +805,6 @@
             "description": "Rol voor markerings meldingen (alleen voor clan feed)"
           }
         },
-        "missing_access": "Ik mis {{permission}} in {{channel}} om deze opdracht uit te voeren.",
         "no_leader_link": "Clanleider moet aan de bot zijn gekoppeld om deze functie in te schakelen.",
         "too_many_webhooks": "Te veel webhooks in {{channel}}.",
         "server_link": {
