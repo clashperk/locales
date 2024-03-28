@@ -34,6 +34,8 @@
     "maintenance_start": "Die Wartungspause hat begonnen!",
     "maintenance_end": "Die Wartungspause ist beendet! {{duration}}",
     "something_went_wrong": "Beim Ausführen des Befehls ist ein Fehler aufgetreten.",
+    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Ja",
       "no": "Nein"
@@ -222,6 +224,9 @@
         },
         "flags_manager_role": {
           "description": "Role that can manage the flags."
+        },
+        "links_manager_role": {
+          "description": "Role that can manage the Discord links."
         }
       },
       "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "Sie müssen ein gültiges Mitglied angeben, um diesen Befehl verwenden zu können.",
-      "missing_permission": "Ihnen fehlt die Berechtigung `Nickname verwalten`, um diesen Befehl zu verwenden.",
       "missing_access_self": "Ich habe keine Berechtigung, deinen Nickname zu ändern.",
       "missing_access_other": "Ich habe keine Berechtigung, den Nickname dieses Mitglieds zu ändern.",
       "no_players": "Keine Spieler sind mit {{user}} verknüpft.",
@@ -525,7 +529,6 @@
         "duration_limit": "Die Dauer muss mehr als 15 Minuten und weniger als 45 Stunden betragen.",
         "duration_order": "Die Dauer muss ein Vielfaches von 15 Minuten sein. z.B. 15min, 30min, 45min, 1 Stunde, 1,25 h, 1,5 h, 1,75 h",
         "too_many_clans": "Das Clanauswahlmenü ist nicht für mehr als 25 Clans verfügbar. {{clans}} Clans wurden automatisch ausgewählt!\nUm eine Erinnerung für bestimmte Clans zu erstellen, übergeben Sie Clankürzel oder Aliase während der Ausführung des Befehls über die Option „Clans“.",
-        "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
         "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
         "success": "Erfolgreich gespeichert!"
       },
@@ -802,7 +805,6 @@
             "description": "Rolle für die Benachrichtigungen (nur für Clan-Feed)"
           }
         },
-        "missing_access": "Mir fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
         "no_leader_link": "Der Clananführer muss mit dem Bot verknüpft sein, um diese Funktion zu aktivieren.",
         "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
         "server_link": {
