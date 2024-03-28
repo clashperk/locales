@@ -34,6 +34,8 @@
     "maintenance_start": "La pausa di manutenzione è iniziata!",
     "maintenance_end": "La pausa di manutenzione è finita! {{duration}}",
     "something_went_wrong": "Qualcosa è andato storto durante l'esecuzione del comando.",
+    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Si",
       "no": "No"
@@ -222,6 +224,9 @@
         },
         "flags_manager_role": {
           "description": "Role that can manage the flags."
+        },
+        "links_manager_role": {
+          "description": "Role that can manage the Discord links."
         }
       },
       "no_text_channel": "È necessario specificare un canale di testo per abilitare questo registro eventi.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "Devi menzionare un membro valido per usare questo comando.",
-      "missing_permission": "Ti manca il permesso `Gestisci Nicknames` per usare questo comando.",
       "missing_access_self": "Non ho il permesso di cambiare il tuo nickname.",
       "missing_access_other": "Non ho il permesso di cambiare il nickname di questo utente.",
       "no_players": "Nessun giocatore è collegato a {{user}}.",
@@ -525,7 +529,6 @@
         "duration_limit": "La durata deve essere superiore a 15 minuti e inferiore a 45 ore.",
         "duration_order": "La durata deve essere un multiplo di 15 minuti, ad esempio 15m, 30m, 45m, 1h, 1,25h, 1,5h, 1,75h",
         "too_many_clans": "Il menu di selezione del Clan non è disponibile per più di 25 Clan. {{clans}} Clan sono stati selezionati automaticamente!\nPer creare un promemoria per Clan specifici, inserisci i tag o gli alias del Clan tramite l'opzione «Clan» mentre esegui il comando.",
-        "missing_access": "Mi manca {{permission}} in {{channel}} per eseguire questo comando.",
         "too_many_webhooks": "Troppi webhook in {{channel}}.",
         "success": "Il salvataggio è andato a buon fine!"
       },
@@ -802,7 +805,6 @@
             "description": "Ruolo per la notifica della bandiera (solo per il feed del clan)"
           }
         },
-        "missing_access": "Mi manca {{permission}} in {{channel}} per eseguire questo comando.",
         "no_leader_link": "Il Capo del Clan deve essere collegato al bot per abilitare questa funzione.",
         "too_many_webhooks": "Troppi webhook in {{channel}}.",
         "server_link": {
