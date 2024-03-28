@@ -34,6 +34,8 @@
     "maintenance_start": "La maintenance a commencé !",
     "maintenance_end": "La maintenance est terminée ! {{duration}}",
     "something_went_wrong": "Une erreur s'est produite lors de l'exécution de cette commande.",
+    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Oui",
       "no": "Non"
@@ -222,6 +224,9 @@
         },
         "flags_manager_role": {
           "description": "Rôle permettant de gérer les drapeaux."
+        },
+        "links_manager_role": {
+          "description": "Role that can manage the Discord links."
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "Vous devez mentionner un membre valide pour utiliser cette commande.",
-      "missing_permission": "Il vous manque la permission `Gérer les pseudos` pour pouvoir utiliser cette commande.",
       "missing_access_self": "Je n'ai pas la permission de changer votre pseudo.",
       "missing_access_other": "Je n'ai pas la permission de changer le pseudo de ce membre.",
       "no_players": "Aucun joueur n'est relié à {{user}}.",
@@ -525,7 +529,6 @@
         "duration_limit": "La durée doit être supérieure à 15 minutes et inférieure à 45 heures.",
         "duration_order": "La durée doit être un multiple de 15 minutes. ex. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "Le menu de sélection de clan n'est pas disponible au-delà de 25 clans. Les clans {{clans}} ont été sélectionnés automatiquement !\nPour créer un rappel pour des clans spécifiques, passez par l'option \"clans\" pour indiquer les identifiants de clan ou les alias lors de l'exécution de la commande.",
-        "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
         "too_many_webhooks": "Trop de webhooks dans le salon {{channel}}.",
         "success": "Sauvegarde réussie !"
       },
@@ -802,7 +805,6 @@
             "description": "Rôle pour la notification de signalement (uniquement pour le flux du clan)"
           }
         },
-        "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
         "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
         "too_many_webhooks": "Trop de webhooks dans le salon {{channel}}.",
         "server_link": {
