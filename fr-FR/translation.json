@@ -914,8 +914,11 @@
         "option": {
           "description": "Sélectionnez une option."
         },
-        "season": {
+        "season_since": {
           "description": "Récupère les données depuis la saison spécifiée."
+        },
+        "season": {
+          "description": "Retrieve data for the specified season."
         }
       },
       "compo": {
