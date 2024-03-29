@@ -922,8 +922,11 @@ export const command = {
             option: {
                 description: 'Select an option.'
             },
-            season: {
+            season_since: {
                 description: 'Retrieve data since the specified season.'
+            },
+            season: {
+                description: 'Retrieve data for the specified season.'
             }
         },
         compo: {
