@@ -35,7 +35,7 @@
     "maintenance_end": "La maintenance est terminée ! {{duration}}",
     "something_went_wrong": "Une erreur s'est produite lors de l'exécution de cette commande.",
     "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
-    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
+    "missing_manager_role": "Il vous manque l'autorisation **Gérer le serveur** ou le rôle [Gestionnaire du bot] (<https://docs.clashperk.com/others/bot-manager>) pour effectuer cette action.",
     "choices": {
       "yes": "Oui",
       "no": "Non"
