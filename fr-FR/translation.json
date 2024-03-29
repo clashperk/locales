@@ -226,7 +226,7 @@
           "description": "Rôle permettant de gérer les drapeaux."
         },
         "links_manager_role": {
-          "description": "Role that can manage the Discord links."
+          "description": "Rôle permettant de gérer les liens Discord."
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
