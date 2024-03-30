@@ -918,7 +918,7 @@
           "description": "Récupère les données depuis la saison spécifiée."
         },
         "season": {
-          "description": "Retrieve data for the specified season."
+          "description": "Récupère les données de la saison spécifiée."
         }
       },
       "compo": {
