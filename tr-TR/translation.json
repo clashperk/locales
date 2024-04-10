@@ -213,8 +213,8 @@
         "color_code": {
           "description": "Hex color code (e.g #ed4245)"
         },
-        "events_channel": {
-          "description": "Clashla ilgili etkinlikler kanalı."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Role that can manage the bot."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "Etkinlik günlüğünün aktifleştirmesi için bir yazı kanalı belirtmelisiniz.",
       "title": "Sunucu Ayarları",
-      "events_channel": "Etkinlik Kanalı"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Bazı temel hata ayıklama bilgilerini görüntüler.",
