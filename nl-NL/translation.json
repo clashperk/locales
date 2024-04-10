@@ -213,8 +213,8 @@
         "color_code": {
           "description": "Hex color code (e.g #ed4245)"
         },
-        "events_channel": {
-          "description": "Kanaal voor Clash-gerelateerde evenementen."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Role that can manage the bot."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "U moet een tekstkanaal opgeven om dit logboek in te schakelen.",
       "title": "Serverinstellingen",
-      "events_channel": "Evenementen Kanaal"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Toont enkele basisinformatie voor foutopsporing.",
