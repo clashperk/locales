@@ -213,8 +213,8 @@
         "color_code": {
           "description": "Hex color code (e.g #ed4245)"
         },
-        "events_channel": {
-          "description": "Canal de eventos relacionados ao Clash."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Role that can manage the bot."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "Você deve especificar um canal de texto para habilitar esse registro de eventos.",
       "title": "Configurações do Servidor",
-      "events_channel": "Canal de Eventos"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Exibe algumas informações básicas de depuração.",
