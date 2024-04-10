@@ -213,8 +213,8 @@
         "color_code": {
           "description": "Codice colore esadecimale (ad esempio #ed4245) [Solo Patron]"
         },
-        "events_channel": {
-          "description": "Canale di eventi relativi a Clash of Clans."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Ruolo che può gestire il bot."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "È necessario specificare un canale di testo per abilitare questo registro eventi.",
       "title": "Impostazioni del server",
-      "events_channel": "Canale eventi"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Visualizza alcune informazioni di debug di base.",
