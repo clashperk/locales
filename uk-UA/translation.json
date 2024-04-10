@@ -213,8 +213,8 @@
         "color_code": {
           "description": "Hex color code (e.g #ed4245)"
         },
-        "events_channel": {
-          "description": "Канал з подіями, пов'язаними з Clash of Clans."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Role that can manage the bot."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "Щоб увімкнути журнал подій, Ви повинні вказати текстовий канал.",
       "title": "Параметри серверу",
-      "events_channel": "Події"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Показує основну інформацію про виправлення технічних помилок.",
