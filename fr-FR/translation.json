@@ -213,8 +213,8 @@
         "color_code": {
           "description": "Code couleur hexadécimal (ex. #ed4245)"
         },
-        "events_channel": {
-          "description": "Salon des événements liés à Clash."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Rôle permettant de gérer le bot."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
       "title": "Paramètres du Serveur",
-      "events_channel": "Salon des évènements"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Affiche quelques informations de débogage de base.",
