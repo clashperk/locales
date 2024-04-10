@@ -213,8 +213,8 @@
         "color_code": {
           "description": "Hex-Farbcode (z.B. #ed4245)"
         },
-        "events_channel": {
-          "description": "Clash-bezogener Event Channel."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Rolle, die den Bot verwalten kann."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
       "title": "Servereinstellungen",
-      "events_channel": "Events-Kanal"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Zeigt generelle Debug-Informationen.",
