@@ -216,8 +216,8 @@ export const command = {
             color_code: {
                 description: 'Hex color code (e.g #ed4245)'
             },
-            events_channel: {
-                description: 'Clash-related events channel.'
+            maintenance_notification_channel: {
+                description: 'In-game maintenance break notification channel.'
             },
             manager_role: {
                 description: 'Role that can manage the bot.'
@@ -234,7 +234,7 @@ export const command = {
         },
         no_text_channel: 'You must specify a text channel to enable this event log.',
         title: 'Server Settings',
-        events_channel: 'Events Channel'
+        maintenance_notification_channel: 'Maintenance Break Notification Channel'
     },
     debug: {
         description: 'Displays some basic debug information.',
