@@ -214,7 +214,7 @@
           "description": "Code couleur hexadécimal (ex. #ed4245)"
         },
         "maintenance_notification_channel": {
-          "description": "In-game maintenance break notification channel."
+          "description": "Salon de notification de maintenance dans le jeu."
         },
         "manager_role": {
           "description": "Rôle permettant de gérer le bot."
@@ -231,7 +231,7 @@
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
       "title": "Paramètres du Serveur",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "maintenance_notification_channel": "Salon de notification de maintenance"
     },
     "debug": {
       "description": "Affiche quelques informations de débogage de base.",
@@ -520,7 +520,7 @@
             "description": "Identifiants de clan ou alias."
           },
           "channel": {
-            "description": "Message de rappel pour la notification."
+            "description": "Salon de rappel pour la notification."
           }
         },
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
