@@ -422,8 +422,8 @@
           "user": {
             "description": "Felhasználói fiók címkével (tag-gel) való összekapcsolása."
           },
-          "default": {
-            "description": "Ez a címke az alapértelmezett."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "A botfiókok nem kapcsolhatók össze.",
