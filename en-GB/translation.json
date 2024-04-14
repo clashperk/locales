@@ -422,8 +422,8 @@
           "user": {
             "description": "User account to link to the tag."
           },
-          "default": {
-            "description": "Whether this tag is the default."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Bot accounts are not allowed to be linked.",
