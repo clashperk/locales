@@ -422,8 +422,8 @@
           "user": {
             "description": "Cuenta de usuario a vincular a la etiqueta proporcionada."
           },
-          "default": {
-            "description": "Significa que la etiqueta es la predeterminada."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "No se permite vincular cuentas de bots.",
