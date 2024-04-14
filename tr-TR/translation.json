@@ -422,8 +422,8 @@
           "user": {
             "description": "Etiketle bağlanacak kullanıcı hesabı."
           },
-          "default": {
-            "description": "Bu etiketin varsayılan olup olmadığı."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Bot hesaplarının bağlanmasına izin verilmez.",
