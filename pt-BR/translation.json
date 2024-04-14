@@ -422,8 +422,8 @@
           "user": {
             "description": "Conta de usuário para vincular à tag."
           },
-          "default": {
-            "description": "Se essa tag é o padrão."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "As contas de bot não podem ser vinculadas.",
