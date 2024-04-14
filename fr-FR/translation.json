@@ -422,8 +422,8 @@
           "user": {
             "description": "Compte utilisateur à relier à l'identifiant."
           },
-          "default": {
-            "description": "S'il s'agit de l'identifiant par défaut."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Les comptes bots ne peuvent pas être reliés.",
