@@ -422,8 +422,8 @@
           "user": {
             "description": "Gebruikersaccount om met de tag te linken."
           },
-          "default": {
-            "description": "Of deze tag de standaard is."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Bot accounts mogen niet worden gekoppeld.",
