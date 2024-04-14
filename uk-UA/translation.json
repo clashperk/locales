@@ -422,8 +422,8 @@
           "user": {
             "description": "Обліковий запис користувача для зв'язки з тегом."
           },
-          "default": {
-            "description": "Вказує, чи є цей тег за замовчуванням."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Прив'язка облікових записів ботів неможлива.",
