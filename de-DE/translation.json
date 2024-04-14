@@ -422,8 +422,8 @@
           "user": {
             "description": "Benutzerkonto, des mit dem Kürzel verbunden werden soll."
           },
-          "default": {
-            "description": "Ob dieses Kürzel die Standardeinstellung ist."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Bot-Konten dürfen nicht verbunden werden.",
