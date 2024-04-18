@@ -34,6 +34,8 @@
     "maintenance_start": "The maintenance break has started!",
     "maintenance_end": "The maintenance break has finished! {{duration}}",
     "something_went_wrong": "Something went wrong while executing this command.",
+    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Yes",
       "no": "No"
@@ -206,13 +208,13 @@
     },
     "config": {
       "description": "Configure server settings.",
-      "description_long": "Configure general server settings (color_code, events_channel, webhook_limit)",
+      "description_long": "Configure general server settings (colour_code, events_channel, webhook_limit)",
       "options": {
         "color_code": {
           "description": "Hex colour code (e.g #ed4245)"
         },
-        "events_channel": {
-          "description": "Clash-related events channel."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Role that can manage the bot."
@@ -222,11 +224,14 @@
         },
         "flags_manager_role": {
           "description": "Role that can manage the flags."
+        },
+        "links_manager_role": {
+          "description": "Role that can manage the Discord links."
         }
       },
       "no_text_channel": "You must specify a text channel to enable this event log.",
       "title": "Server Settings",
-      "events_channel": "Events Channel"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Displays some basic debug information.",
@@ -417,8 +422,8 @@
           "user": {
             "description": "User account to link to the tag."
           },
-          "default": {
-            "description": "Whether this tag is the default."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Bot accounts are not allowed to be linked.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "You must mention a valid member to use this command.",
-      "missing_permission": "You are missing `Manage Nicknames` permission to use this command.",
       "missing_access_self": "I do not have permission to change your nickname.",
       "missing_access_other": "I do not have permission to change the nickname of this member.",
       "no_players": "No players are linked to {{user}}.",
@@ -525,7 +529,6 @@
         "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
         "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "success": "Successfully saved!"
       },
@@ -802,7 +805,6 @@
             "description": "Role for the flag notification (only for clan feed)"
           }
         },
-        "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
         "no_leader_link": "Clan Leader must be linked to the bot to enable this feature.",
         "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "server_link": {
@@ -912,8 +914,11 @@
         "option": {
           "description": "Select an option."
         },
-        "season": {
+        "season_since": {
           "description": "Retrieve data since the specified season."
+        },
+        "season": {
+          "description": "Retrieve data for the specified season."
         }
       },
       "compo": {

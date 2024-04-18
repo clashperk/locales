@@ -34,6 +34,8 @@
     "maintenance_start": "A karbantartás elkezdődött!",
     "maintenance_end": "A karbantartási véget ért! {{duration}}",
     "something_went_wrong": "Valami hiba történt a parancs futtatása közben.",
+    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Igen",
       "no": "Nem"
@@ -211,8 +213,8 @@
         "color_code": {
           "description": "Hex color code (e.g #ed4245)"
         },
-        "events_channel": {
-          "description": "Clash-el kapcsolatos események csatorna."
+        "maintenance_notification_channel": {
+          "description": "In-game maintenance break notification channel."
         },
         "manager_role": {
           "description": "Role that can manage the bot."
@@ -222,11 +224,14 @@
         },
         "flags_manager_role": {
           "description": "Role that can manage the flags."
+        },
+        "links_manager_role": {
+          "description": "Role that can manage the Discord links."
         }
       },
       "no_text_channel": "Az eseménynapló engedélyezéséhez meg kell adnod egy szöveges csatornát.",
       "title": "Szerver Beállítások",
-      "events_channel": "Események Csatorna"
+      "maintenance_notification_channel": "Maintenance Break Notification Channel"
     },
     "debug": {
       "description": "Megjelenít néhány alapvető hibakeresési információt.",
@@ -417,8 +422,8 @@
           "user": {
             "description": "Felhasználói fiók címkével (tag-gel) való összekapcsolása."
           },
-          "default": {
-            "description": "Ez a címke az alapértelmezett."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "A botfiókok nem kapcsolhatók össze.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "A parancs használatához meg kell említened egy tagot.",
-      "missing_permission": "A parancs használatához „Becenevek Kezelése” engedély szükséges.",
       "missing_access_self": "Nincs jogom, hogy megváltoztassam a beceneved.",
       "missing_access_other": "Nincs jogom, hogy megváltoztassam a becenevét.",
       "no_players": "Egyetlen játékos sincs kapcsolva {{user}} -hoz/-hez.",
@@ -525,7 +529,6 @@
         "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "missing_access": "Hiányzik a {{permission}} jogosultságom a(z) {{channel}} csatornában a parancs végrehajtásához.",
         "too_many_webhooks": "Túl sok webhook van hozzáadva a {{channel}} csatornához.",
         "success": "Successfully saved!"
       },
@@ -802,7 +805,6 @@
             "description": "Megjelöléskor értesítendő rang(csak a 'clan feed'-nél)"
           }
         },
-        "missing_access": "Hiányzik a {{permission}} jogosultságom a(z) {{channel}} csatornában a parancs végrehajtásához.",
         "no_leader_link": "A funkció engedélyezéséhez a klán vezető fiókját össze kell kapcsolni a bottal.",
         "too_many_webhooks": "Túl sok webhook van hozzáadva a {{channel}} csatornához.",
         "server_link": {
@@ -912,8 +914,11 @@
         "option": {
           "description": "Válassz egy lehetőséget."
         },
-        "season": {
+        "season_since": {
           "description": "Retrieve data since the specified season."
+        },
+        "season": {
+          "description": "Retrieve data for the specified season."
         }
       },
       "compo": {

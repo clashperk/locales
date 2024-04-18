@@ -34,6 +34,8 @@
     "maintenance_start": "La maintenance a commencé !",
     "maintenance_end": "La maintenance est terminée ! {{duration}}",
     "something_went_wrong": "Une erreur s'est produite lors de l'exécution de cette commande.",
+    "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
+    "missing_manager_role": "Il vous manque l'autorisation **Gérer le serveur** ou le rôle [Gestionnaire du bot] (<https://docs.clashperk.com/others/bot-manager>) pour effectuer cette action.",
     "choices": {
       "yes": "Oui",
       "no": "Non"
@@ -211,8 +213,8 @@
         "color_code": {
           "description": "Code couleur hexadécimal (ex. #ed4245)"
         },
-        "events_channel": {
-          "description": "Salon des événements liés à Clash."
+        "maintenance_notification_channel": {
+          "description": "Salon de notification de maintenance dans le jeu."
         },
         "manager_role": {
           "description": "Rôle permettant de gérer le bot."
@@ -222,11 +224,14 @@
         },
         "flags_manager_role": {
           "description": "Rôle permettant de gérer les drapeaux."
+        },
+        "links_manager_role": {
+          "description": "Rôle permettant de gérer les liens Discord."
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
       "title": "Paramètres du Serveur",
-      "events_channel": "Salon des évènements"
+      "maintenance_notification_channel": "Salon de notification de maintenance"
     },
     "debug": {
       "description": "Affiche quelques informations de débogage de base.",
@@ -417,8 +422,8 @@
           "user": {
             "description": "Compte utilisateur à relier à l'identifiant."
           },
-          "default": {
-            "description": "S'il s'agit de l'identifiant par défaut."
+          "is_default": {
+            "description": "Whether to set this as the default account."
           }
         },
         "no_bots": "Les comptes bots ne peuvent pas être reliés.",
@@ -494,7 +499,6 @@
         }
       },
       "invalid_member": "Vous devez mentionner un membre valide pour utiliser cette commande.",
-      "missing_permission": "Il vous manque la permission `Gérer les pseudos` pour pouvoir utiliser cette commande.",
       "missing_access_self": "Je n'ai pas la permission de changer votre pseudo.",
       "missing_access_other": "Je n'ai pas la permission de changer le pseudo de ce membre.",
       "no_players": "Aucun joueur n'est relié à {{user}}.",
@@ -516,7 +520,7 @@
             "description": "Identifiants de clan ou alias."
           },
           "channel": {
-            "description": "Message de rappel pour la notification."
+            "description": "Salon de rappel pour la notification."
           }
         },
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
@@ -525,7 +529,6 @@
         "duration_limit": "La durée doit être supérieure à 15 minutes et inférieure à 45 heures.",
         "duration_order": "La durée doit être un multiple de 15 minutes. ex. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "Le menu de sélection de clan n'est pas disponible au-delà de 25 clans. Les clans {{clans}} ont été sélectionnés automatiquement !\nPour créer un rappel pour des clans spécifiques, passez par l'option \"clans\" pour indiquer les identifiants de clan ou les alias lors de l'exécution de la commande.",
-        "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
         "too_many_webhooks": "Trop de webhooks dans le salon {{channel}}.",
         "success": "Sauvegarde réussie !"
       },
@@ -802,7 +805,6 @@
             "description": "Rôle pour la notification de signalement (uniquement pour le flux du clan)"
           }
         },
-        "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
         "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
         "too_many_webhooks": "Trop de webhooks dans le salon {{channel}}.",
         "server_link": {
@@ -912,8 +914,11 @@
         "option": {
           "description": "Sélectionnez une option."
         },
-        "season": {
+        "season_since": {
           "description": "Récupère les données depuis la saison spécifiée."
+        },
+        "season": {
+          "description": "Récupère les données de la saison spécifiée."
         }
       },
       "compo": {
