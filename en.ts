@@ -173,13 +173,16 @@ export const command = {
     alias: {
         description: 'Create, delete or view clan aliases.',
         create: {
-            description: 'Creates a clan alias (short code or abbreviation)',
-            description_long: 'Creates a clan alias (short code or abbreviation)',
+            description: 'Creates a clan alias (short code or abbreviation) or clan nickname.',
+            description_long: 'Creates a clan alias (short code or abbreviation) or clan nickname.',
             options: {
-                name: {
+                alias_name: {
                     description: 'Name of the alias.'
                 },
-                tag: {
+                clan_nickname: {
+                    description: 'Nickname of the clan.'
+                },
+                clan: {
                     description: 'Tag of the clan.'
                 }
             },
@@ -189,7 +192,7 @@ export const command = {
             no_clan: 'You must specify a clan tag to execute this command.',
             exists: 'An alias with the name {{name}} already exists.',
             clan_not_linked: 'The clan must be linked to the server to create an alias.',
-            success: 'Successfully created an alias with the name {{name}}.'
+            success: 'Clan alias or nickname updated.'
         },
         delete: {
             description: 'Deletes a clan alias.',
