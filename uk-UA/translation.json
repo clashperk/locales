@@ -170,14 +170,17 @@
     "alias": {
       "description": "Створення, видалення або перегляд псевдонімів клану.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Найменування псевдоніма."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Тег клану."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "Для виконання цієї команди необхідно надати псевдонім.",
@@ -186,7 +189,7 @@
         "no_clan": "Для виконання цієї команди необхідно надати клан тег.",
         "exists": "Псевдонім {{name}} вже існує.",
         "clan_not_linked": "Для надання псевдоніму треба прив'язати клан до сервера.",
-        "success": "Успішно створено псевдонім {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Видаляє псевдоніми клану.",
@@ -793,7 +796,7 @@
             "description": "Оберіть варіант."
           },
           "tag": {
-            "description": "Тег клану."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Канал для передачі через нього оновлень (за замовчуванням даний канал)"
@@ -825,7 +828,7 @@
             "description": "Оберіть варіант."
           },
           "tag": {
-            "description": "Тег клану."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Канал видалено."
