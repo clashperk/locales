@@ -170,14 +170,17 @@
     "alias": {
       "description": "Crie, exclua ou visualize apelidos de clãs.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Nome do apelido."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Tag do clã."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "Você deve especificar um apelido para executar esse comando.",
@@ -186,7 +189,7 @@
         "no_clan": "Você deve especificar uma tag de clã para executar esse comando.",
         "exists": "Já existe um apelido com o nome {{name}}.",
         "clan_not_linked": "O clã deve estar vinculado ao servidor para criar um apelido.",
-        "success": "Um apelido foi criado com sucesso com o nome {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Exclui um apelido de clã.",
@@ -793,7 +796,7 @@
             "description": "Selecione uma opção."
           },
           "tag": {
-            "description": "Tag do clã."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Canal para o qual enviar atualizações (o padrão é o canal atual)"
@@ -825,7 +828,7 @@
             "description": "Selecione uma opção."
           },
           "tag": {
-            "description": "Tag do clã."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Canal a ser removido."
