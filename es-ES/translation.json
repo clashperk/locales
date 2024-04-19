@@ -170,14 +170,17 @@
     "alias": {
       "description": "Crea, borra, o revisa los apodos del clan.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Nombre del apodo."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Etiqueta del clan."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "Debes especificar un apodo para poder ejecutar este comando.",
@@ -186,7 +189,7 @@
         "no_clan": "Debes especificar una etiqueta de clan para poder ejecutar este comando.",
         "exists": "El apodo {{name}} ya está en uso dentro del servidor.",
         "clan_not_linked": "El clan debe estar vinculado al servidor para poder crear un apodo.",
-        "success": "Se creó el apodo {{name}} exitosamente."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Elimina un apodo de clan.",
@@ -793,7 +796,7 @@
             "description": "Selecciona una opción."
           },
           "tag": {
-            "description": "Etiqueta del clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Canal al que se va a enviar las actualizaciones. (Por defecto es el canal actual)"
@@ -825,7 +828,7 @@
             "description": "Selecciona una opción."
           },
           "tag": {
-            "description": "Etiqueta del clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Canal que se va a remover."
