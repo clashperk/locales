@@ -170,14 +170,17 @@
     "alias": {
       "description": "Creëer, verwijder of bekijk clanaliassen.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Naam van de alias."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Tag van de clan."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "U moet een alias opgeven om deze opdracht uit te voeren.",
@@ -186,7 +189,7 @@
         "no_clan": "U moet een clan tag opgeven om deze opdracht uit te voeren.",
         "exists": "Er bestaat al een alias met de naam {{name}}.",
         "clan_not_linked": "De clan moet aan de server zijn gekoppeld om een alias te creëren.",
-        "success": "Succesvol een alias gemaakt met de naam {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Verwijdert een clan-alias.",
@@ -793,7 +796,7 @@
             "description": "Selecteer een optie."
           },
           "tag": {
-            "description": "Tag van de clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Kanaal om updates naar te verzenden (standaard naar het huidige kanaal)"
@@ -825,7 +828,7 @@
             "description": "Selecteer een optie."
           },
           "tag": {
-            "description": "Tag van de clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Kanaal dat wordt verwijderd."
