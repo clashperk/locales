@@ -170,14 +170,17 @@
     "alias": {
       "description": "Crea, elimina o visualizza gli alias dei clan.",
       "create": {
-        "description": "Crea un alias per il clan.",
-        "description_long": "Crea un alias per il clan.",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Alias."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Tag del clan."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "È necessario specificare un nome alias per eseguire questo comando.",
@@ -186,7 +189,7 @@
         "no_clan": "Per eseguire questo comando è necessario fornire un tag del clan.",
         "exists": "Esiste già un alias con il nome {{name}}.",
         "clan_not_linked": "Il clan deve essere collegato al server per creare un alias.",
-        "success": "È stato creato con successo un alias con il nome {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Elimina l'alias di un clan.",
@@ -793,7 +796,7 @@
             "description": "Seleziona un'opzione."
           },
           "tag": {
-            "description": "Tag del clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Canale in cui inviare gli aggiornamenti (predefinito è il canale corrente)"
@@ -825,7 +828,7 @@
             "description": "Seleziona un'opzione."
           },
           "tag": {
-            "description": "Tag del clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Canale da rimuovere."
