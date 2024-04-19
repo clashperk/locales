@@ -170,14 +170,17 @@
     "alias": {
       "description": "Créer, supprimer ou afficher les alias de clans.",
       "create": {
-        "description": "Crée un alias de clan (code court ou abréviation)",
-        "description_long": "Crée un alias de clan (code court ou abréviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Nom de l'alias."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Identifiant du clan."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "Vous devez spécifier un nom d'alias pour exécuter cette commande.",
@@ -186,7 +189,7 @@
         "no_clan": "Vous devez spécifier un identifiant de clan pour exécuter cette commande.",
         "exists": "Un alias avec le nom {{name}} existe déjà.",
         "clan_not_linked": "Le clan doit être relié au serveur pour créer un alias.",
-        "success": "Création réussie d'un alias avec le nom {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Supprime un alias de clan.",
@@ -793,7 +796,7 @@
             "description": "Sélectionnez une option."
           },
           "tag": {
-            "description": "Identifiant du clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Salon où publier les mises à jour (par défaut, le salon actuel)"
@@ -825,7 +828,7 @@
             "description": "Sélectionnez une option."
           },
           "tag": {
-            "description": "Identifiant du clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Salon à supprimer."
