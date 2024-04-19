@@ -170,14 +170,17 @@
     "alias": {
       "description": "Klán becenevek létrehozása, törlése vagy megtekintése.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "A becenév neve."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "A klán címkéje (tag-je)."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "A parancs futtatásához meg kell adnod egy becenevet.",
@@ -186,7 +189,7 @@
         "no_clan": "A parancs futtatásához meg kell adnod egy klán címkét (klán tag)-et.",
         "exists": "Már létezik egy {{name}} nevű becenév.",
         "clan_not_linked": "A becenév létrehozása előtt a klánt össze kell kapcsolni a szerverrel.",
-        "success": "Sikeresen létrehoztad a(z) {{name}} nevű becenevet."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Kitöröl egy klán becenevet.",
