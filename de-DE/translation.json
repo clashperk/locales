@@ -170,14 +170,17 @@
     "alias": {
       "description": "Erstelle, lösche oder zeige Clan Pseudonyme.",
       "create": {
-        "description": "Erzeugt einen Clan-Alias (Kurzcode oder Abkürzung)",
-        "description_long": "Erzeugt einen Clan-Alias (Kurzcode oder Abkürzung)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Name des Alias."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Kürzel des Clans."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "Du musst einen Alias Namen eingeben, um diesen Befehl zu nutzen.",
@@ -186,7 +189,7 @@
         "no_clan": "Du musst ein Spielerkürzel eingeben, um diesen Befehl zu nutzen.",
         "exists": "Ein Alias mit dem Namen {{name}} existiert bereits.",
         "clan_not_linked": "Der Clan muss mit diesem Server verbunden sein, um ein Alias zu erstellen.",
-        "success": "Erfolgreich ein Alias mit dem Namen {{name}} erstellt."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Löscht ein Clan Alias.",
@@ -793,7 +796,7 @@
             "description": "Wählen Sie eine Option aus."
           },
           "tag": {
-            "description": "Kürzel des Clans."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Kanal, an den Updates gesendet werden sollen (standardmäßig der aktuelle Kanal)"
@@ -825,7 +828,7 @@
             "description": "Wählen Sie eine Option aus."
           },
           "tag": {
-            "description": "Kürzel des Clans."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Channel to be removed"
