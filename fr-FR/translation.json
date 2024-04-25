@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Aucun clan n'a été trouvé sur ce serveur pour l'élément spécifié !\nUtilisez la commande {{command}} pour relier un clan.",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?\nUtilisez la commande {{command}} pour relier un clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a Patreon member? Use {{command}} command.",
-    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a Patreon member? Use {{command}} command.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
+    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
     "clan_verification": "Nous devons nous assurer que vous êtes bien chef ou adjoint de ce clan. Veuillez vérifier votre compte joueur avec le jeton API.\nUtilisez la commande {{command}} pour vérifier votre compte joueur. Le jeton API est disponible dans les paramètres du jeu.",
     "no_option": "Une erreur s'est produite lors de l'exécution de cette commande. (option introuvable)",
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
