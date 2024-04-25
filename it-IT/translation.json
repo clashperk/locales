@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Nessun clan trovato su questo server per l'input specificato! \nUsa {{command}} per collegare un clan.",
     "no_clans_linked": "Nessun clan trovato su questo server per l'input specificato! \nUsa {{command}} per collegare un clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a Patreon member? Use {{command}} command.",
-    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a Patreon member? Use {{command}} command.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
+    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
     "clan_verification": "Dobbiamo assicurarci che tu sia un leader o un co-leader di questo clan. Verifica il tuo account giocatore con il token API.\nUsa il comando `/verify` per verificare il tuo account giocatore. Il token API è disponibile nelle impostazioni di gioco.\n\nIn alternativa, è possibile aggiungere un codice temporaneo `{{code}}` nella descrizione del clan. Quindi attendere 1-2 minuti ed eseguire nuovamente il comando. Una volta verificato, si può tranquillamente rimuovere il codice.",
     "no_option": "Qualcosa è andato storto durante l'esecuzione di questo comando. (opzione non trovata)",
     "no_data": "Al momento non sono disponibili dati. Stiamo ancora raccogliendo!",
