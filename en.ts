@@ -886,7 +886,7 @@ export const command = {
           description: 'Clan tags or aliases.'
         },
         common_role: {
-          description: 'Common role for everyone in the clan.'
+          description: 'Clan role for everyone in the clan.'
         },
         only_verified: {
           description: 'Roles will be given to the verified players only. (API token verification is required)'
