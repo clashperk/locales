@@ -878,7 +878,7 @@
             "description": "Identifiants de clan ou alias."
           },
           "common_role": {
-            "description": "Clan role for everyone in the clan."
+            "description": "Rôle de clan pour tous les membres du clan."
           },
           "only_verified": {
             "description": "Les rôles seront attribués uniquement aux joueurs vérifiés. (vérification du jeton API nécessaire)"
