@@ -878,7 +878,7 @@
             "description": "Clankürzel oder Aliase."
           },
           "common_role": {
-            "description": "Standardmäßige Rolle für alle im Clan."
+            "description": "Clan role for everyone in the clan."
           },
           "only_verified": {
             "description": "Rollen werden nur an verifizierte Spieler vergeben. (API-Token-Überprüfung ist erforderlich)"
