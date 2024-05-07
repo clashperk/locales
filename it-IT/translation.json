@@ -878,7 +878,7 @@
             "description": "Tag o alias del clan."
           },
           "common_role": {
-            "description": "Ruolo comune per tutti i membri del clan."
+            "description": "Clan role for everyone in the clan."
           },
           "only_verified": {
             "description": "I ruoli verranno assegnati solo ai giocatori verificati. (È richiesta la verifica del token API)"
