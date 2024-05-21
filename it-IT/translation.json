@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Nessun clan trovato su questo server per l'input specificato! \nUsa {{command}} per collegare un clan.",
     "no_clans_linked": "Nessun clan trovato su questo server per l'input specificato! \nUsa {{command}} per collegare un clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
-    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
+    "clan_limit": "Il numero massimo di clan è stato raggiunto. Per favore, considera di sostenerci sul nostro [Patreon](https://patreon.com/clashperk) per aggiungere più di due clan.\n\nSei già un patron? Usa il comando {{command}}.",
+    "patreon_only": "Questo comando è disponibile solo sui server dei nostri Patron. Per utilizzare questo comando, ti preghiamo di considerare di sostenerci sul nostro [Patreon](https://patreon.com/clashperk).\n\nSei già un patron? Usa il comando {{command}}.",
     "clan_verification": "Dobbiamo assicurarci che tu sia un leader o un co-leader di questo clan. Verifica il tuo account giocatore con il token API.\nUsa il comando `/verify` per verificare il tuo account giocatore. Il token API è disponibile nelle impostazioni di gioco.\n\nIn alternativa, è possibile aggiungere un codice temporaneo `{{code}}` nella descrizione del clan. Quindi attendere 1-2 minuti ed eseguire nuovamente il comando. Una volta verificato, si può tranquillamente rimuovere il codice.",
     "no_option": "Qualcosa è andato storto durante l'esecuzione di questo comando. (opzione non trovata)",
     "no_data": "Al momento non sono disponibili dati. Stiamo ancora raccogliendo!",
@@ -21,21 +21,21 @@
     "player_not_linked": "Nessun giocatore è collegato a {{user}}.",
     "guild_unauthorized": "Questo server non è autorizzato per {{clan}}. Usa il comando `/setup` per collegare il clan.",
     "status_code": {
-      "400": "An unknown error occurred while handling the request (400)",
-      "403": "An unknown error occurred while handling the request (403)",
+      "400": "Il client ha fornito parametri errati per la richiesta.",
+      "403": "Il token API non consente l'accesso alla risorsa richiesta.",
       "404": "Nessuna corrispondenza trovata per il tag specificato.",
-      "429": "An unknown error occurred while handling the request (429)",
-      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
-      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
-      "504": "An unknown error occurred while handling the request (504)"
+      "429": "La richiesta è stata limitata perché il numero di richieste era superiore alla soglia definita per il token API usato.",
+      "500": "Si è verificato un errore sconosciuto durante la gestione della richiesta.",
+      "503": "Il servizio è temporaneamente non disponibile a causa della manutenzione.",
+      "504": "Timeout della richiesta 504."
     },
     "clan_tag_argument": "Tag o alias del clan o menzione @utente.",
     "player_tag_argument": "Tag del giocatore o menzione @utente.",
     "maintenance_start": "La pausa di manutenzione è iniziata!",
     "maintenance_end": "La pausa di manutenzione è finita! {{duration}}",
     "something_went_wrong": "Qualcosa è andato storto durante l'esecuzione del comando.",
-    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
-    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
+    "missing_access": "Mi manca {{permission}} in {{channel}} per eseguire questo comando.",
+    "missing_manager_role": "Non hai l'autorizzazione **Gestisci server** o il ruolo [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) per eseguire questa azione.",
     "choices": {
       "yes": "Si",
       "no": "No"
@@ -170,17 +170,17 @@
     "alias": {
       "description": "Crea, elimina o visualizza gli alias dei clan.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
-        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description": "Crea un alias per il clan.",
+        "description_long": "Crea un alias per il clan.",
         "options": {
           "alias_name": {
-            "description": "Name of the alias."
+            "description": "Alias."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan."
+            "description": "Soprannome del clan."
           },
           "clan": {
-            "description": "Tag of the clan."
+            "description": "Tag del clan."
           }
         },
         "no_name": "È necessario specificare un nome alias per eseguire questo comando.",
@@ -189,7 +189,7 @@
         "no_clan": "Per eseguire questo comando è necessario fornire un tag del clan.",
         "exists": "Esiste già un alias con il nome {{name}}.",
         "clan_not_linked": "Il clan deve essere collegato al server per creare un alias.",
-        "success": "Clan alias or nickname updated."
+        "success": "È stato creato con successo un alias con il nome {{name}}."
       },
       "delete": {
         "description": "Elimina l'alias di un clan.",
@@ -217,7 +217,7 @@
           "description": "Codice colore esadecimale (ad esempio #ed4245) [Solo Patron]"
         },
         "maintenance_notification_channel": {
-          "description": "In-game maintenance break notification channel."
+          "description": "Canale di notifica delle interruzioni di manutenzione nel gioco."
         },
         "manager_role": {
           "description": "Ruolo che può gestire il bot."
@@ -226,15 +226,15 @@
           "description": "Ruolo che può gestire i membri del roster."
         },
         "flags_manager_role": {
-          "description": "Role that can manage the flags."
+          "description": "Ruolo in grado di gestire i flag."
         },
         "links_manager_role": {
-          "description": "Role that can manage the Discord links."
+          "description": "Ruolo che può gestire i collegamenti Discord."
         }
       },
       "no_text_channel": "È necessario specificare un canale di testo per abilitare questo registro eventi.",
       "title": "Impostazioni del server",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "maintenance_notification_channel": "Canale di notifica delle interruzioni di manutenzione nel gioco"
     },
     "debug": {
       "description": "Visualizza alcune informazioni di debug di base.",
@@ -328,7 +328,7 @@
           "description": "Seleziona un'opzione."
         },
         "season": {
-          "description": "Retrieve data since the specified season."
+          "description": "La stagione da esportare."
         },
         "clans": {
           "description": "Clan tag o alias per filtrare i clan."
@@ -426,7 +426,7 @@
             "description": "Account utente da collegare al tag."
           },
           "is_default": {
-            "description": "Whether to set this as the default account."
+            "description": "Se impostarlo come account predefinito."
           }
         },
         "no_bots": "Gli account bot non possono essere collegati.",
@@ -434,7 +434,7 @@
         "prompt": "Cosa desideri collegare? Un giocatore o un clan?",
         "success": "{{target}} collegato con successo a {{user}}.",
         "link_exists": "{{player}} È già collegato.",
-        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
+        "already_linked": "{{player}} è già collegato a un altro utente. Se possiedi questo account, usa il comando `/verify`.",
         "max_limit": "È stato raggiunto il limite massimo di account. (25 account/utente)"
       },
       "delete": {
@@ -447,7 +447,7 @@
         },
         "no_result": "Nessuna corrispondenza trovata con il tag {{tag}}.",
         "success": "Il link con il tag {{tag}} è stato eliminato con successo.",
-        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
+        "no_access": "Questo giocatore deve far parte del tuo clan e tu devi essere un Co-Capo «verificato» per eseguire questa azione."
       },
       "list": {
         "description": "Elenca tutti i collegamenti dei giocatori.",
@@ -478,7 +478,7 @@
       "description_long": "Imposta la differenza di fuso orario per il comando /activity.",
       "options": {
         "location": {
-          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
+          "description": "Cerca per paese o nome della città (non memorizziamo la tua posizione, solo il fuso orario.)"
         }
       },
       "set": "Imposta il tuo fuso orario con il comando `/timezone`. Ti consente di visualizzare i grafici nel tuo fuso orario.",
@@ -523,7 +523,7 @@
             "description": "Tag o alias del clan."
           },
           "channel": {
-            "description": "Reminder channel for the notification."
+            "description": "Messaggio di promemoria per la notifica."
           }
         },
         "max_limit": "È possibile avere solo 25 promemoria.",
@@ -730,7 +730,7 @@
           "description": "Tipo di guerra [ad esempio Regolare, CWL, Amichevole] (predefinito: Regolare e CWL)"
         },
         "season": {
-          "description": "Retrieve data since the specified season."
+          "description": "Limita i dati agli ultimi X mesi."
         },
         "attempt": {
           "description": "Nuovi attacchi o attacchi di pulizia. (Impostazione predefinita: entrambi)"
@@ -796,7 +796,7 @@
             "description": "Seleziona un'opzione."
           },
           "tag": {
-            "description": "Tag of the clan."
+            "description": "Tag del clan."
           },
           "channel": {
             "description": "Canale in cui inviare gli aggiornamenti (predefinito è il canale corrente)"
@@ -828,7 +828,7 @@
             "description": "Seleziona un'opzione."
           },
           "tag": {
-            "description": "Tag of the clan."
+            "description": "Tag del clan."
           },
           "channel": {
             "description": "Canale da rimuovere."
@@ -863,7 +863,7 @@
         "description_long": "Gestisci la gestione automatica dei ruoli per i ruoli del clan.",
         "options": {
           "member": {
-            "description": "The Member role (below Elder)"
+            "description": "Il ruolo dei membri."
           },
           "elder": {
             "description": "Il ruolo degli anziani."
@@ -872,13 +872,13 @@
             "description": "Il ruolo dei co-capo."
           },
           "leader": {
-            "description": "The Leader role."
+            "description": "Il ruolo di Capo (può scegliere lo stesso ruolo di Co-Capo)"
           },
           "clans": {
             "description": "Tag o alias del clan."
           },
           "common_role": {
-            "description": "Clan role for everyone in the clan."
+            "description": "Ruolo comune per tutti i membri del clan."
           },
           "only_verified": {
             "description": "I ruoli verranno assegnati solo ai giocatori verificati. (È richiesta la verifica del token API)"
@@ -918,10 +918,10 @@
           "description": "Seleziona un'opzione."
         },
         "season_since": {
-          "description": "Retrieve data since the specified season."
+          "description": "La stagione da esportare."
         },
         "season": {
-          "description": "Retrieve data for the specified season."
+          "description": "ID stagionale per il riepilogo del clan."
         }
       },
       "compo": {
