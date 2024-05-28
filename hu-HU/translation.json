@@ -11,8 +11,8 @@
     "no_clan_members": "A(z) {{clan}} klánnak nincsenek tagjai.",
     "fetch_failed": "Hiba történt az adatok API-ból való lekérése során.",
     "component": {
-      "expired": "Ez az komponens már nem aktív. Futtassd újra a parancsot.",
-      "unauthorized": "A komponensekkel való interakcióhoz futtatnod kell a parancsot."
+      "expired": "This component is no longer active. Execute the command again.",
+      "unauthorized": "You must execute the command to interact with the components."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
