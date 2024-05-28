@@ -11,8 +11,8 @@
     "no_clan_members": "В {{clan}} немає жодного учасника.",
     "fetch_failed": "Щось пішло не так під час збору даних з API.",
     "component": {
-      "expired": "Цей компонент більше не активний. Запустіть команду наново.",
-      "unauthorized": "Потрібно виконати команду для взаємодії з компонентами."
+      "expired": "This component is no longer active. Execute the command again.",
+      "unauthorized": "You must execute the command to interact with the components."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
