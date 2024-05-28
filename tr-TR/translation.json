@@ -11,8 +11,8 @@
     "no_clan_members": "‎{{clan}} hiçbir üyeye sahip değil.",
     "fetch_failed": "API belirtecinden veriler alınırken hata oluştu.",
     "component": {
-      "expired": "Bu bileşen artık aktif değil. Komutu tekrar çalıştırın.",
-      "unauthorized": "Bileşenlere erişmek için komutu çalıştırmalısınız."
+      "expired": "This component is no longer active. Execute the command again.",
+      "unauthorized": "You must execute the command to interact with the components."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
