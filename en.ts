@@ -15,8 +15,8 @@ export const common = {
   no_clan_members: '\u200e{{clan}} does not have any clan members.',
   fetch_failed: 'Something went wrong while fetching data from the API.',
   component: {
-    expired: 'This component is no longer active. Run the command again.',
-    unauthorized: 'You must run the command to interact with components.'
+    expired: 'This component is no longer active. Execute the command again.',
+    unauthorized: 'You must execute the command to interact with the components.'
   },
   no_clan_tag_first_time: 'You must provide a clan tag to execute this command!',
   no_clan_tag:
