@@ -177,7 +177,7 @@
             "description": "Nom de l'alias."
           },
           "clan_nickname": {
-            "description": "Surnom du clan."
+            "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
             "description": "Identifiant du clan."
