@@ -180,7 +180,7 @@ export const command = {
           description: 'Name of the alias.'
         },
         clan_nickname: {
-          description: 'Nickname of the clan.'
+          description: 'Nickname of the clan (Experimental)'
         },
         clan: {
           description: 'Tag of the clan.'
