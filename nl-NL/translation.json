@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
     "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
+    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Er is iets misgegaan tijdens het uitvoeren van deze opdracht. (optie niet gevonden)",
     "no_data": "Op dit moment zijn er geen gegevens beschikbaar. We zijn ze nog aan het verzamelen!",
@@ -11,8 +11,8 @@
     "no_clan_members": "{{clan}} heeft geen clanleden.",
     "fetch_failed": "Er is iets misgegaan tijdens het ophalen van gegevens uit de API.",
     "component": {
-      "expired": "Dit onderdeel is niet langer actief. Voer de opdracht opnieuw uit.",
-      "unauthorized": "Voer de opdracht uit om met componenten te communiceren."
+      "expired": "This component is no longer active. Execute the command again.",
+      "unauthorized": "You must execute the command to interact with the components."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
@@ -170,14 +170,17 @@
     "alias": {
       "description": "Creëer, verwijder of bekijk clanaliassen.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Naam van de alias."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Tag van de clan."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "U moet een alias opgeven om deze opdracht uit te voeren.",
@@ -186,7 +189,7 @@
         "no_clan": "U moet een clan tag opgeven om deze opdracht uit te voeren.",
         "exists": "Er bestaat al een alias met de naam {{name}}.",
         "clan_not_linked": "De clan moet aan de server zijn gekoppeld om een alias te creëren.",
-        "success": "Succesvol een alias gemaakt met de naam {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Verwijdert een clan-alias.",
@@ -793,7 +796,7 @@
             "description": "Selecteer een optie."
           },
           "tag": {
-            "description": "Tag van de clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Kanaal om updates naar te verzenden (standaard naar het huidige kanaal)"
@@ -825,7 +828,7 @@
             "description": "Selecteer een optie."
           },
           "tag": {
-            "description": "Tag van de clan."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Kanaal dat wordt verwijderd."
@@ -875,7 +878,7 @@
             "description": "Clan tags or aliases."
           },
           "common_role": {
-            "description": "Common role for everyone in the clan."
+            "description": "Clan role for everyone in the clan."
           },
           "only_verified": {
             "description": "Roles will be given to the verified players only. (API token verification is required)"

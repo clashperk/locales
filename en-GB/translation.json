@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
     "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
+    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Something went wrong while executing this command. (option not found)",
     "no_data": "No data is available at this moment. We are still collecting!",
@@ -11,8 +11,8 @@
     "no_clan_members": "‎{{clan}} does not have any clan members.",
     "fetch_failed": "Something went wrong while fetching data from the API.",
     "component": {
-      "expired": "This component is no longer active. Run the command again.",
-      "unauthorized": "You must run the command to interact with components."
+      "expired": "This component is no longer active. Execute the command again.",
+      "unauthorized": "You must execute the command to interact with the components."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
@@ -170,13 +170,16 @@
     "alias": {
       "description": "Create, delete or view clan aliases.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
+          "alias_name": {
             "description": "Name of the alias."
           },
-          "tag": {
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
             "description": "Tag of the clan."
           }
         },
@@ -186,7 +189,7 @@
         "no_clan": "You must specify a clan tag to execute this command.",
         "exists": "An alias with the name {{name}} already exists.",
         "clan_not_linked": "The clan must be linked to the server to create an alias.",
-        "success": "Successfully created an alias with the name {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Deletes a clan alias.",
@@ -875,7 +878,7 @@
             "description": "Clan tags or aliases."
           },
           "common_role": {
-            "description": "Common role for everyone in the clan."
+            "description": "Clan role for everyone in the clan."
           },
           "only_verified": {
             "description": "Roles will be given to the verified players only. (API token verification is required)"

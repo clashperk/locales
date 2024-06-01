@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
     "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
+    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Valami hiba történt a parancs végrehajtása közben. (az opció nem található)",
     "no_data": "Jelenleg nem állnak rendelkezésre adatok. Még próbáljuk összegyűjteni őket!",
@@ -11,8 +11,8 @@
     "no_clan_members": "A(z) {{clan}} klánnak nincsenek tagjai.",
     "fetch_failed": "Hiba történt az adatok API-ból való lekérése során.",
     "component": {
-      "expired": "Ez az komponens már nem aktív. Futtassd újra a parancsot.",
-      "unauthorized": "A komponensekkel való interakcióhoz futtatnod kell a parancsot."
+      "expired": "This component is no longer active. Execute the command again.",
+      "unauthorized": "You must execute the command to interact with the components."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
@@ -170,14 +170,17 @@
     "alias": {
       "description": "Klán becenevek létrehozása, törlése vagy megtekintése.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "A becenév neve."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "A klán címkéje (tag-je)."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "A parancs futtatásához meg kell adnod egy becenevet.",
@@ -186,7 +189,7 @@
         "no_clan": "A parancs futtatásához meg kell adnod egy klán címkét (klán tag)-et.",
         "exists": "Már létezik egy {{name}} nevű becenév.",
         "clan_not_linked": "A becenév létrehozása előtt a klánt össze kell kapcsolni a szerverrel.",
-        "success": "Sikeresen létrehoztad a(z) {{name}} nevű becenevet."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Kitöröl egy klán becenevet.",
@@ -875,7 +878,7 @@
             "description": "Clan tags or aliases."
           },
           "common_role": {
-            "description": "Common role for everyone in the clan."
+            "description": "Clan role for everyone in the clan."
           },
           "only_verified": {
             "description": "Roles will be given to the verified players only. (API token verification is required)"

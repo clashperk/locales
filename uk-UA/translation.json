@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
     "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready a patron? Use {{command}} command.",
-    "patron_only": "This command is only available on Patron servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready a patron? Use {{command}} command.",
+    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
+    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Щось пішло не так під час виконання даної команди. (опція не знайдена)",
     "no_data": "Наразі даних немає. Ми все ще збираємо їх!",
@@ -11,8 +11,8 @@
     "no_clan_members": "В {{clan}} немає жодного учасника.",
     "fetch_failed": "Щось пішло не так під час збору даних з API.",
     "component": {
-      "expired": "Цей компонент більше не активний. Запустіть команду наново.",
-      "unauthorized": "Потрібно виконати команду для взаємодії з компонентами."
+      "expired": "This component is no longer active. Execute the command again.",
+      "unauthorized": "You must execute the command to interact with the components."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
     "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
@@ -170,14 +170,17 @@
     "alias": {
       "description": "Створення, видалення або перегляд псевдонімів клану.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation)",
-        "description_long": "Creates a clan alias (short code or abbreviation)",
+        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
-          "name": {
-            "description": "Найменування псевдоніма."
+          "alias_name": {
+            "description": "Name of the alias."
           },
-          "tag": {
-            "description": "Тег клану."
+          "clan_nickname": {
+            "description": "Nickname of the clan."
+          },
+          "clan": {
+            "description": "Tag of the clan."
           }
         },
         "no_name": "Для виконання цієї команди необхідно надати псевдонім.",
@@ -186,7 +189,7 @@
         "no_clan": "Для виконання цієї команди необхідно надати клан тег.",
         "exists": "Псевдонім {{name}} вже існує.",
         "clan_not_linked": "Для надання псевдоніму треба прив'язати клан до сервера.",
-        "success": "Успішно створено псевдонім {{name}}."
+        "success": "Clan alias or nickname updated."
       },
       "delete": {
         "description": "Видаляє псевдоніми клану.",
@@ -793,7 +796,7 @@
             "description": "Оберіть варіант."
           },
           "tag": {
-            "description": "Тег клану."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Канал для передачі через нього оновлень (за замовчуванням даний канал)"
@@ -825,7 +828,7 @@
             "description": "Оберіть варіант."
           },
           "tag": {
-            "description": "Тег клану."
+            "description": "Tag of the clan."
           },
           "channel": {
             "description": "Канал видалено."
@@ -875,7 +878,7 @@
             "description": "Clan tags or aliases."
           },
           "common_role": {
-            "description": "Common role for everyone in the clan."
+            "description": "Clan role for everyone in the clan."
           },
           "only_verified": {
             "description": "Roles will be given to the verified players only. (API token verification is required)"
