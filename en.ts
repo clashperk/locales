@@ -533,7 +533,7 @@ export const command = {
       max_limit: 'You can only have 25 reminders.',
       invalid_duration_format: 'The duration must be in a valid format. e.g. 2h, 2.5h, 30m',
       no_message: 'You must specify a message to execute this command.',
-      duration_limit: 'The duration must be greater than 15 minutes and less than 45 hours.',
+      duration_limit: 'The duration must be greater than 15 minutes and less than 48 hours.',
       duration_order: 'Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h',
       too_many_clans:
         "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
