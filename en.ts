@@ -38,7 +38,7 @@ export const common = {
   clan_tag_argument: 'Clan tag or alias or @user mention.',
   player_tag_argument: 'Player tag or @user mention.',
   maintenance_start: 'The maintenance break has started!',
-  maintenance_end: 'The maintenance break has finished! {{duration}}',
+  maintenance_end: 'The maintenance break is ending soon! {{duration}}',
   something_went_wrong: 'Something went wrong while executing this command.',
   missing_access: "I'm missing {{permission}} in {{channel}} to execute this command.",
   missing_manager_role:
