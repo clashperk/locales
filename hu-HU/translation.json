@@ -32,7 +32,7 @@
     "clan_tag_argument": "Klán címke (klán tag) vagy @tag említés.",
     "player_tag_argument": "Játékos címke (játékos tag) vagy @tag említés.",
     "maintenance_start": "A karbantartás elkezdődött!",
-    "maintenance_end": "A karbantartási véget ért! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Valami hiba történt a parancs futtatása közben.",
     "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
