@@ -32,7 +32,7 @@
     "clan_tag_argument": "Clan tag of @gebruiker vermelding.",
     "player_tag_argument": "Speler tag of @gebruiker vermelding.",
     "maintenance_start": "De onderbreking wegens onderhoud is begonnen!",
-    "maintenance_end": "De onderbreking wegens onderhoud is afgelopen! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Er is iets misgegaan tijdens het uitvoeren van deze opdracht.",
     "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
