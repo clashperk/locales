@@ -32,7 +32,7 @@
     "clan_tag_argument": "Etiqueta de clan, apodo, o mención al @usuario.",
     "player_tag_argument": "Etiqueta de jugador o mención al @usuario.",
     "maintenance_start": "¡El corte para mantenimiento ya ha comenzado!",
-    "maintenance_end": "¡El corte para mantenimiento ya ha terminado! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Something went wrong while executing this command.",
     "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
