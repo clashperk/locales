@@ -32,7 +32,7 @@
     "clan_tag_argument": "Tag o alias del clan o menzione @utente.",
     "player_tag_argument": "Tag del giocatore o menzione @utente.",
     "maintenance_start": "La pausa di manutenzione è iniziata!",
-    "maintenance_end": "La pausa di manutenzione è finita! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Qualcosa è andato storto durante l'esecuzione del comando.",
     "missing_access": "Mi manca {{permission}} in {{channel}} per eseguire questo comando.",
     "missing_manager_role": "Non hai l'autorizzazione **Gestisci server** o il ruolo [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) per eseguire questa azione.",
