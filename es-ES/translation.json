@@ -721,7 +721,7 @@
           "description": "Etiqueta de clan, apodo, o mención al @usuario."
         },
         "compare": {
-          "description": "Comparar ayuntamientos (Por ejemplo: 14 vs 13, 12 vs 13, todos, iguales, etc.)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Estrellas de guerra ganadas. (Por defecto: 3)"
