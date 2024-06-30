@@ -721,7 +721,7 @@
           "description": "Klán címke (klán tag) vagy @tag említés."
         },
         "compare": {
-          "description": "Hasonlítsd össze a Town Hall-okat (pl. 14vs13, 12, 13, all)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Megszerzett csillagok a Háborúban (War-ban). (Alapértelmezett: 3)"
