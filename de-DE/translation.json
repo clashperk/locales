@@ -721,7 +721,7 @@
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
         },
         "compare": {
-          "description": "Vergleiche Rathäuser (z.B. 14 gegen 13, 12 gegen 13, alle, gleich)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Kriegssterne verdient. (Standard: 3)"
