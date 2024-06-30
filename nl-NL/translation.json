@@ -721,7 +721,7 @@
           "description": "Clan tag of @gebruiker vermelding."
         },
         "compare": {
-          "description": "Vergelijk stadhuizen (bijv. 14vs13, 12 13, alle, gelijk)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Oorlogssterren verdiend. (Standaard: 3)"
