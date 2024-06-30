@@ -721,7 +721,7 @@
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "compare": {
-          "description": "Comparer les Hôtels De Ville (ex. 14vs13, 12 13, tous, égal)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Étoiles de guerre gagnées. (par défaut : 3)"
