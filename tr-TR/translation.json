@@ -721,7 +721,7 @@
           "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "compare": {
-          "description": "Belediye Binalarını karşılaştır (Örn. 14vs13, 12 13, all, equal)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Kazanılan savaş yıldızları. (Varsayılan: 3)"
