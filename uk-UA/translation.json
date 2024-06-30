@@ -721,7 +721,7 @@
           "description": "Тег чи псевдонім клану або згадка @user."
         },
         "compare": {
-          "description": "Порівняння ратуш (наприклад, 14 з 13, 12 з 13, всі, одного рівня)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Здобуті зірки. (За замовчуванням: 3)"
