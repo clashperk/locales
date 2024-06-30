@@ -721,7 +721,7 @@
           "description": "Tag do Clã, nome ou mencione @usuario."
         },
         "compare": {
-          "description": "Compare Centros de Vila (por exemplo: 14vs13, 12 13, all, equal)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Estrelas de guerra conquistadas. (Padrão: 3)"
