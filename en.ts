@@ -727,7 +727,7 @@ export const command = {
         description: 'Clan tag or alias or @user mention.'
       },
       compare: {
-        description: 'Compare Town Halls (e.g. 14vs13, 12 13, all, equal)'
+        description: 'Compare Town Halls (e.g. 14vs13, *vs15, all, equal)'
       },
       stars: {
         description: 'War stars earned. (Default: 3)'
