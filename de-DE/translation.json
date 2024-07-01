@@ -32,7 +32,7 @@
     "clan_tag_argument": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung.",
     "player_tag_argument": "Spieler-Kürzel oder @Benutzer-Erwähnung.",
     "maintenance_start": "Die Wartungspause hat begonnen!",
-    "maintenance_end": "Die Wartungspause ist beendet! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Beim Ausführen des Befehls ist ein Fehler aufgetreten.",
     "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
@@ -177,7 +177,7 @@
             "description": "Name of the alias."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan."
+            "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
             "description": "Tag of the clan."
@@ -529,7 +529,7 @@
         "max_limit": "Du kannst nur 25 Erinnerungen haben.",
         "invalid_duration_format": "Die Dauer muss in einem gültigen Format vorliegen. (z. B. 2h, 2,5h, 30m)",
         "no_message": "Sie müssen eine Nachricht angeben, um diesen Befehl auszuführen.",
-        "duration_limit": "Die Dauer muss mehr als 15 Minuten und weniger als 45 Stunden betragen.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Die Dauer muss ein Vielfaches von 15 Minuten sein. z.B. 15min, 30min, 45min, 1 Stunde, 1,25 h, 1,5 h, 1,75 h",
         "too_many_clans": "Das Clanauswahlmenü ist nicht für mehr als 25 Clans verfügbar. {{clans}} Clans wurden automatisch ausgewählt!\nUm eine Erinnerung für bestimmte Clans zu erstellen, übergeben Sie Clankürzel oder Aliase während der Ausführung des Befehls über die Option „Clans“.",
         "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
@@ -721,7 +721,7 @@
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
         },
         "compare": {
-          "description": "Vergleiche Rathäuser (z.B. 14 gegen 13, 12 gegen 13, alle, gleich)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Kriegssterne verdient. (Standard: 3)"
