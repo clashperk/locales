@@ -907,8 +907,8 @@
         "success_with_count": "Il ruolo automatico è stato disabilitato per {{count}} clan. \n{{clans}}"
       },
       "refresh": {
-        "description": "Aggiorna ruoli automatici (utilizzabile ogni 30 minuti)",
-        "description_long": "Aggiorna ruoli automatici (utilizzabile ogni 30 minuti)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {
