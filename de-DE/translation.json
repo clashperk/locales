@@ -907,8 +907,8 @@
         "success_with_count": "Die automatische Rolle wurde für {{count}} Clan(s) deaktiviert. \n{{clans}}"
       },
       "refresh": {
-        "description": "Automatische Rollen aktualisieren (alle 30 Minuten nutzbar)",
-        "description_long": "Automatische Rollen aktualisieren (alle 30 Minuten nutzbar)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {
