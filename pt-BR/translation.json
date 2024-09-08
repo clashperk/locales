@@ -907,8 +907,8 @@
         "success_with_count": "O cargo automático foi desativado para {{count}} clã(s). \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh automatic roles (usable every 30 minutes)",
-        "description_long": "Refresh automatic roles (usable every 30 minutes)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {
