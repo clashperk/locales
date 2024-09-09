@@ -907,7 +907,7 @@
         "success_with_count": "L'auto-rôle a été désactivé pour {{count}} clan(s). \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh roles manually.",
+        "description": "Actualiser les rôles manuellement.",
         "description_long": "Actualiser les auto-rôles (utilisable toutes les 30 minutes)"
       }
     },
