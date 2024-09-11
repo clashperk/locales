@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Надає нікнейм прив'язаному гравцю зі списку.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "ID користувача чи згадка @user."
-        }
-      },
-      "invalid_member": "Ви повинні згадати існуючого користувача для виконання команди.",
-      "missing_access_self": "У мене немає дозволу змінювати нікнейм.",
-      "missing_access_other": "У мене немає дозволу змінювати нікнейм даного учасника.",
-      "no_players": "Жоден гравець не зв'язаний з {{user}}.",
-      "char_limit": "Ваш нікнейм повинен містити менше ніж 31 символ."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
