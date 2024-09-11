@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Bağlantılı oyuncular listesinden bir takma ad seçin.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "Kullanıcı kimliği ya da @kullanıcı girin."
-        }
-      },
-      "invalid_member": "Bu komutu kullanmak için geçerli bir üye seçmelisiniz.",
-      "missing_access_self": "Takma adınızı değiştirme iznim yok.",
-      "missing_access_other": "Bu üyenin takma adını değiştirme iznim yok.",
-      "no_players": "Hiçbir oyuncu {{user}} ile bağlantılı değil.",
-      "char_limit": "Takma adınız 31 karakterden kısa olmalıdır."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
