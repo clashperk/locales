@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Escolha um apelido na lista de jogadores vinculada.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "ID do usuário ou mencione @usuario."
-        }
-      },
-      "invalid_member": "Você deve mencionar um membro válido para usar esse comando.",
-      "missing_access_self": "Não tenho permissão para mudar seu apelido.",
-      "missing_access_other": "Não tenho permissão para alterar o apelido desse membro.",
-      "no_players": "Nenhum jogador está vinculado a {{user}}.",
-      "char_limit": "Seu apelido deve ter menos de 31 caracteres."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
