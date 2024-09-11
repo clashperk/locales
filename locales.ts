@@ -498,18 +498,11 @@ export const command = {
     }
   },
   nickname: {
-    description: 'Choose a nickname from the linked player list.',
-    description_long: 'Rename users with a nickname selected from linked player list.',
-    options: {
-      user: {
-        description: 'User ID or @user mention.'
-      }
-    },
-    invalid_member: 'You must mention a valid member to use this command.',
-    missing_access_self: 'I do not have permission to change your nickname.',
-    missing_access_other: 'I do not have permission to change the nickname of this member.',
-    no_players: 'No players are linked to {{user}}.',
-    char_limit: 'Your nickname must be less than 31 characters.'
+    description: 'Configure automatic server nickname settings.',
+    config: {
+      description: 'Configure automatic server nickname settings.',
+      description_long: 'Configure automatic server nickname settings.'
+    }
   },
   reminders: {
     description: 'Create, delete or list reminders.',
