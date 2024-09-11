@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Wählen Sie einen Nickname aus der verknüpften Spielerliste.",
-      "description_long": "Benennen Sie Benutzer mit einem Spitznamen um, der aus der verknüpften Spielerliste ausgewählt wurde.",
-      "options": {
-        "user": {
-          "description": "Spieler-Kürzel oder @user-Erwähnung."
-        }
-      },
-      "invalid_member": "Sie müssen ein gültiges Mitglied angeben, um diesen Befehl verwenden zu können.",
-      "missing_access_self": "Ich habe keine Berechtigung, deinen Nickname zu ändern.",
-      "missing_access_other": "Ich habe keine Berechtigung, den Nickname dieses Mitglieds zu ändern.",
-      "no_players": "Keine Spieler sind mit {{user}} verknüpft.",
-      "char_limit": "Ihr Nickname muss weniger als 31 Zeichen lang sein."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Erinnerungen erstellen, löschen oder auflisten.",
