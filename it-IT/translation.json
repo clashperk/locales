@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Scegli un soprannome dalla lista dei giocatori collegati.",
-      "description_long": "Rinomina gli utenti con un nickname selezionato dall'elenco dei giocatori collegati.",
-      "options": {
-        "user": {
-          "description": "ID utente o menzione Utente."
-        }
-      },
-      "invalid_member": "Devi menzionare un membro valido per usare questo comando.",
-      "missing_access_self": "Non ho il permesso di cambiare il tuo nickname.",
-      "missing_access_other": "Non ho il permesso di cambiare il nickname di questo utente.",
-      "no_players": "Nessun giocatore è collegato a {{user}}.",
-      "char_limit": "Il tuo nickname deve contenere meno di 31 caratteri."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Crea, elimina o elenca promemoria di guerra.",
