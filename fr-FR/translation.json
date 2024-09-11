@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Choisir un pseudo dans la liste des joueurs reliés.",
-      "description_long": "Renommer les utilisateurs avec un pseudo sélectionné dans la liste des joueurs liés.",
-      "options": {
-        "user": {
-          "description": "Identifiant utilisateur ou mention @utilisateur."
-        }
-      },
-      "invalid_member": "Vous devez mentionner un membre valide pour utiliser cette commande.",
-      "missing_access_self": "Je n'ai pas la permission de changer votre pseudo.",
-      "missing_access_other": "Je n'ai pas la permission de changer le pseudo de ce membre.",
-      "no_players": "Aucun joueur n'est relié à {{user}}.",
-      "char_limit": "Votre pseudo doit comporter moins de 31 caractères."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Créer, supprimer ou lister les rappels.",
