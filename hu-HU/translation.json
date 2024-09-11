@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Válassz egy becenevet az összekapcsolt játékosok listájából.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "Felhasználói azonosító (ID) vagy @tag említés."
-        }
-      },
-      "invalid_member": "A parancs használatához meg kell említened egy tagot.",
-      "missing_access_self": "Nincs jogom, hogy megváltoztassam a beceneved.",
-      "missing_access_other": "Nincs jogom, hogy megváltoztassam a becenevét.",
-      "no_players": "Egyetlen játékos sincs kapcsolva {{user}} -hoz/-hez.",
-      "char_limit": "A becenév maximum 31 karakterből állhat."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
