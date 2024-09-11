@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Kies een naam uit de lijst met gekoppelde spelers.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "Gebruikers-ID of @gebruiker vermelding."
-        }
-      },
-      "invalid_member": "Zorg dat u een geldig lid vermeldt om deze opdracht te gebruiken.",
-      "missing_access_self": "Ik heb geen toestemming om je naam te wijzigen.",
-      "missing_access_other": "Ik heb geen toestemming om de naam van dit lid te wijzigen.",
-      "no_players": "Er zijn geen spelers gekoppeld aan {{user}}.",
-      "char_limit": "Uw naam moet minder dan 31 tekens lang zijn."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
