@@ -1,11 +1,5 @@
 # Locales
 
-This repository hosts the translation files for ClashPerk Bot. Except for [en-US](/en.ts), no manual commits should ever need to be done to this repository.
+This repository contains the translation files for the ClashPerk Bot. Except for [locales.ts](/locales.ts), manual commits should generally not be required.
 
-To add a language, visit https://crowdin.com/project/clashperk
-
-## Guidelines
-
-- Please do not use any vulgar language.
-- Please use proper punctuation.
-- Do not change anything that is between `{{}}`
+For translation updates or contributions, visit https://crowdin.com/project/clashperk
