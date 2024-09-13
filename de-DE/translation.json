@@ -170,17 +170,17 @@
     "alias": {
       "description": "Erstelle, lösche oder zeige Clan Pseudonyme.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
-        "description_long": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description": "Erstellt einen Clan-Alias (Abkürzung) oder einen Clan-Spitznamen.",
+        "description_long": "Erstellt einen Clan-Alias (Abkürzung) oder einen Clan-Spitznamen.",
         "options": {
           "alias_name": {
-            "description": "Name of the alias."
+            "description": "Name des Alias."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan (Experimental)"
+            "description": "Spitzname des Clans (Experimentell)"
           },
           "clan": {
-            "description": "Tag of the clan."
+            "description": "Clankürzel."
           }
         },
         "no_name": "Du musst einen Alias Namen eingeben, um diesen Befehl zu nutzen.",
@@ -189,7 +189,7 @@
         "no_clan": "Du musst ein Spielerkürzel eingeben, um diesen Befehl zu nutzen.",
         "exists": "Ein Alias mit dem Namen {{name}} existiert bereits.",
         "clan_not_linked": "Der Clan muss mit diesem Server verbunden sein, um ein Alias zu erstellen.",
-        "success": "Clan alias or nickname updated."
+        "success": "Clan-Alias oder Spitzname aktualisiert."
       },
       "delete": {
         "description": "Löscht ein Clan Alias.",
@@ -217,24 +217,24 @@
           "description": "Hex-Farbcode (z.B. #ed4245)"
         },
         "maintenance_notification_channel": {
-          "description": "In-game maintenance break notification channel."
+          "description": "Benachrichtigungskanal für Wartungsunterbrechungen des Spiels."
         },
         "manager_role": {
           "description": "Rolle, die den Bot verwalten kann."
         },
         "roster_manager_role": {
-          "description": "Role that can manage the roster members."
+          "description": "Rolle, die die Rostermitglieder verwalten kann."
         },
         "flags_manager_role": {
-          "description": "Role that can manage the flags."
+          "description": "Rolle, die die Flags verwalten kann."
         },
         "links_manager_role": {
-          "description": "Role that can manage the Discord links."
+          "description": "Rolle, die die Discord-Links verwalten kann."
         }
       },
       "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
       "title": "Servereinstellungen",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "maintenance_notification_channel": "Benachrichtigungskanal für Wartungsunterbrechungen"
     },
     "debug": {
       "description": "Zeigt generelle Debug-Informationen.",
@@ -328,7 +328,7 @@
           "description": "Wähle eine Option."
         },
         "season": {
-          "description": "Retrieve data since the specified season."
+          "description": "Abrufen von Daten seit der angegebenen Saison."
         },
         "clans": {
           "description": "Clankürzel oder Aliase zum Filtern von Clans."
@@ -426,7 +426,7 @@
             "description": "Benutzerkonto, des mit dem Kürzel verbunden werden soll."
           },
           "is_default": {
-            "description": "Whether to set this as the default account."
+            "description": "Ob dies als Standard Account festgelegt werden soll."
           }
         },
         "no_bots": "Bot-Konten dürfen nicht verbunden werden.",
@@ -434,7 +434,7 @@
         "prompt": "Was möchtest du verlinken? Ein Spieler oder ein Clan?",
         "success": "{{target}} mit {{user}} wurde erfolgreich verknüpft.",
         "link_exists": "{{player}} ist bereits verknüpft.",
-        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
+        "already_linked": "{{player}} ist bereits mit einem anderen Benutzer verknüpft. Wenn Sie diesen Account besitzt, verwenden Sie bitte den {{command}} Befehlt.",
         "max_limit": "Das maximale Konto-Limit wurde erreicht. (25 Konten pro Benutzer)"
       },
       "delete": {
@@ -447,7 +447,7 @@
         },
         "no_result": "Es wurden keine Übereinstimmungen mit dem Kürzel {{tag}} gefunden.",
         "success": "Die Verknüpfung mit dem Kürzel {{tag}} wurde erfolgreich gelöscht.",
-        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
+        "no_access": "Dieser Spieler sollte in deinem Clan sein und du musst ein „verifizierter“ Vize oder Anführer sein, um diese Aktion ausführen zu können. Benutze {{command}}, um den Account zu verifizieren."
       },
       "list": {
         "description": "Listet alle Spieler-Verknüpfungen auf.",
@@ -478,7 +478,7 @@
       "description_long": "Stellen Sie Ihren Zeitzonenversatz für den Befehl /activity ein.",
       "options": {
         "location": {
-          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
+          "description": "Suche eine Zeitzone nach Stadt oder Land (z. B. London, New York, Singapur, Indien, Sydney)"
         }
       },
       "set": "Bitte stellen Sie Ihre Zeitzone mit dem Befehl `/timezone` ein. Es ermöglicht Ihnen, die Grafiken in Ihrer Zeitzone anzuzeigen.",
@@ -494,10 +494,10 @@
       }
     },
     "nickname": {
-      "description": "Configure automatic server nickname settings.",
+      "description": "Konfigurieren Sie die automatischen Nickname-Einstellungen.",
       "config": {
-        "description": "Configure automatic server nickname settings.",
-        "description_long": "Configure automatic server nickname settings."
+        "description": "Konfigurieren Sie die automatischen Nickname-Einstellungen.",
+        "description_long": "Konfigurieren Sie die automatischen Nickname-Einstellungen."
       }
     },
     "reminders": {
@@ -516,13 +516,13 @@
             "description": "Clankürzel oder Aliase."
           },
           "channel": {
-            "description": "Reminder channel for the notification."
+            "description": "Erinnerungskanal für die Benachrichtigung."
           }
         },
         "max_limit": "Du kannst nur 25 Erinnerungen haben.",
         "invalid_duration_format": "Die Dauer muss in einem gültigen Format vorliegen. (z. B. 2h, 2,5h, 30m)",
         "no_message": "Sie müssen eine Nachricht angeben, um diesen Befehl auszuführen.",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
+        "duration_limit": "Die Dauer muss mehr als 15 Minuten und weniger als 48 Stunden betragen.",
         "duration_order": "Die Dauer muss ein Vielfaches von 15 Minuten sein. z.B. 15min, 30min, 45min, 1 Stunde, 1,25 h, 1,5 h, 1,75 h",
         "too_many_clans": "Das Clanauswahlmenü ist nicht für mehr als 25 Clans verfügbar. {{clans}} Clans wurden automatisch ausgewählt!\nUm eine Erinnerung für bestimmte Clans zu erstellen, übergeben Sie Clankürzel oder Aliase während der Ausführung des Befehls über die Option „Clans“.",
         "too_many_webhooks": "Zu viele Webhooks in {{channel}}.",
@@ -714,7 +714,7 @@
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
         },
         "compare": {
-          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
+          "description": "Vergleiche Rathäuser (z.B. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Kriegssterne verdient. (Standard: 3)"
@@ -723,7 +723,7 @@
           "description": "Kriegstyp [z.B. Regulär, CWL, freundschaftlich] (Standardeinstellung: Regulär und CWL)"
         },
         "season": {
-          "description": "Retrieve data since the specified season."
+          "description": "Rufen Sie Daten seit der angegebenen Saison ab."
         },
         "attempt": {
           "description": "Neue Angriffe oder Verbesserungsangriffe. (Standard: Beide)"
@@ -789,7 +789,7 @@
             "description": "Wählen Sie eine Option aus."
           },
           "tag": {
-            "description": "Tag of the clan."
+            "description": "Clankürzel."
           },
           "channel": {
             "description": "Kanal, an den Updates gesendet werden sollen (standardmäßig der aktuelle Kanal)"
@@ -821,7 +821,7 @@
             "description": "Wählen Sie eine Option aus."
           },
           "tag": {
-            "description": "Tag of the clan."
+            "description": "Clankürzel."
           },
           "channel": {
             "description": "Channel to be removed"
@@ -856,7 +856,7 @@
         "description_long": "Verwalten Sie die automatische Rollenverwaltung für Clanrollen.",
         "options": {
           "member": {
-            "description": "The Member role (below Elder)"
+            "description": "Die Rolle des Mitglieds (unter dem Ältesten)"
           },
           "elder": {
             "description": "Die Ältesten Rolle."
@@ -865,13 +865,13 @@
             "description": "Die Vize-Anführer Rolle."
           },
           "leader": {
-            "description": "The Leader role."
+            "description": "Die Anführerrolle."
           },
           "clans": {
             "description": "Clankürzel oder Aliase."
           },
           "common_role": {
-            "description": "Clan role for everyone in the clan."
+            "description": "Clan-Rolle für jeden im Clan."
           },
           "only_verified": {
             "description": "Rollen werden nur an verifizierte Spieler vergeben. (API-Token-Überprüfung ist erforderlich)"
@@ -900,8 +900,8 @@
         "success_with_count": "Die automatische Rolle wurde für {{count}} Clan(s) deaktiviert. \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh roles manually.",
-        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
+        "description": "Rollen manuell aktualisieren.",
+        "description_long": "Rollen manuell aktualisieren. (Verwenden Sie diesen Befehl, wenn Rollen nicht automatisch aktualisiert werden.)"
       }
     },
     "summary": {
@@ -911,10 +911,10 @@
           "description": "Wählen Sie eine Option aus."
         },
         "season_since": {
-          "description": "Retrieve data since the specified season."
+          "description": "Abrufen von Daten seit der angegebenen Saison."
         },
         "season": {
-          "description": "Retrieve data for the specified season."
+          "description": "Rufen Sie Daten für die angegebene Saison ab."
         }
       },
       "compo": {
