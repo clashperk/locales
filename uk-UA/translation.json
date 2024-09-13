@@ -34,7 +34,7 @@
     "maintenance_start": "Перерва на технічне обслуговування почалася!",
     "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Щось пішло не так під час виконання даної команди.",
-    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Так",
