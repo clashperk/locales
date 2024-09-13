@@ -34,7 +34,7 @@
     "maintenance_start": "¡El corte para mantenimiento ya ha comenzado!",
     "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Something went wrong while executing this command.",
-    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Sí",
