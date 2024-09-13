@@ -2,8 +2,8 @@
   "common": {
     "no_clans_found": "Für die angegebene Eingabe wurden auf diesem Server keine Clans gefunden! \nVerwenden Sie den {{command}} Befehl, um einen Clan zu verknüpfen.",
     "no_clans_linked": "Mit diesem Server sind keine Clans verbunden. Warum nicht einige verlinken? \nVerwenden Sie {{command}} Befehl, um einen Clan zu verknüpfen.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
-    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
+    "clan_limit": "Die maximale Anzahl an Clans ist erreicht. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um mehr als zwei Clans hinzuzufügen.\n\nBereits ein Patron? Benutze den Befehl {{command}}.",
+    "patreon_only": "Dieser Befehl ist nur auf Patreon-Servern verfügbar. Bitte unterstütze uns auf unserem [Patreon](https://patreon.com/clashperk), um diesen Befehl zu nutzen.\n\nSchon abonniert? Dann nutze den {{command}} Befehl.",
     "clan_verification": "Wir müssen sicherstellen, dass Sie ein Anführer oder Co-Anführer dieses Clans sind. Bitte verifizieren Sie Ihr Spielerkonto mit dem API-Token.\nVerwenden Sie den Befehl {{command}}, um Ihr Spielerkonto zu verifizieren. Das API-Token ist in den Spieleinstellungen verfügbar.",
     "no_option": "Etwas ist falsch gelaufen während der Ausführung dieses Befehls. (option not found)",
     "no_data": "Zu diesem Zeitpunkt sind darüber keine Daten verfügbar. Wir sind noch am Daten sammeln.",
@@ -11,8 +11,8 @@
     "no_clan_members": "{{clan}} hat keine Mitglieder.",
     "fetch_failed": "Beim Abrufen von Daten aus der API ist ein Fehler aufgetreten.",
     "component": {
-      "expired": "This component is no longer active. Execute the command again.",
-      "unauthorized": "You must execute the command to interact with the components."
+      "expired": "Diese Komponente ist nicht mehr aktiv. Nutze den Befehl erneut.",
+      "unauthorized": "Um mit dieser Komponente interagieren zu können, musst du den Befehl selber ausführen."
     },
     "no_clan_tag_first_time": "Du musst ein Clankürzel angeben um diesen Befehl zu nutzen!",
     "no_clan_tag": "Sie müssen einen Clankürzel angeben, um diesen Befehl auszuführen!\nAlternativ kannst du mit dem {{command}} -Befehl einen Standard-Clan mit deinem Profil verknüpfen.",
@@ -21,21 +21,21 @@
     "player_not_linked": "Kein Spieler ist mit {{user}} verknüpft. Verwenden Sie {{command}} Befehl, um einen Spieler zu verknüpfen.",
     "guild_unauthorized": "Dieser Server ist nicht für {{clan}} autorisiert. Verwenden Sie {{command}} Befehl, um einen Clan zu verknüpfen.",
     "status_code": {
-      "400": "An unknown error occurred while handling the request (400)",
-      "403": "An unknown error occurred while handling the request (403)",
+      "400": "Bei der Bearbeitung der Anfrage ist ein unbekannter Fehler aufgetreten (400)",
+      "403": "Bei der Bearbeitung der Anfrage ist ein unbekannter Fehler aufgetreten (403)",
       "404": "Für das angegebene Kürzel wurden keine Übereinstimmungen gefunden.",
-      "429": "An unknown error occurred while handling the request (429)",
-      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
-      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
-      "504": "An unknown error occurred while handling the request (504)"
+      "429": "Bei der Bearbeitung der Anfrage ist ein unbekannter Fehler aufgetreten (429)",
+      "500": "Ein unbekannter Fehler ist bei der Verarbeitung des Befehls aufgetreten (passiert häufig während der Rücksetzung der Saison)",
+      "503": "Dieser Service ist aufgrund von Wartungsarbeiten im Spiel vorübergehend nicht verfügbar.",
+      "504": "Bei der Bearbeitung der Anfrage ist ein unbekannter Fehler aufgetreten (504)"
     },
     "clan_tag_argument": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung.",
     "player_tag_argument": "Spieler-Kürzel oder @Benutzer-Erwähnung.",
     "maintenance_start": "Die Wartungspause hat begonnen!",
-    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
+    "maintenance_end": "Die Wartungspause endet bald! {{duration}}",
     "something_went_wrong": "Beim Ausführen des Befehls ist ein Fehler aufgetreten.",
-    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
-    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
+    "missing_access": "Dem Bot fehlt {{permission}} in {{channel}}, um diesen Befehl auszuführen.",
+    "missing_manager_role": "Dir fehlt die Berechtigung den **Server zu Verwalten** oder die Rolle [Bot Manager](<https://docs.clashperk.com/others/bot-manager>), um diese Aktion auszuführen.",
     "choices": {
       "yes": "Ja",
       "no": "Nein"
