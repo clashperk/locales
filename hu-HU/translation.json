@@ -453,7 +453,7 @@
         "description": "Az összes összekapcsolt játékos kilistázása.",
         "description_long": "List all player links of a clan.",
         "options": {
-          "tag": {
+          "clan": {
             "description": "Klán címke (klán tag) vagy @tag említés."
           }
         }

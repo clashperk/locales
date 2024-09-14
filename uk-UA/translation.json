@@ -453,7 +453,7 @@
         "description": "Список всіх прив'язаних гравців.",
         "description_long": "List all player links of a clan.",
         "options": {
-          "tag": {
+          "clan": {
             "description": "Тег чи псевдонім клану або згадка @user."
           }
         }
