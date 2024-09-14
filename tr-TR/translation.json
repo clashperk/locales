@@ -453,7 +453,7 @@
         "description": "Bütün kullanıcı bağlantılarını listele.",
         "description_long": "List all player links of a clan.",
         "options": {
-          "tag": {
+          "clan": {
             "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
           }
         }
