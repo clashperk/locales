@@ -263,8 +263,8 @@
         "description_long": "Keine Beschreibung."
       },
       "members": {
-        "description": "Shows a list of all CWL participants.",
-        "description_long": "Zeigt eine Liste aller CWL-Teilnehmer an."
+        "description": "Zeigt eine Liste aller CWL-Teilnehmer.",
+        "description_long": "Zeigt eine Liste aller CWL-Teilnehmer."
       },
       "history": {
         "description": "Zeigt den CWL-Verlauf eines Spielers oder Benutzers an.",
@@ -292,11 +292,11 @@
         }
       },
       "stars": {
-        "description": "Shows CWL member ranking by stars.",
+        "description": "Zeigt die Rangliste der CWL-Mitglieder nach Sternen an.",
         "description_long": "Zeigt die Rangliste der CWL-Mitglieder nach Sternen an."
       },
       "stats": {
-        "description": "Shows an overview of all CWL rounds and group standings.",
+        "description": "Zeigt eine Übersicht aller CWL-Runden und Gruppenwertungen.",
         "description_long": "Zeigt eine Übersicht aller CWL-Runden und Gruppenwertungen."
       }
     },
@@ -338,28 +338,28 @@
         }
       },
       "cwl": {
-        "description": "Export CWL stats to Excel.",
+        "description": "Exportieren Sie CWL-Statistiken nach Excel.",
         "description_long": "Exportieren Sie CWL-Statistiken nach Excel."
       },
       "last_wars": {
-        "description": "Export participation history (last played wars)",
+        "description": "Teilnahmeverlauf exportieren (zuletzt gespielte Kriege)",
         "description_long": "Teilnahmeverlauf exportieren (zuletzt gespielte Kriege)"
       },
       "members": {
-        "description": "Export a comprehensive version of clan member stats.",
+        "description": "Exportieren Sie eine umfassende Version der Statistiken der Clanmitglieder.",
         "description_long": "Exportieren Sie eine umfassende Version der Statistiken der Clanmitglieder."
       },
       "missed": {
-        "description": "Export missed attack history.",
+        "description": "Exportieren Sie den Verlauf verpasster Angriffe.",
         "description_long": "Exportieren Sie den Verlauf verpasster Angriffe."
       },
       "season": {
-        "description": "Export comprehensive seasonal stats of clan members.",
+        "description": "Exportieren Sie umfassende saisonale Statistiken von Clanmitgliedern.",
         "description_long": "Exportieren Sie umfassende saisonale Statistiken von Clanmitgliedern."
       },
       "wars": {
-        "description": "Export War stats to Excel.",
-        "description_long": "Exportieren Sie Cwl-Statistiken nach Excel."
+        "description": "Kriegsstatistiken nach Excel exportieren.",
+        "description_long": "Kriegsstatistiken nach Excel exportieren."
       }
     },
     "flag": {
@@ -922,26 +922,26 @@
         "description_long": "Zeigt eine Zusammenfassung der Zusammensetzung des Familienrathauses."
       },
       "clans": {
-        "description": "Shows a summary of family clans.",
+        "description": "Zeigt eine Zusammenfassung der Familienclans.",
         "description_long": "Zeigt eine Zusammenfassung der Familienclans."
       },
       "players": {
         "description": "Keine Beschreibung."
       },
       "donations": {
-        "description": "Shows a summary of donations.",
+        "description": "Zeigt eine Zusammenfassung der Spenden.",
         "description_long": "Zeigt eine Zusammenfassung der Spenden."
       },
       "trophies": {
-        "description": "Shows a summary of players sorted by trophies.",
+        "description": "Zeigt eine Zusammenfassung der Spieler, sortiert nach Trophäen.",
         "description_long": "Zeigt eine Zusammenfassung der Spieler, sortiert nach Trophäen."
       },
       "wars": {
-        "description": "Shows a summary of current wars.",
+        "description": "Zeigt eine Zusammenfassung der aktuellen Kriege.",
         "description_long": "Zeigt eine Zusammenfassung der aktuellen Kriege."
       },
       "clan_games": {
-        "description": "Shows a summary of clan games scores.",
+        "description": "Zeigt eine Zusammenfassung der Ergebnisse der Clanspiele.",
         "description_long": "Zeigt eine Zusammenfassung der Ergebnisse der Clanspiele.",
         "min_clan_size": "Sie müssen mindestens {{clans}} Clans auf Ihrem Server haben, um diesen Befehl verwenden zu können.",
         "scoreboard": "Basierend auf den höchsten Punktzahlen und Abschlusszeiten.",
