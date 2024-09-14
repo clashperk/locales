@@ -263,7 +263,7 @@
         "description_long": "Affiche la composition de la Ligue de clans pour une manche (triée par hôtel de ville et héros)."
       },
       "members": {
-        "description": "Shows a list of all CWL participants.",
+        "description": "Affiche une liste de tous les participants à la Ligue de clans.",
         "description_long": "Affiche une liste de tous les participants à la Ligue de clans."
       },
       "history": {
@@ -292,11 +292,11 @@
         }
       },
       "stars": {
-        "description": "Shows CWL member ranking by stars.",
+        "description": "Affiche le classement des membres de Ligue de clans par étoiles.",
         "description_long": "Affiche le classement des membres de Ligue de clans par étoiles."
       },
       "stats": {
-        "description": "Shows an overview of all CWL rounds and group standings.",
+        "description": "Affiche une vue d'ensemble de toutes les manches de Ligue de clans et du classement du groupe.",
         "description_long": "Affiche une vue d'ensemble de toutes les manches de Ligue de clans et du classement du groupe."
       }
     },
@@ -338,27 +338,27 @@
         }
       },
       "cwl": {
-        "description": "Export CWL stats to Excel.",
+        "description": "Exporter les statistiques de Ligue vers Excel.",
         "description_long": "Exporter les statistiques de Ligue vers Excel."
       },
       "last_wars": {
-        "description": "Export participation history (last played wars)",
+        "description": "Exporter l'historique des participations (dernières guerres jouées)",
         "description_long": "Exporter l'historique des participations (dernières guerres jouées)"
       },
       "members": {
-        "description": "Export a comprehensive version of clan member stats.",
+        "description": "Exporter une version complète des statistiques des membres du clan.",
         "description_long": "Exporter une version complète des statistiques des membres du clan."
       },
       "missed": {
-        "description": "Export missed attack history.",
+        "description": "Exporter l'historique des attaques manquées.",
         "description_long": "Exporter l'historique des attaques manquées."
       },
       "season": {
-        "description": "Export comprehensive seasonal stats of clan members.",
+        "description": "Exporter les statistiques saisonnières complètes des membres du clan.",
         "description_long": "Exporter les statistiques saisonnières complètes des membres du clan."
       },
       "wars": {
-        "description": "Export War stats to Excel.",
+        "description": "Exporter les statistiques de guerre vers Excel.",
         "description_long": "Exporter les statistiques de guerre vers Excel."
       }
     },
@@ -453,7 +453,7 @@
         "description": "Lister tous les joueurs reliés.",
         "description_long": "Lister tous les joueurs reliés d'un clan.",
         "options": {
-          "tag": {
+          "clan": {
             "description": "Identifiant du clan ou alias ou mention @utilisateur."
           }
         }
@@ -494,10 +494,10 @@
       }
     },
     "nickname": {
-      "description": "Configure automatic server nickname settings.",
+      "description": "Choisir un pseudo dans la liste des joueurs reliés.",
       "config": {
-        "description": "Configure automatic server nickname settings.",
-        "description_long": "Configure automatic server nickname settings."
+        "description": "Choisir un pseudo dans la liste des joueurs reliés.",
+        "description_long": "Choisir un pseudo dans la liste des joueurs reliés."
       }
     },
     "reminders": {
@@ -789,7 +789,7 @@
             "description": "Sélectionnez une option."
           },
           "tag": {
-            "description": "Tag of the clan."
+            "description": "Identifiant du clan."
           },
           "channel": {
             "description": "Salon où publier les mises à jour (par défaut, le salon actuel)"
@@ -821,7 +821,7 @@
             "description": "Sélectionnez une option."
           },
           "tag": {
-            "description": "Tag of the clan."
+            "description": "Identifiant du clan."
           },
           "channel": {
             "description": "Salon à supprimer."
@@ -922,26 +922,26 @@
         "description_long": "Affiche un résumé de la répartition des hôtels de ville de la famille de clans."
       },
       "clans": {
-        "description": "Shows a summary of family clans.",
+        "description": "Affiche un résumé des clans de la famille.",
         "description_long": "Affiche un résumé des clans de la famille."
       },
       "players": {
         "description": "Aucune description."
       },
       "donations": {
-        "description": "Shows a summary of donations.",
+        "description": "Affiche un résumé des dons de troupes.",
         "description_long": "Affiche un résumé des dons de troupes."
       },
       "trophies": {
-        "description": "Shows a summary of players sorted by trophies.",
+        "description": "Affiche un résumé des joueurs classés par trophées.",
         "description_long": "Affiche un résumé des joueurs classés par trophées."
       },
       "wars": {
-        "description": "Shows a summary of current wars.",
+        "description": "Affiche un résumé des guerres en cours.",
         "description_long": "Affiche un résumé des guerres en cours."
       },
       "clan_games": {
-        "description": "Shows a summary of clan games scores.",
+        "description": "Affiche un résumé des scores aux jeux du clan.",
         "description_long": "Affiche un résumé des scores aux jeux du clan.",
         "min_clan_size": "Vous devez avoir au moins {{clans}} clans sur votre serveur pour pouvoir utiliser cette commande.",
         "scoreboard": "Basé sur les meilleurs scores et le temps de réalisation.",
