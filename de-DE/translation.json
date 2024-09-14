@@ -453,7 +453,7 @@
         "description": "Listet alle Spieler-Verknüpfungen auf.",
         "description_long": "Listet alle Benutzerverknüpfungen eines Clans auf.",
         "options": {
-          "tag": {
+          "clan": {
             "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
           }
         }
