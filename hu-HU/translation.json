@@ -180,7 +180,7 @@
             "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
-            "description": "Tag of the clan."
+            "description": "A klán címkéje (tag-je)."
           }
         },
         "no_name": "A parancs futtatásához meg kell adnod egy becenevet.",
