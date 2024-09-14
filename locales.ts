@@ -457,7 +457,7 @@ export const command = {
       description: 'List all player links.',
       description_long: 'List all player links of a clan.',
       options: {
-        tag: {
+        clan: {
           description: 'Clan tag or alias or @user mention.'
         }
       }
