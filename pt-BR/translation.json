@@ -453,7 +453,7 @@
         "description": "Liste todas vinculos de jogadores.",
         "description_long": "List all player links of a clan.",
         "options": {
-          "tag": {
+          "clan": {
             "description": "Tag do Clã, nome ou mencione @usuario."
           }
         }
