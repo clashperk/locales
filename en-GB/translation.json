@@ -735,7 +735,7 @@
       },
       "defense": {
         "description": "Shows defence failure rates of clan members.",
-        "description_long": "Shows defence failure rates of clan members."
+        "description_long": "Shows defense failure rates of clan members."
       }
     },
     "units": {
