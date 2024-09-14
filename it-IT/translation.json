@@ -263,7 +263,7 @@
         "description_long": "Nessuna descrizione."
       },
       "members": {
-        "description": "Mostra un elenco di tutti i partecipanti alla CWL.",
+        "description": "Shows a list of all CWL participants.",
         "description_long": "Mostra un elenco di tutti i partecipanti alla CWL."
       },
       "history": {
@@ -292,11 +292,11 @@
         }
       },
       "stars": {
-        "description": "Mostra la classifica dei partecipanti alla CWL in base alle stelle.",
+        "description": "Shows CWL member ranking by stars.",
         "description_long": "Mostra la classifica dei partecipanti alla CWL in base alle stelle."
       },
       "stats": {
-        "description": "Mostra una panoramica di tutti i round della CWL e della classifica del girone.",
+        "description": "Shows an overview of all CWL rounds and group standings.",
         "description_long": "Mostra una panoramica di tutti i round della CWL e della classifica del girone."
       }
     },
@@ -338,27 +338,27 @@
         }
       },
       "cwl": {
-        "description": "Esporta le statistiche CWL su Excel.",
+        "description": "Export CWL stats to Excel.",
         "description_long": "Esporta le statistiche CWL su Excel."
       },
       "last_wars": {
-        "description": "Esporta la cronologia della partecipazione (ultime guerre giocate)",
+        "description": "Export participation history (last played wars)",
         "description_long": "Esporta la cronologia della partecipazione (ultime guerre giocate)"
       },
       "members": {
-        "description": "Esporta una versione completa delle statistiche dei membri del clan.",
+        "description": "Export a comprehensive version of clan member stats.",
         "description_long": "Esporta una versione completa delle statistiche dei membri del clan."
       },
       "missed": {
-        "description": "Esporta la cronologia degli attacchi mancati.",
+        "description": "Export missed attack history.",
         "description_long": "Esporta la cronologia degli attacchi mancati."
       },
       "season": {
-        "description": "Esporta statistiche stagionali complete dei membri del clan.",
+        "description": "Export comprehensive seasonal stats of clan members.",
         "description_long": "Esporta statistiche stagionali complete dei membri del clan."
       },
       "wars": {
-        "description": "Esporta le statistiche delle guerre su Excel.",
+        "description": "Export War stats to Excel.",
         "description_long": "Esporta le statistiche delle guerre su Excel."
       }
     },
@@ -922,26 +922,26 @@
         "description_long": "Mostra un riepilogo della composizione del Municipio della famiglia."
       },
       "clans": {
-        "description": "Mostra un riepilogo dei clan della famiglia.",
+        "description": "Shows a summary of family clans.",
         "description_long": "Mostra un riepilogo dei clan della famiglia."
       },
       "players": {
         "description": "Nessuna descrizione."
       },
       "donations": {
-        "description": "Mostra un riepilogo delle donazioni.",
+        "description": "Shows a summary of donations.",
         "description_long": "Mostra un riepilogo delle donazioni."
       },
       "trophies": {
-        "description": "Mostra un riepilogo dei giocatori ordinati per trofei.",
+        "description": "Shows a summary of players sorted by trophies.",
         "description_long": "Mostra un riepilogo dei giocatori ordinati per trofei."
       },
       "wars": {
-        "description": "Mostra un riepilogo delle guerre attuali.",
+        "description": "Shows a summary of current wars.",
         "description_long": "Mostra un riepilogo delle guerre attuali."
       },
       "clan_games": {
-        "description": "Mostra un riepilogo dei punteggi dei giochi del clan.",
+        "description": "Shows a summary of clan games scores.",
         "description_long": "Mostra un riepilogo dei punteggi dei giochi del clan.",
         "min_clan_size": "Devi avere un minimo di {{clans}} clan sul tuo server per usare questo comando.",
         "scoreboard": "Basato sui punteggi più alti e sui tempi di completamento.",
