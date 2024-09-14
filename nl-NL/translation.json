@@ -453,7 +453,7 @@
         "description": "Maak een lijst van alle gelinkten account van spelers.",
         "description_long": "List all player links of a clan.",
         "options": {
-          "tag": {
+          "clan": {
             "description": "Clan tag of @gebruiker vermelding."
           }
         }
