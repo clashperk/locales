@@ -32,9 +32,9 @@
     "clan_tag_argument": "Tag o alias del clan o menzione @utente.",
     "player_tag_argument": "Tag del giocatore o menzione @utente.",
     "maintenance_start": "La pausa di manutenzione è iniziata!",
-    "maintenance_end": "La pausa di manutenzione è finita! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Qualcosa è andato storto durante l'esecuzione del comando.",
-    "missing_access": "Mi manca {{permission}} in {{channel}} per eseguire questo comando.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "Non hai l'autorizzazione **Gestisci server** o il ruolo [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) per eseguire questa azione.",
     "choices": {
       "yes": "Si",
@@ -177,7 +177,7 @@
             "description": "Alias."
           },
           "clan_nickname": {
-            "description": "Soprannome del clan."
+            "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
             "description": "Tag del clan."
@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Scegli un soprannome dalla lista dei giocatori collegati.",
-      "description_long": "Rinomina gli utenti con un nickname selezionato dall'elenco dei giocatori collegati.",
-      "options": {
-        "user": {
-          "description": "ID utente o menzione Utente."
-        }
-      },
-      "invalid_member": "Devi menzionare un membro valido per usare questo comando.",
-      "missing_access_self": "Non ho il permesso di cambiare il tuo nickname.",
-      "missing_access_other": "Non ho il permesso di cambiare il nickname di questo utente.",
-      "no_players": "Nessun giocatore è collegato a {{user}}.",
-      "char_limit": "Il tuo nickname deve contenere meno di 31 caratteri."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Crea, elimina o elenca promemoria di guerra.",
@@ -529,7 +522,7 @@
         "max_limit": "È possibile avere solo 25 promemoria.",
         "invalid_duration_format": "La durata deve essere in un formato valido. Ad esempio 2h, 2,5h, 30m",
         "no_message": "È necessario specificare un messaggio per eseguire questo comando.",
-        "duration_limit": "La durata deve essere superiore a 15 minuti e inferiore a 45 ore.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "La durata deve essere un multiplo di 15 minuti, ad esempio 15m, 30m, 45m, 1h, 1,25h, 1,5h, 1,75h",
         "too_many_clans": "Il menu di selezione del Clan non è disponibile per più di 25 Clan. {{clans}} Clan sono stati selezionati automaticamente!\nPer creare un promemoria per Clan specifici, inserisci i tag o gli alias del Clan tramite l'opzione «Clan» mentre esegui il comando.",
         "too_many_webhooks": "Troppi webhook in {{channel}}.",
@@ -721,7 +714,7 @@
           "description": "Tag o alias del clan o menzione @utente."
         },
         "compare": {
-          "description": "Confronta i municipi (ad esempio 14 contro 13, 12 13, tutti, uguali)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Stelle di guerra guadagnate. (Impostazione predefinita: 3)"
@@ -907,8 +900,8 @@
         "success_with_count": "Il ruolo automatico è stato disabilitato per {{count}} clan. \n{{clans}}"
       },
       "refresh": {
-        "description": "Aggiorna ruoli automatici (utilizzabile ogni 30 minuti)",
-        "description_long": "Aggiorna ruoli automatici (utilizzabile ogni 30 minuti)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {

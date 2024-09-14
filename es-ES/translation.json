@@ -32,9 +32,9 @@
     "clan_tag_argument": "Etiqueta de clan, apodo, o mención al @usuario.",
     "player_tag_argument": "Etiqueta de jugador o mención al @usuario.",
     "maintenance_start": "¡El corte para mantenimiento ya ha comenzado!",
-    "maintenance_end": "¡El corte para mantenimiento ya ha terminado! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Something went wrong while executing this command.",
-    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Sí",
@@ -177,7 +177,7 @@
             "description": "Name of the alias."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan."
+            "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
             "description": "Tag of the clan."
@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Elige un apodo de la lista de jugadores vinculados.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "ID de usuario o mención @user."
-        }
-      },
-      "invalid_member": "Debe mencionar un miembro válido para poder usar este comando.",
-      "missing_access_self": "No tengo los permisos para poder cambiarte el apodo.",
-      "missing_access_other": "No tengo los permisos para poder cambiar el apodo de este miembro.",
-      "no_players": "Ningún jugador está vinculado a {{user}}.",
-      "char_limit": "Tu apodo debe tener menos de 31 caracteres."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
@@ -529,7 +522,7 @@
         "max_limit": "You can only have 25 reminders.",
         "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
         "no_message": "You must specify a message to execute this command.",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
         "too_many_webhooks": "Demasiados webhooks en {{channel}}.",
@@ -721,7 +714,7 @@
           "description": "Etiqueta de clan, apodo, o mención al @usuario."
         },
         "compare": {
-          "description": "Comparar ayuntamientos (Por ejemplo: 14 vs 13, 12 vs 13, todos, iguales, etc.)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Estrellas de guerra ganadas. (Por defecto: 3)"
@@ -907,8 +900,8 @@
         "success_with_count": "Se desactivó exitosamente la función auto-roles en {{count}} clan(es). {{clans}}"
       },
       "refresh": {
-        "description": "Refresh automatic roles (usable every 30 minutes)",
-        "description_long": "Refresh automatic roles (usable every 30 minutes)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {

@@ -32,9 +32,9 @@
     "clan_tag_argument": "Klán címke (klán tag) vagy @tag említés.",
     "player_tag_argument": "Játékos címke (játékos tag) vagy @tag említés.",
     "maintenance_start": "A karbantartás elkezdődött!",
-    "maintenance_end": "A karbantartási véget ért! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Valami hiba történt a parancs futtatása közben.",
-    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Igen",
@@ -177,7 +177,7 @@
             "description": "Name of the alias."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan."
+            "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
             "description": "Tag of the clan."
@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Válassz egy becenevet az összekapcsolt játékosok listájából.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "Felhasználói azonosító (ID) vagy @tag említés."
-        }
-      },
-      "invalid_member": "A parancs használatához meg kell említened egy tagot.",
-      "missing_access_self": "Nincs jogom, hogy megváltoztassam a beceneved.",
-      "missing_access_other": "Nincs jogom, hogy megváltoztassam a becenevét.",
-      "no_players": "Egyetlen játékos sincs kapcsolva {{user}} -hoz/-hez.",
-      "char_limit": "A becenév maximum 31 karakterből állhat."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
@@ -529,7 +522,7 @@
         "max_limit": "You can only have 25 reminders.",
         "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
         "no_message": "You must specify a message to execute this command.",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
         "too_many_webhooks": "Túl sok webhook van hozzáadva a {{channel}} csatornához.",
@@ -721,7 +714,7 @@
           "description": "Klán címke (klán tag) vagy @tag említés."
         },
         "compare": {
-          "description": "Hasonlítsd össze a Town Hall-okat (pl. 14vs13, 12, 13, all)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Megszerzett csillagok a Háborúban (War-ban). (Alapértelmezett: 3)"
@@ -907,8 +900,8 @@
         "success_with_count": "Az auto-rang sikeresen ki lett kapcsolva {{count}} klánnál. \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh automatic roles (usable every 30 minutes)",
-        "description_long": "Refresh automatic roles (usable every 30 minutes)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {

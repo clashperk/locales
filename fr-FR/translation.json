@@ -32,9 +32,9 @@
     "clan_tag_argument": "Identifiant du clan ou alias ou mention @utilisateur.",
     "player_tag_argument": "Identifiant du joueur ou mention @utilisateur.",
     "maintenance_start": "La maintenance a commencé !",
-    "maintenance_end": "La maintenance est terminée ! {{duration}}",
+    "maintenance_end": "La maintenance est bientôt terminée ! {{duration}}",
     "something_went_wrong": "Une erreur s'est produite lors de l'exécution de cette commande.",
-    "missing_access": "Il me manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "Il vous manque l'autorisation **Gérer le serveur** ou le rôle [Gestionnaire du bot] (<https://docs.clashperk.com/others/bot-manager>) pour effectuer cette action.",
     "choices": {
       "yes": "Oui",
@@ -177,7 +177,7 @@
             "description": "Nom de l'alias."
           },
           "clan_nickname": {
-            "description": "Surnom du clan."
+            "description": "Surnom du clan (Expérimental)"
           },
           "clan": {
             "description": "Identifiant du clan."
@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Choisir un pseudo dans la liste des joueurs reliés.",
-      "description_long": "Renommer les utilisateurs avec un pseudo sélectionné dans la liste des joueurs liés.",
-      "options": {
-        "user": {
-          "description": "Identifiant utilisateur ou mention @utilisateur."
-        }
-      },
-      "invalid_member": "Vous devez mentionner un membre valide pour utiliser cette commande.",
-      "missing_access_self": "Je n'ai pas la permission de changer votre pseudo.",
-      "missing_access_other": "Je n'ai pas la permission de changer le pseudo de ce membre.",
-      "no_players": "Aucun joueur n'est relié à {{user}}.",
-      "char_limit": "Votre pseudo doit comporter moins de 31 caractères."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Créer, supprimer ou lister les rappels.",
@@ -529,7 +522,7 @@
         "max_limit": "Vous ne pouvez avoir que 25 rappels.",
         "invalid_duration_format": "La durée doit être dans un format valide. ex. 2h, 2.5h, 30m",
         "no_message": "Vous devez spécifier un message pour exécuter cette commande.",
-        "duration_limit": "La durée doit être supérieure à 15 minutes et inférieure à 45 heures.",
+        "duration_limit": "La durée doit être supérieure à 15 minutes et inférieure à 48 heures.",
         "duration_order": "La durée doit être un multiple de 15 minutes. ex. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "Le menu de sélection de clan n'est pas disponible au-delà de 25 clans. Les clans {{clans}} ont été sélectionnés automatiquement !\nPour créer un rappel pour des clans spécifiques, passez par l'option \"clans\" pour indiquer les identifiants de clan ou les alias lors de l'exécution de la commande.",
         "too_many_webhooks": "Trop de webhooks dans le salon {{channel}}.",
@@ -721,7 +714,7 @@
           "description": "Identifiant du clan ou alias ou mention @utilisateur."
         },
         "compare": {
-          "description": "Comparer les Hôtels De Ville (ex. 14vs13, 12 13, tous, égal)"
+          "description": "Comparer les Hôtels de Ville (ex. 14vs13, *vs15, tous, égal)"
         },
         "stars": {
           "description": "Étoiles de guerre gagnées. (par défaut : 3)"
@@ -907,7 +900,7 @@
         "success_with_count": "L'auto-rôle a été désactivé pour {{count}} clan(s). \n{{clans}}"
       },
       "refresh": {
-        "description": "Actualiser les auto-rôles (utilisable toutes les 30 minutes)",
+        "description": "Actualiser les rôles manuellement.",
         "description_long": "Actualiser les auto-rôles (utilisable toutes les 30 minutes)"
       }
     },

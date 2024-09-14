@@ -32,9 +32,9 @@
     "clan_tag_argument": "Clan tag of @gebruiker vermelding.",
     "player_tag_argument": "Speler tag of @gebruiker vermelding.",
     "maintenance_start": "De onderbreking wegens onderhoud is begonnen!",
-    "maintenance_end": "De onderbreking wegens onderhoud is afgelopen! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Er is iets misgegaan tijdens het uitvoeren van deze opdracht.",
-    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Ja",
@@ -177,7 +177,7 @@
             "description": "Name of the alias."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan."
+            "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
             "description": "Tag of the clan."
@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Kies een naam uit de lijst met gekoppelde spelers.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "Gebruikers-ID of @gebruiker vermelding."
-        }
-      },
-      "invalid_member": "Zorg dat u een geldig lid vermeldt om deze opdracht te gebruiken.",
-      "missing_access_self": "Ik heb geen toestemming om je naam te wijzigen.",
-      "missing_access_other": "Ik heb geen toestemming om de naam van dit lid te wijzigen.",
-      "no_players": "Er zijn geen spelers gekoppeld aan {{user}}.",
-      "char_limit": "Uw naam moet minder dan 31 tekens lang zijn."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
@@ -529,7 +522,7 @@
         "max_limit": "You can only have 25 reminders.",
         "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
         "no_message": "You must specify a message to execute this command.",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
         "too_many_webhooks": "Te veel webhooks in {{channel}}.",
@@ -721,7 +714,7 @@
           "description": "Clan tag of @gebruiker vermelding."
         },
         "compare": {
-          "description": "Vergelijk stadhuizen (bijv. 14vs13, 12 13, alle, gelijk)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Oorlogssterren verdiend. (Standaard: 3)"
@@ -907,8 +900,8 @@
         "success_with_count": "De automatische-rolfunctie is uitgeschakeld voor {{count}} clan(s). \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh automatic roles (usable every 30 minutes)",
-        "description_long": "Refresh automatic roles (usable every 30 minutes)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {

@@ -32,9 +32,9 @@
     "clan_tag_argument": "Klan etiketi veya lakabı veya @kullanıcı girin.",
     "player_tag_argument": "Kullanıcı etiketi veya @kullanıcı girin.",
     "maintenance_start": "Bakım arası başladı!",
-    "maintenance_end": "Bakım arası tamamlandı! {{duration}}",
+    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
     "something_went_wrong": "Bu komut çalıştırılırken bir şeyler ters gitti.",
-    "missing_access": "I'm missing {{permission}} in {{channel}} to execute this command.",
+    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
     "choices": {
       "yes": "Evet",
@@ -177,7 +177,7 @@
             "description": "Name of the alias."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan."
+            "description": "Nickname of the clan (Experimental)"
           },
           "clan": {
             "description": "Tag of the clan."
@@ -494,18 +494,11 @@
       }
     },
     "nickname": {
-      "description": "Bağlantılı oyuncular listesinden bir takma ad seçin.",
-      "description_long": "Rename users with a nickname selected from linked player list.",
-      "options": {
-        "user": {
-          "description": "Kullanıcı kimliği ya da @kullanıcı girin."
-        }
-      },
-      "invalid_member": "Bu komutu kullanmak için geçerli bir üye seçmelisiniz.",
-      "missing_access_self": "Takma adınızı değiştirme iznim yok.",
-      "missing_access_other": "Bu üyenin takma adını değiştirme iznim yok.",
-      "no_players": "Hiçbir oyuncu {{user}} ile bağlantılı değil.",
-      "char_limit": "Takma adınız 31 karakterden kısa olmalıdır."
+      "description": "Configure automatic server nickname settings.",
+      "config": {
+        "description": "Configure automatic server nickname settings.",
+        "description_long": "Configure automatic server nickname settings."
+      }
     },
     "reminders": {
       "description": "Create, delete or list reminders.",
@@ -529,7 +522,7 @@
         "max_limit": "You can only have 25 reminders.",
         "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
         "no_message": "You must specify a message to execute this command.",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 45 hours.",
+        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
         "too_many_webhooks": "{{channel}} kanalında webhook sınırına ulaşıldı.",
@@ -721,7 +714,7 @@
           "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "compare": {
-          "description": "Belediye Binalarını karşılaştır (Örn. 14vs13, 12 13, all, equal)"
+          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
         "stars": {
           "description": "Kazanılan savaş yıldızları. (Varsayılan: 3)"
@@ -907,8 +900,8 @@
         "success_with_count": "Otomatik rol {{count}} klan için devre dışı bırakıldı. \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh automatic roles (usable every 30 minutes)",
-        "description_long": "Refresh automatic roles (usable every 30 minutes)"
+        "description": "Refresh roles manually.",
+        "description_long": "Refresh roles manually. (Use this command if roles are not updated automatically)"
       }
     },
     "summary": {
