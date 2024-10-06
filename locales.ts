@@ -1,5 +1,3 @@
-export const conditional_commands = {};
-
 export const common = {
   no_clans_found: 'No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.',
   no_clans_linked: 'No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.',
@@ -82,6 +80,9 @@ export const common = {
     season_end: 'Season End',
     raid_weekend: 'Raid Weekend',
     raid_weekend_ending: 'Raid Weekend (Ending)'
+  },
+  buttons: {
+    contact_support: 'Contact Support'
   }
 } as const;
 
@@ -1011,14 +1012,7 @@ export const command = {
   }
 } as const;
 
-export const component = {
-  button: {
-    contact_support: 'Contact Support'
-  }
-} as const;
-
 export default {
   common,
-  component,
   command
 } as const;

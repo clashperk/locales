@@ -75,10 +75,8 @@
       "season_end": "Season End",
       "raid_weekend": "Raid Weekend",
       "raid_weekend_ending": "Raid Weekend (Ending)"
-    }
-  },
-  "component": {
-    "button": {
+    },
+    "buttons": {
       "contact_support": "Contact Support"
     }
   },
