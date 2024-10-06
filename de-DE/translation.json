@@ -75,11 +75,9 @@
       "season_end": "Saison Ende",
       "raid_weekend": "Überfall-Wochenende",
       "raid_weekend_ending": "Überfällwochenende (Ende)"
-    }
-  },
-  "component": {
-    "button": {
-      "contact_support": "Support kontaktieren"
+    },
+    "buttons": {
+      "contact_support": "Contact Support"
     }
   },
   "command": {
