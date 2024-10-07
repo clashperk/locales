@@ -75,11 +75,9 @@
       "season_end": "Fine della Stagione",
       "raid_weekend": "Weekend degli assalti",
       "raid_weekend_ending": "Weekend degli assalti (fine)"
-    }
-  },
-  "component": {
-    "button": {
-      "contact_support": "Contatta il supporto"
+    },
+    "buttons": {
+      "contact_support": "Contact Support"
     }
   },
   "command": {
