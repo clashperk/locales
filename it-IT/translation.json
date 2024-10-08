@@ -131,7 +131,7 @@
         "title": "Incursioni nella capitale del clan",
         "options": {
           "tag": {
-            "description": "Tag o alias del clan o menzione @user."
+            "description": "Tag o alias del clan o menzione @utente."
           },
           "week": {
             "description": "La settimana per la quale mostrare le incursioni."
@@ -721,7 +721,7 @@
           "description": "Tipo di guerra [ad esempio Regolare, CWL, Amichevole] (predefinito: Regolare e CWL)"
         },
         "season": {
-          "description": "Limita i dati agli ultimi X mesi."
+          "description": "La stagione da esportare."
         },
         "attempt": {
           "description": "Nuovi attacchi o attacchi di pulizia. (Impostazione predefinita: entrambi)"
