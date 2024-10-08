@@ -242,7 +242,7 @@
       "description": "CWL-Saison Übersicht und Zusammenfassung.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "tag": {
           "description": "Clan-Kürzel oder Alias oder @Benutzer-Erwähnung."
@@ -323,7 +323,7 @@
       "description": "Exportiere Krieg/Saison/Clan Statistik zu Excel.",
       "options": {
         "option": {
-          "description": "Wähle eine Option."
+          "description": "Wählen Sie eine Option aus."
         },
         "season": {
           "description": "Abrufen von Daten seit der angegebenen Saison."
@@ -721,7 +721,7 @@
           "description": "Kriegstyp [z.B. Regulär, CWL, freundschaftlich] (Standardeinstellung: Regulär und CWL)"
         },
         "season": {
-          "description": "Rufen Sie Daten seit der angegebenen Saison ab."
+          "description": "Abrufen von Daten seit der angegebenen Saison."
         },
         "attempt": {
           "description": "Neue Angriffe oder Verbesserungsangriffe. (Standard: Beide)"
@@ -878,7 +878,7 @@
       },
       "leagues": {
         "description": "Verwalten Sie die automatische Rollenverwaltung für Ligen.",
-        "description_long": "Verwalten Sie die automatische Rollenverwaltung für Clanrollen."
+        "description_long": "Verwalten Sie die automatische Rollenverwaltung für Ligen."
       },
       "town_hall": {
         "description": "Verwalten Sie die automatische Rollenverwaltung für Rathausstufen.",
