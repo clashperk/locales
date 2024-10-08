@@ -757,7 +757,7 @@
     "war": {
       "description": "Muestra un resumen de la guerra.",
       "description_long": "Shows war overview of a clan.",
-      "no_war_id": "No se encontró ninguna guerra con el ID especificado.",
+      "no_war_id": "No se encontró ninguna guerra con el ID de guerra proporcionado.",
       "not_in_war": "El clan no está en guerra.",
       "options": {
         "tag": {

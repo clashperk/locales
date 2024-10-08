@@ -386,7 +386,7 @@
           }
         },
         "no_tag": "Bayrağı silinecek oyuncunun etiketini girmelisiniz.",
-        "no_result": "{{tag}} etiketli oyuncu bulunamadı.",
+        "no_result": "{{tag}} Etiketinde sonuç bulunamadı.",
         "success": "{{tag}} etiketli oyuncunun bayrağı başarıyla silindi."
       },
       "list": {
@@ -407,7 +407,7 @@
             "description": "Aranacak oyuncunun etiketi."
           }
         },
-        "not_found": "{{tag}} Etiketinde oyuncu bulunamadı."
+        "not_found": "{{tag}} Etiketinde sonuç bulunamadı."
       }
     },
     "link": {
