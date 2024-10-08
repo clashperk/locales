@@ -733,7 +733,7 @@
       },
       "defense": {
         "description": "Shows defence failure rates of clan members.",
-        "description_long": "Shows defense failure rates of clan members."
+        "description_long": "Shows defence failure rates of clan members."
       }
     },
     "units": {
@@ -955,7 +955,7 @@
       },
       "attacks": {
         "description": "Shows a summary of the best attackers.",
-        "description_long": "Shows a summary of best attackers."
+        "description_long": "Shows a summary of the best attackers."
       },
       "missed_wars": {
         "description": "Shows a summary of missed wars.",
