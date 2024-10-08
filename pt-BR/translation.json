@@ -83,7 +83,7 @@
   "command": {
     "activity": {
       "description": "Mostra um gráfico dos membros ativos do clã por hora.",
-      "description_long": "Mostra um gráfico dos membros ativos do clã por hora.",
+      "description_long": "Shows a graph of hourly-active clan members.",
       "title": "Membros do clã ativos por hora",
       "options": {
         "clans": {
@@ -96,11 +96,11 @@
     },
     "clan_games": {
       "description": "Placar dos jogos do clã dos membros do clã.",
-      "description_long": "Placar dos jogos do clã dos membros do clã.",
+      "description_long": "Clan games scoreboard of clan members.",
       "title": "Placar dos Jogos de Clãs",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "season": {
           "description": "The season to show the scoreboard for."
@@ -115,7 +115,7 @@
         "title": "Clan Capital Contributions",
         "options": {
           "tag": {
-            "description": "Tag do Clã, nome ou mencione @usuario."
+            "description": "Clan tag or alias or @user mention."
           },
           "week": {
             "description": "The week to show contributions for."
@@ -131,7 +131,7 @@
         "title": "Raides da Capital do Clã",
         "options": {
           "tag": {
-            "description": "Tag do Clã, nome ou mencione @usuario."
+            "description": "Clan tag or alias or @user mention."
           },
           "week": {
             "description": "A semana para mostrar raides."
@@ -156,12 +156,12 @@
     },
     "lastseen": {
       "description": "Tempo de Última vez visto e as atividades dos membros do clã.",
-      "description_long": "Tempo de Última vez visto e as atividades dos membros do clã.",
+      "description_long": "The last seen time and activities of clan members.",
       "title_lastseen": "Visto pela última vez e pontuações de atividade (últimas 24h)",
       "title_activity": "Atividades dos membros do clã (últimos 30d)",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -191,7 +191,7 @@
       },
       "delete": {
         "description": "Exclui um apelido de clã.",
-        "description_long": "Exclui um apelido de clã.",
+        "description_long": "Deletes a clan alias.",
         "options": {
           "name": {
             "description": "Tag de um clã ou um apelido"
@@ -203,7 +203,7 @@
       },
       "list": {
         "description": "Liste todos os apelidos do clã.",
-        "description_long": "Liste todos os apelidos do clã.",
+        "description_long": "List all clan aliases.",
         "title": "Apelidos de clã"
       }
     },
@@ -236,7 +236,7 @@
     },
     "debug": {
       "description": "Exibe algumas informações básicas de depuração.",
-      "description_long": "Exibe algumas informações básicas de depuração."
+      "description_long": "Displays some basic debug information."
     },
     "cwl": {
       "description": "Resumo e visão geral da temporada CWL.",
@@ -245,7 +245,7 @@
           "description": "Selecione uma opção."
         },
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       },
       "still_searching": "Seu clã {{clan}} ainda está procurando pelo oponente.",
@@ -273,7 +273,7 @@
         "description_long": "Shows entire roster of Town halls for a CWL group.",
         "options": {
           "tag": {
-            "description": "Tag do Clã, nome ou mencione @usuario."
+            "description": "Clan tag or alias or @user mention."
           }
         }
       },
@@ -282,7 +282,7 @@
         "description_long": "Shows an overview of a CWL round.",
         "options": {
           "tag": {
-            "description": "Tag do Clã, nome ou mencione @usuario."
+            "description": "Clan tag or alias or @user mention."
           },
           "round": {
             "description": "Número da rodada para mostrar."
@@ -299,23 +299,23 @@
       }
     },
     "roster": {
-      "description": "Lista da CWL e distribuição de Centro de Vila.",
+      "description": "CWL roster and town hall distribution.",
       "description_long": "Shows entire roster of Town halls for a CWL group.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
     "round": {
-      "description": "Resumo da CWL para a rodada atual.",
+      "description": "CWL summary for the current round.",
       "description_long": "Shows an overview of a CWL round.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "round": {
-          "description": "Número da rodada para mostrar."
+          "description": "Round number to show."
         }
       }
     },
@@ -379,19 +379,19 @@
       },
       "delete": {
         "description": "Delete a sinalização de um jogador.",
-        "description_long": "Delete a sinalização de um jogador.",
+        "description_long": "Delete a player flag.",
         "options": {
           "tag": {
             "description": "A tag de um jogador a ser excluída."
           }
         },
         "no_tag": "Você deve fornecer uma tag de jogador para excluir uma sinalização.",
-        "no_result": "Não foram encontradas correspondências com a tag {{tag}}.",
+        "no_result": "No matches were found with the tag {{tag}}.",
         "success": "O sinalizador foi excluído com sucesso para a tag {{tag}}."
       },
       "list": {
         "description": "Liste todas as bandeiras dos jogadores.",
-        "description_long": "Liste todas as bandeiras dos jogadores.",
+        "description_long": "List all player flags.",
         "options": {
           "export": {
             "description": "Exporte todos os sinalizadores do jogadores para o Excel."
@@ -401,7 +401,7 @@
       },
       "search": {
         "description": "Procure por uma sinalização de jogador.",
-        "description_long": "Procure por uma sinalização de jogador.",
+        "description_long": "Search for a player flag.",
         "options": {
           "tag": {
             "description": "A tag de um jogador para pesquisar."
@@ -440,7 +440,7 @@
         "description_long": "Deletes a player account/clan from a Discord account.",
         "options": {
           "tag": {
-            "description": "Tag de um jogador ou clã."
+            "description": "Tag of a player or clan."
           }
         },
         "no_result": "Não foram encontradas correspondências com a tag {{tag}}.",
@@ -452,7 +452,7 @@
         "description_long": "List all player links of a clan.",
         "options": {
           "clan": {
-            "description": "Tag do Clã, nome ou mencione @usuario."
+            "description": "Clan tag or alias or @user mention."
           }
         }
       }
@@ -523,7 +523,7 @@
         "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "too_many_webhooks": "Muitos webhooks em {{channel}}.",
+        "too_many_webhooks": "Too many webhooks in {{channel}}.",
         "success": "Successfully saved!"
       },
       "edit": {
@@ -569,7 +569,7 @@
     },
     "army": {
       "description": "Analise um link de composição de exército.",
-      "description_long": "Analise um link de composição de exército.",
+      "description_long": "Parse an army composition link.",
       "no_link": "Você deve fornecer um link válido de composição de exército.",
       "invalid_link": "Este link de composição de exército é inválido.",
       "possibly_invalid_link": "Este link é inválido e pode não funcionar.",
@@ -587,7 +587,7 @@
       "description_long": "Displays attack and defense info of clan members.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -600,7 +600,7 @@
       "no_recent_unit_boosts": "Nenhum membro ativo recentemente está com melhoria de {{unit}} neste clã.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -609,7 +609,7 @@
       "description_long": "Shows comprehensive overview of a clan.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -618,7 +618,7 @@
       "description_long": "Shows Town Hall composition of a clan.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -628,7 +628,7 @@
       "no_season_data": "Nenhum dado foi encontrado para a temporada {{season}}.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "season": {
           "description": "A temporada para mostrar doações."
@@ -641,7 +641,7 @@
       "not_in_war": "O clã não está em uma guerra.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -650,7 +650,7 @@
       "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "option": {
           "description": "Selecione uma opção."
@@ -662,7 +662,7 @@
       "description_long": "Shows comprehensive overview of a player (including war attack history)",
       "options": {
         "tag": {
-          "description": "Tag do jogador ou mencione @usuario."
+          "description": "Player tag or @user mention."
         }
       }
     },
@@ -673,7 +673,7 @@
       "no_war_id": "Nenhuma guerra foi encontrada para o ID de guerra especificado.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "war_id": {
           "description": "Pesquise por um ID de guerra."
@@ -686,7 +686,7 @@
       "no_rushed": "Nenhuma unidade rushada para o Centro de Vila {{townhall}}.",
       "options": {
         "tag": {
-          "description": "Tag do jogador ou mencione @usuario."
+          "description": "Player tag or @user mention."
         },
         "clan": {
           "description": "Exibe unidades rushadas de um clã."
@@ -695,7 +695,7 @@
     },
     "search": {
       "description": "Pesquise clãs pelo nome.",
-      "description_long": "Pesquise clãs pelo nome.",
+      "description_long": "Search clans by name.",
       "no_results": "Nenhum resultado foi encontrado.",
       "searching": "Clãs com o nome '{{name}}'.",
       "options": {
@@ -709,7 +709,7 @@
       "no_stats": "Nenhuma estatística está disponível para este filtro ou clã.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
@@ -729,11 +729,11 @@
       },
       "attacks": {
         "description": "Mostra as taxas de sucesso de ataques dos membros do clã.",
-        "description_long": "Mostra as taxas de sucesso de ataques dos membros do clã."
+        "description_long": "Shows attack success rates of clan members."
       },
       "defense": {
         "description": "Mostra as taxas de falha de defesa dos membros do clã.",
-        "description_long": "Mostra as taxas de falha de defesa dos membros do clã."
+        "description_long": "Shows defense failure rates of clan members."
       }
     },
     "units": {
@@ -741,16 +741,16 @@
       "description_long": "Shows home village and builder base units of a player (with max/min levels)",
       "options": {
         "tag": {
-          "description": "Tag do jogador ou mencione @usuario."
+          "description": "Player tag or @user mention."
         }
       }
     },
     "upgrades": {
       "description": "Melhorias restantes de um jogador com custo de aprimoramento.",
-      "description_long": "Melhorias restantes de um jogador com custo de aprimoramento.",
+      "description_long": "Remaining upgrades of a player with upgrading cost.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -761,7 +761,7 @@
       "not_in_war": "O clã não está em uma guerra.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         },
         "war_id": {
           "description": "Pesquise por ID de guerra."
@@ -773,7 +773,7 @@
       "description_long": "Shows last 10 war logs of a clan.",
       "options": {
         "tag": {
-          "description": "Tag do Clã, nome ou mencione @usuario."
+          "description": "Clan tag or alias or @user mention."
         }
       }
     },
@@ -813,7 +813,7 @@
       },
       "disable": {
         "description": "Desative um recurso no servidor ou remova um clã.",
-        "description_long": "Desative um recurso no servidor ou remova um clã.",
+        "description_long": "Disable a feature on the server or remove a clan.",
         "options": {
           "option": {
             "description": "Selecione uma opção."
@@ -833,7 +833,7 @@
       },
       "list": {
         "description": "Liste todos os recursos e clãs habilitados.",
-        "description_long": "Liste todos os recursos e clãs habilitados."
+        "description_long": "List all enabled features and clans."
       },
       "utils": {
         "description": "Setup other utility features (link button, events schedular)",
@@ -889,7 +889,7 @@
         "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
         "options": {
           "clans": {
-            "description": "Tags ou apelidos de clã para filtrar clãs."
+            "description": "Clan tags or aliases to filter clans."
           },
           "clear": {
             "description": "Limpe todas os cargos de todos os clãs."
@@ -984,7 +984,7 @@
     },
     "help": {
       "description": "Obtenha uma lista de comandos ou informações sobre um comando específico.",
-      "description_long": "Obtenha uma lista de comandos ou informações sobre um comando específico.",
+      "description_long": "Get a list of commands or info about a specific command.",
       "options": {
         "name": {
           "description": "Nome do comando."
@@ -993,11 +993,11 @@
     },
     "invite": {
       "description": "Obtenha o link de convite do servidor de suporte do bot.",
-      "description_long": "Obtenha o link de convite do servidor de suporte do bot."
+      "description_long": "Get the bot invite and support server link."
     },
     "redeem": {
       "description": "Resgate ou gerencie uma assinatura do Patreon. (se você quiser nos apoiar)",
-      "description_long": "Resgate ou gerencie uma assinatura do Patreon. (se você quiser nos apoiar)"
+      "description_long": "Redeem or manage a Patreon subscription. (if you wish to support us)"
     }
   }
 }
