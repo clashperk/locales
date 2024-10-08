@@ -83,7 +83,7 @@
   "command": {
     "activity": {
       "description": "Saatlik aktif klan üyelerinin grafiğini gösterir.",
-      "description_long": "Shows a graph of hourly-active clan members.",
+      "description_long": "Saatlik aktif klan üyelerinin grafiğini gösterir.",
       "title": "Saatlik Aktif Klan Üyeleri",
       "options": {
         "clans": {
@@ -96,11 +96,11 @@
     },
     "clan_games": {
       "description": "Klan üyelerinin klan oyunlarındaki skor tablosu.",
-      "description_long": "Clan games scoreboard of clan members.",
+      "description_long": "Klan üyelerinin klan oyunlarındaki skor tablosu.",
       "title": "Klan Oyunları Skor Tablosu",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "season": {
           "description": "The season to show the scoreboard for."
@@ -115,7 +115,7 @@
         "title": "Clan Capital Contributions",
         "options": {
           "tag": {
-            "description": "Clan tag or alias or @user mention."
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
           },
           "week": {
             "description": "The week to show contributions for."
@@ -131,7 +131,7 @@
         "title": "Clan Capital Raids",
         "options": {
           "tag": {
-            "description": "Clan tag or alias or @user mention."
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
           },
           "week": {
             "description": "The week to show raids for."
@@ -156,12 +156,12 @@
     },
     "lastseen": {
       "description": "Klan üyelerinin son görülme zamanları ve aktiflikleri.",
-      "description_long": "The last seen time and activities of clan members.",
+      "description_long": "Klan üyelerinin son görülme zamanları ve aktiflikleri.",
       "title_lastseen": "Son görülmeler ve aktiflik skorları (son 24 saat)",
       "title_activity": "Klan üyelerinin aktiflikleri (son 30 gün)",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
@@ -191,7 +191,7 @@
       },
       "delete": {
         "description": "Bir klan lakabını siler.",
-        "description_long": "Deletes a clan alias.",
+        "description_long": "Bir klan lakabını siler.",
         "options": {
           "name": {
             "description": "Klanın etiketi ya da lakap adı"
@@ -203,7 +203,7 @@
       },
       "list": {
         "description": "Bütün klan lakaplarını listeler.",
-        "description_long": "List all clan aliases.",
+        "description_long": "Bütün klan lakaplarını listeler.",
         "title": "Klan Lakapları"
       }
     },
@@ -236,7 +236,7 @@
     },
     "debug": {
       "description": "Bazı temel hata ayıklama bilgilerini görüntüler.",
-      "description_long": "Displays some basic debug information."
+      "description_long": "Bazı temel hata ayıklama bilgilerini görüntüler."
     },
     "cwl": {
       "description": "KS Ligi sezon özeti ve genel bakış.",
@@ -245,7 +245,7 @@
           "description": "Bir seçenek seçin."
         },
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       },
       "still_searching": "Klanınız {{clan}} hala rakip arıyor.",
@@ -273,7 +273,7 @@
         "description_long": "Shows entire roster of Town halls for a CWL group.",
         "options": {
           "tag": {
-            "description": "Clan tag or alias or @user mention."
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
           }
         }
       },
@@ -282,7 +282,7 @@
         "description_long": "Shows an overview of a CWL round.",
         "options": {
           "tag": {
-            "description": "Clan tag or alias or @user mention."
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
           },
           "round": {
             "description": "Gösterilecek tur sayısı."
@@ -299,23 +299,23 @@
       }
     },
     "roster": {
-      "description": "CWL roster and town hall distribution.",
+      "description": "KS Ligi kadrosu ve belediye binası dağılımı.",
       "description_long": "Shows entire roster of Town halls for a CWL group.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
     "round": {
-      "description": "CWL summary for the current round.",
+      "description": "Mevcut tur için KS Ligi özeti.",
       "description_long": "Shows an overview of a CWL round.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "round": {
-          "description": "Round number to show."
+          "description": "Gösterilecek tur sayısı."
         }
       }
     },
@@ -379,7 +379,7 @@
       },
       "delete": {
         "description": "Oyuncunun bayrağını silin.",
-        "description_long": "Delete a player flag.",
+        "description_long": "Oyuncunun bayrağını silin.",
         "options": {
           "tag": {
             "description": "Bayrağı silinecek oyuncunun etiketi."
@@ -391,7 +391,7 @@
       },
       "list": {
         "description": "Bütün oyuncuların bayraklarını listele.",
-        "description_long": "List all player flags.",
+        "description_long": "Bütün oyuncuların bayraklarını listele.",
         "options": {
           "export": {
             "description": "Bütün oyuncuların bayraklarını Excel'e aktar."
@@ -401,7 +401,7 @@
       },
       "search": {
         "description": "Bir oyuncuda bayrak ara.",
-        "description_long": "Search for a player flag.",
+        "description_long": "Bir oyuncuda bayrak ara.",
         "options": {
           "tag": {
             "description": "Aranacak oyuncunun etiketi."
@@ -440,7 +440,7 @@
         "description_long": "Deletes a player account/clan from a Discord account.",
         "options": {
           "tag": {
-            "description": "Tag of a player or clan."
+            "description": "Oyuncu veya klanın etiketi."
           }
         },
         "no_result": "{{tag}} Etiketinde sonuç bulunamadı.",
@@ -452,7 +452,7 @@
         "description_long": "List all player links of a clan.",
         "options": {
           "clan": {
-            "description": "Clan tag or alias or @user mention."
+            "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
           }
         }
       }
@@ -523,7 +523,7 @@
         "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
         "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "too_many_webhooks": "Too many webhooks in {{channel}}.",
+        "too_many_webhooks": "{{channel}} kanalında webhook sınırına ulaşıldı.",
         "success": "Successfully saved!"
       },
       "edit": {
@@ -587,7 +587,7 @@
       "description_long": "Displays attack and defense info of clan members.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
@@ -600,7 +600,7 @@
       "no_recent_unit_boosts": "Yakın zamanda çevrimiçi olan hiçbir oyuncuda {{unit}} yükseltilmiş değil.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
@@ -609,7 +609,7 @@
       "description_long": "Shows comprehensive overview of a clan.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
@@ -618,7 +618,7 @@
       "description_long": "Shows Town Hall composition of a clan.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
@@ -628,7 +628,7 @@
       "no_season_data": "{{season}} sezonu için veri bulunamadı.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "season": {
           "description": "Bağışların gösterileceği sezon."
@@ -641,7 +641,7 @@
       "not_in_war": "Klan savaşta değil.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
@@ -650,7 +650,7 @@
       "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "option": {
           "description": "Bir seçenek seçin."
@@ -662,7 +662,7 @@
       "description_long": "Shows comprehensive overview of a player (including war attack history)",
       "options": {
         "tag": {
-          "description": "Player tag or @user mention."
+          "description": "Kullanıcı etiketi veya @kullanıcı girin."
         }
       }
     },
@@ -673,7 +673,7 @@
       "no_war_id": "Belirtilen savaş kimliği için savaş bulunamadı.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "war_id": {
           "description": "Savaş kimliğine göre ara."
@@ -686,7 +686,7 @@
       "no_rushed": "Belediye Binası {{townhall}} için geri kalmış birim yok.",
       "options": {
         "tag": {
-          "description": "Player tag or @user mention."
+          "description": "Kullanıcı etiketi veya @kullanıcı girin."
         },
         "clan": {
           "description": "Bir klanın üyelerinin geri kalmış birimleri."
@@ -695,7 +695,7 @@
     },
     "search": {
       "description": "Klanları adlarına göre ara.",
-      "description_long": "Search clans by name.",
+      "description_long": "Klanları adlarına göre ara.",
       "no_results": "Sonuç bulunamadı.",
       "searching": "'{{name}}' adında klanlar.",
       "options": {
@@ -709,7 +709,7 @@
       "no_stats": "Bu filtre veya klan için istatistik yok.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
@@ -729,11 +729,11 @@
       },
       "attacks": {
         "description": "Klan üyelerinin saldırı başarı oranlarını gösterir.",
-        "description_long": "Shows attack success rates of clan members."
+        "description_long": "Klan üyelerinin saldırı başarı oranlarını gösterir."
       },
       "defense": {
         "description": "Klan üyelerinin savunma başarısızlık oranlarını gösterir.",
-        "description_long": "Shows defense failure rates of clan members."
+        "description_long": "Klan üyelerinin savunma başarısızlık oranlarını gösterir."
       }
     },
     "units": {
@@ -741,30 +741,30 @@
       "description_long": "Shows home village and builder base units of a player (with max/min levels)",
       "options": {
         "tag": {
-          "description": "Player tag or @user mention."
+          "description": "Kullanıcı etiketi veya @kullanıcı girin."
         }
       }
     },
     "upgrades": {
       "description": "Bir oyuncunun kalan yükseltmeleri ve yükseltme maliyetleri.",
-      "description_long": "Remaining upgrades of a player with upgrading cost.",
+      "description_long": "Bir oyuncunun kalan yükseltmeleri ve yükseltme maliyetleri.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
     "war": {
       "description": "Savaş özetini ve genel bakışını gösterir.",
       "description_long": "Shows war overview of a clan.",
-      "no_war_id": "No war was found for the specified war ID.",
-      "not_in_war": "Clan is not in a war.",
+      "no_war_id": "Belirtilen savaş kimliği için savaş bulunamadı.",
+      "not_in_war": "Klan savaşta değil.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         },
         "war_id": {
-          "description": "Search by war ID."
+          "description": "Savaş kimliğine göre ara."
         }
       }
     },
@@ -773,7 +773,7 @@
       "description_long": "Shows last 10 war logs of a clan.",
       "options": {
         "tag": {
-          "description": "Clan tag or alias or @user mention."
+          "description": "Klan etiketi veya lakabı veya @kullanıcı girin."
         }
       }
     },
@@ -784,7 +784,7 @@
         "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
         "options": {
           "option": {
-            "description": "Select an option."
+            "description": "Bir seçenek seçin."
           },
           "tag": {
             "description": "Tag of the clan."
@@ -813,10 +813,10 @@
       },
       "disable": {
         "description": "Sunucuda bir özelliği devre dışı bırakın veya bir klanı kaldırın.",
-        "description_long": "Disable a feature on the server or remove a clan.",
+        "description_long": "Sunucuda bir özelliği devre dışı bırakın veya bir klanı kaldırın.",
         "options": {
           "option": {
-            "description": "Select an option."
+            "description": "Bir seçenek seçin."
           },
           "tag": {
             "description": "Tag of the clan."
@@ -833,7 +833,7 @@
       },
       "list": {
         "description": "Etkinleştirilmiş tüm özellikleri ve klanları listeleyin.",
-        "description_long": "List all enabled features and clans."
+        "description_long": "Etkinleştirilmiş tüm özellikleri ve klanları listeleyin."
       },
       "utils": {
         "description": "Setup other utility features (link button, events schedular)",
@@ -889,7 +889,7 @@
         "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
         "options": {
           "clans": {
-            "description": "Clan tags or aliases to filter clans."
+            "description": "Klanları filtrelemek için etiketleri veya lakapları."
           },
           "clear": {
             "description": "Tüm klanlardan tüm rolleri temizleyin."
@@ -906,7 +906,7 @@
       "description": "Savaşların, klanların, oyuncuların, klan oyunlarının vb. özetlerini gösterir.",
       "options": {
         "option": {
-          "description": "Select an option."
+          "description": "Bir seçenek seçin."
         },
         "season_since": {
           "description": "Retrieve data since the specified season."
@@ -984,7 +984,7 @@
     },
     "help": {
       "description": "Belirli bir komutla ilgili komutların veya bilgilerin listesini alın.",
-      "description_long": "Get a list of commands or info about a specific command.",
+      "description_long": "Belirli bir komutla ilgili komutların veya bilgilerin listesini alın.",
       "options": {
         "name": {
           "description": "Komutun adı."
@@ -993,11 +993,11 @@
     },
     "invite": {
       "description": "Bot daveti ve Destek sunucusu için linkler alın.",
-      "description_long": "Get the bot invite and support server link."
+      "description_long": "Bot daveti ve Destek sunucusu için linkler alın."
     },
     "redeem": {
       "description": "Patreon aboneliğini kullanın veya yönetin. (bize destek olmak isterseniz)",
-      "description_long": "Redeem or manage a Patreon subscription. (if you wish to support us)"
+      "description_long": "Patreon aboneliğini kullanın veya yönetin. (bize destek olmak isterseniz)"
     }
   }
 }
