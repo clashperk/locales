@@ -34,8 +34,8 @@
     "something_went_wrong": "Une erreur s'est produite lors de l'exécution de cette commande.",
     "missing_access": "Il manque la permission {{permission}} dans le salon {{channel}} pour exécuter cette commande.",
     "missing_manager_role": "Il vous manque l'autorisation **Gérer le serveur** ou le rôle [Gestionnaire du bot] (<https://docs.clashperk.com/others/bot-manager>) pour effectuer cette action.",
-    "too_many_webhooks": "Too many webhooks in {{channel}}",
-    "no_match_found": "No matches were found with the tag {{tag}}",
+    "too_many_webhooks": "Trop de webhooks dans {{channel}}",
+    "no_match_found": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}",
     "color_code": "Code couleur hexadécimal",
     "options": {
       "clan": {
@@ -55,7 +55,7 @@
         }
       },
       "clans": {
-        "description": "Clan tags or aliases to filter clans."
+        "description": "Identifiants de clan ou alias pour filtrer les clans."
       },
       "season": {
         "description": "Retrieve data for the specified season."
