@@ -58,30 +58,30 @@
         "description": "Identifiants de clan ou alias pour filtrer les clans."
       },
       "season": {
-        "description": "Retrieve data for the specified season."
+        "description": "Récupérer les données de la saison spécifiée."
       },
       "season_since": {
-        "description": "Retrieve data since the specified season."
+        "description": "Récupérer les données depuis la saison spécifiée."
       },
       "week": {
-        "description": "Retrieve data for the specified raid weekend."
+        "description": "Récupérer les données du week-end de raid spécifié."
       }
     },
     "choices": {
       "yes": "Oui",
       "no": "Non",
-      "regular": "Regular",
-      "friendly": "Friendly",
-      "esports": "ESPORTS",
-      "war": "WAR",
-      "cwl": "CWL",
-      "clan_games": "Clan Games",
-      "league_reset": "League Reset",
-      "season_end": "Season End",
-      "raid_weekend": "Raid Weekend",
-      "capital_raids": "Capital Raids",
-      "war_attacks": "War Attacks",
-      "link_button": "Link Button",
+      "regular": "Normale",
+      "friendly": "Amicale",
+      "esports": "E-SPORTS",
+      "war": "GUERRE",
+      "cwl": "Ligue de Clans",
+      "clan_games": "Jeux de Clan",
+      "league_reset": "Réinitialisation de la Ligue",
+      "season_end": "Fin de Saison",
+      "raid_weekend": "Weekend de Raid",
+      "capital_raids": "Raids de la Capitale",
+      "war_attacks": "Attaques de Guerre",
+      "link_button": "Bouton de Lien",
       "flag_alert_log": "Flag Alert Log",
       "roster_change_log": "Roster Change Log",
       "maintenance_break_log": "Maintenance Break Log",
@@ -248,7 +248,7 @@
           "description": "Rôle permettant de gérer les membres de l'équipe."
         },
         "flags_manager_role": {
-          "description": "Rôle permettant de gérer les drapeaux."
+          "description": "Rôle permettant de gérer les signalements."
         },
         "links_manager_role": {
           "description": "Rôle permettant de gérer les liens Discord."
@@ -539,7 +539,7 @@
         "description": "Exporter l'historique des participations (dernières guerres jouées)",
         "options": {
           "war_type": {
-            "description": "Regular or CWL"
+            "description": "Normale ou Ligue"
           }
         }
       },
@@ -556,7 +556,7 @@
         "description": "Exporter les statistiques de guerre vers Excel.",
         "options": {
           "war_type": {
-            "description": "Regular or friendly wars (defaults to Regular)"
+            "description": "Guerres Normales ou Amicales (par défaut Normales)"
           }
         }
       },
@@ -572,7 +572,7 @@
         "description": "Export war attack history.",
         "options": {
           "war_type": {
-            "description": "CWL or Regular wars (default to Regular and CWL)"
+            "description": "Guerres de Ligues ou Normales (par défaut Normales et Ligues)"
           }
         }
       },
@@ -639,7 +639,7 @@
         "description": "Lister tous les signalements de joueurs.",
         "options": {
           "player": {
-            "description": "Show all flags against a player"
+            "description": "Afficher tous les signalements contre un joueur"
           },
           "export": {
             "description": "Exporter tous les signalements de joueurs vers Excel."
@@ -1008,9 +1008,9 @@
         "type": {
           "description": "Type de guerre [ex. Normale, Ligue, Amicale] (par défaut : Normale et Ligue)",
           "choices": {
-            "noFriendly": "Regular and CWL",
-            "noCWL": "Regular and Friendly",
-            "all": "Regular, CWL and Friendly"
+            "noFriendly": "Normale et Ligue",
+            "noCWL": "Normale et Amicale",
+            "all": "Normale, Ligue et Amicale"
           }
         },
         "attempt": {
