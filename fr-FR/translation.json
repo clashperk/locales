@@ -1351,9 +1351,9 @@
             "description": "Whether to update roles automatically."
           },
           "role_removal_delays": {
-            "description": "Whether to delay the removal of roles.",
+            "description": "Retarder ou non la suppression des rôles.",
             "choices": {
-              "off": "Off"
+              "off": "Désactivé"
             }
           },
           "role_addition_delays": {
