@@ -146,9 +146,9 @@
       }
     },
     "legend": {
-      "description": "Shows legend logs for a player.",
+      "description": "Affiche les journaux de légende d'un joueur.",
       "attacks": {
-        "description": "Shows per-day legend attacks for a clan.",
+        "description": "Affiche les attaques quotidiennes de Légende d'un clan.",
         "options": {
           "day": {
             "description": "La journée de ligue."
@@ -156,10 +156,10 @@
         }
       },
       "days": {
-        "description": "Shows per-day legend attacks for a player."
+        "description": "Affiche les attaques quotidiennes de Légende d'un joueur."
       },
       "leaderboard": {
-        "description": "Shows legend leaderboard.",
+        "description": "Affiche le classement de Légende.",
         "options": {
           "limit": {
             "description": "Limiter le nombre de résultats."
@@ -167,14 +167,14 @@
           "enable_auto_updating": {
             "description": "Activer la mise à jour automatique (toutes les 30 à 60 minutes)",
             "choices": {
-              "legend_leaderboard": "Legend Trophies",
+              "legend_leaderboard": "Trophées de Légende",
               "bb_legend_leaderboard": "Builder Trophies"
             }
           }
         }
       },
       "stats": {
-        "description": "Shows statistics of legend ranks and trophies."
+        "description": "Affiche les statistiques des rangs et trophées de Légende."
       }
     },
     "leaderboard": {
@@ -292,7 +292,7 @@
             "description": "Numéro de la manche à afficher."
           },
           "season": {
-            "description": "CWL season"
+            "description": "Saison de Ligue de clans"
           }
         }
       },
@@ -772,7 +772,7 @@
           "type": {
             "description": "Type of the reminder.",
             "choices": {
-              "clan_wars": "Clan wars"
+              "clan_wars": "Guerres de clans"
             }
           },
           "duration": {
@@ -831,12 +831,12 @@
         "option": {
           "choices": {
             "capital_contribution": "Capital contribution",
-            "cwl_attacks": "CWL attacks",
+            "cwl_attacks": "Attaques de Ligue de clans",
             "donations": "Donations/Received",
             "attacks": "Attacks/Defenses",
             "loot": "Loot (Gold/Elixir/Dark)",
             "join_leave": "Join/Leave",
-            "legend_attacks": "Legend attacks",
+            "legend_attacks": "Attaques de Légende",
             "eos_trophies": "Season end trophies"
           }
         },
@@ -1382,8 +1382,8 @@
           "order": {
             "description": "Order of the list.",
             "choices": {
-              "desc": "Descending",
-              "asc": "Ascending"
+              "desc": "Décroissant",
+              "asc": "Croissant"
             }
           }
         }
