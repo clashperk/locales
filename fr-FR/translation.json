@@ -91,7 +91,7 @@
       "cwl_signup_ending": "CWL Signup (Ending)",
       "raid_weekend_ending": "Raid Weekend (Ending)"
     },
-    "contact_support": "Contact Support",
+    "contact_support": "Contacter l'assistance technique",
     "select_an_option": "Select an option",
     "ending": "Ending"
   },
@@ -107,7 +107,7 @@
           "description": "Le nombre de jours est affiché dans le graphique."
         },
         "limit": {
-          "description": "Number of clans to show in the graph."
+          "description": "Nombre de clans à afficher dans le graphique."
         }
       }
     },
@@ -151,7 +151,7 @@
         "description": "Shows per-day legend attacks for a clan.",
         "options": {
           "day": {
-            "description": "The league day."
+            "description": "La journée de ligue."
           }
         }
       },
@@ -162,10 +162,10 @@
         "description": "Shows legend leaderboard.",
         "options": {
           "limit": {
-            "description": "Limit the number of results."
+            "description": "Limiter le nombre de résultats."
           },
           "enable_auto_updating": {
-            "description": "Enable auto updating (every 30-60 mins)",
+            "description": "Activer la mise à jour automatique (toutes les 30 à 60 minutes)",
             "choices": {
               "legend_leaderboard": "Legend Trophies",
               "bb_legend_leaderboard": "Builder Trophies"
@@ -1070,7 +1070,7 @@
             "logs_or_feed": "Logs / Feed (New)",
             "war_feed": "War Feed",
             "last_seen": "Last Seen",
-            "legend_log": "Legend Log",
+            "legend_log": "Journal de Légende",
             "capital_log": "Capital Log",
             "clan_feed": "Clan Feed",
             "join_leave": "Join/Leave Log",
@@ -1241,7 +1241,7 @@
         }
       },
       "leagues": {
-        "description": "Manage automatic role management for leagues."
+        "description": "Gérer la fonction auto-rôle pour les ligues."
       },
       "builder_leagues": {
         "description": "Set builder base league roles."
@@ -1401,7 +1401,7 @@
         "description": "Shows a summary of CWL spin status."
       },
       "leagues": {
-        "description": "Shows a summary of clan leagues."
+        "description": "Affiche un résumé des ligues de clans."
       },
       "donations": {
         "description": "Affiche un résumé des dons de troupes."
