@@ -82,10 +82,10 @@
       "capital_raids": "Raids de la Capitale",
       "war_attacks": "Attaques de Guerre",
       "link_button": "Bouton de Lien",
-      "flag_alert_log": "Flag Alert Log",
+      "flag_alert_log": "Journal d'Alerte de Signalement",
       "roster_change_log": "Roster Change Log",
       "maintenance_break_log": "Maintenance Break Log",
-      "role_refresh_button": "Role Refresh Button",
+      "role_refresh_button": "Bouton d'Actualisation des Rôles",
       "clan_games_ending": "Clan Games (Ending)",
       "cwl_end": "CWL (Ending)",
       "cwl_signup_ending": "CWL Signup (Ending)",
@@ -324,7 +324,7 @@
             "description": "Whether to import members from the clan"
           },
           "allow_unlinked": {
-            "description": "Whether to allow unlinked members"
+            "description": "Autoriser ou non les membres non reliés"
           },
           "max_members": {
             "description": "Roster size"
@@ -603,7 +603,7 @@
         }
       },
       "create": {
-        "description": "Create a player flag to mark the player as banned or flagged.",
+        "description": "Créer un signalement de joueur pour marquer le joueur comme banni ou signalé.",
         "options": {
           "tag": {
             "description": "Identifiant du joueur à signaler."
@@ -612,10 +612,10 @@
             "description": "Motif du signalement."
           },
           "flag_expiry_days": {
-            "description": "Flag expiry days (auto deletes the flag)"
+            "description": "Échéance du signalement (supprime automatiquement le signalement)"
           },
           "flag_impact": {
-            "description": "Number of flags this should count as"
+            "description": "Nombre de signalements à prendre en compte"
           }
         },
         "no_reason": "Vous devez fournir un motif au signalement.",
@@ -629,7 +629,7 @@
             "description": "Identifiant du joueur à supprimer."
           },
           "flag_ref": {
-            "description": "Flag reference of this player."
+            "description": "Référence du signalement de ce joueur."
           }
         },
         "no_tag": "Vous devez fournir un identifiant de joueur pour supprimer un signalement.",
@@ -669,10 +669,10 @@
             "description": "S'il s'agit du compte par défaut."
           },
           "player_tag": {
-            "description": "The player tag to link."
+            "description": "L'identifiant de joueur à relier."
           },
           "clan_tag": {
-            "description": "The default clan tag to link."
+            "description": "L'identifiant de clan par défaut à relier."
           }
         },
         "no_bots": "Les comptes bots ne peuvent pas être reliés.",
@@ -687,10 +687,10 @@
         "description": "Supprime un lien compte joueur/clan d'un compte Discord.",
         "options": {
           "player_tag": {
-            "description": "The player tag to unlink."
+            "description": "L'identifiant de joueur à dissocier."
           },
           "clan_tag": {
-            "description": "The clan tag to unlink."
+            "description": "L'identifiant de clan à dissocier."
           }
         },
         "success": "Lien avec l'identifiant {{tag}} supprimé avec succès.",
@@ -724,7 +724,7 @@
       "no_result": "Faites une recherche plus spécifique et réessayez."
     },
     "profile": {
-      "description": "Shows linked accounts and clan of a user.",
+      "description": "Affiche les comptes liés et le clan d'un utilisateur.",
       "options": {
         "user": {
           "description": "Identifiant utilisateur ou mention @utilisateur."
@@ -746,9 +746,9 @@
             "description": "Whether to update nicknames automatically."
           },
           "account_preference_for_naming": {
-            "description": "Whether to use the default account or the best account in the family.",
+            "description": "Utiliser le compte par défaut ou le meilleur compte de la famille.",
             "choices": {
-              "default_account": "Default Account",
+              "default_account": "Compte par Défaut",
               "best_account": "Best Account",
               "default_or_best_account": "Default or Best Account"
             }
@@ -770,7 +770,7 @@
         "description": "Créer des rappels de guerres de clans, de raids de la capitale ou de jeux de clans.",
         "options": {
           "type": {
-            "description": "Type of the reminder.",
+            "description": "Type de rappel.",
             "choices": {
               "clan_wars": "Guerres de clans"
             }
@@ -903,7 +903,7 @@
       "description": "Shows comprehensive overview of a clan.",
       "options": {
         "by_player_tag": {
-          "description": "Get clan by a player tag."
+          "description": "Obtenir un clan à partir de l'identifiant d'un joueur."
         }
       }
     },
@@ -921,7 +921,7 @@
           "description": "Donation history of a linked user."
         },
         "player": {
-          "description": "Donation history of a player."
+          "description": "Historique des dons d'un joueur."
         }
       }
     },
@@ -969,10 +969,10 @@
           "description": "The type of remaining tasks to show."
         },
         "player": {
-          "description": "Remaining attacks of a player."
+          "description": "Attaques restantes d'un joueur."
         },
         "user": {
-          "description": "Remaining attacks of a linked user."
+          "description": "Attaques restantes d'un utilisateur relié."
         }
       }
     },
@@ -1331,7 +1331,7 @@
       },
       "refresh": {
         "description": "Actualiser les rôles manuellement.",
-        "description_long": "Refresh roles manually. (Use this command if the roles are not updated automatically)",
+        "description_long": "Actualiser les rôles manuellement. (Utilisez cette commande si les rôles ne sont pas mis à jour automatiquement)",
         "options": {
           "user_or_role": {
             "description": "Refresh an individual user or a role."
@@ -1377,7 +1377,7 @@
         "description": "Affiche un résumé des meilleurs membres.",
         "options": {
           "limit": {
-            "description": "Number of members to show (Default: 5)"
+            "description": "Nombre de membres à afficher (par défaut : 5)"
           },
           "order": {
             "description": "Order of the list.",
