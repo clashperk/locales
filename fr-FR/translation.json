@@ -254,7 +254,7 @@
           "description": "Rôle permettant de gérer les liens Discord."
         },
         "webhook_limit": {
-          "description": "The maximum number of webhooks that can be created in a channel."
+          "description": "Le nombre maximum de webhooks pouvant être créés dans un salon."
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
@@ -453,49 +453,49 @@
             "description": "Sélectionner un joueur à gérer"
           },
           "clan": {
-            "description": "Select a clan to add players from"
+            "description": "Sélectionner un clan pour ajouter des joueurs"
           },
           "user": {
-            "description": "Select a user to manage"
+            "description": "Sélectionner un utilisateur à gérer"
           },
           "target_group": {
-            "description": "Group of the user to move to"
+            "description": "Groupe de l'utilisateur à déplacer"
           },
           "target_roster": {
-            "description": "Roster of the user to move to"
+            "description": "Équipe de l'utilisateur à déplacer"
           }
         }
       },
       "groups": {
-        "description": "Manage groups of the rosters",
+        "description": "Gérer les groupes des équipes",
         "options": {
           "selectable": {
-            "description": "Whether to allow members to select this group"
+            "description": "Autoriser ou non les membres à sélectionner ce groupe"
           },
           "name": {
-            "description": "Name of the group"
+            "description": "Nom du groupe"
           },
           "group_role": {
-            "description": "Role of the group"
+            "description": "Rôle du groupe"
           },
           "group": {
-            "description": "Select a group to modify"
+            "description": "Sélectionner un groupe à modifier"
           },
           "order": {
-            "description": "Order of the group"
+            "description": "Ordre du groupe"
           },
           "delete_role": {
-            "description": "Whether to delete the role of the group"
+            "description": "Supprimer ou non le rôle du groupe"
           },
           "delete_group": {
-            "description": "Whether to delete the group"
+            "description": "Supprimer ou non le groupe"
           }
         },
         "create": {
-          "description": "Create a group"
+          "description": "Créer un groupe"
         },
         "modify": {
-          "description": "Modify or delete a group"
+          "description": "Modifier ou supprimer un groupe"
         }
       },
       "ping": {
@@ -505,7 +505,7 @@
             "description": "Select a roster to ping"
           },
           "message": {
-            "description": "Message for the members"
+            "description": "Message pour les membres"
           },
           "ping_options": {
             "choices": {
@@ -697,11 +697,11 @@
         "no_access": "Ce joueur doit faire partie de votre clan et vous devez être un Chef-adjoint \"vérifié\" pour effectuer cette action. Utilisez {{command}} pour vérifier votre compte."
       },
       "list": {
-        "description": "List all player links of a clan."
+        "description": "Lister tous les liens des joueurs d'un clan."
       }
     },
     "verify": {
-      "description": "Verify and link a player account using an API token.",
+      "description": "Vérifier et relier un compte joueur à l'aide d'un jeton API.",
       "options": {
         "tag": {
           "description": "Identifiant du joueur à vérifier."
@@ -1064,8 +1064,8 @@
       "options": {
         "action": {
           "choices": {
-            "server_link": "Server Link",
-            "channel_link": "Channel Link",
+            "server_link": "Lien du Serveur",
+            "channel_link": "Lien du Salon",
             "delete_clan": "Delete clan",
             "logs_or_feed": "Logs / Feed (New)",
             "war_feed": "War Feed",
@@ -1129,7 +1129,7 @@
         }
       },
       "utils": {
-        "description": "[DEPRECATED] Setup other utility features (link button, events schedular)",
+        "description": "[OBSOLÈTE] Configurer d'autres fonctionnalités utilitaires (bouton de lien, calendrier d'événements)",
         "options": {
           "option": {
             "choices": {
@@ -1487,16 +1487,16 @@
       "description": "Afficher tous les clans reliés."
     },
     "layout": {
-      "description": "Post a village layout.",
+      "description": "Poster un plan de village.",
       "options": {
         "screenshot": {
-          "description": "Screenshot of the layout."
+          "description": "Capture d'écran du plan."
         },
         "layout_link": {
-          "description": "Shareable link of the layout."
+          "description": "Lien partageable du plan."
         },
         "title": {
-          "description": "Title of the layout."
+          "description": "Titre du plan."
         }
       }
     },
