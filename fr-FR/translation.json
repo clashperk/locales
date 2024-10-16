@@ -1024,7 +1024,7 @@
           "description": "Nombre de jours à inclure (x derniers jours de guerre)"
         },
         "wars": {
-          "description": "Number of last wars to include."
+          "description": "Nombre de guerres à inclure."
         },
         "filter_farm_hits": {
           "description": "Filter out farm hits (1 star and < 50% destruction)"
