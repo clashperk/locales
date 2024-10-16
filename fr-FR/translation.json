@@ -732,15 +732,15 @@
       }
     },
     "nickname": {
-      "description": "Gérer les paramètres de pseudo automatique.",
+      "description": "Gérer les paramètres de surnom automatique.",
       "config": {
-        "description": "Choisir un pseudo dans la liste des joueurs reliés.",
+        "description": "Configurer les paramètres du surnom automatique du serveur.",
         "options": {
           "family_nickname_format": {
-            "description": "Set family nickname format (e.g. {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME})"
+            "description": "Définir le format du surnom de la famille (ex. {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME})"
           },
           "non_family_nickname_format": {
-            "description": "Set non-family nickname format (e.g. {NAME} | {TH})"
+            "description": "Définir le format du surnom non familial (ex. {NAME} | {TH})"
           },
           "change_nicknames": {
             "description": "Whether to update nicknames automatically."
@@ -779,7 +779,7 @@
             "description": "Remaining duration to mention members (e.g. 6h, 12h, 1d, 2d)"
           },
           "exclude_participants": {
-            "description": "Whether to exclude participant list and only include the message (clan wars only)"
+            "description": "Exclure ou non la liste des participants et n'inclure que le message (guerres de clans uniquement)"
           },
           "channel": {
             "description": "Salon de rappel pour la notification."
