@@ -36,7 +36,7 @@
     "missing_manager_role": "Il vous manque l'autorisation **Gérer le serveur** ou le rôle [Gestionnaire du bot] (<https://docs.clashperk.com/others/bot-manager>) pour effectuer cette action.",
     "too_many_webhooks": "Trop de webhooks dans {{channel}}",
     "no_match_found": "Aucun résultat n'a été trouvé avec l'identifiant {{tag}}",
-    "color_code": "Code couleur hexadécimal",
+    "color_code": "Code Couleur",
     "options": {
       "clan": {
         "tag": {
@@ -321,7 +321,7 @@
             }
           },
           "import_members": {
-            "description": "Whether to import members from the clan"
+            "description": "Importer ou non des membres du clan"
           },
           "allow_unlinked": {
             "description": "Autoriser ou non les membres non reliés"
@@ -339,53 +339,53 @@
             "description": "Niveau maximum d'Hôtel de Ville"
           },
           "min_hero_level": {
-            "description": "Minimum combined Hero level"
+            "description": "Niveau minimum combiné de héros"
           },
           "roster_role": {
-            "description": "Roster role"
+            "description": "Rôle de l'équipe"
           },
           "sort_by": {
-            "description": "Sorting order of the roster member list"
+            "description": "Ordre de tri de la liste des membres de l'équipe"
           },
           "start_time": {
-            "description": "Roster start time (YYYY-MM-DD HH:mm, in 24 hours format)"
+            "description": "Heure de début de l'équipe (AAAA-MM-JJ HH:mm, au format 24 heures)"
           },
           "end_time": {
-            "description": "Roster end time (YYYY-MM-DD HH:mm, in 24 hours format)"
+            "description": "Heure de la fin de l'équipe (AAAA-MM-JJ HH:mm, au format 24 heures)"
           },
           "timezone": {
-            "description": "Search timezone by city or country (e.g. London, Singapore, India, Sydney)"
+            "description": "Rechercher un fuseau horaire par ville ou par pays (ex. Londres, Singapour, Inde, Sydney)"
           },
           "allow_group_selection": {
-            "description": "Whether to allow members to select group"
+            "description": "Autoriser ou non les membres à sélectionner un groupe"
           },
           "allow_multi_signup": {
-            "description": "Whether to allow multiple roster signups"
+            "description": "Autoriser ou non les inscriptions multiples dans l'équipe"
           },
           "use_clan_alias": {
-            "description": "Whether to use clan alias in the roster (created by /alias command)"
+            "description": "Utiliser ou non l'alias du clan dans l'équipe (créé par la commande /alias)"
           },
           "roster_image_url": {
-            "description": "Image to be used in the roster embed"
+            "description": "Image à utiliser dans l'intégration de l'équipe"
           },
           "color_code": {
-            "description": "Hex color code of the roster embed"
+            "description": "Code couleur hexadécimal de l'intégration de l'équipe"
           }
         }
       },
       "post": {
-        "description": "Post a roster to signup or view members",
+        "description": "Publier une équipe pour s'inscrire ou voir les membres",
         "options": {
           "roster": {
-            "description": "Select a roster to post"
+            "description": "Sélectionner une équipe à publier"
           }
         }
       },
       "clone": {
-        "description": "Clone a roster to create a new one",
+        "description": "Cloner une équipe pour en créer une nouvelle",
         "options": {
           "roster": {
-            "description": "Select a roster to clone"
+            "description": "Sélectionner une équipe à cloner"
           },
           "name": {
             "description": "Name of the cloned roster"
@@ -743,14 +743,14 @@
             "description": "Définir le format du surnom non familial (ex. {NAME} | {TH})"
           },
           "change_nicknames": {
-            "description": "Whether to update nicknames automatically."
+            "description": "Mise à jour automatique ou non des surnoms."
           },
           "account_preference_for_naming": {
             "description": "Utiliser le compte par défaut ou le meilleur compte de la famille.",
             "choices": {
               "default_account": "Compte par Défaut",
-              "best_account": "Best Account",
-              "default_or_best_account": "Default or Best Account"
+              "best_account": "Meilleur Compte",
+              "default_or_best_account": "Compte par Défaut ou Meilleur"
             }
           }
         }
@@ -1250,7 +1250,7 @@
         "description": "Gérer la fonction auto-rôle pour les niveaux d'hôtel de ville.",
         "options": {
           "allow_non_family_accounts": {
-            "description": "Whether to give roles to the members that are not in the family clans."
+            "description": "Attribuer ou non des rôles aux membres qui ne font pas partie des clans familiaux."
           }
         }
       },
@@ -1280,22 +1280,22 @@
         }
       },
       "family": {
-        "description": "Set family roles.",
+        "description": "Définir les rôles familiaux.",
         "options": {
           "family_leaders_role": {
-            "description": "Family leaders role (Leaders and Co-Leaders)"
+            "description": "Rôle des chefs de la famille (Chefs et Chefs-Adjoints)"
           },
           "family_role": {
-            "description": "Family role."
+            "description": "Rôle familial."
           },
           "exclusive_family_role": {
-            "description": "Exclusive family role (all linked accounts are in the family)"
+            "description": "Rôle familial exclusif (tous les comptes reliés font partie de la famille)"
           },
           "guest_role": {
-            "description": "Guest role (not in the family)"
+            "description": "Rôle d'invité (hors famille)"
           },
           "verified_role": {
-            "description": "Verified role (API token verified)"
+            "description": "Rôle vérifié (jeton API vérifié)"
           }
         }
       },
@@ -1316,9 +1316,9 @@
               "builder_leagues": "Builder leagues roles",
               "wars": "War roles",
               "eos_push": "End of season push roles",
-              "family_leaders": "Family leaders role",
-              "family": "Family roles",
-              "exclusive_family": "Exclusive family role",
+              "family_leaders": "Rôle des chefs de la famille",
+              "family": "Rôles familiaux",
+              "exclusive_family": "Rôle familial exclusif",
               "guest": "Guest role",
               "verified": "Verified role"
             }
@@ -1340,7 +1340,7 @@
             "description": "Test run to see the changes without applying."
           },
           "force_refresh": {
-            "description": "Whether to bypass delays and force refresh roles."
+            "description": "Ignorer ou non les délais et forcer l'actualisation des rôles."
           }
         }
       },
@@ -1348,7 +1348,7 @@
         "description": "Manage automatic roles settings.",
         "options": {
           "auto_update_roles": {
-            "description": "Whether to update roles automatically."
+            "description": "Mise à jour automatique ou non des rôles."
           },
           "role_removal_delays": {
             "description": "Retarder ou non la suppression des rôles.",
@@ -1357,22 +1357,22 @@
             }
           },
           "role_addition_delays": {
-            "description": "Whether to delay the addition of roles."
+            "description": "Retarder ou non l'ajout des rôles."
           },
           "always_force_refresh_roles": {
-            "description": "Whether to enforce role refresh for individual users by default."
+            "description": "Appliquer ou non l'actualisation des rôles pour les utilisateurs individuels par défaut."
           },
           "allow_not_linked": {
-            "description": "Whether to allow not linked players to get roles."
+            "description": "Autoriser ou non les joueurs non reliés à obtenir des rôles."
           },
           "verified_only_clan_roles": {
-            "description": "Whether to grant clans roles to verified players only."
+            "description": "Accorder ou non les rôles de clans aux seuls joueurs vérifiés."
           }
         }
       }
     },
     "summary": {
-      "description": "Shows summary of the clan family.",
+      "description": "Affiche le résumé de la famille du clan.",
       "best": {
         "description": "Affiche un résumé des meilleurs membres.",
         "options": {
