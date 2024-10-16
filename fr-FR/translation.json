@@ -116,7 +116,7 @@
       "title": "Scores aux Jeux de Clan",
       "options": {
         "season": {
-          "description": "La saison pour laquelle vous souhaitez afficher le tableau des scores."
+          "description": "La saison à afficher pour le tableau des scores."
         }
       }
     },
@@ -127,10 +127,10 @@
         "title": "Contributions à la Capitale de Clan",
         "options": {
           "week": {
-            "description": "La semaine pour laquelle vous souhaitez afficher les contributions."
+            "description": "La semaine à afficher pour les contributions."
           },
           "season": {
-            "description": "La saison pour laquelle afficher les contributions."
+            "description": "La saison à afficher pour les contributions."
           }
         }
       },
@@ -139,7 +139,7 @@
         "title": "Raids de la Capitale de Clan",
         "options": {
           "season": {
-            "description": "La saison pour laquelle montrer les raids."
+            "description": "La saison à afficher pour les raids."
           }
         },
         "no_data": "Aucun raid de la Capitale n'a été trouvé pour {{clan}} [{{weekId}}]."
@@ -333,10 +333,10 @@
             "description": "Max accounts per user"
           },
           "min_town_hall": {
-            "description": "Minimum Town Hall level"
+            "description": "Niveau minimum d'Hôtel de Ville"
           },
           "max_town_hall": {
-            "description": "Maximum Town Hall level"
+            "description": "Niveau maximum d'Hôtel de Ville"
           },
           "min_hero_level": {
             "description": "Minimum combined Hero level"
@@ -732,7 +732,7 @@
       }
     },
     "nickname": {
-      "description": "Manage automatic nickname settings.",
+      "description": "Gérer les paramètres de pseudo automatique.",
       "config": {
         "description": "Choisir un pseudo dans la liste des joueurs reliés.",
         "options": {
@@ -881,7 +881,7 @@
       "description": "Displays attack and defense info of clan members.",
       "options": {
         "season": {
-          "description": "The season to show attacks for."
+          "description": "La saison à afficher pour les attaques."
         }
       }
     },
@@ -908,7 +908,7 @@
       }
     },
     "compo": {
-      "description": "Shows Town Hall composition of a clan."
+      "description": "Affiche la répartition des Hôtels de Ville d'un clan."
     },
     "donations": {
       "description": "Affiche les troupes données et reçues des membres du clan.",
@@ -978,7 +978,7 @@
     },
     "rushed": {
       "description": "Rushed units and rushed % of a player or clan members.",
-      "no_rushed": "Aucune troupe, sort, engin ou héros préma pour l'Hôtel De Ville {{townhall}}.",
+      "no_rushed": "Aucune troupe, sort, engin ou héros préma pour l'Hôtel de Ville {{townhall}}.",
       "options": {
         "clan": {
           "description": "Affiche les troupes, sorts, engins et héros prémas d'un clan."
@@ -1165,7 +1165,7 @@
             "description": "Select the log type to setup."
           },
           "disable": {
-            "description": "Whether to disable the log."
+            "description": "Désactiver ou non le journal."
           }
         }
       },
@@ -1218,7 +1218,7 @@
       "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
       "success_with_count": "L'auto-rôle a été activé avec succès pour {{count}} clan(s). \n{{clans}}",
       "clan_roles": {
-        "description": "Manage automatic role management for clan roles.",
+        "description": "Gérer la fonction auto-rôle pour les rôles dans le clan.",
         "options": {
           "member": {
             "description": "Le rôle de Membre (en dessous du rôle d'Aîné)"
@@ -1247,7 +1247,7 @@
         "description": "Set builder base league roles."
       },
       "town_hall": {
-        "description": "Manage automatic role management for town hall levels.",
+        "description": "Gérer la fonction auto-rôle pour les niveaux d'hôtel de ville.",
         "options": {
           "allow_non_family_accounts": {
             "description": "Whether to give roles to the members that are not in the family clans."
@@ -1303,7 +1303,7 @@
         "description": "List all auto roles and settings."
       },
       "disable": {
-        "description": "Disable automatic clan roles.",
+        "description": "Désactiver la fonction auto-rôle.",
         "description_long": "Désactiver la fonction auto-rôle pour les rôles dans le clan, les niveaux d'hôtel de ville ou les ligues.",
         "options": {
           "type": {
@@ -1392,7 +1392,7 @@
         "description": "Affiche un résumé des guerres en cours."
       },
       "compo": {
-        "description": "Shows a summary of Town Hall composition."
+        "description": "Affiche un résumé de la répartition des hôtels de ville de la famille de clans."
       },
       "cwl_ranks": {
         "description": "Affiche un résumé des classements de Ligue de clans."
@@ -1430,7 +1430,7 @@
         "description": "Affiche un résumé des contributions à la Capitale.",
         "options": {
           "week": {
-            "description": "The week to show capital contributions for."
+            "description": "La semaine à afficher pour les contributions à la Capitale."
           }
         }
       },
@@ -1484,7 +1484,7 @@
       }
     },
     "clans": {
-      "description": "Show all linked clans."
+      "description": "Afficher tous les clans reliés."
     },
     "layout": {
       "description": "Post a village layout.",
