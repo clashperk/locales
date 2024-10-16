@@ -123,7 +123,7 @@
     "capital": {
       "description": "Affiche les raids de la Capitale de clan ainsi que les contributions.",
       "contribution": {
-        "description": "Shows clan capital contribution of clan members.",
+        "description": "Affiche les contributions à la Capitale de Clan des membres du clan.",
         "title": "Contributions à la Capitale de Clan",
         "options": {
           "week": {
@@ -826,16 +826,16 @@
       "no_message": "You must specify a message to execute this command."
     },
     "history": {
-      "description": "Clan Games, Capital Raids, Donations, and CWL attacks history.",
+      "description": "Historique des Jeux de Clan, Raids de la Capitale, Dons et attaques de Ligue de Clans.",
       "options": {
         "option": {
           "choices": {
-            "capital_contribution": "Capital contribution",
+            "capital_contribution": "Contributions à la Capitale",
             "cwl_attacks": "Attaques de Ligue de clans",
-            "donations": "Donations/Received",
+            "donations": "Troupes Données/Reçues",
             "attacks": "Attacks/Defenses",
             "loot": "Loot (Gold/Elixir/Dark)",
-            "join_leave": "Join/Leave",
+            "join_leave": "Entrées/Sorties",
             "legend_attacks": "Attaques de Légende",
             "eos_trophies": "Season end trophies"
           }
@@ -911,14 +911,14 @@
       "description": "Shows Town Hall composition of a clan."
     },
     "donations": {
-      "description": "Shows donations and donations received of clan members.",
+      "description": "Affiche les troupes données et reçues des membres du clan.",
       "no_season_data": "Aucune donnée n'a été trouvée pour la saison {{season}}.",
       "options": {
         "season": {
           "description": "La saison à afficher pour les dons de troupes."
         },
         "user": {
-          "description": "Donation history of a linked user."
+          "description": "Historique des dons d'un utilisateur relié."
         },
         "player": {
           "description": "Historique des dons d'un joueur."
@@ -1073,7 +1073,7 @@
             "legend_log": "Journal de Légende",
             "capital_log": "Capital Log",
             "clan_feed": "Clan Feed",
-            "join_leave": "Join/Leave Log",
+            "join_leave": "Journal des Entrées/Sorties",
             "clan_embed": "Clan Embed",
             "donation_log": "Donation Log"
           }
@@ -1427,7 +1427,7 @@
         "description": "Shows information about capital raids."
       },
       "capital_contribution": {
-        "description": "Shows a summary of capital contributions.",
+        "description": "Affiche un résumé des contributions à la Capitale.",
         "options": {
           "week": {
             "description": "The week to show capital contributions for."
