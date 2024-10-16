@@ -388,69 +388,69 @@
             "description": "Sélectionner une équipe à cloner"
           },
           "name": {
-            "description": "Name of the cloned roster"
+            "description": "Nom de l'équipe clonée"
           }
         }
       },
       "list": {
-        "description": "Search rosters or list all rosters and groups",
+        "description": "Rechercher des équipes ou lister toutes les équipes et tous les groupes",
         "options": {
           "name": {
-            "description": "Search rosters by name"
+            "description": "Rechercher des équipes par nom"
           },
           "user": {
-            "description": "Search rosters by user"
+            "description": "Rechercher des équipes par utilisateur"
           },
           "player": {
-            "description": "Search rosters by player"
+            "description": "Rechercher des équipes par joueur"
           },
           "clan": {
-            "description": "Search rosters by clan"
+            "description": "Rechercher des équipes par clan"
           }
         }
       },
       "edit": {
-        "description": "Edit a roster",
+        "description": "Modifier une équipe",
         "options": {
           "roster": {
-            "description": "Select a roster to edit"
+            "description": "Sélectionner une équipe à modifier"
           },
           "detach_clan": {
-            "description": "Detach clan from the roster"
+            "description": "Détacher le clan de l'équipe"
           },
           "delete_role": {
-            "description": "Whether to delete the roster role"
+            "description": "Supprimer ou non le rôle de l'équipe"
           },
           "log_channel": {
-            "description": "Channel to log roster changes"
+            "description": "Salon pour enregistrer les modifications de l'équipe"
           }
         }
       },
       "delete": {
-        "description": "Permanently delete a roster.",
+        "description": "Supprimer définitivement une équipe.",
         "options": {
           "roster": {
-            "description": "Select a roster to delete"
+            "description": "Sélectionner une équipe à supprimer"
           }
         }
       },
       "manage": {
-        "description": "Add or remove users or change their group or roster",
+        "description": "Ajouter ou supprimer des utilisateurs ou modifier leur groupe ou leur équipe",
         "options": {
           "roster": {
-            "description": "Select a roster to manage"
+            "description": "Sélectionner une équipe à gérer"
           },
           "action": {
-            "description": "Select an action to perform",
+            "description": "Sélectionner une action à effectuer",
             "choices": {
-              "add_user": "Add",
-              "remove_user": "Remove",
-              "change_roster": "Change roster",
-              "change_group": "Change group"
+              "add_user": "Ajouter",
+              "remove_user": "Enlever",
+              "change_roster": "Changer d'équipe",
+              "change_group": "Changer de groupe"
             }
           },
           "player": {
-            "description": "Select a player to manage"
+            "description": "Sélectionner un joueur à gérer"
           },
           "clan": {
             "description": "Select a clan to add players from"
