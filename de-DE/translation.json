@@ -1208,7 +1208,7 @@
       "description": "Enable automatic clan roles and Town Hall roles",
       "no_roles": "Sie müssen 4 Rollen angeben, um diesen Befehl auszuführen.",
       "no_system_roles": "Systemverwaltende Rollen oder Bot-Rollen sind nicht zulässig.",
-      "no_higher_roles": "Meine höchste Rolle muss höher sein als diese Rollen.",
+      "no_higher_roles": "Bot's highest role must be higher than the selected roles.",
       "invalid_clan_tag": "Das angegebene Clankürzel ist ungültig.",
       "roles_already_used": "Einige Rollen wurden bereits für einen anderen Clan verwendet. \nBitte erwägen Sie, uns auf [Patreon](https://patreon.com/clashperk) zu unterstützen, um die gleichen Rollen für mehrere Clans zu verwenden.",
       "clan_not_linked": "Der Clan muss mit dem Server verknüpft sein, um die automatische Rolle zu aktivieren.",
