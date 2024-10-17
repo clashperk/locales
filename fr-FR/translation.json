@@ -70,17 +70,23 @@
     "choices": {
       "yes": "Oui",
       "no": "Non",
-      "regular": "Normale",
-      "friendly": "Amicale",
-      "esports": "E-SPORTS",
+      "off": "Off",
+      "enable": "Enable",
+      "disable": "Disable",
+      "desc": "Descending",
+      "asc": "Ascending",
       "war": "GUERRE",
       "cwl": "Ligue de Clans",
       "trophy": "TROPHÉE",
+      "e_sports": "E-SPORTS",
+      "regular": "Normale",
+      "friendly": "Amicale",
       "clan_games": "Jeux de Clan",
       "league_reset": "Réinitialisation de la Ligue",
       "season_end": "Fin de Saison",
       "raid_weekend": "Weekend de Raid",
       "capital_raids": "Raids de la Capitale",
+      "clan_wars": "Clan Wars",
       "war_attacks": "Attaques de Guerre",
       "link_button": "Bouton de Lien",
       "flag_alert_log": "Journal d'Alerte de Signalement",
@@ -90,7 +96,74 @@
       "clan_games_ending": "Clan Games (Ending)",
       "cwl_end": "CWL (Ending)",
       "cwl_signup_ending": "CWL Signup (Ending)",
-      "raid_weekend_ending": "Raid Weekend (Ending)"
+      "raid_weekend_ending": "Raid Weekend (Ending)",
+      "legend_leaderboard": "Legend Trophies",
+      "builder_legend_leaderboard": "Builder Trophies",
+      "events_schedular": "Events Schedular",
+      "reminder_ping_exclusion": "Reminder Ping Exclusion",
+      "roster": {
+        "add_players": "Add Players",
+        "remove_players": "Remove Players",
+        "change_roster": "Change Roster",
+        "change_group": "Change Group",
+        "unregistered": "Unregistered (didn't signup, but in the clan)",
+        "missing": "Missing (opted-in, but not in the clan)",
+        "everyone": "Everyone (all opted-in members)"
+      },
+      "flag": {
+        "ban": "Ban",
+        "strike": "Strike"
+      },
+      "nickname": {
+        "default_account": "Default Account",
+        "best_account": "Best Account",
+        "default_or_best_account": "Default or Best Account"
+      },
+      "history": {
+        "capital_contribution": "Capital Contribution",
+        "cwl_attacks": "CWL Attacks",
+        "donations": "Donations/Received",
+        "attacks": "Attacks/Defenses",
+        "loot": "Loot (Gold/Elixir/Dark)",
+        "join_leave": "Join/Leave",
+        "legend_attacks": "Legend Attacks",
+        "eos_trophies": "Season end Trophies"
+      },
+      "stats": {
+        "no_friendly": "Regular and CWL",
+        "no_cwl": "Regular and Friendly",
+        "all": "Regular, CWL and Friendly",
+        "fresh": "Fresh",
+        "cleanup": "Cleanup"
+      },
+      "setup": {
+        "server_link": "Server Link",
+        "channel_link": "Channel Link",
+        "delete_clan": "Delete clan",
+        "logs_or_feed": "Logs / Feed (New)",
+        "war_feed": "War Feed",
+        "last_seen": "Last Seen",
+        "legend_log": "Legend Log",
+        "capital_log": "Capital Log",
+        "clan_feed": "Clan Feed",
+        "join_leave": "Join/Leave Log",
+        "clan_embed": "Clan Embed",
+        "donation_log": "Donation Log"
+      },
+      "autorole": {
+        "clan_roles": "Clan Roles",
+        "town_hall": "Town Hall Roles",
+        "leagues": "Leagues Roles",
+        "builder_hall": "Builder Hall Roles",
+        "builder_leagues": "Builder Leagues Roles",
+        "wars": "War Roles",
+        "eos_push": "End of Season Push Role",
+        "family_leaders": "Family Leaders Role",
+        "family": "Family Roles",
+        "exclusive_family": "Exclusive Family Role",
+        "guest": "Guest Role",
+        "verified": "Verified Role"
+      }
     },
     "contact_support": "Contacter l'assistance technique",
     "select_an_option": "Sélectionner une option",
@@ -166,11 +239,7 @@
             "description": "Limiter le nombre de résultats."
           },
           "enable_auto_updating": {
-            "description": "Activer la mise à jour automatique (toutes les 30 à 60 minutes)",
-            "choices": {
-              "legend_leaderboard": "Trophées de Légende",
-              "bb_legend_leaderboard": "Builder Trophies"
-            }
+            "description": "Activer la mise à jour automatique (toutes les 30 à 60 minutes)"
           }
         }
       },
@@ -316,10 +385,7 @@
             "description": "Nom de l'équipe"
           },
           "category": {
-            "description": "Catégorie de l'équipe",
-            "choices": {
-              "trophy": "TROPHÉE"
-            }
+            "description": "Catégorie de l'équipe"
           },
           "import_members": {
             "description": "Importer ou non des membres du clan"
@@ -442,13 +508,7 @@
             "description": "Sélectionner une équipe à gérer"
           },
           "action": {
-            "description": "Sélectionner une action à effectuer",
-            "choices": {
-              "add_user": "Ajouter",
-              "remove_user": "Enlever",
-              "change_roster": "Changer d'équipe",
-              "change_group": "Changer de groupe"
-            }
+            "description": "Sélectionner une action à effectuer"
           },
           "player": {
             "description": "Sélectionner un joueur à gérer"
@@ -507,13 +567,6 @@
           },
           "message": {
             "description": "Message pour les membres"
-          },
-          "ping_options": {
-            "choices": {
-              "unregistered": "Unregistered (didn't signup, but in the clan)",
-              "missing": "Missing (opted-in, but not in the clan)",
-              "everyone": "Tout le monde (tous les membres inscrits)"
-            }
           },
           "group": {
             "description": "Select a group to ping (Overwrites ping options)"
@@ -596,11 +649,7 @@
       "description": "Créer, supprimer ou rechercher des signalements de joueurs.",
       "options": {
         "flag_type": {
-          "description": "The type of the flag (ban or strike)",
-          "choices": {
-            "ban": "Ban",
-            "strike": "Strike"
-          }
+          "description": "The type of the flag (ban or strike)"
         }
       },
       "create": {
@@ -747,12 +796,7 @@
             "description": "Mise à jour automatique ou non des surnoms."
           },
           "account_preference_for_naming": {
-            "description": "Utiliser le compte par défaut ou le meilleur compte de la famille.",
-            "choices": {
-              "default_account": "Compte par Défaut",
-              "best_account": "Meilleur Compte",
-              "default_or_best_account": "Compte par Défaut ou Meilleur"
-            }
+            "description": "Utiliser le compte par défaut ou le meilleur compte de la famille."
           }
         }
       }
@@ -771,10 +815,7 @@
         "description": "Créer des rappels de guerres de clans, de raids de la capitale ou de jeux de clans.",
         "options": {
           "type": {
-            "description": "Type de rappel.",
-            "choices": {
-              "clan_wars": "Guerres de clans"
-            }
+            "description": "Type de rappel."
           },
           "duration": {
             "description": "Durée restante pour mentionner les membres (ex. 6 h, 12 h, 1 j, 2 j)"
@@ -829,18 +870,6 @@
     "history": {
       "description": "Historique des Jeux de Clan, Raids de la Capitale, Dons et attaques de Ligue de Clans.",
       "options": {
-        "option": {
-          "choices": {
-            "capital_contribution": "Contributions à la Capitale",
-            "cwl_attacks": "Attaques de Ligue de clans",
-            "donations": "Troupes Données/Reçues",
-            "attacks": "Attaques/Défenses",
-            "loot": "Butin (Or/Élixir Rose/Noir)",
-            "join_leave": "Entrées/Sorties",
-            "legend_attacks": "Attaques de Légende",
-            "eos_trophies": "Trophées de fin de saison"
-          }
-        },
         "clans": {
           "description": "Sélectionner les clans pour l'historique."
         },
@@ -1007,19 +1036,10 @@
           "description": "Étoiles de guerre gagnées. (par défaut : 3)"
         },
         "type": {
-          "description": "Type de guerre [ex. Normale, Ligue, Amicale] (par défaut : Normale et Ligue)",
-          "choices": {
-            "noFriendly": "Normale et Ligue",
-            "noCWL": "Normale et Amicale",
-            "all": "Normale, Ligue et Amicale"
-          }
+          "description": "Type de guerre [ex. Normale, Ligue, Amicale] (par défaut : Normale et Ligue)"
         },
         "attempt": {
-          "description": "Nouvelles attaques ou attaques de perf. (par défaut : les deux)",
-          "choices": {
-            "fresh": "Récent",
-            "cleanup": "Nettoyer"
-          }
+          "description": "Nouvelles attaques ou attaques de perf. (par défaut : les deux)"
         },
         "days": {
           "description": "Nombre de jours à inclure (x derniers jours de guerre)"
@@ -1062,24 +1082,6 @@
     },
     "setup": {
       "description": "Activer/désactiver des fonctionnalités sur le serveur ou ajouter/supprimer des clans.",
-      "options": {
-        "action": {
-          "choices": {
-            "server_link": "Lien du Serveur",
-            "channel_link": "Lien du Salon",
-            "delete_clan": "Delete clan",
-            "logs_or_feed": "Logs / Feed (New)",
-            "war_feed": "War Feed",
-            "last_seen": "Last Seen",
-            "legend_log": "Journal de Légende",
-            "capital_log": "Capital Log",
-            "clan_feed": "Clan Feed",
-            "join_leave": "Journal des Entrées/Sorties",
-            "clan_embed": "Clan Embed",
-            "donation_log": "Donation Log"
-          }
-        }
-      },
       "enable": {
         "description": "Activer une fonctionnalité sur le serveur ou ajouter un clan.",
         "description_long": "Activer une fonctionnalité sur le serveur (Flux de Guerre, Dernière Connexion, Jeux de Clan, Journal de Légende, Journal de la Capitale, Flux du Clan, Journal des Entrées et Sorties, Intégration de Clan, Journal des Dons de troupes) ou ajouter un clan ou relier un clan à un salon.",
@@ -1132,12 +1134,6 @@
       "utils": {
         "description": "[OBSOLÈTE] Configurer d'autres fonctionnalités utilitaires (bouton de lien, calendrier d'événements)",
         "options": {
-          "option": {
-            "choices": {
-              "events_schedular": "Events schedular",
-              "reminder_ping_exclusion": "Reminder ping exclusion"
-            }
-          },
           "disable": {
             "description": "Disable a scheduled event."
           }
@@ -1177,11 +1173,7 @@
             "description": "Select the clan to setup logs."
           },
           "action": {
-            "description": "What logs to enable or disable.",
-            "choices": {
-              "enable_logs": "Enable",
-              "disable_logs": "Disable"
-            }
+            "description": "What logs to enable or disable."
           }
         }
       }
@@ -1308,21 +1300,7 @@
         "description_long": "Désactiver la fonction auto-rôle pour les rôles dans le clan, les niveaux d'hôtel de ville ou les ligues.",
         "options": {
           "type": {
-            "description": "Type of roles to disable.",
-            "choices": {
-              "clan_roles": "Clan roles",
-              "town_hall": "Town Hall roles",
-              "leagues": "Leagues roles",
-              "builder_hall": "Builder Hall roles",
-              "builder_leagues": "Builder leagues roles",
-              "wars": "War roles",
-              "eos_push": "End of season push roles",
-              "family_leaders": "Rôle des chefs de la famille",
-              "family": "Rôles familiaux",
-              "exclusive_family": "Rôle familial exclusif",
-              "guest": "Guest role",
-              "verified": "Verified role"
-            }
+            "description": "Type of roles to disable."
           },
           "clear": {
             "description": "Supprimer tous les rôles de tous les clans."
@@ -1352,10 +1330,7 @@
             "description": "Mise à jour automatique ou non des rôles."
           },
           "role_removal_delays": {
-            "description": "Retarder ou non la suppression des rôles.",
-            "choices": {
-              "off": "Désactivé"
-            }
+            "description": "Retarder ou non la suppression des rôles."
           },
           "role_addition_delays": {
             "description": "Retarder ou non l'ajout des rôles."
@@ -1381,11 +1356,7 @@
             "description": "Nombre de membres à afficher (par défaut : 5)"
           },
           "order": {
-            "description": "Order of the list.",
-            "choices": {
-              "desc": "Décroissant",
-              "asc": "Croissant"
-            }
+            "description": "Order of the list."
           }
         }
       },
