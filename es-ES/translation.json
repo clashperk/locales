@@ -996,7 +996,7 @@
       "description_long": "Shows comprehensive overview of a player (including war attack history)"
     },
     "remaining": {
-      "description": "Shows remaining or missed war hits of a clan.",
+      "description": "Muestra los ataques de guerra restantes o perdidos de un clan.",
       "options": {
         "type": {
           "description": "The type of remaining tasks to show."
