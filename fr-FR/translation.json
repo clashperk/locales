@@ -22,7 +22,7 @@
     "guild_unauthorized": "Ce serveur n'est pas autorisé pour {{clan}}. Utilisez la commande {{command}} pour relier un clan.",
     "status_code": {
       "400": "Une erreur inconnue s'est produite lors du traitement de la requête (400)",
-      "403": "Le jeton API ne permet pas d'accéder aux informations demandées.",
+      "403": "Une erreur inconnue s'est produite lors du traitement de la requête (403)",
       "404": "Aucun résultat n'a été trouvé pour l'identifiant spécifié.",
       "429": "Une erreur inconnue s'est produite lors du traitement de la requête (429)",
       "500": "Une erreur inconnue s'est produite lors du traitement de la requête (se produit généralement lors de la réinitialisation de la saison dans le jeu)",
@@ -71,10 +71,10 @@
       "yes": "Oui",
       "no": "Non",
       "off": "Off",
-      "enable": "Enable",
-      "disable": "Disable",
-      "desc": "Descending",
-      "asc": "Ascending",
+      "enable": "Activer",
+      "disable": "Désactiver",
+      "desc": "Décroissant",
+      "asc": "Croissant",
       "war": "GUERRE",
       "cwl": "Ligue de Clans",
       "trophy": "TROPHÉE",
@@ -86,83 +86,83 @@
       "season_end": "Fin de Saison",
       "raid_weekend": "Weekend de Raid",
       "capital_raids": "Raids de la Capitale",
-      "clan_wars": "Clan Wars",
+      "clan_wars": "Guerres de Clans",
       "war_attacks": "Attaques de Guerre",
       "link_button": "Bouton de Lien",
       "flag_alert_log": "Journal d'Alerte de Signalement",
       "roster_change_log": "Journal des Changements d'Équipe",
       "maintenance_break_log": "Journal des Maintenances",
       "role_refresh_button": "Bouton d'Actualisation des Rôles",
-      "clan_games_ending": "Clan Games (Ending)",
-      "cwl_end": "CWL (Ending)",
-      "cwl_signup_ending": "CWL Signup (Ending)",
-      "raid_weekend_ending": "Raid Weekend (Ending)",
-      "legend_leaderboard": "Legend Trophies",
+      "clan_games_ending": "Jeux de Clan (Fin)",
+      "cwl_end": "Ligue de Clans (Fin)",
+      "cwl_signup_ending": "Inscription à la Ligue (Fin)",
+      "raid_weekend_ending": "Week-end de Raid (Fin)",
+      "legend_leaderboard": "Trophées de Légende",
       "builder_legend_leaderboard": "Builder Trophies",
-      "events_schedular": "Events Schedular",
+      "events_schedular": "Calendrier des Événements",
       "reminder_ping_exclusion": "Reminder Ping Exclusion",
       "roster": {
-        "add_players": "Add Players",
-        "remove_players": "Remove Players",
-        "change_roster": "Change Roster",
-        "change_group": "Change Group",
+        "add_players": "Ajouter des Joueurs",
+        "remove_players": "Retirer des Joueurs",
+        "change_roster": "Changer d'Équipe",
+        "change_group": "Changer de Groupe",
         "ping_unregistered": "Unregistered (didn't signup, but in the clan)",
         "ping_missing": "Missing (opted-in, but not in the clan)",
-        "ping_everyone": "Everyone (all opted-in members)"
+        "ping_everyone": "Tout le monde (tous les membres inscrits)"
       },
       "flag": {
         "ban": "Ban",
         "strike": "Strike"
       },
       "nickname": {
-        "default_account": "Default Account",
-        "best_account": "Best Account",
+        "default_account": "Compte par Défaut",
+        "best_account": "Meilleur Compte",
         "default_or_best_account": "Default or Best Account"
       },
       "history": {
-        "capital_contribution": "Capital Contribution",
-        "cwl_attacks": "CWL Attacks",
-        "donations": "Donations/Received",
-        "attacks": "Attacks/Defenses",
-        "loot": "Loot (Gold/Elixir/Dark)",
-        "join_leave": "Join/Leave",
-        "legend_attacks": "Legend Attacks",
-        "eos_trophies": "Season end Trophies"
+        "capital_contribution": "Contributions à la Capitale",
+        "cwl_attacks": "Attaques de Ligue de clans",
+        "donations": "Troupes Données/Reçues",
+        "attacks": "Attaques/Défenses",
+        "loot": "Butin (Or/Élixir Rose/Noir)",
+        "join_leave": "Entrées/Sorties",
+        "legend_attacks": "Attaques de Légende",
+        "eos_trophies": "Trophées de fin de Saison"
       },
       "stats": {
-        "no_friendly": "Regular and CWL",
-        "no_cwl": "Regular and Friendly",
-        "all": "Regular, CWL and Friendly",
-        "fresh": "Fresh",
-        "cleanup": "Cleanup"
+        "no_friendly": "Normale et Ligue",
+        "no_cwl": "Normale et Amicale",
+        "all": "Normale, Ligue et Amicale",
+        "fresh": "Récent",
+        "cleanup": "Nettoyer"
       },
       "setup": {
-        "server_link": "Server Link",
-        "channel_link": "Channel Link",
-        "delete_clan": "Delete clan",
-        "logs_or_feed": "Logs / Feed (New)",
-        "war_feed": "War Feed",
-        "last_seen": "Last Seen",
-        "legend_log": "Legend Log",
-        "capital_log": "Capital Log",
-        "clan_feed": "Clan Feed",
-        "join_leave": "Join/Leave Log",
-        "clan_embed": "Clan Embed",
-        "donation_log": "Donation Log"
+        "server_link": "Lien du Serveur",
+        "channel_link": "Lien du Salon",
+        "delete_clan": "Supprimer le clan",
+        "logs_or_feed": "Journaux / Flux (Nouveau)",
+        "war_feed": "Flux de Guerre",
+        "last_seen": "Dernière Connexion",
+        "legend_log": "Journal de Légende",
+        "capital_log": "Journal de la Capitale",
+        "clan_feed": "Flux du Clan",
+        "join_leave": "Journal des Entrées/Sorties",
+        "clan_embed": "Intégration de Clan",
+        "donation_log": "Journal des Dons"
       },
       "autorole": {
-        "clan_roles": "Clan Roles",
-        "town_hall": "Town Hall Roles",
-        "leagues": "Leagues Roles",
+        "clan_roles": "Rôles dans le Clan",
+        "town_hall": "Rôles d'Hôtel de Ville",
+        "leagues": "Rôles des Ligues",
         "builder_hall": "Builder Hall Roles",
         "builder_leagues": "Builder Leagues Roles",
-        "wars": "War Roles",
+        "wars": "Rôles de Guerre",
         "eos_push": "End of Season Push Role",
-        "family_leaders": "Family Leaders Role",
-        "family": "Family Roles",
-        "exclusive_family": "Exclusive Family Role",
-        "guest": "Guest Role",
-        "verified": "Verified Role"
+        "family_leaders": "Rôle des Chefs de la Famille",
+        "family": "Rôles Familiaux",
+        "exclusive_family": "Rôle Familial Exclusif",
+        "guest": "Rôle d'Invité",
+        "verified": "Rôle Vérifié"
       }
     },
     "contact_support": "Contacter l'assistance technique",
@@ -1205,7 +1205,7 @@
       }
     },
     "autorole": {
-      "description": "Enable automatic clan roles and Town Hall roles",
+      "description": "Activer la fonction auto-rôle pour les rôles dans le clan et les niveaux d'hôtel de ville",
       "no_roles": "Vous devez spécifier 4 rôles pour exécuter cette commande.",
       "no_system_roles": "Les rôles gérés par le système ou les bots ne sont pas autorisés.",
       "no_higher_roles": "Bot's highest role must be higher than the selected roles.",
@@ -1367,7 +1367,7 @@
         "description": "Affiche un résumé des guerres en cours."
       },
       "compo": {
-        "description": "Affiche un résumé de la répartition des hôtels de ville de la famille de clans."
+        "description": "Affiche un résumé de la répartition des Hôtels de Ville."
       },
       "cwl_ranks": {
         "description": "Affiche un résumé des classements de Ligue de clans."
