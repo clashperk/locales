@@ -4,7 +4,7 @@
     "no_clans_linked": "No hay clanes vinculados a este servidor. ¿Por qué no vincular algunos? \nUse el comando {{command}} para vincular un clan.",
     "clan_limit": "Has alcanzado el número máximo de clanes disponibles por servidor. Por favor, considera apoyarnos en [Patreon](https://patreon.com/clashperk) para agregar más de dos clanes.\n\n¿Ya nos apoyas en Patreon? Usa el comando {{command}} para canjearla.",
     "patreon_only": "Este comando solo está disponible en servidores suscritos a Patreon. Considere apoyarnos en nuestro [Patreon](https://patreon.com/clashperk) para usar este comando.\n\n¿Ya estás suscrito? Utilice el comando {{command}} para obtenerla.",
-    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
+    "clan_verification": "Tenemos que asegurarnos de que eres el líder o colider del clan. Verifica tu cuenta de jugador con el código API.\nUsa el comando {{command}} para poder verificar tu cuenta de jugador. El código API está disponible dentro de la configuración del juego.",
     "no_option": "Algo salió mal al ejecutar este comando. (Opción no encontrada)",
     "no_data": "No hay información disponible por el momento. ¡Todavía estamos recolectando!",
     "no_clan_data": "No hay información acerca de {{clan}}. ¡Todavía estamos recolectando!",
@@ -12,25 +12,25 @@
     "fetch_failed": "Algo salió mal mientras buscábamos información desde la API.",
     "component": {
       "expired": "This component is no longer active. Execute the command again.",
-      "unauthorized": "You must execute the command to interact with the components."
+      "unauthorized": "¡Debes ejecutar el comando para poder interactuar con los componentes."
     },
     "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
-    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
-    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
-    "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
-    "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
+    "no_clan_tag": "¡Debes proporcionar una etiqueta de clan para ejecutar este comando! \nAlternativamente, puedes vincular un clan predeterminado a tu perfil usando el comando {{command}} .",
+    "no_player_tag": "¡Debes proporcionar una etiqueta de jugador para ejecutar este comando!",
+    "clan_not_linked": "Ningún clan se encuentra vinculado a {{user}}.",
+    "player_not_linked": "Ningún jugador se encuentra vinculado a {{user}}. Usa el comando {{command}} para vincular un jugador.",
+    "guild_unauthorized": "Este servidor no tiene permiso para acceder a la información del {{clan}}. Usa el comando {{command}} para vincular ese clan.",
     "status_code": {
-      "400": "An unknown error occurred while handling the request (400)",
+      "400": "Error 400: El cliente ha proporcionado parámetros incorrectos durante la solicitud.",
       "403": "An unknown error occurred while handling the request (403)",
       "404": "Error 404: No se encontraron resultados para la etiqueta proporcionada.",
-      "429": "An unknown error occurred while handling the request (429)",
-      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
-      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
-      "504": "An unknown error occurred while handling the request (504)"
+      "429": "Se produjo un error desconocido al procesar la solicitud (429)",
+      "500": "Se produjo un error desconocido al procesar la solicitud (normalmente ocurre durante el reinicio de la temporada en el juego)",
+      "503": "El servicio sé encuentra cerrado temporalmente debido a tareas de mantenimiento en el juego.",
+      "504": "Se produjo un error desconocido al procesar la solicitud (504)"
     },
-    "maintenance_start": "¡El corte para mantenimiento ya ha comenzado!",
-    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
+    "maintenance_start": "¡La pausa para el mantenimiento ya ha empezado!",
+    "maintenance_end": "¡La pausa para el mantenimiento terminará en {{duration}}!",
     "something_went_wrong": "Something went wrong while executing this command.",
     "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
     "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
@@ -48,7 +48,7 @@
       },
       "player": {
         "tag": {
-          "description": "Player tag or name."
+          "description": "Etiqueta o nombre del jugador."
         },
         "user": {
           "description": "Player by @user mention or ID."
@@ -186,7 +186,7 @@
       }
     },
     "clan_games": {
-      "description": "Tabla de puntuaciónes de los Juegos del Clan de los miembros del clan.",
+      "description": "Tabla de puntuaciones de los Juegos del Clan de los miembros del clan.",
       "title": "Juegos de clan Scoreboard",
       "options": {
         "season": {
@@ -222,7 +222,7 @@
     "legend": {
       "description": "Shows legend logs for a player.",
       "attacks": {
-        "description": "Shows per-day legend attacks for a clan.",
+        "description": "Muestra los ataques (por día) de liga de leyendas para un clan.",
         "options": {
           "day": {
             "description": "The league day."
@@ -265,12 +265,12 @@
       }
     },
     "lastseen": {
-      "description": "La hora y las actividades hechas por última vez de los miembros del clan.",
+      "description": "The last seen time and activities of clan members.",
       "title_lastseen": "Último visto y puntajes de actividad (últimas 24 horas)",
       "title_activity": "Actividades de los miembros del clan (últimos 30 días)"
     },
     "alias": {
-      "description": "Crea, borra, o revisa los apodos del clan.",
+      "description": "Crea, borra, o revisa los alias/apodos del clan.",
       "create": {
         "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
         "options": {
@@ -282,7 +282,7 @@
           }
         },
         "no_name": "Debes especificar un apodo para poder ejecutar este comando.",
-        "no_hash": "Un apodo de clan no debe empezar con un hashtag (#).",
+        "no_hash": "A clan alias must not start with a hash.",
         "no_whitespace": "Un apodo de clan no debe contener espacios en blanco.",
         "no_clan": "Debes especificar una etiqueta de clan para poder ejecutar este comando.",
         "exists": "El apodo {{name}} ya está en uso dentro del servidor.",
