@@ -100,53 +100,53 @@
       "legend_leaderboard": "Trofeos en Liga de leyendas",
       "builder_legend_leaderboard": "Trofeos del constructor",
       "events_schedular": "Calendario de eventos",
-      "reminder_ping_exclusion": "Reminder Ping Exclusion",
+      "reminder_ping_exclusion": "Excluir de Nombrar/Ping",
       "roster": {
         "add_players": "Agregar jugadores",
         "remove_players": "Eliminar jugadores",
         "change_roster": "Cambiar la parrilla",
         "change_group": "Cambiar de grupo",
         "ping_unregistered": "No registrado(en el clan)",
-        "ping_missing": "Missing (opted-in, but not in the clan)",
-        "ping_everyone": "Everyone (all opted-in members)"
+        "ping_missing": "Faltante(inscrito, no en clan)",
+        "ping_everyone": "Todos (todo miembro registrado)"
       },
       "flag": {
-        "ban": "Ban",
-        "strike": "Strike"
+        "ban": "Vetar",
+        "strike": "Advertir"
       },
       "nickname": {
-        "default_account": "Default Account",
-        "best_account": "Best Account",
-        "default_or_best_account": "Default or Best Account"
+        "default_account": "Cuenta predeterminada",
+        "best_account": "La mejor cuenta",
+        "default_or_best_account": "Mejor cuenta o predeterminada"
       },
       "history": {
-        "capital_contribution": "Capital Contribution",
-        "cwl_attacks": "CWL Attacks",
-        "donations": "Donations/Received",
-        "attacks": "Attacks/Defenses",
-        "loot": "Loot (Gold/Elixir/Dark)",
-        "join_leave": "Join/Leave",
-        "legend_attacks": "Legend Attacks",
-        "eos_trophies": "Season end Trophies"
+        "capital_contribution": "Contribución a la capital",
+        "cwl_attacks": "Ataques de LDG",
+        "donations": "Donaciones/Recibimientos",
+        "attacks": "Ataques/Defensas",
+        "loot": "Botín (Oro/Elixir/Oscuro)",
+        "join_leave": "Uniones/Salidas",
+        "legend_attacks": "Ataques en Liga de Leyendas",
+        "eos_trophies": "Trofeos a final de temporada"
       },
       "stats": {
-        "no_friendly": "Regular and CWL",
-        "no_cwl": "Regular and Friendly",
-        "all": "Regular, CWL and Friendly",
-        "fresh": "Fresh",
-        "cleanup": "Cleanup"
+        "no_friendly": "Guerra y LDG",
+        "no_cwl": "Guerra y guerra amistosa",
+        "all": "Guerra, LDG y Guerra amistosa",
+        "fresh": "Nuevo",
+        "cleanup": "Limpiar"
       },
       "setup": {
-        "server_link": "Server Link",
-        "channel_link": "Channel Link",
-        "delete_clan": "Delete clan",
-        "logs_or_feed": "Logs / Feed (New)",
-        "war_feed": "War Feed",
-        "last_seen": "Last Seen",
-        "legend_log": "Legend Log",
-        "capital_log": "Capital Log",
-        "clan_feed": "Clan Feed",
-        "join_leave": "Join/Leave Log",
+        "server_link": "Vincula el servidor",
+        "channel_link": "Vincula el canal",
+        "delete_clan": "Eliminar un clan",
+        "logs_or_feed": "Registros / Historial (Nuevo)",
+        "war_feed": "Historial de guerra",
+        "last_seen": "Visto por última vez",
+        "legend_log": "Registro de Liga de Leyendas",
+        "capital_log": "Registro de la capital",
+        "clan_feed": "Historial del clan",
+        "join_leave": "Registro de Entrada/Salida",
         "clan_embed": "Clan Embed",
         "donation_log": "Donation Log"
       },
@@ -607,43 +607,43 @@
         "description": "Exporta historial de ataques no realizados."
       },
       "season": {
-        "description": "Export comprehensive seasonal stats of clan members."
+        "description": "Exporta estadísticas de temporada comprensivas de los miembros de un clan."
       },
       "wars": {
-        "description": "Export War stats to Excel.",
+        "description": "Exporta estadísticas de Guerra a Excel.",
         "options": {
           "war_type": {
-            "description": "Regular or friendly wars (defaults to Regular)"
+            "description": "Elegir entre Guerras o Guerras amistosas (predeterminado en Guerra)"
           }
         }
       },
       "user": {
-        "description": "Export Discord members",
+        "description": "Exportar miembros de Discord",
         "options": {
           "role": {
-            "description": "Role to filter users."
+            "description": "Rol para filtrar usuarios."
           }
         }
       },
       "attack_log": {
-        "description": "Export war attack history.",
+        "description": "Exportar historial de ataques de Guerra.",
         "options": {
           "war_type": {
-            "description": "CWL or Regular wars (default to Regular and CWL)"
+            "description": "LDG o Guerras (predeterminadas en Guerras y LDG)"
           }
         }
       },
       "capital_raids": {
-        "description": "[Experimental] Export capital raid attack stats."
+        "description": "[Experimental] Exportar estadísticas de los asaltos de la capital."
       },
       "capital": {
-        "description": "Export clan capital weekends."
+        "description": "Exportar fines de semana de la capital de clan."
       },
       "rosters": {
-        "description": "Export all rosters.",
+        "description": "Exportar todas las parrillas.",
         "options": {
           "category": {
-            "description": "Roster category."
+            "description": "Categoría de la parrilla."
           }
         }
       }
@@ -652,11 +652,11 @@
       "description": "Coloca, remueve o busca Marcas de jugadores.",
       "options": {
         "flag_type": {
-          "description": "The type of the flag (ban or strike)"
+          "description": "El tipo de advertencia (veto/prohibición o advertencia)"
         }
       },
       "create": {
-        "description": "Create a player flag to mark the player as banned or flagged.",
+        "description": "Coloca una descripción de advertencia a un jugador advertido o vetado.",
         "options": {
           "tag": {
             "description": "La etiqueta del jugador que se va a advertir."
@@ -665,10 +665,10 @@
             "description": "Motivo de la advertencia."
           },
           "flag_expiry_days": {
-            "description": "Flag expiry days (auto deletes the flag)"
+            "description": "Días de expiración de advertencias (se borrará la advertencia automáticamente)"
           },
           "flag_impact": {
-            "description": "Number of flags this should count as"
+            "description": "Cuanto debería contar la advertencia"
           }
         },
         "no_reason": "Debes de proporcionar un motivo para poner una advertencia.",
@@ -682,7 +682,7 @@
             "description": "La etiqueta de jugador que se va a borrar."
           },
           "flag_ref": {
-            "description": "Flag reference of this player."
+            "description": "Referencia de advertencias de este jugador."
           }
         },
         "no_tag": "Debes proporcionar una etiqueta de jugador para poder remover una Marca.",
@@ -692,7 +692,7 @@
         "description": "Lista de todas las Marcas de jugadores.",
         "options": {
           "player": {
-            "description": "Show all flags against a player"
+            "description": "Mostrar todas las advertencias contra un jugador"
           },
           "export": {
             "description": "Exporta todas las Marcas de jugadores a Excel."
@@ -713,19 +713,19 @@
       "description": "Crea, borra o enlista enlaces de jugadores.",
       "no_tag": "Debes proporcionar una etiqueta de jugador/clan para poder ejecutar este comando.",
       "create": {
-        "description": "Links a player account/clan to a Discord account.",
+        "description": "Vincula una cuenta de jugador/clan con tu cuenta de Discord.",
         "options": {
           "user": {
             "description": "Cuenta de usuario a vincular a la etiqueta proporcionada."
           },
           "is_default": {
-            "description": "Whether to set this as the default account."
+            "description": "Marcar cuenta como la cuenta predeterminada."
           },
           "player_tag": {
-            "description": "The player tag to link."
+            "description": "La etiqueta del jugador para vincular."
           },
           "clan_tag": {
-            "description": "The default clan tag to link."
+            "description": "La etiqueta de clan para vincular."
           }
         },
         "no_bots": "No se permite vincular cuentas de bots.",
@@ -740,21 +740,21 @@
         "description": "Eliminar una vinculación de jugador/clan de la cuenta de Discord.",
         "options": {
           "player_tag": {
-            "description": "The player tag to unlink."
+            "description": "La etiqueta del jugador que desea desvincular."
           },
           "clan_tag": {
-            "description": "The clan tag to unlink."
+            "description": "La etiqueta del clan que se va a desvincular."
           }
         },
         "success": "Se ha eliminado correctamente el enlace con la etiqueta {{tag}}.",
         "no_access": "El jugador debe estar en tu clan y tienes que ser el Líder o Colider \"Verificados\" para llevar a cabo esta acción. Usa {{command}} para verificar tu cuenta."
       },
       "list": {
-        "description": "List all player links of a clan."
+        "description": "Listado de todas las vinculaciones de jugadores de un clan."
       }
     },
     "verify": {
-      "description": "Verify and link a player account using an API token.",
+      "description": "Verifica y vincula a una cuenta de jugador usando el código API.",
       "options": {
         "tag": {
           "description": "Etiqueta del jugador que se va a verificar."
@@ -767,13 +767,13 @@
       "invalid_token": "Debes proporcionar un código API válido que se pueda encontrar en la configuración del juego. \nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Set your timezone offset for /activity command.",
+      "description": "Configura tu zona horaria para el comando /activity.",
       "options": {
         "location": {
-          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
+          "description": "Busca la zona horaria por país o ciudad. (ejem. Madrid,Spain(GMT+ 01:00))"
         }
       },
-      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
+      "set": "Configura tu zona horaria con el comando `/timezone`. Así podrás ver los gráficos de actividad en esa zona horaria.",
       "no_result": "Haz que tu búsqueda sea más específica e inténtalo de nuevo."
     },
     "profile": {
@@ -785,57 +785,57 @@
       }
     },
     "nickname": {
-      "description": "Manage automatic nickname settings.",
+      "description": "Configurar ajustes automáticos de alias/apodos",
       "config": {
-        "description": "Configure automatic server nickname settings.",
+        "description": "Configure los ajustes automáticos del alias/apodo del servidor.",
         "options": {
           "family_nickname_format": {
-            "description": "Set family nickname format (e.g. {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME})"
+            "description": "Establecer el formato del alias/apodo familiar(por ejem: {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME})"
           },
           "non_family_nickname_format": {
-            "description": "Set non-family nickname format (e.g. {NAME} | {TH})"
+            "description": "Establecer un formato de alias/apodo para el que no sea familiar (por ejemplo, {NAME} | {TH})"
           },
           "change_nicknames": {
-            "description": "Whether to update nicknames automatically."
+            "description": "Si desea actualizar los alias/apodos automáticamente."
           },
           "account_preference_for_naming": {
-            "description": "Whether to use the default account or the best account in the family."
+            "description": "Utilizar la cuenta como predeterminada o la mejor cuenta en la familia."
           }
         }
       }
     },
     "reminders": {
-      "description": "Setup reminders for clan wars, capital raids.",
+      "description": "Cree, elimine o enumere recordatorios para Guerras,Asaltos de la Capital y Juegos del Clan.",
       "options": {
         "message": {
-          "description": "Reminder message for the notification."
+          "description": "Mensaje para la notificación del recordatorio."
         },
         "reminder_id": {
-          "description": "Reminder ID (use /reminders list to get the ID)"
+          "description": "ID de recordatorio (usa '/reminders list' para obtener el ID)"
         }
       },
       "create": {
-        "description": "Create reminders for clan wars, capital raids or clan games.",
+        "description": "Crea recordatorios para Guerras de clanes, Asaltos de la capital o los Juegos del Clan.",
         "options": {
           "type": {
-            "description": "Type of the reminder."
+            "description": "Tipo de recordatorio."
           },
           "duration": {
-            "description": "Remaining duration to mention members (e.g. 6h, 12h, 1d, 2d)"
+            "description": "Duración restante para activar la mención del recordatorio (ejemplo:15 m, 30m, 1h, 1.25h hasta 48h)"
           },
           "exclude_participants": {
-            "description": "Whether to exclude participant list and only include the message (clan wars only)"
+            "description": "Si se debe excluir la lista de participantes y solo incluir el mensaje (solo para guerras de clanes)"
           },
           "channel": {
-            "description": "Reminder channel for the notification."
+            "description": "Canal para notificar el recordatorio."
           }
         },
-        "max_limit": "You can only have 25 reminders.",
-        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
-        "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
-        "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "success": "Successfully saved!"
+        "max_limit": "Solo puedes tener un máximo de 25 recordatorios.",
+        "invalid_duration_format": "La duración debe estar escrita en un formato válido. (Por ejemplo: 2h, 2,5h, 30m)",
+        "duration_limit": "La duración debe ser superior a 15 minutos e inferior a 48 horas.",
+        "duration_order": "La duración debe ser un múltiplo de 15 minutos, p. ej.: 15 min, 30 min, 45 min, 1 h, 1,25 h, 1,5 h, 1,75 h",
+        "too_many_clans": "El menú de selección de clanes no está disponible para más de 25 clanes. ¡Los clanes {{clans}} se seleccionaron automáticamente!\nPara crear un recordatorio para clanes específicos, usa etiquetas o alias/apodos de ese clan a través de la opción «clanes» mientras ejecutas el comando.",
+        "success": "¡Guardado exitosamente!"
       },
       "edit": {
         "description": "Edit a reminder by ID (do /reminders list to get the ID)"
@@ -1135,10 +1135,10 @@
         }
       },
       "utils": {
-        "description": "[DEPRECATED] Setup other utility features (link button, events schedular)",
+        "description": "Configura otras funciones de utilidad (botón de vinculación, panel de eventos)",
         "options": {
           "disable": {
-            "description": "Disable a scheduled event."
+            "description": "Deshabilitar un evento programado."
           }
         }
       },
