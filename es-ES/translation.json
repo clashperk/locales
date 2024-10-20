@@ -70,7 +70,7 @@
     "choices": {
       "yes": "Sí",
       "no": "No",
-      "off": "Off",
+      "off": "Apagado",
       "enable": "Establecer",
       "disable": "Desactivar",
       "desc": "Descendiente",
@@ -79,7 +79,7 @@
       "cwl": "LDG",
       "trophy": "TROFEOS",
       "e_sports": "E-SPORTS",
-      "regular": "Normal",
+      "regular": "Guerra",
       "friendly": "Amistoso",
       "clan_games": "Juegos del clan",
       "league_reset": "Reinicio de Liga",
@@ -157,7 +157,7 @@
         "builder_hall": "Roles del Taller del Constructor",
         "builder_leagues": "Roles de las ligas del Taller",
         "wars": "Roles de guerras",
-        "eos_push": "End of Season Push Role",
+        "eos_push": "Rol de subida a fin de temporada",
         "family_leaders": "El rol de los líderes de familia",
         "family": "Roles de la familia",
         "exclusive_family": "Rol de familia exclusivo",
@@ -436,7 +436,7 @@
             "description": "Imagen que se utilizará en la parrilla"
           },
           "color_code": {
-            "description": "Código de color hexadecimal de la incrustación de la parrilla"
+            "description": "Código de color hexadecimal de la parrilla"
           }
         }
       },
@@ -1086,7 +1086,7 @@
     "setup": {
       "description": "Habilita/deshabilita funciones en el servidor o agrega/remueve clanes.",
       "enable": {
-        "description": "Habilita una función en el servidor o añade a un clan.",
+        "description": "Habilita una función en el servidor o añade un clan.",
         "description_long": "Habilite una función en el servidor (Historial de guerra, Última vez visto, Juegos de clan, Registro de leyendas, Registro de capital, Historial de clan, Registro de unión/abandono, Descripción del clan, Registro de donaciones) o agregue un clan o vincule un clan a un canal.",
         "options": {
           "channel": {
@@ -1096,7 +1096,7 @@
             "description": "Código de color hexadecimal (Solo registros: Donaciones, juegos, última conexión, e integraciones)"
           },
           "role": {
-            "description": "Rol para las notificaciones de Marcas (Solo para el feed del clan)"
+            "description": "Rol para las notificaciones de advertencias (Solo para el historial del clan)"
           },
           "category": {
             "description": "Categoría del clan. (selecciona del menú o escribe la tuya)"
@@ -1105,11 +1105,11 @@
         "no_leader_link": "El líder del clan debe estar vinculado al bot para poder activar esta función.",
         "server_link": {
           "success": "Se ha vinculado exitosamente el clan {{clan}} a {{guild}}.",
-          "already_linked": "{{clan}} Ya ha sido vinculado a {{guild}}."
+          "already_linked": "{{clan}} ya ha sido vinculado a {{guild}}."
         },
         "channel_link": {
           "description": "Vincula un canal a un clan.",
-          "already_linked": "{{clan}} Ya está vinculado a {{channel}}.",
+          "already_linked": "{{clan}} ya está vinculado a {{channel}}.",
           "success": "Se ha vinculado exitosamente el clan {{clan}} al canal {{channel}}."
         }
       },
@@ -1271,39 +1271,39 @@
             "description": "El rol de subida al final de la temporada."
           },
           "clans": {
-            "description": "The clans for which to set the end of season push role."
+            "description": "Los clanes para los cuales se establecerá el rol de subida al final de la temporada."
           }
         }
       },
       "family": {
-        "description": "Set family roles.",
+        "description": "Establecer roles de familia.",
         "options": {
           "family_leaders_role": {
-            "description": "Family leaders role (Leaders and Co-Leaders)"
+            "description": "El rol de los líderes de familia (líderes y colideres)"
           },
           "family_role": {
-            "description": "Family role."
+            "description": "Rol de familia."
           },
           "exclusive_family_role": {
-            "description": "Exclusive family role (all linked accounts are in the family)"
+            "description": "Rol de familia exclusivo (todas las cuentas vinculadas pertenecen a la familia)"
           },
           "guest_role": {
-            "description": "Guest role (not in the family)"
+            "description": "Rol de exmiembro (no en la familia)"
           },
           "verified_role": {
-            "description": "Verified role (API token verified)"
+            "description": "Rol verificado (verificado con el código API)"
           }
         }
       },
       "list": {
-        "description": "List all auto roles and settings."
+        "description": "Enumere todos los roles automáticos y configuraciones."
       },
       "disable": {
         "description": "Deshabilitar los roles automáticos de clan.",
-        "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
+        "description_long": "Desactiva la función de rol automático que asigna roles dependiendo del rango dentro del clan, niveles de ayuntamiento, o ligas.",
         "options": {
           "type": {
-            "description": "Type of roles to disable."
+            "description": "Tipo de roles que deshabilitar."
           },
           "clear": {
             "description": "Borrar todos los roles de todos los clanes."
@@ -1312,111 +1312,111 @@
         "success_with_count": "Se desactivó exitosamente la función auto-roles en {{count}} clan(es). {{clans}}"
       },
       "refresh": {
-        "description": "Refresh roles manually.",
-        "description_long": "Refresh roles manually. (Use this command if the roles are not updated automatically)",
+        "description": "Actualizar roles automáticos (utilizable cada 30 minutos)",
+        "description_long": "Actualizar roles automáticos (utilizable cada 30 minutos)",
         "options": {
           "user_or_role": {
-            "description": "Refresh an individual user or a role."
+            "description": "Actualizar un usuario individual o un rol."
           },
           "is_test_run": {
-            "description": "Test run to see the changes without applying."
+            "description": "Ejecute una prueba para ver los cambios sin aplicarlos."
           },
           "force_refresh": {
-            "description": "Whether to bypass delays and force refresh roles."
+            "description": "Si desea evitar los retrasos y forzar la actualización de roles."
           }
         }
       },
       "config": {
-        "description": "Manage automatic roles settings.",
+        "description": "Administrar configuraciones de roles automáticos.",
         "options": {
           "auto_update_roles": {
-            "description": "Whether to update roles automatically."
+            "description": "Actualizar los roles automáticamente."
           },
           "role_removal_delays": {
-            "description": "Whether to delay the removal of roles."
+            "description": "Retrasar la eliminación de roles."
           },
           "role_addition_delays": {
-            "description": "Whether to delay the addition of roles."
+            "description": "Retrasar la adición de roles."
           },
           "always_force_refresh_roles": {
-            "description": "Whether to enforce role refresh for individual users by default."
+            "description": "Aplicar la actualización de roles para usuarios individuales de forma predeterminada."
           },
           "allow_not_linked": {
-            "description": "Whether to allow not linked players to get roles."
+            "description": "Permitir que jugadores no vinculados obtengan roles."
           },
           "verified_only_clan_roles": {
-            "description": "Whether to grant clans roles to verified players only."
+            "description": "Otorgar roles de clanes solo a jugadores verificados."
           }
         }
       }
     },
     "summary": {
-      "description": "Shows summary of the clan family.",
+      "description": "Muestra un resumen de los clanes de la familia.",
       "best": {
-        "description": "Shows a summary of best members.",
+        "description": "Muestra un resumen de los mejores jugadores de un clan o varios clanes.",
         "options": {
           "limit": {
-            "description": "Number of members to show (Default: 5)"
+            "description": "Número de jugadores a mostrar (Predeterminado: 5)"
           },
           "order": {
-            "description": "Order of the list."
+            "description": "Orden del resumen."
           }
         }
       },
       "wars": {
-        "description": "Shows a summary of current wars."
+        "description": "Muestra un resumen de las guerras actuales."
       },
       "compo": {
-        "description": "Shows a summary of Town Hall composition."
+        "description": "Muestra un resumen de la composición de Ayuntamientos."
       },
       "cwl_ranks": {
-        "description": "Shows a summary of CWL ranks."
+        "description": "Muestra un resumen de las Ligas de LDG del clan/es a seleccionar."
       },
       "cwl_status": {
-        "description": "Shows a summary of CWL spin status."
+        "description": "Muestra un resumen de rotación de las LDG."
       },
       "leagues": {
-        "description": "Shows a summary of clan leagues."
+        "description": "Muestra un resumen de las ligas de clanes (LDG y Capital del Clan)."
       },
       "donations": {
-        "description": "Shows a summary of donations."
+        "description": "Muestra un resumen de las donaciones."
       },
       "attacks": {
-        "description": "Shows a summary of multiplayer attacks and defenses."
+        "description": "Muestra un resumen de ataques y defensas en multijugador."
       },
       "trophies": {
-        "description": "Shows a summary of trophies.",
+        "description": "Muestra un resumen de los trofeos.",
         "options": {
           "limit": {
-            "description": "Limit the number of members."
+            "description": "Limita el número de miembros."
           }
         }
       },
       "war_results": {
-        "description": "Shows a summary of seasonal war results."
+        "description": "Muestra un resumen de los resultados de guerras de una temporada."
       },
       "missed_wars": {
-        "description": "Shows a summary of missed wars."
+        "description": "Muestra un resumen de las guerras perdidas."
       },
       "capital_raids": {
-        "description": "Shows information about capital raids."
+        "description": "Muestra un resumen de los asaltos a la capital del clan."
       },
       "capital_contribution": {
-        "description": "Shows a summary of capital contributions.",
+        "description": "Muestra un resumen de la contribución de la capital del clan.",
         "options": {
           "week": {
-            "description": "The week to show capital contributions for."
+            "description": "La semana para mostrar las contribuciones de la capital."
           }
         }
       },
       "activity": {
-        "description": "Shows a summary of clan activity (last seen)."
+        "description": "Muestra un resumen de la actividad del clan (visto por última vez)"
       },
       "clan_games": {
-        "description": "Shows a summary of clan games scores."
+        "description": "Muestra un resumen de las puntuaciones de los Juegos del Clan."
       },
       "clans": {
-        "description": "Shows a summary of family clans."
+        "description": "Muestra un resumen de los clanes en familia."
       }
     },
     "help": {
@@ -1434,52 +1434,52 @@
       "description": "Canjea o administra una suscripción a nuestro Patreon. (Si quieres apoyarnos)",
       "options": {
         "disable": {
-          "description": "Disable subscription for a server (if subscribed)"
+          "description": "Deshabilitar la suscripción a un servidor (si está suscrito)"
         }
       }
     },
     "events": {
-      "description": "Shows the next in-game events."
+      "description": "Muestra los próximos eventos del juego."
     },
     "whitelist": {
-      "description": "Whitelist a role or user to use specific commands.",
+      "description": "Incluir en la lista blanca un rol o usuario para utilizar comandos específicos.",
       "options": {
         "user_or_role": {
-          "description": "User or role to whitelist."
+          "description": "Usuario o rol para incluir en lista blanca."
         },
         "command": {
-          "description": "Command to whitelist."
+          "description": "Comando para incluir en la lista blanca."
         },
         "clear": {
-          "description": "Clear the whitelist."
+          "description": "Limpiar la lista blanca."
         },
         "list": {
-          "description": "List all whitelisted users and roles."
+          "description": "Ver todos los usuarios y roles incluidos en la lista blanca."
         }
       }
     },
     "clans": {
-      "description": "Show all linked clans."
+      "description": "Mostrar todos los clanes vinculados."
     },
     "layout": {
-      "description": "Post a village layout.",
+      "description": "Publica un diseño de aldea.",
       "options": {
         "screenshot": {
-          "description": "Screenshot of the layout."
+          "description": "Captura de pantalla del diseño de aldea.(utiliza el modo foto para una foto limpia)"
         },
         "layout_link": {
-          "description": "Shareable link of the layout."
+          "description": "Enlace compartible del diseño.(compartir como enlace con la selección en el diseño a compartir)"
         },
         "title": {
-          "description": "Title of the layout."
+          "description": "Título del diseño."
         }
       }
     },
     "bot_personalizer": {
-      "description": "Build your own Discord bot!",
+      "description": "¡Construye tu propio bot de Discord!",
       "options": {
         "opt_out": {
-          "description": "Opt-out from the custom bot and delete related services."
+          "description": "Darse de baja del bot personalizado y eliminar los servicios relacionados."
         }
       }
     }
