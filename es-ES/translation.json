@@ -1,9 +1,9 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
-    "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
-    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
+    "no_clans_found": "¡No se encontraron clanes en este servidor con la información proporcionada!\nUsa el comando {{command}} para vincular un clan.",
+    "no_clans_linked": "No hay clanes vinculados a este servidor. ¿Por qué no vincular algunos? \nUse el comando {{command}} para vincular un clan.",
+    "clan_limit": "Has alcanzado el número máximo de clanes disponibles por servidor. Por favor, considera apoyarnos en [Patreon](https://patreon.com/clashperk) para agregar más de dos clanes.\n\n¿Ya nos apoyas en Patreon? Usa el comando {{command}} para canjearla.",
+    "patreon_only": "Este comando solo está disponible en servidores suscritos a Patreon. Considere apoyarnos en nuestro [Patreon](https://patreon.com/clashperk) para usar este comando.\n\n¿Ya estás suscrito? Utilice el comando {{command}} para obtenerla.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Algo salió mal al ejecutar este comando. (Opción no encontrada)",
     "no_data": "No hay información disponible por el momento. ¡Todavía estamos recolectando!",
