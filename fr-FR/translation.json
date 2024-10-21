@@ -70,7 +70,7 @@
     "choices": {
       "yes": "Oui",
       "no": "Non",
-      "off": "Off",
+      "off": "Désactivé",
       "enable": "Activer",
       "disable": "Désactiver",
       "desc": "Décroissant",
