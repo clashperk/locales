@@ -959,7 +959,7 @@
       }
     },
     "caller": {
-      "description": "Manage the war base caller.",
+      "description": "Gérer les réservations de cibles de guerre.",
       "options": {
         "defense_target": {
           "description": "Le numéro du village cible de votre adversaire."
@@ -1051,10 +1051,10 @@
           "description": "Nombre de guerres à inclure."
         },
         "filter_farm_hits": {
-          "description": "Filter out farm hits (1 star and < 50% destruction)"
+          "description": "Filtrer les attaques de farm (1 étoile et < 50 % de destruction)"
         },
         "clan_only": {
-          "description": "Only include the specified clan's war attacks."
+          "description": "N'inclure que les attaques de guerre du clan spécifié."
         }
       },
       "attacks": {
@@ -1065,13 +1065,13 @@
       }
     },
     "units": {
-      "description": "Shows home village and builder base units of a player (with max/min levels)"
+      "description": "Affiche les troupes du village principal et de la base des ouvriers (avec les niveaux max/min)"
     },
     "upgrades": {
       "description": "Améliorations restantes d'un joueur avec leur coût d'amélioration."
     },
     "war": {
-      "description": "Shows war summary and overview of a clan.",
+      "description": "Affiche le résumé de guerre et la vue d'ensemble d'un clan.",
       "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
@@ -1099,7 +1099,7 @@
             "description": "Rôle pour la notification de signalement (uniquement pour le flux du clan)"
           },
           "category": {
-            "description": "Category of the clan. (select from the menu or type your own)"
+            "description": "Catégorie du clan. (choisissez dans le menu ou tapez votre propre catégorie)"
           }
         },
         "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
@@ -1130,7 +1130,7 @@
         "description": "Lister toutes les fonctionnalités et les clans activés.",
         "options": {
           "clans": {
-            "description": "Select the clans to list."
+            "description": "Sélectionner les clans à lister."
           }
         }
       },
