@@ -167,7 +167,7 @@
     },
     "contact_support": "Contacter l'assistance technique",
     "select_an_option": "Sélectionner une option",
-    "ending": "Ending"
+    "ending": "Fin"
   },
   "command": {
     "activity": {
@@ -966,7 +966,7 @@
         }
       },
       "assign": {
-        "description": "Définir une cible d'un joueur dans la guerre en cours.",
+        "description": "Définir une cible pour un joueur dans la guerre en cours.",
         "options": {
           "offense_target": {
             "description": "Le numéro du village cible de votre clan."
