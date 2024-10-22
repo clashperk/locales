@@ -1257,10 +1257,10 @@
         "description": "Définir les auto-rôles de guerre.",
         "options": {
           "role": {
-            "description": "The war role."
+            "description": "Le rôle de guerre."
           },
           "clan": {
-            "description": "The clan for which to set the war role."
+            "description": "Le clan pour lequel définir le rôle de guerre."
           }
         }
       },
@@ -1296,14 +1296,14 @@
         }
       },
       "list": {
-        "description": "List all auto roles and settings."
+        "description": "Lister tous les auto-rôles et paramètres."
       },
       "disable": {
-        "description": "Désactiver la fonction auto-rôle.",
+        "description": "Désactiver les auto-rôles du clan.",
         "description_long": "Désactiver la fonction auto-rôle pour les rôles dans le clan, les niveaux d'hôtel de ville ou les ligues.",
         "options": {
           "type": {
-            "description": "Type of roles to disable."
+            "description": "Type de rôles à désactiver."
           },
           "clear": {
             "description": "Supprimer tous les rôles de tous les clans."
@@ -1316,10 +1316,10 @@
         "description_long": "Actualiser les rôles manuellement. (Utilisez cette commande si les rôles ne sont pas mis à jour automatiquement)",
         "options": {
           "user_or_role": {
-            "description": "Refresh an individual user or a role."
+            "description": "Actualiser un utilisateur ou un rôle."
           },
           "is_test_run": {
-            "description": "Test run to see the changes without applying."
+            "description": "Tester pour voir les changements sans les appliquer."
           },
           "force_refresh": {
             "description": "Ignorer ou non les délais et forcer l'actualisation des rôles."
@@ -1359,7 +1359,7 @@
             "description": "Nombre de membres à afficher (par défaut : 5)"
           },
           "order": {
-            "description": "Order of the list."
+            "description": "Ordre de la liste."
           }
         }
       },
@@ -1382,13 +1382,13 @@
         "description": "Affiche un résumé des dons de troupes."
       },
       "attacks": {
-        "description": "Shows a summary of multiplayer attacks and defenses."
+        "description": "Affiche un résumé des attaques et des défenses multijoueurs."
       },
       "trophies": {
-        "description": "Shows a summary of trophies.",
+        "description": "Affiche un résumé des joueurs classés par trophées.",
         "options": {
           "limit": {
-            "description": "Limit the number of members."
+            "description": "Limiter le nombre de membres."
           }
         }
       },
@@ -1399,7 +1399,7 @@
         "description": "Affiche un résumé des guerres manquées."
       },
       "capital_raids": {
-        "description": "Shows information about capital raids."
+        "description": "Affiche des informations sur les raids de la Capitale."
       },
       "capital_contribution": {
         "description": "Affiche un résumé des contributions à la Capitale.",
@@ -1410,7 +1410,7 @@
         }
       },
       "activity": {
-        "description": "Shows a summary of clan activity (last seen)."
+        "description": "Affiche un résumé de l'activité du clan (dernière connexion)."
       },
       "clan_games": {
         "description": "Affiche un résumé des scores aux jeux du clan."
@@ -1434,27 +1434,27 @@
       "description": "Souscrire ou gérer un abonnement Patreon. (si vous souhaitez nous soutenir)",
       "options": {
         "disable": {
-          "description": "Disable subscription for a server (if subscribed)"
+          "description": "Désactiver l'abonnement à un serveur (si abonné)"
         }
       }
     },
     "events": {
-      "description": "Shows the next in-game events."
+      "description": "Affiche les prochains événements du jeu."
     },
     "whitelist": {
-      "description": "Whitelist a role or user to use specific commands.",
+      "description": "Ajouter à la liste blanche un rôle ou un utilisateur pour utiliser des commandes spécifiques.",
       "options": {
         "user_or_role": {
-          "description": "User or role to whitelist."
+          "description": "Utilisateur ou rôle à ajouter à la liste blanche."
         },
         "command": {
-          "description": "Command to whitelist."
+          "description": "Commande à mettre sur la liste blanche."
         },
         "clear": {
-          "description": "Clear the whitelist."
+          "description": "Effacer la liste blanche."
         },
         "list": {
-          "description": "List all whitelisted users and roles."
+          "description": "Lister tous les utilisateurs et rôles figurant sur la liste blanche."
         }
       }
     },
@@ -1479,7 +1479,7 @@
       "description": "Crée ton propre bot Discord !",
       "options": {
         "opt_out": {
-          "description": "Opt-out from the custom bot and delete related services."
+          "description": "Se désinscrire du bot personnalisé et supprimer les services associés."
         }
       }
     }
