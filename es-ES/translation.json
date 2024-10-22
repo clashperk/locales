@@ -335,7 +335,7 @@
       "description": "Muestra información básica de Depuración."
     },
     "cwl": {
-      "description": "Resumen general de la temporada de Liga de Guerras.",
+      "description": "Resumen general de la temporada de LDG.",
       "still_searching": "Tu clan {{clan}} sigue buscando a sus oponentes.",
       "not_in_season": "Tu clan {{clan}} no está inscrito en la Liga de Guerras.",
       "no_rounds": "Aún no han empezado las rondas de Liga de Guerras, inténtelo de nuevo más tarde.",
@@ -992,7 +992,7 @@
       "description_long": "Lista de miembros del clan ordenados por héroes, trofeos, preferencias de guerra, enlaces de Discord, roles de clan, etiquetas de jugadores, ataques, etc."
     },
     "player": {
-      "description": "Descripción general del jugador.",
+      "description": "Resumen general del jugador.",
       "description_long": "Muestra una vista previa de un jugador (incluido el historial de ataques de guerra)"
     },
     "remaining": {
