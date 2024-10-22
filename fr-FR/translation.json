@@ -98,7 +98,7 @@
       "cwl_signup_ending": "Inscription à la Ligue (Fin)",
       "raid_weekend_ending": "Week-end de Raid (Fin)",
       "legend_leaderboard": "Trophées de Légende",
-      "builder_legend_leaderboard": "Builder Trophies",
+      "builder_legend_leaderboard": "Trophées des Ouvriers",
       "events_schedular": "Calendrier des Événements",
       "reminder_ping_exclusion": "Reminder Ping Exclusion",
       "roster": {
@@ -154,8 +154,8 @@
         "clan_roles": "Rôles dans le Clan",
         "town_hall": "Rôles d'Hôtel de Ville",
         "leagues": "Rôles des Ligues",
-        "builder_hall": "Builder Hall Roles",
-        "builder_leagues": "Builder Leagues Roles",
+        "builder_hall": "Rôles de la Maison des Ouvriers",
+        "builder_leagues": "Rôles des Ligues des Ouvriers",
         "wars": "Rôles de Guerre",
         "eos_push": "End of Season Push Role",
         "family_leaders": "Rôle des Chefs de la Famille",
@@ -1138,31 +1138,31 @@
         "description": "[OBSOLÈTE] Configurer d'autres fonctionnalités utilitaires (bouton de lien, calendrier d'événements)",
         "options": {
           "disable": {
-            "description": "Disable a scheduled event."
+            "description": "Désactiver un événement programmé."
           }
         }
       },
       "buttons": {
-        "description": "Setup buttons for the server.",
+        "description": "Configurer les boutons du serveur.",
         "options": {
           "button_type": {
-            "description": "Select the button type to setup"
+            "description": "Sélectionner le type de bouton à configurer"
           }
         }
       },
       "events": {
-        "description": "Setup automatic events for the server.",
+        "description": "Configurer des événements automatiques pour le serveur.",
         "options": {
           "disable": {
-            "description": "Disable the events schedular."
+            "description": "Désactiver le calendrier des événements."
           }
         }
       },
       "server_logs": {
-        "description": "Setup automatic logs for the server.",
+        "description": "Configurer des journaux automatiques pour le serveur.",
         "options": {
           "log_type": {
-            "description": "Select the log type to setup."
+            "description": "Sélectionner le type de journal à configurer."
           },
           "disable": {
             "description": "Désactiver ou non le journal."
@@ -1170,45 +1170,45 @@
         }
       },
       "clan_logs": {
-        "description": "Setup automatic logs for the clan.",
+        "description": "Configurer des journaux automatiques pour le clan.",
         "options": {
           "clan": {
-            "description": "Select the clan to setup logs."
+            "description": "Sélectionner le clan pour configurer les journaux."
           },
           "action": {
-            "description": "What logs to enable or disable."
+            "description": "Les journaux à activer ou désactiver."
           }
         }
       }
     },
     "category": {
-      "description": "Manage clan categories or groups.",
+      "description": "Gérer les catégories ou les groupes de clans.",
       "options": {
         "category_name": {
-          "description": "Name of the clan category."
+          "description": "Nom de la catégorie de clan."
         },
         "category": {
-          "description": "Select a clan category."
+          "description": "Sélectionner une catégorie de clan."
         }
       },
       "create": {
-        "description": "Create a new clan category."
+        "description": "Créer une nouvelle catégorie de clan."
       },
       "list": {
-        "description": "List all clan categories."
+        "description": "Lister toutes les catégories de clans."
       },
       "edit": {
-        "description": "Edit a clan category."
+        "description": "Modifier une catégorie de clan."
       },
       "delete": {
-        "description": "Delete a clan category."
+        "description": "Supprimer une catégorie de clan."
       }
     },
     "autorole": {
-      "description": "Activer la fonction auto-rôle pour les rôles dans le clan et les niveaux d'hôtel de ville",
+      "description": "Activer les auto-rôles du clan et des niveaux d'Hôtel de Ville",
       "no_roles": "Vous devez spécifier 4 rôles pour exécuter cette commande.",
       "no_system_roles": "Les rôles gérés par le système ou les bots ne sont pas autorisés.",
-      "no_higher_roles": "Bot's highest role must be higher than the selected roles.",
+      "no_higher_roles": "Le rôle le plus élevé du bot doit être supérieur aux rôles sélectionnés.",
       "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
       "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
       "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
@@ -1240,7 +1240,7 @@
         "description": "Gérer la fonction auto-rôle pour les ligues."
       },
       "builder_leagues": {
-        "description": "Set builder base league roles."
+        "description": "Définir les rôles de ligues de la base des ouvriers."
       },
       "town_hall": {
         "description": "Gérer la fonction auto-rôle pour les niveaux d'hôtel de ville.",
@@ -1251,10 +1251,10 @@
         }
       },
       "builder_hall": {
-        "description": "Manage automatic Builder Hall roles."
+        "description": "Gérer les auto-rôles des niveaux de la Maison des Ouvriers."
       },
       "wars": {
-        "description": "Set automatic war roles.",
+        "description": "Définir les auto-rôles de guerre.",
         "options": {
           "role": {
             "description": "The war role."
@@ -1327,7 +1327,7 @@
         }
       },
       "config": {
-        "description": "Manage automatic roles settings.",
+        "description": "Gérer les paramètres des auto-rôles.",
         "options": {
           "auto_update_roles": {
             "description": "Mise à jour automatique ou non des rôles."
@@ -1476,7 +1476,7 @@
       }
     },
     "bot_personalizer": {
-      "description": "Build your own Discord bot!",
+      "description": "Crée ton propre bot Discord !",
       "options": {
         "opt_out": {
           "description": "Opt-out from the custom bot and delete related services."
