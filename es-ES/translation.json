@@ -80,16 +80,16 @@
       "trophy": "TROFEOS",
       "e_sports": "E-SPORTS",
       "regular": "Guerra",
-      "friendly": "Amistoso",
+      "friendly": "Guerra Amistosa",
       "clan_games": "Juegos del clan",
       "league_reset": "Reinicio de Liga",
       "season_end": "Fin de temporada",
       "raid_weekend": "Fin de semana de asaltos",
-      "capital_raids": "Asaltos en la capital",
+      "capital_raids": "Asaltos a la capital",
       "clan_wars": "Guerras de clan",
       "war_attacks": "Ataques de guerra",
       "link_button": "Botón de vinculación",
-      "flag_alert_log": "Registro alertas de advertencias",
+      "flag_alert_log": "Registro de advertencias",
       "roster_change_log": "Registro de cambios de parrilla",
       "maintenance_break_log": "Registro de mantenimiento",
       "role_refresh_button": "Botón para actualizar los roles",
@@ -98,7 +98,7 @@
       "cwl_signup_ending": "Inscripción en LDG (FIN)",
       "raid_weekend_ending": "Fin de semana de asaltos (FIN)",
       "legend_leaderboard": "Trofeos en Liga de leyendas",
-      "builder_legend_leaderboard": "Trofeos del constructor",
+      "builder_legend_leaderboard": "Trofeos taller del constructor",
       "events_schedular": "Calendario de eventos",
       "reminder_ping_exclusion": "Excluir de Nombrar/Ping",
       "roster": {
@@ -1376,7 +1376,7 @@
         "description": "Muestra un resumen de rotación de las LDG."
       },
       "leagues": {
-        "description": "Muestra un resumen de las ligas de clanes (LDG y Capital del Clan)."
+        "description": "Muestra un resumen de las ligas de los clanes (LDG y Capital del Clan)."
       },
       "donations": {
         "description": "Muestra un resumen de las donaciones."
@@ -1396,7 +1396,7 @@
         "description": "Muestra un resumen de los resultados de guerras de una temporada."
       },
       "missed_wars": {
-        "description": "Muestra un resumen de las guerras perdidas."
+        "description": "Muestra un resumen de las guerras perdidas en comparación a las guerras jugadas."
       },
       "capital_raids": {
         "description": "Muestra un resumen de los asaltos a la capital del clan."
@@ -1405,7 +1405,7 @@
         "description": "Muestra un resumen de la contribución de la capital del clan.",
         "options": {
           "week": {
-            "description": "La semana para mostrar las contribuciones de la capital."
+            "description": "Semana que mostrará las contribuciones de la capital."
           }
         }
       },
