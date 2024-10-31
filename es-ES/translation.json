@@ -80,16 +80,16 @@
       "trophy": "TROFEOS",
       "e_sports": "E-SPORTS",
       "regular": "Guerra",
-      "friendly": "Amistoso",
+      "friendly": "Guerra Amistosa",
       "clan_games": "Juegos del clan",
       "league_reset": "Reinicio de Liga",
       "season_end": "Fin de temporada",
       "raid_weekend": "Fin de semana de asaltos",
-      "capital_raids": "Asaltos en la capital",
+      "capital_raids": "Asaltos a la capital",
       "clan_wars": "Guerras de clan",
       "war_attacks": "Ataques de guerra",
       "link_button": "Botón de vinculación",
-      "flag_alert_log": "Registro alertas de advertencias",
+      "flag_alert_log": "Registro de advertencias",
       "roster_change_log": "Registro de cambios de parrilla",
       "maintenance_break_log": "Registro de mantenimiento",
       "role_refresh_button": "Botón para actualizar los roles",
@@ -98,7 +98,7 @@
       "cwl_signup_ending": "Inscripción en LDG (FIN)",
       "raid_weekend_ending": "Fin de semana de asaltos (FIN)",
       "legend_leaderboard": "Trofeos en Liga de leyendas",
-      "builder_legend_leaderboard": "Trofeos del constructor",
+      "builder_legend_leaderboard": "Trofeos taller del constructor",
       "events_schedular": "Calendario de eventos",
       "reminder_ping_exclusion": "Excluir de Nombrar/Ping",
       "roster": {
@@ -335,7 +335,7 @@
       "description": "Muestra información básica de Depuración."
     },
     "cwl": {
-      "description": "Resumen general de la temporada de Liga de Guerras.",
+      "description": "Resumen general de la temporada de LDG.",
       "still_searching": "Tu clan {{clan}} sigue buscando a sus oponentes.",
       "not_in_season": "Tu clan {{clan}} no está inscrito en la Liga de Guerras.",
       "no_rounds": "Aún no han empezado las rondas de Liga de Guerras, inténtelo de nuevo más tarde.",
@@ -992,7 +992,7 @@
       "description_long": "Lista de miembros del clan ordenados por héroes, trofeos, preferencias de guerra, enlaces de Discord, roles de clan, etiquetas de jugadores, ataques, etc."
     },
     "player": {
-      "description": "Descripción general del jugador.",
+      "description": "Resumen general del jugador.",
       "description_long": "Muestra una vista previa de un jugador (incluido el historial de ataques de guerra)"
     },
     "remaining": {
@@ -1147,6 +1147,9 @@
         "options": {
           "button_type": {
             "description": "Seleccione el tipo de botón que desea configurar"
+          },
+          "embed_color": {
+            "description": "Hex color code for the embed"
           }
         }
       },
@@ -1376,7 +1379,7 @@
         "description": "Muestra un resumen de rotación de las LDG."
       },
       "leagues": {
-        "description": "Muestra un resumen de las ligas de clanes (LDG y Capital del Clan)."
+        "description": "Muestra un resumen de las ligas de los clanes (LDG y Capital del Clan)."
       },
       "donations": {
         "description": "Muestra un resumen de las donaciones."
@@ -1396,7 +1399,7 @@
         "description": "Muestra un resumen de los resultados de guerras de una temporada."
       },
       "missed_wars": {
-        "description": "Muestra un resumen de las guerras perdidas."
+        "description": "Muestra un resumen de las guerras perdidas en comparación a las guerras jugadas."
       },
       "capital_raids": {
         "description": "Muestra un resumen de los asaltos a la capital del clan."
@@ -1405,7 +1408,7 @@
         "description": "Muestra un resumen de la contribución de la capital del clan.",
         "options": {
           "week": {
-            "description": "La semana para mostrar las contribuciones de la capital."
+            "description": "Semana que mostrará las contribuciones de la capital."
           }
         }
       },

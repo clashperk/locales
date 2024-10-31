@@ -98,7 +98,7 @@
       "cwl_signup_ending": "Inscription à la Ligue (Fin)",
       "raid_weekend_ending": "Week-end de Raid (Fin)",
       "legend_leaderboard": "Trophées de Légende",
-      "builder_legend_leaderboard": "Builder Trophies",
+      "builder_legend_leaderboard": "Trophées des Ouvriers",
       "events_schedular": "Calendrier des Événements",
       "reminder_ping_exclusion": "Reminder Ping Exclusion",
       "roster": {
@@ -154,8 +154,8 @@
         "clan_roles": "Rôles dans le Clan",
         "town_hall": "Rôles d'Hôtel de Ville",
         "leagues": "Rôles des Ligues",
-        "builder_hall": "Builder Hall Roles",
-        "builder_leagues": "Builder Leagues Roles",
+        "builder_hall": "Rôles de la Maison des Ouvriers",
+        "builder_leagues": "Rôles des Ligues des Ouvriers",
         "wars": "Rôles de Guerre",
         "eos_push": "End of Season Push Role",
         "family_leaders": "Rôle des Chefs de la Famille",
@@ -167,7 +167,7 @@
     },
     "contact_support": "Contacter l'assistance technique",
     "select_an_option": "Sélectionner une option",
-    "ending": "Ending"
+    "ending": "Fin"
   },
   "command": {
     "activity": {
@@ -959,14 +959,14 @@
       }
     },
     "caller": {
-      "description": "Manage the war base caller.",
+      "description": "Gérer les réservations de cibles de guerre.",
       "options": {
         "defense_target": {
           "description": "Le numéro du village cible de votre adversaire."
         }
       },
       "assign": {
-        "description": "Définir une cible d'un joueur dans la guerre en cours.",
+        "description": "Définir une cible pour un joueur dans la guerre en cours.",
         "options": {
           "offense_target": {
             "description": "Le numéro du village cible de votre clan."
@@ -1051,10 +1051,10 @@
           "description": "Nombre de guerres à inclure."
         },
         "filter_farm_hits": {
-          "description": "Filter out farm hits (1 star and < 50% destruction)"
+          "description": "Filtrer les attaques de farm (1 étoile et < 50 % de destruction)"
         },
         "clan_only": {
-          "description": "Only include the specified clan's war attacks."
+          "description": "N'inclure que les attaques de guerre du clan spécifié."
         }
       },
       "attacks": {
@@ -1065,13 +1065,13 @@
       }
     },
     "units": {
-      "description": "Shows home village and builder base units of a player (with max/min levels)"
+      "description": "Affiche les troupes du village principal et de la base des ouvriers (avec les niveaux max/min)"
     },
     "upgrades": {
       "description": "Améliorations restantes d'un joueur avec leur coût d'amélioration."
     },
     "war": {
-      "description": "Shows war summary and overview of a clan.",
+      "description": "Affiche le résumé de guerre et la vue d'ensemble d'un clan.",
       "no_war_id": "Aucune guerre n'a été trouvée pour l'identifiant de guerre spécifié.",
       "not_in_war": "Le clan n'est pas en guerre.",
       "options": {
@@ -1099,7 +1099,7 @@
             "description": "Rôle pour la notification de signalement (uniquement pour le flux du clan)"
           },
           "category": {
-            "description": "Category of the clan. (select from the menu or type your own)"
+            "description": "Catégorie du clan. (choisissez dans le menu ou tapez votre propre catégorie)"
           }
         },
         "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
@@ -1130,7 +1130,7 @@
         "description": "Lister toutes les fonctionnalités et les clans activés.",
         "options": {
           "clans": {
-            "description": "Select the clans to list."
+            "description": "Sélectionner les clans à lister."
           }
         }
       },
@@ -1138,31 +1138,34 @@
         "description": "[OBSOLÈTE] Configurer d'autres fonctionnalités utilitaires (bouton de lien, calendrier d'événements)",
         "options": {
           "disable": {
-            "description": "Disable a scheduled event."
+            "description": "Désactiver un événement programmé."
           }
         }
       },
       "buttons": {
-        "description": "Setup buttons for the server.",
+        "description": "Configurer les boutons du serveur.",
         "options": {
           "button_type": {
-            "description": "Select the button type to setup"
+            "description": "Sélectionner le type de bouton à configurer"
+          },
+          "embed_color": {
+            "description": "Hex color code for the embed"
           }
         }
       },
       "events": {
-        "description": "Setup automatic events for the server.",
+        "description": "Configurer des événements automatiques pour le serveur.",
         "options": {
           "disable": {
-            "description": "Disable the events schedular."
+            "description": "Désactiver le calendrier des événements."
           }
         }
       },
       "server_logs": {
-        "description": "Setup automatic logs for the server.",
+        "description": "Configurer des journaux automatiques pour le serveur.",
         "options": {
           "log_type": {
-            "description": "Select the log type to setup."
+            "description": "Sélectionner le type de journal à configurer."
           },
           "disable": {
             "description": "Désactiver ou non le journal."
@@ -1170,45 +1173,45 @@
         }
       },
       "clan_logs": {
-        "description": "Setup automatic logs for the clan.",
+        "description": "Configurer des journaux automatiques pour le clan.",
         "options": {
           "clan": {
-            "description": "Select the clan to setup logs."
+            "description": "Sélectionner le clan pour configurer les journaux."
           },
           "action": {
-            "description": "What logs to enable or disable."
+            "description": "Les journaux à activer ou désactiver."
           }
         }
       }
     },
     "category": {
-      "description": "Manage clan categories or groups.",
+      "description": "Gérer les catégories ou les groupes de clans.",
       "options": {
         "category_name": {
-          "description": "Name of the clan category."
+          "description": "Nom de la catégorie de clan."
         },
         "category": {
-          "description": "Select a clan category."
+          "description": "Sélectionner une catégorie de clan."
         }
       },
       "create": {
-        "description": "Create a new clan category."
+        "description": "Créer une nouvelle catégorie de clan."
       },
       "list": {
-        "description": "List all clan categories."
+        "description": "Lister toutes les catégories de clans."
       },
       "edit": {
-        "description": "Edit a clan category."
+        "description": "Modifier une catégorie de clan."
       },
       "delete": {
-        "description": "Delete a clan category."
+        "description": "Supprimer une catégorie de clan."
       }
     },
     "autorole": {
-      "description": "Activer la fonction auto-rôle pour les rôles dans le clan et les niveaux d'hôtel de ville",
+      "description": "Activer les auto-rôles du clan et des niveaux d'Hôtel de Ville",
       "no_roles": "Vous devez spécifier 4 rôles pour exécuter cette commande.",
       "no_system_roles": "Les rôles gérés par le système ou les bots ne sont pas autorisés.",
-      "no_higher_roles": "Bot's highest role must be higher than the selected roles.",
+      "no_higher_roles": "Le rôle le plus élevé du bot doit être supérieur aux rôles sélectionnés.",
       "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
       "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
       "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
@@ -1240,7 +1243,7 @@
         "description": "Gérer la fonction auto-rôle pour les ligues."
       },
       "builder_leagues": {
-        "description": "Set builder base league roles."
+        "description": "Définir les rôles de ligues de la base des ouvriers."
       },
       "town_hall": {
         "description": "Gérer la fonction auto-rôle pour les niveaux d'hôtel de ville.",
@@ -1251,16 +1254,16 @@
         }
       },
       "builder_hall": {
-        "description": "Manage automatic Builder Hall roles."
+        "description": "Gérer les auto-rôles des niveaux de la Maison des Ouvriers."
       },
       "wars": {
-        "description": "Set automatic war roles.",
+        "description": "Définir les auto-rôles de guerre.",
         "options": {
           "role": {
-            "description": "The war role."
+            "description": "Le rôle de guerre."
           },
           "clan": {
-            "description": "The clan for which to set the war role."
+            "description": "Le clan pour lequel définir le rôle de guerre."
           }
         }
       },
@@ -1296,14 +1299,14 @@
         }
       },
       "list": {
-        "description": "List all auto roles and settings."
+        "description": "Lister tous les auto-rôles et paramètres."
       },
       "disable": {
-        "description": "Désactiver la fonction auto-rôle.",
+        "description": "Désactiver les auto-rôles du clan.",
         "description_long": "Désactiver la fonction auto-rôle pour les rôles dans le clan, les niveaux d'hôtel de ville ou les ligues.",
         "options": {
           "type": {
-            "description": "Type of roles to disable."
+            "description": "Type de rôles à désactiver."
           },
           "clear": {
             "description": "Supprimer tous les rôles de tous les clans."
@@ -1316,10 +1319,10 @@
         "description_long": "Actualiser les rôles manuellement. (Utilisez cette commande si les rôles ne sont pas mis à jour automatiquement)",
         "options": {
           "user_or_role": {
-            "description": "Refresh an individual user or a role."
+            "description": "Actualiser un utilisateur ou un rôle."
           },
           "is_test_run": {
-            "description": "Test run to see the changes without applying."
+            "description": "Tester pour voir les changements sans les appliquer."
           },
           "force_refresh": {
             "description": "Ignorer ou non les délais et forcer l'actualisation des rôles."
@@ -1327,7 +1330,7 @@
         }
       },
       "config": {
-        "description": "Manage automatic roles settings.",
+        "description": "Gérer les paramètres des auto-rôles.",
         "options": {
           "auto_update_roles": {
             "description": "Mise à jour automatique ou non des rôles."
@@ -1359,7 +1362,7 @@
             "description": "Nombre de membres à afficher (par défaut : 5)"
           },
           "order": {
-            "description": "Order of the list."
+            "description": "Ordre de la liste."
           }
         }
       },
@@ -1382,13 +1385,13 @@
         "description": "Affiche un résumé des dons de troupes."
       },
       "attacks": {
-        "description": "Shows a summary of multiplayer attacks and defenses."
+        "description": "Affiche un résumé des attaques et des défenses multijoueurs."
       },
       "trophies": {
-        "description": "Shows a summary of trophies.",
+        "description": "Affiche un résumé des joueurs classés par trophées.",
         "options": {
           "limit": {
-            "description": "Limit the number of members."
+            "description": "Limiter le nombre de membres."
           }
         }
       },
@@ -1399,7 +1402,7 @@
         "description": "Affiche un résumé des guerres manquées."
       },
       "capital_raids": {
-        "description": "Shows information about capital raids."
+        "description": "Affiche des informations sur les raids de la Capitale."
       },
       "capital_contribution": {
         "description": "Affiche un résumé des contributions à la Capitale.",
@@ -1410,7 +1413,7 @@
         }
       },
       "activity": {
-        "description": "Shows a summary of clan activity (last seen)."
+        "description": "Affiche un résumé de l'activité du clan (dernière connexion)."
       },
       "clan_games": {
         "description": "Affiche un résumé des scores aux jeux du clan."
@@ -1434,27 +1437,27 @@
       "description": "Souscrire ou gérer un abonnement Patreon. (si vous souhaitez nous soutenir)",
       "options": {
         "disable": {
-          "description": "Disable subscription for a server (if subscribed)"
+          "description": "Désactiver l'abonnement à un serveur (si abonné)"
         }
       }
     },
     "events": {
-      "description": "Shows the next in-game events."
+      "description": "Affiche les prochains événements du jeu."
     },
     "whitelist": {
-      "description": "Whitelist a role or user to use specific commands.",
+      "description": "Ajouter à la liste blanche un rôle ou un utilisateur pour utiliser des commandes spécifiques.",
       "options": {
         "user_or_role": {
-          "description": "User or role to whitelist."
+          "description": "Utilisateur ou rôle à ajouter à la liste blanche."
         },
         "command": {
-          "description": "Command to whitelist."
+          "description": "Commande à mettre sur la liste blanche."
         },
         "clear": {
-          "description": "Clear the whitelist."
+          "description": "Effacer la liste blanche."
         },
         "list": {
-          "description": "List all whitelisted users and roles."
+          "description": "Lister tous les utilisateurs et rôles figurant sur la liste blanche."
         }
       }
     },
@@ -1476,10 +1479,10 @@
       }
     },
     "bot_personalizer": {
-      "description": "Build your own Discord bot!",
+      "description": "Crée ton propre bot Discord !",
       "options": {
         "opt_out": {
-          "description": "Opt-out from the custom bot and delete related services."
+          "description": "Se désinscrire du bot personnalisé et supprimer les services associés."
         }
       }
     }
