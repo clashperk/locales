@@ -388,10 +388,10 @@
             "description": "Categoría de la parrilla"
           },
           "import_members": {
-            "description": "Si se importarán miembros de un clan"
+            "description": "Importar miembros de un clan"
           },
           "allow_unlinked": {
-            "description": "Si se permitirán miembros no vinculados"
+            "description": "Permitir miembros no vinculados"
           },
           "max_members": {
             "description": "Tamaño de la parrilla"
@@ -486,7 +486,7 @@
             "description": "Desvincular al clan de la parrilla"
           },
           "delete_role": {
-            "description": "Si se debe eliminar el rol que tiene la parrilla"
+            "description": "Eliminar el rol que tiene la parrilla"
           },
           "log_channel": {
             "description": "Canal para registrar cambios en las parrillas"
@@ -514,7 +514,7 @@
             "description": "Seleccione un jugador para configurar"
           },
           "clan": {
-            "description": "Selecciona un clan de donde agregar sus miembros"
+            "description": "Selecciona un clan para agregar sus miembros"
           },
           "user": {
             "description": "Seleccione un usuario para administrarlo"
