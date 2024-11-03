@@ -1032,6 +1032,9 @@
       "description": "Mostra estatísticas de ataque e defesa dos membros do clã.",
       "no_stats": "Nenhuma estatística está disponível para este filtro ou clã.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
