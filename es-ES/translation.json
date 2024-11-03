@@ -1032,6 +1032,9 @@
       "description": "Muestra las estadísticas de ataque y defensa de los miembros del clan.",
       "no_stats": "No hay estadísticas disponibles para este filtro o clan.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Comparar ayuntamientos (Por ejemplo: 14 vs 13, 12 vs 13, todos, iguales, etc.)"
         },
