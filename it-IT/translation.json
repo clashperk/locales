@@ -1032,6 +1032,9 @@
       "description": "Mostra le statistiche di attacco e difesa dei membri del clan.",
       "no_stats": "Nessuna statistica disponibile per questo filtro o clan.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
