@@ -1032,6 +1032,9 @@
       "description": "Affiche les statistiques d'attaque et de défense des membres du clan.",
       "no_stats": "Aucune statistique n'est disponible pour ce filtre ou ce clan.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Comparer les Hôtels de Ville (ex. 14vs13, *vs15, tous, égal)"
         },
