@@ -1032,6 +1032,9 @@
       "description": "Klan üyelerinin saldırı ve savunma istatistiklerini gösterir.",
       "no_stats": "Bu filtre veya klan için istatistik yok.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
