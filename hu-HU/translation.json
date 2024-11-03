@@ -1032,6 +1032,9 @@
       "description": "Megmutatja a klántagok támadási és védekezési statisztikáit.",
       "no_stats": "Ehhez a klánhoz vagy ezzel a szűrővel nem állnak rendelkezésre statisztikák.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
