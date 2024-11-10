@@ -1,104 +1,104 @@
 {
   "common": {
-    "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
+    "no_clans_found": "Няма намерени кланове на този сървър за посочения вход!\nИзползвайте команда {{command}}, за да свържете клан.",
     "no_clans_linked": "Няма кланове, свързани с този сървър. Защо не свържете някои?\nИзползвайте команда {{command}}, за да свържете клан.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
-    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
-    "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
-    "no_option": "Something went wrong while executing this command. (option not found)",
-    "no_data": "No data is available at this moment. We are still collecting!",
-    "no_clan_data": "No data is available for {{clan}}. We are still collecting!",
-    "no_clan_members": "‎{{clan}} does not have any clan members.",
-    "fetch_failed": "Something went wrong while fetching data from the API.",
+    "clan_limit": "Максималният брой кланове е достигнат. Моля, обмислете възможността да ни подкрепите в нашия [Patreon](https://patreon.com/clashperk), за да добавите повече от два клана.\n\nВече сте абониран? Използвайте командата {{command}}.",
+    "patreon_only": "Тази команда е достъпна само на абонирани сървъри на Patreon. Моля, помислете дали да ни подкрепите в нашия [Patreon](https://patreon.com/clashperk), за да използвате тази команда.\n\nВече сте абониран? Използвайте командата {{command}}.",
+    "clan_verification": "Трябва да се уверим, че сте лидер или ко-лидер на този клан. Моля, потвърдете своя акаунт с API токена.\nИзползвайте командата {{command}}, за да потвърдите своя акаунт. API токенът е наличен в настройките на играта.",
+    "no_option": "Нещо се обърка при изпълнението на тази команда. (не е намерена опция)",
+    "no_data": "Към момента няма налични данни. Все още ги събираме!",
+    "no_clan_data": "Няма налични данни за {{clan}}. Все още ги събираме!",
+    "no_clan_members": "‎{{clan}} няма членове на клана.",
+    "fetch_failed": "Нещо се обърка при извличането на данни от API.",
     "component": {
-      "expired": "This component is no longer active. Execute the command again.",
-      "unauthorized": "You must execute the command to interact with the components."
+      "expired": "Този компонент вече не е активен. Изпълнете командата отново.",
+      "unauthorized": "Трябва да изпълните командата, за да взаимодействате с компонентите."
     },
-    "no_clan_tag_first_time": "You must provide a clan tag to execute this command!",
-    "no_clan_tag": "You must provide a clan tag to execute this command! \nAlternatively, you can link a default clan to your profile using the {{command}} command.",
-    "no_player_tag": "You must provide a player tag to execute this command!, \nAlternatively, you can link some accounts to your profile using the {{command}} command.",
-    "clan_not_linked": "No clan is linked to {{user}}. \nUse {{command}} to link a clan.",
-    "player_not_linked": "No player is linked to {{user}}. Use {{command}} command to link a player.",
-    "guild_unauthorized": "This server is not authorized for {{clan}}. Use {{command}} command to link a clan.",
+    "no_clan_tag_first_time": "Трябва да предоставите клан таг, за да изпълните тази команда!",
+    "no_clan_tag": "Трябва да предоставите клан таг, за да изпълните тази команда!\nКато алтернатива можете да свържете клан по подразбиране към вашия профил с помощта на командата {{command}}.",
+    "no_player_tag": "Трябва да предоставите акаунт таг, за да изпълните тази команда!,\nКато алтернатива можете да свържете някои акаунти към вашия профил с помощта на командата {{command}}.",
+    "clan_not_linked": "Няма клан, свързан с {{user}}.\nИзползвайте {{command}}, за да свържете клан.",
+    "player_not_linked": "Няма акаунт, свързан с {{user}}. Използвайте командата {{command}}, за да свържете акаунт.",
+    "guild_unauthorized": "Този сървър не е оторизиран за {{clan}}. Използвайте командата {{command}}, за да свържете клан.",
     "status_code": {
-      "400": "An unknown error occurred while handling the request (400)",
-      "403": "An unknown error occurred while handling the request (403)",
-      "404": "No matches were found for the specified tag.",
-      "429": "An unknown error occurred while handling the request (429)",
-      "500": "An unknown error occurred while handling the request (typically happens during the season reset in the game)",
-      "503": "Service is temporarily unavailable because of the maintenance break in the game.",
-      "504": "An unknown error occurred while handling the request (504)"
+      "400": "Възникна неизвестна грешка при обработката на заявката (400)",
+      "403": "Възникна неизвестна грешка при обработката на заявката (403)",
+      "404": "Не бяха намерени съвпадения за посочения етикет.",
+      "429": "Възникна неизвестна грешка при обработката на заявката (429)",
+      "500": "Възникна неизвестна грешка при обработката на заявката (обикновено се случва по време на нулирането на сезона в играта)",
+      "503": "Услугата временно не е достъпна поради прекъсване на поддръжката на играта.",
+      "504": "Възникна неизвестна грешка при обработката на заявката (504)"
     },
-    "maintenance_start": "The maintenance break has started!",
-    "maintenance_end": "The maintenance break is ending soon! {{duration}}",
-    "something_went_wrong": "Something went wrong while executing this command.",
-    "missing_access": "The bot is missing {{permission}} in {{channel}} to execute this command.",
-    "missing_manager_role": "You are missing the **Manage Server** permission or the [Bot Manager](<https://docs.clashperk.com/others/bot-manager>) role to perform this action.",
-    "too_many_webhooks": "Too many webhooks in {{channel}}",
-    "no_match_found": "No matches were found with the tag {{tag}}",
-    "color_code": "Color Code",
+    "maintenance_start": "Пауза за поддръжка започна!",
+    "maintenance_end": "Паузата за поддръжка приключва скоро! {{duration}}",
+    "something_went_wrong": "Нещо се обърка при изпълнението на тази команда. Не е намерена опция.",
+    "missing_access": "На бота липсва {{permission}} в {{channel}}, за да изпълни тази команда.",
+    "missing_manager_role": "Липсва ви разрешението **Управление на сървъра** или ролята [Bot Manager](<https://docs.clashperk.com/others/bot-manager>), за да извършите това действие.",
+    "too_many_webhooks": "Твърде много уебкукички в {{channel}}",
+    "no_match_found": "Не бяха намерени съвпадения с етикета {{tag}}",
+    "color_code": "Цветен код",
     "options": {
       "clan": {
         "tag": {
-          "description": "Clan tag or name or alias."
+          "description": "Етикет на клана или име или псевдоним."
         },
         "user": {
-          "description": "Clan by @user mention or ID."
+          "description": "Клан по @user споменаване или ID."
         }
       },
       "player": {
         "tag": {
-          "description": "Player tag or name."
+          "description": "Таг или име на акаунта."
         },
         "user": {
-          "description": "Player by @user mention or ID."
+          "description": "Акаунт по @user споменаване или ID."
         }
       },
       "clans": {
-        "description": "Clan tags or aliases to filter clans."
+        "description": "Клан етикети или псевдоними за филтриране на кланове."
       },
       "season": {
-        "description": "Retrieve data for the specified season."
+        "description": "Извличане на данни за посочения сезон."
       },
       "season_since": {
-        "description": "Retrieve data since the specified season."
+        "description": "Извличане на данни от посочения сезон."
       },
       "week": {
-        "description": "Retrieve data for the specified raid weekend."
+        "description": "Извлечете данни за посочения уикенд за нападение."
       }
     },
     "choices": {
-      "yes": "Yes",
-      "no": "No",
-      "off": "Off",
-      "enable": "Enable",
-      "disable": "Disable",
-      "desc": "Descending",
-      "asc": "Ascending",
-      "war": "WAR",
+      "yes": "Да",
+      "no": "Не",
+      "off": "Изкл",
+      "enable": "Активиране",
+      "disable": "Деактивиране",
+      "desc": "Низходящ ред",
+      "asc": "Възходящ ред",
+      "war": "ВОЙНА",
       "cwl": "CWL",
-      "trophy": "TROPHY",
-      "e_sports": "E-SPORTS",
-      "regular": "Regular",
-      "friendly": "Friendly",
-      "clan_games": "Clan Games",
-      "league_reset": "League Reset",
-      "season_end": "Season End",
+      "trophy": "ТРОФЕЙ",
+      "e_sports": "ЕЛЕКТРОННИ СПОРТОВЕ",
+      "regular": "Обикновен",
+      "friendly": "Приятелски",
+      "clan_games": "Клан игри",
+      "league_reset": "Нулиране на лигата",
+      "season_end": "Край на сезона",
       "raid_weekend": "Raid Weekend",
-      "capital_raids": "Capital Raids",
-      "clan_wars": "Clan Wars",
-      "war_attacks": "War Attacks",
-      "link_button": "Link Button",
+      "capital_raids": "Столични набези",
+      "clan_wars": "Войни на кланове",
+      "war_attacks": "Военни атаки",
+      "link_button": "Бутон за връзка",
       "flag_alert_log": "Flag Alert Log",
-      "roster_change_log": "Roster Change Log",
+      "roster_change_log": "Дневник на промените в списъка",
       "maintenance_break_log": "Maintenance Break Log",
-      "role_refresh_button": "Role Refresh Button",
-      "clan_games_ending": "Clan Games (Ending)",
-      "cwl_end": "CWL (Ending)",
-      "cwl_signup_ending": "CWL Signup (Ending)",
-      "raid_weekend_ending": "Raid Weekend (Ending)",
-      "legend_leaderboard": "Legend Trophies",
-      "builder_legend_leaderboard": "Builder Trophies",
+      "role_refresh_button": "Бутон за опресняване на ролята",
+      "clan_games_ending": "Клан игри (край)",
+      "cwl_end": "CWL (край)",
+      "cwl_signup_ending": "Регистрация в CWL (приключва)",
+      "raid_weekend_ending": "Рейд уикенд (край)",
+      "legend_leaderboard": "Легендарни трофеи",
+      "builder_legend_leaderboard": "Трофеи на строител",
       "events_schedular": "Events Schedular",
       "reminder_ping_exclusion": "Reminder Ping Exclusion",
       "roster": {
@@ -162,110 +162,110 @@
         "family": "Family Roles",
         "exclusive_family": "Exclusive Family Role",
         "guest": "Guest Role",
-        "verified": "Verified Role"
+        "verified": "Потвърдена роля"
       }
     },
-    "contact_support": "Contact Support",
-    "select_an_option": "Select an option",
-    "ending": "Ending"
+    "contact_support": "Свържете се с отдела за поддръжка",
+    "select_an_option": "Изберете опция",
+    "ending": "Край"
   },
   "command": {
     "activity": {
-      "description": "Shows a graph of hourly-active clan members.",
-      "title": "Hourly-active Clan Members",
+      "description": "Показва графика на почасово активни членове на клана.",
+      "title": "Почасово активни членове на клана",
       "options": {
         "clans": {
-          "description": "Clan tags or aliases (Maximum 3)"
+          "description": "Тагове или псевдоними на клана (максимум 3)"
         },
         "days": {
-          "description": "The number of days is displayed in the graph."
+          "description": "Броят на дните се показва на графиката."
         },
         "limit": {
-          "description": "Number of clans to show in the graph."
+          "description": "Брой кланове за показване в графиката."
         }
       }
     },
     "clan_games": {
-      "description": "Clan games scoreboard of clan members.",
-      "title": "Clan Games Scoreboard",
+      "description": "Табло с резултати на кланови игри на членове на клана.",
+      "title": "Табло за клан игри",
       "options": {
         "season": {
-          "description": "The season to show the scoreboard for."
+          "description": "Сезонът, за който трябва да се покаже таблото."
         }
       }
     },
     "capital": {
-      "description": "Shows clan capital contributions and raids.",
+      "description": "Показва капиталови вноски и набези на клана.",
       "contribution": {
-        "description": "Shows clan capital contribution of clan members.",
-        "title": "Clan Capital Contributions",
+        "description": "Показва капиталовия принос на членовете на клана.",
+        "title": "Капиталов принос",
         "options": {
           "week": {
-            "description": "The week to show contributions for."
+            "description": "Седмицата, за която да се покажат приносите."
           },
           "season": {
-            "description": "The season to show contributions for."
+            "description": "Сезонът, за който да се покажат приносите."
           }
         }
       },
       "raids": {
-        "description": "Shows raid weekend scores of clan members.",
+        "description": "Показва резултатите на членовете на клана през уикенда.",
         "title": "Clan Capital Raids",
         "options": {
           "season": {
-            "description": "The season to show raids for."
+            "description": "Сезонът, за който трябва да се показват нападения."
           }
         },
-        "no_data": "No capital raids found for {{clan}} [{{weekId}}]."
+        "no_data": "Няма намерени capital raids за {{clan}} [{{weekId}}]."
       }
     },
     "legend": {
-      "description": "Shows legend logs for a player.",
+      "description": "Показва логове с легенди за играч.",
       "attacks": {
-        "description": "Shows per-day legend attacks for a clan.",
+        "description": "Показва ежедневни легендарни атаки за клан.",
         "options": {
           "day": {
-            "description": "The league day."
+            "description": "Денят на лигата."
           }
         }
       },
       "days": {
-        "description": "Shows per-day legend attacks for a player."
+        "description": "Показва ежедневни легенди за атаки за играч."
       },
       "leaderboard": {
-        "description": "Shows legend leaderboard.",
+        "description": "Показва таблото с легенди.",
         "options": {
           "limit": {
-            "description": "Limit the number of results."
+            "description": "Ограничете броя на резултатите."
           },
           "enable_auto_updating": {
-            "description": "Enable auto updating (every 30-60 mins)"
+            "description": "Активиране на автоматично актуализиране (на всеки 30-60 минути)"
           }
         }
       },
       "stats": {
-        "description": "Shows statistics of legend ranks and trophies."
+        "description": "Показва статистика за ранковете и трофеите на легендите."
       }
     },
     "leaderboard": {
-      "description": "Leaderboard of the top clans and players.",
+      "description": "Класация на най-добрите кланове и играчи.",
       "options": {
         "location": {
-          "description": "Location of the leaderboard"
+          "description": "Местоположение на класацията"
         }
       },
       "clans": {
-        "description": "Top clans leaderboard."
+        "description": "Класация на най-добрите кланове."
       },
       "players": {
-        "description": "Top players leaderboard."
+        "description": "Класация на най-добрите играчи."
       },
       "capital": {
-        "description": "Top capital leaderboard."
+        "description": "Най-висока столична класация."
       }
     },
     "lastseen": {
-      "description": "The last seen time and activities of clan members.",
+      "description": "Последно видяно време и дейности на членовете на клана.",
       "title_lastseen": "Last seen and activity scores (last 24h)",
       "title_activity": "Clan member activities (last 30d)"
     },
