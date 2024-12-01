@@ -147,7 +147,7 @@
         "capital_log": "Registro de la capital",
         "clan_feed": "Historial del clan",
         "join_leave": "Registro de Entrada/Salida",
-        "clan_embed": "Descripción del clan",
+        "clan_embed": "Mensaje incrustado del clan",
         "donation_log": "Registro de donaciones"
       },
       "autorole": {
@@ -163,7 +163,7 @@
         "exclusive_family": "Rol de familia exclusivo",
         "guest": "Rol de invitado (anteriormente)",
         "verified": "Rol de verificado",
-        "account_linked": "Account Linked Role"
+        "account_linked": "Rol vinculado a la cuenta"
       }
     },
     "contact_support": "Contactar con soporte",
@@ -509,7 +509,7 @@
             "description": "Seleccione una parrilla para administrar"
           },
           "action": {
-            "description": "Seleccione una acción para proceder"
+            "description": "Seleccione una opción para actuar"
           },
           "player": {
             "description": "Seleccione un jugador para configurar"
@@ -1153,7 +1153,7 @@
             "description": "Seleccione el tipo de botón que desea configurar"
           },
           "embed_color": {
-            "description": "Hex color code for the embed"
+            "description": "Código de color hexadecimal para el mensaje incrustado"
           }
         }
       },
