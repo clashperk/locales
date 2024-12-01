@@ -162,7 +162,8 @@
         "family": "Rôles Familiaux",
         "exclusive_family": "Rôle Familial Exclusif",
         "guest": "Rôle d'Invité",
-        "verified": "Rôle Vérifié"
+        "verified": "Rôle Vérifié",
+        "account_linked": "Account Linked Role"
       }
     },
     "contact_support": "Contacter l'assistance technique",

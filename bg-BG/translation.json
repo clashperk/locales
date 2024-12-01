@@ -162,7 +162,8 @@
         "family": "Family Roles",
         "exclusive_family": "Exclusive Family Role",
         "guest": "Guest Role",
-        "verified": "Потвърдена роля"
+        "verified": "Потвърдена роля",
+        "account_linked": "Account Linked Role"
       }
     },
     "contact_support": "Свържете се с отдела за поддръжка",
