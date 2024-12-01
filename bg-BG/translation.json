@@ -81,7 +81,7 @@
       "e_sports": "ЕЛЕКТРОННИ СПОРТОВЕ",
       "regular": "Обикновен",
       "friendly": "Приятелски",
-      "regular_and_cwl": "Regular and CWL",
+      "regular_and_cwl": "Обикновенни и CWL",
       "clan_games": "Клан игри",
       "league_reset": "Нулиране на лигата",
       "season_end": "Край на сезона",
@@ -100,70 +100,70 @@
       "raid_weekend_ending": "Рейд уикенд (край)",
       "legend_leaderboard": "Легендарни трофеи",
       "builder_legend_leaderboard": "Трофеи на строител",
-      "events_schedular": "Events Schedular",
-      "reminder_ping_exclusion": "Reminder Ping Exclusion",
+      "events_schedular": "График на събитията",
+      "reminder_ping_exclusion": "Изключване на пинг за напомняне",
       "roster": {
-        "add_players": "Add Players",
-        "remove_players": "Remove Players",
-        "change_roster": "Change Roster",
-        "change_group": "Change Group",
-        "ping_unregistered": "Unregistered (didn't signup, but in the clan)",
-        "ping_missing": "Missing (opted-in, but not in the clan)",
-        "ping_everyone": "Everyone (all opted-in members)"
+        "add_players": "Добавете играч",
+        "remove_players": "Премахване на играч",
+        "change_roster": "Промяна на списъка",
+        "change_group": "Промяна на групата",
+        "ping_unregistered": "Нерегистриран, (но в клана)",
+        "ping_missing": "Липсва (включен, но не в клана)",
+        "ping_everyone": "Всички (всички включени членове)"
       },
       "flag": {
-        "ban": "Ban",
-        "strike": "Strike"
+        "ban": "Бан",
+        "strike": "Страйк"
       },
       "nickname": {
-        "default_account": "Default Account",
-        "best_account": "Best Account",
-        "default_or_best_account": "Default or Best Account"
+        "default_account": "Акаунт по подразбиране",
+        "best_account": "Най-добър акаунт",
+        "default_or_best_account": "Стандартен или най-добър акаунт"
       },
       "history": {
-        "capital_contribution": "Capital Contribution",
-        "cwl_attacks": "CWL Attacks",
-        "donations": "Donations/Received",
-        "attacks": "Attacks/Defenses",
-        "loot": "Loot (Gold/Elixir/Dark)",
-        "join_leave": "Join/Leave",
-        "legend_attacks": "Legend Attacks",
-        "eos_trophies": "Season end Trophies"
+        "capital_contribution": "Капиталов принос",
+        "cwl_attacks": "CWL атаки",
+        "donations": "Дарения/Получени",
+        "attacks": "Атаки/защити",
+        "loot": "Плячка (Злато/Еликсир/Тъмен)",
+        "join_leave": "Присъединяване/Напускане",
+        "legend_attacks": "Легендарни Атаки",
+        "eos_trophies": "Трофеи в края на сезона"
       },
       "stats": {
-        "no_cwl": "Regular and Friendly",
-        "all": "Regular, CWL and Friendly",
-        "fresh": "Fresh",
-        "cleanup": "Cleanup"
+        "no_cwl": "Обикновенни и Приятелски",
+        "all": "Обикновенни, CWL и Приятелски",
+        "fresh": "Свеж",
+        "cleanup": "Пречистване"
       },
       "setup": {
-        "server_link": "Server Link",
-        "channel_link": "Channel Link",
-        "delete_clan": "Delete clan",
-        "logs_or_feed": "Logs / Feed (New)",
+        "server_link": "Връзка към сървъра",
+        "channel_link": "Връзка към канала",
+        "delete_clan": "Изтриване на клана",
+        "logs_or_feed": "Регистри / емисии (ново)",
         "war_feed": "War Feed",
-        "last_seen": "Last Seen",
-        "legend_log": "Legend Log",
+        "last_seen": "Последно виждане",
+        "legend_log": "Дневник на легендите",
         "capital_log": "Capital Log",
         "clan_feed": "Clan Feed",
         "join_leave": "Join/Leave Log",
         "clan_embed": "Clan Embed",
-        "donation_log": "Donation Log"
+        "donation_log": "Дневник за дарения"
       },
       "autorole": {
-        "clan_roles": "Clan Roles",
-        "town_hall": "Town Hall Roles",
-        "leagues": "Leagues Roles",
-        "builder_hall": "Builder Hall Roles",
-        "builder_leagues": "Builder Leagues Roles",
-        "wars": "War Roles",
-        "eos_push": "End of Season Push Role",
-        "family_leaders": "Family Leaders Role",
-        "family": "Family Roles",
-        "exclusive_family": "Exclusive Family Role",
-        "guest": "Guest Role",
+        "clan_roles": "Роли на клана",
+        "town_hall": "Роли в кметството",
+        "leagues": "Лиги Роли",
+        "builder_hall": "Роли на Builder Hall",
+        "builder_leagues": "Роли в лигите на строителите",
+        "wars": "Военни роли",
+        "eos_push": "Натискаща роля в края на сезона",
+        "family_leaders": "Роля на семейни лидери",
+        "family": "Семейни роли",
+        "exclusive_family": "Изключителна семейна роля",
+        "guest": "Роля на гост",
         "verified": "Потвърдена роля",
-        "account_linked": "Account Linked Role"
+        "account_linked": "Роля, свързана с акаунт"
       }
     },
     "contact_support": "Свържете се с отдела за поддръжка",
@@ -267,1229 +267,1229 @@
     },
     "lastseen": {
       "description": "Последно видяно време и дейности на членовете на клана.",
-      "title_lastseen": "Last seen and activity scores (last 24h)",
-      "title_activity": "Clan member activities (last 30d)"
+      "title_lastseen": "Последно виждане и резултати за активност (последните 24 часа)",
+      "title_activity": "Дейности на членовете на клана (последните 30 дни)"
     },
     "alias": {
-      "description": "Create, delete or view clan aliases.",
+      "description": "Създавайте, изтривайте или преглеждайте псевдоними на кланове.",
       "create": {
-        "description": "Creates a clan alias (short code or abbreviation) or clan nickname.",
+        "description": "Създава псевдоним на клана (кратък код или съкращение) или псевдоним на клана.",
         "options": {
           "alias_name": {
-            "description": "Name of the alias."
+            "description": "Име на псевдонима."
           },
           "clan_nickname": {
-            "description": "Nickname of the clan (Experimental)"
+            "description": "Псевдоним на клана (Експериментален)"
           }
         },
-        "no_name": "You must specify an alias name to execute this command.",
-        "no_hash": "A clan alias must not start with a hash.",
-        "no_whitespace": "A clan alias must not contain whitespace.",
-        "no_clan": "You must specify a clan tag to execute this command.",
-        "exists": "An alias with the name {{name}} already exists.",
-        "clan_not_linked": "The clan must be linked to the server to create an alias.",
-        "success": "Clan alias or nickname updated."
+        "no_name": "Трябва да предоставите клан таг, за да изпълните тази команда.",
+        "no_hash": "Псевдонимът на клана не трябва да започва с хеш.",
+        "no_whitespace": "Псевдонимът на клана не трябва да съдържа интервал.",
+        "no_clan": "Трябва да предоставите клан таг, за да изпълните тази команда.",
+        "exists": "Вече съществува псевдоним с име {{name}} .",
+        "clan_not_linked": "Кланът трябва да бъде свързан със сървъра, за да създаде псевдоним.",
+        "success": "Псевдонимът или прякорът на клана е актуализиран."
       },
       "delete": {
-        "description": "Deletes a clan alias.",
+        "description": "Изтрива псевдоним на клан.",
         "options": {
           "name": {
-            "description": "Tag of a clan or name of an alias"
+            "description": "Таг на клан или име на псевдоним"
           }
         },
-        "no_name": "You must provide a clan tag or clan alias to execute this command.",
-        "no_result": "No matches were found with the tag or alias {{name}}.",
-        "success": "Successfully deleted the clan alias {{name}}."
+        "no_name": "Трябва да предоставите клан таг, за да изпълните тази команда.",
+        "no_result": "Не бяха намерени съвпадения с етикета {{name}}.",
+        "success": "Успешно изтрит псевдонима на клана {{name}}."
       },
       "list": {
-        "description": "List all clan aliases.",
-        "title": "Clan Aliases"
+        "description": "Избройте всички псевдоними на клана.",
+        "title": "Кланови псевдоними"
       }
     },
     "config": {
-      "description": "Configure server settings.",
+      "description": "Конфигурирайте настройките на сървъра.",
       "options": {
         "color_code": {
-          "description": "Hex color code (e.g #ed4245)"
+          "description": "Шестнадесетичен код на цвета (напр. #ed4245)"
         },
         "manager_role": {
-          "description": "Role that can manage the bot."
+          "description": "Роля, която може да управлява бота."
         },
         "roster_manager_role": {
-          "description": "Role that can manage the roster members."
+          "description": "Роля, която може да управлява членовете на списъка."
         },
         "flags_manager_role": {
-          "description": "Role that can manage the flags."
+          "description": "Роля, която може да управлява флаговете."
         },
         "links_manager_role": {
-          "description": "Role that can manage the Discord links."
+          "description": "Роля, която може да управлява връзките към Discord."
         },
         "webhook_limit": {
-          "description": "The maximum number of webhooks that can be created in a channel."
+          "description": "Максималният брой уеб кукички, които могат да бъдат създадени в канал."
         }
       },
-      "no_text_channel": "You must specify a text channel to enable this event log.",
-      "title": "Server Settings",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "no_text_channel": "Трябва да посочите текстов канал, за да активирате този регистър на събитията.",
+      "title": "Сървърни Настройки",
+      "maintenance_notification_channel": "Канал за уведомяване за прекъсване на поддръжката"
     },
     "debug": {
-      "description": "Displays some basic debug information."
+      "description": "Показва основна информация за отстраняване на грешки."
     },
     "cwl": {
-      "description": "CWL season summary and overview.",
-      "still_searching": "Your clan {{clan}} is still searching for the opponent.",
-      "not_in_season": "Your clan {{clan}} is not in the CWL season.",
-      "no_rounds": "No CWL rounds have been played yet, try again after some time.",
-      "no_season_data": "No CWL stats are available for the season {{season}}.",
+      "description": "Резюме и преглед на сезона на CWL.",
+      "still_searching": "Вашият клан {{clan}} все още търси противника.",
+      "not_in_season": "Вашият клан {{clan}} не е в CWL сезона.",
+      "no_rounds": "Все още не са изиграни CWL кръгове, опитайте отново след известно време.",
+      "no_season_data": "Няма налична CWL статистика за сезона {{season}}.",
       "attacks": {
-        "description": "Shows an overview of attacks for different CWL rounds."
+        "description": "Показва общ преглед на атаките за различни CWL кръгове."
       },
       "lineup": {
-        "description": "Shows CWL lineup for a round (sorted by town hall and heroes)."
+        "description": "Показва състава на CWL за кръг (сортирани по кметство и герои)."
       },
       "members": {
-        "description": "Shows a list of all CWL participants."
+        "description": "Показва списък на всички участници в CWL."
       },
       "history": {
-        "description": "Shows CWL history of a player or user."
+        "description": "Показва CWL история на играч или потребител."
       },
       "roster": {
-        "description": "CWL roster and town hall distribution."
+        "description": "CWL списък и разпространение в кметството."
       },
       "round": {
-        "description": "CWL summary for the current round.",
+        "description": "Обобщение на CWL за текущия кръг.",
         "options": {
           "round": {
-            "description": "Round number to show."
+            "description": "Кръгло число за показване."
           },
           "season": {
-            "description": "CWL season"
+            "description": "CWL сезон"
           }
         }
       },
       "stars": {
-        "description": "Shows CWL member ranking by stars."
+        "description": "Показва класирането на членовете на CWL по звезди."
       },
       "stats": {
-        "description": "Shows an overview of all CWL rounds and group standings."
+        "description": "Показва общ преглед на всички кръгове на CWL и групово класиране."
       }
     },
     "roster": {
-      "description": "Comprehensive roster management system",
+      "description": "Пълна система за управление на списъка",
       "create": {
-        "description": "Create a roster",
+        "description": "Създайте списък",
         "options": {
           "clan": {
-            "description": "Clan of the roster"
+            "description": "Клан от списъка"
           },
           "name": {
-            "description": "Name of the roster"
+            "description": "Име на списъка"
           },
           "category": {
-            "description": "Category of the roster"
+            "description": "Категория на списъка"
           },
           "import_members": {
-            "description": "Whether to import members from the clan"
+            "description": "Дали да се импортират членове от клана"
           },
           "allow_unlinked": {
-            "description": "Whether to allow unlinked members"
+            "description": "Дали да се разрешат несвързани членове"
           },
           "max_members": {
-            "description": "Roster size"
+            "description": "Размер на списъка"
           },
           "max_accounts_per_user": {
-            "description": "Max accounts per user"
+            "description": "Макс. акаунти на потребител"
           },
           "min_town_hall": {
-            "description": "Minimum Town Hall level"
+            "description": "Минимално ниво на кметството"
           },
           "max_town_hall": {
-            "description": "Maximum Town Hall level"
+            "description": "Максимално ниво на кметството"
           },
           "min_hero_level": {
-            "description": "Minimum combined Hero level"
+            "description": "Минимално комбинирано ниво на герой"
           },
           "roster_role": {
-            "description": "Roster role"
+            "description": "Роля в списъка"
           },
           "sort_by": {
-            "description": "Sorting order of the roster member list"
+            "description": "Ред на сортиране на списъка с членове на списъка"
           },
           "start_time": {
-            "description": "Roster start time (YYYY-MM-DD HH:mm, in 24 hours format)"
+            "description": "Начален час на списъка (ГГГГ-ММ-ДД ЧЧ:мм, във формат 24 часа)"
           },
           "end_time": {
-            "description": "Roster end time (YYYY-MM-DD HH:mm, in 24 hours format)"
+            "description": "Краен час на списъка (ГГГГ-ММ-ДД ЧЧ:мм, във формат 24 часа)"
           },
           "timezone": {
-            "description": "Search timezone by city or country (e.g. London, Singapore, India, Sydney)"
+            "description": "Търсете часова зона по град или държава (напр. Лондон, Сингапур, Индия, Сидни)"
           },
           "allow_group_selection": {
-            "description": "Whether to allow members to select group"
+            "description": "Дали да се позволи на членовете да избират група"
           },
           "allow_multi_signup": {
-            "description": "Whether to allow multiple roster signups"
+            "description": "Дали да се разрешат записвания на няколко списъка"
           },
           "use_clan_alias": {
-            "description": "Whether to use clan alias in the roster (created by /alias command)"
+            "description": "Дали да се използва псевдоним на клана в списъка (създаден от команда /alias)"
           },
           "roster_image_url": {
-            "description": "Image to be used in the roster embed"
+            "description": "Изображение, което да се използва във вграждането на списъка"
           },
           "color_code": {
-            "description": "Hex color code of the roster embed"
+            "description": "Шестнадесетичен цветен код на вградения списък"
           }
         }
       },
       "post": {
-        "description": "Post a roster to signup or view members",
+        "description": "Публикувайте списък, за да се регистрирате или да видите членове",
         "options": {
           "roster": {
-            "description": "Select a roster to post"
+            "description": "Изберете списък за публикуване"
           }
         }
       },
       "clone": {
-        "description": "Clone a roster to create a new one",
+        "description": "Клонирайте списък, за да създадете нов",
         "options": {
           "roster": {
-            "description": "Select a roster to clone"
+            "description": "Изберете списък за клониране"
           },
           "name": {
-            "description": "Name of the cloned roster"
+            "description": "Име на клонирания списък"
           }
         }
       },
       "list": {
-        "description": "Search rosters or list all rosters and groups",
+        "description": "Търсете списъци или избройте всички списъци и групи",
         "options": {
           "name": {
-            "description": "Search rosters by name"
+            "description": "Търсете списъци по име"
           },
           "user": {
-            "description": "Search rosters by user"
+            "description": "Търсете списъци по потребител"
           },
           "player": {
-            "description": "Search rosters by player"
+            "description": "Търсете списъци по играч"
           },
           "clan": {
-            "description": "Search rosters by clan"
+            "description": "Търсете списъци по клан"
           }
         }
       },
       "edit": {
-        "description": "Edit a roster",
+        "description": "Редактиране на списък",
         "options": {
           "roster": {
-            "description": "Select a roster to edit"
+            "description": "Изберете списък за редактиране"
           },
           "detach_clan": {
-            "description": "Detach clan from the roster"
+            "description": "Отделете клана от списъка"
           },
           "delete_role": {
-            "description": "Whether to delete the roster role"
+            "description": "Дали да се изтрие ролята на списъка"
           },
           "log_channel": {
-            "description": "Channel to log roster changes"
+            "description": "Канал за регистриране на промените в списъка"
           }
         }
       },
       "delete": {
-        "description": "Permanently delete a roster.",
+        "description": "Изтриване за постоянно на списък.",
         "options": {
           "roster": {
-            "description": "Select a roster to delete"
+            "description": "Изберете списък за изтриване"
           }
         }
       },
       "manage": {
-        "description": "Add or remove users or change their group or roster",
+        "description": "Добавете или премахнете потребители или променете тяхната група или списък",
         "options": {
           "roster": {
-            "description": "Select a roster to manage"
+            "description": "Изберете списък за управление"
           },
           "action": {
-            "description": "Select an action to perform"
+            "description": "Изберете &действие:"
           },
           "player": {
-            "description": "Select a player to manage"
+            "description": "Изберете играч за управление"
           },
           "clan": {
-            "description": "Select a clan to add players from"
+            "description": "Изберете клан, от който да добавите играчи"
           },
           "user": {
-            "description": "Select a user to manage"
+            "description": "Изберете потребител за управление"
           },
           "target_group": {
-            "description": "Group of the user to move to"
+            "description": "Група на потребителя, към която да се премести"
           },
           "target_roster": {
-            "description": "Roster of the user to move to"
+            "description": "Списък на потребителя, към който да се премести"
           }
         }
       },
       "groups": {
-        "description": "Manage groups of the rosters",
+        "description": "Управлявайте групи от списъци",
         "options": {
           "selectable": {
-            "description": "Whether to allow members to select this group"
+            "description": "Дали да се позволи на членовете да избират тази група"
           },
           "name": {
-            "description": "Name of the group"
+            "description": "Име на групата"
           },
           "group_role": {
-            "description": "Role of the group"
+            "description": "Роля на групата"
           },
           "group": {
-            "description": "Select a group to modify"
+            "description": "Изберете група за промяна"
           },
           "order": {
-            "description": "Order of the group"
+            "description": "Ред на групата"
           },
           "delete_role": {
-            "description": "Whether to delete the role of the group"
+            "description": "Дали да изтриете ролята на групата"
           },
           "delete_group": {
-            "description": "Whether to delete the group"
+            "description": "Дали да изтриете групата"
           }
         },
         "create": {
-          "description": "Create a group"
+          "description": "Създай група"
         },
         "modify": {
-          "description": "Modify or delete a group"
+          "description": "Промяна или изтриване на група"
         }
       },
       "ping": {
-        "description": "Ping members in the roster",
+        "description": "Пинг членовете в списъка",
         "options": {
           "roster": {
-            "description": "Select a roster to ping"
+            "description": "Изберете списък за ping"
           },
           "message": {
-            "description": "Message for the members"
+            "description": "Съобщение за членовете"
           },
           "ping_option": {
-            "description": "Select a ping option"
+            "description": "Изберете опция за пинг"
           },
           "group": {
-            "description": "Select a group to ping (overwrites ping_option)"
+            "description": "Изберете група за ping (заменя ping_option)"
           }
         }
       }
     },
     "export": {
-      "description": "Export war/season/clan stats to Excel.",
+      "description": "Експортирайте статистика за война/сезон/клан в Excel.",
       "options": {
         "wars": {
-          "description": "Number of wars (Default: 25)"
+          "description": "Брой войни (По подразбиране: 25)"
         }
       },
       "cwl": {
-        "description": "Export CWL stats to Excel.",
+        "description": "Експортирайте CWL статистика в Excel.",
         "options": {
           "lineup_only": {
-            "description": "Export only the lineup."
+            "description": "Експортирайте само състава."
           }
         }
       },
       "last_wars": {
-        "description": "Export participation history (last played wars)",
+        "description": "Експортиране на история на участието (последно играни войни)",
         "options": {
           "war_type": {
-            "description": "Regular or CWL"
+            "description": "Обикновенни и CWL"
           }
         }
       },
       "members": {
-        "description": "Export a comprehensive version of clan member stats."
+        "description": "Експортирайте цялостна версия на статистиката на членовете на клана."
       },
       "missed": {
-        "description": "Export missed attack history."
+        "description": "Експортирайте историята на пропуснатите атаки."
       },
       "season": {
-        "description": "Export comprehensive seasonal stats of clan members."
+        "description": "Експортирайте изчерпателна сезонна статистика на членовете на клана."
       },
       "wars": {
-        "description": "Export War stats to Excel.",
+        "description": "Експортирайте военни статистики в Excel.",
         "options": {
           "war_type": {
-            "description": "Regular or friendly wars (defaults to Regular)"
+            "description": "Редовни или приятелски войни (по подразбиране е Редовен)"
           }
         }
       },
       "user": {
-        "description": "Export Discord members",
+        "description": "Експортирайте членове на Discord",
         "options": {
           "role": {
-            "description": "Role to filter users."
+            "description": "Роля за филтриране на потребители."
           }
         }
       },
       "attack_log": {
-        "description": "Export war attack history.",
+        "description": "Експортиране на история на военни атаки.",
         "options": {
           "war_type": {
-            "description": "CWL or Regular wars (default to Regular and CWL)"
+            "description": "CWL или обикновени войни (по подразбиране са обикновени и CWL)"
           }
         }
       },
       "capital_raids": {
-        "description": "[Experimental] Export capital raid attack stats."
+        "description": "[Експериментално] Експортиране на статистически данни за атаки на капиталови нападения."
       },
       "capital": {
-        "description": "Export clan capital weekends."
+        "description": "Износ на клан капитал през уикендите."
       },
       "rosters": {
-        "description": "Export all rosters.",
+        "description": "Експортирайте всички списъци.",
         "options": {
           "category": {
-            "description": "Roster category."
+            "description": "Категория на списъка."
           }
         }
       }
     },
     "flag": {
-      "description": "Create, delete or search player flags.",
+      "description": "Създавайте, изтривайте или търсете флагове на играчи.",
       "options": {
         "flag_type": {
-          "description": "The type of the flag (ban or strike)"
+          "description": "Видът на флага (забрана или стачка)"
         }
       },
       "create": {
-        "description": "Create a player flag to mark the player as banned or flagged.",
+        "description": "Създайте флаг на играч, за да маркирате играча като забранен или маркиран.",
         "options": {
           "tag": {
-            "description": "The tag of a player to flag."
+            "description": "Етикетът на играч, който да маркира."
           },
           "reason": {
-            "description": "Reason for the flag."
+            "description": "Причина за знамето."
           },
           "flag_expiry_days": {
-            "description": "Flag expiry days (auto deletes the flag)"
+            "description": "Дни на валидност на флага (автоматично изтрива флага)"
           },
           "flag_impact": {
-            "description": "Number of flags this should count as"
+            "description": "Брой флагове, за които трябва да се счита"
           }
         },
-        "no_reason": "You must provide a reason for the flag.",
-        "reason_max_limit": "The reason must be 1024 or fewer in length.",
-        "success": "Successfully flagged {{count}} player(s). \n{{players}}"
+        "no_reason": "Трябва да предоставите причина за флага.",
+        "reason_max_limit": "Причината трябва да е с дължина 1024 или по-малко.",
+        "success": "Успешно маркирани {{count}} играч(и).\n{{players}}"
       },
       "delete": {
-        "description": "Delete a player flag.",
+        "description": "Изтриване на флаг на играч.",
         "options": {
           "tag": {
-            "description": "The tag of a player to delete."
+            "description": "Етикетът на играч за изтриване."
           },
           "flag_ref": {
-            "description": "Flag reference of this player."
+            "description": "Справка за флаг на този играч."
           }
         },
-        "no_tag": "You must provide a player tag to delete a flag.",
-        "success": "Successfully deleted the flag with the tag {{tag}}."
+        "no_tag": "Трябва да предоставите етикет на играч, за да изтриете флаг.",
+        "success": "Успешно изтрит флаг с етикет {{tag}}."
       },
       "list": {
-        "description": "List all player flags.",
+        "description": "Избройте всички флагове на играчите.",
         "options": {
           "player": {
-            "description": "Show all flags against a player"
+            "description": "Показване на всички знамена срещу играч"
           },
           "export": {
-            "description": "Export all player flags to Excel."
+            "description": "Експортирайте всички флагове на играчи в Excel."
           }
         },
-        "no_flags": "No flags have been created."
+        "no_flags": "Няма създадени флагове."
       },
       "search": {
-        "description": "Search for a player flag.",
+        "description": "Потърсете флаг на играч.",
         "options": {
           "tag": {
-            "description": "The tag of a player to search."
+            "description": "Етикетът на играч за търсене."
           }
         }
       }
     },
     "link": {
-      "description": "Create, delete or list player links.",
-      "no_tag": "You must specify a player/clan tag to execute this command.",
+      "description": "Създавайте, изтривайте или изброявайте връзки към играчи.",
+      "no_tag": "Трябва да предоставите клан таг, за да изпълните тази команда.",
       "create": {
-        "description": "Links a player account/clan to a Discord account.",
+        "description": "Свързва акаунт/клан на играч с акаунт в Discord.",
         "options": {
           "user": {
-            "description": "User account to link to the tag."
+            "description": "Потребителски акаунт за свързване към маркера."
           },
           "is_default": {
-            "description": "Whether to set this as the default account."
+            "description": "Дали да се зададе това като акаунт по подразбиране."
           },
           "player_tag": {
-            "description": "The player tag to link."
+            "description": "Етикетът на играча за връзка."
           },
           "clan_tag": {
-            "description": "The default clan tag to link."
+            "description": "Стандартният таг на клана за свързване."
           }
         },
-        "no_bots": "Bot accounts are not allowed to be linked.",
-        "fail": "This player or clan tag is not valid.",
-        "prompt": "What would you like to link? A Player or a Clan?",
-        "success": "Successfully linked {{target}} to {{user}}.",
-        "link_exists": "{{player}} is already linked.",
-        "already_linked": "{{player}} is already linked to another user. If you own this account, please use the {{command}} command.",
-        "max_limit": "The maximum account limit has been reached. (25 accounts/user)"
+        "no_bots": "Не е разрешено свързването на бот акаунти.",
+        "fail": "Този етикет на играч или клан не е валиден.",
+        "prompt": "Какво бихте искали да свържете? Играч или клан?",
+        "success": "{{target}} {{user}}е свързано успешно.",
+        "link_exists": "{{player}} вече е свързан.",
+        "already_linked": "{{player}} вече е свързан с друг потребител. Ако притежавате този акаунт, моля, използвайте командата {{command}} .",
+        "max_limit": "Максималният лимит на акаунта е достигнат. (25 акаунта/потребител)"
       },
       "delete": {
-        "description": "Deletes a player account/clan from a Discord account.",
+        "description": "Изтрива акаунт/клан на играч от акаунт в Discord.",
         "options": {
           "player_tag": {
-            "description": "The player tag to unlink."
+            "description": "Етикетът на играча, за да прекратите връзката."
           },
           "clan_tag": {
-            "description": "The clan tag to unlink."
+            "description": "Маркерът на клана за прекратяване на връзката."
           }
         },
-        "success": "Successfully deleted the link with the tag {{tag}}.",
-        "no_access": "This player should be in your clan and you must be a \"Verified\" Co/Leader to perform this action. Use {{command}} to verify your account."
+        "success": "Връзката с етикета {{tag}}е изтрита успешно.",
+        "no_access": "Този играч трябва да е във вашия клан и вие трябва да сте „потвърден“ съ/лидер, за да извършите това действие. Използвайте {{command}} , за да потвърдите акаунта си."
       },
       "list": {
-        "description": "List all player links of a clan."
+        "description": "Избройте всички връзки на играчи на клан."
       }
     },
     "verify": {
-      "description": "Verify and link a player account using an API token.",
+      "description": "Потвърдете и свържете акаунт на играч с помощта на API токен.",
       "options": {
         "tag": {
-          "description": "Tag of the player to verify."
+          "description": "Етикет на играча за проверка."
         },
         "token": {
-          "description": "API token that can be found in the game settings."
+          "description": "API токен, който може да се намери в настройките на играта."
         }
       },
-      "success": "Verification successful! {{info}}",
-      "invalid_token": "You must provide a valid API Token that can be found in the game settings. \nhttps://i.imgur.com/8dsoUB8.jpg"
+      "success": "Проверката е успешна! {{info}}",
+      "invalid_token": "Трябва да предоставите валиден API Token, който може да бъде намерен в настройките на играта. \nhttps://i.imgur.com/8dsoUB8.jpg"
     },
     "timezone": {
-      "description": "Set your timezone offset for /activity command.",
+      "description": "Задайте отместването на вашата часова зона за командата /activity.",
       "options": {
         "location": {
-          "description": "Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)"
+          "description": "Търсете часова зона по град или държава. (напр. Лондон, Ню Йорк, Сингапур, Индия, Сидни)"
         }
       },
-      "set": "Please set your timezone with the `/timezone` command. It enables you to view the graphs in your timezone.",
-      "no_result": "Make your search more specific and try again."
+      "set": "Моля, задайте вашата часова зона с командата `/timezone`. Позволява ви да преглеждате графиките във вашата часова зона.",
+      "no_result": "Направете търсенето си по-конкретно и опитайте отново."
     },
     "profile": {
-      "description": "Shows linked accounts and clan of a user.",
+      "description": "Показва свързани акаунти и клан на потребител.",
       "options": {
         "user": {
-          "description": "User ID or @user mention."
+          "description": "Потребителско име или @user споменаване."
         }
       }
     },
     "nickname": {
-      "description": "Manage automatic nickname settings.",
+      "description": "Управлявайте настройките за автоматичен псевдоним.",
       "config": {
-        "description": "Configure automatic server nickname settings.",
+        "description": "Конфигуриране на автоматични настройки за псевдоним на сървъра.",
         "options": {
           "family_nickname_format": {
-            "description": "Set family nickname format (e.g. {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME})"
+            "description": "Задайте формат на семейния псевдоним (напр. {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME})"
           },
           "non_family_nickname_format": {
-            "description": "Set non-family nickname format (e.g. {NAME} | {TH})"
+            "description": "Задайте формат на несемейния псевдоним (напр. {NAME} | {TH})"
           },
           "change_nicknames": {
-            "description": "Whether to update nicknames automatically."
+            "description": "Дали псевдонимите да се актуализират автоматично."
           },
           "account_preference_for_naming": {
-            "description": "Whether to use the default account or the best account in the family."
+            "description": "Дали да използвате акаунта по подразбиране или най-добрия акаунт в семейството."
           }
         }
       }
     },
     "reminders": {
-      "description": "Setup reminders for clan wars, capital raids.",
+      "description": "Настройване на напомняния за кланови войни, капиталови набези.",
       "options": {
         "message": {
-          "description": "Reminder message for the notification."
+          "description": "Напомнящо съобщение за известието."
         },
         "reminder_id": {
-          "description": "Reminder ID (use /reminders list to get the ID)"
+          "description": "ID на напомняне (използвайте /reminders list, за да получите ID)"
         }
       },
       "create": {
-        "description": "Create reminders for clan wars, capital raids or clan games.",
+        "description": "Създавайте напомняния за кланови войни, капиталови набези или кланови игри.",
         "options": {
           "type": {
-            "description": "Type of the reminder."
+            "description": "Вид на напомнянето."
           },
           "duration": {
-            "description": "Remaining duration to mention members (e.g. 6h, 12h, 1d, 2d)"
+            "description": "Оставаща продължителност за споменаване на членове (напр. 6 часа, 12 часа, 1 ден, 2 дни)"
           },
           "exclude_participants": {
-            "description": "Whether to exclude participant list and only include the message (clan wars only)"
+            "description": "Дали да се изключи списък с участници и да се включи само съобщението (само за кланови войни)"
           },
           "channel": {
-            "description": "Reminder channel for the notification."
+            "description": "Канал за напомняне за известието."
           }
         },
-        "max_limit": "You can only have 25 reminders.",
-        "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
-        "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
-        "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
-        "too_many_clans": "The clan selection menu is not available for more than 25 clans. {{clans}} clans were selected automatically!\nTo create a reminder for specific clans, pass clan tags or aliases through the 'clans' option while executing the command.",
-        "success": "Successfully saved!"
+        "max_limit": "Можете да имате само 25 напомняния.",
+        "invalid_duration_format": "Продължителността трябва да е във валиден формат. напр. 2 часа, 2,5 часа, 30 минути",
+        "duration_limit": "Продължителността трябва да е по-голяма от 15 минути и по-малка от 48 часа.",
+        "duration_order": "Продължителността трябва да е кратна на 15 минути. напр. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
+        "too_many_clans": "Менюто за избор на клан не е достъпно за повече от 25 клана. {{clans}} кланове бяха избрани автоматично!\nЗа да създадете напомняне за конкретни кланове, прехвърлете етикети или псевдоними на кланове през опцията 'кланове', докато изпълнявате командата.",
+        "success": "Успешно запазване"
       },
       "edit": {
-        "description": "Edit a reminder by ID (do /reminders list to get the ID)"
+        "description": "Редактирайте напомняне по ID (направете /reminders list, за да получите ID)"
       },
       "delete": {
-        "description": "Delete a reminder by ID (do /reminders list to get the ID)",
+        "description": "Изтриване на напомняне по ID (направете /reminders list, за да получите ID)",
         "options": {
           "clear": {
-            "description": "Whether to clear all reminders."
+            "description": "Дали да се изчистят всички напомняния."
           }
         },
-        "cleared": "Successfully cleared all reminders.",
-        "not_found": "No reminder was found with the ID {{id}}.",
-        "success": "Successfully deleted the reminder with the ID {{id}}.",
-        "too_many_reminders": "If you have too many reminders, please provide a reminder ID."
+        "cleared": "Всички напомняния са изчистени успешно.",
+        "not_found": "Не беше намерено напомняне с ID {{id}}.",
+        "success": "Успешно изтрито напомняне с ID {{id}}.",
+        "too_many_reminders": "Ако имате твърде много напомняния, моля, предоставете ID на напомняне."
       },
       "list": {
-        "description": "List all war reminders for clan wars, capital raids or clan games.",
+        "description": "Избройте всички напомняния за война за кланови войни, капиталови нападения или кланови игри.",
         "options": {
           "compact_list": {
-            "description": "Show a compact list of the reminders and disable ephemeral."
+            "description": "Показване на компактен списък с напомняния и деактивиране на ефимерните."
           },
           "reminder_id": {
-            "description": "List a reminder by ID (do /reminders list to get the ID)"
+            "description": "Избройте напомняне по ID (направете /reminders list, за да получите ID)"
           }
         }
       },
       "now": {
-        "description": "Create an instant reminder to notify members.",
-        "no_match": "There are no wars or no members that are matching with the selected options."
+        "description": "Създайте незабавно напомняне, за да уведомите членовете.",
+        "no_match": "Няма войни или членове, които съответстват на избраните опции."
       },
-      "no_reminders": "You have no reminders.",
-      "no_message": "You must specify a message to execute this command."
+      "no_reminders": "Нямате нови известия",
+      "no_message": "Трябва да предоставите клан таг, за да изпълните тази команда."
     },
     "history": {
-      "description": "Clan Games, Capital Raids, Donations, and CWL attacks history.",
+      "description": "Кланови игри, капиталови набези, дарения и история на атаките на CWL.",
       "options": {
         "clans": {
-          "description": "Select clans for the history."
+          "description": "Изберете кланове за историята."
         },
         "player": {
-          "description": "Select a player for the history."
+          "description": "Изберете играч за историята."
         },
         "user": {
-          "description": "Select a user for the history."
+          "description": "Изберете потребител за хронологията."
         }
       }
     },
     "army": {
-      "description": "Parse an army composition link.",
-      "no_link": "You must provide a valid army composition link.",
-      "invalid_link": "This army composition link is invalid.",
-      "possibly_invalid_link": "This link is invalid and may not work.",
+      "description": "Анализирайте връзка за състав на армия.",
+      "no_link": "Трябва да предоставите валидна връзка за състава на армията.",
+      "invalid_link": "Тази връзка към състава на армията е невалидна.",
+      "possibly_invalid_link": "Тази връзка е невалидна и може да не работи.",
       "options": {
         "link": {
-          "description": "Army composition link."
+          "description": "Връзка към състава на армията."
         },
         "name": {
-          "description": "An optional name for this army."
+          "description": "Незадължително име за тази армия."
         },
         "equipment": {
-          "description": "Hero equipment (type anything)"
+          "description": "Геройско оборудване (напишете каквото и да е)"
         },
         "pets": {
-          "description": "Hero pets (type anything)"
+          "description": "Домашни любимци герои (напишете каквото и да е)"
         },
         "clan_castle": {
-          "description": "Clan castle (type anything)"
+          "description": "Замък на клана (напишете каквото и да е)"
         },
         "tips": {
-          "description": "Some tips (type anything)"
+          "description": "Някои съвети (напишете каквото и да е)"
         }
       }
     },
     "attacks": {
-      "description": "Displays attack and defense info of clan members.",
+      "description": "Показва информация за атака и защита на членовете на клана.",
       "options": {
         "season": {
-          "description": "The season to show attacks for."
+          "description": "Сезонът за показване на атаки."
         }
       }
     },
     "defense": {
       "options": {
         "clan_only": {
-          "description": "Only show defense stats for the clan."
+          "description": "Показвайте само статистика за защита на клана."
         }
       }
     },
     "boosts": {
-      "description": "Displays active super troops of clan members.",
-      "no_boosts": "No members are boosting in this clan.",
-      "no_recent_boosts": "No recently active members are boosting in this clan.",
-      "no_unit_boosts": "No members are boosting {{unit}} in this clan.",
-      "no_recent_unit_boosts": "No recently active members are boosting {{unit}} in this clan."
+      "description": "Показва активни супер войски от членове на клана.",
+      "no_boosts": "Няма членове, които се повишават в този клан.",
+      "no_recent_boosts": "В този клан няма наскоро активни членове.",
+      "no_unit_boosts": "Никой член не повишава {{unit}} в този клан.",
+      "no_recent_unit_boosts": "Няма наскоро активни членове, които да повишават {{unit}} в този клан."
     },
     "clan": {
-      "description": "Shows comprehensive overview of a clan.",
+      "description": "Показва цялостен преглед на клана.",
       "options": {
         "by_player_tag": {
-          "description": "Get clan by a player tag."
+          "description": "Вземете клан чрез маркер на играч."
         }
       }
     },
     "compo": {
-      "description": "Shows Town Hall composition of a clan."
+      "description": "Показва състава на кметството на клан."
     },
     "donations": {
-      "description": "Shows donations and donations received of clan members.",
-      "no_season_data": "No data was found for the season {{season}}.",
+      "description": "Показва дарения и получени дарения от членове на клана.",
+      "no_season_data": "Не бяха намерени данни за сезона {{season}}.",
       "options": {
         "season": {
-          "description": "The season to show donations for."
+          "description": "Сезонът, за който да покажете дарения."
         },
         "user": {
-          "description": "Donation history of a linked user."
+          "description": "История на даренията на свързан потребител."
         },
         "player": {
-          "description": "Donation history of a player."
+          "description": "История на даренията на играч."
         }
       }
     },
     "caller": {
-      "description": "Manage the war base caller.",
+      "description": "Управлявайте обаждащия се на военната база.",
       "options": {
         "defense_target": {
-          "description": "The base target # of your opponent."
+          "description": "Базовата цел № на опонента ви."
         }
       },
       "assign": {
-        "description": "Set a target for a player in the current war.",
+        "description": "Задайте цел за играч в текущата война.",
         "options": {
           "offense_target": {
-            "description": "The base target # of your clan."
+            "description": "Основната цел № на вашия клан."
           },
           "notes": {
-            "description": "Notes to add to the target."
+            "description": "Бележки за добавяне към целта."
           },
           "hours": {
-            "description": "The number of hours to set the target for."
+            "description": "Броят часове, за които да зададете целта."
           }
         }
       },
       "clear": {
-        "description": "Clear the target for a player in the current war."
+        "description": "Изчистете целта за играч в текущата война."
       }
     },
     "lineup": {
-      "description": "Displays war line-up of a clan.",
-      "not_in_war": "The clan is not in a war."
+      "description": "Показва военния състав на клан.",
+      "not_in_war": "Кланът не е във война."
     },
     "members": {
-      "description": "Get a clan member list with heroes, trophies, war preferences and much more.",
-      "description_long": "List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc."
+      "description": "Вземете списък с членове на клана с герои, трофеи, предпочитания за война и много други.",
+      "description_long": "Списък на членовете на клана, сортиран по герои, трофеи, предпочитания за война, връзки към раздора, роли в клана, тагове на играч, атаки и т.н."
     },
     "player": {
-      "description": "Player summary and overview.",
-      "description_long": "Shows comprehensive overview of a player (including war attack history)"
+      "description": "Резюме и преглед на играча.",
+      "description_long": "Показва изчерпателен преглед на играч (включително история на военни атаки)"
     },
     "remaining": {
-      "description": "Shows remaining or missed war hits of a clan.",
+      "description": "Показва оставащи или пропуснати военни удари на клан.",
       "options": {
         "type": {
-          "description": "The type of remaining tasks to show."
+          "description": "Типът оставащи задачи за показване."
         },
         "player": {
-          "description": "Remaining attacks of a player."
+          "description": "Оставащи атаки на играч."
         },
         "user": {
-          "description": "Remaining attacks of a linked user."
+          "description": "Оставащи атаки на свързан потребител."
         }
       }
     },
     "rushed": {
-      "description": "Rushed units and rushed % of a player or clan members.",
-      "no_rushed": "No rushed units for Town Hall {{townhall}}.",
+      "description": "Прибързани единици и прибързан % от играч или членове на клана.",
+      "no_rushed": "Без бързи единици за кметството {{townhall}}.",
       "options": {
         "clan": {
-          "description": "Displays rushed units of a clan."
+          "description": "Показва бързи единици от клан."
         }
       }
     },
     "search": {
-      "description": "Search clans by name.",
-      "no_results": "No results were found.",
-      "searching": "Clans with the name '{{name}}'.",
+      "description": "Търсете кланове по име.",
+      "no_results": "Не бяха открити продукти.",
+      "searching": "Кланове с името '{{name}}'.",
       "options": {
         "name": {
-          "description": "Clan name (must be 3 characters long)"
+          "description": "Име на клана (трябва да е дълго 3 знака)"
         }
       }
     },
     "stats": {
-      "description": "Shows attack and defense stats of clan members.",
-      "no_stats": "No stats are available for this filter or clan.",
+      "description": "Показва статистика за атака и защита на членовете на клана.",
+      "no_stats": "Няма налична статистика за този филтър или клан.",
       "options": {
         "roster": {
-          "description": "Stats of a roster."
+          "description": "Статистика на списък."
         },
         "compare": {
-          "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
+          "description": "Сравнете кметствата (напр. 14 срещу 13, * срещу 15, всички, равни)"
         },
         "stars": {
-          "description": "War stars earned. (Default: 3)"
+          "description": "Военни звезди спечелиха. (По подразбиране: 3)"
         },
         "type": {
-          "description": "War Type [e.g. Regular, CWL, Friendly] (Default: Regular and CWL)"
+          "description": "Тип война [напр. Редовна, CWL, Приятелска] (По подразбиране: Редовна и CWL)"
         },
         "attempt": {
-          "description": "Fresh attacks or clean-up attacks. (Default: Both)"
+          "description": "Нови атаки или атаки за почистване. (По подразбиране: И двете)"
         },
         "days": {
-          "description": "Number of days to include (last x days of wars)"
+          "description": "Брой дни за включване (последните x дни от войните)"
         },
         "wars": {
-          "description": "Number of last wars to include."
+          "description": "Брой на последните войни за включване."
         },
         "filter_farm_hits": {
-          "description": "Filter out farm hits (1 star and < 50% destruction)"
+          "description": "Филтриране на попадения във ферма (1 звезда и < 50% унищожение)"
         },
         "clan_only": {
-          "description": "Only include the specified clan's war attacks."
+          "description": "Включете само военните атаки на посочения клан."
         }
       },
       "attacks": {
-        "description": "Shows attack success rates of clan members."
+        "description": "Показва степента на успешна атака на членовете на клана."
       },
       "defense": {
-        "description": "Shows defense failure rates of clan members."
+        "description": "Показва нивата на провал на защитата на членовете на клана."
       }
     },
     "units": {
-      "description": "Shows home village and builder base units of a player (with max/min levels)"
+      "description": "Показва родното село и базовите единици на играча (с макс./мин. нива)"
     },
     "upgrades": {
-      "description": "Remaining upgrades of a player with upgrading cost."
+      "description": "Оставащи надстройки на играч с цена за надграждане."
     },
     "war": {
-      "description": "Shows war summary and overview of a clan.",
-      "no_war_id": "No war was found for the specified war ID.",
-      "not_in_war": "Clan is not in a war.",
+      "description": "Показва резюме на войната и общ преглед на клан.",
+      "no_war_id": "Не е открита война за посочения идентификатор на война.",
+      "not_in_war": "Кланът не е във война.",
       "options": {
         "war_id": {
-          "description": "Search by war ID."
+          "description": "Търсене по военен идентификатор."
         }
       }
     },
     "warlog": {
-      "description": "Shows the last 10 clan war logs."
+      "description": "Показва последните 10 войни на кланове."
     },
     "setup": {
-      "description": "Enable/disable features on the server or add/remove clans.",
+      "description": "Активирайте/деактивирайте функции на сървъра или добавете/премахнете кланове.",
       "enable": {
-        "description": "Enable a feature on the server or add a clan.",
-        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
+        "description": "Активирайте функция на сървъра или добавете клан.",
+        "description_long": "Активирайте функция на сървъра (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) или добавете клан или свържете клан към канал.",
         "options": {
           "channel": {
-            "description": "Channel to send updates to (defaults to the current channel)"
+            "description": "Канал за изпращане на актуализации (по подразбиране е текущият канал)"
           },
           "color": {
-            "description": "Hex color code (only for donation log, clan games, last seen and clan embed)"
+            "description": "Цветен код (само за дневник за дарения, кланови игри, последно виждане и вграждане на клан)"
           },
           "role": {
-            "description": "Role for the flag notification (only for clan feed)"
+            "description": "Роля за известяване за флаг (само за емисия на клан)"
           },
           "category": {
-            "description": "Category of the clan. (select from the menu or type your own)"
+            "description": "Категория на клана. (изберете от менюто или въведете свое)"
           }
         },
-        "no_leader_link": "Clan Leader must be linked to the bot to enable this feature.",
+        "no_leader_link": "Лидерът на клана трябва да бъде свързан с бота, за да активира тази функция.",
         "server_link": {
-          "success": "Successfully linked {{clan}} to {{guild}}.",
-          "already_linked": "{{clan}} is already linked to {{guild}}."
+          "success": "{{clan}} с {{guild}}е свързан успешно.",
+          "already_linked": "{{clan}} вече е свързан с {{guild}}."
         },
         "channel_link": {
-          "description": "Link a channel to a clan.",
-          "already_linked": "{{clan}} is already linked to {{channel}}.",
-          "success": "Successfully linked {{clan}} to {{channel}}."
+          "description": "Свържете канал с клан.",
+          "already_linked": "{{clan}} вече е свързан с {{channel}}.",
+          "success": "{{clan}} с {{channel}}е свързан успешно."
         }
       },
       "disable": {
-        "description": "Disable a feature on the server or remove a clan.",
+        "description": "Деактивирайте функция на сървъра или премахнете клан.",
         "options": {
           "channel": {
-            "description": "Channel to be removed."
+            "description": "Канал за премахване."
           }
         },
-        "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
-        "channel_not_found": "No clans were found that are linked to {{channel}}.",
-        "clan_not_linked": "No clans were found on the server for the specified tag.",
-        "clan_deleted": "Successfully deleted {{clan}}.",
-        "feature_disabled": "Successfully disabled {{feature}} for {{clan}}."
+        "channel_unlink": "Връзката на {{clan}} от {{channel}}е успешно прекратена.",
+        "channel_not_found": "Не бяха намерени кланове, които да са свързани с {{channel}}.",
+        "clan_not_linked": "Няма намерени кланове на сървъра за посочения етикет.",
+        "clan_deleted": "Успешно изтрито {{clan}}.",
+        "feature_disabled": "Успешно деактивирано {{feature}} за {{clan}}."
       },
       "list": {
-        "description": "List all enabled features and clans.",
+        "description": "Избройте всички активирани функции и кланове.",
         "options": {
           "clans": {
-            "description": "Select the clans to list."
+            "description": "Изберете клановете за списък."
           }
         }
       },
       "utils": {
-        "description": "[DEPRECATED] Setup other utility features (link button, events schedular)",
+        "description": "[ОТСТАРЕНО] Настройте други помощни функции (бутон за връзка, график на събития)",
         "options": {
           "disable": {
-            "description": "Disable a scheduled event."
+            "description": "Деактивиране на планирано събитие."
           }
         }
       },
       "buttons": {
-        "description": "Setup buttons for the server.",
+        "description": "Бутони за настройка на сървъра.",
         "options": {
           "button_type": {
-            "description": "Select the button type to setup"
+            "description": "Изберете типа бутон за настройка"
           },
           "embed_color": {
-            "description": "Hex color code for the embed"
+            "description": "Шестнадесетичен код на цвета за вграждане"
           }
         }
       },
       "events": {
-        "description": "Setup automatic events for the server.",
+        "description": "Настройте автоматични събития за сървъра.",
         "options": {
           "disable": {
-            "description": "Disable the events schedular."
+            "description": "Деактивирайте графика на събитията."
           }
         }
       },
       "server_logs": {
-        "description": "Setup automatic logs for the server.",
+        "description": "Настройте автоматични регистрационни файлове за сървъра.",
         "options": {
           "log_type": {
-            "description": "Select the log type to setup."
+            "description": "Изберете типа журнал за настройка."
           },
           "disable": {
-            "description": "Whether to disable the log."
+            "description": "Дали да деактивирате дневника."
           }
         }
       },
       "clan_logs": {
-        "description": "Setup automatic logs for the clan.",
+        "description": "Настройте автоматични регистрационни файлове за клана.",
         "options": {
           "clan": {
-            "description": "Select the clan to setup logs."
+            "description": "Изберете клана, за да настроите регистрационни файлове."
           },
           "action": {
-            "description": "What logs to enable or disable."
+            "description": "Какви регистрационни файлове да активирате или деактивирате."
           }
         }
       }
     },
     "category": {
-      "description": "Manage clan categories or groups.",
+      "description": "Управлявайте категории или групи на кланове.",
       "options": {
         "category_name": {
-          "description": "Name of the clan category."
+          "description": "Име на категорията на клана."
         },
         "category": {
-          "description": "Select a clan category."
+          "description": "Изберете категория клан."
         }
       },
       "create": {
-        "description": "Create a new clan category."
+        "description": "Създайте нова категория на клана."
       },
       "list": {
-        "description": "List all clan categories."
+        "description": "Избройте всички категории кланове."
       },
       "edit": {
-        "description": "Edit a clan category."
+        "description": "Редактиране на клан категория."
       },
       "delete": {
-        "description": "Delete a clan category."
+        "description": "Изтриване на клан категория."
       }
     },
     "autorole": {
-      "description": "Enable automatic clan roles and Town Hall roles",
-      "no_roles": "You must specify 4 roles to execute this command.",
-      "no_system_roles": "System managed or bot roles are not allowed.",
-      "no_higher_roles": "Bot's highest role must be higher than the selected roles.",
-      "invalid_clan_tag": "The specified clan tag is invalid.",
-      "roles_already_used": "Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.",
-      "clan_not_linked": "The clan must be linked to the server to enable auto-role.",
-      "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}",
+      "description": "Активирайте автоматичните роли на клана и ролите на кметството",
+      "no_roles": "Трябва да предоставите клан таг, за да изпълните тази команда.",
+      "no_system_roles": "Не са разрешени роли, управлявани от системата или ботове.",
+      "no_higher_roles": "Най-високата роля на бота трябва да е по-висока от избраните роли.",
+      "invalid_clan_tag": "Посоченият етикет на клана е невалиден.",
+      "roles_already_used": "Някои роли вече са използвани за друг клан. \nМоля, помислете дали да ни подкрепите в [Patreon](https://patreon.com/clashperk), за да използваме едни и същи роли за множество кланове.",
+      "clan_not_linked": "Кланът трябва да бъде свързан със сървъра, за да активира автоматичната роля.",
+      "success_with_count": "Успешно активирана автоматична роля за {{count}} клан(ове). \n{{clans}}",
       "clan_roles": {
-        "description": "Manage automatic role management for clan roles.",
+        "description": "Управлявайте автоматично управление на роли за роли в клана.",
         "options": {
           "member": {
-            "description": "The Member role (below Elder)"
+            "description": "Ролята на член (под Старейшина)"
           },
           "elder": {
-            "description": "The Elder role."
+            "description": "Ролята на Старейшина."
           },
           "co_lead": {
-            "description": "The Co-Leader role."
+            "description": "Ролята на Co-Leader."
           },
           "leader": {
-            "description": "The Leader role."
+            "description": "Ролята на лидера."
           },
           "common_role": {
-            "description": "Clan role for everyone in the clan."
+            "description": "Кланова роля за всеки в клана."
           },
           "only_verified": {
-            "description": "Roles will be given to the verified players only. (API token verification is required)"
+            "description": "Ролите ще се дават само на проверените играчи. (Необходима е проверка на API токен)"
           }
         }
       },
       "leagues": {
-        "description": "Manage automatic role management for leagues."
+        "description": "Управлявайте автоматично управление на роли за лиги."
       },
       "builder_leagues": {
-        "description": "Set builder base league roles."
+        "description": "Задайте роли в базовата лига на строителя."
       },
       "town_hall": {
-        "description": "Manage automatic role management for town hall levels.",
+        "description": "Управлявайте автоматичното управление на ролите за нивата на кметството.",
         "options": {
           "allow_non_family_accounts": {
-            "description": "Whether to give roles to the members that are not in the family clans."
+            "description": "Дали да се дадат роли на членовете, които не са в семейните кланове."
           }
         }
       },
       "builder_hall": {
-        "description": "Manage automatic Builder Hall roles."
+        "description": "Управлявайте автоматичните роли на Builder Hall."
       },
       "wars": {
-        "description": "Set automatic war roles.",
+        "description": "Задайте автоматични военни роли.",
         "options": {
           "role": {
-            "description": "The war role."
+            "description": "Военната роля."
           },
           "clan": {
-            "description": "The clan for which to set the war role."
+            "description": "Кланът, за който да зададете военната роля."
           }
         }
       },
       "eos_push": {
-        "description": "Set end of season push roles.",
+        "description": "Задайте натискащи роли в края на сезона.",
         "options": {
           "role": {
-            "description": "The end of season push role."
+            "description": "Натискаща роля в края на сезона."
           },
           "clans": {
-            "description": "The clans for which to set the end of season push role."
+            "description": "Клановете, за които да зададете натискаща роля в края на сезона."
           }
         }
       },
       "family": {
-        "description": "Set family roles.",
+        "description": "Задайте семейни роли.",
         "options": {
           "family_leaders_role": {
-            "description": "Family leaders role (Leaders and Co-Leaders)"
+            "description": "Роля на семейни лидери (лидери и съ-лидери)"
           },
           "family_role": {
-            "description": "Family role."
+            "description": "Семейна роля."
           },
           "exclusive_family_role": {
-            "description": "Exclusive family role (all linked accounts are in the family)"
+            "description": "Изключителна семейна роля (всички свързани акаунти са в семейството)"
           },
           "guest_role": {
-            "description": "Guest role (not in the family)"
+            "description": "Роля на гост (не в семейството)"
           },
           "verified_role": {
-            "description": "Verified role (API token verified)"
+            "description": "Потвърдена роля (проверен токен за API)"
           },
           "account_linked_role": {
-            "description": "Account linked role (account linked but may not be verified)"
+            "description": "Роля, свързана с акаунт (свързан акаунт, но може да не бъде потвърден)"
           }
         }
       },
       "list": {
-        "description": "List all auto roles and settings."
+        "description": "Избройте всички автоматични роли и настройки."
       },
       "disable": {
-        "description": "Disable automatic clan roles.",
-        "description_long": "Disable automatic role management for clan roles, town hall levels, or leagues.",
+        "description": "Деактивирайте автоматичните роли на клана.",
+        "description_long": "Деактивирайте автоматичното управление на роли за роли в кланове, нива на кметство или лиги.",
         "options": {
           "type": {
-            "description": "Type of roles to disable."
+            "description": "Тип роли за деактивиране."
           },
           "clear": {
-            "description": "Clear all roles from all clans."
+            "description": "Изчистете всички роли от всички кланове."
           }
         },
-        "success_with_count": "Auto-role has been disabled for {{count}} clan(s). \n{{clans}}"
+        "success_with_count": "Автоматичната роля е деактивирана за {{count}} клан(ове). \n{{clans}}"
       },
       "refresh": {
-        "description": "Refresh roles manually.",
-        "description_long": "Refresh roles manually. (Use this command if the roles are not updated automatically)",
+        "description": "Обновете ролите ръчно.",
+        "description_long": "Обновете ролите ръчно. (Използвайте тази команда, ако ролите не се актуализират автоматично)",
         "options": {
           "user_or_role": {
-            "description": "Refresh an individual user or a role."
+            "description": "Опресняване на отделен потребител или роля."
           },
           "is_test_run": {
-            "description": "Test run to see the changes without applying."
+            "description": "Пуснете тест, за да видите промените без прилагане."
           },
           "force_refresh": {
-            "description": "Whether to bypass delays and force refresh roles."
+            "description": "Дали да се заобиколят забавянията и да се опреснят принудително ролите."
           }
         }
       },
       "config": {
-        "description": "Manage automatic roles settings.",
+        "description": "Управление на настройките за автоматични роли.",
         "options": {
           "auto_update_roles": {
-            "description": "Whether to update roles automatically."
+            "description": "Дали ролите да се актуализират автоматично."
           },
           "role_removal_delays": {
-            "description": "Whether to delay the removal of roles."
+            "description": "Дали да се отложи премахването на ролите."
           },
           "role_addition_delays": {
-            "description": "Whether to delay the addition of roles."
+            "description": "Дали да се отложи добавянето на роли."
           },
           "always_force_refresh_roles": {
-            "description": "Whether to enforce role refresh for individual users by default."
+            "description": "Дали да се наложи опресняване на ролята за отделни потребители по подразбиране."
           },
           "allow_not_linked": {
-            "description": "Whether to allow not linked players to get roles."
+            "description": "Дали да се позволи на несвързани играчи да получават роли."
           },
           "verified_only_clan_roles": {
-            "description": "Whether to grant clans roles to verified players only."
+            "description": "Дали да се предоставят роли в кланове само на проверени играчи."
           }
         }
       }
     },
     "summary": {
-      "description": "Shows summary of the clan family.",
+      "description": "Показва резюме на семейството на клана.",
       "best": {
-        "description": "Shows a summary of best members.",
+        "description": "Показва обобщение на най-добрите членове.",
         "options": {
           "limit": {
-            "description": "Number of members to show (Default: 5)"
+            "description": "Брой членове за показване (По подразбиране: 5)"
           },
           "order": {
-            "description": "Order of the list."
+            "description": "Ред на списъка."
           }
         }
       },
       "wars": {
-        "description": "Shows a summary of current wars."
+        "description": "Показва резюме на текущите войни."
       },
       "compo": {
-        "description": "Shows a summary of Town Hall composition."
+        "description": "Показва резюме на състава на кметството."
       },
       "cwl_ranks": {
-        "description": "Shows a summary of CWL ranks."
+        "description": "Показва обобщение на ранговете на CWL."
       },
       "cwl_status": {
-        "description": "Shows a summary of CWL spin status."
+        "description": "Показва обобщение на състоянието на завъртане на CWL."
       },
       "leagues": {
-        "description": "Shows a summary of clan leagues."
+        "description": "Показва обобщение на клановите лиги."
       },
       "donations": {
-        "description": "Shows a summary of donations."
+        "description": "Показва обобщение на даренията."
       },
       "attacks": {
-        "description": "Shows a summary of multiplayer attacks and defenses."
+        "description": "Показва обобщение на атаките и защитите за мултиплейър."
       },
       "trophies": {
-        "description": "Shows a summary of trophies.",
+        "description": "Показва обобщение на трофеите.",
         "options": {
           "limit": {
-            "description": "Limit the number of members."
+            "description": "Ограничете броя на членовете."
           }
         }
       },
       "war_results": {
-        "description": "Shows a summary of seasonal war results."
+        "description": "Показва обобщение на резултатите от сезонната война."
       },
       "missed_wars": {
-        "description": "Shows a summary of missed wars."
+        "description": "Показва резюме на пропуснатите войни."
       },
       "capital_raids": {
-        "description": "Shows information about capital raids."
+        "description": "Показва информация за капиталови нападения."
       },
       "capital_contribution": {
-        "description": "Shows a summary of capital contributions.",
+        "description": "Показва обобщение на капиталовите вноски.",
         "options": {
           "week": {
-            "description": "The week to show capital contributions for."
+            "description": "Седмицата, за която да се покажат капиталовите вноски."
           }
         }
       },
       "activity": {
-        "description": "Shows a summary of clan activity (last seen)."
+        "description": "Показва обобщение на активността на клана (последно виждане)."
       },
       "clan_games": {
-        "description": "Shows a summary of clan games scores."
+        "description": "Показва обобщение на резултатите от игрите на клана."
       },
       "clans": {
-        "description": "Shows a summary of family clans."
+        "description": "Показва обобщение на семейните кланове."
       }
     },
     "help": {
-      "description": "Get a list of commands or info about a specific command.",
+      "description": "Получете списък с команди или информация за конкретна команда.",
       "options": {
         "name": {
-          "description": "Name of the command."
+          "description": "Име на командата."
         }
       }
     },
     "invite": {
-      "description": "Get the bot invite and support server link."
+      "description": "Вземете поканата за бот и връзката към сървъра за поддръжка."
     },
     "redeem": {
-      "description": "Redeem or manage a Patreon subscription. (if you wish to support us)",
+      "description": "Осребрете или управлявайте абонамент за Patreon. (ако искате да ни подкрепите)",
       "options": {
         "disable": {
-          "description": "Disable subscription for a server (if subscribed)"
+          "description": "Деактивиране на абонамента за сървър (ако е абониран)"
         }
       }
     },
     "events": {
-      "description": "Shows the next in-game events."
+      "description": "Показва следващите събития в играта."
     },
     "whitelist": {
-      "description": "Whitelist a role or user to use specific commands.",
+      "description": "Белият списък на роля или потребител за използване на конкретни команди.",
       "options": {
         "user_or_role": {
-          "description": "User or role to whitelist."
+          "description": "Потребител или роля в белия списък."
         },
         "command": {
-          "description": "Command to whitelist."
+          "description": "Команда за белия списък."
         },
         "clear": {
-          "description": "Clear the whitelist."
+          "description": "Изчистете белия списък."
         },
         "list": {
-          "description": "List all whitelisted users and roles."
+          "description": "Избройте всички потребители и роли в белия списък."
         }
       }
     },
     "clans": {
-      "description": "Show all linked clans."
+      "description": "Показване на всички свързани кланове."
     },
     "layout": {
-      "description": "Post a village layout.",
+      "description": "Публикувайте план на село.",
       "options": {
         "screenshot": {
-          "description": "Screenshot of the layout."
+          "description": "Екранна снимка на оформлението."
         },
         "layout_link": {
-          "description": "Shareable link of the layout."
+          "description": "Връзка за споделяне на оформлението."
         },
         "title": {
-          "description": "Title of the layout."
+          "description": "Заглавие на оформлението."
         }
       }
     },
     "bot_personalizer": {
-      "description": "Build your own Discord bot!",
+      "description": "Създайте свой собствен Discord бот!",
       "options": {
         "opt_out": {
-          "description": "Opt-out from the custom bot and delete related services."
+          "description": "Откажете се от персонализирания бот и изтрийте свързани услуги."
         }
       }
     }
