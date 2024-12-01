@@ -1298,6 +1298,9 @@
           },
           "verified_role": {
             "description": "Rôle vérifié (jeton API vérifié)"
+          },
+          "account_linked_role": {
+            "description": "Account linked role (account linked but may not be verified)"
           }
         }
       },
