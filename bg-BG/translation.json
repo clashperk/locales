@@ -81,6 +81,7 @@
       "e_sports": "ЕЛЕКТРОННИ СПОРТОВЕ",
       "regular": "Обикновен",
       "friendly": "Приятелски",
+      "regular_and_cwl": "Regular and CWL",
       "clan_games": "Клан игри",
       "league_reset": "Нулиране на лигата",
       "season_end": "Край на сезона",
@@ -130,7 +131,6 @@
         "eos_trophies": "Season end Trophies"
       },
       "stats": {
-        "no_friendly": "Regular and CWL",
         "no_cwl": "Regular and Friendly",
         "all": "Regular, CWL and Friendly",
         "fresh": "Fresh",
