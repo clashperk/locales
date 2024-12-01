@@ -147,7 +147,7 @@
         "capital_log": "Registro de la capital",
         "clan_feed": "Historial del clan",
         "join_leave": "Registro de Entrada/Salida",
-        "clan_embed": "Descripción/Mensaje del clan",
+        "clan_embed": "Descripción del clan",
         "donation_log": "Registro de donaciones"
       },
       "autorole": {
@@ -1034,7 +1034,7 @@
       "no_stats": "No hay estadísticas disponibles para este filtro o clan.",
       "options": {
         "roster": {
-          "description": "Stats of a roster."
+          "description": "Estadísticas de una parrilla."
         },
         "compare": {
           "description": "Comparar ayuntamientos (Por ejemplo: 14 vs 13, 12 vs 13, todos, iguales, etc.)"
@@ -1301,7 +1301,7 @@
             "description": "Rol verificado (verificado con el código API)"
           },
           "account_linked_role": {
-            "description": "Account linked role (account linked but may not be verified)"
+            "description": "Rol vinculado a la cuenta (cuenta vinculada pero no verificada)"
           }
         }
       },
