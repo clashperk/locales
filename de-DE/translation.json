@@ -1032,6 +1032,9 @@
       "description": "Zeigt Angriffs- und Verteidigungsstatistiken von Clanmitgliedern an.",
       "no_stats": "Für diesen Filter oder Clan sind keine Statistiken verfügbar.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Vergleiche Rathäuser (z.B. 14vs13, *vs15, all, equal)"
         },
@@ -1295,6 +1298,9 @@
           },
           "verified_role": {
             "description": "Verified role (API token verified)"
+          },
+          "account_linked_role": {
+            "description": "Account linked role (account linked but may not be verified)"
           }
         }
       },

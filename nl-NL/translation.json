@@ -1032,6 +1032,9 @@
       "description": "Toont aanvals- en verdedigingsstatistieken van clanleden.",
       "no_stats": "Er zijn geen statistieken beschikbaar voor deze filter of clan.",
       "options": {
+        "roster": {
+          "description": "Stats of a roster."
+        },
         "compare": {
           "description": "Compare Town Halls (e.g. 14vs13, *vs15, all, equal)"
         },
@@ -1295,6 +1298,9 @@
           },
           "verified_role": {
             "description": "Verified role (API token verified)"
+          },
+          "account_linked_role": {
+            "description": "Account linked role (account linked but may not be verified)"
           }
         }
       },
