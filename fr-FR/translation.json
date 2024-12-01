@@ -81,6 +81,7 @@
       "e_sports": "E-SPORTS",
       "regular": "Normale",
       "friendly": "Amicale",
+      "regular_and_cwl": "Regular and CWL",
       "clan_games": "Jeux de Clan",
       "league_reset": "Réinitialisation de la Ligue",
       "season_end": "Fin de Saison",
@@ -130,7 +131,6 @@
         "eos_trophies": "Trophées de fin de Saison"
       },
       "stats": {
-        "no_friendly": "Normale et Ligue",
         "no_cwl": "Normale et Amicale",
         "all": "Normale, Ligue et Amicale",
         "fresh": "Récent",
