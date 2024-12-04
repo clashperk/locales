@@ -81,6 +81,7 @@
       "e_sports": "E-SPORTS",
       "regular": "Guerra",
       "friendly": "Guerra Amistosa",
+      "regular_and_cwl": "Guerra y LDG",
       "clan_games": "Juegos del clan",
       "league_reset": "Reinicio de Liga",
       "season_end": "Fin de temporada",
@@ -130,7 +131,6 @@
         "eos_trophies": "Trofeos a final de temporada"
       },
       "stats": {
-        "no_friendly": "Guerra y LDG",
         "no_cwl": "Guerra y guerra amistosa",
         "all": "Guerra, LDG y Guerra amistosa",
         "fresh": "Nuevo",
