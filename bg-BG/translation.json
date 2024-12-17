@@ -515,10 +515,10 @@
             "description": "Изберете играч за управление"
           },
           "from_clan": {
-            "description": "Select a clan to add players from"
+            "description": "Изберете клан, от който да добавите играчи"
           },
           "from_current_wars": {
-            "description": "Select a clan to add players from the current wars"
+            "description": "Изберете клан, за да добавите играчи от текущите войни"
           },
           "user": {
             "description": "Изберете потребител за управление"
@@ -1355,7 +1355,7 @@
             "description": "Дали да се наложи опресняване на ролята за отделни потребители по подразбиране."
           },
           "delay_exclusion_roles": {
-            "description": "Roles that are excluded from delays."
+            "description": "Роли, които са изключени от закъснения."
           },
           "allow_not_linked": {
             "description": "Дали да се позволи на несвързани играчи да получават роли."
