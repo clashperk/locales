@@ -1351,6 +1351,9 @@
           "always_force_refresh_roles": {
             "description": "Aplicar la actualización de roles para usuarios individuales de forma predeterminada."
           },
+          "delay_exclusion_roles": {
+            "description": "Roles that are excluded from delays."
+          },
           "allow_not_linked": {
             "description": "Permitir que jugadores no vinculados obtengan roles."
           },
