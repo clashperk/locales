@@ -514,8 +514,11 @@
           "player": {
             "description": "Seleccione un jugador para configurar"
           },
-          "clan": {
-            "description": "Selecciona un clan para agregar sus miembros"
+          "from_clan": {
+            "description": "Select a clan to add players from"
+          },
+          "from_current_wars": {
+            "description": "Select a clan to add players from the current wars"
           },
           "user": {
             "description": "Seleccione un usuario para administrarlo"
