@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Щоб увімкнути журнал подій, Ви повинні вказати текстовий канал.",
-      "title": "Параметри серверу",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "title": "Параметри серверу"
     },
     "debug": {
       "description": "Показує основну інформацію про виправлення технічних помилок."
