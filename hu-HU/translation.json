@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Az eseménynapló engedélyezéséhez meg kell adnod egy szöveges csatornát.",
-      "title": "Szerver Beállítások",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "title": "Szerver Beállítások"
     },
     "debug": {
       "description": "Megjelenít néhány alapvető hibakeresési információt."
