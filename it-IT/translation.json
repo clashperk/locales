@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "È necessario specificare un canale di testo per abilitare questo registro eventi.",
-      "title": "Impostazioni del server",
-      "maintenance_notification_channel": "Canale di notifica delle interruzioni di manutenzione nel gioco"
+      "title": "Impostazioni del server"
     },
     "debug": {
       "description": "Visualizza alcune informazioni di debug di base."
