@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "U moet een tekstkanaal opgeven om dit logboek in te schakelen.",
-      "title": "Serverinstellingen",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "title": "Serverinstellingen"
     },
     "debug": {
       "description": "Toont enkele basisinformatie voor foutopsporing."
