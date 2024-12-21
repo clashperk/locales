@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Etkinlik günlüğünün aktifleştirmesi için bir yazı kanalı belirtmelisiniz.",
-      "title": "Sunucu Ayarları",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "title": "Sunucu Ayarları"
     },
     "debug": {
       "description": "Bazı temel hata ayıklama bilgilerini görüntüler."
