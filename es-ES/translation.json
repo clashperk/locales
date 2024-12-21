@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Debe especificar un canal de texto para habilitar este registro de eventos.",
-      "title": "Configuración del servidor",
-      "maintenance_notification_channel": "Canal de notificación para pausas de mantenimiento"
+      "title": "Configuración del servidor"
     },
     "debug": {
       "description": "Muestra información básica de Depuración."
@@ -514,8 +513,11 @@
           "player": {
             "description": "Seleccione un jugador para configurar"
           },
-          "clan": {
-            "description": "Selecciona un clan para agregar sus miembros"
+          "from_clan": {
+            "description": "Select a clan to add players from"
+          },
+          "from_current_wars": {
+            "description": "Select a clan to add players from the current wars"
           },
           "user": {
             "description": "Seleccione un usuario para administrarlo"

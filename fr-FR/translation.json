@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Vous devez spécifier un salon textuel pour activer ce journal d'événements.",
-      "title": "Paramètres du Serveur",
-      "maintenance_notification_channel": "Salon de notification de maintenance"
+      "title": "Paramètres du Serveur"
     },
     "debug": {
       "description": "Affiche quelques informations de débogage de base."
@@ -514,8 +513,11 @@
           "player": {
             "description": "Sélectionner un joueur à gérer"
           },
-          "clan": {
-            "description": "Sélectionner un clan pour ajouter des joueurs"
+          "from_clan": {
+            "description": "Select a clan to add players from"
+          },
+          "from_current_wars": {
+            "description": "Select a clan to add players from the current wars"
           },
           "user": {
             "description": "Sélectionner un utilisateur à gérer"

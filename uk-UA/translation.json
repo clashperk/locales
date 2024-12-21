@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Щоб увімкнути журнал подій, Ви повинні вказати текстовий канал.",
-      "title": "Параметри серверу",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "title": "Параметри серверу"
     },
     "debug": {
       "description": "Показує основну інформацію про виправлення технічних помилок."
@@ -514,8 +513,11 @@
           "player": {
             "description": "Select a player to manage"
           },
-          "clan": {
+          "from_clan": {
             "description": "Select a clan to add players from"
+          },
+          "from_current_wars": {
+            "description": "Select a clan to add players from the current wars"
           },
           "user": {
             "description": "Select a user to manage"
