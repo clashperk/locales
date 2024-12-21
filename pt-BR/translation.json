@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Você deve especificar um canal de texto para habilitar esse registro de eventos.",
-      "title": "Configurações do Servidor",
-      "maintenance_notification_channel": "Maintenance Break Notification Channel"
+      "title": "Configurações do Servidor"
     },
     "debug": {
       "description": "Exibe algumas informações básicas de depuração."
