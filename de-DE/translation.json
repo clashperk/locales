@@ -329,8 +329,7 @@
         }
       },
       "no_text_channel": "Du musst einen Text-Channel angeben, um den Event-Log zu aktivieren.",
-      "title": "Servereinstellungen",
-      "maintenance_notification_channel": "Benachrichtigungskanal für Wartungsunterbrechungen"
+      "title": "Servereinstellungen"
     },
     "debug": {
       "description": "Zeigt generelle Debug-Informationen."
