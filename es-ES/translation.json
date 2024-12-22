@@ -514,10 +514,10 @@
             "description": "Seleccione un jugador para configurar"
           },
           "from_clan": {
-            "description": "Select a clan to add players from"
+            "description": "Selecciona un clan para agregar sus jugadores"
           },
           "from_current_wars": {
-            "description": "Select a clan to add players from the current wars"
+            "description": "Selecciona un clan para agregar jugadores de las guerras actuales."
           },
           "user": {
             "description": "Seleccione un usuario para administrarlo"
@@ -1354,7 +1354,7 @@
             "description": "Aplicar la actualización de roles para usuarios individuales de forma predeterminada."
           },
           "delay_exclusion_roles": {
-            "description": "Roles that are excluded from delays."
+            "description": "Roles que están excluidos de los retrasos."
           },
           "allow_not_linked": {
             "description": "Permitir que jugadores no vinculados obtengan roles."
