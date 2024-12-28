@@ -606,6 +606,9 @@
       "members": {
         "description": "Exportieren Sie eine umfassende Version der Statistiken der Clanmitglieder."
       },
+      "clans": {
+        "description": "Export all linked clans."
+      },
       "missed": {
         "description": "Exportieren Sie den Verlauf verpasster Angriffe."
       },
