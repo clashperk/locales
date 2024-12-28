@@ -607,7 +607,7 @@
         "description": "Exporta una versión comprensiva de las estadísticas de los miembros de un clan."
       },
       "clans": {
-        "description": "Export all linked clans."
+        "description": "Exportar todos los clanes vinculados."
       },
       "missed": {
         "description": "Exporta historial de ataques no realizados."
