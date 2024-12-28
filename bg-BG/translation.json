@@ -606,6 +606,9 @@
       "members": {
         "description": "Експортирайте цялостна версия на статистиката на членовете на клана."
       },
+      "clans": {
+        "description": "Export all linked clans."
+      },
       "missed": {
         "description": "Експортирайте историята на пропуснатите атаки."
       },
