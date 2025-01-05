@@ -157,7 +157,7 @@
         "builder_hall": "Rôles de la Maison des Ouvriers",
         "builder_leagues": "Rôles des Ligues des Ouvriers",
         "wars": "Rôles de Guerre",
-        "eos_push": "End of Season Push Role",
+        "eos_push": "Rôle de Rush de Fin de Saison",
         "family_leaders": "Rôle des Chefs de la Famille",
         "family": "Rôles Familiaux",
         "exclusive_family": "Rôle Familial Exclusif",
@@ -1277,13 +1277,13 @@
         }
       },
       "eos_push": {
-        "description": "Set end of season push roles.",
+        "description": "Définir les rôles de rush de fin de saison.",
         "options": {
           "role": {
-            "description": "The end of season push role."
+            "description": "Le rôle de rush de fin de saison."
           },
           "clans": {
-            "description": "The clans for which to set the end of season push role."
+            "description": "Les clans pour lesquels fixer le rôle de rush de fin de saison."
           }
         }
       },
