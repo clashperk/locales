@@ -107,8 +107,8 @@
         "remove_players": "Retirer des Joueurs",
         "change_roster": "Changer d'Équipe",
         "change_group": "Changer de Groupe",
-        "ping_unregistered": "Unregistered (didn't signup, but in the clan)",
-        "ping_missing": "Missing (opted-in, but not in the clan)",
+        "ping_unregistered": "Non inscrit (ne s'est pas inscrit, mais fait partie du clan)",
+        "ping_missing": "Absent (inscrit, mais pas dans le clan)",
         "ping_everyone": "Tout le monde (tous les membres inscrits)"
       },
       "flag": {
