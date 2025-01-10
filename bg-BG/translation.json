@@ -606,6 +606,9 @@
       "members": {
         "description": "Експортирайте цялостна версия на статистиката на членовете на клана."
       },
+      "clans": {
+        "description": "Export all linked clans."
+      },
       "missed": {
         "description": "Експортирайте историята на пропуснатите атаки."
       },
@@ -869,6 +872,14 @@
       "now": {
         "description": "Създайте незабавно напомняне, за да уведомите членовете.",
         "no_match": "Няма войни или членове, които съответстват на избраните опции."
+      },
+      "config": {
+        "description": "Configure reminder settings.",
+        "options": {
+          "reminder_ping_exclusion": {
+            "description": "Set reminder ping exclusion settings."
+          }
+        }
       },
       "no_reminders": "Нямате нови известия",
       "no_message": "Трябва да предоставите клан таг, за да изпълните тази команда."

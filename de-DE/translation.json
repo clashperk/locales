@@ -606,6 +606,9 @@
       "members": {
         "description": "Exportieren Sie eine umfassende Version der Statistiken der Clanmitglieder."
       },
+      "clans": {
+        "description": "Export all linked clans."
+      },
       "missed": {
         "description": "Exportieren Sie den Verlauf verpasster Angriffe."
       },
@@ -869,6 +872,14 @@
       "now": {
         "description": "Sofortige Kriegserinnerung, um Mitglieder zu informieren.",
         "no_match": "Es gibt keine Kriege oder Mitglieder, die mit den gewählten Optionen übereinstimmen."
+      },
+      "config": {
+        "description": "Configure reminder settings.",
+        "options": {
+          "reminder_ping_exclusion": {
+            "description": "Set reminder ping exclusion settings."
+          }
+        }
       },
       "no_reminders": "You have no reminders.",
       "no_message": "You must specify a message to execute this command."

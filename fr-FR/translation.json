@@ -81,7 +81,7 @@
       "e_sports": "E-SPORTS",
       "regular": "Normale",
       "friendly": "Amicale",
-      "regular_and_cwl": "Regular and CWL",
+      "regular_and_cwl": "Normale et Ligue",
       "clan_games": "Jeux de Clan",
       "league_reset": "Réinitialisation de la Ligue",
       "season_end": "Fin de Saison",
@@ -101,7 +101,7 @@
       "legend_leaderboard": "Trophées de Légende",
       "builder_legend_leaderboard": "Trophées des Ouvriers",
       "events_schedular": "Calendrier des Événements",
-      "reminder_ping_exclusion": "Reminder Ping Exclusion",
+      "reminder_ping_exclusion": "Rappel d'Exclusion de Ping",
       "roster": {
         "add_players": "Ajouter des Joueurs",
         "remove_players": "Retirer des Joueurs",
@@ -112,13 +112,13 @@
         "ping_everyone": "Tout le monde (tous les membres inscrits)"
       },
       "flag": {
-        "ban": "Ban",
-        "strike": "Strike"
+        "ban": "Bannissement",
+        "strike": "Avertissement"
       },
       "nickname": {
         "default_account": "Compte par Défaut",
         "best_account": "Meilleur Compte",
-        "default_or_best_account": "Default or Best Account"
+        "default_or_best_account": "Meilleur compte ou par défaut"
       },
       "history": {
         "capital_contribution": "Contributions à la Capitale",
@@ -157,13 +157,13 @@
         "builder_hall": "Rôles de la Maison des Ouvriers",
         "builder_leagues": "Rôles des Ligues des Ouvriers",
         "wars": "Rôles de Guerre",
-        "eos_push": "End of Season Push Role",
+        "eos_push": "Rôle de Rush de Fin de Saison",
         "family_leaders": "Rôle des Chefs de la Famille",
         "family": "Rôles Familiaux",
         "exclusive_family": "Rôle Familial Exclusif",
         "guest": "Rôle d'Invité",
         "verified": "Rôle Vérifié",
-        "account_linked": "Account Linked Role"
+        "account_linked": "Rôle Relié au Compte"
       }
     },
     "contact_support": "Contacter l'assistance technique",
@@ -514,10 +514,10 @@
             "description": "Sélectionner un joueur à gérer"
           },
           "from_clan": {
-            "description": "Select a clan to add players from"
+            "description": "Sélectionner un clan pour ajouter des joueurs"
           },
           "from_current_wars": {
-            "description": "Select a clan to add players from the current wars"
+            "description": "Sélectionner un clan pour ajouter les joueurs des guerres en cours"
           },
           "user": {
             "description": "Sélectionner un utilisateur à gérer"
@@ -563,19 +563,19 @@
         }
       },
       "ping": {
-        "description": "Ping members in the roster",
+        "description": "Envoyer un ping aux membres de l'équipe",
         "options": {
           "roster": {
-            "description": "Select a roster to ping"
+            "description": "Sélectionner une équipe à laquelle envoyer un ping"
           },
           "message": {
             "description": "Message pour les membres"
           },
           "ping_option": {
-            "description": "Select a ping option"
+            "description": "Sélectionner une option de ping"
           },
           "group": {
-            "description": "Select a group to ping (overwrites ping_option)"
+            "description": "Sélectionner un groupe à pinguer (remplace les options de ping)"
           }
         }
       }
@@ -605,6 +605,9 @@
       },
       "members": {
         "description": "Exporter une version complète des statistiques des membres du clan."
+      },
+      "clans": {
+        "description": "Exporter tous les clans reliés."
       },
       "missed": {
         "description": "Exporter l'historique des attaques manquées."
@@ -655,7 +658,7 @@
       "description": "Créer, supprimer ou rechercher des signalements de joueurs.",
       "options": {
         "flag_type": {
-          "description": "The type of the flag (ban or strike)"
+          "description": "Le type de signalement (bannissement ou avertissement)"
         }
       },
       "create": {
@@ -870,6 +873,14 @@
         "description": "Créer un rappel instantané pour informer les membres.",
         "no_match": "Aucune guerre ou aucun membre ne correspond aux options sélectionnées."
       },
+      "config": {
+        "description": "Configurer les paramètres de rappel.",
+        "options": {
+          "reminder_ping_exclusion": {
+            "description": "Définir les paramètres d'exclusion du ping de rappel."
+          }
+        }
+      },
       "no_reminders": "Vous n'avez aucun rappel.",
       "no_message": "Vous devez spécifier un message pour exécuter cette commande."
     },
@@ -1036,7 +1047,7 @@
       "no_stats": "Aucune statistique n'est disponible pour ce filtre ou ce clan.",
       "options": {
         "roster": {
-          "description": "Stats of a roster."
+          "description": "Statistiques de l'équipe."
         },
         "compare": {
           "description": "Comparer les Hôtels de Ville (ex. 14vs13, *vs15, tous, égal)"
@@ -1155,7 +1166,7 @@
             "description": "Sélectionner le type de bouton à configurer"
           },
           "embed_color": {
-            "description": "Hex color code for the embed"
+            "description": "Code couleur hexadécimal pour l'intégration"
           }
         }
       },
@@ -1274,13 +1285,13 @@
         }
       },
       "eos_push": {
-        "description": "Set end of season push roles.",
+        "description": "Définir les rôles de rush de fin de saison.",
         "options": {
           "role": {
-            "description": "The end of season push role."
+            "description": "Le rôle de rush de fin de saison."
           },
           "clans": {
-            "description": "The clans for which to set the end of season push role."
+            "description": "Les clans pour lesquels fixer le rôle de rush de fin de saison."
           }
         }
       },
@@ -1303,7 +1314,7 @@
             "description": "Rôle vérifié (jeton API vérifié)"
           },
           "account_linked_role": {
-            "description": "Account linked role (account linked but may not be verified)"
+            "description": "Rôle relié au compte (le compte est relié mais peut ne pas être vérifié)"
           }
         }
       },
@@ -1354,7 +1365,7 @@
             "description": "Appliquer ou non l'actualisation des rôles pour les utilisateurs individuels par défaut."
           },
           "delay_exclusion_roles": {
-            "description": "Roles that are excluded from delays."
+            "description": "Rôles exclus des retards."
           },
           "allow_not_linked": {
             "description": "Autoriser ou non les joueurs non reliés à obtenir des rôles."
@@ -1388,7 +1399,7 @@
         "description": "Affiche un résumé des classements de Ligue de clans."
       },
       "cwl_status": {
-        "description": "Shows a summary of CWL spin status."
+        "description": "Affiche un résumé de l'état de rotation en Ligue de clans."
       },
       "leagues": {
         "description": "Affiche un résumé des ligues de clans."
