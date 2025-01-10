@@ -873,6 +873,14 @@
         "description": "Crea un recordatorio instantáneo para notificar a los miembros.",
         "no_match": "No hay guerras ni miembros que coincidan con las opciones seleccionadas."
       },
+      "config": {
+        "description": "Configure reminder settings.",
+        "options": {
+          "reminder_ping_exclusion": {
+            "description": "Set reminder ping exclusion settings."
+          }
+        }
+      },
       "no_reminders": "No tienes recordatorios",
       "no_message": "Debe especificar un mensaje para ejecutar este comando."
     },
