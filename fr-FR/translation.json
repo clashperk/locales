@@ -874,10 +874,10 @@
         "no_match": "Aucune guerre ou aucun membre ne correspond aux options sélectionnées."
       },
       "config": {
-        "description": "Configure reminder settings.",
+        "description": "Configurer les paramètres de rappel.",
         "options": {
           "reminder_ping_exclusion": {
-            "description": "Set reminder ping exclusion settings."
+            "description": "Définir les paramètres d'exclusion du ping de rappel."
           }
         }
       },
