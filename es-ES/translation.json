@@ -971,10 +971,10 @@
           "description": "Historial de donaciones de un jugador."
         },
         "start_date": {
-          "description": "Starting date (YYYY-MM-DD)"
+          "description": "Fecha de inicio (AAAA-MM-DD)"
         },
         "end_date": {
-          "description": "Ending date (YYYY-MM-DD)"
+          "description": "Fecha de finalización (AAAA-MM-DD)"
         }
       }
     },
