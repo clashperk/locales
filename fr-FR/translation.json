@@ -969,6 +969,12 @@
         },
         "player": {
           "description": "Historique des dons d'un joueur."
+        },
+        "start_date": {
+          "description": "Starting date (YYYY-MM-DD)"
+        },
+        "end_date": {
+          "description": "Ending date (YYYY-MM-DD)"
         }
       }
     },
