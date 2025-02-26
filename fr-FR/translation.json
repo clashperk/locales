@@ -63,6 +63,9 @@
       "season_since": {
         "description": "Récupérer les données depuis la saison spécifiée."
       },
+      "include_past_members": {
+        "description": "Include past members of the clan."
+      },
       "week": {
         "description": "Récupérer les données du week-end de raid spécifié."
       }
