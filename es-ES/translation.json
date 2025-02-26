@@ -874,10 +874,10 @@
         "no_match": "No hay guerras ni miembros que coincidan con las opciones seleccionadas."
       },
       "config": {
-        "description": "Configure reminder settings.",
+        "description": "Configurar ajustes de los recordatorios.",
         "options": {
           "reminder_ping_exclusion": {
-            "description": "Set reminder ping exclusion settings."
+            "description": "Establecer la configuración de exclusión de ping de recordatorios."
           }
         }
       },
@@ -969,6 +969,12 @@
         },
         "player": {
           "description": "Historial de donaciones de un jugador."
+        },
+        "start_date": {
+          "description": "Fecha de inicio (AAAA-MM-DD)"
+        },
+        "end_date": {
+          "description": "Fecha de finalización (AAAA-MM-DD)"
         }
       }
     },
