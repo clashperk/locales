@@ -63,6 +63,9 @@
       "season_since": {
         "description": "Recuperar datos desde la temporada especificada."
       },
+      "include_past_members": {
+        "description": "Incluir miembros anteriores del clan."
+      },
       "week": {
         "description": "Recupera datos del fin de semana de asaltos especificado."
       }
