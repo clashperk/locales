@@ -63,6 +63,9 @@
       "season_since": {
         "description": "Извличане на данни от посочения сезон."
       },
+      "include_past_members": {
+        "description": "Include past members of the clan."
+      },
       "week": {
         "description": "Извлечете данни за посочения уикенд за нападение."
       }
