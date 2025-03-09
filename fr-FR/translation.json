@@ -140,9 +140,10 @@
         "cleanup": "Nettoyer"
       },
       "setup": {
-        "server_link": "Lien du Serveur",
-        "channel_link": "Lien du Salon",
-        "delete_clan": "Supprimer le clan",
+        "link_server": "Link to Server",
+        "link_channel": "Link to Channel",
+        "unlink_channel": "Unlink from Channel",
+        "remove_clan": "Remove Clan",
         "logs_or_feed": "Journaux / Flux (Nouveau)",
         "war_feed": "Flux de Guerre",
         "last_seen": "Dernière Connexion",
