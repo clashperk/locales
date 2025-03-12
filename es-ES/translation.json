@@ -140,10 +140,10 @@
         "cleanup": "Limpiar"
       },
       "setup": {
-        "link_server": "Link to Server",
-        "link_channel": "Link to Channel",
-        "unlink_channel": "Unlink from Channel",
-        "remove_clan": "Remove Clan",
+        "link_server": "Enlaza al servidor",
+        "link_channel": "Enlaza al canal",
+        "unlink_channel": "Desenlaza del canal",
+        "remove_clan": "Elimina clan",
         "logs_or_feed": "Registros / Historial (Nuevo)",
         "war_feed": "Historial de guerra",
         "last_seen": "Visto por última vez",
@@ -521,7 +521,7 @@
             "description": "Selecciona un clan para agregar sus jugadores"
           },
           "from_current_wars": {
-            "description": "Selecciona un clan para agregar jugadores de las guerras actuales."
+            "description": "Choose a clan to add players from the ongoing wars."
           },
           "user": {
             "description": "Seleccione un usuario para administrarlo"

@@ -140,10 +140,10 @@
         "cleanup": "Nettoyer"
       },
       "setup": {
-        "link_server": "Link to Server",
-        "link_channel": "Link to Channel",
-        "unlink_channel": "Unlink from Channel",
-        "remove_clan": "Remove Clan",
+        "link_server": "Relier au Serveur",
+        "link_channel": "Relier au Salon",
+        "unlink_channel": "Dissocier du Salon",
+        "remove_clan": "Supprimer le Clan",
         "logs_or_feed": "Journaux / Flux (Nouveau)",
         "war_feed": "Flux de Guerre",
         "last_seen": "Dernière Connexion",
@@ -521,7 +521,7 @@
             "description": "Sélectionner un clan pour ajouter des joueurs"
           },
           "from_current_wars": {
-            "description": "Sélectionner un clan pour ajouter les joueurs des guerres en cours"
+            "description": "Choose a clan to add players from the ongoing wars."
           },
           "user": {
             "description": "Sélectionner un utilisateur à gérer"
