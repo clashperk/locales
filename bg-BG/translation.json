@@ -521,7 +521,7 @@
             "description": "Изберете клан, от който да добавите играчи"
           },
           "from_current_wars": {
-            "description": "Изберете клан, за да добавите играчи от текущите войни"
+            "description": "Choose a clan to add players from the ongoing wars."
           },
           "user": {
             "description": "Изберете потребител за управление"
