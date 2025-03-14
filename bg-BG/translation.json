@@ -64,7 +64,7 @@
         "description": "Извличане на данни от посочения сезон."
       },
       "include_past_members": {
-        "description": "Include past members of the clan."
+        "description": "Включете предишни членове на клана."
       },
       "week": {
         "description": "Извлечете данни за посочения уикенд за нападение."
@@ -140,10 +140,10 @@
         "cleanup": "Пречистване"
       },
       "setup": {
-        "link_server": "Link to Server",
-        "link_channel": "Link to Channel",
-        "unlink_channel": "Unlink from Channel",
-        "remove_clan": "Remove Clan",
+        "link_server": "Връзка към сървъра",
+        "link_channel": "Връзка с канала",
+        "unlink_channel": "Прекратете връзката с канала",
+        "remove_clan": "Премахване на клан",
         "logs_or_feed": "Регистри / емисии (ново)",
         "war_feed": "War Feed",
         "last_seen": "Последно виждане",
@@ -521,7 +521,7 @@
             "description": "Изберете клан, от който да добавите играчи"
           },
           "from_current_wars": {
-            "description": "Choose a clan to add players from the ongoing wars."
+            "description": "Изберете клан, за да добавите играчи от текущите войни"
           },
           "user": {
             "description": "Изберете потребител за управление"
