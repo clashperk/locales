@@ -1510,6 +1510,9 @@
         },
         "title": {
           "description": "Título del diseño."
+        },
+        "allow_voting": {
+          "description": "Si se permitirá la votación para el diseño."
         }
       }
     },

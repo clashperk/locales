@@ -1510,6 +1510,9 @@
         },
         "title": {
           "description": "Titre du plan."
+        },
+        "allow_voting": {
+          "description": "Whether to allow voting on the layout."
         }
       }
     },
