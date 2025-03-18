@@ -1512,7 +1512,7 @@
           "description": "Título del diseño."
         },
         "allow_voting": {
-          "description": "Whether to allow voting on the layout."
+          "description": "Si se permitirá la votación para el diseño."
         }
       }
     },
