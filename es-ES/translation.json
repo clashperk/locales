@@ -97,8 +97,8 @@
       "roster_change_log": "Registro de cambios de parrilla",
       "maintenance_break_log": "Registro de mantenimiento",
       "role_refresh_button": "Botón para actualizar los roles",
-      "welcome_log": "Welcome Log",
-      "custom_button": "Custom Button",
+      "welcome_log": "Registro de bienvenida",
+      "custom_button": "Botón personalizado",
       "clan_games_ending": "Juegos del clan (FIN)",
       "cwl_end": "LDG (FIN)",
       "cwl_signup_ending": "Inscripción en LDG (FIN)",
@@ -523,7 +523,7 @@
             "description": "Selecciona un clan para agregar sus jugadores"
           },
           "from_current_wars": {
-            "description": "Choose a clan to add players from the ongoing wars."
+            "description": "Selecciona un clan para agregar jugadores de las guerras actuales."
           },
           "user": {
             "description": "Seleccione un usuario para administrarlo"
