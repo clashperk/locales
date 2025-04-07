@@ -97,8 +97,8 @@
       "roster_change_log": "Journal des Changements d'Équipe",
       "maintenance_break_log": "Journal des Maintenances",
       "role_refresh_button": "Bouton d'Actualisation des Rôles",
-      "welcome_log": "Welcome Log",
-      "custom_button": "Custom Button",
+      "welcome_log": "Journal de Bienvenue",
+      "custom_button": "Bouton Personnalisé",
       "clan_games_ending": "Jeux de Clan (Fin)",
       "cwl_end": "Ligue de Clans (Fin)",
       "cwl_signup_ending": "Inscription à la Ligue (Fin)",
@@ -1512,7 +1512,7 @@
           "description": "Titre du plan."
         },
         "allow_voting": {
-          "description": "Whether to allow voting on the layout."
+          "description": "Autoriser ou non le vote sur le plan."
         }
       }
     },
