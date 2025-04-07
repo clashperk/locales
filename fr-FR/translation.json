@@ -523,7 +523,7 @@
             "description": "Sélectionner un clan pour ajouter des joueurs"
           },
           "from_current_wars": {
-            "description": "Choose a clan to add players from the ongoing wars."
+            "description": "Choisir un clan pour ajouter les joueurs des guerres en cours."
           },
           "user": {
             "description": "Sélectionner un utilisateur à gérer"
