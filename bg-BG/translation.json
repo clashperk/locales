@@ -97,8 +97,8 @@
       "roster_change_log": "Дневник на промените в списъка",
       "maintenance_break_log": "Maintenance Break Log",
       "role_refresh_button": "Бутон за опресняване на ролята",
-      "welcome_log": "Welcome Log",
-      "custom_button": "Custom Button",
+      "welcome_log": "Дневник за добре дошли",
+      "custom_button": "Персонализиран бутон",
       "clan_games_ending": "Клан игри (край)",
       "cwl_end": "CWL (край)",
       "cwl_signup_ending": "Регистрация в CWL (приключва)",
@@ -1510,6 +1510,9 @@
         },
         "title": {
           "description": "Заглавие на оформлението."
+        },
+        "allow_voting": {
+          "description": "Дали да се разреши гласуване на оформлението."
         }
       }
     },
