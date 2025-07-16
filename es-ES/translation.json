@@ -1509,8 +1509,8 @@
         "layout_link": {
           "description": "Enlace compartible del diseño.(compartir como enlace con la selección en el diseño a compartir)"
         },
-        "title": {
-          "description": "Título del diseño."
+        "notes": {
+          "description": "Custom notes of the layout."
         },
         "allow_voting": {
           "description": "Si se permitirá la votación para el diseño."
