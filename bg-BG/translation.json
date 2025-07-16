@@ -1509,8 +1509,8 @@
         "layout_link": {
           "description": "Връзка за споделяне на оформлението."
         },
-        "title": {
-          "description": "Заглавие на оформлението."
+        "notes": {
+          "description": "Custom notes of the layout."
         },
         "allow_voting": {
           "description": "Дали да се разреши гласуване на оформлението."
