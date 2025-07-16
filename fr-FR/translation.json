@@ -1509,8 +1509,8 @@
         "layout_link": {
           "description": "Lien partageable du plan."
         },
-        "title": {
-          "description": "Titre du plan."
+        "notes": {
+          "description": "Custom notes of the layout."
         },
         "allow_voting": {
           "description": "Autoriser ou non le vote sur le plan."
