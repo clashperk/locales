@@ -1510,7 +1510,7 @@
           "description": "Enlace compartible del diseño.(compartir como enlace con la selección en el diseño a compartir)"
         },
         "notes": {
-          "description": "Custom notes of the layout."
+          "description": "Notas personalizadas del diseño."
         },
         "allow_voting": {
           "description": "Si se permitirá la votación para el diseño."
