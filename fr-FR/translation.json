@@ -97,6 +97,7 @@
       "roster_change_log": "Journal des Changements d'Équipe",
       "maintenance_break_log": "Journal des Maintenances",
       "role_refresh_button": "Bouton d'Actualisation des Rôles",
+      "my_rosters_button": "Bouton Mes Équipes",
       "welcome_log": "Journal de Bienvenue",
       "custom_button": "Bouton Personnalisé",
       "clan_games_ending": "Jeux de Clan (Fin)",
@@ -1377,7 +1378,7 @@
             "description": "Appliquer ou non l'actualisation des rôles pour les utilisateurs individuels par défaut."
           },
           "delay_exclusion_roles": {
-            "description": "Roles that are excluded from delays."
+            "description": "Rôles exclus des délais."
           },
           "allow_not_linked": {
             "description": "Autoriser ou non les joueurs non reliés à obtenir des rôles."
@@ -1508,8 +1509,8 @@
         "layout_link": {
           "description": "Lien partageable du plan."
         },
-        "title": {
-          "description": "Titre du plan."
+        "notes": {
+          "description": "Notes personnalisées du plan."
         },
         "allow_voting": {
           "description": "Autoriser ou non le vote sur le plan."

@@ -97,6 +97,7 @@
       "roster_change_log": "Registro de cambios de parrilla",
       "maintenance_break_log": "Registro de mantenimiento",
       "role_refresh_button": "Botón para actualizar los roles",
+      "my_rosters_button": "Mi botón de parrillas",
       "welcome_log": "Registro de bienvenida",
       "custom_button": "Botón personalizado",
       "clan_games_ending": "Juegos del clan (FIN)",
@@ -1508,8 +1509,8 @@
         "layout_link": {
           "description": "Enlace compartible del diseño.(compartir como enlace con la selección en el diseño a compartir)"
         },
-        "title": {
-          "description": "Título del diseño."
+        "notes": {
+          "description": "Notas personalizadas del diseño."
         },
         "allow_voting": {
           "description": "Si se permitirá la votación para el diseño."

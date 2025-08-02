@@ -97,6 +97,7 @@
       "roster_change_log": "Дневник на промените в списъка",
       "maintenance_break_log": "Maintenance Break Log",
       "role_refresh_button": "Бутон за опресняване на ролята",
+      "my_rosters_button": "My Rosters Button",
       "welcome_log": "Дневник за добре дошли",
       "custom_button": "Персонализиран бутон",
       "clan_games_ending": "Клан игри (край)",
@@ -1508,8 +1509,8 @@
         "layout_link": {
           "description": "Връзка за споделяне на оформлението."
         },
-        "title": {
-          "description": "Заглавие на оформлението."
+        "notes": {
+          "description": "Custom notes of the layout."
         },
         "allow_voting": {
           "description": "Дали да се разреши гласуване на оформлението."
