@@ -68,6 +68,12 @@
       },
       "week": {
         "description": "Recupera datos del fin de semana de asaltos especificado."
+      },
+      "start_date": {
+        "description": "Starting date (YYYY-MM-DD)"
+      },
+      "end_date": {
+        "description": "Ending date (YYYY-MM-DD)"
       }
     },
     "choices": {
@@ -976,12 +982,6 @@
         },
         "player": {
           "description": "Historial de donaciones de un jugador."
-        },
-        "start_date": {
-          "description": "Fecha de inicio (AAAA-MM-DD)"
-        },
-        "end_date": {
-          "description": "Fecha de finalización (AAAA-MM-DD)"
         }
       }
     },
