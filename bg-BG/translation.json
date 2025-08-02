@@ -68,6 +68,12 @@
       },
       "week": {
         "description": "Извлечете данни за посочения уикенд за нападение."
+      },
+      "start_date": {
+        "description": "Starting date (YYYY-MM-DD)"
+      },
+      "end_date": {
+        "description": "Ending date (YYYY-MM-DD)"
       }
     },
     "choices": {
@@ -976,12 +982,6 @@
         },
         "player": {
           "description": "История на даренията на играч."
-        },
-        "start_date": {
-          "description": "Начална дата (ГГГГ-ММ-ДД)"
-        },
-        "end_date": {
-          "description": "Крайна дата (ГГГГ-ММ-ДД)"
         }
       }
     },
