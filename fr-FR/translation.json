@@ -2,8 +2,6 @@
   "common": {
     "no_clans_found": "Aucun clan n'a été trouvé sur ce serveur pour l'élément spécifié !\nUtilisez la commande {{command}} pour relier un clan.",
     "no_clans_linked": "Aucun clan n'est relié à ce serveur. Pourquoi ne pas en ajouter un ?\nUtilisez la commande {{command}} pour relier un clan.",
-    "clan_limit": "Le nombre maximum de clans a été atteint. Veuillez envisager de nous soutenir sur notre [Patreon](https://patreon.com/clashperk) pour ajouter plus de deux clans.\n\nDéjà abonné ? Utilisez la commande {{command}}.",
-    "patreon_only": "Cette commande n'est disponible que sur les serveurs des abonnés. Veuillez envisager de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour pouvoir utiliser cette commande.\n\nDéjà abonné ? Utilisez la commande {{command}}.",
     "clan_verification": "Nous devons nous assurer que vous êtes bien chef ou adjoint de ce clan. Veuillez vérifier votre compte joueur avec le jeton API.\nUtilisez la commande {{command}} pour vérifier votre compte joueur. Le jeton API est disponible dans les paramètres du jeu.",
     "no_option": "Une erreur s'est produite lors de l'exécution de cette commande. (option introuvable)",
     "no_data": "Aucune donnée n'est disponible pour le moment. Nous sommes toujours en train de collecter !",
@@ -1243,7 +1241,6 @@
       "no_system_roles": "Les rôles gérés par le système ou les bots ne sont pas autorisés.",
       "no_higher_roles": "Le rôle le plus élevé du bot doit être supérieur aux rôles sélectionnés.",
       "invalid_clan_tag": "L'identifiant du clan spécifié n'est pas valide.",
-      "roles_already_used": "Certains rôles ont déjà été utilisés pour un autre clan. \nMerci de nous soutenir sur [Patreon](https://patreon.com/clashperk) pour utiliser les mêmes rôles pour plusieurs clans.",
       "clan_not_linked": "Le clan doit être relié au serveur pour activer l'auto-rôle.",
       "success_with_count": "L'auto-rôle a été activé avec succès pour {{count}} clan(s). \n{{clans}}",
       "clan_roles": {
