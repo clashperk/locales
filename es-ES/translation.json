@@ -2,8 +2,6 @@
   "common": {
     "no_clans_found": "¡No se encontraron clanes en este servidor con la información proporcionada!\nUsa el comando {{command}} para vincular un clan.",
     "no_clans_linked": "No hay clanes vinculados a este servidor. ¿Por qué no vincular algunos? \nUse el comando {{command}} para vincular un clan.",
-    "clan_limit": "Has alcanzado el número máximo de clanes disponibles por servidor. Por favor, considera apoyarnos en [Patreon](https://patreon.com/clashperk) para agregar más de dos clanes.\n\n¿Ya nos apoyas en Patreon? Usa el comando {{command}} para canjearla.",
-    "patreon_only": "Este comando solo está disponible en servidores suscritos a Patreon. Considere apoyarnos en nuestro [Patreon](https://patreon.com/clashperk) para usar este comando.\n\n¿Ya estás suscrito? Utilice el comando {{command}} para obtenerla.",
     "clan_verification": "Tenemos que asegurarnos de que eres el líder o colider del clan. Verifica tu cuenta de jugador con el código API.\nUsa el comando {{command}} para poder verificar tu cuenta de jugador. El código API está disponible dentro de la configuración del juego.",
     "no_option": "Algo salió mal al ejecutar este comando. (Opción no encontrada)",
     "no_data": "No hay información disponible por el momento. ¡Todavía estamos recolectando!",
@@ -1243,7 +1241,6 @@
       "no_system_roles": "No se permiten roles de bots o administrador de sistema.",
       "no_higher_roles": "Mi rol de bot debe ser más alto que esos roles.",
       "invalid_clan_tag": "La etiqueta de clan proporcionada no es válida.",
-      "roles_already_used": "Algunos roles ya han sido utilizados para otro clan. \nConsidera apoyarnos en [Patreon](https://patreon.com/clashperk) para usar los mismos roles para múltiples clanes.",
       "clan_not_linked": "El clan debe estar vinculado al servidor para poder habilitar la función de roles automáticos.",
       "success_with_count": "Función de roles automáticos habilitada exitosamente para {{count}} clan(es). \n{{clans}}",
       "clan_roles": {
