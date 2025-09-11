@@ -847,7 +847,7 @@
             "description": "Canal para notificar el recordatorio."
           }
         },
-        "max_limit": "Solo puedes tener un máximo de 25 recordatorios.",
+        "max_limit": "You can add a maximum of {{maxReminders}} reminders.",
         "invalid_duration_format": "La duración debe estar escrita en un formato válido. (Por ejemplo: 2h, 2,5h, 30m)",
         "duration_limit": "La duración debe ser superior a 15 minutos e inferior a 48 horas.",
         "duration_order": "La duración debe ser un múltiplo de 15 minutos, p. ej.: 15 min, 30 min, 45 min, 1 h, 1,25 h, 1,5 h, 1,75 h",
