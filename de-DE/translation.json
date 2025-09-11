@@ -847,7 +847,7 @@
             "description": "Erinnerungskanal für die Benachrichtigung."
           }
         },
-        "max_limit": "Du kannst nur 25 Erinnerungen haben.",
+        "max_limit": "You can add a maximum of {{maxReminders}} reminders.",
         "invalid_duration_format": "Die Dauer muss in einem gültigen Format vorliegen. (z. B. 2h, 2,5h, 30m)",
         "duration_limit": "Die Dauer muss mehr als 15 Minuten und weniger als 48 Stunden betragen.",
         "duration_order": "Die Dauer muss ein Vielfaches von 15 Minuten sein. z.B. 15min, 30min, 45min, 1 Stunde, 1,25 h, 1,5 h, 1,75 h",
