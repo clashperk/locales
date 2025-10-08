@@ -1495,7 +1495,12 @@
       }
     },
     "clans": {
-      "description": "Mostrar todos los clanes vinculados."
+      "description": "Mostrar todos los clanes vinculados.",
+      "options": {
+        "category": {
+          "description": "Filter clans by category."
+        }
+      }
     },
     "layout": {
       "description": "Publica un diseño de aldea.",
