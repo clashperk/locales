@@ -1495,7 +1495,12 @@
       }
     },
     "clans": {
-      "description": "Afficher tous les clans reliés."
+      "description": "Afficher tous les clans reliés.",
+      "options": {
+        "category": {
+          "description": "Filter clans by category."
+        }
+      }
     },
     "layout": {
       "description": "Poster un plan de village.",
