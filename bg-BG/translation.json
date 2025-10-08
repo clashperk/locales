@@ -1495,7 +1495,12 @@
       }
     },
     "clans": {
-      "description": "Показване на всички свързани кланове."
+      "description": "Показване на всички свързани кланове.",
+      "options": {
+        "category": {
+          "description": "Filter clans by category."
+        }
+      }
     },
     "layout": {
       "description": "Публикувайте план на село.",
