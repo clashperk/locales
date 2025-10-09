@@ -847,7 +847,7 @@
             "description": "Canal para notificar el recordatorio."
           }
         },
-        "max_limit": "You can add a maximum of {{maxReminders}} reminders.",
+        "max_limit": "Solo puedes añadir un máximo de {{maxReminders}} recordatorios.",
         "invalid_duration_format": "La duración debe estar escrita en un formato válido. (Por ejemplo: 2h, 2,5h, 30m)",
         "duration_limit": "La duración debe ser superior a 15 minutos e inferior a 48 horas.",
         "duration_order": "La duración debe ser un múltiplo de 15 minutos, p. ej.: 15 min, 30 min, 45 min, 1 h, 1,25 h, 1,5 h, 1,75 h",
@@ -1498,7 +1498,7 @@
       "description": "Mostrar todos los clanes vinculados.",
       "options": {
         "category": {
-          "description": "Filter clans by category."
+          "description": "Filtrar clanes por categoría."
         }
       }
     },
