@@ -654,7 +654,12 @@
         }
       },
       "capital_raids": {
-        "description": "[Експериментално] Експортиране на статистически данни за атаки на капиталови нападения."
+        "description": "Export capital raid attack stats.",
+        "options": {
+          "limit": {
+            "description": "Number of raid weekends (Default: 4)"
+          }
+        }
       },
       "capital": {
         "description": "Износ на клан капитал през уикендите."
