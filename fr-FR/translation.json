@@ -501,6 +501,9 @@
           },
           "log_channel": {
             "description": "Salon pour enregistrer les modifications de l'équipe"
+          },
+          "delete_log_channel": {
+            "description": "Whether to delete the log channel"
           }
         }
       },
