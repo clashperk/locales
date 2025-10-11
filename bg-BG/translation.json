@@ -501,6 +501,9 @@
           },
           "log_channel": {
             "description": "Канал за регистриране на промените в списъка"
+          },
+          "delete_log_channel": {
+            "description": "Whether to delete the log channel"
           }
         }
       },
