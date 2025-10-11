@@ -501,6 +501,9 @@
           },
           "log_channel": {
             "description": "Canal para registrar cambios en las parrillas"
+          },
+          "delete_log_channel": {
+            "description": "Whether to delete the log channel"
           }
         }
       },
