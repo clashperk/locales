@@ -2,8 +2,6 @@
   "common": {
     "no_clans_found": "No clans were found on this server for the specified input! \nUse {{command}} command to link a clan.",
     "no_clans_linked": "No clans are linked to this server. Why not link some? \nUse {{command}} command to link a clan.",
-    "clan_limit": "The maximum number of clans has reached. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to add more than two clans.\n\nAlready subscribed? Use {{command}} command.",
-    "patreon_only": "This command is only available on Patreon subscribed servers. Please consider supporting us on our [Patreon](https://patreon.com/clashperk) to use this command.\n\nAlready subscribed? Use {{command}} command.",
     "clan_verification": "We need to ensure that you are a leader or co-leader of this clan. Please verify your player account with the API token.\nUse the {{command}} command to verify your player account. The API token is available in the Game settings.",
     "no_option": "Valami hiba történt a parancs végrehajtása közben. (az opció nem található)",
     "no_data": "Jelenleg nem állnak rendelkezésre adatok. Még próbáljuk összegyűjteni őket!",
@@ -68,6 +66,12 @@
       },
       "week": {
         "description": "Retrieve data for the specified raid weekend."
+      },
+      "start_date": {
+        "description": "Starting date (YYYY-MM-DD)"
+      },
+      "end_date": {
+        "description": "Ending date (YYYY-MM-DD)"
       }
     },
     "choices": {
@@ -497,6 +501,9 @@
           },
           "log_channel": {
             "description": "Channel to log roster changes"
+          },
+          "delete_log_channel": {
+            "description": "Whether to delete the log channel"
           }
         }
       },
@@ -843,7 +850,7 @@
             "description": "Reminder channel for the notification."
           }
         },
-        "max_limit": "You can only have 25 reminders.",
+        "max_limit": "You can add a maximum of {{maxReminders}} reminders.",
         "invalid_duration_format": "The duration must be in a valid format. e.g. 2h, 2.5h, 30m",
         "duration_limit": "The duration must be greater than 15 minutes and less than 48 hours.",
         "duration_order": "Duration must be a multiple of 15 minutes. e.g. 15m, 30m, 45m, 1h, 1.25h, 1.5h, 1.75h",
@@ -976,12 +983,6 @@
         },
         "player": {
           "description": "Donation history of a player."
-        },
-        "start_date": {
-          "description": "Starting date (YYYY-MM-DD)"
-        },
-        "end_date": {
-          "description": "Ending date (YYYY-MM-DD)"
         }
       }
     },
@@ -1243,7 +1244,6 @@
       "no_system_roles": "System managed or bot roles are not allowed.",
       "no_higher_roles": "Bot's highest role must be higher than the selected roles.",
       "invalid_clan_tag": "The specified clan tag is invalid.",
-      "roles_already_used": "Some roles have already been used for another clan. \nPlease consider supporting us on [Patreon](https://patreon.com/clashperk) to use the same roles for multiple clans.",
       "clan_not_linked": "The clan must be linked to the server to enable auto-role.",
       "success_with_count": "Successfully enabled auto-role for {{count}} clan(s). \n{{clans}}",
       "clan_roles": {
@@ -1498,7 +1498,12 @@
       }
     },
     "clans": {
-      "description": "Show all linked clans."
+      "description": "Show all linked clans.",
+      "options": {
+        "category": {
+          "description": "Filter clans by category."
+        }
+      }
     },
     "layout": {
       "description": "Post a village layout.",
