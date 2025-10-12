@@ -654,7 +654,12 @@
         }
       },
       "capital_raids": {
-        "description": "[Experimental] Exportar estadísticas de los asaltos de la capital."
+        "description": "Export capital raid attack stats.",
+        "options": {
+          "limit": {
+            "description": "Number of raid weekends (Default: 4)"
+          }
+        }
       },
       "capital": {
         "description": "Exportar fines de semana de la capital de clan."
