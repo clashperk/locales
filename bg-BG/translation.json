@@ -789,7 +789,7 @@
         }
       },
       "success": "Проверката е успешна! {{info}}",
-      "invalid_token": "Трябва да предоставите валиден API Token, който може да бъде намерен в настройките на играта. \nhttps://i.imgur.com/8dsoUB8.jpg"
+      "invalid_token": "You must provide a valid API Token that can be found in the game settings."
     },
     "timezone": {
       "description": "Задайте отместването на вашата часова зона за командата /activity.",
