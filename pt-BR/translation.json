@@ -789,7 +789,7 @@
         }
       },
       "success": "Verificação bem-sucedida! {{info}}",
-      "invalid_token": "Você deve fornecer um token de API válido que pode ser encontrado nas configurações do jogo. \nhttps://i.imgur.com/8dsoUB8.jpg"
+      "invalid_token": "You must provide a valid API Token that can be found in the game settings."
     },
     "timezone": {
       "description": "Set your timezone offset for /activity command.",
