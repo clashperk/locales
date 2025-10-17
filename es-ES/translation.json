@@ -1524,6 +1524,9 @@
         },
         "allow_voting": {
           "description": "Si se permitirá la votación para el diseño."
+        },
+        "allow_tracking": {
+          "description": "Whether to allow tracking layout copies."
         }
       }
     },
