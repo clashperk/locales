@@ -789,7 +789,7 @@
         }
       },
       "success": "Верифікація успішна! {{info}}",
-      "invalid_token": "Ви повинні надати дійсний API токен, що знаходиться в налаштуваннях гри.\nhttps://i.imgur.com/8dsoUB8.jpg"
+      "invalid_token": "You must provide a valid API Token that can be found in the game settings."
     },
     "timezone": {
       "description": "Set your timezone offset for /activity command.",
@@ -1524,6 +1524,9 @@
         },
         "allow_voting": {
           "description": "Whether to allow voting on the layout."
+        },
+        "allow_tracking": {
+          "description": "Whether to allow tracking layout copies."
         }
       }
     },
