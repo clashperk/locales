@@ -1526,7 +1526,7 @@
           "description": "Si se permitirá la votación para el diseño."
         },
         "allow_tracking": {
-          "description": "Whether to allow tracking layout copies."
+          "description": "Si se permitirá el seguimiento de copias de diseño."
         }
       }
     },
