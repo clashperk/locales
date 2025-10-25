@@ -1511,22 +1511,30 @@
       }
     },
     "layout": {
-      "description": "Publica un diseño de aldea.",
-      "options": {
-        "screenshot": {
-          "description": "Captura de pantalla del diseño de aldea.(utiliza el modo foto para una foto limpia)"
-        },
-        "layout_link": {
-          "description": "Enlace compartible del diseño.(compartir como enlace con la selección en el diseño a compartir)"
-        },
-        "notes": {
-          "description": "Notas personalizadas del diseño."
-        },
-        "allow_voting": {
-          "description": "Si se permitirá la votación para el diseño."
-        },
-        "allow_tracking": {
-          "description": "Si se permitirá el seguimiento de copias de diseño."
+      "description": "Manage and share village layouts.",
+      "post": {
+        "description": "Post your village layout to showcase it to the community.",
+        "options": {
+          "screenshot": {
+            "description": "Upload a screenshot showing your village layout."
+          },
+          "layout_link": {
+            "description": "Provide a shareable link to your layout."
+          },
+          "notes": {
+            "description": "Add custom notes or details about your layout."
+          }
+        }
+      },
+      "config": {
+        "description": "Adjust settings related to layout posting and interactions.",
+        "options": {
+          "allow_voting": {
+            "description": "Enable or disable voting on posted layouts."
+          },
+          "allow_tracking": {
+            "description": "Enable or disable tracking of layout copies."
+          }
         }
       }
     },
