@@ -1511,29 +1511,29 @@
       }
     },
     "layout": {
-      "description": "Manage and share village layouts.",
+      "description": "Maneja o publica diseños de aldeas.",
       "post": {
-        "description": "Post your village layout to showcase it to the community.",
+        "description": "Publica el diseño de tu aldea para mostrarlo a la comunidad.",
         "options": {
           "screenshot": {
-            "description": "Upload a screenshot showing your village layout."
+            "description": "Sube una captura de pantalla que muestre el diseño de tu aldea."
           },
           "layout_link": {
-            "description": "Provide a shareable link to your layout."
+            "description": "Proporciona un enlace para compartir tu diseño."
           },
           "notes": {
-            "description": "Add custom notes or details about your layout."
+            "description": "Agrega notas o detalles personalizados sobre tu diseño."
           }
         }
       },
       "config": {
-        "description": "Adjust settings related to layout posting and interactions.",
+        "description": "Ajusta la configuración relacionada con la publicación del diseño e interacciones.",
         "options": {
           "allow_voting": {
-            "description": "Enable or disable voting on posted layouts."
+            "description": "Habilitar o deshabilitar la votación en los diseños publicados."
           },
           "allow_tracking": {
-            "description": "Enable or disable tracking of layout copies."
+            "description": "Activar o desactivar el seguimiento de copias de diseño."
           }
         }
       }
