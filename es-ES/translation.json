@@ -638,10 +638,10 @@
         }
       },
       "users": {
-        "description": "Export Discord members",
+        "description": "Exportar miembros de Discord",
         "options": {
           "role": {
-            "description": "Role to filter users."
+            "description": "Función para filtrar usuarios."
           }
         }
       },
