@@ -637,11 +637,11 @@
           }
         }
       },
-      "user": {
-        "description": "Експортирайте членове на Discord",
+      "users": {
+        "description": "Export Discord members",
         "options": {
           "role": {
-            "description": "Роля за филтриране на потребители."
+            "description": "Role to filter users."
           }
         }
       },
