@@ -637,7 +637,7 @@
           }
         }
       },
-      "user": {
+      "users": {
         "description": "Export Discord members",
         "options": {
           "role": {
