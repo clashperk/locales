@@ -694,6 +694,9 @@
           },
           "flag_impact": {
             "description": "Nombre de signalements à prendre en compte"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "Vous devez fournir un motif au signalement.",
