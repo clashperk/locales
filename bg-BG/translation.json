@@ -694,6 +694,9 @@
           },
           "flag_impact": {
             "description": "Брой флагове, за които трябва да се счита"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "Трябва да предоставите причина за флага.",
