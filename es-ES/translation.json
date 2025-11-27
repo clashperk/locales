@@ -694,6 +694,9 @@
           },
           "flag_impact": {
             "description": "Cuanto debería contar la advertencia"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "Debes de proporcionar un motivo para poner una advertencia.",
