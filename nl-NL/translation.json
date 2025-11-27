@@ -694,6 +694,9 @@
           },
           "flag_impact": {
             "description": "Number of flags this should count as"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "U moet een reden opgeven voor de markering.",
