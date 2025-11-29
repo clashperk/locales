@@ -696,7 +696,7 @@
             "description": "Cuanto debería contar la advertencia"
           },
           "dm_user": {
-            "description": "Whether to DM the user about the flag"
+            "description": "Si desea enviar un mensaje directo al usuario sobre la advertencia"
           }
         },
         "no_reason": "Debes de proporcionar un motivo para poner una advertencia.",
