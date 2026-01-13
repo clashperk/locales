@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Esporta una versione completa delle statistiche dei membri del clan."
+        "description": "Esporta una versione completa delle statistiche dei membri del clan.",
+        "options": {
+          "auto_export_on": {
+            "description": "Whether to schedule the export to run every Sunday at 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Export all linked clans."
