@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Експортирайте цялостна версия на статистиката на членовете на клана."
+        "description": "Експортирайте цялостна версия на статистиката на членовете на клана.",
+        "options": {
+          "auto_export_on": {
+            "description": "Whether to schedule the export to run every Sunday at 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Показване на всички свързани кланове."
