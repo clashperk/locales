@@ -1476,6 +1476,9 @@
       "options": {
         "name": {
           "description": "Komutun adı."
+        },
+        "ask": {
+          "description": "Find answers with AI."
         }
       }
     },
