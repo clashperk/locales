@@ -1476,6 +1476,9 @@
       "options": {
         "name": {
           "description": "Naam van de opdracht."
+        },
+        "ask": {
+          "description": "Find answers with AI."
         }
       }
     },
