@@ -1476,6 +1476,9 @@
       "options": {
         "name": {
           "description": "Nombre del comando."
+        },
+        "ask": {
+          "description": "Find answers with AI."
         }
       }
     },
