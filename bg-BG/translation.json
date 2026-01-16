@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Експортирайте цялостна версия на статистиката на членовете на клана."
+        "description": "Експортирайте цялостна версия на статистиката на членовете на клана.",
+        "options": {
+          "auto_export_on": {
+            "description": "Whether to schedule the export to run every Sunday at 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Показване на всички свързани кланове."
@@ -637,11 +642,11 @@
           }
         }
       },
-      "user": {
-        "description": "Експортирайте членове на Discord",
+      "users": {
+        "description": "Export Discord members",
         "options": {
           "role": {
-            "description": "Роля за филтриране на потребители."
+            "description": "Role to filter users."
           }
         }
       },
@@ -694,6 +699,9 @@
           },
           "flag_impact": {
             "description": "Брой флагове, за които трябва да се счита"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "Трябва да предоставите причина за флага.",
@@ -1468,6 +1476,9 @@
       "options": {
         "name": {
           "description": "Име на командата."
+        },
+        "ask": {
+          "description": "Find answers with AI."
         }
       }
     },

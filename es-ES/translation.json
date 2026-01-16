@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Exporta una versión comprensiva de las estadísticas de los miembros de un clan."
+        "description": "Exporta una versión comprensiva de las estadísticas de los miembros de un clan.",
+        "options": {
+          "auto_export_on": {
+            "description": "Si desea programar la exportación para que se ejecute todos los domingos a las 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Exportar todos los clanes vinculados."
@@ -637,11 +642,11 @@
           }
         }
       },
-      "user": {
+      "users": {
         "description": "Exportar miembros de Discord",
         "options": {
           "role": {
-            "description": "Rol para filtrar usuarios."
+            "description": "Función para filtrar usuarios."
           }
         }
       },
@@ -694,6 +699,9 @@
           },
           "flag_impact": {
             "description": "Cuanto debería contar la advertencia"
+          },
+          "dm_user": {
+            "description": "Si desea enviar un mensaje directo al usuario sobre la advertencia"
           }
         },
         "no_reason": "Debes de proporcionar un motivo para poner una advertencia.",
@@ -1468,6 +1476,9 @@
       "options": {
         "name": {
           "description": "Nombre del comando."
+        },
+        "ask": {
+          "description": "Encuentra respuestas con IA."
         }
       }
     },

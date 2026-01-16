@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Export a comprehensive version of clan member stats."
+        "description": "Export a comprehensive version of clan member stats.",
+        "options": {
+          "auto_export_on": {
+            "description": "Whether to schedule the export to run every Sunday at 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Export all linked clans."
@@ -637,7 +642,7 @@
           }
         }
       },
-      "user": {
+      "users": {
         "description": "Export Discord members",
         "options": {
           "role": {
@@ -694,6 +699,9 @@
           },
           "flag_impact": {
             "description": "Number of flags this should count as"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "U moet een reden opgeven voor de markering.",
@@ -1468,6 +1476,9 @@
       "options": {
         "name": {
           "description": "Naam van de opdracht."
+        },
+        "ask": {
+          "description": "Find answers with AI."
         }
       }
     },
