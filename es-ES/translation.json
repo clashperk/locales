@@ -1478,7 +1478,7 @@
           "description": "Nombre del comando."
         },
         "ask": {
-          "description": "Find answers with AI."
+          "description": "Encuentra respuestas con IA."
         }
       }
     },
