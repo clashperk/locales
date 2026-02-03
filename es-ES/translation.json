@@ -1097,6 +1097,9 @@
         "filter_farm_hits": {
           "description": "Filtrar los impactos de granjeo (1 estrella y menos del 50% de destrucción)"
         },
+        "filter_loot_hits": {
+          "description": "Filter out loot hits (attacks targeting 3-starred bases)"
+        },
         "clan_only": {
           "description": "Incluir únicamente los ataques de guerra especificados."
         }
@@ -1129,60 +1132,37 @@
     },
     "setup": {
       "description": "Habilita/deshabilita funciones en el servidor o agrega/remueve clanes.",
-      "enable": {
-        "description": "Habilita una función en el servidor o añade un clan.",
-        "description_long": "Habilite una función en el servidor (Historial de guerra, Última vez visto, Juegos de clan, Registro de leyendas, Registro de capital, Historial de clan, Registro de unión/abandono, Descripción del clan, Registro de donaciones) o agregue un clan o vincule un clan a un canal.",
+      "clan": {
+        "description": "Link/unlink clans to the server or channels.",
+        "description_long": "Manage clans on the server (link server, link channel, clan embed)",
         "options": {
-          "channel": {
-            "description": "Canal al que se va a enviar las actualizaciones. (Por defecto es el canal actual)"
-          },
-          "color": {
-            "description": "Código de color hexadecimal (Solo registros: Donaciones, juegos, última conexión, e integraciones)"
-          },
-          "role": {
-            "description": "Rol para las notificaciones de advertencias (Solo para el historial del clan)"
+          "clan_channel": {
+            "description": "Link the clan to a channel."
           },
           "category": {
-            "description": "Categoría del clan. (selecciona del menú o escribe la tuya)"
+            "description": "Category of the clan. (select from the menu or type your own)"
+          },
+          "unlink_clan": {
+            "description": "Unlink a clan from the server and remove all the features related to it."
+          },
+          "unlink_clan_channel": {
+            "description": "Unlink a channel from the clan."
           }
-        },
-        "no_leader_link": "El líder del clan debe estar vinculado al bot para poder activar esta función.",
-        "server_link": {
-          "success": "Se ha vinculado exitosamente el clan {{clan}} a {{guild}}.",
-          "already_linked": "{{clan}} ya ha sido vinculado a {{guild}}."
-        },
-        "channel_link": {
-          "description": "Vincula un canal a un clan.",
-          "already_linked": "{{clan}} ya está vinculado a {{channel}}.",
-          "success": "Se ha vinculado exitosamente el clan {{clan}} al canal {{channel}}."
         }
       },
-      "disable": {
-        "description": "Desactiva una función en el servidor o remueve a un clan.",
+      "clan_embed": {
+        "description": "Enable/disable clan embed on the server or add/remove clans.",
         "options": {
-          "channel": {
-            "description": "Canal que se va a remover."
+          "disable_embed": {
+            "description": "Disable clan embed."
           }
-        },
-        "channel_unlink": "Se desvinculó exitosamente al clan {{clan}} del canal {{channel}}.",
-        "channel_not_found": "No se encontraron clanes vinculados al canal {{channel}}.",
-        "clan_not_linked": "No se encontraron clanes en el servidor con la etiqueta proporcionada.",
-        "clan_deleted": "Se ha eliminado el clan {{clan}} exitosamente.",
-        "feature_disabled": "Se deshabilitó exitosamente la función {{feature}} para el clan {{clan}}."
+        }
       },
       "list": {
         "description": "Enlista todas las funciones activadas y clanes vinculados.",
         "options": {
           "clans": {
             "description": "Seleccione los clanes que desee."
-          }
-        }
-      },
-      "utils": {
-        "description": "Configura otras funciones de utilidad (botón de vinculación, panel de eventos)",
-        "options": {
-          "disable": {
-            "description": "Deshabilitar un evento programado."
           }
         }
       },
@@ -1224,7 +1204,30 @@
           },
           "action": {
             "description": "Habilitar o deshabilitar registros."
+          },
+          "color": {
+            "description": "Hex color code for the embed (for donation log, clan games, last seen, etc)"
+          },
+          "channel": {
+            "description": "Channel to send updates to (defaults to the current channel)"
           }
+        }
+      },
+      "responses": {
+        "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
+        "channel_not_found": "No clans were found that are linked to {{channel}}.",
+        "clan_not_linked": "No clans were found on the server for the specified tag.",
+        "clan_deleted": "Successfully deleted {{clan}}.",
+        "feature_disabled": "Successfully disabled {{feature}} for {{clan}}.",
+        "no_leader_link": "Clan Leader must be linked to the bot to enable this feature.",
+        "server_link": {
+          "success": "Successfully linked {{clan}} to {{guild}}.",
+          "already_linked": "{{clan}} is already linked to {{guild}}."
+        },
+        "channel_link": {
+          "description": "Link a channel to a clan.",
+          "already_linked": "{{channel}} is already linked to {{clan}}",
+          "success": "Successfully linked {{clan}} to {{channel}}."
         }
       }
     },
