@@ -1097,6 +1097,9 @@
         "filter_farm_hits": {
           "description": "Filter out farm hits (1 star and < 50% destruction)"
         },
+        "filter_loot_hits": {
+          "description": "Filter out loot hits (attacks targeting 3-starred bases)"
+        },
         "clan_only": {
           "description": "Only include the specified clan's war attacks."
         }
@@ -1129,60 +1132,37 @@
     },
     "setup": {
       "description": "Sunucudaki özellikleri etkinleştirin/devre dışı bırakın veya klan ekleyin/kaldırın.",
-      "enable": {
-        "description": "Sunucuda bir özelliği etkinleştirin veya bir klan ekleyin.",
-        "description_long": "Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.",
+      "clan": {
+        "description": "Link/unlink clans to the server or channels.",
+        "description_long": "Manage clans on the server (link server, link channel, clan embed)",
         "options": {
-          "channel": {
-            "description": "Güncellemelerin gönderileceği kanal (Varsayılan şu anki kanaldır)"
-          },
-          "color": {
-            "description": "Hex color code (only for donation log, clan games, last seen and clan embed)"
-          },
-          "role": {
-            "description": "Role for the flag notification (only for clan feed)"
+          "clan_channel": {
+            "description": "Link the clan to a channel."
           },
           "category": {
             "description": "Category of the clan. (select from the menu or type your own)"
+          },
+          "unlink_clan": {
+            "description": "Unlink a clan from the server and remove all the features related to it."
+          },
+          "unlink_clan_channel": {
+            "description": "Unlink a channel from the clan."
           }
-        },
-        "no_leader_link": "Bu özelliği etkinleştirmek için Klan Lideri botla bağlanmalıdır.",
-        "server_link": {
-          "success": "{{clan}} başarıyla {{guild}} ile bağlandı.",
-          "already_linked": "{{clan}} zaten {{guild}} ile bağlı."
-        },
-        "channel_link": {
-          "description": "Bir kanalı bir klana bağla.",
-          "already_linked": "{{clan}} zaten {{channel}} ile bağlı.",
-          "success": "{{clan}} başarıyla {{channel}} ile bağlandı."
         }
       },
-      "disable": {
-        "description": "Sunucuda bir özelliği devre dışı bırakın veya bir klanı kaldırın.",
+      "clan_embed": {
+        "description": "Enable/disable clan embed on the server or add/remove clans.",
         "options": {
-          "channel": {
-            "description": "Kaldırılacak kanal."
+          "disable_embed": {
+            "description": "Disable clan embed."
           }
-        },
-        "channel_unlink": "{{clan}} başarıyla {{channel}} kanalından ayrıldı.",
-        "channel_not_found": "{{channel}} ile bağlanmış klan bulunamadı.",
-        "clan_not_linked": "Belirtilen etiket için sunucuda klan bulunamadı.",
-        "clan_deleted": "{{clan}} başarıyla silindi.",
-        "feature_disabled": "{{clan}} için {{feature}} başarıyla devre dışı bırakıldı."
+        }
       },
       "list": {
         "description": "Etkinleştirilmiş tüm özellikleri ve klanları listeleyin.",
         "options": {
           "clans": {
             "description": "Select the clans to list."
-          }
-        }
-      },
-      "utils": {
-        "description": "[DEPRECATED] Setup other utility features (link button, events schedular)",
-        "options": {
-          "disable": {
-            "description": "Disable a scheduled event."
           }
         }
       },
@@ -1224,7 +1204,30 @@
           },
           "action": {
             "description": "What logs to enable or disable."
+          },
+          "color": {
+            "description": "Hex color code for the embed (for donation log, clan games, last seen, etc)"
+          },
+          "channel": {
+            "description": "Channel to send updates to (defaults to the current channel)"
           }
+        }
+      },
+      "responses": {
+        "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
+        "channel_not_found": "No clans were found that are linked to {{channel}}.",
+        "clan_not_linked": "No clans were found on the server for the specified tag.",
+        "clan_deleted": "Successfully deleted {{clan}}.",
+        "feature_disabled": "Successfully disabled {{feature}} for {{clan}}.",
+        "no_leader_link": "Clan Leader must be linked to the bot to enable this feature.",
+        "server_link": {
+          "success": "Successfully linked {{clan}} to {{guild}}.",
+          "already_linked": "{{clan}} is already linked to {{guild}}."
+        },
+        "channel_link": {
+          "description": "Link a channel to a clan.",
+          "already_linked": "{{channel}} is already linked to {{clan}}",
+          "success": "Successfully linked {{clan}} to {{channel}}."
         }
       }
     },
