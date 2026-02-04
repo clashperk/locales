@@ -1098,7 +1098,7 @@
           "description": "Filtrar los impactos de granjeo (1 estrella y menos del 50% de destrucción)"
         },
         "filter_loot_hits": {
-          "description": "Filter out loot hits (attacks targeting 3-starred bases)"
+          "description": "Filtrar los ataques de farming (ataques dirigidos a bases de 3 estrellas)"
         },
         "clan_only": {
           "description": "Incluir únicamente los ataques de guerra especificados."
@@ -1133,28 +1133,28 @@
     "setup": {
       "description": "Habilita/deshabilita funciones en el servidor o agrega/remueve clanes.",
       "clan": {
-        "description": "Link/unlink clans to the server or channels.",
-        "description_long": "Manage clans on the server (link server, link channel, clan embed)",
+        "description": "Vincular o desvincular clanes al servidor o canales.",
+        "description_long": "Administrar clanes en el servidor (vincular servidor, vincular canal, descripción del clan)",
         "options": {
           "clan_channel": {
-            "description": "Link the clan to a channel."
+            "description": "Vincular el clan a un canal."
           },
           "category": {
-            "description": "Category of the clan. (select from the menu or type your own)"
+            "description": "Categoría del clan. (selecciona del menú o escribe la tuya)"
           },
           "unlink_clan": {
-            "description": "Unlink a clan from the server and remove all the features related to it."
+            "description": "Desvincular un clan del servidor y eliminar todas las funciones relacionadas con él."
           },
           "unlink_clan_channel": {
-            "description": "Unlink a channel from the clan."
+            "description": "Desvincula un canal del clan."
           }
         }
       },
       "clan_embed": {
-        "description": "Enable/disable clan embed on the server or add/remove clans.",
+        "description": "Habilita/deshabilita funciones en el servidor o agrega/remueve clanes.",
         "options": {
           "disable_embed": {
-            "description": "Disable clan embed."
+            "description": "Deshabilitar la descripción del clan."
           }
         }
       },
@@ -1206,28 +1206,28 @@
             "description": "Habilitar o deshabilitar registros."
           },
           "color": {
-            "description": "Hex color code for the embed (for donation log, clan games, last seen, etc)"
+            "description": "Código de color hexadecimal para la incrustación (para registro de donaciones, juegos de clan, última vez visto, etc.)"
           },
           "channel": {
-            "description": "Channel to send updates to (defaults to the current channel)"
+            "description": "Canal al que enviar actualizaciones (predeterminado al canal actual)"
           }
         }
       },
       "responses": {
-        "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
-        "channel_not_found": "No clans were found that are linked to {{channel}}.",
-        "clan_not_linked": "No clans were found on the server for the specified tag.",
-        "clan_deleted": "Successfully deleted {{clan}}.",
-        "feature_disabled": "Successfully disabled {{feature}} for {{clan}}.",
-        "no_leader_link": "Clan Leader must be linked to the bot to enable this feature.",
+        "channel_unlink": "Se desvinculó exitosamente a {{clan}} de {{channel}}.",
+        "channel_not_found": "No se encontraron clanes vinculados a {{channel}}.",
+        "clan_not_linked": "No se encontraron clanes en el servidor con la etiqueta proporcionada.",
+        "clan_deleted": "{{clan}} eliminado exitosamente.",
+        "feature_disabled": "Se desvinculó exitosamente {{feature}} de {{clan}}.",
+        "no_leader_link": "El líder del clan debe estar vinculado al bot para habilitar esta función.",
         "server_link": {
-          "success": "Successfully linked {{clan}} to {{guild}}.",
-          "already_linked": "{{clan}} is already linked to {{guild}}."
+          "success": "{{clan}} vinculado exitosamente a {{guild}}",
+          "already_linked": "{{clan}} ya está vinculado a {{guild}}."
         },
         "channel_link": {
-          "description": "Link a channel to a clan.",
-          "already_linked": "{{channel}} is already linked to {{clan}}",
-          "success": "Successfully linked {{clan}} to {{channel}}."
+          "description": "Vincular un canal a un clan.",
+          "already_linked": "{{channel}} ya está vinculado a {{clan}}",
+          "success": "  {{clan}} vinculado exitosamente a {{channel}}."
         }
       }
     },
