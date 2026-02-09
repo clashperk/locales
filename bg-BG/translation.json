@@ -922,6 +922,9 @@
         },
         "user": {
           "description": "Изберете потребител за хронологията."
+        },
+        "roster": {
+          "description": "Select a roster for the history."
         }
       }
     },
