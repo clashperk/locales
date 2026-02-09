@@ -922,6 +922,9 @@
         },
         "user": {
           "description": "Seleccione un usuario para mostrar el historial."
+        },
+        "roster": {
+          "description": "Select a roster for the history."
         }
       }
     },
