@@ -484,6 +484,9 @@
           },
           "clan": {
             "description": "Buscar parrillas por clan"
+          },
+          "category": {
+            "description": "Search rosters by category"
           }
         }
       },
