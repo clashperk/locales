@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Exporter une version complète des statistiques des membres du clan."
+        "description": "Exporter une version complète des statistiques des membres du clan.",
+        "options": {
+          "auto_export_on": {
+            "description": "Whether to schedule the export to run every Sunday at 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Exporter tous les clans reliés."
@@ -637,11 +642,11 @@
           }
         }
       },
-      "user": {
-        "description": "Exporter les membres de Discord",
+      "users": {
+        "description": "Export Discord members",
         "options": {
           "role": {
-            "description": "Rôle pour filtrer les utilisateurs."
+            "description": "Role to filter users."
           }
         }
       },
@@ -694,6 +699,9 @@
           },
           "flag_impact": {
             "description": "Nombre de signalements à prendre en compte"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "Vous devez fournir un motif au signalement.",
@@ -914,6 +922,9 @@
         },
         "user": {
           "description": "Sélectionner un utilisateur pour l'historique."
+        },
+        "roster": {
+          "description": "Select a roster for the history."
         }
       }
     },
@@ -1089,6 +1100,9 @@
         "filter_farm_hits": {
           "description": "Filtrer les attaques de farm (1 étoile et < 50 % de destruction)"
         },
+        "filter_loot_hits": {
+          "description": "Filter out loot hits (attacks targeting 3-starred bases)"
+        },
         "clan_only": {
           "description": "N'inclure que les attaques de guerre du clan spécifié."
         }
@@ -1121,60 +1135,37 @@
     },
     "setup": {
       "description": "Activer/désactiver des fonctionnalités sur le serveur ou ajouter/supprimer des clans.",
-      "enable": {
-        "description": "Activer une fonctionnalité sur le serveur ou ajouter un clan.",
-        "description_long": "Activer une fonctionnalité sur le serveur (Flux de Guerre, Dernière Connexion, Jeux de Clan, Journal de Légende, Journal de la Capitale, Flux du Clan, Journal des Entrées et Sorties, Intégration de Clan, Journal des Dons de troupes) ou ajouter un clan ou relier un clan à un salon.",
+      "clan": {
+        "description": "Link/unlink clans to the server or channels.",
+        "description_long": "Manage clans on the server (link server, link channel, clan embed)",
         "options": {
-          "channel": {
-            "description": "Salon où publier les mises à jour (par défaut, le salon actuel)"
-          },
-          "color": {
-            "description": "Code couleur hexadécimal (seulement les dons, jeux, dernière connexion et l'intégration de clan)"
-          },
-          "role": {
-            "description": "Rôle pour la notification de signalement (uniquement pour le flux du clan)"
+          "clan_channel": {
+            "description": "Link the clan to a channel."
           },
           "category": {
-            "description": "Catégorie du clan. (choisissez dans le menu ou tapez votre propre catégorie)"
+            "description": "Category of the clan. (select from the menu or type your own)"
+          },
+          "unlink_clan": {
+            "description": "Unlink a clan from the server and remove all the features related to it."
+          },
+          "unlink_clan_channel": {
+            "description": "Unlink a channel from the clan."
           }
-        },
-        "no_leader_link": "Le chef de clan doit être relié au bot pour activer cette fonction.",
-        "server_link": {
-          "success": "{{clan}} relié à {{guild}} avec succès.",
-          "already_linked": "{{clan}} est déjà relié à {{guild}}."
-        },
-        "channel_link": {
-          "description": "Relier un salon à un clan.",
-          "already_linked": "{{clan}} est déjà relié à {{channel}}.",
-          "success": "{{clan}} relié à {{channel}} avec succès."
         }
       },
-      "disable": {
-        "description": "Désactiver une fonctionnalité du serveur ou supprimer un clan.",
+      "clan_embed": {
+        "description": "Enable/disable clan embed on the server or add/remove clans.",
         "options": {
-          "channel": {
-            "description": "Salon à supprimer."
+          "disable_embed": {
+            "description": "Disable clan embed."
           }
-        },
-        "channel_unlink": "{{clan}} dissocié de {{channel}} avec succès.",
-        "channel_not_found": "Aucun clan relié à {{channel}} n'a été trouvé.",
-        "clan_not_linked": "Aucun clan n'a été trouvé sur le serveur pour l'identifiant spécifié.",
-        "clan_deleted": "{{clan}} supprimé avec succès.",
-        "feature_disabled": "{{feature}} désactivé avec succès pour {{clan}}."
+        }
       },
       "list": {
         "description": "Lister toutes les fonctionnalités et les clans activés.",
         "options": {
           "clans": {
             "description": "Sélectionner les clans à lister."
-          }
-        }
-      },
-      "utils": {
-        "description": "[OBSOLÈTE] Configurer d'autres fonctionnalités utilitaires (bouton de lien, calendrier d'événements)",
-        "options": {
-          "disable": {
-            "description": "Désactiver un événement programmé."
           }
         }
       },
@@ -1216,7 +1207,30 @@
           },
           "action": {
             "description": "Les journaux à activer ou désactiver."
+          },
+          "color": {
+            "description": "Hex color code for the embed (for donation log, clan games, last seen, etc)"
+          },
+          "channel": {
+            "description": "Channel to send updates to (defaults to the current channel)"
           }
+        }
+      },
+      "responses": {
+        "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
+        "channel_not_found": "No clans were found that are linked to {{channel}}.",
+        "clan_not_linked": "No clans were found on the server for the specified tag.",
+        "clan_deleted": "Successfully deleted {{clan}}.",
+        "feature_disabled": "Successfully disabled {{feature}} for {{clan}}.",
+        "no_leader_link": "Clan Leader must be linked to the bot to enable this feature.",
+        "server_link": {
+          "success": "Successfully linked {{clan}} to {{guild}}.",
+          "already_linked": "{{clan}} is already linked to {{guild}}."
+        },
+        "channel_link": {
+          "description": "Link a channel to a clan.",
+          "already_linked": "{{channel}} is already linked to {{clan}}",
+          "success": "Successfully linked {{clan}} to {{channel}}."
         }
       }
     },
@@ -1468,6 +1482,9 @@
       "options": {
         "name": {
           "description": "Nom de la commande."
+        },
+        "ask": {
+          "description": "Find answers with AI."
         }
       }
     },

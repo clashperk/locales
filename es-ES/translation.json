@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Exporta una versión comprensiva de las estadísticas de los miembros de un clan."
+        "description": "Exporta una versión comprensiva de las estadísticas de los miembros de un clan.",
+        "options": {
+          "auto_export_on": {
+            "description": "Si desea programar la exportación para que se ejecute todos los domingos a las 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Exportar todos los clanes vinculados."
@@ -637,11 +642,11 @@
           }
         }
       },
-      "user": {
+      "users": {
         "description": "Exportar miembros de Discord",
         "options": {
           "role": {
-            "description": "Rol para filtrar usuarios."
+            "description": "Función para filtrar usuarios."
           }
         }
       },
@@ -694,6 +699,9 @@
           },
           "flag_impact": {
             "description": "Cuanto debería contar la advertencia"
+          },
+          "dm_user": {
+            "description": "Si desea enviar un mensaje directo al usuario sobre la advertencia"
           }
         },
         "no_reason": "Debes de proporcionar un motivo para poner una advertencia.",
@@ -914,6 +922,9 @@
         },
         "user": {
           "description": "Seleccione un usuario para mostrar el historial."
+        },
+        "roster": {
+          "description": "Selecciona una parrilla para el historial."
         }
       }
     },
@@ -1089,6 +1100,9 @@
         "filter_farm_hits": {
           "description": "Filtrar los impactos de granjeo (1 estrella y menos del 50% de destrucción)"
         },
+        "filter_loot_hits": {
+          "description": "Filtrar los ataques de farming (ataques dirigidos a bases de 3 estrellas)"
+        },
         "clan_only": {
           "description": "Incluir únicamente los ataques de guerra especificados."
         }
@@ -1121,60 +1135,37 @@
     },
     "setup": {
       "description": "Habilita/deshabilita funciones en el servidor o agrega/remueve clanes.",
-      "enable": {
-        "description": "Habilita una función en el servidor o añade un clan.",
-        "description_long": "Habilite una función en el servidor (Historial de guerra, Última vez visto, Juegos de clan, Registro de leyendas, Registro de capital, Historial de clan, Registro de unión/abandono, Descripción del clan, Registro de donaciones) o agregue un clan o vincule un clan a un canal.",
+      "clan": {
+        "description": "Vincular o desvincular clanes al servidor o canales.",
+        "description_long": "Administrar clanes en el servidor (vincular servidor, vincular canal, descripción del clan)",
         "options": {
-          "channel": {
-            "description": "Canal al que se va a enviar las actualizaciones. (Por defecto es el canal actual)"
-          },
-          "color": {
-            "description": "Código de color hexadecimal (Solo registros: Donaciones, juegos, última conexión, e integraciones)"
-          },
-          "role": {
-            "description": "Rol para las notificaciones de advertencias (Solo para el historial del clan)"
+          "clan_channel": {
+            "description": "Vincular el clan a un canal."
           },
           "category": {
             "description": "Categoría del clan. (selecciona del menú o escribe la tuya)"
+          },
+          "unlink_clan": {
+            "description": "Desvincular un clan del servidor y eliminar todas las funciones relacionadas con él."
+          },
+          "unlink_clan_channel": {
+            "description": "Desvincula un canal del clan."
           }
-        },
-        "no_leader_link": "El líder del clan debe estar vinculado al bot para poder activar esta función.",
-        "server_link": {
-          "success": "Se ha vinculado exitosamente el clan {{clan}} a {{guild}}.",
-          "already_linked": "{{clan}} ya ha sido vinculado a {{guild}}."
-        },
-        "channel_link": {
-          "description": "Vincula un canal a un clan.",
-          "already_linked": "{{clan}} ya está vinculado a {{channel}}.",
-          "success": "Se ha vinculado exitosamente el clan {{clan}} al canal {{channel}}."
         }
       },
-      "disable": {
-        "description": "Desactiva una función en el servidor o remueve a un clan.",
+      "clan_embed": {
+        "description": "Habilita/deshabilita funciones en el servidor o agrega/remueve clanes.",
         "options": {
-          "channel": {
-            "description": "Canal que se va a remover."
+          "disable_embed": {
+            "description": "Deshabilitar la descripción del clan."
           }
-        },
-        "channel_unlink": "Se desvinculó exitosamente al clan {{clan}} del canal {{channel}}.",
-        "channel_not_found": "No se encontraron clanes vinculados al canal {{channel}}.",
-        "clan_not_linked": "No se encontraron clanes en el servidor con la etiqueta proporcionada.",
-        "clan_deleted": "Se ha eliminado el clan {{clan}} exitosamente.",
-        "feature_disabled": "Se deshabilitó exitosamente la función {{feature}} para el clan {{clan}}."
+        }
       },
       "list": {
         "description": "Enlista todas las funciones activadas y clanes vinculados.",
         "options": {
           "clans": {
             "description": "Seleccione los clanes que desee."
-          }
-        }
-      },
-      "utils": {
-        "description": "Configura otras funciones de utilidad (botón de vinculación, panel de eventos)",
-        "options": {
-          "disable": {
-            "description": "Deshabilitar un evento programado."
           }
         }
       },
@@ -1216,7 +1207,30 @@
           },
           "action": {
             "description": "Habilitar o deshabilitar registros."
+          },
+          "color": {
+            "description": "Código de color hexadecimal para la incrustación (para registro de donaciones, juegos de clan, última vez visto, etc.)"
+          },
+          "channel": {
+            "description": "Canal al que enviar actualizaciones (predeterminado al canal actual)"
           }
+        }
+      },
+      "responses": {
+        "channel_unlink": "Se desvinculó exitosamente a {{clan}} de {{channel}}.",
+        "channel_not_found": "No se encontraron clanes vinculados a {{channel}}.",
+        "clan_not_linked": "No se encontraron clanes en el servidor con la etiqueta proporcionada.",
+        "clan_deleted": "{{clan}} eliminado exitosamente.",
+        "feature_disabled": "Se desvinculó exitosamente {{feature}} de {{clan}}.",
+        "no_leader_link": "El líder del clan debe estar vinculado al bot para habilitar esta función.",
+        "server_link": {
+          "success": "{{clan}} vinculado exitosamente a {{guild}}",
+          "already_linked": "{{clan}} ya está vinculado a {{guild}}."
+        },
+        "channel_link": {
+          "description": "Vincular un canal a un clan.",
+          "already_linked": "{{channel}} ya está vinculado a {{clan}}",
+          "success": "  {{clan}} vinculado exitosamente a {{channel}}."
         }
       }
     },
@@ -1468,6 +1482,9 @@
       "options": {
         "name": {
           "description": "Nombre del comando."
+        },
+        "ask": {
+          "description": "Encuentra respuestas con IA."
         }
       }
     },

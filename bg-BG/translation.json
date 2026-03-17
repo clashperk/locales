@@ -618,7 +618,12 @@
         }
       },
       "members": {
-        "description": "Експортирайте цялостна версия на статистиката на членовете на клана."
+        "description": "Експортирайте цялостна версия на статистиката на членовете на клана.",
+        "options": {
+          "auto_export_on": {
+            "description": "Whether to schedule the export to run every Sunday at 4:55 UTC."
+          }
+        }
       },
       "clans": {
         "description": "Показване на всички свързани кланове."
@@ -637,11 +642,11 @@
           }
         }
       },
-      "user": {
-        "description": "Експортирайте членове на Discord",
+      "users": {
+        "description": "Export Discord members",
         "options": {
           "role": {
-            "description": "Роля за филтриране на потребители."
+            "description": "Role to filter users."
           }
         }
       },
@@ -694,6 +699,9 @@
           },
           "flag_impact": {
             "description": "Брой флагове, за които трябва да се счита"
+          },
+          "dm_user": {
+            "description": "Whether to DM the user about the flag"
           }
         },
         "no_reason": "Трябва да предоставите причина за флага.",
@@ -914,6 +922,9 @@
         },
         "user": {
           "description": "Изберете потребител за хронологията."
+        },
+        "roster": {
+          "description": "Select a roster for the history."
         }
       }
     },
@@ -1089,6 +1100,9 @@
         "filter_farm_hits": {
           "description": "Филтриране на попадения във ферма (1 звезда и < 50% унищожение)"
         },
+        "filter_loot_hits": {
+          "description": "Filter out loot hits (attacks targeting 3-starred bases)"
+        },
         "clan_only": {
           "description": "Включете само военните атаки на посочения клан."
         }
@@ -1121,60 +1135,37 @@
     },
     "setup": {
       "description": "Активирайте/деактивирайте функции на сървъра или добавете/премахнете кланове.",
-      "enable": {
-        "description": "Активирайте функция на сървъра или добавете клан.",
-        "description_long": "Активирайте функция на сървъра (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) или добавете клан или свържете клан към канал.",
+      "clan": {
+        "description": "Link/unlink clans to the server or channels.",
+        "description_long": "Manage clans on the server (link server, link channel, clan embed)",
         "options": {
-          "channel": {
-            "description": "Канал за изпращане на актуализации (по подразбиране е текущият канал)"
-          },
-          "color": {
-            "description": "Цветен код (само за дневник за дарения, кланови игри, последно виждане и вграждане на клан)"
-          },
-          "role": {
-            "description": "Роля за известяване за флаг (само за емисия на клан)"
+          "clan_channel": {
+            "description": "Link the clan to a channel."
           },
           "category": {
-            "description": "Категория на клана. (изберете от менюто или въведете свое)"
+            "description": "Category of the clan. (select from the menu or type your own)"
+          },
+          "unlink_clan": {
+            "description": "Unlink a clan from the server and remove all the features related to it."
+          },
+          "unlink_clan_channel": {
+            "description": "Unlink a channel from the clan."
           }
-        },
-        "no_leader_link": "Лидерът на клана трябва да бъде свързан с бота, за да активира тази функция.",
-        "server_link": {
-          "success": "{{clan}} с {{guild}}е свързан успешно.",
-          "already_linked": "{{clan}} вече е свързан с {{guild}}."
-        },
-        "channel_link": {
-          "description": "Свържете канал с клан.",
-          "already_linked": "{{clan}} вече е свързан с {{channel}}.",
-          "success": "{{clan}} с {{channel}}е свързан успешно."
         }
       },
-      "disable": {
-        "description": "Деактивирайте функция на сървъра или премахнете клан.",
+      "clan_embed": {
+        "description": "Enable/disable clan embed on the server or add/remove clans.",
         "options": {
-          "channel": {
-            "description": "Канал за премахване."
+          "disable_embed": {
+            "description": "Disable clan embed."
           }
-        },
-        "channel_unlink": "Връзката на {{clan}} от {{channel}}е успешно прекратена.",
-        "channel_not_found": "Не бяха намерени кланове, които да са свързани с {{channel}}.",
-        "clan_not_linked": "Няма намерени кланове на сървъра за посочения етикет.",
-        "clan_deleted": "Успешно изтрито {{clan}}.",
-        "feature_disabled": "Успешно деактивирано {{feature}} за {{clan}}."
+        }
       },
       "list": {
         "description": "Избройте всички активирани функции и кланове.",
         "options": {
           "clans": {
             "description": "Изберете клановете за списък."
-          }
-        }
-      },
-      "utils": {
-        "description": "[ОТСТАРЕНО] Настройте други помощни функции (бутон за връзка, график на събития)",
-        "options": {
-          "disable": {
-            "description": "Деактивиране на планирано събитие."
           }
         }
       },
@@ -1216,7 +1207,30 @@
           },
           "action": {
             "description": "Какви регистрационни файлове да активирате или деактивирате."
+          },
+          "color": {
+            "description": "Hex color code for the embed (for donation log, clan games, last seen, etc)"
+          },
+          "channel": {
+            "description": "Channel to send updates to (defaults to the current channel)"
           }
+        }
+      },
+      "responses": {
+        "channel_unlink": "Successfully unlinked {{clan}} from {{channel}}.",
+        "channel_not_found": "No clans were found that are linked to {{channel}}.",
+        "clan_not_linked": "No clans were found on the server for the specified tag.",
+        "clan_deleted": "Successfully deleted {{clan}}.",
+        "feature_disabled": "Successfully disabled {{feature}} for {{clan}}.",
+        "no_leader_link": "Clan Leader must be linked to the bot to enable this feature.",
+        "server_link": {
+          "success": "Successfully linked {{clan}} to {{guild}}.",
+          "already_linked": "{{clan}} is already linked to {{guild}}."
+        },
+        "channel_link": {
+          "description": "Link a channel to a clan.",
+          "already_linked": "{{channel}} is already linked to {{clan}}",
+          "success": "Successfully linked {{clan}} to {{channel}}."
         }
       }
     },
@@ -1468,6 +1482,9 @@
       "options": {
         "name": {
           "description": "Име на командата."
+        },
+        "ask": {
+          "description": "Find answers with AI."
         }
       }
     },
