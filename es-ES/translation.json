@@ -486,7 +486,7 @@
             "description": "Buscar parrillas por clan"
           },
           "category": {
-            "description": "Search rosters by category"
+            "description": "Buscar parrillas por categoría"
           }
         }
       },
