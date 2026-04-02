@@ -484,6 +484,9 @@
           },
           "clan": {
             "description": "Buscar parrillas por clan"
+          },
+          "category": {
+            "description": "Buscar parrillas por categoría"
           }
         }
       },
@@ -1209,7 +1212,7 @@
             "description": "Habilitar o deshabilitar registros."
           },
           "color": {
-            "description": "Código de color hexadecimal para la incrustación (para registro de donaciones, juegos de clan, última vez visto, etc.)"
+            "description": "Hex color code for the embed (for donation log, clan games, last seen, etc)"
           },
           "channel": {
             "description": "Canal al que enviar actualizaciones (predeterminado al canal actual)"

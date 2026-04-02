@@ -484,6 +484,9 @@
           },
           "clan": {
             "description": "Търсете списъци по клан"
+          },
+          "category": {
+            "description": "Search rosters by category"
           }
         }
       },

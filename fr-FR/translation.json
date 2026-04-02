@@ -484,6 +484,9 @@
           },
           "clan": {
             "description": "Rechercher des équipes par clan"
+          },
+          "category": {
+            "description": "Search rosters by category"
           }
         }
       },
