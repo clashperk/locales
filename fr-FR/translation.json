@@ -588,6 +588,9 @@
           "message": {
             "description": "Message pour les membres"
           },
+          "compact": {
+            "description": "Send member pings in a compact inline format"
+          },
           "ping_option": {
             "description": "Sélectionner une option de ping"
           },
