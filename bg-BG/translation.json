@@ -437,6 +437,9 @@
           "allow_group_selection": {
             "description": "Дали да се позволи на членовете да избират група"
           },
+          "require_group_selection": {
+            "description": "Whether to require members to select group"
+          },
           "allow_multi_signup": {
             "description": "Дали да се разрешат записвания на няколко списъка"
           },
