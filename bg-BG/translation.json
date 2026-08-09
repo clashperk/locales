@@ -588,6 +588,9 @@
           "message": {
             "description": "Съобщение за членовете"
           },
+          "compact": {
+            "description": "Send member pings in a compact inline format"
+          },
           "ping_option": {
             "description": "Изберете опция за пинг"
           },
