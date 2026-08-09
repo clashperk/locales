@@ -437,6 +437,9 @@
           "allow_group_selection": {
             "description": "Permitir que los miembros seleccionen el grupo"
           },
+          "require_group_selection": {
+            "description": "Whether to require members to select group"
+          },
           "allow_multi_signup": {
             "description": "Permitir inscripciones múltiples en la parrilla"
           },
