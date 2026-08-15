@@ -449,6 +449,9 @@
           "roster_image_url": {
             "description": "Imagen que se utilizará en la parrilla"
           },
+          "custom_category_selection_prompt": {
+            "description": "Custom prompt to show users when selecting a group in the roster"
+          },
           "color_code": {
             "description": "Código de color hexadecimal de la parrilla"
           }
