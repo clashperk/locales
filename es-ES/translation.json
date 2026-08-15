@@ -437,6 +437,9 @@
           "allow_group_selection": {
             "description": "Permitir que los miembros seleccionen el grupo"
           },
+          "require_group_selection": {
+            "description": "Whether to require members to select group"
+          },
           "allow_multi_signup": {
             "description": "Permitir inscripciones múltiples en la parrilla"
           },
@@ -445,6 +448,9 @@
           },
           "roster_image_url": {
             "description": "Imagen que se utilizará en la parrilla"
+          },
+          "group_selection_text": {
+            "description": "Custom text shown to members when they select a roster group"
           },
           "color_code": {
             "description": "Código de color hexadecimal de la parrilla"
@@ -587,6 +593,9 @@
           },
           "message": {
             "description": "Mensaje para los miembros"
+          },
+          "compact": {
+            "description": "Send member pings in a compact inline format"
           },
           "ping_option": {
             "description": "Seleccione una opción para nombrar/ping"

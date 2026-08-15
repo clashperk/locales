@@ -437,6 +437,9 @@
           "allow_group_selection": {
             "description": "Whether to allow members to select group"
           },
+          "require_group_selection": {
+            "description": "Whether to require members to select group"
+          },
           "allow_multi_signup": {
             "description": "Whether to allow multiple roster signups"
           },
@@ -445,6 +448,9 @@
           },
           "roster_image_url": {
             "description": "Image to be used in the roster embed"
+          },
+          "group_selection_text": {
+            "description": "Custom text shown to members when they select a roster group"
           },
           "color_code": {
             "description": "Hex color code of the roster embed"
@@ -587,6 +593,9 @@
           },
           "message": {
             "description": "Message for the members"
+          },
+          "compact": {
+            "description": "Send member pings in a compact inline format"
           },
           "ping_option": {
             "description": "Select a ping option"

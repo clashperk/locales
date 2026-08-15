@@ -437,6 +437,9 @@
           "allow_group_selection": {
             "description": "Дали да се позволи на членовете да избират група"
           },
+          "require_group_selection": {
+            "description": "Whether to require members to select group"
+          },
           "allow_multi_signup": {
             "description": "Дали да се разрешат записвания на няколко списъка"
           },
@@ -445,6 +448,9 @@
           },
           "roster_image_url": {
             "description": "Изображение, което да се използва във вграждането на списъка"
+          },
+          "group_selection_text": {
+            "description": "Custom text shown to members when they select a roster group"
           },
           "color_code": {
             "description": "Шестнадесетичен цветен код на вградения списък"
@@ -587,6 +593,9 @@
           },
           "message": {
             "description": "Съобщение за членовете"
+          },
+          "compact": {
+            "description": "Send member pings in a compact inline format"
           },
           "ping_option": {
             "description": "Изберете опция за пинг"
