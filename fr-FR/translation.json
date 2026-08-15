@@ -449,8 +449,8 @@
           "roster_image_url": {
             "description": "Image à utiliser dans l'intégration de l'équipe"
           },
-          "custom_category_selection_prompt": {
-            "description": "Custom prompt to show users when selecting a group in the roster"
+          "group_selection_text": {
+            "description": "Custom text shown to members when they select a roster group"
           },
           "color_code": {
             "description": "Code couleur hexadécimal de l'intégration de l'équipe"
