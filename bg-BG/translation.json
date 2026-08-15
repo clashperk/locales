@@ -449,8 +449,8 @@
           "roster_image_url": {
             "description": "Изображение, което да се използва във вграждането на списъка"
           },
-          "custom_category_selection_prompt": {
-            "description": "Custom prompt to show users when selecting a group in the roster"
+          "group_selection_text": {
+            "description": "Custom text shown to members when they select a roster group"
           },
           "color_code": {
             "description": "Шестнадесетичен цветен код на вградения списък"
