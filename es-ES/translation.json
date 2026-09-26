@@ -437,6 +437,9 @@
           "allow_group_selection": {
             "description": "Permitir que los miembros seleccionen el grupo"
           },
+          "require_group_selection": {
+            "description": "Permitir que los miembros seleccionen este grupo"
+          },
           "allow_multi_signup": {
             "description": "Permitir inscripciones múltiples en la parrilla"
           },
@@ -445,6 +448,9 @@
           },
           "roster_image_url": {
             "description": "Imagen que se utilizará en la parrilla"
+          },
+          "group_selection_text": {
+            "description": "Texto personalizado que se muestra a los miembros cuando seleccionan un grupo de la parrilla"
           },
           "color_code": {
             "description": "Código de color hexadecimal de la parrilla"
@@ -587,6 +593,9 @@
           },
           "message": {
             "description": "Mensaje para los miembros"
+          },
+          "compact": {
+            "description": "Notificar a los miembros en un formato compacto de línea"
           },
           "ping_option": {
             "description": "Seleccione una opción para nombrar/ping"
@@ -1212,7 +1221,7 @@
             "description": "Habilitar o deshabilitar registros."
           },
           "color": {
-            "description": "Hex color code for the embed (for donation log, clan games, last seen, etc)"
+            "description": "Código de color hexadecimal para la incrustación (para registro de donaciones, juegos de clan, última vez visto, etc.)"
           },
           "channel": {
             "description": "Canal al que enviar actualizaciones (predeterminado al canal actual)"

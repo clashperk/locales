@@ -437,6 +437,9 @@
           "allow_group_selection": {
             "description": "Autoriser ou non les membres à sélectionner un groupe"
           },
+          "require_group_selection": {
+            "description": "Whether to require members to select group"
+          },
           "allow_multi_signup": {
             "description": "Autoriser ou non les inscriptions multiples dans l'équipe"
           },
@@ -445,6 +448,9 @@
           },
           "roster_image_url": {
             "description": "Image à utiliser dans l'intégration de l'équipe"
+          },
+          "group_selection_text": {
+            "description": "Custom text shown to members when they select a roster group"
           },
           "color_code": {
             "description": "Code couleur hexadécimal de l'intégration de l'équipe"
@@ -587,6 +593,9 @@
           },
           "message": {
             "description": "Message pour les membres"
+          },
+          "compact": {
+            "description": "Send member pings in a compact inline format"
           },
           "ping_option": {
             "description": "Sélectionner une option de ping"
